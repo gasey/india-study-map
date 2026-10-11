@@ -1335,6 +1335,50 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "Technical Paper-I",
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "Technical Paper-II",
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "Technical Paper-III",
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf",
+    "keyHref": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
     "exam": "ADA, ATA & Assistant Auditor under Finance Department",
     "sitting": "2019",

@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 94,
+  "registered_keys": 98,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 401,
-  "held_mcq": 15334,
-  "tier1_key_scorable": 686,
+  "papers": 405,
+  "held_mcq": 15336,
+  "tier1_key_scorable": 688,
   "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 7904,
   "tier3_needs_derivation": 6682
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2964,
-   "disagree": 488
+   "agree": 3177,
+   "disagree": 492
   },
   "key": {
    "agree": 67,
@@ -3029,6 +3029,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-lecturer-serchhip-2026-gs",
+   "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Final Answer key of Lecturer, Govt. HSS, Serchhip (Contract) under School Education Deptt., 2026..pdf",
+   "held": 2,
+   "tier1": 2,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
    "exam": "Technical Officer (SCERT) under School Education Deptt.",
    "subject": "General Studies",
@@ -5369,6 +5384,51 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+   "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+   "subject": "Technical Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+   "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+   "subject": "Technical Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+   "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+   "subject": "Technical Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-ceo-2019-english-p1",
    "exam": "Circle Education Officer under School Education Department",
    "subject": "General English Paper-I",
@@ -6003,7 +6063,7 @@
    "exam": "Lecturer,Govt. Hr. Secondary School \u2013 Serchhip (Contract) 2026",
    "subject": "General English",
    "key_status": "registered",
-   "key_file": "Final Answer key of Lecturer, Govt. HSS, Serchhip (Contract) under School Education Deptt., 2026..pdf",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,

@@ -1105,6 +1105,46 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/cao-2026-gs3.pdf"
   },
   {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "examType": "Direct_NG",
+    "examName": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "post": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/lecturer-serchhip-2026-gs.pdf"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "examType": "Direct_NG",
+    "examName": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "post": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "paperNumber": "Technical Paper-I",
+    "paperSubject": "Technical Paper-I",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "examType": "Direct_NG",
+    "examName": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "post": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "paperNumber": "Technical Paper-II",
+    "paperSubject": "Technical Paper-II",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "examType": "Direct_NG",
+    "examName": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "post": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+    "paperNumber": "Technical Paper-III",
+    "paperSubject": "Technical Paper-III",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "examType": "Direct",
     "examName": "MCS Combined - 2014",
@@ -220024,6 +220064,8292 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The official theme of World Economic Forum 2026 was:",
+    "options": [
+      "Technology and Innovation",
+      "A Spirit of Dialogue",
+      "Rebuilding Trust",
+      "Collaboration for the Intelligent Age"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A Spirit of Dialogue”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "On approximately what percentage of goods does the India–EU Free Trade Agreement (2026) aim to reduce tariffs?",
+    "options": [
+      "About 50-70 per cent",
+      "Up to 80 per cent",
+      "Over 95 per cent",
+      "About 60-90 per cent"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Over 95 per cent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Select the correct pair that denotes the foundational pillars of the Indi- AI Impact Summit 2026.",
+    "options": [
+      "People - Artificial Intelligence – Governance",
+      "Growth – Governance – Progress",
+      "People - Artificial Intelligence – Growth",
+      "People – Planet – Progress"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “People – Planet – Progress”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Stanzin Lundup represented India at the Winter Olympics 2026 (Milano/ Cortina) in which event?",
+    "options": [
+      "Alpine Skiing",
+      "Bobsleigh",
+      "Short Track Speed Skating",
+      "Cross-Country Skiing"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cross-Country Skiing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which pedagogical structure is recommended under the New Education Policy 2020?",
+    "options": [
+      "(5+3+2+4)",
+      "(5+3+3+4)",
+      "(5+2+3+5)",
+      "(4+3+4+4)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(5+3+3+4)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Based on the Union Budget 2026–27, which of the following states has been designated for the Dedicated Rare Earth Corridors?",
+    "options": [
+      "Andhra Pradesh",
+      "Himachal Pradesh",
+      "Mizoram",
+      "Jharkhand"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which religious tradition did Chandragupta Maurya embrace when he abdicated the throne?",
+    "options": [
+      "Buddhism",
+      "Jainism",
+      "Hinduism",
+      "Islam"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jainism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Under the Delhi Sultanate, non-Muslims were required to pay which tax?",
+    "options": [
+      "Zakat",
+      "Jizya",
+      "Ushr",
+      "Khams"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jizya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements is correct regarding Akbar’s policy towards the Rajputs?",
+    "options": [
+      "He followed a policy of religious discrimination against the Rajputs",
+      "He reimposed the pilgrimage tax",
+      "Akbar had more Rajput officials than any other Mughal ruler",
+      "He established matrimonial alliances with Rajput royal families"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “He established matrimonial alliances with Rajput royal families”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who founded the East India Association in 1866 in London?",
+    "options": [
+      "Dadabhai Naoroji",
+      "Sisir Kumar Gosh",
+      "Devendranath Tagore",
+      "Anandamohan Bose"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q11",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following indicates the achievement of the Home Rule Movement?",
+    "options": [
+      "Separation of Moderates and Extremists",
+      "Gained significant support from educated Indians",
+      "Effective organization within the Home Rule Movement",
+      "Self-government within the British Empire"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gained significant support from educated Indians”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q12",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Match List I and List II and select the correct answer from the code given below: List-IList-II",
+    "options": [
+      "Aurobindo Gosh(i)Lokmanya",
+      "Bal Gangadhar Tilak(ii)Bengal Public Opinion",
+      "Lala Lajpat Rai(iii)Unhappy India",
+      "Bipinchandrapal(iv)Bande Mataram (a)a-i, b-iv, c-iii, d-ii(b)a-ii, b-iii, c-i, d-iv (c)a-iv, b-iii, c-ii, d-i(d)a-iv, b-i, c-iii, d-ii"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q13",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is the oldest fold mountain range in India?",
+    "options": [
+      "Nirgiri Range",
+      "Aravalli Range",
+      "Vindhya Range",
+      "Zaskar Range"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Aravalli Range”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q14",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Based on relief features, what is the correct sequence of the Northern Plains’ divisions from north to south?",
+    "options": [
+      "Bhabar – Bhanghar – Terai – Khadar",
+      "Terai – Bhabar – Khadar – Bhanghar",
+      "Bhabar – Terai – Bhanghar – Khadar",
+      "Bhanghar – Terai – Bhabar – Khadar"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bhabar – Terai – Bhanghar – Khadar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q15",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Narrow, high-speed winds that meander in the mid-latitudes near the tropopause and circle the Earth are known as:",
+    "options": [
+      "Jet Stream",
+      "Westerlies",
+      "Trade wind",
+      "Polar wind"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jet Stream”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q16",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Select the correct statement about rocks from the options given below:",
+    "options": [
+      "Clastic sedimentary rocks are classified based on organic content",
+      "Igneous rocks are formed due to heat and pressure",
+      "Sedimentary rocks are the original parent rocks",
+      "The rate of cooling affects crystal size in igneous rocks"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The rate of cooling affects crystal size in igneous rocks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q17",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to an expanding ocean, consider the following statements: (i)It is characterized by a prominent mid-ocean ridge system (ii)It is dominated by subduction zones along its margins (iii)The ocean basin is widening over geological time Which of the statements given above are correct?",
+    "options": [
+      "i and ii only",
+      "ii and iii only",
+      "i and iii only",
+      "i, ii and iii"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “i and iii only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q18",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Antecedent drainage in the Himalayas indicates that the rivers:",
+    "options": [
+      "originated after the formation of mountains",
+      "glow slopes of the mountain ranges",
+      "existed before the uplift of the Himalayas",
+      "All are perennial rivers"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “existed before the uplift of the Himalayas”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q19",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Choose the option which is not associated with the characteristics of an unwritten constitution.",
+    "options": [
+      "Practices",
+      "Codification",
+      "Judicial decisions",
+      "Statutes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Codification”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q20",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statement describe the provision of Article 21A?",
+    "options": [
+      "It provides free education up to higher secondary level",
+      "It guarantees the right to a school of choice",
+      "It provides free education up to higher education",
+      "Compulsory education for children aged 6 to 14 years"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Compulsory education for children aged 6 to 14 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q21",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following schemes aims to achieve rooftop solar installations in one crore households in the residential sector by FY 2026–27?",
+    "options": [
+      "PM Surya Ghar: Muft Bijli Yojana",
+      "Pradhan Mantri Kisan Urja Suraksha Evam Utthaan Mahabhiyaan",
+      "Pradhan Mantri Sahaj Bijli Har Ghar Yojana",
+      "Deen Dayal Upadhyaya Gram Jyoti Yojana"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “PM Surya Ghar: Muft Bijli Yojana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q22",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is classified as a Capital Receipt in the government budget?",
+    "options": [
+      "Fees and fines collected by the government",
+      "Government borrowings from the public",
+      "Interest received on loans given by the government",
+      "Dividends and profits from public sector units"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Government borrowings from the public”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q23",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The littoral environment is found in which of the following areas?",
+    "options": [
+      "Deep sea region",
+      "Shallow coastal zone",
+      "Desert area",
+      "Polar ice caps"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Shallow coastal zone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q24",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to food chains in an ecosystem, which of the following organisms is/are known as decomposers? 1.Fungi2.Virus 3.Bacteria4.Algae Select the correct answer using the option given below",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3 only",
+      "2, 3 and 4 Only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q25",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following represents energy transfer rather than nutrient cycling?",
+    "options": [
+      "Decomposition",
+      "Nitrogen fixation",
+      "Food web",
+      "Nitrogen cycle"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Food web”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q26",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is true about the greenhouse effect in relation to climate change?",
+    "options": [
+      "Greenhouse effect cools the Earth’s surface.",
+      "Greenhouse effect warms the Earth by trapping heat.",
+      "Greenhouse effect has no impact on the Earth’s climate.",
+      "Greenhouse gases block incoming harmful solar radiation."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Greenhouse effect warms the Earth by trapping heat.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q27",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Arrange the following units of length in ascending order: (i)Angstrom (ii)Micrometer (iii)Femtometer (iv)Nanometer Choose the correct sequence",
+    "options": [
+      "i – ii – iv – iii",
+      "iii – i – iv – ii",
+      "iv – i – iii – ii",
+      "ii – iv – i - iii"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “iii – i – iv – ii”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q28",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Considering the following statement choose the correct one:",
+    "options": [
+      "A saturated solution is one in which no more solute can be dissolved at a constant temperature.",
+      "A dilute solution is formed when a saturated solution is heated and its ability to dissolve solute",
+      "A concentrated solution contains much more solvent than solute.",
+      "A saturated solution contains solvent less than or nearly equal to the amount of solute."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A saturated solution is one in which no more solute can be dissolved at a constant temperature.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q29",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The excessive enrichment of water with nutrients such as nitrogen and phosphorus, leading to algal growth and oxygen depletion, is called:",
+    "options": [
+      "Oligotrophication",
+      "Biomagnification",
+      "Ecological Succession",
+      "Eutrophication"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Eutrophication”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q30",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Plants eliminate excess water through which of the following processes?",
+    "options": [
+      "Evapotranspiration",
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Transpiration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q31",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which section of the Mizo chief’s house was used for settling disputes?",
+    "options": [
+      "Bahzar",
+      "Leihkapui",
+      "Sumhmun",
+      "Tap"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bahzar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q32",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Among the Mizo sub-clans, which of the following was mainly assigned the duty of ‘Lal Sadawt’?",
+    "options": [
+      "Pachuau",
+      "Khiangte",
+      "Vanchhawng",
+      "Hrahsel"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hrahsel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q33",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "According to Mizo traditional beliefs, which of the following is considered as protector of village?",
+    "options": [
+      "Khuavang",
+      "Khuanu",
+      "Pu Vana",
+      "Khaltu"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Khuanu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q34",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With respect to traditional Mizo society, consider the following statements: (i)Each sub-clan was associated with its own ‘Sa’ (ii)‘Sakhua’ is another term used to refer to ‘Pathian’ (iii)Both ‘Sa’ and ‘Sakhua’ can be considered identical terms Select the correct answer using the code given below:",
+    "options": [
+      "i only",
+      "ii only",
+      "iii only",
+      "i, ii and iii"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q35",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who established Biate Sipai (Lushai Scout)?",
+    "options": [
+      "G. Bourchier",
+      "A. Playfair",
+      "William Slim",
+      "TH. Lewin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “William Slim”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q36",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the temporary shelter used for living before constructing the main house called?",
+    "options": [
+      "Sel in",
+      "Rap in",
+      "Buk te",
+      "Bawk"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rap in”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q37",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In traditional Mizo society, the most diligent youth and the best hunter in the Zawlbuk were given a special cup of Zu, called ______.",
+    "options": [
+      "Mual Zu",
+      "Zulawm",
+      "Hranden Zu",
+      "Huai Zu"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Huai Zu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q38",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Women tied cotton ornaments to the hair of warriors to mark and honour their success and bravery and is called:",
+    "options": [
+      "Darzai",
+      "Chhawn",
+      "Arkeziak",
+      "Zawngchal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Arkeziak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q39",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best describes the purpose of India’s Fiscal Responsibility and Budget Management (FRBM) framework?",
+    "options": [
+      "To eliminate revenue deficit every year",
+      "To cap only capital expenditure",
+      "To institutionalise fiscal discipline through deficit targets",
+      "To mandate zero public debt"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To institutionalise fiscal discipline through deficit targets”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q40",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term “crowding out” in macroeconomics refers to:",
+    "options": [
+      "Reduction in exports due to currency appreciation",
+      "Private investment rising due to public spending",
+      "Reduction in private investment due to high government borrowing",
+      "Migration from rural to urban sectors"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduction in private investment due to high government borrowing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q41",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the National Infrastructure Pipeline (NIP), consider the following statements: 1.It covers only central sector projects 2.It includes social as well as economic infrastructure 3.Majority share is expected from state governments and private sector Which statements are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q42",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which institution classifies Indian government expenditure into revenue and capital categories?",
+    "options": [
+      "Finance Commission",
+      "Union Budget framework under Ministry of Finance",
+      "RBI Monetary Policy Committee",
+      "NITI Aayog"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Union Budget framework under Ministry of Finance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q43",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "PM e-Vidya initiative is primarily related to:",
+    "options": [
+      "Digital payments",
+      "Multi-platform digital education delivery",
+      "Telemedicine",
+      "E-governance procurement"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Multi-platform digital education delivery”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q44",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding Digital Personal Data Protection frameworks: 1.They regulate only government data usage 2.They define obligations for data fiduciaries 3.They provide rights to individuals over personal data Which statements are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q45",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Outcome budgeting links expenditure to measurable results.",
+    "options": [
+      ": Outcome budgeting links expenditure to measurable results.",
+      "Both true, R is not explanation",
+      "A true, R false",
+      "A false, R true"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A true, R false”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q46",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best distinguishes NPCI from RBI?",
+    "options": [
+      "NPCI prints currency",
+      "RBI runs retail payment apps",
+      "NPCI operates payment infrastructure systems",
+      "RBI regulates only private banks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “NPCI operates payment infrastructure systems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q47",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to Sovereign Green Bonds, consider the following statements: 1.Proceeds must be used for environmentally sustainable projects 2.They are always issued in foreign currency 3.They are part of debt financing Which statements are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q48",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The primary objective of Direct Benefit Transfer (DBT) is to:",
+    "options": [
+      "increase subsidy size",
+      "reduce leakages in welfare delivery",
+      "replace taxation",
+      "promote exports"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “reduce leakages in welfare delivery”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q49",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding cooperative federalism in India: 1.It requires constitutionally equal tax powers 2.It encourages centre–state policy coordination 3.GST Council is an example Which statement(s) is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q50",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Ain-i-Akbari provides detailed data on:",
+    "options": [
+      "Mauryan empire",
+      "Mughal administration and economy",
+      "Maratha warfare",
+      "British trade"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mughal administration and economy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q51",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Permanent Settlement differed from Ryotwari because it:",
+    "options": [
+      "fixed crop prices",
+      "recognised zamindars as revenue intermediaries",
+      "eliminated land records",
+      "applied only to South India"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “recognised zamindars as revenue intermediaries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q52",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about the Revolt of 1857: 1.It had uniform leadership 2.It included civil as well as military participation 3.It ended Company rule Which statements are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q53",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Moderates emphasised constitutional methods.",
+    "options": [
+      ": Moderates emphasised constitutional methods.",
+      "Both false",
+      "A true, R false",
+      "A false, R true"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A true, R false”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q54",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Cabinet Mission Plan proposed:",
+    "options": [
+      "Strong unitary state",
+      "Federal structure with grouped provinces",
+      "Separate electorates expansion",
+      "Immediate partition"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Federal structure with grouped provinces”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q55",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which factor most weakened early nationalist unity?",
+    "options": [
+      "Language diversity",
+      "Divergent visions of constitutional structure",
+      "Lack of newspapers",
+      "Railways"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Divergent visions of constitutional structure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q56",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Laterite soil formation is most closely linked with:",
+    "options": [
+      "Glaciation",
+      "Intense leaching under high rainfall",
+      "Volcanism",
+      "River deposition"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Intense leaching under high rainfall”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q57",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Western Ghats biodiversity is high mainly because of:",
+    "options": [
+      "Endemism and climatic stability",
+      "Volcanic soil",
+      "Sparse population",
+      "Low rainfall variability"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Endemism and climatic stability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q58",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Rain-shadow effect occurs when:",
+    "options": [
+      "Warm air sinks",
+      "Moist air loses rain on windward slope",
+      "Cyclones weaken",
+      "Deserts expand"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Moist air loses rain on windward slope”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q59",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "ITCZ shift directly affects:",
+    "options": [
+      "Earthquake zones",
+      "Monsoon rainfall belt",
+      "Ocean salinity",
+      "Soil pH"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Monsoon rainfall belt”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q60",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Ocean upwelling zones are usually:",
+    "options": [
+      "Low productivity",
+      "High nutrient and fish zones",
+      "Cyclone free",
+      "Warm pools"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “High nutrient and fish zones”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q61",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to geomorphic cycles, peneplain indicates:",
+    "options": [
+      "Youth stage",
+      "Mature stage",
+      "Advanced erosion stage",
+      "Volcanic stage"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Advanced erosion stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q62",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Basic Structure doctrine implies Parliament:",
+    "options": [
+      "Cannot amend Fundamental Rights",
+      "Cannot alter core constitutional identity",
+      "Needs referendum",
+      "Needs Supreme Court approval"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cannot alter core constitutional identity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q63",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which is NOT a feature of parliamentary system?",
+    "options": [
+      "Collective responsibility",
+      "Real executive in cabinet",
+      "Fixed executive tenure",
+      "Fusion of powers"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fixed executive tenure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q64",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Money Bill certification is done by:",
+    "options": [
+      "President",
+      "Speaker",
+      "Comptroller and Auditor General",
+      "Prime Minister"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Speaker”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q65",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Anti-defection law exception applies when:",
+    "options": [
+      "1/3 members defect",
+      "2/3 members merge",
+      "Party splits",
+      "Speaker resigns"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2/3 members merge”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q66",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Finance Commission recommends on: 1.Tax devolution 2.Grants-in-aid 3.Monetary policy Which are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1,2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q67",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Concurrent List allows:",
+    "options": [
+      "Both Centre and States to legislate",
+      "Only Centre",
+      "Only States",
+      "Local bodies"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Both Centre and States to legislate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q68",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Constitutional amendment needs ratification by states when it affects:",
+    "options": [
+      "Federal provisions",
+      "Fundamental Rights only",
+      "Directive Principles of State Policy only",
+      "Preamble only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Federal provisions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q69",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Repo rate transmission directly affects:",
+    "options": [
+      "Corporate tax rates",
+      "Bank lending interest rates",
+      "Exchange rate regime",
+      "Fiscal deficit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bank lending interest rates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q70",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following increases Current Account Deficit (CAD)?",
+    "options": [
+      "Rise in software exports",
+      "Increase in crude oil imports",
+      "Rise in remittances",
+      "Fall in gold imports"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Increase in crude oil imports”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q71",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about Human Capital Formation: 1.Includes health investment 2.Includes education and skills 3.Excludes on-the-job training Which statements are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q72",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Progressive taxation reduces post-tax inequality.",
+    "options": [
+      ": Progressive taxation reduces post-tax inequality.",
+      "Both true",
+      "A true, R false",
+      "A false, R true"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q73",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In demographic transition, the dividend phase occurs when:",
+    "options": [
+      "Birth rate rises sharply",
+      "Death rate rises",
+      "Working-age share is highest",
+      "Infant mortality rises"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Working-age share is highest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q74",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which policy most directly improves nutritional outcomes structurally?",
+    "options": [
+      "Fuel subsidy",
+      "Loan waiver",
+      "Public health + sanitation + income support mix",
+      "Import tariff"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Public health + sanitation + income support mix”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q75",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to biodiversity hotspots, consider the following characteristics: 1.High endemism 2.High habitat loss 3.High population density mandatory Which characteristics are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q76",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "REDD+ mechanism primarily incentivizes:",
+    "options": [
+      "Afforestation only",
+      "Reduced deforestation and forest degradation",
+      "Desert farming",
+      "Urban forestry only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Reduced deforestation and forest degradation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q77",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Mangroves are efficient carbon sinks.",
+    "options": [
+      ": Mangroves are efficient carbon sinks.",
+      "Both true",
+      "A true, R false",
+      "A false, R true"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q78",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which gas has highest global warming potential per unit mass (long term)?",
+    "options": [
+      "CO‚",
+      "Methane",
+      "Nitrous oxide",
+      "Oxygen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nitrous oxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q79",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Eutrophication leads to: 1.Algal bloom 2.Oxygen depletion 3.Fish mortality Which are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q80",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Invasive alien species typically:",
+    "options": [
+      "Increase native biodiversity",
+      "Outcompete native species",
+      "Improve soil fertility",
+      "Reduce predation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Outcompete native species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q81",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Bioremediation uses:",
+    "options": [
+      "Machines",
+      "Microorganisms to clean pollutants",
+      "Chemicals",
+      "Fire"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Microorganisms to clean pollutants”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q82",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which ecosystem has highest per-unit-area productivity?",
+    "options": [
+      "Open ocean",
+      "Desert",
+      "Coral reefs",
+      "Tundra"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Coral reefs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q83",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which law explains why satellites remain in orbit?",
+    "options": [
+      "Ohm’s law",
+      "Universal gravitation + centripetal force balance",
+      "Boyle’s law",
+      "Hooke’s law"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Universal gravitation + centripetal force balance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q84",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "pH scale is logarithmic because it measures:",
+    "options": [
+      "Hydrogen ion concentration powers",
+      "Temperature",
+      "Salinity",
+      "Pressure"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hydrogen ion concentration powers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q85",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Enzymes function by:",
+    "options": [
+      "Increasing activation energy",
+      "Lowering activation energy",
+      "Consuming substrate permanently",
+      "Changing equilibrium"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lowering activation energy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q86",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which radiation has highest penetration?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Infrared"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gamma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q87",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "CRISPR technology relates to:",
+    "options": [
+      "Vaccination",
+      "Gene editing",
+      "Cloning only",
+      "DNA fingerprinting only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gene editing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q88",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Vaccines may not always prevent infection.",
+    "options": [
+      ": Vaccines may not always prevent infection.",
+      "Both true",
+      "A true, R false",
+      "A false, R true"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q89",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Superconductors are characterized by:",
+    "options": [
+      "High resistance",
+      "Zero electrical resistance below critical temperature",
+      "High magnetism only",
+      "Zero heat"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Zero electrical resistance below critical temperature”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q90",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Half-life refers to time for:",
+    "options": [
+      "Full decay",
+      "Half nuclei to decay",
+      "Temperature drop",
+      "Mass loss by evaporation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Half nuclei to decay”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q91",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the term ‘tuthlawh zawn’ equivalent to in relation to harvested rice?",
+    "options": [
+      "Around phur 100",
+      "Around phur 150",
+      "Phur 200-300",
+      "Phur 350-400"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Phur 200-300”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q92",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not a type of traditional bird trap?",
+    "options": [
+      "Kawlper",
+      "Chipthang",
+      "Sahdal",
+      "Sihhung"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kawlper”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q93",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What type of gun is regarded as the oldest type of gun used by Mizos?",
+    "options": [
+      "Muh puah silai",
+      "Tukuli",
+      "Aw-lan",
+      "Pheicheh silai"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Muh puah silai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q94",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In old Mizo folktales, ‘Tlubing’ was a type of:",
+    "options": [
+      "Tiger",
+      "Bison",
+      "Snake",
+      "Bird"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Snake”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q95",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the name given to the stretcher on which the sick were transported between villages?",
+    "options": [
+      "Zawn khum",
+      "Zawn mau",
+      "Dap khum",
+      "Hlang"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hlang”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q96",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the name given to the water that was drunk by the spirits of the dead on their way to ‘Pialral’?",
+    "options": [
+      "Tuifim",
+      "Pialtui",
+      "Lunglohtui",
+      "Famtui"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lunglohtui”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q97",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following ceremonial rituals did not involve the whole community?",
+    "options": [
+      "Khuangchawi",
+      "Sakung phun",
+      "Chawngchen",
+      "Sechhun"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sakung phun”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q98",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year did Mizoram had its first graveyard (thlanmual)?",
+    "options": [
+      "1900",
+      "1905",
+      "1910",
+      "1915"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1905”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q99",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Part of the Indian Constitution deals with relation between the union and the states?",
+    "options": [
+      "Part IXA",
+      "Part X",
+      "Part XI",
+      "Part III"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Part XI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q100",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When did the Right of Children to Free and Compulsory Education Act come into force?",
+    "options": [
+      "1st June 2010",
+      "10th April 2010",
+      "1st April 2010",
+      "21st March 2009"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1st April 2010”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of an ‘association’?",
+    "options": [
+      "Maintaining informal relationships",
+      "Living in close proximity",
+      "Achieving specific goals or objectives",
+      "Adhering to cultural traditions"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Achieving specific goals or objectives”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What type of group is formed for a specific purpose and has formal structures?",
+    "options": [
+      "Community",
+      "Institution",
+      "Primary group",
+      "Secondary group"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Secondary group”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Cultural universals are:",
+    "options": [
+      "Values or modes of behaviour shared by all human cultures",
+      "Values or modes of behaviour shared by a few cultures",
+      "Values or modes of behaviour shared by a majority of cultures",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Values or modes of behaviour shared by all human cultures”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Norms are:",
+    "options": [
+      "Standards of convention",
+      "Standards of conduct",
+      "Standards of choice",
+      "Standards of communication"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Standards of conduct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In which century did Sociology emerge as an academic discipline?",
+    "options": [
+      "16th century",
+      "17th century",
+      "18th century",
+      "19th century"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “19th century”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What historical event significantly influenced the development of sociology?",
+    "options": [
+      "World War I",
+      "The Enlightenment",
+      "The Renaissance",
+      "The Cold War"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Enlightenment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Who introduced the term ‘Verstehen’ in sociology?",
+    "options": [
+      "Karl Marx",
+      "Emile Durkheim",
+      "Max Weber",
+      "Herbert Spencer"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Max Weber”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Indexicality is a concept used in the theory of:",
+    "options": [
+      "Phenomenology",
+      "Structural Functionalism",
+      "Critical Theory",
+      "Ethnomethodology"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ethnomethodology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Who among the following is a symbolic interactionalist?",
+    "options": [
+      "Pierre Bourdieu",
+      "G H Mead",
+      "H Garfinkel",
+      "Talcott Parsons"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “G H Mead”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A closed-ended questionnaire is an example of:",
+    "options": [
+      "Qualitative research",
+      "Quantitative research",
+      "Survey",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Quantitative research”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A11",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In qualitative research, the analysis is mainly based on:",
+    "options": [
+      "survey",
+      "statistical charts",
+      "deductive reasoning",
+      "narratives"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “narratives”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A12",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Who said that in all stratified societies there are two major social groups: a ruling class and a subject class?",
+    "options": [
+      "John Lennen",
+      "Robert Merton",
+      "Emile Durkheim",
+      "Karl Marx"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Karl Marx”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A13",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The system in which the clergy, nobility and commoners functioned like three political groups, is:",
+    "options": [
+      "slavery system",
+      "creed system",
+      "caste system",
+      "estate system"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “estate system”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A14",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "_________ is called the movement of a person from one status to another, either between generations or within a person’s adult career.",
+    "options": [
+      "Social mobility",
+      "Structural mobility",
+      "Functional mobility",
+      "None of these"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Social mobility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A15",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The development of westernization is traced from which period:",
+    "options": [
+      "Vedic period",
+      "Post Vedic period",
+      "Mughal period",
+      "British period"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “British period”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A16",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is a key work by Bronislaw Malinowski?",
+    "options": [
+      "The Elementary Forms of Religious Life",
+      "Argonauts of the Western Pacific",
+      "The Gift",
+      "Patterns of Culture"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Argonauts of the Western Pacific”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A17",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "According to Radcliffe Brown, the concept of _________ refers to an arrangement of parts or components related to one another.",
+    "options": [
+      "natural diffusion",
+      "structure",
+      "norms",
+      "cultural traits"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “structure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A18",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The anatomical and other biological differences between males and females that are determined at the moment of conception denote the _________ of the individual.",
+    "options": [
+      "masculinity",
+      "femininity",
+      "sex",
+      "gender"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “sex”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A19",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Stereotypes fix whole groups into:",
+    "options": [
+      "Heterogeneous Category",
+      "Homogeneous Category",
+      "Broad Category",
+      "Diverse Category"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Homogeneous Category”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A20",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which Commission recommended 27 per cent reservation for OBC Candidates in all levels of government services?",
+    "options": [
+      "Kothari Commission",
+      "Balwant Commission",
+      "Mandal Commission",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mandal Commission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A21",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of role and status were first systematically developed by:",
+    "options": [
+      "Malinowski",
+      "Ralph Linton",
+      "Parsons",
+      "Robert Redfield"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ralph Linton”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A22",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In which type of community people are united through feeling?",
+    "options": [
+      "Great Community",
+      "Little Community",
+      "Gemeinschaft",
+      "Gesellschaft"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gemeinschaft”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A23",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In which of the following books C.H Cooley introduced the concept of primary group charactersised by intimate face to face association:",
+    "options": [
+      "Human Groups",
+      "The Nature of Human Groups",
+      "Social Structure",
+      "Social Organisation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Social Organisation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A24",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In Mizo family, parents prepare their daughters to be a good wife/daughter in her in-law’s home. This is an example of:",
+    "options": [
+      "Primary socialisation",
+      "Adult socialisation",
+      "Re-socialisation",
+      "Anticipatory socialisation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Anticipatory socialisation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A25",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Who among the following had divided Sociology into two major parts, namely static and dynamic sociology?",
+    "options": [
+      "Herbert Spencer",
+      "Max Weber",
+      "Rudolph",
+      "Auguste Comte"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Auguste Comte”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A26",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "According to Spencer, the evolutionary process moves from:",
+    "options": [
+      "Communist to capitalist societies",
+      "Simple to complex societies",
+      "Industrial to military societies",
+      "Complex to simple societies"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Simple to complex societies”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A27",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Merton argued that functionalism should move away from ‘Grand Theory’ and focus on:",
+    "options": [
+      "Social Action Theory",
+      "Macro-structures only",
+      "Micro-level psychology only",
+      "Middle-Range Theory"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Middle-Range Theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A28",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is Gramsci’s term for the intellectual and moral leadership exercised by the ruling class to make their values accepted as ‘common sense’?",
+    "options": [
+      "Cultural Hegemony",
+      "Dictatorship of the Proletariat",
+      "False Consciousness",
+      "The Power Elite"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cultural Hegemony”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A29",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Erving Goffman is best known for developing which sociological perspective?",
+    "options": [
+      "Structural Functionalism",
+      "Conflict Theory",
+      "Dramaturgical Analysis",
+      "Ethnomethodology"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dramaturgical Analysis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A30",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is a non-probability sampling method?",
+    "options": [
+      "Stratified sampling",
+      "Quota sampling",
+      "Cluster sampling",
+      "Systematic sampling"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Quota sampling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A31",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The difference between a questionnaire and a schedule is that the schedule is:",
+    "options": [
+      "Filled by the researcher",
+      "Filled by the respondent",
+      "Mailed to the respondent",
+      "Used only for qualitative research"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Filled by the researcher”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A32",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Find the mode in the series below: Answer:",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “22”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A33",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of survey research in sociology?",
+    "options": [
+      "In-depth analysis of a single case",
+      "To manipulate variables in a laboratory",
+      "To understand deep historical context",
+      "To collect quantitative data on behaviours and opinions"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To collect quantitative data on behaviours and opinions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A34",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which type of observation involves the researcher becoming a part of the group being studied?",
+    "options": [
+      "Non-participant observation",
+      "Controlled observation",
+      "Participant observation",
+      "Longitudinal observation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Participant observation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A35",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which type of interview allows for in-depth, flexible, and open-ended conversation?",
+    "options": [
+      "Structured",
+      "Unstructured",
+      "Questionnaires",
+      "Survey"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Unstructured”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A36",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The case study method is essentially a:",
+    "options": [
+      "Quantitative technique",
+      "Experimental method",
+      "Statistical method",
+      "Qualitative technique"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Qualitative technique”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A37",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is the final step in social science research?",
+    "options": [
+      "Report Writing",
+      "Data collection",
+      "Data analysis",
+      "Hypothesis testing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Report Writing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A38",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following represents Max Weber’s social stratification?",
+    "options": [
+      "Power, Status and Wealth",
+      "Authority, Power and Coercion",
+      "Class, Status and Authority",
+      "Class, Status and Power"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Class, Status and Power”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A39",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Sanskritisation denotes a process of:",
+    "options": [
+      "Intra generational occupational mobility",
+      "Inter-generational occupational mobility",
+      "Vertical social mobility",
+      "Horizontal social mobility"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Vertical social mobility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A40",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What does the term ‘Varna’ literally mean in Sanskrit?",
+    "options": [
+      "Birth",
+      "Colour/Class",
+      "Occupation",
+      "Region"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Colour/Class”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A41",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which branch of anthropology focuses on studying contemporary human cultures, social organisations, and cultural meanings?",
+    "options": [
+      "Archaeology",
+      "Physical Anthropology",
+      "Cultural Anthropology",
+      "Linguistic Anthropology"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cultural Anthropology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A42",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "For Malinowski, if one aspect of a culture is changed, what happens to the rest?",
+    "options": [
+      "It remains unaffected",
+      "The whole culture changes",
+      "It becomes more primitive",
+      "It adapts automatically"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The whole culture changes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A43",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Malinowski classified, ‘economics, social control, and education’ as which type of needs?",
+    "options": [
+      "Basic needs",
+      "Psychological needs",
+      "Derived/Instrumental needs",
+      "Superstitious needs"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Derived/Instrumental needs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A44",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a social construct rather than a biological reality?",
+    "options": [
+      "Sex",
+      "Chromosomes",
+      "Gender",
+      "Hormones"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gender”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A45",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The process by which individuals learn the norms, attitudes, and behaviours associated with their assigned gender is called:",
+    "options": [
+      "Gender socialisation",
+      "Gender empowerment",
+      "Biological determination",
+      "Gender stereotyping"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gender socialisation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A46",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The first wave of the women’s movement was primarily concerned with:",
+    "options": [
+      "Environmental protection",
+      "Women’s right to vote",
+      "Reproductive technology",
+      "Intersectionality"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Women’s right to vote”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A47",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In India, the Supreme Court formally recognised transgender people as a ‘Third Gender’ in which year?",
+    "options": [
+      "2010",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2014”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A48",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "According to the Scapegoat Theory, prejudice often increases when:",
+    "options": [
+      "People feel safe and secure.",
+      "There is no competition for resources.",
+      "People are frustrated and blame a minority group for their own problems",
+      "Intergroup contact is increased"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “People are frustrated and blame a minority group for their own problems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A49",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which Article of the Indian Constitution abolished ‘untouchability’ and forbidden its practice in any form?",
+    "options": [
+      "Article 14",
+      "Article 16",
+      "Article 17",
+      "Article 18"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 17”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A50",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which theoretical perspective argues that discrimination is a tool used by powerful groups to maintain dominance and control resources?",
+    "options": [
+      "Functionalism",
+      "Conflict Theory",
+      "Symbolic Interactionism",
+      "Positivism"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Conflict Theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the key features of social structure. Examine Radcliffe- Brown’s analysis of social structure. (7+7=14)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the central arguments of ‘The Division of Labour in Society’.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the key aspects of Antonio Gramsci’s concept of hegemony.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Highlight the types of reliability and validity used in social research. Why are they essential for scientific inquiry?(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is positivism in Sociology? Discuss its main assumptions about knowledge, science, and society. (3+7=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "‘The history of all hitherto existing society is the history of class struggles.’ Elucidate.(8)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Examine how the concept of the caste–class continuum helps in understanding social mobility in contemporary India.(8)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain Malinowski’s functional theory of culture. How did he relate cultural practices to the satisfaction of human needs? (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Analyse the social construction of masculinity and feminity.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-written-10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Elaborate on the state and non-state initiatives to address scheduled tribe discrimination.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The first phase of Indian sociology was between the years :",
+    "options": [
+      "1773-1900 AD",
+      "1901-1950 AD",
+      "1950-1990 AD",
+      "1991-2000 AD"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1773-1900 AD”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Who is known as the Father of Indian Sociology :",
+    "options": [
+      "D.D. Kosambi",
+      "G.S. Ghurye",
+      "M.N. Srinivas",
+      "A.R. Desai"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “G.S. Ghurye”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Indology approach is based on :",
+    "options": [
+      "Theory",
+      "Empirical methodology",
+      "Statistics",
+      "Sacred texts"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sacred texts”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "M.N. Srinivas famous field study was conducted among the different castes of :",
+    "options": [
+      "Cochin",
+      "Chittoor",
+      "Coorgs",
+      "Cowdalli"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Coorgs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which is the pull factor of Migration?",
+    "options": [
+      "Religious conversion",
+      "Natural calamities",
+      "Political disorder",
+      "Employment opportunities"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Employment opportunities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The median number of years a person can be expected to live under certain mortality conditions is:",
+    "options": [
+      "life expectancy",
+      "mortality rate",
+      "growth rate",
+      "fertility rate"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “life expectancy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which school played the most prominent part in the development of Urban Sociology?",
+    "options": [
+      "Frankfurt school",
+      "Chicago School",
+      "Marxist School",
+      "Functional School"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chicago School”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Concentric Zone model was created by Ernest Burgess in:",
+    "options": [
+      "1915",
+      "1920",
+      "1935",
+      "1925"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1925”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The primary unit of social organization in rural areas is:",
+    "options": [
+      "Community",
+      "Individual",
+      "State",
+      "Corporation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Community”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Cognatic kinship is:",
+    "options": [
+      "Bilateral",
+      "Colateral",
+      "Ambilateral",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bilateral”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A11",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The classification of family into Family of Orientation and Family of Procreation is associated with:",
+    "options": [
+      "A R desai",
+      "Malinowski",
+      "Ralph Linton",
+      "G P Murdock"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “G P Murdock”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A12",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Rule by a few is known as:",
+    "options": [
+      "Democracy",
+      "Monarchy",
+      "Oligarchy",
+      "Theocracy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Oligarchy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A13",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "“The Wealth of Nations” is written by:",
+    "options": [
+      "Adam Smith",
+      "Gordon Marshal",
+      "Karl Marx",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adam Smith”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A14",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "When did the Naxalite movement in India start?",
+    "options": [
+      "1948",
+      "1970",
+      "1967",
+      "1962"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1967”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A15",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The term social movement was first used in the year:",
+    "options": [
+      "1848 AD",
+      "1918 AD",
+      "1625 AD",
+      "1911 AD"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1848 AD”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A16",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "How did Ghurye describe Indian tribes in his Indological study?",
+    "options": [
+      "As the original inhabitants of India",
+      "As a distinct civilisation",
+      "As backward Hindus",
+      "As autonomous communities"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “As backward Hindus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A17",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which concept refers to a caste that dominates in terms of numerical strength, economic power, and political influence, as identified by Srinivas?",
+    "options": [
+      "Reference Group",
+      "Scheduled Caste",
+      "Caste Panchayat",
+      "Dominant Caste"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dominant Caste”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A18",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A.R. Desai used the Marxist approach to criticise the post-independence Indian state as a:",
+    "options": [
+      "Capitalist Class State",
+      "Socialist State",
+      "True Welfare State",
+      "Feudal State"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Capitalist Class State”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A19",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to D.P. Mukerji, what is the most important factor in studying Indian society?",
+    "options": [
+      "Economic class only",
+      "The dialectic of tradition and modernity",
+      "Caste hierarchy",
+      "Political democracy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The dialectic of tradition and modernity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A20",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to Malthus, population increases in:",
+    "options": [
+      "Arithmetic progression",
+      "Geometric progression",
+      "Logistic progression",
+      "Cyclical progression"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Geometric progression”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A21",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Optimum Theory of Population focuses on the relationship between population size and:",
+    "options": [
+      "Food supply",
+      "Total land area",
+      "Per capita income",
+      "Mortality rates"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Per capita income”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A22",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Crude Birth Rate (CBR) refers to:",
+    "options": [
+      "Number of births per 1,000 women aged 15–49",
+      "Number of children per couple",
+      "Number of births per married women",
+      "Number of live births per 1,000 population in a year"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Number of live births per 1,000 population in a year”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A23",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Differential fertility refers to differences in fertility based on:",
+    "options": [
+      "Age only",
+      "Social, economic, and cultural characteristics",
+      "Biological capacity only",
+      "Climate conditions"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Social, economic, and cultural characteristics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A24",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Differential mortality refers to:",
+    "options": [
+      "Differences in birth rates",
+      "Differences in death rates among various social groups",
+      "Migration patterns",
+      "Population density variations"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Differences in death rates among various social groups”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A25",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Who developed the concept of ‘urbanism as a way of life’?",
+    "options": [
+      "Louis Wirth",
+      "Georg Simmel",
+      "Max Weber",
+      "Emile Durkheim"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Louis Wirth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A26",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to the Multiple Nuclei Theory, a city develops:",
+    "options": [
+      "Solely around a single central business district (CBD)",
+      "In concentric rings",
+      "Around multiple centers or nuclei of activity",
+      "Exclusively along transportation routes"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Around multiple centers or nuclei of activity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A27",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which concept did Castells later use to describe the transformation of cities due to information technology?",
+    "options": [
+      "The Industrial City",
+      "The Global City",
+      "The Just City",
+      "The Network Society"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The Network Society”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A28",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which type of family structure is most commonly associated with rural areas?",
+    "options": [
+      "Nuclear family",
+      "Joint family",
+      "Single-parent family",
+      "Blended family"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Joint family”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A29",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which constitutional amendment gave legal status to the Panchayati Raj system in India?",
+    "options": [
+      "42nd Amendment",
+      "44th Amendment",
+      "73rd Amendment",
+      "86th Amendment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “73rd Amendment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A30",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which scheme was launched to provide rural road connectivity to unconnected habitations?",
+    "options": [
+      "Pradhan Mantri Gram Sadak Yojana",
+      "Bharat Nirman",
+      "Digital India",
+      "Deen Dayal Upadhyaya Gram Jyoti Yojana"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pradhan Mantri Gram Sadak Yojana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A31",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The VB-G RAM G Act (2025) is intended to replace which, if any, of the following?",
+    "options": [
+      "Pradhan Mantri Awas Yojana",
+      "MGNREGA",
+      "PDS",
+      "NHM"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “MGNREGA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A32",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In general practice, when a women makes reference for her husband, she generally says as for example Mama’s father without addressing him by his name. This is an example of:",
+    "options": [
+      "Reference",
+      "Ego",
+      "Teknonymy",
+      "Symbolising"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Teknonymy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A33",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A phratry is a grouping of clans which are related by traditions of:",
+    "options": [
+      "Joint Family",
+      "Common descent",
+      "Ritual",
+      "Family tradition"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Common descent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A34",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A marriage between higher caste woman and a lower caste man is an example of:",
+    "options": [
+      "Anuloma marriage",
+      "Endogamous marriage",
+      "Exogamous marriage",
+      "Pratiloma marriage"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pratiloma marriage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A35",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "‘Political participation’ refers to:",
+    "options": [
+      "Only voting in elections",
+      "Passive interest in political news",
+      "Voluntary activities by citizens to influence public policy or the selection of leaders",
+      "Compulsory duties imposed by the state"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Voluntary activities by citizens to influence public policy or the selection of leaders”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A36",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The term ‘Partisanship’ in political parties refers to:",
+    "options": [
+      "A balanced view of all social issues",
+      "Refusal to join any political group",
+      "Strong loyalty to a party and its specific social division",
+      "Neutrality in elections."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Strong loyalty to a party and its specific social division”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A37",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the primary characteristic that differentiates pressure groups from political parties?",
+    "options": [
+      "Pressure groups contest elections to form government",
+      "Pressure groups do not seek to capture direct political power",
+      "Pressure groups exist only at the national level",
+      "Pressure groups are always illegal."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pressure groups do not seek to capture direct political power”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A38",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The right to form associations in India, which allows pressure groups to exist, is derived from which article?",
+    "options": [
+      "Article 14",
+      "Article 32",
+      "Article 21",
+      "Article 19"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Article 19”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A39",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to Karl Marx, the ‘mode of production’ is a combination of:",
+    "options": [
+      "Culture and Technology",
+      "Productive forces and relations of production",
+      "Trade and Commerce",
+      "Proletariat and Bourgeoisie"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Productive forces and relations of production”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A40",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Neoliberalism is characterised by which of the following?",
+    "options": [
+      "High taxation for income redistribution",
+      "Nationalisation of major industries",
+      "Strong collective labour unions",
+      "Privatisation, deregulation, and free trade"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Privatisation, deregulation, and free trade”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A41",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which economic approach emphasizes that the state should intervene to ensure social justice and provide a safety net for its citizens?",
+    "options": [
+      "Neoliberalism",
+      "Laissez-faire",
+      "Welfarism",
+      "Market Capitalism"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Welfarism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A42",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Property relations in capitalism are characterised by:",
+    "options": [
+      "Private ownership and wage labour",
+      "Collective ownership",
+      "Absence of markets",
+      "Barter exchange only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Private ownership and wage labour”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A43",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The ‘New Ecological Paradigm’ (NEP) emphasises that:",
+    "options": [
+      "Human ingenuity can overcome all ecological limits",
+      "Humans are superior to all other species",
+      "Human societies are interdependent with ecological systems and subject to ecological constraints",
+      "The environment is merely a backdrop for social actions."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Human societies are interdependent with ecological systems and subject to ecological constraints”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A44",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which theoretical perspective suggests that the capitalist economic system is structured to require continuous growth, which inherently causes environmental degradation?",
+    "options": [
+      "Human Exemptionalism Paradigm",
+      "Treadmill of Production Theory",
+      "Social Constructionism",
+      "Risk Society"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Treadmill of Production Theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A45",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The concept of ‘Risk Society’, which argues that modern society is characterised by the management of risks created by technological and industrial advancements, was introduced by:",
+    "options": [
+      "Ulrich Beck",
+      "Allan Schnaiberg",
+      "Riley Dunlap",
+      "Murray Bookchin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ulrich Beck”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A46",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Ecological Modernisation Theory (EMT) argues that:",
+    "options": [
+      "Environmental protection and economic development are fundamentally incompatible.",
+      "Society must return to a pre-industrial state to save the environment",
+      "Environmental problems are solely social constructions.",
+      "Technological innovations and institutional changes can make economic growth sustainable"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Technological innovations and institutional changes can make economic growth sustainable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A47",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "How does the ‘environmentalism of the poor’ differ from the ‘environmentalism of the rich’?",
+    "options": [
+      "The poor only care about economic growth, not nature",
+      "The rich are more likely to be victims of pollution",
+      "The poor focus on survival and livelihood, while the rich focus on leisure and conservation",
+      "There is no difference in their concerns"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The poor focus on survival and livelihood, while the rich focus on leisure and conservation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A48",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The primary objective of land reforms in India after independence was to:",
+    "options": [
+      "Promote industrialisation",
+      "Encourage foreign investment",
+      "Reduce rural inequality and abolish intermediaries",
+      "Privatise agriculture"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduce rural inequality and abolish intermediaries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A49",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The growth of working-class movements in India was closely linked with the development of:",
+    "options": [
+      "Agriculture",
+      "Cottage industries",
+      "IT sector",
+      "Modern industries like textiles and railways"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Modern industries like textiles and railways”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-A50",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Jyotirao Phule founded which organisation to challenge caste hierarchy?",
+    "options": [
+      "Arya Samaj",
+      "Satyashodhak Samaj",
+      "Prarthana Samaj",
+      "Brahmo Samaj"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Satyashodhak Samaj”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Examine Louis Dumont’s analysis of caste in Indian society with special reference to his concept of hierarchy and purity & pollution.(7)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Compare and contrast the ‘book view’ and ‘field view’ approaches in the context of village studies in India.(7)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss migration as a process of social change. How do determinants and differential migration shape demographic and social structures?(8+8=16)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Highlight the determinants and consequences of urban poverty in developing countries.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the concept of rural–urban nexus. How does it challenge the traditional dichotomy between village and city?(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the Alliance Theory in the study of kinship and marriage. How does it differ from the Structural– Functionalist perspective? (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "‘History is a graveyard of aristocracies’. Discuss this statement in the context of Pareto’s theory of circulation of elites.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Analyse one economic development model of your choice which is adopted in India since independence. How have they shaped Indian society?(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss appropriate measures for the protection and sustainable management of the Earth’s common pool resources including forests, water bodies and grazing lands.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech2-written-10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech2",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the impact of the Mizo National Movement on social structure, political transformation and state formation in Mizoram(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which method has made educational psychology a science?",
+    "options": [
+      "Observation method",
+      "Clinical method",
+      "Survey method",
+      "Experimental method"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Experimental method”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Right to Education is guaranteed under which article?",
+    "options": [
+      "21",
+      "21A",
+      "41",
+      "41A"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “21A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "“Education without Fear” is associated with:",
+    "options": [
+      "Gandhi",
+      "Tagore",
+      "Nehru",
+      "Ambedkar"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tagore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which Commission recommended “Vocationalisation of Education”?",
+    "options": [
+      "Hunter Commission",
+      "Kothari Commission",
+      "Yashpal Commission",
+      "Radhakrishnan Commission"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kothari Commission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Pedagogy is a:",
+    "options": [
+      "science of behavior",
+      "science of learning",
+      "science of teaching",
+      "science of testing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “science of teaching”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Maxims of teaching are:",
+    "options": [
+      "fundamental principles to teach children in an accurate manner",
+      "rules for presenting difficult terms and concepts to make them easy to comprehend in classroom teaching",
+      "learning levels which can be affected with the acquisition of various teaching objectives",
+      "learning experiences which are acquired in a natural way"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “rules for presenting difficult terms and concepts to make them easy to comprehend in classroom teaching”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Curriculum is:",
+    "options": [
+      "Course",
+      "Syllabus",
+      "Co-Curricular Activities",
+      "Overall activities of an institution"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Overall activities of an institution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Piaget’s theory of cognitive development sequences follow in which order?",
+    "options": [
+      "Pre-operational, sensory-motor, concrete operational, formal operational",
+      "Sensory-motor, operational, concrete operational, formal operational",
+      "Sensory-motor, preoperational, formal operational, concrete operational",
+      "Sensory-motor, pre-operational, concrete operational, formal operational"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sensory-motor, pre-operational, concrete operational, formal operational”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A9",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Curriculum emphasised for primary classes is:",
+    "options": [
+      "Subject-based curriculum",
+      "Integrated curriculum",
+      "Teacher-centred curriculum",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Integrated curriculum”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A10",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A mobile App and website portal where one can download all the books of NCERT for free is:",
+    "options": [
+      "E-Pathshala",
+      "ONOS",
+      "E-Pushtak",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “E-Pathshala”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A11",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Development differs from growth as it involves:",
+    "options": [
+      "Solely biological maturation",
+      "Simple structural increases",
+      "Qualitative changes in behavioural and cognitive domains",
+      "Only weight gain"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Qualitative changes in behavioural and cognitive domains”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A12",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to Piaget, when do children acquire abstract logical reasoning?",
+    "options": [
+      "Sensorimotor stage",
+      "Preoperational stage",
+      "Concrete operational stage",
+      "Formal operational stage"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Formal operational stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A13",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Who is famously associated with the concept of ‘tabula rasa’ or the ‘blank slate,’ arguing that the mind is shaped entirely by experience and environment?",
+    "options": [
+      "Francis Galton",
+      "John Locke",
+      "Jean-Jacques Rousseau",
+      "Charles Darwin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “John Locke”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A14",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "‘Looking-Glass Self’ theory in socialisation was introduced by:",
+    "options": [
+      "George Herbert Mead",
+      "Sigmund Freud",
+      "Charles Horton Cooley",
+      "Emile Durkheim"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Charles Horton Cooley”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A15",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Teachers facilitate socialisation in schools by:",
+    "options": [
+      "Promoting conformity to social rules and academic norms",
+      "Encouraging individualistic behaviour",
+      "Focusing only on curriculum, not behaviour",
+      "Allowing children to do whatever they want"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Promoting conformity to social rules and academic norms”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A16",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which theory of personality links body types (endomorphic, mesomorphic, ectomorphic) to temperament?",
+    "options": [
+      "Sigmund Freud",
+      "William Sheldon",
+      "Carl Jung",
+      "Abraham Maslow"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “William Sheldon”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A17",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to Erikson, what is the primary psychosocial crisis of adolescence?",
+    "options": [
+      "Identity vs. Role Confusion",
+      "Trust vs. Mistrust",
+      "Autonomy vs. Shame/Doubt",
+      "Superiority vs. Inferiority"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Identity vs. Role Confusion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A18",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "To foster a positive classroom climate, a teacher should focus on:",
+    "options": [
+      "Strict control of activities",
+      "Ignoring individual differences",
+      "Constant competition",
+      "Promoting acceptance, encouragement, and tolerance"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Promoting acceptance, encouragement, and tolerance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A19",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which system of stratification is based on ascribed status?",
+    "options": [
+      "Class",
+      "Caste",
+      "Meritocracy",
+      "Open system"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Caste”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A20",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "NEP 2020 proposes to replace the 10+2 structure with:",
+    "options": [
+      "3+4+4+5",
+      "5+4+3+2",
+      "5+3+3+4",
+      "10+2+3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “5+3+3+4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A21",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Who defined education as a “social process, the process of living and not a preparation for future living”?",
+    "options": [
+      "Emile Durkheim",
+      "John Dewey",
+      "Karl Mannheim",
+      "Paulo Freire"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “John Dewey”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A22",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which method is most useful for investigating a student’s educational background, family history, and behavioural problems in depth?",
+    "options": [
+      "Introspection",
+      "Experimental Method",
+      "Naturalistic Observation",
+      "Case Study"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Case Study”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A23",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In Piaget’s theory, which stage typically occurs between 7 and 11 years, where children begin to think logically about concrete events?",
+    "options": [
+      "Sensorimotor",
+      "Preoperational",
+      "Concrete operational",
+      "Formal operational"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Concrete operational”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A24",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "An ‘undifferentiated curriculum’ is best described as:",
+    "options": [
+      "A curriculum tailored to individual student abilities and interests",
+      "A standardised, common curriculum for all students regardless of background",
+      "A curriculum that focuses only on technical vocational skills",
+      "A curriculum that changes daily based on student input"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A standardised, common curriculum for all students regardless of background”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A25",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "‘Learning by doing’ is the primary philosophy behind which type of curriculum?",
+    "options": [
+      "Academic curriculum",
+      "Core curriculum",
+      "Activity-based curriculum",
+      "Traditional curriculum"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Activity-based curriculum”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A26",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A sociological approach to evaluation that considers multiple perspectives and subjective experiences of stakeholders is known as:",
+    "options": [
+      "Scientific approach",
+      "Humanistic approach",
+      "Intrinsic approach",
+      "Pay-off approach"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Humanistic approach”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A27",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "When a teacher compares a student’s performance against a fixed set of learning standards or criteria, this is known as:",
+    "options": [
+      "Norm-referenced evaluation",
+      "Formative evaluation",
+      "Criterion-referenced evaluation",
+      "Summative evaluation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Criterion-referenced evaluation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A28",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which method is most effective for obtaining in-depth, qualitative information about a student’s attitudes?",
+    "options": [
+      "Multiple-choice test",
+      "Checklist",
+      "Interview",
+      "Rating Scale"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Interview”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A29",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not a component of the ‘Comprehensive’ aspect of CCE?",
+    "options": [
+      "Cognitive development",
+      "Exclusively summative, end-of-year testing",
+      "Affective (emotional/social) growth",
+      "Psycho-motor (skills) development"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Exclusively summative, end-of-year testing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A30",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Portfolio assessment differs from traditional assessment in that it:",
+    "options": [
+      "Focuses on the end product rather than the process",
+      "Is easier to grade using automated tools",
+      "Only tests low-level cognitive skills",
+      "Highlights student reflection and progress"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Highlights student reflection and progress”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A31",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A student’s score of 0 on a test does not necessarily mean they have zero knowledge of the subject. This implies educational test scores are generally measured on an:",
+    "options": [
+      "Interval scale",
+      "Ratio scale",
+      "Nominal scale",
+      "Ordinal scale"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Interval scale”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A32",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which management type is characterised by active participation, mutual sharing, and freedom of expression among staff?",
+    "options": [
+      "Autocratic Management",
+      "Centralised Management",
+      "Democratic Management",
+      "Authoritarian Management"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Democratic Management”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A33",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to Leithwood and Duke, which of the following is considered a key form of educational leadership?",
+    "options": [
+      "Immoral",
+      "Transformational",
+      "Coercive",
+      "Administrative-only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Transformational”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A34",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which type of information system is specifically used by school leaders for long-term strategic planning and monitoring school performance?",
+    "options": [
+      "Executive Support System (ESS)",
+      "Transaction Processing System (TPS)",
+      "Office Automation System (OAS)",
+      "Expert System (ES)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Executive Support System (ESS)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A35",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under the ‘National Skills Qualification Framework (NSQF)’ mentioned in NEP 2020, vocational education will be:",
+    "options": [
+      "Separate from academic credits",
+      "Exclusively for dropouts",
+      "Aligned with both national and international standards",
+      "Mandatory only for boys"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Aligned with both national and international standards”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A36",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to NEP 2020, what is the minimum number of hours of Continuous Professional Development (CPD) that teachers and school heads are expected to undertake annually?",
+    "options": [
+      "20 hours",
+      "30 hours",
+      "40 hours",
+      "50 hours"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “50 hours”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A37",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Human resource management (HRM) is the strategic approach to:",
+    "options": [
+      "Nuturing and organising workforce",
+      "Managing an organisation’s man power",
+      "Achieve business goals while maximising employee performance",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A38",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not a key aspect of SMDC in education?",
+    "options": [
+      "Planning school activities",
+      "Monitoring school activities",
+      "Managing school activities",
+      "Implementing development plans"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Implementing development plans”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A39",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The complex interaction, psychological and social forces within student groups that influence behaviour and learning is:",
+    "options": [
+      "Group dynamics",
+      "Conflict management",
+      "Educational management",
+      "Resource management"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Group dynamics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A40",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to Emile Durkheim, the primary function of education within a social system is:",
+    "options": [
+      "Transmitting society’s norms and values",
+      "Promoting individual self-expression",
+      "Challenging existing social structures",
+      "Preparing individuals for revolution"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Transmitting society’s norms and values”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A41",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Marxist theorists argue that the education system primarily serves to:",
+    "options": [
+      "Promote absolute equality for all",
+      "Eliminate the need for social classes",
+      "Perpetuate class inequalities and maintain the status quo",
+      "Foster individual creativity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Perpetuate class inequalities and maintain the status quo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A42",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The 27% reservation for Other Backward Classes (OBCs) in central educational institutions was implemented based on the recommendation of which commission?",
+    "options": [
+      "Kothari Commission",
+      "Mandal Commission",
+      "Sarkaria Commission",
+      "Radhakrishnan Commission"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mandal Commission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A43",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Westernisation, as defined by M.N. Srinivas, refers to:",
+    "options": [
+      "The industrialisation of rural areas",
+      "Changes brought about in Indian society and culture as a result of over 150 years of British rule",
+      "The adoption of Sanskrit rituals by lower castes",
+      "The movement of people from villages to cities"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Changes brought about in Indian society and culture as a result of over 150 years of British rule”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A44",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "From a sociological perspective, Emotional Intelligence in school leadership is essential because:",
+    "options": [
+      "It guarantees higher IQ scores among students",
+      "It reduces the need for administrative staff",
+      "It helps build positive, trusting relationships and a collaborative school culture",
+      "It focuses only on the individualistic, not structural, aspects of education"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It helps build positive, trusting relationships and a collaborative school culture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A45",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "From a sociological perspective, what does ‘diversity’ in education imply?",
+    "options": [
+      "Treating all students exactly the same regardless of background",
+      "Acknowledging and valuing differences in culture, ability, gender, and social background",
+      "Limiting the intake of majority groups to maintain cohesion",
+      "Ignoring individual differences to foster national unity"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Acknowledging and valuing differences in culture, ability, gender, and social background”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A46",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The process of transmitting cultural heritage from one generation to another via schools is known as:",
+    "options": [
+      "Cultural lag",
+      "Cultural diffusion",
+      "Cultural assimilation",
+      "Cultural transmission"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cultural transmission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A47",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What does LMS stand for in digital education?",
+    "options": [
+      "Learning Management System",
+      "Lessons Made Simple",
+      "Live Media Studio",
+      "Learner Monitoring System"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Learning Management System”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A48",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which Indian government initiative aims to provide online courses for students, ranging from school to university levels?",
+    "options": [
+      "e-Pathshala",
+      "SWAYAM",
+      "DIKSHA",
+      "EDUSAT"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “SWAYAM”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A49",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which license allows creators to share their work with the public while retaining certain rights?",
+    "options": [
+      "GNU",
+      "Proprietary License",
+      "Digital Rights Management (DRM)",
+      "Creative Commons (CC)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Creative Commons (CC)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A50",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which type of Intellectual Property Right is most relevant to protecting educational content like e-books, lecture videos, and software code?",
+    "options": [
+      "Copyright",
+      "Trademark",
+      "Patent",
+      "Geographical Indication"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Copyright”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-1",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Compare and contrast the Nature vs Nuture Debate of John Locke and Francis Galton.(8+9=17)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-2",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Briefly explain:(5+5=10)\na. Macaulay’s Minute\nb. Samagra Shiksha",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-3",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Evaluate the relevance of Bloom’s Taxonomy in contemporary educational practices.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-4",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the key principles of the National Curriculum Framework (NCF) 2020 and discuss their significance for improving the quality of education in India.(7+6=13)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-5",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Evaluate the significance of competency-based learning and assessment as proposed in NEP 2020. (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-6",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Analyse the role of the Mizoram Board of School Education in promoting quality education and academic standards in the state.(14)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-7",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the theoretical and practical differences between Educational Sociology and Sociology of Education with suitable examples.(8+8=16)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-written-8",
+    "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the opportunities and risks associated with the use of social media in education.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-1",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "type": "descriptive",
@@ -221430,9 +229756,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 38 -42) Put in the correct form of the verbs from the alternatives given:"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B40",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -222062,7 +230386,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 57 -61 ); Avoiding repetition for the words in italics, use some other suitable"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B62",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -229757,9 +238083,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 11 – 20): Fill in the blanks with the correct form of the verbs from those given"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q16",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -230334,7 +238658,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing  the correct adjectives and adverbs given"
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q38",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -237710,9 +246036,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 59 – 64): Identify the correct notion expressed by each of the following"
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B61",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -238304,7 +246628,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "MPE&SS - 2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c-Q3",
     "paperId": "mpsc-group-b-archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c",
@@ -245736,9 +254062,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "MCS Combined ( Main ) - 2017 · 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683.pdf#page=3"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683-written-6",
     "paperId": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -246335,7 +254659,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 15 - 19):  Fill in the blanks with correct Prepositions:"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B18",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -253548,9 +261874,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 59 -64 ) : Analyse the given sentences and choose the correct options :"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B64",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -254094,7 +262418,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "MVI-2014 · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a-Q7",
     "paperId": "mpsc-group-b-archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a",
@@ -261549,9 +269875,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 51 to 60): Transform the following sentences as directed without losing"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q60",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -262186,7 +270510,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 81 to 85): Choose the correct synonym of the following words:"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q82",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -270033,9 +278359,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 41 -50) : Analyse the following sentences by finding out the clause mentioned"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q44",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -270652,7 +278976,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 61 - 70) : Synthesise the following sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q66",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -278208,9 +286534,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-B8",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -278870,7 +287194,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q30",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -286547,9 +294873,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q10",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -287121,7 +295445,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q33",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -294628,9 +302954,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B4",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -295205,7 +303529,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given."
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B26",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -302378,9 +310704,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q50",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -302952,7 +311276,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q72",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -310072,9 +318398,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 57 - 66): Choose the correct form of the verb that agrees with the subject of"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B60",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -310622,7 +318946,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 12 & 13): In the following sentences, an underlined/highlighted part of a"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B13",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -317816,9 +326142,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=4"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-40",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -318214,7 +326538,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-62",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -326590,9 +334916,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B23",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -327226,7 +335550,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q11",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -336110,9 +344436,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q13",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -336772,7 +345096,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q35",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -344895,9 +353221,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B27",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -345447,7 +353771,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "source": "2 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-written-9",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -352835,9 +361161,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B50",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B51",
     "questionNumber": "B51",
@@ -353372,7 +361696,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B5",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q6",
     "questionNumber": "B6",
@@ -360678,9 +369004,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B26",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B27",
     "questionNumber": "B27",
@@ -361275,7 +369599,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B48",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B49",
     "questionNumber": "B49",
@@ -368705,9 +377031,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 76 - 80) : Select the word which is opposite in meaning to the underlined"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B78",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -369253,7 +377577,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q19",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -376960,9 +385286,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B16",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -377593,7 +385917,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 37 - 42) : Identify the parts of speech of each underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B38",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -385117,9 +393443,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 21-27): Fill in the blanks with appropriate prepositions:"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B22",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -385697,7 +394021,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 43-51): Analyse the following sentences and pick out the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B44",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -392879,9 +401205,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B83",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -393482,7 +401806,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B105",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -401205,9 +409531,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-B64",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -401833,7 +410157,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 10) : Read the given passage carefully and answer the following"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B5",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -409650,9 +417976,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q40",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -410265,7 +418589,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q62",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -417601,9 +425927,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q37",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -418153,7 +426477,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q59",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -425757,9 +434083,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate forms of Verbs from the four"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q27",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -426365,7 +434689,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 41 - 48) : Analyze the sentences and choose the correct option :"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q49",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -433734,9 +442060,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q27",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -434331,7 +442655,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q49",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -441874,9 +450200,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q21",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -442483,7 +450807,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q43",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -449905,9 +458231,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-english-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p1-written-6",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p1",
@@ -450370,7 +458694,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q9",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -458015,9 +466341,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q87",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -458603,7 +466927,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q11",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -466096,9 +474422,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q95",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -466623,7 +474947,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q10",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -474418,9 +482744,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q32",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -474999,7 +483323,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q54",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -482655,9 +490981,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B15",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -483295,7 +491619,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 36) : Fill in the blanks with the correct alternatives:"
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B37",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -490921,9 +499247,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q14",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -491532,7 +499856,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q36",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -498803,9 +507129,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9 - 17): Fill in the blanks with the appropriate prepositions."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B17",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -499442,7 +507766,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 36 - 43): Analyse the given sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B39",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -507119,9 +515445,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A38",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -507728,7 +516052,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A60",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -515530,9 +523856,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 60 - 67) Analyze the given sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B61",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -516121,7 +524445,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A7",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -523660,9 +531986,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-B83",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -524225,7 +532549,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 1 - 9) : Use the appropriate modal to fill in the blanks."
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B5",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -531936,9 +540262,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A29",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -532545,7 +540869,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A51",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -540002,9 +548328,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 49 - 57) : Fill in the blanks with appropriate prepositions."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B52",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -540638,7 +548962,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 67 - 75) : Choose the correct form of verb."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B74",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -547765,9 +556091,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q69",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -548317,7 +556641,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -555814,9 +564140,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q63",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -556431,7 +564755,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q85",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -564199,9 +572525,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q57",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -564800,7 +573124,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1-9): Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B4",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -572401,9 +580727,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q95",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -572960,7 +581284,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 10) : Read the following sentences carefully and choose the best"
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q11",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -580524,9 +588850,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 77 - 86) : Choose the correct antonyms of the following words."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q83",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -581124,7 +589448,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q5",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -588780,9 +597106,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q95",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -589316,7 +597640,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q10",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -596831,9 +605157,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms"
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q76",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -597468,7 +605792,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from"
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q98",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -604962,9 +613288,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q70",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -605580,7 +613904,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -613655,9 +621981,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q86",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -614317,7 +622641,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q20",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -622670,9 +630996,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q37",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -623334,7 +631658,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q61",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -631678,9 +640004,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q73",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -632337,7 +640661,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q96",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -640675,9 +649001,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q66",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -641335,7 +649659,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q98",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -649261,9 +657587,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q94",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -649877,7 +658201,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q16",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -658023,9 +666349,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q97",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -658688,7 +667012,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q19",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -667020,9 +675346,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q25",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -667585,7 +675909,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q50",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -674564,9 +682890,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q60",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -675116,7 +683440,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q84",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -683559,9 +691885,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q19",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -684177,7 +692501,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q41",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -691821,9 +700147,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=5",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q56",
     "questionNumber": "56",
@@ -692383,7 +700707,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "type": "descriptive",
     "sourceReview": true,
     "sourceNote": "Written prompt transcribed from the official paper; response guidance is not yet added."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p1-q003",
     "paperId": "mpsc-group-b-si-excise-2014-p1",
@@ -695332,7 +703658,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -695831,6 +704157,30 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "durationMinutes": 120,
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-lecturer-serchhip-2026-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-lecturer-serchhip-2026-tech1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-lecturer-serchhip-2026-tech2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-lecturer-serchhip-2026-tech3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
   },
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": {
     "negativeMarking": false,
@@ -696949,6 +705299,10 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-cao-2026-gs1": 100,
   "mpsc-group-b-cao-2026-gs2": 100,
   "mpsc-group-b-cao-2026-gs3": 100,
+  "mpsc-group-b-lecturer-serchhip-2026-gs": 100,
+  "mpsc-group-b-lecturer-serchhip-2026-tech1": 50,
+  "mpsc-group-b-lecturer-serchhip-2026-tech2": 50,
+  "mpsc-group-b-lecturer-serchhip-2026-tech3": 50,
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": 50,
   "mpsc-group-b-ada-aa-ata-2019-english": 60,
   "mpsc-group-b-ada-aa-ata-2019-gk": 100,

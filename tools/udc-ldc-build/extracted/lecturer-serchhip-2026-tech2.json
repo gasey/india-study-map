@@ -1,0 +1,1249 @@
+{
+  "slug": "lecturer-serchhip-2026-tech2",
+  "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "Technical Paper-II",
+  "source": "Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-II..pdf",
+  "sourceSha256": "0e399443aa5136c7c8103ae100b78114262e08c2de66a91f5ec158f78904d10c",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1773-1900 AD",
+        "b": "1901-1950 AD",
+        "c": "1950-1990 AD",
+        "d": "1991-2000 AD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first phase of Indian sociology was between the years :",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "D.D. Kosambi",
+        "b": "G.S. Ghurye",
+        "c": "M.N. Srinivas",
+        "d": "A.R. Desai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is known as the Father of Indian Sociology :",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theory",
+        "b": "Empirical methodology",
+        "c": "Statistics",
+        "d": "Sacred texts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indology approach is based on :",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cochin",
+        "b": "Chittoor",
+        "c": "Coorgs",
+        "d": "Cowdalli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "M.N. Srinivas famous field study was conducted among the different castes of :",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Religious conversion",
+        "b": "Natural calamities",
+        "c": "Political disorder",
+        "d": "Employment opportunities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the pull factor of Migration?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "life expectancy",
+        "b": "mortality rate",
+        "c": "growth rate",
+        "d": "fertility rate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The median number of years a person can be expected to live under certain mortality conditions is:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Frankfurt school",
+        "b": "Chicago School",
+        "c": "Marxist School",
+        "d": "Functional School"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which school played the most prominent part in the development of Urban Sociology?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1915",
+        "b": "1920",
+        "c": "1935",
+        "d": "1925"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Concentric Zone model was created by Ernest Burgess in:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Community",
+        "b": "Individual",
+        "c": "State",
+        "d": "Corporation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary unit of social organization in rural areas is:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bilateral",
+        "b": "Colateral",
+        "c": "Ambilateral",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cognatic kinship is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A R desai",
+        "b": "Malinowski",
+        "c": "Ralph Linton",
+        "d": "G P Murdock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The classification of family into Family of Orientation and Family of Procreation is associated with:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Democracy",
+        "b": "Monarchy",
+        "c": "Oligarchy",
+        "d": "Theocracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rule by a few is known as:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adam Smith",
+        "b": "Gordon Marshal",
+        "c": "Karl Marx",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“The Wealth of Nations” is written by:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1948",
+        "b": "1970",
+        "c": "1967",
+        "d": "1962"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did the Naxalite movement in India start?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1848 AD",
+        "b": "1918 AD",
+        "c": "1625 AD",
+        "d": "1911 AD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term social movement was first used in the year:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "As the original inhabitants of India",
+        "b": "As a distinct civilisation",
+        "c": "As backward Hindus",
+        "d": "As autonomous communities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How did Ghurye describe Indian tribes in his Indological study?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reference Group",
+        "b": "Scheduled Caste",
+        "c": "Caste Panchayat",
+        "d": "Dominant Caste"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which concept refers to a caste that dominates in terms of numerical strength, economic power, and political influence, as identified by Srinivas?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Capitalist Class State",
+        "b": "Socialist State",
+        "c": "True Welfare State",
+        "d": "Feudal State"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A.R. Desai used the Marxist approach to criticise the post-independence Indian state as a:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economic class only",
+        "b": "The dialectic of tradition and modernity",
+        "c": "Caste hierarchy",
+        "d": "Political democracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to D.P. Mukerji, what is the most important factor in studying Indian society?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arithmetic progression",
+        "b": "Geometric progression",
+        "c": "Logistic progression",
+        "d": "Cyclical progression"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Malthus, population increases in:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Food supply",
+        "b": "Total land area",
+        "c": "Per capita income",
+        "d": "Mortality rates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Optimum Theory of Population focuses on the relationship between population size and:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Number of births per 1,000 women aged 15–49",
+        "b": "Number of children per couple",
+        "c": "Number of births per married women",
+        "d": "Number of live births per 1,000 population in a year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crude Birth Rate (CBR) refers to:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Age only",
+        "b": "Social, economic, and cultural characteristics",
+        "c": "Biological capacity only",
+        "d": "Climate conditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Differential fertility refers to differences in fertility based on:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Differences in birth rates",
+        "b": "Differences in death rates among various social groups",
+        "c": "Migration patterns",
+        "d": "Population density variations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Differential mortality refers to:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Louis Wirth",
+        "b": "Georg Simmel",
+        "c": "Max Weber",
+        "d": "Emile Durkheim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who developed the concept of ‘urbanism as a way of life’?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solely around a single central business district (CBD)",
+        "b": "In concentric rings",
+        "c": "Around multiple centers or nuclei of activity",
+        "d": "Exclusively along transportation routes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Multiple Nuclei Theory, a city develops:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Industrial City",
+        "b": "The Global City",
+        "c": "The Just City",
+        "d": "The Network Society"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which concept did Castells later use to describe the transformation of cities due to information technology?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nuclear family",
+        "b": "Joint family",
+        "c": "Single-parent family",
+        "d": "Blended family"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of family structure is most commonly associated with rural areas?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "42nd Amendment",
+        "b": "44th Amendment",
+        "c": "73rd Amendment",
+        "d": "86th Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which constitutional amendment gave legal status to the Panchayati Raj system in India?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pradhan Mantri Gram Sadak Yojana",
+        "b": "Bharat Nirman",
+        "c": "Digital India",
+        "d": "Deen Dayal Upadhyaya Gram Jyoti Yojana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which scheme was launched to provide rural road connectivity to unconnected habitations?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pradhan Mantri Awas Yojana",
+        "b": "MGNREGA",
+        "c": "PDS",
+        "d": "NHM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The VB-G RAM G Act (2025) is intended to replace which, if any, of the following?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reference",
+        "b": "Ego",
+        "c": "Teknonymy",
+        "d": "Symbolising"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In general practice, when a women makes reference for her husband, she generally says as for example Mama’s father without addressing him by his name. This is an example of:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Joint Family",
+        "b": "Common descent",
+        "c": "Ritual",
+        "d": "Family tradition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A phratry is a grouping of clans which are related by traditions of:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anuloma marriage",
+        "b": "Endogamous marriage",
+        "c": "Exogamous marriage",
+        "d": "Pratiloma marriage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A marriage between higher caste woman and a lower caste man is an example of:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only voting in elections",
+        "b": "Passive interest in political news",
+        "c": "Voluntary activities by citizens to influence public policy or the selection of leaders",
+        "d": "Compulsory duties imposed by the state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Political participation’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A balanced view of all social issues",
+        "b": "Refusal to join any political group",
+        "c": "Strong loyalty to a party and its specific social division",
+        "d": "Neutrality in elections."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Partisanship’ in political parties refers to:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pressure groups contest elections to form government",
+        "b": "Pressure groups do not seek to capture direct political power",
+        "c": "Pressure groups exist only at the national level",
+        "d": "Pressure groups are always illegal."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary characteristic that differentiates pressure groups from political parties?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 14",
+        "b": "Article 32",
+        "c": "Article 21",
+        "d": "Article 19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The right to form associations in India, which allows pressure groups to exist, is derived from which article?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Culture and Technology",
+        "b": "Productive forces and relations of production",
+        "c": "Trade and Commerce",
+        "d": "Proletariat and Bourgeoisie"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Karl Marx, the ‘mode of production’ is a combination of:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High taxation for income redistribution",
+        "b": "Nationalisation of major industries",
+        "c": "Strong collective labour unions",
+        "d": "Privatisation, deregulation, and free trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neoliberalism is characterised by which of the following?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neoliberalism",
+        "b": "Laissez-faire",
+        "c": "Welfarism",
+        "d": "Market Capitalism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which economic approach emphasizes that the state should intervene to ensure social justice and provide a safety net for its citizens?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Private ownership and wage labour",
+        "b": "Collective ownership",
+        "c": "Absence of markets",
+        "d": "Barter exchange only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Property relations in capitalism are characterised by:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Human ingenuity can overcome all ecological limits",
+        "b": "Humans are superior to all other species",
+        "c": "Human societies are interdependent with ecological systems and subject to ecological constraints",
+        "d": "The environment is merely a backdrop for social actions."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘New Ecological Paradigm’ (NEP) emphasises that:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Human Exemptionalism Paradigm",
+        "b": "Treadmill of Production Theory",
+        "c": "Social Constructionism",
+        "d": "Risk Society"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which theoretical perspective suggests that the capitalist economic system is structured to require continuous growth, which inherently causes environmental degradation?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ulrich Beck",
+        "b": "Allan Schnaiberg",
+        "c": "Riley Dunlap",
+        "d": "Murray Bookchin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Risk Society’, which argues that modern society is characterised by the management of risks created by technological and industrial advancements, was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environmental protection and economic development are fundamentally incompatible.",
+        "b": "Society must return to a pre-industrial state to save the environment",
+        "c": "Environmental problems are solely social constructions.",
+        "d": "Technological innovations and institutional changes can make economic growth sustainable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ecological Modernisation Theory (EMT) argues that:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The poor only care about economic growth, not nature",
+        "b": "The rich are more likely to be victims of pollution",
+        "c": "The poor focus on survival and livelihood, while the rich focus on leisure and conservation",
+        "d": "There is no difference in their concerns"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How does the ‘environmentalism of the poor’ differ from the ‘environmentalism of the rich’?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promote industrialisation",
+        "b": "Encourage foreign investment",
+        "c": "Reduce rural inequality and abolish intermediaries",
+        "d": "Privatise agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary objective of land reforms in India after independence was to:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture",
+        "b": "Cottage industries",
+        "c": "IT sector",
+        "d": "Modern industries like textiles and railways"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The growth of working-class movements in India was closely linked with the development of:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arya Samaj",
+        "b": "Satyashodhak Samaj",
+        "c": "Prarthana Samaj",
+        "d": "Brahmo Samaj"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jyotirao Phule founded which organisation to challenge caste hierarchy?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Examine Louis Dumont’s analysis of caste in Indian society with special reference to his concept of hierarchy and purity & pollution.(7)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "Compare and contrast the ‘book view’ and ‘field view’ approaches in the context of village studies in India.(7)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Discuss migration as a process of social change. How do determinants and differential migration shape demographic and social structures?(8+8=16)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "Highlight the determinants and consequences of urban poverty in developing countries.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "Explain the concept of rural–urban nexus. How does it challenge the traditional dichotomy between village and city?(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "Explain the Alliance Theory in the study of kinship and marriage. How does it differ from the Structural– Functionalist perspective? (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "‘History is a graveyard of aristocracies’. Discuss this statement in the context of Pareto’s theory of circulation of elites.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "Analyse one economic development model of your choice which is adopted in India since independence. How have they shaped Indian society?(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "B",
+      "page": 6,
+      "text": "Discuss appropriate measures for the protection and sustainable management of the Earth’s common pool resources including forests, water bodies and grazing lands.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "B",
+      "page": 6,
+      "text": "Discuss the impact of the Mizo National Movement on social structure, political transformation and state formation in Mizoram(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

@@ -1,0 +1,1236 @@
+{
+  "slug": "lecturer-serchhip-2026-tech3",
+  "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "Technical Paper-III",
+  "source": "Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-III..pdf",
+  "sourceSha256": "d2400aaaf23a7f1a81386e28edc1100b47d0d253512123f17119f5279864f767",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Observation method",
+        "b": "Clinical method",
+        "c": "Survey method",
+        "d": "Experimental method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method has made educational psychology a science?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21",
+        "b": "21A",
+        "c": "41",
+        "d": "41A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Right to Education is guaranteed under which article?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gandhi",
+        "b": "Tagore",
+        "c": "Nehru",
+        "d": "Ambedkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Education without Fear” is associated with:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hunter Commission",
+        "b": "Kothari Commission",
+        "c": "Yashpal Commission",
+        "d": "Radhakrishnan Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Commission recommended “Vocationalisation of Education”?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "science of behavior",
+        "b": "science of learning",
+        "c": "science of teaching",
+        "d": "science of testing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pedagogy is a:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "fundamental principles to teach children in an accurate manner",
+        "b": "rules for presenting difficult terms and concepts to make them easy to comprehend in classroom teaching",
+        "c": "learning levels which can be affected with the acquisition of various teaching objectives",
+        "d": "learning experiences which are acquired in a natural way"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maxims of teaching are:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Course",
+        "b": "Syllabus",
+        "c": "Co-Curricular Activities",
+        "d": "Overall activities of an institution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Curriculum is:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pre-operational, sensory-motor, concrete operational, formal operational",
+        "b": "Sensory-motor, operational, concrete operational, formal operational",
+        "c": "Sensory-motor, preoperational, formal operational, concrete operational",
+        "d": "Sensory-motor, pre-operational, concrete operational, formal operational"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Piaget’s theory of cognitive development sequences follow in which order?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subject-based curriculum",
+        "b": "Integrated curriculum",
+        "c": "Teacher-centred curriculum",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Curriculum emphasised for primary classes is:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "E-Pathshala",
+        "b": "ONOS",
+        "c": "E-Pushtak",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A mobile App and website portal where one can download all the books of NCERT for free is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solely biological maturation",
+        "b": "Simple structural increases",
+        "c": "Qualitative changes in behavioural and cognitive domains",
+        "d": "Only weight gain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Development differs from growth as it involves:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sensorimotor stage",
+        "b": "Preoperational stage",
+        "c": "Concrete operational stage",
+        "d": "Formal operational stage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Piaget, when do children acquire abstract logical reasoning?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Francis Galton",
+        "b": "John Locke",
+        "c": "Jean-Jacques Rousseau",
+        "d": "Charles Darwin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is famously associated with the concept of ‘tabula rasa’ or the ‘blank slate,’ arguing that the mind is shaped entirely by experience and environment?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "George Herbert Mead",
+        "b": "Sigmund Freud",
+        "c": "Charles Horton Cooley",
+        "d": "Emile Durkheim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Looking-Glass Self’ theory in socialisation was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promoting conformity to social rules and academic norms",
+        "b": "Encouraging individualistic behaviour",
+        "c": "Focusing only on curriculum, not behaviour",
+        "d": "Allowing children to do whatever they want"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Teachers facilitate socialisation in schools by:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sigmund Freud",
+        "b": "William Sheldon",
+        "c": "Carl Jung",
+        "d": "Abraham Maslow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which theory of personality links body types (endomorphic, mesomorphic, ectomorphic) to temperament?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Identity vs. Role Confusion",
+        "b": "Trust vs. Mistrust",
+        "c": "Autonomy vs. Shame/Doubt",
+        "d": "Superiority vs. Inferiority"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Erikson, what is the primary psychosocial crisis of adolescence?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Strict control of activities",
+        "b": "Ignoring individual differences",
+        "c": "Constant competition",
+        "d": "Promoting acceptance, encouragement, and tolerance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To foster a positive classroom climate, a teacher should focus on:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Class",
+        "b": "Caste",
+        "c": "Meritocracy",
+        "d": "Open system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which system of stratification is based on ascribed status?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3+4+4+5",
+        "b": "5+4+3+2",
+        "c": "5+3+3+4",
+        "d": "10+2+3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NEP 2020 proposes to replace the 10+2 structure with:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emile Durkheim",
+        "b": "John Dewey",
+        "c": "Karl Mannheim",
+        "d": "Paulo Freire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who defined education as a “social process, the process of living and not a preparation for future living”?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Introspection",
+        "b": "Experimental Method",
+        "c": "Naturalistic Observation",
+        "d": "Case Study"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method is most useful for investigating a student’s educational background, family history, and behavioural problems in depth?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sensorimotor",
+        "b": "Preoperational",
+        "c": "Concrete operational",
+        "d": "Formal operational"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Piaget’s theory, which stage typically occurs between 7 and 11 years, where children begin to think logically about concrete events?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A curriculum tailored to individual student abilities and interests",
+        "b": "A standardised, common curriculum for all students regardless of background",
+        "c": "A curriculum that focuses only on technical vocational skills",
+        "d": "A curriculum that changes daily based on student input"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An ‘undifferentiated curriculum’ is best described as:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Academic curriculum",
+        "b": "Core curriculum",
+        "c": "Activity-based curriculum",
+        "d": "Traditional curriculum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Learning by doing’ is the primary philosophy behind which type of curriculum?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scientific approach",
+        "b": "Humanistic approach",
+        "c": "Intrinsic approach",
+        "d": "Pay-off approach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sociological approach to evaluation that considers multiple perspectives and subjective experiences of stakeholders is known as:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Norm-referenced evaluation",
+        "b": "Formative evaluation",
+        "c": "Criterion-referenced evaluation",
+        "d": "Summative evaluation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a teacher compares a student’s performance against a fixed set of learning standards or criteria, this is known as:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Multiple-choice test",
+        "b": "Checklist",
+        "c": "Interview",
+        "d": "Rating Scale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method is most effective for obtaining in-depth, qualitative information about a student’s attitudes?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cognitive development",
+        "b": "Exclusively summative, end-of-year testing",
+        "c": "Affective (emotional/social) growth",
+        "d": "Psycho-motor (skills) development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a component of the ‘Comprehensive’ aspect of CCE?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Focuses on the end product rather than the process",
+        "b": "Is easier to grade using automated tools",
+        "c": "Only tests low-level cognitive skills",
+        "d": "Highlights student reflection and progress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Portfolio assessment differs from traditional assessment in that it:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Interval scale",
+        "b": "Ratio scale",
+        "c": "Nominal scale",
+        "d": "Ordinal scale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A student’s score of 0 on a test does not necessarily mean they have zero knowledge of the subject. This implies educational test scores are generally measured on an:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Autocratic Management",
+        "b": "Centralised Management",
+        "c": "Democratic Management",
+        "d": "Authoritarian Management"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which management type is characterised by active participation, mutual sharing, and freedom of expression among staff?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immoral",
+        "b": "Transformational",
+        "c": "Coercive",
+        "d": "Administrative-only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Leithwood and Duke, which of the following is considered a key form of educational leadership?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Executive Support System (ESS)",
+        "b": "Transaction Processing System (TPS)",
+        "c": "Office Automation System (OAS)",
+        "d": "Expert System (ES)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of information system is specifically used by school leaders for long-term strategic planning and monitoring school performance?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Separate from academic credits",
+        "b": "Exclusively for dropouts",
+        "c": "Aligned with both national and international standards",
+        "d": "Mandatory only for boys"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the ‘National Skills Qualification Framework (NSQF)’ mentioned in NEP 2020, vocational education will be:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 hours",
+        "b": "30 hours",
+        "c": "40 hours",
+        "d": "50 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to NEP 2020, what is the minimum number of hours of Continuous Professional Development (CPD) that teachers and school heads are expected to undertake annually?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nuturing and organising workforce",
+        "b": "Managing an organisation’s man power",
+        "c": "Achieve business goals while maximising employee performance",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human resource management (HRM) is the strategic approach to:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Planning school activities",
+        "b": "Monitoring school activities",
+        "c": "Managing school activities",
+        "d": "Implementing development plans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a key aspect of SMDC in education?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Group dynamics",
+        "b": "Conflict management",
+        "c": "Educational management",
+        "d": "Resource management"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The complex interaction, psychological and social forces within student groups that influence behaviour and learning is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Transmitting society’s norms and values",
+        "b": "Promoting individual self-expression",
+        "c": "Challenging existing social structures",
+        "d": "Preparing individuals for revolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Emile Durkheim, the primary function of education within a social system is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promote absolute equality for all",
+        "b": "Eliminate the need for social classes",
+        "c": "Perpetuate class inequalities and maintain the status quo",
+        "d": "Foster individual creativity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Marxist theorists argue that the education system primarily serves to:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kothari Commission",
+        "b": "Mandal Commission",
+        "c": "Sarkaria Commission",
+        "d": "Radhakrishnan Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 27% reservation for Other Backward Classes (OBCs) in central educational institutions was implemented based on the recommendation of which commission?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The industrialisation of rural areas",
+        "b": "Changes brought about in Indian society and culture as a result of over 150 years of British rule",
+        "c": "The adoption of Sanskrit rituals by lower castes",
+        "d": "The movement of people from villages to cities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Westernisation, as defined by M.N. Srinivas, refers to:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It guarantees higher IQ scores among students",
+        "b": "It reduces the need for administrative staff",
+        "c": "It helps build positive, trusting relationships and a collaborative school culture",
+        "d": "It focuses only on the individualistic, not structural, aspects of education"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From a sociological perspective, Emotional Intelligence in school leadership is essential because:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treating all students exactly the same regardless of background",
+        "b": "Acknowledging and valuing differences in culture, ability, gender, and social background",
+        "c": "Limiting the intake of majority groups to maintain cohesion",
+        "d": "Ignoring individual differences to foster national unity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "From a sociological perspective, what does ‘diversity’ in education imply?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cultural lag",
+        "b": "Cultural diffusion",
+        "c": "Cultural assimilation",
+        "d": "Cultural transmission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of transmitting cultural heritage from one generation to another via schools is known as:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Learning Management System",
+        "b": "Lessons Made Simple",
+        "c": "Live Media Studio",
+        "d": "Learner Monitoring System"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does LMS stand for in digital education?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "e-Pathshala",
+        "b": "SWAYAM",
+        "c": "DIKSHA",
+        "d": "EDUSAT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian government initiative aims to provide online courses for students, ranging from school to university levels?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GNU",
+        "b": "Proprietary License",
+        "c": "Digital Rights Management (DRM)",
+        "d": "Creative Commons (CC)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which license allows creators to share their work with the public while retaining certain rights?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copyright",
+        "b": "Trademark",
+        "c": "Patent",
+        "d": "Geographical Indication"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of Intellectual Property Right is most relevant to protecting educational content like e-books, lecture videos, and software code?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Compare and contrast the Nature vs Nuture Debate of John Locke and Francis Galton.(8+9=17)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "Briefly explain:(5+5=10)",
+      "subparts": {
+        "a": "Macaulay’s Minute",
+        "b": "Samagra Shiksha"
+      }
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Evaluate the relevance of Bloom’s Taxonomy in contemporary educational practices.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "Explain the key principles of the National Curriculum Framework (NCF) 2020 and discuss their significance for improving the quality of education in India.(7+6=13)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "Evaluate the significance of competency-based learning and assessment as proposed in NEP 2020. (10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "Analyse the role of the Mizoram Board of School Education in promoting quality education and academic standards in the state.(14)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "Explain the theoretical and practical differences between Educational Sociology and Sociology of Education with suitable examples.(8+8=16)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "Discuss the opportunities and risks associated with the use of social media in education.(5+5=10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

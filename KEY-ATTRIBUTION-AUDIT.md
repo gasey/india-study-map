@@ -105,6 +105,10 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | inspector-excise-2025-gs3 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4 |
 | jao-2026-p1 | 60 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1 |
 | jao-2026-p2 | 100 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3 |
+| lecturer-serchhip-2026-gs | 100 | /papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2 |
+| lecturer-serchhip-2026-tech1 | 50 | /papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3 |
+| lecturer-serchhip-2026-tech2 | 50 | /papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=4 |
+| lecturer-serchhip-2026-tech3 | 50 | /papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5 |
 | mcs-prelim-2025-p1 | 100 | /papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1 |
 | mcs-prelim-2025-p2 | 99 | /papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5 |
 | ng-april-2026-assistant-leso-general-english | 66 | /papers/group-b/keys/final-answer-key-assistant-leso-april-2026.pdf#page=1 |

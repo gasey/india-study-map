@@ -1,3 +1,37 @@
+## 11 October 2026 — Lecturer (Serchhip) March-2026 General Studies + Technical I–III: +248
+
+Imported the General Studies and the three Technical (Part-A) papers of the
+Lecturer (Contract), Govt. Hr. Secondary School, Serchhip examination under the
+School Education Department, held 30 March and 1–2 April 2026. General Studies
+is 2 hours, FM 100, 100 one-mark MCQs; each Technical paper is 3 hours, FM 200
+with a 50-question two-mark Part-A and a descriptive Part-B. None prints a
+negative-marking rule, so all four score without a penalty. The General English
+paper of the same examination was already in the bank.
+
+The official **Final Answer Key** (No. COL/A/2007-MPSC, dated Aizawl 8 May 2026)
+is a 5-page scan: General English (Part-A) 66, General Studies 100 and Technical
+Papers I–III (Part-A) 50 each. General Studies prints four columns of 25 rows;
+the Technical sections two columns of 25. Every cell was read by position at 300
+dpi and independently at 600 dpi and matched against the key's own text layer:
+General Studies 99/99 (Q34 carries a compensation stamp and is registered
+`null`), Technical I–III all 50/50.
+
+Three printing defects in the Technical booklets had to be handled before the
+Part-A could be scored as a whole — the `complete_native` gate holds a paper
+whose numbering does not match the key, so a single dropped question would have
+held all fifty. The extractor now (a) tolerates a bullet glyph before a question
+number (Technical I Q27 prints `·27.`), (b) reads an option marker that was
+printed without its opening parenthesis (Technical I Q31's `d)`), and (c) treats
+a repeated option label as the next choice where the paper printed `(a)` twice
+(Technical II Q42, where the second is plainly `(b)`). All three are guarded: the
+bullet tolerance was verified against every native general paper (only these two
+booklets contain such a line) and the marker repairs are enabled only for the
+Serchhip Technical booklets.
+
+Session delta: bank 8,728 → 8,976 practice-ready (+248; 6,970 official-backed);
+records 25,038 → 25,316; MCQs 24,065 → 24,315. 98 registered keys. Tests (25)
+pass and `tsc --noEmit` is clean.
+
 ## 11 October 2026 — Cooperative Audit Officer March-2026 General Studies I–III: +293
 
 Imported the three General Studies papers (Series A) of the Cooperative Audit

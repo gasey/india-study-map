@@ -52,7 +52,13 @@ def extract_one(row):
     # A question number normally prints as '12.' or '12 ' (cf. psm 4 OCR). The
     # native text layer sometimes drops the separator entirely ('38admire',
     # '43The man'), so accept a leading number followed directly by a letter.
-    module.QNUM_RE = re.compile(r'^(\d{1,3})(?:\s*[.,]\s*|\s*(?=[A-Za-z]))')
+    # A bullet glyph occasionally precedes the number ('·27.'); tolerate one.
+    module.QNUM_RE = re.compile(r'^[\u00b7\u2022\u2023\u2043*\u2013\u2014]?(\d{1,3})(?:\s*[.,]\s*|\s*(?=[A-Za-z]))')
+    if slug.startswith('lecturer-serchhip-2026-tech'):
+        # Printing defects in these two booklets (see extract.py): one option
+        # drops its opening parenthesis, and one repeats a label.
+        module.BARE_OPTION_MARKERS = True
+        module.REPEATED_OPTION_LABELS = True
     images = Path('/tmp/group-b-paper-extraction') / slug
     images.mkdir(parents=True, exist_ok=True)
     module.tempfile.mkdtemp = lambda: str(images)

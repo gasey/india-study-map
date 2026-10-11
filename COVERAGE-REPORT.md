@@ -1,11 +1,11 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (94 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (98 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **15,334**
-- Tier 1 — official key available (scorable mechanically): **686**
+- Held MCQs: **15,336**
+- Tier 1 — official key available (scorable mechanically): **688**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **62**
@@ -19,7 +19,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 3 | 2 | 1 | 66.7% |
-| inferred | 3452 | 2964 | 488 | 85.9% |
+| inferred | 3669 | 3177 | 492 | 86.6% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
@@ -30,8 +30,8 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 ## Key attribution
 
-- 120 key PDFs on disk; 94 already registered.
-- High-confidence auto-attributions: **32** (~686 held questions). Confirm each by eye before registering.
+- 120 key PDFs on disk; 98 already registered.
+- High-confidence auto-attributions: **32** (~688 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **25**
 - Unattributed key files: **5**
 
@@ -67,7 +67,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key..pdf, Final Answer key - DSWO, 2026..pdf, General Knowledge Final.pdf, Provisional Answer Key for DSWO under SW,W&CD Department..pdf
 
-## Papers with evidence (top 40 of 227)
+## Papers with evidence (top 40 of 228)
 
 | paper | subject | key | held | T1 | T2solid | T2cand | T3 |
 |---|---|---|---|---|---|---|---|
@@ -258,6 +258,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c | General English | none | 20 | 0 | 0 | 2 | 18 |
 | mpsc-group-b-mcs-prelim-2025-p1 | Paper-I (General Studies) | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-cao-2026-gs1 | General Studies Paper-I | registered | 2 | 2 | 0 | 0 | 0 |
+| mpsc-group-b-lecturer-serchhip-2026-gs | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |

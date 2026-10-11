@@ -80,6 +80,15 @@ FOOTER_RE = re.compile(r"^\s*[-–]\s*\d{1,3}\s*[-–]\s*$")
 # option that happened to be open and ships as part of the answer text.
 ENDMARK_RE = re.compile(r"^[\s*]+$")
 
+# Two printing defects appear in the Lecturer (Serchhip) Technical booklets.
+# Some options drop the opening parenthesis ('d) Used only for qualitative
+# research'); one paper repeats a label where the next was meant ('(a) Private
+# ownership ... (a) Collective ownership', i.e. '(b)'). Both are defects in the
+# paper, not OCR noise. They are enabled only for the booklets known to carry
+# them so the general path stays strict.
+BARE_OPTION_MARKERS = False
+REPEATED_OPTION_LABELS = False
+
 # These booklets set maths in a Symbol font whose glyphs land in the private use
 # area, so the text layer carries U+F0xx where the page shows an operator. The
 # low byte is the Adobe Symbol code point.
@@ -344,6 +353,25 @@ def find_option_markers(line):
                         "i1": k,
                     })
         i += 1
+    if BARE_OPTION_MARKERS and out:
+        # 'd)' with no opening parenthesis. Only scanned on a line that already
+        # carries a strict marker, and only where the letter starts a token (a
+        # gap or a space before it), so 'sofa)' inside an option is ignored.
+        i = 0
+        while i < count - 1:
+            a = cs[i]
+            if (a.get_text().lower() in "abcd" and cs[i + 1].get_text() == ")"
+                    and (i == 0 or cs[i - 1].get_text().strip() == ""
+                         or a.x0 - cs[i - 1].x1 > 0.3 * a.size)):
+                d = cs[i + 1]
+                out.append({
+                    "letter": a.get_text().lower(),
+                    "bbox": (a.x0, min(a.y0, d.y0), d.x1, max(a.y1, d.y1)),
+                    "i0": i,
+                    "i1": i + 1,
+                })
+            i += 1
+        out.sort(key=lambda m: m["i0"])
     return out
 
 
@@ -572,6 +600,13 @@ def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,), skip_pages
                 for m in opts_here:
                     if nxt < 4 and m["letter"] == "abcd"[nxt]:
                         real.append(m)
+                        nxt += 1
+                    elif (REPEATED_OPTION_LABELS and nxt < 4 and nxt > 0
+                          and m["letter"] == "abcd"[nxt - 1]):
+                        # The paper printed the previous label again where the
+                        # next choice was meant ('(a) ... (a) ...' for '(a) ...
+                        # (b) ...'); take the repeat as that next choice.
+                        real.append(dict(m, letter="abcd"[nxt]))
                         nxt += 1
                 cs = line["chars"]
                 for k, m in enumerate(real):

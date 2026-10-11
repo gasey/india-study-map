@@ -162,6 +162,10 @@ GENERAL_PAPERS = [
  ('cao-2026-gs1', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-I', 'CAO March-2026 General Studies Paper-I (Series A)..pdf'),
  ('cao-2026-gs2', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-II', 'CAO March-2026 General Studies -II- Series-A..pdf'),
  ('cao-2026-gs3', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-III', 'CAO March-2026 General Studies- III Series A..pdf'),
+ ('lecturer-serchhip-2026-gs', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'General Studies', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-General Studies..pdf'),
+ ('lecturer-serchhip-2026-tech1', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-I', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-I..pdf'),
+ ('lecturer-serchhip-2026-tech2', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-II', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-II..pdf'),
+ ('lecturer-serchhip-2026-tech3', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-III', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-III..pdf'),
 ]
 # Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
 # clerical / UDC / Assistant Grade papers in full plus the non-technical
@@ -455,6 +459,10 @@ GENERAL_ARCHIVE_FOLDERS = {
  'acm-2026-gs': 'Direct_2025-2027', 'acm-2026-tech-p1': 'Direct_2025-2027', 'acm-2026-tech-p2': 'Direct_2025-2027', 'acm-2026-tech-p3': 'Direct_2025-2027',
  'ceo-2025-gk': 'Direct_2025-2027',
  'cao-2026-gs1': 'Direct_2025-2027', 'cao-2026-gs2': 'Direct_2025-2027', 'cao-2026-gs3': 'Direct_2025-2027',
+ 'lecturer-serchhip-2026-gs': 'Direct_2025-2027',
+ 'lecturer-serchhip-2026-tech1': 'Direct_2025-2027',
+ 'lecturer-serchhip-2026-tech2': 'Direct_2025-2027',
+ 'lecturer-serchhip-2026-tech3': 'Direct_2025-2027',
 }
 
 
@@ -823,6 +831,18 @@ def build_additional():
             # third for wrong answers.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1 / 3}
+        if slug == 'lecturer-serchhip-2026-gs' and key:
+            # Cover: Lecturer (Contract), Govt. Hr. Secondary School, Serchhip,
+            # General Studies, 2 hours, FM 100, 100 one-mark MCQs. No
+            # negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('lecturer-serchhip-2026-tech1', 'lecturer-serchhip-2026-tech2',
+                            'lecturer-serchhip-2026-tech3')) and key:
+            # Covers: same examination, Technical Papers I-III, 3 hours, FM 200;
+            # Part-A is 50 two-mark MCQs. No negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;
             # Part-A holds 66 one-mark MCQs. Key: official final answer key.

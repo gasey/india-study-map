@@ -1,0 +1,2317 @@
+{
+  "slug": "lecturer-serchhip-2026-gs",
+  "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "General Studies",
+  "source": "Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-General Studies..pdf",
+  "sourceSha256": "2b950e44af7006e56b7a7d6c3d3fb071ea91fe2f13d42a98c93e3102d4f7fa80",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Technology and Innovation",
+        "b": "A Spirit of Dialogue",
+        "c": "Rebuilding Trust",
+        "d": "Collaboration for the Intelligent Age"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The official theme of World Economic Forum 2026 was:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "About 50-70 per cent",
+        "b": "Up to 80 per cent",
+        "c": "Over 95 per cent",
+        "d": "About 60-90 per cent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On approximately what percentage of goods does the India–EU Free Trade Agreement (2026) aim to reduce tariffs?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "People - Artificial Intelligence – Governance",
+        "b": "Growth – Governance – Progress",
+        "c": "People - Artificial Intelligence – Growth",
+        "d": "People – Planet – Progress"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the correct pair that denotes the foundational pillars of the Indi- AI Impact Summit 2026.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alpine Skiing",
+        "b": "Bobsleigh",
+        "c": "Short Track Speed Skating",
+        "d": "Cross-Country Skiing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stanzin Lundup represented India at the Winter Olympics 2026 (Milano/ Cortina) in which event?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(5+3+2+4)",
+        "b": "(5+3+3+4)",
+        "c": "(5+2+3+5)",
+        "d": "(4+3+4+4)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which pedagogical structure is recommended under the New Education Policy 2020?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Andhra Pradesh",
+        "b": "Himachal Pradesh",
+        "c": "Mizoram",
+        "d": "Jharkhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Based on the Union Budget 2026–27, which of the following states has been designated for the Dedicated Rare Earth Corridors?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buddhism",
+        "b": "Jainism",
+        "c": "Hinduism",
+        "d": "Islam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which religious tradition did Chandragupta Maurya embrace when he abdicated the throne?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zakat",
+        "b": "Jizya",
+        "c": "Ushr",
+        "d": "Khams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Delhi Sultanate, non-Muslims were required to pay which tax?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He followed a policy of religious discrimination against the Rajputs",
+        "b": "He reimposed the pilgrimage tax",
+        "c": "Akbar had more Rajput officials than any other Mughal ruler",
+        "d": "He established matrimonial alliances with Rajput royal families"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is correct regarding Akbar’s policy towards the Rajputs?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dadabhai Naoroji",
+        "b": "Sisir Kumar Gosh",
+        "c": "Devendranath Tagore",
+        "d": "Anandamohan Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who founded the East India Association in 1866 in London?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Separation of Moderates and Extremists",
+        "b": "Gained significant support from educated Indians",
+        "c": "Effective organization within the Home Rule Movement",
+        "d": "Self-government within the British Empire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following indicates the achievement of the Home Rule Movement?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aurobindo Gosh(i)Lokmanya",
+        "b": "Bal Gangadhar Tilak(ii)Bengal Public Opinion",
+        "c": "Lala Lajpat Rai(iii)Unhappy India",
+        "d": "Bipinchandrapal(iv)Bande Mataram (a)a-i, b-iv, c-iii, d-ii(b)a-ii, b-iii, c-i, d-iv (c)a-iv, b-iii, c-ii, d-i(d)a-iv, b-i, c-iii, d-ii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match List I and List II and select the correct answer from the code given below: List-IList-II",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nirgiri Range",
+        "b": "Aravalli Range",
+        "c": "Vindhya Range",
+        "d": "Zaskar Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the oldest fold mountain range in India?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhabar – Bhanghar – Terai – Khadar",
+        "b": "Terai – Bhabar – Khadar – Bhanghar",
+        "c": "Bhabar – Terai – Bhanghar – Khadar",
+        "d": "Bhanghar – Terai – Bhabar – Khadar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Based on relief features, what is the correct sequence of the Northern Plains’ divisions from north to south?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jet Stream",
+        "b": "Westerlies",
+        "c": "Trade wind",
+        "d": "Polar wind"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Narrow, high-speed winds that meander in the mid-latitudes near the tropopause and circle the Earth are known as:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clastic sedimentary rocks are classified based on organic content",
+        "b": "Igneous rocks are formed due to heat and pressure",
+        "c": "Sedimentary rocks are the original parent rocks",
+        "d": "The rate of cooling affects crystal size in igneous rocks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the correct statement about rocks from the options given below:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i and ii only",
+        "b": "ii and iii only",
+        "c": "i and iii only",
+        "d": "i, ii and iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to an expanding ocean, consider the following statements: (i)It is characterized by a prominent mid-ocean ridge system (ii)It is dominated by subduction zones along its margins (iii)The ocean basin is widening over geological time Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "originated after the formation of mountains",
+        "b": "glow slopes of the mountain ranges",
+        "c": "existed before the uplift of the Himalayas",
+        "d": "All are perennial rivers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antecedent drainage in the Himalayas indicates that the rivers:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Practices",
+        "b": "Codification",
+        "c": "Judicial decisions",
+        "d": "Statutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the option which is not associated with the characteristics of an unwritten constitution.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It provides free education up to higher secondary level",
+        "b": "It guarantees the right to a school of choice",
+        "c": "It provides free education up to higher education",
+        "d": "Compulsory education for children aged 6 to 14 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement describe the provision of Article 21A?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PM Surya Ghar: Muft Bijli Yojana",
+        "b": "Pradhan Mantri Kisan Urja Suraksha Evam Utthaan Mahabhiyaan",
+        "c": "Pradhan Mantri Sahaj Bijli Har Ghar Yojana",
+        "d": "Deen Dayal Upadhyaya Gram Jyoti Yojana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following schemes aims to achieve rooftop solar installations in one crore households in the residential sector by FY 2026–27?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fees and fines collected by the government",
+        "b": "Government borrowings from the public",
+        "c": "Interest received on loans given by the government",
+        "d": "Dividends and profits from public sector units"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is classified as a Capital Receipt in the government budget?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deep sea region",
+        "b": "Shallow coastal zone",
+        "c": "Desert area",
+        "d": "Polar ice caps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The littoral environment is found in which of the following areas?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "1, 2 and 3 only",
+        "d": "2, 3 and 4 Only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to food chains in an ecosystem, which of the following organisms is/are known as decomposers? 1.Fungi2.Virus 3.Bacteria4.Algae Select the correct answer using the option given below",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decomposition",
+        "b": "Nitrogen fixation",
+        "c": "Food web",
+        "d": "Nitrogen cycle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following represents energy transfer rather than nutrient cycling?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Greenhouse effect cools the Earth’s surface.",
+        "b": "Greenhouse effect warms the Earth by trapping heat.",
+        "c": "Greenhouse effect has no impact on the Earth’s climate.",
+        "d": "Greenhouse gases block incoming harmful solar radiation."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is true about the greenhouse effect in relation to climate change?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i – ii – iv – iii",
+        "b": "iii – i – iv – ii",
+        "c": "iv – i – iii – ii",
+        "d": "ii – iv – i - iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following units of length in ascending order: (i)Angstrom (ii)Micrometer (iii)Femtometer (iv)Nanometer Choose the correct sequence",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A saturated solution is one in which no more solute can be dissolved at a constant temperature.",
+        "b": "A dilute solution is formed when a saturated solution is heated and its ability to dissolve solute",
+        "c": "A concentrated solution contains much more solvent than solute.",
+        "d": "A saturated solution contains solvent less than or nearly equal to the amount of solute."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considering the following statement choose the correct one:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oligotrophication",
+        "b": "Biomagnification",
+        "c": "Ecological Succession",
+        "d": "Eutrophication"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The excessive enrichment of water with nutrients such as nitrogen and phosphorus, leading to algal growth and oxygen depletion, is called:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Evapotranspiration",
+        "b": "Photosynthesis",
+        "c": "Respiration",
+        "d": "Transpiration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Plants eliminate excess water through which of the following processes?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bahzar",
+        "b": "Leihkapui",
+        "c": "Sumhmun",
+        "d": "Tap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which section of the Mizo chief’s house was used for settling disputes?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pachuau",
+        "b": "Khiangte",
+        "c": "Vanchhawng",
+        "d": "Hrahsel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the Mizo sub-clans, which of the following was mainly assigned the duty of ‘Lal Sadawt’?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuavang",
+        "b": "Khuanu",
+        "c": "Pu Vana",
+        "d": "Khaltu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Mizo traditional beliefs, which of the following is considered as protector of village?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i only",
+        "b": "ii only",
+        "c": "iii only",
+        "d": "i, ii and iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With respect to traditional Mizo society, consider the following statements: (i)Each sub-clan was associated with its own ‘Sa’ (ii)‘Sakhua’ is another term used to refer to ‘Pathian’ (iii)Both ‘Sa’ and ‘Sakhua’ can be considered identical terms Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "G. Bourchier",
+        "b": "A. Playfair",
+        "c": "William Slim",
+        "d": "TH. Lewin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who established Biate Sipai (Lushai Scout)?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sel in",
+        "b": "Rap in",
+        "c": "Buk te",
+        "d": "Bawk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the temporary shelter used for living before constructing the main house called?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mual Zu",
+        "b": "Zulawm",
+        "c": "Hranden Zu",
+        "d": "Huai Zu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In traditional Mizo society, the most diligent youth and the best hunter in the Zawlbuk were given a special cup of Zu, called ______.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darzai",
+        "b": "Chhawn",
+        "c": "Arkeziak",
+        "d": "Zawngchal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Women tied cotton ornaments to the hair of warriors to mark and honour their success and bravery and is called:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To eliminate revenue deficit every year",
+        "b": "To cap only capital expenditure",
+        "c": "To institutionalise fiscal discipline through deficit targets",
+        "d": "To mandate zero public debt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best describes the purpose of India’s Fiscal Responsibility and Budget Management (FRBM) framework?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduction in exports due to currency appreciation",
+        "b": "Private investment rising due to public spending",
+        "c": "Reduction in private investment due to high government borrowing",
+        "d": "Migration from rural to urban sectors"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term “crowding out” in macroeconomics refers to:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the National Infrastructure Pipeline (NIP), consider the following statements: 1.It covers only central sector projects 2.It includes social as well as economic infrastructure 3.Majority share is expected from state governments and private sector Which statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Finance Commission",
+        "b": "Union Budget framework under Ministry of Finance",
+        "c": "RBI Monetary Policy Committee",
+        "d": "NITI Aayog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which institution classifies Indian government expenditure into revenue and capital categories?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digital payments",
+        "b": "Multi-platform digital education delivery",
+        "c": "Telemedicine",
+        "d": "E-governance procurement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PM e-Vidya initiative is primarily related to:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Digital Personal Data Protection frameworks: 1.They regulate only government data usage 2.They define obligations for data fiduciaries 3.They provide rights to individuals over personal data Which statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ": Outcome budgeting links expenditure to measurable results.",
+        "b": "Both true, R is not explanation",
+        "c": "A true, R false",
+        "d": "A false, R true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A): Outcome budgeting links expenditure to measurable results.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NPCI prints currency",
+        "b": "RBI runs retail payment apps",
+        "c": "NPCI operates payment infrastructure systems",
+        "d": "RBI regulates only private banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best distinguishes NPCI from RBI?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 3 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Sovereign Green Bonds, consider the following statements: 1.Proceeds must be used for environmentally sustainable projects 2.They are always issued in foreign currency 3.They are part of debt financing Which statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increase subsidy size",
+        "b": "reduce leakages in welfare delivery",
+        "c": "replace taxation",
+        "d": "promote exports"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary objective of Direct Benefit Transfer (DBT) is to:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding cooperative federalism in India: 1.It requires constitutionally equal tax powers 2.It encourages centre–state policy coordination 3.GST Council is an example Which statement(s) is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mauryan empire",
+        "b": "Mughal administration and economy",
+        "c": "Maratha warfare",
+        "d": "British trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ain-i-Akbari provides detailed data on:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "fixed crop prices",
+        "b": "recognised zamindars as revenue intermediaries",
+        "c": "eliminated land records",
+        "d": "applied only to South India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Permanent Settlement differed from Ryotwari because it:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about the Revolt of 1857: 1.It had uniform leadership 2.It included civil as well as military participation 3.It ended Company rule Which statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ": Moderates emphasised constitutional methods.",
+        "b": "Both false",
+        "c": "A true, R false",
+        "d": "A false, R true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A): Moderates emphasised constitutional methods.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Strong unitary state",
+        "b": "Federal structure with grouped provinces",
+        "c": "Separate electorates expansion",
+        "d": "Immediate partition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cabinet Mission Plan proposed:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Language diversity",
+        "b": "Divergent visions of constitutional structure",
+        "c": "Lack of newspapers",
+        "d": "Railways"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which factor most weakened early nationalist unity?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glaciation",
+        "b": "Intense leaching under high rainfall",
+        "c": "Volcanism",
+        "d": "River deposition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Laterite soil formation is most closely linked with:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Endemism and climatic stability",
+        "b": "Volcanic soil",
+        "c": "Sparse population",
+        "d": "Low rainfall variability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Western Ghats biodiversity is high mainly because of:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Warm air sinks",
+        "b": "Moist air loses rain on windward slope",
+        "c": "Cyclones weaken",
+        "d": "Deserts expand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rain-shadow effect occurs when:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Earthquake zones",
+        "b": "Monsoon rainfall belt",
+        "c": "Ocean salinity",
+        "d": "Soil pH"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ITCZ shift directly affects:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Low productivity",
+        "b": "High nutrient and fish zones",
+        "c": "Cyclone free",
+        "d": "Warm pools"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ocean upwelling zones are usually:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Youth stage",
+        "b": "Mature stage",
+        "c": "Advanced erosion stage",
+        "d": "Volcanic stage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to geomorphic cycles, peneplain indicates:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cannot amend Fundamental Rights",
+        "b": "Cannot alter core constitutional identity",
+        "c": "Needs referendum",
+        "d": "Needs Supreme Court approval"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Basic Structure doctrine implies Parliament:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Collective responsibility",
+        "b": "Real executive in cabinet",
+        "c": "Fixed executive tenure",
+        "d": "Fusion of powers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is NOT a feature of parliamentary system?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President",
+        "b": "Speaker",
+        "c": "Comptroller and Auditor General",
+        "d": "Prime Minister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Money Bill certification is done by:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1/3 members defect",
+        "b": "2/3 members merge",
+        "c": "Party splits",
+        "d": "Speaker resigns"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anti-defection law exception applies when:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1,2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Finance Commission recommends on: 1.Tax devolution 2.Grants-in-aid 3.Monetary policy Which are correct?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both Centre and States to legislate",
+        "b": "Only Centre",
+        "c": "Only States",
+        "d": "Local bodies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Concurrent List allows:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Federal provisions",
+        "b": "Fundamental Rights only",
+        "c": "Directive Principles of State Policy only",
+        "d": "Preamble only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Constitutional amendment needs ratification by states when it affects:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Corporate tax rates",
+        "b": "Bank lending interest rates",
+        "c": "Exchange rate regime",
+        "d": "Fiscal deficit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Repo rate transmission directly affects:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rise in software exports",
+        "b": "Increase in crude oil imports",
+        "c": "Rise in remittances",
+        "d": "Fall in gold imports"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following increases Current Account Deficit (CAD)?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1, 2 and 3",
+        "d": "2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about Human Capital Formation: 1.Includes health investment 2.Includes education and skills 3.Excludes on-the-job training Which statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ": Progressive taxation reduces post-tax inequality.",
+        "b": "Both true",
+        "c": "A true, R false",
+        "d": "A false, R true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A): Progressive taxation reduces post-tax inequality.",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Birth rate rises sharply",
+        "b": "Death rate rises",
+        "c": "Working-age share is highest",
+        "d": "Infant mortality rises"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In demographic transition, the dividend phase occurs when:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fuel subsidy",
+        "b": "Loan waiver",
+        "c": "Public health + sanitation + income support mix",
+        "d": "Import tariff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which policy most directly improves nutritional outcomes structurally?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to biodiversity hotspots, consider the following characteristics: 1.High endemism 2.High habitat loss 3.High population density mandatory Which characteristics are correct?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Afforestation only",
+        "b": "Reduced deforestation and forest degradation",
+        "c": "Desert farming",
+        "d": "Urban forestry only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "REDD+ mechanism primarily incentivizes:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ": Mangroves are efficient carbon sinks.",
+        "b": "Both true",
+        "c": "A true, R false",
+        "d": "A false, R true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A): Mangroves are efficient carbon sinks.",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CO‚",
+        "b": "Methane",
+        "c": "Nitrous oxide",
+        "d": "Oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which gas has highest global warming potential per unit mass (long term)?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1, 2 and 3",
+        "d": "2 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eutrophication leads to: 1.Algal bloom 2.Oxygen depletion 3.Fish mortality Which are correct?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase native biodiversity",
+        "b": "Outcompete native species",
+        "c": "Improve soil fertility",
+        "d": "Reduce predation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Invasive alien species typically:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Machines",
+        "b": "Microorganisms to clean pollutants",
+        "c": "Chemicals",
+        "d": "Fire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bioremediation uses:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Open ocean",
+        "b": "Desert",
+        "c": "Coral reefs",
+        "d": "Tundra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ecosystem has highest per-unit-area productivity?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ohm’s law",
+        "b": "Universal gravitation + centripetal force balance",
+        "c": "Boyle’s law",
+        "d": "Hooke’s law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which law explains why satellites remain in orbit?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrogen ion concentration powers",
+        "b": "Temperature",
+        "c": "Salinity",
+        "d": "Pressure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "pH scale is logarithmic because it measures:",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increasing activation energy",
+        "b": "Lowering activation energy",
+        "c": "Consuming substrate permanently",
+        "d": "Changing equilibrium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Enzymes function by:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alpha",
+        "b": "Beta",
+        "c": "Gamma",
+        "d": "Infrared"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which radiation has highest penetration?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vaccination",
+        "b": "Gene editing",
+        "c": "Cloning only",
+        "d": "DNA fingerprinting only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CRISPR technology relates to:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ": Vaccines may not always prevent infection.",
+        "b": "Both true",
+        "c": "A true, R false",
+        "d": "A false, R true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A): Vaccines may not always prevent infection.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High resistance",
+        "b": "Zero electrical resistance below critical temperature",
+        "c": "High magnetism only",
+        "d": "Zero heat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Superconductors are characterized by:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Full decay",
+        "b": "Half nuclei to decay",
+        "c": "Temperature drop",
+        "d": "Mass loss by evaporation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Half-life refers to time for:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Around phur 100",
+        "b": "Around phur 150",
+        "c": "Phur 200-300",
+        "d": "Phur 350-400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the term ‘tuthlawh zawn’ equivalent to in relation to harvested rice?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kawlper",
+        "b": "Chipthang",
+        "c": "Sahdal",
+        "d": "Sihhung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a type of traditional bird trap?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Muh puah silai",
+        "b": "Tukuli",
+        "c": "Aw-lan",
+        "d": "Pheicheh silai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What type of gun is regarded as the oldest type of gun used by Mizos?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tiger",
+        "b": "Bison",
+        "c": "Snake",
+        "d": "Bird"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In old Mizo folktales, ‘Tlubing’ was a type of:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zawn khum",
+        "b": "Zawn mau",
+        "c": "Dap khum",
+        "d": "Hlang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the name given to the stretcher on which the sick were transported between villages?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tuifim",
+        "b": "Pialtui",
+        "c": "Lunglohtui",
+        "d": "Famtui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the name given to the water that was drunk by the spirits of the dead on their way to ‘Pialral’?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuangchawi",
+        "b": "Sakung phun",
+        "c": "Chawngchen",
+        "d": "Sechhun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following ceremonial rituals did not involve the whole community?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1900",
+        "b": "1905",
+        "c": "1910",
+        "d": "1915"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did Mizoram had its first graveyard (thlanmual)?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Part IXA",
+        "b": "Part X",
+        "c": "Part XI",
+        "d": "Part III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Part of the Indian Constitution deals with relation between the union and the states?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1st June 2010",
+        "b": "10th April 2010",
+        "c": "1st April 2010",
+        "d": "21st March 2009"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did the Right of Children to Free and Compulsory Education Act come into force?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

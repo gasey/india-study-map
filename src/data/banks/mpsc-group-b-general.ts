@@ -785,6 +785,46 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/adfd-2025-technical-p3.pdf"
   },
   {
+    "id": "mpsc-group-b-adtp-2026-gs",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "post": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/adtp-2026-gs.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "post": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "paperNumber": "Technical Subject Paper-I",
+    "paperSubject": "Technical Subject Paper-I",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/adtp-2026-tech1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "post": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "paperNumber": "Technical Subject Paper-II",
+    "paperSubject": "Technical Subject Paper-II",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/adtp-2026-tech2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "post": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "paperNumber": "Technical Subject Paper-III",
+    "paperSubject": "Technical Subject Paper-III",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/adtp-2026-tech3.pdf"
+  },
+  {
     "id": "mpsc-group-b-agri-2025-gs",
     "examType": "Direct_NG",
     "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
@@ -148552,6 +148592,12272 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
   },
   {
+    "id": "mpsc-group-b-adtp-2026-gs-Q1",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The strategic significance of the India–Myanmar border for Mizoram is best explained by which of the following? 1.Free Movement Regime (FMR) 2.Act East Policy 3.Transnational insurgency networks Select the correct answer using the code below:",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q2",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who won the 2025 Booker Prize?",
+    "options": [
+      "Salman Rushdie",
+      "David Szalay",
+      "Arundhati Roy",
+      "Margaret Atwood"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “David Szalay”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q3",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Kaladan Multi-Modal Transit Transport Project is strategically important for Mizoram because it:",
+    "options": [
+      "Enhances tourism connectivity",
+      "Links Aizawl directly with Bangladesh",
+      "Provides an alternative route to the Bay of Bengal bypassing the Siliguri Corridor",
+      "Facilitates hydropower trade"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Provides an alternative route to the Bay of Bengal bypassing the Siliguri Corridor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q4",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country was formally admitted to the Association of Southeast Asian Nations (ASEAN) in 2025?",
+    "options": [
+      "Bhutan",
+      "Maldives",
+      "East Timor (Timor Leste)",
+      "Papua New Guinea"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “East Timor (Timor Leste)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q5",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to BRICS expansion, consider the following statements: 1.Expansion dilutes China’s influence within BRICS. 2.New members enhance the group’s energy security profile. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q6",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The nine year old Esther Lalduhawmi Hnamte, a singing prodigy from Mizoram received which of the following awards in December, 2025?",
+    "options": [
+      "Rashtriya Bal Puraskar",
+      "Bal Shakti Puraskar",
+      "Shaurya Chakra",
+      "Nari Shakti Puraskar"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rashtriya Bal Puraskar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q7",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Mizoram’s declaration as India’s first fully literate state is significant because it:",
+    "options": [
+      "Is based on Census 2011 literacy criteria",
+      "Includes only adult literacy",
+      "Measures functional literacy beyond mere reading and writing",
+      "Is linked with National Education Policy targets"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Measures functional literacy beyond mere reading and writing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q8",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the name of the flagship initiative approved by the Union Cabinet to strengthen India’s export competitiveness?",
+    "options": [
+      "Export Development Programme (EDP)",
+      "Export Promotion Mission (EPM)",
+      "National Export Facilitation Scheme (NEFS)",
+      "Trade and Export Growth Initiative (TEGI)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Export Promotion Mission (EPM)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q9",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the Bana Kaih scheme of Mizoram, consider the following statements: 1.It focuses on cluster-based livelihood generation. 2.It integrates animal husbandry with horticulture. 3.It is fully funded by the Ministry of Rural Development, Government of India. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1 and 2 only"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q10",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Where was the 23rd India–Russia Annual Summit held in December 2025?",
+    "options": [
+      "New Delhi",
+      "Chennai",
+      "Bengaluru",
+      "Kolkata"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “New Delhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q11",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of Polycrisis is increasingly used in international discourse because:",
+    "options": [
+      "Crises occur sequentially",
+      "Economic crises dominate other crises",
+      "Multiple crises interact and amplify each other systemically",
+      "Global institutions have collapsed"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Multiple crises interact and amplify each other systemically”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q12",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country won its fourth Davis Cup title 2025?",
+    "options": [
+      "Italy",
+      "Spain",
+      "Australia",
+      "Brazil"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Italy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q13",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The slogan “Do or Die” is associated with which movement?",
+    "options": [
+      "Non-Cooperation Movement",
+      "Civil Disobedience Movement",
+      "Home Rule Movement",
+      "Quit India Movement"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Quit India Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q14",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following was popularly known as the ‘Frontier Gandhi’?",
+    "options": [
+      "Hasrat Mohani",
+      "Maulana Abul Kalam Azad",
+      "Khan Abdul Ghaffar Khan",
+      "Iqbal Khan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Khan Abdul Ghaffar Khan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q15",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Indus Valley Civilization sites is located in Gujarat?",
+    "options": [
+      "Harappa",
+      "Mohenjo-daro",
+      "Lothal",
+      "Kalibangan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lothal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q16",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Lodhi dynasty was established by which tribe of Afghans?",
+    "options": [
+      "Ghizlai",
+      "Ilabari",
+      "Aibak",
+      "Khalji"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ghizlai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q17",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following was the founder of the Maurya Empire?",
+    "options": [
+      "Bindusara",
+      "Ashoka",
+      "Chandragupta Maurya",
+      "Brihadratha"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chandragupta Maurya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q18",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When Congress leaders condemned the Montague Chelmsford Report, many moderates left the party to form the",
+    "options": [
+      "Swarajya Party",
+      "Indian Freedom Party",
+      "Independence Federation of India",
+      "Indian Liberal Federation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Indian Liberal Federation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q19",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the Bhakti movement, which of the following statements is correct?",
+    "options": [
+      "It originated in North India",
+      "It rejected temple worship entirely",
+      "It emphasized personal devotion over ritualism",
+      "It was confined to Vaishnavism"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It emphasized personal devotion over ritualism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q20",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the early nationalists worked to mobilize public opinion in England in favour of the Indian National movement?",
+    "options": [
+      "Gopal Krishna Gokhale",
+      "Lala Lajpat Rai",
+      "Dadabhai Naoroji",
+      "DE Wacha"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q21",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following movements was launched by Mahatma Gandhi in 1920?",
+    "options": [
+      "Civil Disobedience Movement",
+      "Quit India Movement",
+      "Non-Cooperation Movement",
+      "Individual Satyagraha"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Non-Cooperation Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q22",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following scholars accompanied Mahmud of Ghazni during his invasions on India?",
+    "options": [
+      "Firdausi",
+      "Firistha",
+      "Al Biruni",
+      "Omar Khayyam"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Al Biruni”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q23",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the Cabinet Mission Plan (1946), which of the following is correct?",
+    "options": [
+      "It proposed immediate partition",
+      "It rejected a Constituent Assembly",
+      "It suggested a weak Centre with strong provinces",
+      "It established a federal court"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It suggested a weak Centre with strong provinces”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q24",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Bhagat Singh, Rajguru and Sukhdev along with Jaigopal were involved in which among the following conspiracy case?",
+    "options": [
+      "Kanpur Conspiracy Case",
+      "Lahore Conspiracy Case",
+      "Bhagalpur Conspiracy Case",
+      "Alipore Bomb case"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lahore Conspiracy Case”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q25",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Deccan Plateau is primarily composed of which type of rocks?",
+    "options": [
+      "Sedimentary rocks",
+      "Metamorphic rocks",
+      "Igneous rocks",
+      "Alluvial rocks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Igneous rocks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q26",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which earthquake wave moves with a push-pull motion?",
+    "options": [
+      "Primary waves",
+      "Secondary wave",
+      "Love waves",
+      "Rayleigh waves"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Primary waves”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q27",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following physiographic divisions of India is geologically the oldest?",
+    "options": [
+      "Himalayan Mountains",
+      "Indo-Gangetic Plain",
+      "Coastal Plains",
+      "Peninsular Plateau"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Peninsular Plateau”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q28",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Andes mountain range is located in which of the following continents?",
+    "options": [
+      "Asia",
+      "Europe",
+      "South America",
+      "North America"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “South America”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q29",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following correctly explains the term “demographic dividend”?",
+    "options": [
+      "Increase in total population due to high fertility",
+      "Increase in elderly population",
+      "Economic growth potential arising from a higher proportion of working-age population",
+      "Decline in dependency ratio due to high mortality"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Economic growth potential arising from a higher proportion of working-age population”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q30",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to urbanization in India, which one of the following factors has contributed the most to the growth of metropolitan cities?",
+    "options": [
+      "Natural increase of population",
+      "Expansion of municipal boundaries",
+      "Development of satellite towns",
+      "Rural–urban migration"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rural–urban migration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q31",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of “Sequent Occupance” in human geography was propounded by:",
+    "options": [
+      "Vidal de la Blache",
+      "Ellen Churchill Semple",
+      "Carl Sauer",
+      "Derwent Whittlesey"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Derwent Whittlesey”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q32",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Demographic Transition Model’ stage characterized by low birth rate and low death rate corresponds to:",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Stage IV”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q33",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following crop types are affected generally positively by western disturbances in India?",
+    "options": [
+      "Rabi Crop",
+      "Kharif Crop",
+      "Zaid Crop",
+      "None of them"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rabi Crop”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q34",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which sector of the economy involves activities like farming and fishing?",
+    "options": [
+      "Secondary sector",
+      "Tertiary sector",
+      "Quaternary sector",
+      "Primary sector"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Primary sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q35",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which state is Kudremukh which is famous for iron ore located?",
+    "options": [
+      "Karnataka",
+      "Bihar",
+      "Odisha",
+      "Assam"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Karnataka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q36",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the El Niño phenomenon, consider the following statements: 1.It is associated with abnormal warming of surface waters in the eastern Pacific Ocean. 2.It generally weakens the Indian southwest monsoon. 3.It leads to increased upwelling along the coast of Peru. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q37",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the maximum life of an ordinance promulgated by President of India?",
+    "options": [
+      "6 months",
+      "7.5 months",
+      "8 months",
+      "10 months"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “7.5 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q38",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which part of the Indian Constitution deals with Fundamental Rights?",
+    "options": [
+      "Part II",
+      "Part V",
+      "Part III",
+      "Part IV"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Part III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q39",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the minimum number of members required to be present in any one of the two Houses of Parliament for its functioning?",
+    "options": [
+      "One fifth of total members",
+      "One sixth of total members",
+      "One seventh of total members",
+      "One tenth of total members"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “One tenth of total members”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q40",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the Rajya Sabha: 1.It cannot be dissolved but one-third of its members retire every two years. 2.Money Bills can be introduced in the Rajya Sabha. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 only",
+      "2 only",
+      "1 and 2"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q41",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not correct regarding the pardoning power of the President?",
+    "options": [
+      "He is bound to give reasons for acceptance or denial of the mercy petition",
+      "He is not mandated to consult the Council of Ministers",
+      "The petitioner has no right for oral hearing",
+      "His pardoning power is within the scope of judicial review"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “He is not mandated to consult the Council of Ministers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q42",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a function of the Election Commission of India?",
+    "options": [
+      "Preparation of electoral rolls",
+      "Conduct of elections",
+      "Recognition of political parties",
+      "Framing laws related to elections"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Framing laws related to elections”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q43",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Chairman of which of the following parliamentary committees is invariably from the members of the ruling Party?",
+    "options": [
+      "Estimates Committee",
+      "Committee on Public Undertakings",
+      "Public Accounts Committee",
+      "Committee on Delegated Legislation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Estimates Committee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q44",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the Concurrent List in the Seventh Schedule of the Indian Constitution: 1.Both the Parliament and State Legislatures can make laws on these subjects. 2.In case of conflict, the State law prevails over the Central law. 3.The President can issue directions to States to implement Central laws on Concurrent List subjects. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q45",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The electoral college of the President of India consists of which of the following :",
+    "options": [
+      "Elected and nominated Members of Parliament and State legislatures",
+      "Elected members of Parliament and state legislatures",
+      "Elected members of Parliament but not the elected and nominated in case of a bicameral",
+      "Elected members of all the Union territories."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Elected members of Parliament and state legislatures”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q46",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Finance Commission of India: 1.Is constituted under Article 280 of the Constitution. 2.Recommends the distribution of net proceeds of taxes between the Union and the States. 3.Its recommendations are binding on the Union and the States. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q47",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the Fundamental Rights in India, which of the following statements is correct?",
+    "options": [
+      "Right to Property is a Fundamental Right under Article 21.",
+      "Fundamental Rights can be suspended only during a National Emergency.",
+      "Right to Constitutional Remedies is considered the “heart and soul” of Fundamental Rights.",
+      "Fundamental Rights are not enforceable by the judiciary."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Right to Constitutional Remedies is considered the “heart and soul” of Fundamental Rights.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q48",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A): Fundamental Duties are enforceable in a court of law.",
+    "options": [
+      ": Fundamental Duties are enforceable in a court of law.",
+      "A is false but R is true",
+      "A is true but R is false",
+      "Both A and R are false"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A is false but R is true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q49",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a primary indicator of human development?",
+    "options": [
+      "Gross Domestic Product",
+      "Inflation rate",
+      "Human Development Index (HDI)",
+      "Fiscal deficit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Human Development Index (HDI)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q50",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What do we call a situation when the Government meets the gap of the public expenditure and public revenue by printing new currency?",
+    "options": [
+      "Fiscal Deficit",
+      "Fiscal Stimulation",
+      "Deficit Financing",
+      "Differential accumulation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Deficit Financing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q51",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is true about Sustainable Development Goals (SDGs) in India?",
+    "options": [
+      "They are legally binding",
+      "India has integrated SDGs into national policies",
+      "They are only applicable to rural areas",
+      "They focus exclusively on economic growth"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “India has integrated SDGs into national policies”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q52",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who protects the investors in a stock market?",
+    "options": [
+      "SEBI",
+      "RBI",
+      "Government of India",
+      "Ministry of Finance"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “SEBI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q53",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following are components of inclusive growth? 1.Equity in income and opportunities 2.Access to social services 3.Environmental sustainability",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q54",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The belief that economic growth will trickle down to all sectors is known as",
+    "options": [
+      "Dispersal theory",
+      "Decentralized growth theory",
+      "Pump priming theory",
+      "Trickle-down theory"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Trickle-down theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q55",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding poverty measurement in India: 1.Poverty can be measured using income-based approach. 2.Poverty can be measured using consumption-based approach. Which of the statements is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q56",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the primary objective of the PM-AASHA scheme?",
+    "options": [
+      "To provide free education in tribal areas",
+      "To promote organic farming",
+      "To improve health infrastructure in rural areas",
+      "To ensure remunerative prices for farmers’ produce"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To ensure remunerative prices for farmers’ produce”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q57",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements about India’s population policy is correct?",
+    "options": [
+      "India has a one-child policy",
+      "India focuses on family planning, health care, and reproductive health",
+      "India encourages population growth to boost labor supply",
+      "India has abolished family planning programs"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “India focuses on family planning, health care, and reproductive health”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q58",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the main objective of the PM Vidyalakshmi Scheme?",
+    "options": [
+      "Provide financial support to meritorious students for higher education",
+      "Provide free laptops to students",
+      "Promote digital learning in tribal areas",
+      "Offer skill development courses"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Provide financial support to meritorious students for higher education”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q59",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following schemes addresses nutritional support to pregnant and lactating women in India?",
+    "options": [
+      "Mid-Day Meal Scheme",
+      "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "National Health Mission",
+      "Beti Bachao Beti Padhao"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pradhan Mantri Matru Vandana Yojana (PMMVY)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q60",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In India, National Income is computed by",
+    "options": [
+      "Ministry of Finance",
+      "National Statistical Organization",
+      "NITI Ayog",
+      "Indian Statistical Institute"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “National Statistical Organization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q61",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Kyoto Protocol is associated with:",
+    "options": [
+      "Wildlife conservation",
+      "Reducing greenhouse gas emissions",
+      "Deforestation control",
+      "Ozone layer protection"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Reducing greenhouse gas emissions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q62",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Basel Convention is an international treaty concerned with",
+    "options": [
+      "Conservation of biodiversity",
+      "Depletion of ozone layer",
+      "Control of movement of hazardous wastes and their disposal",
+      "Regulation of environmental impact of projects having trans boundary effects"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Control of movement of hazardous wastes and their disposal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q63",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Ramsar Convention deals with:",
+    "options": [
+      "Forest conservation",
+      "Wetlands of international importance",
+      "Endangered species",
+      "Climate change mitigation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Wetlands of international importance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q64",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The greatest threat to the world’s coral reef system emanates from",
+    "options": [
+      "UV light and",
+      "Starvation caused by decline in zooplankton",
+      "Cyanide fishing",
+      "More frequent coral bleaching"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “More frequent coral bleaching”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q65",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about the National Green Tribunal (NGT): 1.It deals with cases related to environmental protection. 2.Its decisions are binding in nature. Which of the statements is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q66",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the study of the rings in the trees to estimate the life span and the climatic conditions prevailing in the past called?",
+    "options": [
+      "Ring analysis",
+      "Linear analysis",
+      "Paleoclimatology",
+      "Dendrochronology"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dendrochronology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q67",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is an effect of global warming?",
+    "options": [
+      "Ozone layer depletion",
+      "Acid rain",
+      "Melting of glaciers and rising sea levels",
+      "Increase in soil fertility"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Melting of glaciers and rising sea levels”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q68",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Red Data Book is associated with:",
+    "options": [
+      "Climate change",
+      "Endangered species",
+      "Wetland management",
+      "Soil fertility"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Endangered species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q69",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The “Chipko Movement” in India was related to:",
+    "options": [
+      "Water conservation",
+      "Wildlife protection",
+      "Forest conservation",
+      "Renewable energy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Forest conservation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q70",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "“Carbon footprint” refers to:",
+    "options": [
+      "Amount of carbon in soil",
+      "Carbon content in food",
+      "Total greenhouse gas emissions caused directly or indirectly by an individual or organization",
+      "Forest carbon storage"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Total greenhouse gas emissions caused directly or indirectly by an individual or organization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q71",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Indian states has the highest forest cover?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Punjab"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Madhya Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q72",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following are major greenhouse gases? 1.Carbon dioxide 2.Methane 3.Nitrous oxide",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1 and 3 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q73",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which vitamin is primarily synthesized in the human body when exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vitamin D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q74",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following principles is used by Bats?",
+    "options": [
+      "RADAR (Radio Detective & Ranging)",
+      "SONAR (Sound Navigation & Ranging)",
+      "law of reflection",
+      "law of diffraction"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “SONAR (Sound Navigation & Ranging)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q75",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following particles has no electric charge?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Positron"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Neutron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q76",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Very small-time intervals are accurately measured by",
+    "options": [
+      "Pulsars",
+      "White dwarfs",
+      "Atomic clocks",
+      "Quartz clocks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Atomic clocks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q77",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is responsible for acid rain?",
+    "options": [
+      "Carbon dioxide only",
+      "Methane only",
+      "Sulphur dioxide and nitrogen oxides",
+      "Oxygen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sulphur dioxide and nitrogen oxides”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q78",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not an alloy?",
+    "options": [
+      "Bronze",
+      "Brass",
+      "Steel",
+      "Zinc"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zinc”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q79",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following about ozone in the stratosphere: 1.It absorbs UV-B radiation 2.It protects living organisms from DNA damage 3.Ozone depletion leads to increased risk of skin cancer",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3",
+      "1 and 3 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q80",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "At what temperature (in Fahrenheit) does pure water freeze?",
+    "options": [
+      "32",
+      "0",
+      "48",
+      "37"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “32”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q81",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following metals is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Mercury",
+      "Aluminium"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mercury”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q82",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following proteins is found in nails?",
+    "options": [
+      "Keratin",
+      "Histone",
+      "Actin",
+      "Elastin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Keratin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q83",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of bioremediation?",
+    "options": [
+      "Using chlorine to treat water",
+      "Using microbes to degrade oil spills",
+      "Burning industrial waste",
+      "Using chemical fertilizers to improve soil"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Using microbes to degrade oil spills”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q84",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT correct about Sodium chloride?",
+    "options": [
+      "It is a covalent compound",
+      "It is also known as common salt",
+      "It is also used in de-icing of roadways during snowfall",
+      "It is used as a food preservative"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It is a covalent compound”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q85",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Sacrificial rites performed for good crops was known as",
+    "options": [
+      "Hnuaipui",
+      "Hnuaite",
+      "Fano dawi",
+      "Ching"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fano dawi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q86",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Khawnglung Run occurred during",
+    "options": [
+      "Chhim leh Hmar Indo",
+      "Chhak leh Thlang Indo",
+      "Thlawnrawn rawt",
+      "Vailen vawikhatna"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chhim leh Hmar Indo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q87",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the type of dispute settlement in traditional Mizo society wherein neither party was found to be at fault and no penalties were imposed on neither?",
+    "options": [
+      "Salam",
+      "Chalrem",
+      "Inthathen",
+      "Leichawi"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chalrem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q88",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The final phase of clearance of weeds in Mizo jhuming cultivation is called",
+    "options": [
+      "Hnunpui lak",
+      "Hnuhhram lak",
+      "Pawhchhiat",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pawhchhiat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q89",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which year was known as ‘Arsi tlak kum”?",
+    "options": [
+      "1870",
+      "1886",
+      "1890",
+      "1900"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1886”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q90",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "“Awkpaka” in Mizo traditional society was related to",
+    "options": [
+      "Thlam",
+      "Pum",
+      "Lal In",
+      "Zawlbuk"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zawlbuk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q91",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year did the first Thingtam occur?",
+    "options": [
+      "1861",
+      "1872",
+      "1880",
+      "1898"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1880”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q92",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Mizo alphabet ‘A, Aw, B’ was introduced by the missionaries in which year",
+    "options": [
+      "1874",
+      "1880",
+      "1886",
+      "1894"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1894”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q93",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Chin-Lushai Conference of 1892 was held in which city?",
+    "options": [
+      "Calcutta",
+      "Dacca",
+      "Bombay",
+      "Delhi"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Calcutta”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q94",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When one suffers from a serious stomach problem, the early Mizos believed it was done by an evil spirit called",
+    "options": [
+      "Khawhring",
+      "Khawvar",
+      "Lasi",
+      "Chawmnu"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Khawhring”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q95",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Superintendent was given the nickname “Lalman Sap”?",
+    "options": [
+      "Captain Browne",
+      "R.B. McCabe",
+      "A.W. Davis",
+      "J. Shakespear"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “R.B. McCabe”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q96",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Land settlement in the Lushai Hills was introduced by",
+    "options": [
+      "Mac Donald",
+      "AG McCall",
+      "J Shakespear",
+      "LL Peters"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “J Shakespear”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q97",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Ramhual was abolished in 1951during whose Superintendency?",
+    "options": [
+      "A.G. McCall",
+      "A.R.H. MacDonald",
+      "S.N. Barkataki",
+      "L.L. Peters"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “S.N. Barkataki”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q98",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term ‘zachhamlak’ used by the Mizos refers to",
+    "options": [
+      "Harvesting of crops after due date",
+      "An unexpected fortune received by the poor",
+      "Sudden and unexplained death",
+      "Revenge of the murder of a close relative"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sudden and unexplained death”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q99",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first Mizo who was able to read and write was",
+    "options": [
+      "R Dala",
+      "Makthanga",
+      "Khamliana",
+      "Suakliana"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Khamliana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-gs-Q100",
+    "paperId": "mpsc-group-b-adtp-2026-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following was not among the first three Bible books to be translated into Mizo?",
+    "options": [
+      "Chanchin Tha Luka Ziak",
+      "Chanchin Tha Johana Ziak",
+      "Tirhkohte Thiltih",
+      "Thupuan"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Thupuan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q1",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which theory explains urban growth in wedge-shaped sectors?",
+    "options": [
+      "Concentric Zone",
+      "Multiple Nuclei",
+      "Central Place",
+      "Sector Theory"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sector Theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q2",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Lewis Mumford is best known for writing:",
+    "options": [
+      "The Death and Life of Great American Cities",
+      "Urban Land Economics",
+      "The City in History",
+      "Tomorrow: A Peaceful Path to Real Reform"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The City in History”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q3",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In the context of ancient Indian town planning, which of the following refers to a village layout shaped like a lotus?",
+    "options": [
+      "Dandaka",
+      "Sarvatobhadra",
+      "Padmaka",
+      "Nandyavarta"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Padmaka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q4",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Concentric Zone Theory was developed using studies of:",
+    "options": [
+      "Paris",
+      "London",
+      "Chicago",
+      "Berlin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chicago”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q5",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Patrick Geddes emphasized which planning sequence?",
+    "options": [
+      "Plan–Survey–Implement",
+      "Survey–Analysis–Plan",
+      "Design–Build–Evaluate",
+      "Observe–Control–Expand"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Survey–Analysis–Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q6",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of “Chowk” in traditional Indian towns primarily served as:",
+    "options": [
+      "Religious enclosure",
+      "Military parade ground",
+      "Public space for trade and social interaction",
+      "Residential cluster"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Public space for trade and social interaction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q7",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Tony Garnier proposed the:",
+    "options": [
+      "Garden City",
+      "Radiant City",
+      "Linear City",
+      "Industrial City (Cité Industrielle)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Industrial City (Cité Industrielle)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q8",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Orthodox planning mainly stresses:",
+    "options": [
+      "Community control",
+      "Market forces and social norms",
+      "Expert-led rational decision making",
+      "Political and traditional negotiation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Expert-led rational decision making”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q9",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Advocacy planning was proposed by:",
+    "options": [
+      "Pattrick Geddes",
+      "Lewis Mumford",
+      "Peter Hall",
+      "Paul Davidoff"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Paul Davidoff”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q10",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Systems approach views cities as:",
+    "options": [
+      "Static maps",
+      "Interrelated subsystems",
+      "Economic market hubs",
+      "Political institutions"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Interrelated subsystems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q11",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Mixed scanning model attempts to correct limitations of:",
+    "options": [
+      "Advocacy planning",
+      "Pure rational planning",
+      "Equity planning",
+      "Structuralism"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pure rational planning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q12",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Ancient Mesopotamian cities were mainly organized around:",
+    "options": [
+      "Agricultural fields",
+      "Markets",
+      "Temples and palaces",
+      "Military camps"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Temples and palaces”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q13",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a ‘Primary Survey’ in town planning?",
+    "options": [
+      "Collecting data from the Census of India",
+      "House-to-house socio-economic interview",
+      "Referring to existing satellite imagery",
+      "Reviewing previous Master Plan documents"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “House-to-house socio-economic interview”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q14",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What does ‘ECS’ stand for in the context of transport planning and zoning regulations?",
+    "options": [
+      "Economic Car Space",
+      "Equivalent Car Space",
+      "Essential Commodity Space",
+      "Environmental Clearance Standard"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Equivalent Car Space”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q15",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which technique is used to estimate future population by assuming a constant percentage growth rate?",
+    "options": [
+      "Arithmetic Increase Method",
+      "Geometric Increase Method",
+      "Incremental Increase Method",
+      "Graphical Method"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Geometric Increase Method”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q16",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "‘Zoning Regulations’ are primarily a tool for:",
+    "options": [
+      "Property tax regulation",
+      "Improving city’s economic growth",
+      "Controlling use of land and density",
+      "Limiting land development"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Controlling use of land and density”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q17",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘Origin-Destination (O-D) Survey’ is a specific technique used in:",
+    "options": [
+      "Housing planning",
+      "Transport planning",
+      "Industrial planning",
+      "Environmental planning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Transport planning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q18",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "‘Non-conforming land use’ refers to:",
+    "options": [
+      "Land that cannot be built upon",
+      "Existing land use not in accordance with Master Plan zoning",
+      "Government land use that need not follow Master Plan zoning",
+      "Land that has no legal owner"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Existing land use not in accordance with Master Plan zoning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q19",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "According to URDPFI guidelines, for a town to be classified as a ‘Hill Town,’ it should generally be located at an altitude of more than:",
+    "options": [
+      "300 meters",
+      "600 meters",
+      "800 meters",
+      "1,000 meters"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “600 meters”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q20",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which index is commonly used to measure the ‘Degree of Urbanization’ in a region?",
+    "options": [
+      "Rate of perceived Urbanism",
+      "Portion of urbanized area in percentage",
+      "Percentage of total population living in urban areas",
+      "Number of cars per household"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Percentage of total population living in urban areas”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q21",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which Census organization in India is responsible for conducting the decennial census?",
+    "options": [
+      "NITI Aayog",
+      "Survey of India (SoI)",
+      "Office of the National Census Survey of India (ONCSI)",
+      "Office of the Registrar General and Census Commissioner, India"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Office of the Registrar General and Census Commissioner, India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q22",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In a GIS environment, ‘Raster Data’ is represented by:",
+    "options": [
+      "Lines and Points",
+      "A grid of cells or pixels",
+      "Text files",
+      "Circular charts"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A grid of cells or pixels”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q23",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Town Planning Scheme is mainly associated with:",
+    "options": [
+      "Brownfield development",
+      "Greenfield development",
+      "Central schemes in aid of implementation of Master Plan",
+      "GIS-based Master Plan."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Greenfield development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q24",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of a ‘Screen Line Survey’ in transport planning?",
+    "options": [
+      "To count passengers inside vehicles",
+      "To detect double counting of trips and validate survey data",
+      "To measure the speed of vehicles",
+      "To check the license plates of cars"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To detect double counting of trips and validate survey data”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q25",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What is the standard height of a ‘Mountain/High Curb’ used in urban transport design?",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "20 cm",
+      "50 cm"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “20 cm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q26",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What does ‘PCU’ stand for in traffic engineering?",
+    "options": [
+      "Private Car Usage",
+      "Passenger Car Unit",
+      "Public Carrier Utility",
+      "Path Consistency Unit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Passenger Car Unit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q27",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "A ‘Dead-end’ street that provides a turnaround area at the end is called a:",
+    "options": [
+      "Loop",
+      "Alley",
+      "Cul-de-sac",
+      "Service Road"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cul-de-sac”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q28",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which transport mode is generally the most energy-efficient for mass transit in high-density corridors?",
+    "options": [
+      "Private Cars",
+      "Rail-based Transit (Metro/LRT)",
+      "E-Buses",
+      "Aggregators like Uber"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rail-based Transit (Metro/LRT)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q29",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In the ‘Four-Step Model’ of transport planning, which step involves the use of a ‘Logit Model’?",
+    "options": [
+      "Trip Generation",
+      "Trip Distribution",
+      "Modal Split",
+      "Traffic Assignment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Modal Split”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q30",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "As per URDPFI guidelines, the suggested Survey method for conducting intersection survey is:",
+    "options": [
+      "Cordon count",
+      "Manual Count",
+      "Video count",
+      "Registration number counts survey"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Manual Count”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q31",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What is the ‘Ruling Gradient’ recommended by IRC for main roads in mountainous terrain like Mizoram?",
+    "options": [
+      "2%",
+      "5%",
+      "10%",
+      "15%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q32",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is a ‘Demand-Side’ travel management strategy?",
+    "options": [
+      "Widening an existing road",
+      "Building a new flyover",
+      "Congestion pricing",
+      "Increasing the number of buses"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Congestion pricing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q33",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In ‘Origin-Destination’ (O-D) surveys, the ‘Desire Line’ diagram represents:",
+    "options": [
+      "The direct path between origin and destination regardless of the existing road network",
+      "The actual path taken by the vehicle from origin to destination",
+      "The speed of vehicles on a specific road",
+      "The line from origin to destination along the road taken."
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q34",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "A ‘Cordon Survey’ is typically conducted to:",
+    "options": [
+      "Measure the depth of the road pavement all the way to plot boundary",
+      "Determine the volume and nature of traffic entering and leaving a defined area",
+      "Count pedestrians in a park",
+      "Determine the speed of traffic entering and leaving a defined area"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Determine the volume and nature of traffic entering and leaving a defined area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q35",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "‘Transit-Oriented Development’ (TOD) focuses on:",
+    "options": [
+      "Moving all residents to transit oriented lands",
+      "High-density, mixed-use development within walking distance of transit hubs",
+      "Low-density, mixed-use development within walking distance of transit hubs",
+      "Reducing the number of railway stations to improve speed"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “High-density, mixed-use development within walking distance of transit hubs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q36",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which type of intersection control is most suitable for heavy traffic volumes on all approaching roads in a hilly urban area?",
+    "options": [
+      "Simple Stop signs",
+      "Small Roundabouts",
+      "Uncontrolled T-junctions",
+      "Grade-separated interchanges"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Grade-separated interchanges”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q37",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "‘Paratransit’ refers to:",
+    "options": [
+      "High-speed bullet trains",
+      "Flexible transport services",
+      "Public transport specially designed for PwDs",
+      "Underground metro systems"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Flexible transport services”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q38",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "According to URDPFI, the ‘Walking Distance’ to the nearest bus stop in an urban area should ideally not exceed:",
+    "options": [
+      "200 meters",
+      "300 meters",
+      "4 kilometers",
+      "400 meters"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “400 meters”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q39",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which survey is used to determine the ‘Trip Rate’ for different land uses?",
+    "options": [
+      "Speed and Delay survey",
+      "Parking survey",
+      "Road Inventory survey",
+      "Home Interview Survey"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Home Interview Survey”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q40",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In transport modeling, ‘Zone Centroids’ represent:",
+    "options": [
+      "The location of prime importance in a city where majority of travel commences",
+      "The theoretical point where all trips in a traffic zone are assumed to start or end",
+      "The geometric center of the city",
+      "The densest part of the city to be pedestrianized"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The theoretical point where all trips in a traffic zone are assumed to start or end”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q41",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘Capacity’ of a road is defined as:",
+    "options": [
+      "The maximum number of lanes it has",
+      "The maximum hourly rate at which vehicles can reasonably be expected to traverse a section",
+      "The total number of vehicles crossing a particular line of a road at a given time.",
+      "The average number of vehicles traversing through the cordon point of the road within 15 minutes."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The maximum hourly rate at which vehicles can reasonably be expected to traverse a section”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q42",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which organization in India provides the standards for ‘Geometric Design of Roads’?",
+    "options": [
+      "NITI Aayog",
+      "Indian Roads Congress (IRC)",
+      "Census of India",
+      "Ministry of Road Transport & Highways (MoRTH)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Indian Roads Congress (IRC)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q43",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘User Equilibrium’ principle (Wardrop’s First Principle) states that:",
+    "options": [
+      "No individual driver can reduce their travel time by unilaterally changing routes",
+      "Total system travel time is minimized by choosing the road with the widest cross section",
+      "All drivers must use the same lane at a given time",
+      "Public transport is always faster than private cars"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “No individual driver can reduce their travel time by unilaterally changing routes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q44",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In hill road design, ‘Extra Widening’ of the carriageway at sharp curves is required due to:",
+    "options": [
+      "Thermal expansion of the road",
+      "Off-tracking of rear wheels",
+      "Accommodating street vendors",
+      "Allowing for future road widening"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Off-tracking of rear wheels”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q45",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In the ‘Entropy Maximization Model’ for trip distribution, the parameter b (beta) represents:",
+    "options": [
+      "The sensitivity of travelers to travel costs",
+      "The total number of households",
+      "The average traffic speed of the network",
+      "The capacity of the destination zone"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The sensitivity of travelers to travel costs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q46",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Under IRC norms for Hill Towns, the ‘Maximum Gradient’ allowed for a residential street in extreme cases is:",
+    "options": [
+      "5%",
+      "7% to 8.5%",
+      "10% to 12.5%",
+      "25%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “10% to 12.5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q47",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which type of ‘Traffic Assignment’ accounts for the fact that as a road gets crowded, its travel time increases?",
+    "options": [
+      "All-or-Nothing Assignment",
+      "Capacity Restrained Assignment",
+      "Stochastic Assignment",
+      "Incremental Assignment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Capacity Restrained Assignment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q48",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "A ‘Unified Metropolitan Transport Authority’ (UMTA) is recommended for cities to:",
+    "options": [
+      "Integrate the planning and management of various transport modes under one body",
+      "Build and maintain metro rails to reduce private cars dependency",
+      "Collect taxes for the central government",
+      "Incorporate fast-track mechanisms for transportation in metro cities"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Integrate the planning and management of various transport modes under one body”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q49",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "‘Valley Curves’ on hill roads must be designed primarily to satisfy:",
+    "options": [
+      "The comfort of the driver on corners",
+      "Headlight sight distance during night driving",
+      "Drainage of water",
+      "Improve soil stability in corners"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Headlight sight distance during night driving”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q50",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Machu Picchu of Inca Civilization is located in:",
+    "options": [
+      "Argentina",
+      "Brazil",
+      "Columbia",
+      "Peru"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Peru”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q51",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘Conurbation’ was given by:",
+    "options": [
+      "Lewis Mumford",
+      "Homer Hoyt",
+      "Patrick Geddes",
+      "C.D. Harris"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Patrick Geddes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q52",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of Urbanism as a way of life was developed by:",
+    "options": [
+      "Thomas Robert Malthus",
+      "Karl Marx",
+      "Louis Wirth",
+      "Lewis Coser"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Louis Wirth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q53",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Name the theory developed by Chauncy Harris and Edward Ullman in analysing a city.",
+    "options": [
+      "Ecological theory",
+      "Zone theory",
+      "Sector theory",
+      "Multiple nuclei theory"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Multiple nuclei theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q54",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Participatory planning is an urban planning paradigm that involves:",
+    "options": [
+      "Politicians",
+      "People",
+      "Town Planner",
+      "Prominent citizens"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “People”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q55",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The cities of Mohenjo-Daro and Harappa came into being in the valley of Indus river around _______.",
+    "options": [
+      "750 BC",
+      "1000 BC",
+      "2500 BC",
+      "1500BC"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2500 BC”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q56",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Who is regarded as the first town planner and ‘inventor’ of the orthogonal urban layout?",
+    "options": [
+      "Aristotle",
+      "Hippodamus",
+      "Copernicus",
+      "Kent"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hippodamus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q57",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The building activity expands in a natural way along the sides of main road, this type of development can be called as:",
+    "options": [
+      "Ribbon development",
+      "Concentric spread",
+      "Satellite Growth",
+      "Scattered growth"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ribbon development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q58",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In how many types were the villages classified in Manasara?",
+    "options": [
+      "7 types",
+      "8 types",
+      "6 types",
+      "4 types"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “8 types”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q59",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Ecumenopolis means:",
+    "options": [
+      "City of the dead",
+      "A fortified city",
+      "A capital city of a country",
+      "A city made of whole world"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A city made of whole world”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q60",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The term coined in ‘Brutland Report’ is:",
+    "options": [
+      "Resilience",
+      "Ecology",
+      "Sustainability",
+      "Environment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sustainability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q61",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Geddian Triangle is based on:",
+    "options": [
+      "Environment approach",
+      "Social approach",
+      "Capitalist approach",
+      "Political approach"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Social approach”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q62",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following books Ebenezer Howard published in 1898 ?",
+    "options": [
+      "Tomorrow : A Peaceful Path to Real Reform",
+      "Garden Cities of Tomorrow",
+      "Model Garden Cities of Tomorrow",
+      "Garden Suburb of London."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tomorrow : A Peaceful Path to Real Reform”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q63",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The application platform developed by Indian Space Research Organization (ISRO) allowing representation of Earth’s surface like Google Earth is called:",
+    "options": [
+      "IRNSS",
+      "Bhuvan",
+      "Bing Map",
+      "Open Street Map"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bhuvan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q64",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "As per URDPFI guidelines, the developed area average densities for large cities in hill areas is :",
+    "options": [
+      "75-125 pph",
+      "45-75 pph",
+      "60-90 pph",
+      "125-175 pph"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “60-90 pph”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q65",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Delphi method is a:",
+    "options": [
+      "Perception of respondents",
+      "Study technique of natural resources",
+      "Forecasting method based on experts’ opinion",
+      "Technique of assessment of ecosystem resources"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Forecasting method based on experts’ opinion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q66",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In GIS, DEM represents information on:",
+    "options": [
+      "Geology",
+      "Topography",
+      "Land-cover",
+      "Hydrology"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Topography”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q67",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "SDG 11 pertains to:",
+    "options": [
+      "Affordable and Clean Energy",
+      "Climate Action",
+      "Clean water and Sanitation",
+      "Sustainable Cities and Communities"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sustainable Cities and Communities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q68",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "_______ techniques are used for anticipating future which is a necessary step in the planning process.",
+    "options": [
+      "Formulation",
+      "Correlation",
+      "Rejection",
+      "Projection"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Projection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q69",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Durkheim’s concept of organic solidarity is found in a:",
+    "options": [
+      "Agricultural society",
+      "Tribal society",
+      "Modern society",
+      "Traditional society"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Modern society”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q70",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "As per the URDPFI Guidelines, choose the option which indicate the appropriate hierarchy of plans from higher to lower order:",
+    "options": [
+      "Perspective Plan > Development Plan > Local Area Plan",
+      "Development Plan > Special Purpose Plan > Annual Plan",
+      "Local Area Plan > Annual Plan > Development Plan",
+      "Special Purpose Plan > Perspective Plan > Local Area Plan"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Perspective Plan > Development Plan > Local Area Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q71",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following can be determined through Remote Sensing? 1. Population Density 2.Tree cover 3.Agricultural land 4.Lakes and wetlands 5.Transportation network Which of the above statements are correct?",
+    "options": [
+      "1, 2, 4 and 5",
+      "2, 3, 4 and 5",
+      "1, 3, 4 and 5",
+      "1, 4 and 5"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2, 3, 4 and 5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q72",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Under the current urban development programmes/missions, GIS based master plan is a component under which of the following?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT Mission",
+      "HRIDAY",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “AMRUT Mission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q73",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The boundaries of individual land parcels of land (lots) is precisely defined in:",
+    "options": [
+      "Zonal Plan",
+      "Master Plan",
+      "Comprehensive development plan",
+      "Perspective plan"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zonal Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q74",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "As per NUIS- National remote Sensing Centre , which of the following is most appropriate match: **No.INo.II** **ARegional Plani1:10,000** **BDevelopment Planii1:50,000** **CSub-Regional Planiii1:2000** **DZonal Planiv1:25,000** **v1:1,00,000**",
+    "options": [
+      "A-v,B-ii,C-iii,D-iv",
+      "A-ii,B-i,C-iv,D-iii",
+      "A-ii,B-iv,C-i,D-iii",
+      "A-v,B-i,C-iv,D-iii"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A-ii,B-i,C-iv,D-iii”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q75",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The type of surveying in which the shape of the earth is taken into account is __________.",
+    "options": [
+      "Topographic Surveying",
+      "Hydrographic Surveying",
+      "Geodetic Surveying",
+      "Plane Surveying"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Geodetic Surveying”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q76",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Zoning in urban and regional planning refers to:",
+    "options": [
+      "Creating a single type of land use.",
+      "Designating areas for specific functions like residential, commercial, etc.",
+      "Developing only green spaces.",
+      "Ignoring land use regulations"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Designating areas for specific functions like residential, commercial, etc.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q77",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Name the traffic survey data which is plotted by means of ‘desired lines.’",
+    "options": [
+      "Accident",
+      "Origin and destination",
+      "Classified volume",
+      "Speed and delay"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Origin and destination”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q78",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "A ‘cul-de-sac’ is a street where:",
+    "options": [
+      "Only two-wheelers are permitted",
+      "Through traffic is discouraged",
+      "Pedestrians are not permitted",
+      "Vehicles are permitted to move in one direction only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Through traffic is discouraged”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q79",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "A Street, which serves or is designed to serve as a traffic way for a neighbourhood or as a feeder to a major roadway:",
+    "options": [
+      "Sub arterial road",
+      "Arterial road",
+      "Collector Road",
+      "Local Road"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Collector Road”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q80",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Sequentially arrange the following as per four stage model for transportation planning 1.Trip generation 2.Mode choice 3.Trip distribution 4.Route choice",
+    "options": [
+      "1,2,3,4",
+      "1,3,2,4",
+      "1,4,2,3",
+      "1,3,4,2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1,3,2,4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q81",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "V7 concept given by Le Corbusier refers to:",
+    "options": [
+      "Neighbourhood Planning",
+      "Housing Typologies",
+      "Architecture Design Principle",
+      "Hierarchy of Roads"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hierarchy of Roads”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q82",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which term describes the redevelopment of old, run-down city areas?",
+    "options": [
+      "Suburban sprawl",
+      "Gentrification",
+      "Urban renewal",
+      "Ruralization"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Urban renewal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q83",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Scientific planning of transportation system and mass transit facilities in cities should be based on:",
+    "options": [
+      "Spot speed data",
+      "Origin and destination data",
+      "Traffic volume data",
+      "Accident data"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Origin and destination data”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q84",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Transit Oriented Development: (i) reduces urban sprawl (ii)will induce shift from non-motorized to motorized modes of travel (iii)highly depends on establishing mixed land use zone as a part of strategic densification Which of the above statements are true?",
+    "options": [
+      "Only (i)",
+      "(i) and (iii)",
+      "(i) and (ii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q85",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The maximum number of points of conflicts in two way two lane roads meeting at right angles is:",
+    "options": [
+      "12",
+      "32",
+      "4",
+      "24"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “24”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q86",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Camber (cross slope) is primarily provided in roads for?",
+    "options": [
+      "Water drainage",
+      "Road marking",
+      "Speed control",
+      "Additional lane"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Water drainage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q87",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Namo Bharat trains is a type of:",
+    "options": [
+      "Light rail transit",
+      "Sub urban train",
+      "Rapid rail transit",
+      "Bus road transit system"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rapid rail transit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q88",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In urban transport sector, SLB means:",
+    "options": [
+      "Service Level Benchmarks",
+      "System Level Benchmarks",
+      "Station Level Benchmarks",
+      "Standard Level Benchmarks"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Service Level Benchmarks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q89",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The mobility of people and goods can be maximized by :",
+    "options": [
+      "Minimizing travel time",
+      "Provide adequate frequency of service, capacity, safety & reliability",
+      "Minimizing travel cost",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q90",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "_______ indicate the boundary between the carriage way and the shoulder or islands or footpaths.",
+    "options": [
+      "Kerbs",
+      "Sideway",
+      "Margin",
+      "Gutter"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kerbs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q91",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "What is the full form of ITS?",
+    "options": [
+      "Intellectual Transit Structure",
+      "Intelligent Transport Structure",
+      "Intellectual Transport System",
+      "Intelligent Transportation System"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Intelligent Transportation System”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q92",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Select the correct statement(s) from the following: 1.Introduction of automobiles led to urban sprawl 2.Compact cities show relatively higher carbon emissions 3.Land use and transportation planning is inter-dependent on each other 4.Addition of a transport mode in an urban area does not change accessibility",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "3 and 4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q93",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Select the correct sequence of steps for designing the operation of a signalized intersection.",
+    "options": [
+      "Signal Phasing  Green Allocation  Cycle Length Selection",
+      "Green Allocation  Cycle Length Selection  Signal Phasing",
+      "Cycle Length Selection  Signal Phasing  Green Allocation",
+      "Signal Phasing  Cycle Length Selection  Green Allocation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Signal Phasing  Cycle Length Selection  Green Allocation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q94",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Speed and delay studies along routes are best done using the following method",
+    "options": [
+      "Moving Observer Method",
+      "Registration Number Method",
+      "Elevated Observer Method",
+      "Photographic method"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Moving Observer Method”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q95",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The median separating dual carriageways is also referred to as:",
+    "options": [
+      "Shoulder",
+      "Mid reservation",
+      "Central reservation",
+      "Split reservation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Central reservation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q96",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In the context of Rural Road Development Plan; PMGSY refers to:",
+    "options": [
+      "Pradhan Manti Gram Sadak Yojna",
+      "Pracheen Mukya Gram Sadak Yojna",
+      "Pradhan Mantri Gram Seva Yojna",
+      "Pradhan Mantri Gram Sangh Yojna"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pradhan Manti Gram Sadak Yojna”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q97",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "In a traffic survey, Enoscope is used to measure:",
+    "options": [
+      "Volume to Capacity ratio",
+      "Sight distance",
+      "Spot speed",
+      "Intersection delay"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Spot speed”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q98",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following initiatives of the Government of India is also known as the National Master Plan for Multi-modal Connectivity?",
+    "options": [
+      "PM Gati Shakti",
+      "Bharatmala",
+      "Parvatmala",
+      "Sagarmala"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “PM Gati Shakti”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q99",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "IRC recommends a minimum desirable width of _______ for medians of rural highways.",
+    "options": [
+      "3.0 m",
+      "5.0 m",
+      "3.5 m",
+      "4.5 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5.0 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1-Q100",
+    "paperId": "mpsc-group-b-adtp-2026-tech1",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-I",
+    "difficulty": "medium",
+    "question": "The imaginary lines dividing the study area taken for survey into parts is called as:",
+    "options": [
+      "External cordon lines",
+      "Internal cordon lines",
+      "Desire lines",
+      "Grid lines"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Grid lines”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q1",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In the context of housing, ‘Ghettoism’ usually refers to:",
+    "options": [
+      "Unique lifestyles attributed to ethnic groups",
+      "Social isolation or segregation of a specific group in a specific area",
+      "Economical isolation or segregation of a specific group in a specific area",
+      "Efficient transport planning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Social isolation or segregation of a specific group in a specific area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q2",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "‘Affordable Housing’ in the context of PMAY 2.0 is primarily targeted at:",
+    "options": [
+      "EWS",
+      "EWS and LIG",
+      "Industrial workers",
+      "EWS, LIG & MIG"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “EWS, LIG & MIG”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q3",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which Five Year Plan first shifted focus from ‘Government-built housing’ to ‘Enabler’ where the state facilitates private and cooperative housing?",
+    "options": [
+      "1st Five Year Plan",
+      "7th Five Year Plan",
+      "12th Five Year Plan",
+      "3rd Five Year Plan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “7th Five Year Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q4",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "‘Neighborhood Unit’ concept was proposed by:",
+    "options": [
+      "FL Wright",
+      "Clarence Perry",
+      "Le Corbusier",
+      "Pattrick Geddes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Clarence Perry”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q5",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Radburn planning is best known for:",
+    "options": [
+      "Underpass for pedestrians",
+      "Grid iron roads",
+      "Separation of pedestrian and vehicular traffic",
+      "State of the art Cul-de-sac"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Separation of pedestrian and vehicular traffic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q6",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Large-scale state involvement in housing began mainly in:",
+    "options": [
+      "First Five Year Plan",
+      "Second Five Year Plan",
+      "Third Five Year Plan",
+      "Eighth Five Year Plan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Third Five Year Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q7",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "‘Housing for All’ policy was formulated under:",
+    "options": [
+      "Twelfth Five Year Plan",
+      "Tenth Five Year Plan",
+      "Eleventh Five Year Plan",
+      "NITI Aayog era"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “NITI Aayog era”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q8",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Slum improvement became a national focus during:",
+    "options": [
+      "First Plan",
+      "Sixth Five Year Plan",
+      "Ninth Plan",
+      "Twelfth Plan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sixth Five Year Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q9",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which Indian city serves as a primary example of ‘Sector-based’ neighborhood planning?",
+    "options": [
+      "New Delhi",
+      "Chandigarh",
+      "Varanasi",
+      "Kolkata"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chandigarh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q10",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In housing ‘Suitability Analysis,’ which factor is considered a ‘Constraint’?",
+    "options": [
+      "Proximity to jobs",
+      "High seismic risk or steep slopes",
+      "Good groundwater",
+      "Low land price"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “High seismic risk or steep slopes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q11",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The Habitat 67, a modular housing complex in Montreal is designed by:",
+    "options": [
+      "FL Wright",
+      "Le Corbusier",
+      "Louis Kahn",
+      "Moshe Safdie"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Moshe Safdie”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q12",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Broadacre City is associated with:",
+    "options": [
+      "FL Wright",
+      "Le Corbusier",
+      "Clarence Stein",
+      "Ebenezer Howard"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “FL Wright”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q13",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "As new high-end housing is built, older units become available for lower-income groups. This is termed, in housing market as:",
+    "options": [
+      "Gentrification",
+      "Filtering process",
+      "Affordability driver",
+      "De-gentrification"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Filtering process”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q14",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The ‘Housing Backlinkage’ to the economy includes:",
+    "options": [
+      "Demand for building materials",
+      "Demand for travel tourism",
+      "Demand for social infrastructure",
+      "Demand for education"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Demand for building materials”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q15",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Identifying areas where there is high overcrowding, poor condition, or high rent-to-income ratios is termed as:",
+    "options": [
+      "Housing stress identification",
+      "Housing shortage identification",
+      "Housing strata identification",
+      "Housing requirements identification"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Housing stress identification”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q16",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The 9th Five Year Plan was significant for housing because it introduced:",
+    "options": [
+      "The National Habitat Policy",
+      "Propagation of modern building materials",
+      "The concept of high rise buildings",
+      "Housing For All (HFA)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The National Habitat Policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q17",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Housing’s macro-economic impact is strongest through:",
+    "options": [
+      "Inflation control and tax relaxation",
+      "Foreign exchange",
+      "Multiplier effect on allied industries",
+      "Trade balance"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Multiplier effect on allied industries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q18",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Delhi’s DDA housing layouts broadly follow:",
+    "options": [
+      "Grid model",
+      "Industrial model",
+      "Neighborhood unit concept",
+      "Radburn model"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Neighborhood unit concept”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q19",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The first national housing policy was formulated during:",
+    "options": [
+      "3rd Five Year Plan",
+      "8th Five Year Plan",
+      "7th Five Year Plan",
+      "10th Five Year Plan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “7th Five Year Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q20",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "BSUP stands for:",
+    "options": [
+      "Basic Services to Urban Poor",
+      "Basic Services to Uplift the Poor",
+      "Benchmark Services to Urban Poor",
+      "Bridging Services to Urban Poor"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Basic Services to Urban Poor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q21",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Building bye-laws primarily aim to ensure:",
+    "options": [
+      "Uniformity in design",
+      "ULB revenue",
+      "Safety, light & ventilation",
+      "Land development control"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Safety, light & ventilation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q22",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Under the CLSS (Credit Linked Subsidy Scheme) vertical of PMAY-U, what is the maximum carpet area permitted for a house to be eligible under the MIG-II category?",
+    "options": [
+      "110 sq. mt.",
+      "150 sq. mt.",
+      "200 sq. mt.",
+      "120 sq. mt."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “200 sq. mt.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q23",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "HUDCO was primarily established to:",
+    "options": [
+      "Finance and regulate private real estate development in metropolitan cities",
+      "Provide direct housing allotments to economically weaker sections",
+      "Finance housing and urban infrastructure projects through institutional lending",
+      "Prepare master plans for new towns and industrial townships"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Finance housing and urban infrastructure projects through institutional lending”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q24",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which Indian scheme, launched under the NITI Aayog era, focuses on providing ‘Rental Housing’ complexes for migrant workers as a sub-scheme of PMAY-U?",
+    "options": [
+      "AMRUT",
+      "ARHC",
+      "HRIDAY",
+      "DAY-NULM"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ARHC”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q25",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In neighbourhood planning, the concept of defensible space primarily seeks to:",
+    "options": [
+      "Strengthen real-estate performance by improving territorial image and property upkeep",
+      "Optimize development economics by minimizing shared circulation and service areas",
+      "Promote resident territorial control and natural surveillance to discourage criminal activity",
+      "Achieve compact urban form through spatial enclosure and higher plot utilization"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Promote resident territorial control and natural surveillance to discourage criminal activity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q26",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which factor MOST limits the replicability of the Radburn model in dense Indian cities?",
+    "options": [
+      "High land cost and fragmented land ownership",
+      "Climatic incompatibility",
+      "Cultural resistance to auto-intensive towns",
+      "Lack of professional planners"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “High land cost and fragmented land ownership”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q27",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The Stockholm Conference (1972) primarily focused on:",
+    "options": [
+      "Climate finance",
+      "Urban housing",
+      "Human environment protection",
+      "Biodiversity trade"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Human environment protection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q28",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The Rio Earth Summit (1992) resulted in:",
+    "options": [
+      "Kyoto Protocol only",
+      "Agenda 21",
+      "Ramsar Convention",
+      "Montreal Protocol"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Agenda 21”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q29",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Air pollution dispersion models depend heavily on:",
+    "options": [
+      "Wind speed and direction",
+      "Population density",
+      "Rainfall data",
+      "Building height"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Wind speed and direction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q30",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In urban environmental systems, The degree of disorder or degradation of energy and resources within the city is termed as:",
+    "options": [
+      "Enthalpy",
+      "Entropy",
+      "Urban metabolism",
+      "Ecological falter"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Entropy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q31",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The most critical limitation of project-level EIA in urban planning is that it:",
+    "options": [
+      "Is too costly",
+      "Is legally weak",
+      "Fails to assess cumulative impacts of multiple projects",
+      "Ignores public opinion"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fails to assess cumulative impacts of multiple projects”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q32",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The DPSIR framework in environmental planning stands for:",
+    "options": [
+      "Development–Policy–System–Impact–Response",
+      "Driving forces–Pressures–State–Impact–Response",
+      "Demand–Population–Supply–Impact–Recovery",
+      "Data–Planning–System–Impact–Regulation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Driving forces–Pressures–State–Impact–Response”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q33",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In urban water quality management, BOD indicates:",
+    "options": [
+      "Toxicity level",
+      "Salinity",
+      "Organic pollution load",
+      "Turbidity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Organic pollution load”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q34",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Under the EIA Notification 2006, which authority is responsible for granting Environmental Clearance (EC) for ‘Category B’ projects?",
+    "options": [
+      "Ministry of Environment, Forest and Climate Change (MoEF&CC)",
+      "State Environment Impact Assessment Authority (SEIAA)",
+      "Central Pollution Control Board (CPCB)",
+      "State Forest Department"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “State Environment Impact Assessment Authority (SEIAA)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q35",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The point beyond which irreversible ecological damage occurs in the environment may be termed as:",
+    "options": [
+      "Environmental carrying capacity",
+      "Environmental climax",
+      "Environmental Point of No Return (EPNoR)",
+      "Environmental threshold"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Environmental threshold”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q36",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Agenda 21 is best interpreted in planning as:",
+    "options": [
+      "An enforceable international regulatory instrument",
+      "A sector-specific environmental management code",
+      "A financing mechanism for ecological restoration",
+      "A multi-level framework for implementing sustainability actions"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A multi-level framework for implementing sustainability actions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q37",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Urban flood vulnerability is determined primarily by:",
+    "options": [
+      "Drainage density and rainfall variability",
+      "Land-use intensity and building coverage",
+      "River morphology and catchment size",
+      "Exposure, sensitivity, and adaptive capacity"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Exposure, sensitivity, and adaptive capacity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q38",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In land suitability analysis, slope is considered mainly because it affects:",
+    "options": [
+      "Visual quality",
+      "Construction feasibility",
+      "Land ownership pattern",
+      "Property taxation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Construction feasibility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q39",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The key difference between EIA and environmental auditing is that EIA is:",
+    "options": [
+      "Retrospective",
+      "Voluntary",
+      "Financial",
+      "Predictive"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Predictive”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q40",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Carrying capacity is reduced in urban areas mainly due to:",
+    "options": [
+      "Socio-cultural dynamism",
+      "Administrative expansion",
+      "Resource stress",
+      "Political conflict"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Resource stress”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q41",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The objective of buffer zones is to:",
+    "options": [
+      "Maximize land use",
+      "Demarcate areas",
+      "Separate conflicts",
+      "Improve connectivity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Separate conflicts”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q42",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is the daytime noise limit for a ‘Silence Zone’ in India?",
+    "options": [
+      "45 dB",
+      "50 dB",
+      "55 dB",
+      "60 dB"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “50 dB”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q43",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Urban Heat Island effect is mitigated by high:",
+    "options": [
+      "Building density",
+      "Thermal mass",
+      "Surface albedo",
+      "Pavement thickness"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Surface albedo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q44",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The ‘Leopold Matrix’ evaluates the:",
+    "options": [
+      "Economic ROI",
+      "Impact interactions",
+      "Population flux",
+      "Traffic capacity"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q45",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "‘Terms of Reference’ (ToR) in EIA are issued during:",
+    "options": [
+      "Screening",
+      "Scoping",
+      "Appraisal",
+      "Public hearing"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Scoping”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q46",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Life Cycle Assessment (LCA) is:",
+    "options": [
+      "Demographic study",
+      "Cradle-to-grave",
+      "Structural lifespan",
+      "Health audit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cradle-to-grave”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q47",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which source is classified as ‘Renewable’ in infrastructure planning?",
+    "options": [
+      "Shale Gas",
+      "Anthracite",
+      "Biomass",
+      "Lignite"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Biomass”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q48",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Subsidized low-cost housing is considered a ‘merit good’ because:",
+    "options": [
+      "It generates high profits for developers.",
+      "It’s a luxury item with high demand.",
+      "It’s socially desirable, improves quality of life, and creates positive externalities.",
+      "It’s solely for government employees."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It’s socially desirable, improves quality of life, and creates positive externalities.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q49",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "As per the new earthquake-zoning map, India is divided in __________ seismic zones.",
+    "options": [
+      "Three",
+      "Six",
+      "Four",
+      "Five"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Five”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q50",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which type of housing initiative is designed to provide safe accommodation to working women?",
+    "options": [
+      "Swadhar Greh scheme",
+      "Beti Bachao Beti Padhao scheme",
+      "Working woman hostel scheme",
+      "One Stop Centre scheme"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Working woman hostel scheme”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q51",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "As per UN-Habitat, slum household lacks the following: 1)Durable Housing & Sufficient Living Space 2)Access to Safe Water & Sanitation 3)Security of Tenure Which of the following is true?",
+    "options": [
+      "1 & 2",
+      "2 & 3",
+      "1, 2 & 3",
+      "None"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 & 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q52",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is meant by Ryotwari System?",
+    "options": [
+      "Direct revenue payment from registered owner to government",
+      "Revenue collected by zamindars",
+      "Land valuation system",
+      "Housing fee collection system"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Direct revenue payment from registered owner to government”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q53",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Landmark initiatives pronounced with National Housing & Habitat Policy,1998 are:",
+    "options": [
+      "Involvement of one type-stakeholder",
+      "Repeal of Urban Land Ceiling Act",
+      "Not Permitting Foreign Direct Investment in housing",
+      "Avoid real estate development"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Repeal of Urban Land Ceiling Act”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q54",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Slum Free City Plan of Action is part of",
+    "options": [
+      "RAY",
+      "IAY",
+      "PMAY",
+      "IHSDP"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “RAY”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q55",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Match the Parts of Residential Buildings in Group-I with their respective minimum width (in m) in Group-II as per the National Building Code 2016. AHabitable room11.0 m BStair flight23.0 m CKitchen31.2 m DBathroom41.8 m 52.4 m",
+    "options": [
+      "A-2, B-1, C-5, D-3",
+      "A-5, B-3, C-4, D-1",
+      "A-2, B-3, C-5, D-4",
+      "A-5, B-1, C-4, D-3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A-5, B-1, C-4, D-3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q56",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Data on ‘households with one or more married couples sharing a room with a person aged 12 years or more’ is used for computing:",
+    "options": [
+      "House density",
+      "Housing shortage",
+      "Housing price",
+      "Housing affordability"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Housing shortage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q57",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a factor that contributes to a housing shortage?",
+    "options": [
+      "Limited flat land",
+      "Competing land use",
+      "Low birth rates",
+      "Rural-urban migration"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Low birth rates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q58",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Housing shortage is present when there is insufficient housing to accommodate the population in an area, which means:",
+    "options": [
+      "The price is below the equilibrium rent, causing a surplus.",
+      "The quantity demanded exceeds the quantity supplied at a given price point.",
+      "The market has a 4% vacancy rate.",
+      "All available houses are “katcha” (non-durable)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The quantity demanded exceeds the quantity supplied at a given price point.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q59",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is the current implementation period for PMAY-U 2.0 ?",
+    "options": [
+      "2022–2027",
+      "2024–2029",
+      "2025–2030",
+      "2020–2025"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2024–2029”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q60",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Under PMAY-U 2.0, what is the annual income limit for the Economically Weaker Section (EWS) category?",
+    "options": [
+      "Up to ₹3 Lakh",
+      "₹3.5 Lakh to ₹6 Lakh",
+      "₹3 Lakh to ₹6 Lakh",
+      "Up to ₹3.5 Lakh"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Up to ₹3 Lakh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q61",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which component of PMAY-U is implemented as a ‘Central Sector Scheme’?",
+    "options": [
+      "In-situ Slum Redevelopment",
+      "Affordable Housing in Partnership",
+      "Credit Linked Subsidy Scheme (CLSS)",
+      "Beneficiary-led Construction"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Credit Linked Subsidy Scheme (CLSS)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q62",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Tenure is classified in to:",
+    "options": [
+      "Free hold, Lease hold, Rental",
+      "Free venture, Joint Venture",
+      "Fixed grip, non -fixed grip,",
+      "Rent, lease"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Free hold, Lease hold, Rental”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q63",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is the population of a smallest planning unit conceived as Housing Area with convenience shopping, open area, Anganwadi and milk booth as minimum infrastructure provision?",
+    "options": [
+      "4000",
+      "5000",
+      "6000",
+      "7000"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5000”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q64",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "How many local parks and playgrounds should be provided in a neighbourhood as per URDPFI?",
+    "options": [
+      "1-2",
+      "2-3",
+      "3-4",
+      "2 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “3-4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q65",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "A healthy and growing housing sector is a key indicator for macroeconomic stability and growth because it directly influences the national figure of:",
+    "options": [
+      "Consumer Price Index (CPI) weight assigned to luxury goods",
+      "The national budget deficit",
+      "The balance of payments",
+      "Gross Domestic Product (GDP) and employment rates"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q66",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is typically NOT a major objective of incorporating housing into a city’s master plan?",
+    "options": [
+      "Promoting social equity and inclusivity",
+      "Ensuring adequate and affordable housing for all",
+      "Maximizing land value through luxury developments only",
+      "Addressing housing shortages and preventing slum formation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Maximizing land value through luxury developments only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q67",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "In the context of a Zonal Development Plan, which standard related to housing is commonly specified?",
+    "options": [
+      "Traffic density",
+      "Energy density",
+      "Building density",
+      "Vegetation density"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Building density”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q68",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Special provisions are often made in a master plan to accommodate growing populations. These commonly include strategies for:",
+    "options": [
+      "Limiting urban expansion to reduce population density",
+      "Focusing exclusively on rural housing development",
+      "Affordable housing and slum redevelopment",
+      "Banning private sector participation in housing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Affordable housing and slum redevelopment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q69",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is the mandatory registration requirement under RERA?",
+    "options": [
+      "All residential projects",
+      "Projects over 500 sqm",
+      "Projects with more than 8 apartments",
+      "Both a and b"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Projects over 500 sqm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q70",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a key element of neighborhood living in a traditional society?",
+    "options": [
+      "Impersonal relationships and social distance",
+      "High social and occupational mobility",
+      "A strong sense of community sentiment and shared identity",
+      "Focus on individual achievements and a lack of social hierarchy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A strong sense of community sentiment and shared identity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q71",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which Constitutional Amendment removed the right to property from Fundamental Rights?",
+    "options": [
+      "First Amendment",
+      "Twenty-Fifth Amendment",
+      "Forty-Fourth Amendment",
+      "Forty-Second Amendment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Forty-Fourth Amendment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q72",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Area of a neighbourhood according to C. Perry will be around:",
+    "options": [
+      "1600 acres",
+      "2600 acres",
+      "3600 acres",
+      "160 acres"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “160 acres”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q73",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The concepts of ‘serial vision’, ‘punctuation’ and ‘closure’ were proposed by:",
+    "options": [
+      "Le Corbusier",
+      "Kevin Lynch",
+      "Louis I Kahn",
+      "Gordon Cullen"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Gordon Cullen”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q74",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "One hectare of biologically productive space with world average productivity is:",
+    "options": [
+      "An imperial hectare",
+      "A global hectare",
+      "A world hectare",
+      "A continental hectare"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A global hectare”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q75",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which convention is called the Convention on Wetlands?",
+    "options": [
+      "Vienna Convention",
+      "Bonn Convention",
+      "Ramsar Convention",
+      "Stockholm Convention"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ramsar Convention”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q76",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "An international protocol to reduce greenhouse gas emissions:",
+    "options": [
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Cartagena Protocol",
+      "Nagoya Protocol"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kyoto Protocol”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q77",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The ‘heat island’ effect in cities is largely caused by:",
+    "options": [
+      "Increased tree planting",
+      "Concretization and heavy vehicular traffic",
+      "Lowering of industrial output",
+      "Natural cooling processes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Concretization and heavy vehicular traffic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q78",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Study of inter-relationship between organisms and their environment is called",
+    "options": [
+      "Ecology",
+      "Ecosystem",
+      "Phytogeography",
+      "Ethology"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ecology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q79",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "The environment which has been modified by human activities is called:",
+    "options": [
+      "Natural environment",
+      "Anthropogenic environment",
+      "Modem environment",
+      "Urban environment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Anthropogenic environment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q80",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Environment Impact Assessment in India is statutorily backed by:",
+    "options": [
+      "Wildlife (Protection) Act, 1972",
+      "Forest (Conservation) Act, 1980",
+      "Environment Protection Act, 1986",
+      "Biological Diversity Act, 2002"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Environment Protection Act, 1986”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q81",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "After 2006 Amendment the EIA cycle comprises of four stages:",
+    "options": [
+      "Screening, Impact prediction, Public hearing, Appraisal",
+      "Screening, Collection of baseline data, Risk assessment, Appraisal",
+      "Screening, Impact prediction, Mitigation measures, EIA report",
+      "Screening, Scoping, Public hearing, Appraisal"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Screening, Scoping, Public hearing, Appraisal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q82",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Hydel-power plants produce energy that is considered:",
+    "options": [
+      "Polluting and non-renewable",
+      "Non-polluting and renewable",
+      "Polluting and renewable",
+      "Non-polluting and non-renewable"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Non-polluting and renewable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q83",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is an anti-forest conservation activity?",
+    "options": [
+      "Afforestation",
+      "Preservation of wild animals",
+      "Clear-felling",
+      "Economy in lumbering"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Clear-felling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q84",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a standard parameter to assess the drinking water quality?",
+    "options": [
+      "Total coliforms",
+      "E.coli",
+      "Turbidity",
+      "Methane concentration"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Methane concentration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q85",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Zero energy buildings are defined as:",
+    "options": [
+      "Buildings that produce as much energy as they consume over a full year",
+      "Buildings that do not consume any energy",
+      "Special building that get free energy through Govt of India",
+      "Buildings that use renewable energy for at least 25% of their basic needs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Buildings that produce as much energy as they consume over a full year”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q86",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is an isogram on a map?",
+    "options": [
+      "A point representing the unique value of a quantity in an area",
+      "A line representing the difference in elevation in two areas",
+      "A line representing an equal value of a given quantity",
+      "An area representing a range of temperatures"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A line representing an equal value of a given quantity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q87",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "As per IS, what is the permissible exposure limits for noise in commercial zone during daytime?",
+    "options": [
+      "50 dBA",
+      "55 dBA",
+      "65 dBA",
+      "75 dBA"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “65 dBA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q88",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which one is not the benefit of environmental assessment?",
+    "options": [
+      "Reduced cost and time of project implementation",
+      "Cost-saving modiûcations in project design",
+      "Increase project acceptance",
+      "Increase cost of treatment and clean up"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Increase cost of treatment and clean up”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q89",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Biological Magnification is:",
+    "options": [
+      "Decrease in concentration with trophic level",
+      "Increase in concentration with trophic level",
+      "Equilibrium in concentration",
+      "Magnifcation with time"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Increase in concentration with trophic level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q90",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Besides the hydrological (water) cycle and the biogeochemical (nutrient) cycle what are the other two important ecological processes?",
+    "options": [
+      "Energy flow and growth cycles",
+      "Community dynamics and growth cycles",
+      "Energy flow and community dynamics",
+      "Carbon and nitrogen cycles"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Energy flow and community dynamics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q91",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Concepts of carrying capacity of an eco-system is introduced by:",
+    "options": [
+      "Lewis Mumford",
+      "Constantine Doxiadis",
+      "Patric Abercrombie",
+      "Thomas Malthus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Thomas Malthus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q92",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What is the main concern with ‘microbeads’?",
+    "options": [
+      "Cause skin cancer in children.",
+      "Used as food adulterants.",
+      "Harmful to marine ecosystems.",
+      "Absorbed by crop plants."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Harmful to marine ecosystems.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q93",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of these is NOT a component of an Environmental Management System (EMS) based on ISO 14001?",
+    "options": [
+      "Environmental policy",
+      "Resource use, emissions, waste",
+      "Financial projections",
+      "Management review"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Financial projections”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q94",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following pollutants is a major contributor to acid rain?",
+    "options": [
+      "Carbon dioxide",
+      "Sulphur dioxide",
+      "Methane",
+      "Oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sulphur dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q95",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a point source pollution?",
+    "options": [
+      "Agricultural runoff",
+      "Factory smokestack emissions",
+      "Ocean currents",
+      "Wind erosion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Factory smokestack emissions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q96",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Standards for emission or discharge of environmental pollutants is set by:",
+    "options": [
+      "The Environment (Protection) Rules, 1986",
+      "The Water Act (2000)",
+      "Environment (Protection) Act, 1986",
+      "Environment (Protection) Act, 2000"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Environment (Protection) Rules, 1986”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q97",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which country is widely recognized as the world leader in cycling infrastructure?",
+    "options": [
+      "USA",
+      "China",
+      "Norway",
+      "Netherlands"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Netherlands”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q98",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "What does SDG 13 focus on?",
+    "options": [
+      "Life Below Water",
+      "Climate Action",
+      "Peace and Justice",
+      "Gender Equality"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Climate Action”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q99",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "A project that starts from scratch on unused land or in a new environment is called:",
+    "options": [
+      "Brownfield development",
+      "Infill development",
+      "Greenfield development",
+      "Redevelopment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Greenfield development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2-Q100",
+    "paperId": "mpsc-group-b-adtp-2026-tech2",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-II",
+    "difficulty": "medium",
+    "question": "Which among the following is a framework for disaster risk reduction under the United Nations?",
+    "options": [
+      "Nagoya Framework",
+      "Sendai Framework",
+      "Geneva Framework",
+      "Chiang Mai Framework"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sendai Framework”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q1",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Stormwater drains are designed primarily to:",
+    "options": [
+      "Supply irrigation water",
+      "Remove surface runoff",
+      "Recharge reservoirs",
+      "Accommodate heavy rainfall"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Remove surface runoff”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q2",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The full form of ‘LPCD’ in water supply planning is:",
+    "options": [
+      "Liters Per Capital Demand",
+      "Liters Per Capita per Day",
+      "Liquid Pressure Central Distribution",
+      "Local Population Consumption per Day"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Liters Per Capita per Day”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q3",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘Peak Factor’ in water demand calculation is used to:",
+    "options": [
+      "Reduce the pipe diameter",
+      "Account for hourly variations",
+      "Calculate day maximum flow",
+      "Measure water purity"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Account for hourly variations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q4",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "‘Sullage’ specifically excludes waste from:",
+    "options": [
+      "Kitchen sinks",
+      "Wash basins",
+      "Water closets",
+      "Bathing areas"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Water closets”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q5",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "‘Leachate’ is a hazardous liquid primarily associated with:",
+    "options": [
+      "Water treatment filters",
+      "Solid waste landfills",
+      "Power transformers",
+      "Sewerage Treatment Plan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Solid waste landfills”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q6",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "According to URDPFI, a ‘Primary Health Centre’ (PHC) serves a population of:",
+    "options": [
+      "5,000",
+      "30,000",
+      "50,000",
+      "70,000"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q7",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The Self-cleansing velocity in sewers prevents:",
+    "options": [
+      "Deposition of solids",
+      "Bursting of pipes",
+      "Excessive pipe corrosion",
+      "Entry of rainwater"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Deposition of solids”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q8",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A Dead-end System in water distribution is also known as:",
+    "options": [
+      "Gridiron system",
+      "Ring system",
+      "Tree system",
+      "Radial system"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tree system”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q9",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Zonal Reservoirs are essential in hilly terrain to:",
+    "options": [
+      "Maintain uniform pressure across varying elevations",
+      "Reduce the total water treatment cost",
+      "Centralize the distribution system",
+      "Store industrial chemical waste"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Maintain uniform pressure across varying elevations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q10",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Load Factor in power planning is the ratio of:",
+    "options": [
+      "Peak load to total capacity",
+      "Average load to peak load",
+      "Active power to reactive power",
+      "Residential load to industrial load"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Average load to peak load”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q11",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Solid waste collection efficiency is most influenced by:",
+    "options": [
+      "Waste composition",
+      "Color coded vehicles",
+      "Disposal method",
+      "Route planning"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Route planning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q12",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Water supply system design capacity is normally based on:",
+    "options": [
+      "Average annual rainfall",
+      "Minimum daily demand",
+      "Maximum daily demand",
+      "Projected peak demand"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Projected peak demand”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q13",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Stormwater retention basins are primarily used to:",
+    "options": [
+      "Recharge groundwater",
+      "Improve water quality",
+      "Reduce peak runoff",
+      "Prevent evaporation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduce peak runoff”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q14",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Collection efficiency in solid waste management is reduced mainly by:",
+    "options": [
+      "Waste composition",
+      "Climatic conditions",
+      "Vehicle type",
+      "Irregular service coverage"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Irregular service coverage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q15",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Network looping in water supply improves:",
+    "options": [
+      "Treatment quality",
+      "Chemical stability",
+      "Pressure reliability",
+      "Meter accuracy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pressure reliability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q16",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Manning’s Roughness Coefficient (n) for a concrete pipe is typically:",
+    "options": [
+      "0.001",
+      "0.013",
+      "0.045",
+      "0.110"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.013”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q17",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Biochemical Oxygen Demand (BOD) testing typically occurs over 5 days at:",
+    "options": [
+      "0°C",
+      "20°C",
+      "37°C",
+      "50°C"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “20°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q18",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Air Valves in a water main should be placed at:",
+    "options": [
+      "Every low point (valley) of the pipeline",
+      "The midpoint of every straight section",
+      "Only at the treatment plant",
+      "Every high point (summit) of the pipeline"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Every high point (summit) of the pipeline”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q19",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Sewer exfiltration primarily affects:",
+    "options": [
+      "Pipe pressure",
+      "Flow velocity",
+      "Groundwater quality",
+      "Treatment efficiency"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Groundwater quality”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q20",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which pairing correctly represents the formula used for estimating peak runoff and the formula used for sizing open drains?",
+    "options": [
+      "Peak runoff – Manning’s equation; Channel flow – Rational formula",
+      "Peak runoff – Darcy’s law; Channel flow – Chezy’s equation",
+      "Peak runoff – Unit hydrograph; Channel flow – Hazen–Williams formula",
+      "Peak runoff – Rational formula; Channel flow – Manning’s equation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Peak runoff – Rational formula; Channel flow – Manning’s equation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q21",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A city zone generates 24 tonnes/day of solid waste. Collection vehicles have a capacity of 4 tonnes per trip and each vehicle can make 3 trips per day. Assuming 100% operational efficiency, how many vehicles are required?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q22",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A residential zone has a population of 12,000 and per-capita demand of 135 LPCD. If the maximum day factor = 1.8, what is the maximum daily demand?",
+    "options": [
+      "2.16 MLD",
+      "2.43 MLD",
+      "2.92 MLD",
+      "3.24 MLD"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2.92 MLD”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q23",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "In demographic analysis, Age-Sex Composition is visually represented by:",
+    "options": [
+      "Lorenz Curve",
+      "Population Pyramid",
+      "Scatter Plot",
+      "Ogive Curve"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Population Pyramid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q24",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Urbanism as a sociological concept refers to:",
+    "options": [
+      "Physical growth of urban centers",
+      "A specific way of life",
+      "Industrial production rate",
+      "Influence of urban administration on citizens"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A specific way of life”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q25",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Workforce participation rate represents:",
+    "options": [
+      "Employed population as % of total population",
+      "Working population as % of total population",
+      "Working population as % of adult population",
+      "Employed population as % of households"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Working population as % of adult population”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q26",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Head Count Ratio (HCR) is a standard measure for:",
+    "options": [
+      "Traffic flow",
+      "Poverty incidence",
+      "Literacy rates",
+      "Housing density"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Poverty incidence”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q27",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which demographic stage is characterized by falling birth rates and low death rates?",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Stage III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q28",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "In urban sociology, “Gemeinschaft” refers to a society based on:",
+    "options": [
+      "Personal/Community ties",
+      "Formal/Contractual ties",
+      "Economic profit",
+      "Legal regulations"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Personal/Community ties”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q29",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Stratified sampling is preferred when:",
+    "options": [
+      "Population is homogeneous",
+      "Area is small",
+      "Population is heterogeneous",
+      "Budget is unlimited"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Population is heterogeneous”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q30",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Who postulated Central Place Theory?",
+    "options": [
+      "Lewis Mumford",
+      "Walther Christaller",
+      "Tony Garnier",
+      "Ludwig Hilberseimer"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Walther Christaller”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q31",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Threshold Population in Central Place Theory is the:",
+    "options": [
+      "Minimum support for a service",
+      "Maximum distance for a customer",
+      "Total capacity of a market",
+      "Average density of a town"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Minimum support for a service”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q32",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Gini Coefficient of 1.0 represents:",
+    "options": [
+      "Perfect equality",
+      "Perfect inequality",
+      "Zero population",
+      "Maximum density"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Perfect inequality”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q33",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "PM SVANidhi scheme mainly targets which socio-economic group?",
+    "options": [
+      "Small manufacturing workers",
+      "Migrant construction labourers",
+      "Urban street vendors",
+      "Informal transport operators"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Urban street vendors”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q34",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "DAY-NULM stands for:",
+    "options": [
+      "Deendayal Antyodaya Yojana - National Urban Livelihood Mission",
+      "Deendayal Awas Yojana - National Urban Livelihood Mission",
+      "Deendayal Antyodaya Yojana - National Urbanization Leveraging Mission",
+      "Deendayal Awas Yojana - National Urban Livability Mission"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Deendayal Antyodaya Yojana - National Urban Livelihood Mission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q35",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "In project planning, a Work Breakdown Structure (WBS) is mainly used to:",
+    "options": [
+      "Divide work into manageable components",
+      "Estimate project financing",
+      "Allocate legal responsibilities",
+      "Fix contract conditions"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Divide work into manageable components”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q36",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The main advantage of PERT over CPM is its ability to:",
+    "options": [
+      "Reduce project cost",
+      "Handle uncertainty in activity duration",
+      "Improve labor productivity",
+      "Simplify contract administration"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Handle uncertainty in activity duration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q37",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "In infrastructure projects, land acquisition risk is usually classified as:",
+    "options": [
+      "Financial risk",
+      "Technical risk",
+      "Operational risk",
+      "Legal risk"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Legal risk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q38",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "· In the Pre-Feasibility Stage, which analysis is conducted to determine if a project is worth the investment of a detailed feasibility study?",
+    "options": [
+      "Sensitivity Analysis",
+      "Opportunity Study",
+      "Post-Mortem Analysis",
+      "Impact Mitigation Audit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Opportunity Study”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q39",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "In the LARR Act 2013, ‘Solatium’ is defined as:",
+    "options": [
+      "The cost of building structures",
+      "Extra compensation for the ‘compulsory nature’ of acquisition",
+      "Additional tax on the profit from land sale",
+      "The fee paid to the surveyor"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Extra compensation for the ‘compulsory nature’ of acquisition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q40",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A Master Plan prepared under planning legislation is:",
+    "options": [
+      "A financial document",
+      "A statutory land-use plan",
+      "A development manual",
+      "A transport policy note"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A statutory land-use plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q41",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The 73rd Constitutional Amendment Act mainly relates to:",
+    "options": [
+      "Urban local governance",
+      "Metropolitan planning",
+      "Rural local governance",
+      "Regional development authorities"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rural local governance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q42",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A ‘Nagar Panchayat’ is a specific type of local body designed for:",
+    "options": [
+      "A large urban area with millions of residents",
+      "A rural village with no commercial activity",
+      "An industrial township with mostly rural residents",
+      "A transitional area moving from rural to urban"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A transitional area moving from rural to urban”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q43",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "One structural weakness of the decentralization framework under the 74th Amendment is that:",
+    "options": [
+      "Municipal functions are constitutionally rigid",
+      "Planning powers are automatically transferred to cities",
+      "Metropolitan Planning Committees replace State planning boards",
+      "Financial devolution depends largely on State discretion"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Financial devolution depends largely on State discretion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q44",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per the 74th Amendment, how many functional items are listed under the purview of Municipalities?",
+    "options": [
+      "29 items",
+      "18 items",
+      "12 items",
+      "24 items"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “18 items”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q45",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is the design period for the water treatment unit?",
+    "options": [
+      "10 years",
+      "15 years",
+      "20 years",
+      "30 years"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “15 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q46",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The process of burning municipal solid waste under controlled high temperatures in a specific furnace is called:",
+    "options": [
+      "Recycling",
+      "Incineration",
+      "Vermicomposting",
+      "Burning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Incineration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q47",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a method of wastewater treatment?",
+    "options": [
+      "Landfill disposal",
+      "Incineration",
+      "Composting",
+      "Biological treatment"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Biological treatment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q48",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is the term for the process of using living organisms to clean up or reduce environmental pollution?",
+    "options": [
+      "Bioremediation",
+      "Overconsumption",
+      "Soil erosion",
+      "Greenwashing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bioremediation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q49",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "‘DEWATS’ is :",
+    "options": [
+      "Unit for measurement of energy used for treatment of waste water",
+      "A decentralized system that uses ponds with aquatic plants to treat waste water",
+      "A decentralized system for treatment of water purification of pounds",
+      "A mechanical process of wastewater treatment used in some parts of Delhi."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A decentralized system that uses ponds with aquatic plants to treat waste water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q50",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per NBC, what is the accepted benchmark for water requirement in urban areas?",
+    "options": [
+      "135 lpcd",
+      "70 lpcd",
+      "125 lpcd",
+      "75 lpcd"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “135 lpcd”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q51",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "This gas is released from landfills and can be used to generate electricity.",
+    "options": [
+      "Sulphur dioxide",
+      "Methane",
+      "Ammonia",
+      "Nitrous oxide"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Methane”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q52",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "SCADA is an advanced technology used in several cities. In which of the following sector does it find its application?",
+    "options": [
+      "Centralised heating and cooling",
+      "Water supply and sewage management",
+      "Transportation planning",
+      "GIS and remote sensing"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Water supply and sewage management”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q53",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following can be provided with tertiary treatment for recycle and reuse?",
+    "options": [
+      "Municipal Solid Waste",
+      "Suspended Particulate Matter",
+      "Waste water",
+      "Biomass"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Waste water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q54",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The average consumption of water required in factories in lpcd is :",
+    "options": [
+      "10-15",
+      "20-30",
+      "30-45",
+      "70-80"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “30-45”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q55",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What are the factors affecting per capita demand?",
+    "options": [
+      "Size of city",
+      "Size of city, habit of people",
+      "Cost of water, quality of water, size of city",
+      "Cost of water, quality of water, size of city, habit of people"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cost of water, quality of water, size of city, habit of people”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q56",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "No landfill should be constructed within _____m of a navigable river or stream.",
+    "options": [
+      "75",
+      "80",
+      "100",
+      "120"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q57",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘active’ period of landfill design, typically range from ____years depending on the availability of land area.",
+    "options": [
+      "10",
+      "10-25",
+      "25-35",
+      "35"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “10-25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q58",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per IS 10500-2012, the acceptable limit for chloramine content in drinking water is _____mg/l",
+    "options": [
+      "10",
+      "8",
+      "4",
+      "25"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q59",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Watershed is an important parameter in spatial planning. It stands for:",
+    "options": [
+      "A spatial unit with common drainage",
+      "Areas having different drainage",
+      "An area devoid of drainage",
+      "Areas taken up for linking rivers"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A spatial unit with common drainage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q60",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per IS 1742:1960, recommended spacing of manholes on straight reaches on sewer line for diameter upto 0.9m is:",
+    "options": [
+      "45m",
+      "75m",
+      "90m",
+      "120m"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “90m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q61",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following does not help in disinfecting water?",
+    "options": [
+      "Filtration",
+      "Chlorine tablets",
+      "Alums",
+      "Boiling"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Filtration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q62",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following helps in reduction of rain water runoff and mitigating of urban flooding? 1.Tree cover2.Permeable concrete blocks 3.Lawns4.Paver blocks Which of the above statements are correct?",
+    "options": [
+      "1, 2 and 4",
+      "1, 3 and 4",
+      "1, 2, 3 and 4",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q63",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not an accepted method for Municipal Solid Waste disposal?",
+    "options": [
+      "Sanitary land fill",
+      "Open dump disposal",
+      "Conversion of waste to compost",
+      "Recycling"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Open dump disposal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q64",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Turbidity is a measure of relative clarity of a liquid(water), and one of its unit of measurement is:",
+    "options": [
+      "MPN",
+      "NTU",
+      "Moles",
+      "Grams"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “NTU”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q65",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per CPHEEO guidelines, the water demand for fire fighting is estimated by which of the following equations? (Note: P - Population in 1000s)",
+    "options": [
+      "50£ P",
+      "100 £P",
+      "1000£P",
+      "2000£P"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “100 £P”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q66",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "A combined sewer is one which transports domestic sewage and:",
+    "options": [
+      "Storm water",
+      "Industrial wastewater",
+      "Overhead flow",
+      "Industrial wastewater and storm water"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Industrial wastewater and storm water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q67",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Consider the following statements : In solid waste management:- 1.Density separation of solid wastes can be accomplished by air classifiers. 2.Iron recovery from solid wastes can be done by magnetic separators. 3.Aluminium separation from solid wastes can be accomplished by eddy current separators. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q68",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following statements is true about zero waste management?",
+    "options": [
+      "Separate collection of each kind of waste",
+      "Segregation of garbage at the source",
+      "Community involvement",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q69",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The important steps in solid waste management are:",
+    "options": [
+      "Waste generation and collection",
+      "On-site handling, storage and processing",
+      "Transport and disposal",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q70",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Benchmarks providing Authority for solid waste management as per URDPFI:",
+    "options": [
+      "CPHEEO & Service level benchmarking",
+      "SPCB",
+      "Municipal",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “CPHEEO & Service level benchmarking”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q71",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which Indian city is known for its ‘waste-to-wealth’ model and being a ‘zero-landfill city’?",
+    "options": [
+      "Delhi",
+      "Pimpri-Chinchwad",
+      "Bengaluru",
+      "Indore"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Indore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q72",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a major classified solid waste in India?",
+    "options": [
+      "Hazardous Waste",
+      "Plastic Waste",
+      "Agricultural Waste",
+      "Construction & Demolition Waste"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Agricultural Waste”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q73",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Identify the problems of Urbanisation in India from the following: 1.Widening socio-economic Gap. 2.Slums and Squatter Settlements 3.Shortage of Urban Services 4.Emergence of Towns as Socio-Cultural Centres 5.Environmental Degradation",
+    "options": [
+      "1, 2, 3 and 5",
+      "1, 2, 3, 4, 5",
+      "1, 3, 4 and 5",
+      "2, 3 and 5"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1, 2, 3 and 5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q74",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not a beneût of the Economies of Agglomeration?",
+    "options": [
+      "High land prices",
+      "Lower transportation costs",
+      "Stronger local market",
+      "Accumulation of knowledge and human"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “High land prices”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q75",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The relationship between shape of the population distribution and the sampling distribution of the mean is known as:",
+    "options": [
+      "Central limit theorem",
+      "Central Place Theorem",
+      "Level of Significance",
+      "Coefficient of Determination"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Central limit theorem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q76",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "‘Trade-off’ principally means:",
+    "options": [
+      "A balance between two desirable but incompatible features",
+      "A balance between multiple features",
+      "Profitable option between two choices",
+      "Profitable option between many choices"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A balance between two desirable but incompatible features”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q77",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Statutory towns as per Census 2011:",
+    "options": [
+      "3799",
+      "4041",
+      "3894",
+      "4382"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “4041”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q78",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Slums are reflection of:",
+    "options": [
+      "Improper use of land",
+      "Industrialization",
+      "Illiteracy",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q79",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is a mixed economy?",
+    "options": [
+      "Modern and traditional industries",
+      "Public and Private Sectors",
+      "Foreign and domestic investments",
+      "Commercial and subsistence farming"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Public and Private Sectors”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q80",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is Gross National Product?",
+    "options": [
+      "The total value of goods and services produced in the country",
+      "The total value of all the transactions in the country",
+      "The depreciation in the total value of goods and services produced in the country",
+      "The total value of goods and services produced in the country and the net factor income from abroad"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The total value of goods and services produced in the country and the net factor income from abroad”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q81",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following activities comes under the tertiary sector?",
+    "options": [
+      "Agriculture, dairying, forestry",
+      "Manufacturing of automobiles, construction of houses",
+      "Communication and banking",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Communication and banking”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q82",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "As per Census 2011, there are _____ out growths in India",
+    "options": [
+      "918",
+      "189",
+      "981",
+      "891"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “981”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q83",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The primary driver of rapid urban growth, especially in developing countries, is:",
+    "options": [
+      "Suburbanization",
+      "Rural-to-urban migration",
+      "Urban renewal",
+      "Declining rural areas"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rural-to-urban migration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q84",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is a primary focus of Urban Economics?",
+    "options": [
+      "Global trade patterns",
+      "The spatial organization of firms and households within cities",
+      "Monetary policy",
+      "Agricultural subsidies"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The spatial organization of firms and households within cities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q85",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which factor is generally considered crucial for locating industries?",
+    "options": [
+      "Proximity to leisure facilities",
+      "Easy access to raw materials, labour, and transportation",
+      "High population density",
+      "Government tax incentives only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Easy access to raw materials, labour, and transportation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q86",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Under which policy do public sector enterprises set prices such that total revenue equals total cost (no profit, no loss)?",
+    "options": [
+      "No-Profit No-Loss Policy",
+      "Marginal Cost Pricing",
+      "Profit-price policy",
+      "Price skimming"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “No-Profit No-Loss Policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q87",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "For a project activity of 7 days optimistic time, 8 days most likely time and 15 days pessimistic time, the expected duration is:",
+    "options": [
+      "5 days",
+      "13 days",
+      "9 days",
+      "11 days"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “9 days”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q88",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "For public projects where the government fails to provide services all by itself,________ is a form of project financing, wherein a private entity receives a concession from the government bodies to finance, design, construct, own and operate the service facility.",
+    "options": [
+      "Tax free construction",
+      "Crowd Sourcing of funds",
+      "Build - Operate- Transfer (BOT)",
+      "Infrastructure Project Development Fund"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Build - Operate- Transfer (BOT)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q89",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "One of the following method falls under non-deterministic approach or the probabilistic approach:",
+    "options": [
+      "PERT",
+      "CPM",
+      "GANTT chart",
+      "Bar chart"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “PERT”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q90",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The method of economic analysis to compare long run economic effects of a number of projects is called:",
+    "options": [
+      "Cost effectiveness analysis",
+      "Cost-beneût analysis",
+      "Fiscal impact analysis",
+      "PPBS (Planning Programming Budgeting System)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cost-beneût analysis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q91",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The particular task performance in CPM is known as:",
+    "options": [
+      "Dummy",
+      "Event",
+      "Activity",
+      "Contract"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Activity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q92",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "IRR (Internal Rate of Return) is a crucial financial metric representing the ______",
+    "options": [
+      "Annualized rate of return an investment is expected to generate",
+      "Quarterly rate of return",
+      "Break-Even point",
+      "Annual interest"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Annualized rate of return an investment is expected to generate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q93",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The 74th Constitutional Amendment Act makes provisions for_______ 1. Constitution and Composition of a Municipality 2.Personnel system in a Municipality 3.Relations between elected members (executive) of a municipality and the bureaucracy Choose the correct option from the options given below:",
+    "options": [
+      "Only 1",
+      "1 and 2",
+      "1 and 3",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only 1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q94",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "What is the role of ‘The Real Estate(Regulation and Development) Act?",
+    "options": [
+      "Slum improvement and up-gradation",
+      "Urban poverty alleviation",
+      "Facilitating land supply and market",
+      "Provision of urban amenities and facilities"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Facilitating land supply and market”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q95",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding land acquisition as per the Act of 2013 is FALSE?",
+    "options": [
+      "Acquisition process is undertaken in consultation with Local Self Government",
+      "There is provision for rehabilitation for all the affected families",
+      "The purposes for which land can be acquired has been mentioned",
+      "Central Government directly acquires the land and transfers it to concerned agency"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Central Government directly acquires the land and transfers it to concerned agency”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q96",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The Right to Fair Compensation and Transparency in Land Acquisition , Rehabilitation and Resettlement Act 2013 covers which of the following issues: 1.Fair compensation 2.Transparency 3.Resettlement and Rehabilitation 4.Public health",
+    "options": [
+      "1 and 4",
+      "1, 3 and 4",
+      "2, 3 and 4",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q97",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The Town Planning Committee comes under which among the following parts of Constitution of India?",
+    "options": [
+      "Part VII",
+      "Part IX",
+      "Part lXA",
+      "None of them"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Part lXA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q98",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not a part of the Planning Legislation introduced in India before independence?",
+    "options": [
+      "Sanitary Commission 1864",
+      "The Bombay Improvement Trust 1898",
+      "The Model Town Planning Act 1900",
+      "The Bombay Town Planning Act 1915"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Model Town Planning Act 1900”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q99",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "Chapter VII of the Mizoram Urban and Regional Development Act,2025 talks about:",
+    "options": [
+      "Town Planning Scheme",
+      "Local Area Plan",
+      "Development Plan",
+      "Grievance Redressal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Local Area Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3-Q100",
+    "paperId": "mpsc-group-b-adtp-2026-tech3",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Subject Paper-III",
+    "difficulty": "medium",
+    "question": "The Institute of Town Planners, India (ITPI) was established in:",
+    "options": [
+      "1950",
+      "1951",
+      "1948",
+      "1949"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1951”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · February 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5"
+  },
+  {
     "id": "mpsc-group-b-agri-2025-gs-Q1",
     "paperId": "mpsc-group-b-agri-2025-gs",
     "questionNumber": "1",
@@ -148887,7 +161193,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-gs-Q13",
     "paperId": "mpsc-group-b-agri-2025-gs",
@@ -151926,9 +164234,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p1-A13",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
@@ -157847,7 +170153,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-ah-vety-p1-A39",
     "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
@@ -160575,9 +172883,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-ah-vety-p3-A23",
     "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
@@ -166428,7 +178734,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p3-written-2",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
@@ -169363,9 +181671,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p1-Q94",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
@@ -175158,7 +187464,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q32",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -177889,9 +190197,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B32",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -183185,7 +195491,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q55",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -185901,9 +198209,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p1.pdf#page=7"
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-written-5",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -191687,7 +203993,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q36",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -194794,9 +207102,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-B36",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -200999,7 +213305,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acm-2026-gs-Q72",
     "paperId": "mpsc-group-b-acm-2026-gs",
@@ -203824,9 +216132,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-A2",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -209611,7 +221917,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2025-gk-Q54",
     "paperId": "mpsc-group-b-ceo-2025-gk",
@@ -212672,9 +224980,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cao-2026-gs1-Q54",
     "paperId": "mpsc-group-b-cao-2026-gs1",
@@ -218731,7 +231037,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cao-2026-gs3-Q54",
     "paperId": "mpsc-group-b-cao-2026-gs3",
@@ -221651,9 +233959,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q54",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
@@ -227664,7 +239970,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=5",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech3-A34",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech3",
@@ -230386,9 +242694,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 57 -61 ); Avoiding repetition for the words in italics, use some other suitable"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B62",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -236032,7 +248338,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 95-100): Select the most suitable alternative to fill in the blanks in the sentence"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d-Q97",
     "paperId": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d",
@@ -238658,9 +250966,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing  the correct adjectives and adverbs given"
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q38",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -243850,7 +256156,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B63",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
@@ -246628,9 +258936,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "MPE&SS - 2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c.pdf#page=1"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c-Q3",
     "paperId": "mpsc-group-b-archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c",
@@ -251978,7 +264284,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B18",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
@@ -254659,9 +266967,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 15 - 19):  Fill in the blanks with correct Prepositions:"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B18",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -259845,7 +272151,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided."
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc-B67",
     "paperId": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc",
@@ -262418,9 +274726,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "MVI-2014 · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a.pdf#page=2"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a-Q7",
     "paperId": "mpsc-group-b-archive-lang-2014-mvi-2014-mvi-general-english-pdf-b987ed3a",
@@ -267693,7 +279999,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 81 - 90) : Choose the appropriate word/phrase to fill in the blanks."
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q91",
     "paperId": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1",
@@ -270510,9 +282818,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 81 to 85): Choose the correct synonym of the following words:"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q82",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -276215,7 +288521,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 75-80) : Choose the word nearest in meaning of the underlined word :"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e-Q77",
     "paperId": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e",
@@ -278976,9 +291284,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 61 - 70) : Synthesise the following sentences as directed."
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q66",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -284279,7 +296585,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question No. I - 20) Choose the correct answer from the options given below:"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d-B16",
     "paperId": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d",
@@ -287194,9 +299502,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q30",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -292911,7 +305217,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Choose the correctf orm of the verb that agrees with the subject of"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc-Q37",
     "paperId": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -295445,9 +307753,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Fill in with the appropriate preposition provided at the end"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q33",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -300605,7 +312911,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q19",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -303529,9 +315837,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 30) : Pick out the right answer from the options given."
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B26",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -308705,7 +321011,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734-B64",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734",
@@ -311276,9 +323584,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 71 - 80) : Choose the correct meaning of the following proverbs, idioms"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q72",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -316388,7 +328694,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose"
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a-B51",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
@@ -318946,9 +331254,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 12 & 13): In the following sentences, an underlined/highlighted part of a"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B13",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -324521,7 +336827,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (QuestionNos. 11 – 15)Fill in the blanks using the correct preposition:"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B15",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -326538,9 +338846,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=6"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-62",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -332352,7 +344658,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q45",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -335550,9 +347858,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q11",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -341945,7 +354251,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q4",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -345096,9 +357404,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q35",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -351117,7 +363423,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
     "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B34",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -353771,9 +366079,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "source": "2 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5.pdf#page=3"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-written-9",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -359071,7 +371377,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B74",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q75",
     "questionNumber": "B75",
@@ -361696,9 +374004,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B5",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q6",
     "questionNumber": "B6",
@@ -366911,7 +379217,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A48",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A49",
     "questionNumber": "A49",
@@ -369599,9 +381907,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B48",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B49",
     "questionNumber": "B49",
@@ -374966,7 +387272,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-written-1",
     "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -377577,9 +389885,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q19",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -383005,7 +395311,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
     "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B19",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -385917,9 +398225,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 37 - 42) : Identify the parts of speech of each underlined words:"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B38",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -391479,7 +403785,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B7",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
@@ -394021,9 +406329,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 43-51): Analyse the following sentences and pick out the correct option:"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B44",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -399168,7 +411474,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A5",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -401806,9 +414114,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B105",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -407298,7 +419604,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction for Questions 65 - 72 : Choose the correct meaning of Idioms and Phrases written in bolt"
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach1-2019-english-B67",
     "paperId": "mpsc-group-b-coach1-2019-english",
@@ -410157,9 +422465,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 10) : Read the given passage carefully and answer the following"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B5",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -415772,7 +428078,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-english-B43",
     "paperId": "mpsc-group-b-dso-2019-english",
@@ -418589,9 +430897,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q62",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -423959,7 +436265,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs1-Q33",
     "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -426477,9 +438785,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q59",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -432017,7 +444323,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-gs2-Q30",
     "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -434689,9 +446997,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 41 - 48) : Analyze the sentences and choose the correct option :"
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q49",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -439888,7 +452194,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q49",
     "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -442655,9 +454963,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q49",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -448083,7 +460389,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q43",
     "paperId": "mpsc-group-b-fr-2019-science-1",
@@ -450807,9 +463115,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q43",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -456124,7 +468430,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-iof-2019-gs-Q28",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -458694,9 +471002,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:"
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q9",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -464172,7 +476478,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q9",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -466927,9 +479235,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q11",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -472173,7 +484479,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q17",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -474947,9 +487255,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q10",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -480587,7 +492893,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q29",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -483323,9 +495631,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q54",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -488812,7 +501118,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 17  - 21 : Read the given passage carefully and choose the correct answer"
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-scr-2019-english-B18",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -491619,9 +503927,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 36) : Fill in the blanks with the correct alternatives:"
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B37",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -497090,7 +509396,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q11",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -499856,9 +512164,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q36",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -504972,7 +517278,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A39",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -507766,9 +520074,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 36 - 43): Analyse the given sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B39",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -513292,7 +525598,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 32 – 37): Identify the parts of speech of each underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B37",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -516052,9 +528360,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A60",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -521633,7 +533939,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-B83",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -524445,9 +536753,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A7",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -530012,7 +542318,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A5",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -532549,9 +544857,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 1 - 9) : Use the appropriate modal to fill in the blanks."
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B5",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -538104,7 +550410,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 22 - 32):** Fill in the blanks with suitable comparisons."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B28",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -540869,9 +553177,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A51",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -546174,7 +558480,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p2-A74",
     "paperId": "mpsc-group-b-udc-rd-2019-p2",
@@ -548962,9 +561270,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 67 - 75) : Choose the correct form of verb."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B74",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -554107,7 +566413,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 87 - 94) : Select word which is opposite in meaning to the underlined word or"
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -556641,9 +568949,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -562132,7 +574438,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -564755,9 +577063,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q85",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -570400,7 +582706,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs1-Q53",
     "paperId": "mpsc-group-b-museum-guide-2020-gs1",
@@ -573124,9 +585432,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1-9): Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B4",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -578564,7 +590870,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q17",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -581284,9 +593592,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 10) : Read the following sentences carefully and choose the best"
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q11",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -586621,7 +598927,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 10) : Identify the parts of speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q5",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -589448,9 +601756,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q5",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -594952,7 +607258,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q17",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -597640,9 +609948,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q10",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -602928,7 +615234,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "source": "Tourist Officer under Tourism Department · December 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/to-2020-english-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p1-written-4",
     "paperId": "mpsc-group-b-to-2020-english-p1",
@@ -605792,9 +618100,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 91 - 100) : Choose the correct word-substitute of the underlined words from"
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q98",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -611149,7 +623455,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -613904,9 +626212,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -619636,7 +631942,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q96",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -622641,9 +634949,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q20",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -628658,7 +640964,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q47",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -631658,9 +643966,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q61",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -637663,7 +649969,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q82",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
@@ -640661,9 +652969,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q96",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -646664,7 +658970,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q75",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
@@ -649659,9 +661967,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q98",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -655216,7 +667522,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q16",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -658201,9 +670509,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q16",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -663988,7 +676294,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q8",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -667012,9 +679320,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q19",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -673081,7 +685387,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q25",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -675909,9 +688217,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q50",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -680933,7 +693239,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q71",
     "paperId": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
@@ -683440,9 +695748,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q84",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -689461,7 +701767,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q41",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -692501,9 +704809,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q41",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -697985,7 +710291,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-general-english-B47",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
@@ -700707,9 +713015,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "type": "descriptive",
     "sourceReview": true,
     "sourceNote": "Written prompt transcribed from the official paper; response guidance is not yet added."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2014-p1-q003",
     "paperId": "mpsc-group-b-si-excise-2014-p1",
@@ -703658,7 +715964,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -703969,6 +716275,30 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-adfd-2025-technical-p3": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adtp-2026-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adtp-2026-tech1": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adtp-2026-tech2": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adtp-2026-tech3": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
     "negativeMarking": false,
     "penaltyFraction": 0
   },
@@ -705269,6 +717599,10 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-adfd-2025-technical-p1": 50,
   "mpsc-group-b-adfd-2025-technical-p2": 50,
   "mpsc-group-b-adfd-2025-technical-p3": 50,
+  "mpsc-group-b-adtp-2026-gs": 100,
+  "mpsc-group-b-adtp-2026-tech1": 100,
+  "mpsc-group-b-adtp-2026-tech2": 100,
+  "mpsc-group-b-adtp-2026-tech3": 100,
   "mpsc-group-b-agri-2025-gs": 100,
   "mpsc-group-b-agri-2025-agri-science-p1": 50,
   "mpsc-group-b-agri-2025-agri-science-p2": 50,

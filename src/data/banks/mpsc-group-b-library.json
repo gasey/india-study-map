@@ -985,6 +985,50 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-adtp-2026-gs",
+    "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "sitting": "February 2026",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/adtp-2026-gs.pdf",
+    "keyHref": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech1",
+    "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "sitting": "February 2026",
+    "subject": "Technical Subject Paper-I",
+    "sourceHref": "/papers/group-b/adtp-2026-tech1.pdf",
+    "keyHref": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech2",
+    "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "sitting": "February 2026",
+    "subject": "Technical Subject Paper-II",
+    "sourceHref": "/papers/group-b/adtp-2026-tech2.pdf",
+    "keyHref": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adtp-2026-tech3",
+    "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+    "sitting": "February 2026",
+    "subject": "Technical Subject Paper-III",
+    "sourceHref": "/papers/group-b/adtp-2026-tech3.pdf",
+    "keyHref": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-agri-2025-gs",
     "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
     "sitting": "November 2025",

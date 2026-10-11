@@ -89,6 +89,17 @@ ENDMARK_RE = re.compile(r"^[\s*]+$")
 BARE_OPTION_MARKERS = False
 REPEATED_OPTION_LABELS = False
 
+# Some booklets print a numbered statement list inside a question ('Consider the
+# following: 1. ... 2. ... 3. ...'). When the list happens to number 1, 2, 3 it
+# runs into the sequence the splitter is expecting next and its options are
+# stolen by the statement lines (the AD (Town Planning) February-2026 General
+# Studies lost Q1/Q2 this way). A real question number sits at the page's
+# question margin while statements are indented relative to it, so when this flag
+# is set the splitter also requires a candidate number to sit at that margin.
+# Enabled only for the booklets known to carry the collision so the general path
+# stays strict.
+QUESTION_MARGIN_GUARD = False
+
 # These booklets set maths in a Symbol font whose glyphs land in the private use
 # area, so the text layer carries U+F0xx where the page shows an operator. The
 # low byte is the Adobe Symbol code point.
@@ -465,6 +476,10 @@ def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,), skip_pages
     # actually expecting next -- the same fix the MES 2023 P3 extraction needed.
     expect = 1
     allow_restart = True
+    # Question margin for the current page (see QUESTION_MARGIN_GUARD); it is
+    # recomputed from each page's own lines because these booklets are scanned
+    # with a different left margin on facing pages.
+    qmargin = None
 
     def close():
         nonlocal cur
@@ -496,6 +511,8 @@ def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,), skip_pages
         # the first real question page.
         if p["n"] <= skip_pages:
             continue
+        qmargin = min((l["x0"] for l in p["lines"]
+                       if QNUM_RE.match(l["plain"].strip())), default=None)
         for li, line in enumerate(p["lines"]):
             text = line["text"].strip()
             plain = line["plain"].strip()
@@ -525,9 +542,14 @@ def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,), skip_pages
             qm = QNUM_RE.match(plain)
 
             # A question number at the left margin starts a new question, but
-            # only if it is the number we are expecting (see `expect` above).
+            # only if it is the number we are expecting (see `expect` above) and
+            # it sits at the question margin (see `qmargin` above), so the
+            # numbered statements inside a question are not mistaken for
+            # questions.
             starts = False
-            if qm and line["x0"] < 120 and not plain.startswith("("):
+            if (qm and line["x0"] < 120 and not plain.startswith("(")
+                    and (not QUESTION_MARGIN_GUARD
+                         or qmargin is None or line["x0"] <= qmargin + 14)):
                 n = int(qm.group(1))
                 if n == expect or (allow_number_gaps and expect < n <= 100):
                     if n != expect:

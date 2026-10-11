@@ -36,6 +36,10 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | adfd-2025-technical-p1 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=3 |
 | adfd-2025-technical-p2 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=4 |
 | adfd-2025-technical-p3 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=5 |
+| adtp-2026-gs | 100 | /papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2 |
+| adtp-2026-tech1 | 100 | /papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=3 |
+| adtp-2026-tech2 | 100 | /papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4 |
+| adtp-2026-tech3 | 100 | /papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5 |
 | agri-2025-agri-science-p1 | 50 | /papers/group-b/keys/agri-2025-final-key.pdf#page=3 |
 | agri-2025-agri-science-p2 | 50 | /papers/group-b/keys/agri-2025-final-key.pdf#page=4 |
 | agri-2025-agri-science-p3 | 50 | /papers/group-b/keys/agri-2025-final-key.pdf#page=5 |

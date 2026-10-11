@@ -1,0 +1,2317 @@
+{
+  "slug": "adtp-2026-tech1",
+  "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+  "sitting": "February 2026",
+  "subject": "Technical Subject Paper-I",
+  "source": "Assistant Director Technical Subject Paper-I, 2026..pdf",
+  "sourceSha256": "0735c289b3e134f57fb94e313b2fdfc97ef58293490f0d062eafb0b49dc985c6",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Concentric Zone",
+        "b": "Multiple Nuclei",
+        "c": "Central Place",
+        "d": "Sector Theory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which theory explains urban growth in wedge-shaped sectors?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Death and Life of Great American Cities",
+        "b": "Urban Land Economics",
+        "c": "The City in History",
+        "d": "Tomorrow: A Peaceful Path to Real Reform"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lewis Mumford is best known for writing:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dandaka",
+        "b": "Sarvatobhadra",
+        "c": "Padmaka",
+        "d": "Nandyavarta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of ancient Indian town planning, which of the following refers to a village layout shaped like a lotus?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paris",
+        "b": "London",
+        "c": "Chicago",
+        "d": "Berlin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Concentric Zone Theory was developed using studies of:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plan–Survey–Implement",
+        "b": "Survey–Analysis–Plan",
+        "c": "Design–Build–Evaluate",
+        "d": "Observe–Control–Expand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Patrick Geddes emphasized which planning sequence?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Religious enclosure",
+        "b": "Military parade ground",
+        "c": "Public space for trade and social interaction",
+        "d": "Residential cluster"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of “Chowk” in traditional Indian towns primarily served as:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Garden City",
+        "b": "Radiant City",
+        "c": "Linear City",
+        "d": "Industrial City (Cité Industrielle)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tony Garnier proposed the:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Community control",
+        "b": "Market forces and social norms",
+        "c": "Expert-led rational decision making",
+        "d": "Political and traditional negotiation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Orthodox planning mainly stresses:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pattrick Geddes",
+        "b": "Lewis Mumford",
+        "c": "Peter Hall",
+        "d": "Paul Davidoff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Advocacy planning was proposed by:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Static maps",
+        "b": "Interrelated subsystems",
+        "c": "Economic market hubs",
+        "d": "Political institutions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Systems approach views cities as:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Advocacy planning",
+        "b": "Pure rational planning",
+        "c": "Equity planning",
+        "d": "Structuralism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mixed scanning model attempts to correct limitations of:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agricultural fields",
+        "b": "Markets",
+        "c": "Temples and palaces",
+        "d": "Military camps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ancient Mesopotamian cities were mainly organized around:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Collecting data from the Census of India",
+        "b": "House-to-house socio-economic interview",
+        "c": "Referring to existing satellite imagery",
+        "d": "Reviewing previous Master Plan documents"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is considered a ‘Primary Survey’ in town planning?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economic Car Space",
+        "b": "Equivalent Car Space",
+        "c": "Essential Commodity Space",
+        "d": "Environmental Clearance Standard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does ‘ECS’ stand for in the context of transport planning and zoning regulations?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arithmetic Increase Method",
+        "b": "Geometric Increase Method",
+        "c": "Incremental Increase Method",
+        "d": "Graphical Method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which technique is used to estimate future population by assuming a constant percentage growth rate?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Property tax regulation",
+        "b": "Improving city’s economic growth",
+        "c": "Controlling use of land and density",
+        "d": "Limiting land development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Zoning Regulations’ are primarily a tool for:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Housing planning",
+        "b": "Transport planning",
+        "c": "Industrial planning",
+        "d": "Environmental planning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Origin-Destination (O-D) Survey’ is a specific technique used in:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Land that cannot be built upon",
+        "b": "Existing land use not in accordance with Master Plan zoning",
+        "c": "Government land use that need not follow Master Plan zoning",
+        "d": "Land that has no legal owner"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Non-conforming land use’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "300 meters",
+        "b": "600 meters",
+        "c": "800 meters",
+        "d": "1,000 meters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to URDPFI guidelines, for a town to be classified as a ‘Hill Town,’ it should generally be located at an altitude of more than:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rate of perceived Urbanism",
+        "b": "Portion of urbanized area in percentage",
+        "c": "Percentage of total population living in urban areas",
+        "d": "Number of cars per household"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which index is commonly used to measure the ‘Degree of Urbanization’ in a region?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NITI Aayog",
+        "b": "Survey of India (SoI)",
+        "c": "Office of the National Census Survey of India (ONCSI)",
+        "d": "Office of the Registrar General and Census Commissioner, India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Census organization in India is responsible for conducting the decennial census?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lines and Points",
+        "b": "A grid of cells or pixels",
+        "c": "Text files",
+        "d": "Circular charts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a GIS environment, ‘Raster Data’ is represented by:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brownfield development",
+        "b": "Greenfield development",
+        "c": "Central schemes in aid of implementation of Master Plan",
+        "d": "GIS-based Master Plan."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Town Planning Scheme is mainly associated with:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To count passengers inside vehicles",
+        "b": "To detect double counting of trips and validate survey data",
+        "c": "To measure the speed of vehicles",
+        "d": "To check the license plates of cars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary purpose of a ‘Screen Line Survey’ in transport planning?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 cm",
+        "b": "10 cm",
+        "c": "20 cm",
+        "d": "50 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the standard height of a ‘Mountain/High Curb’ used in urban transport design?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Private Car Usage",
+        "b": "Passenger Car Unit",
+        "c": "Public Carrier Utility",
+        "d": "Path Consistency Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does ‘PCU’ stand for in traffic engineering?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Loop",
+        "b": "Alley",
+        "c": "Cul-de-sac",
+        "d": "Service Road"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ‘Dead-end’ street that provides a turnaround area at the end is called a:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Private Cars",
+        "b": "Rail-based Transit (Metro/LRT)",
+        "c": "E-Buses",
+        "d": "Aggregators like Uber"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which transport mode is generally the most energy-efficient for mass transit in high-density corridors?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trip Generation",
+        "b": "Trip Distribution",
+        "c": "Modal Split",
+        "d": "Traffic Assignment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the ‘Four-Step Model’ of transport planning, which step involves the use of a ‘Logit Model’?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cordon count",
+        "b": "Manual Count",
+        "c": "Video count",
+        "d": "Registration number counts survey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per URDPFI guidelines, the suggested Survey method for conducting intersection survey is:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2%",
+        "b": "5%",
+        "c": "10%",
+        "d": "15%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the ‘Ruling Gradient’ recommended by IRC for main roads in mountainous terrain like Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Widening an existing road",
+        "b": "Building a new flyover",
+        "c": "Congestion pricing",
+        "d": "Increasing the number of buses"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a ‘Demand-Side’ travel management strategy?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The direct path between origin and destination regardless of the existing road network",
+        "b": "The actual path taken by the vehicle from origin to destination",
+        "c": "The speed of vehicles on a specific road",
+        "d": "The line from origin to destination along the road taken."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In ‘Origin-Destination’ (O-D) surveys, the ‘Desire Line’ diagram represents:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Measure the depth of the road pavement all the way to plot boundary",
+        "b": "Determine the volume and nature of traffic entering and leaving a defined area",
+        "c": "Count pedestrians in a park",
+        "d": "Determine the speed of traffic entering and leaving a defined area"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ‘Cordon Survey’ is typically conducted to:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Moving all residents to transit oriented lands",
+        "b": "High-density, mixed-use development within walking distance of transit hubs",
+        "c": "Low-density, mixed-use development within walking distance of transit hubs",
+        "d": "Reducing the number of railway stations to improve speed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Transit-Oriented Development’ (TOD) focuses on:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Simple Stop signs",
+        "b": "Small Roundabouts",
+        "c": "Uncontrolled T-junctions",
+        "d": "Grade-separated interchanges"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of intersection control is most suitable for heavy traffic volumes on all approaching roads in a hilly urban area?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High-speed bullet trains",
+        "b": "Flexible transport services",
+        "c": "Public transport specially designed for PwDs",
+        "d": "Underground metro systems"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Paratransit’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "200 meters",
+        "b": "300 meters",
+        "c": "4 kilometers",
+        "d": "400 meters"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to URDPFI, the ‘Walking Distance’ to the nearest bus stop in an urban area should ideally not exceed:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Speed and Delay survey",
+        "b": "Parking survey",
+        "c": "Road Inventory survey",
+        "d": "Home Interview Survey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which survey is used to determine the ‘Trip Rate’ for different land uses?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The location of prime importance in a city where majority of travel commences",
+        "b": "The theoretical point where all trips in a traffic zone are assumed to start or end",
+        "c": "The geometric center of the city",
+        "d": "The densest part of the city to be pedestrianized"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In transport modeling, ‘Zone Centroids’ represent:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The maximum number of lanes it has",
+        "b": "The maximum hourly rate at which vehicles can reasonably be expected to traverse a section",
+        "c": "The total number of vehicles crossing a particular line of a road at a given time.",
+        "d": "The average number of vehicles traversing through the cordon point of the road within 15 minutes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Capacity’ of a road is defined as:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NITI Aayog",
+        "b": "Indian Roads Congress (IRC)",
+        "c": "Census of India",
+        "d": "Ministry of Road Transport & Highways (MoRTH)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organization in India provides the standards for ‘Geometric Design of Roads’?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "No individual driver can reduce their travel time by unilaterally changing routes",
+        "b": "Total system travel time is minimized by choosing the road with the widest cross section",
+        "c": "All drivers must use the same lane at a given time",
+        "d": "Public transport is always faster than private cars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘User Equilibrium’ principle (Wardrop’s First Principle) states that:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thermal expansion of the road",
+        "b": "Off-tracking of rear wheels",
+        "c": "Accommodating street vendors",
+        "d": "Allowing for future road widening"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In hill road design, ‘Extra Widening’ of the carriageway at sharp curves is required due to:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The sensitivity of travelers to travel costs",
+        "b": "The total number of households",
+        "c": "The average traffic speed of the network",
+        "d": "The capacity of the destination zone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the ‘Entropy Maximization Model’ for trip distribution, the parameter b (beta) represents:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%",
+        "b": "7% to 8.5%",
+        "c": "10% to 12.5%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under IRC norms for Hill Towns, the ‘Maximum Gradient’ allowed for a residential street in extreme cases is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All-or-Nothing Assignment",
+        "b": "Capacity Restrained Assignment",
+        "c": "Stochastic Assignment",
+        "d": "Incremental Assignment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of ‘Traffic Assignment’ accounts for the fact that as a road gets crowded, its travel time increases?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Integrate the planning and management of various transport modes under one body",
+        "b": "Build and maintain metro rails to reduce private cars dependency",
+        "c": "Collect taxes for the central government",
+        "d": "Incorporate fast-track mechanisms for transportation in metro cities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ‘Unified Metropolitan Transport Authority’ (UMTA) is recommended for cities to:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The comfort of the driver on corners",
+        "b": "Headlight sight distance during night driving",
+        "c": "Drainage of water",
+        "d": "Improve soil stability in corners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Valley Curves’ on hill roads must be designed primarily to satisfy:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Argentina",
+        "b": "Brazil",
+        "c": "Columbia",
+        "d": "Peru"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Machu Picchu of Inca Civilization is located in:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lewis Mumford",
+        "b": "Homer Hoyt",
+        "c": "Patrick Geddes",
+        "d": "C.D. Harris"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Conurbation’ was given by:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Robert Malthus",
+        "b": "Karl Marx",
+        "c": "Louis Wirth",
+        "d": "Lewis Coser"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Urbanism as a way of life was developed by:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecological theory",
+        "b": "Zone theory",
+        "c": "Sector theory",
+        "d": "Multiple nuclei theory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the theory developed by Chauncy Harris and Edward Ullman in analysing a city.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Politicians",
+        "b": "People",
+        "c": "Town Planner",
+        "d": "Prominent citizens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Participatory planning is an urban planning paradigm that involves:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "750 BC",
+        "b": "1000 BC",
+        "c": "2500 BC",
+        "d": "1500BC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cities of Mohenjo-Daro and Harappa came into being in the valley of Indus river around _______.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aristotle",
+        "b": "Hippodamus",
+        "c": "Copernicus",
+        "d": "Kent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is regarded as the first town planner and ‘inventor’ of the orthogonal urban layout?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ribbon development",
+        "b": "Concentric spread",
+        "c": "Satellite Growth",
+        "d": "Scattered growth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The building activity expands in a natural way along the sides of main road, this type of development can be called as:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7 types",
+        "b": "8 types",
+        "c": "6 types",
+        "d": "4 types"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In how many types were the villages classified in Manasara?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "City of the dead",
+        "b": "A fortified city",
+        "c": "A capital city of a country",
+        "d": "A city made of whole world"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ecumenopolis means:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Resilience",
+        "b": "Ecology",
+        "c": "Sustainability",
+        "d": "Environment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term coined in ‘Brutland Report’ is:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environment approach",
+        "b": "Social approach",
+        "c": "Capitalist approach",
+        "d": "Political approach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Geddian Triangle is based on:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tomorrow : A Peaceful Path to Real Reform",
+        "b": "Garden Cities of Tomorrow",
+        "c": "Model Garden Cities of Tomorrow",
+        "d": "Garden Suburb of London."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following books Ebenezer Howard published in 1898 ?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IRNSS",
+        "b": "Bhuvan",
+        "c": "Bing Map",
+        "d": "Open Street Map"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The application platform developed by Indian Space Research Organization (ISRO) allowing representation of Earth’s surface like Google Earth is called:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "75-125 pph",
+        "b": "45-75 pph",
+        "c": "60-90 pph",
+        "d": "125-175 pph"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per URDPFI guidelines, the developed area average densities for large cities in hill areas is :",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Perception of respondents",
+        "b": "Study technique of natural resources",
+        "c": "Forecasting method based on experts’ opinion",
+        "d": "Technique of assessment of ecosystem resources"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Delphi method is a:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Geology",
+        "b": "Topography",
+        "c": "Land-cover",
+        "d": "Hydrology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In GIS, DEM represents information on:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Affordable and Clean Energy",
+        "b": "Climate Action",
+        "c": "Clean water and Sanitation",
+        "d": "Sustainable Cities and Communities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SDG 11 pertains to:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Formulation",
+        "b": "Correlation",
+        "c": "Rejection",
+        "d": "Projection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ techniques are used for anticipating future which is a necessary step in the planning process.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agricultural society",
+        "b": "Tribal society",
+        "c": "Modern society",
+        "d": "Traditional society"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Durkheim’s concept of organic solidarity is found in a:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Perspective Plan > Development Plan > Local Area Plan",
+        "b": "Development Plan > Special Purpose Plan > Annual Plan",
+        "c": "Local Area Plan > Annual Plan > Development Plan",
+        "d": "Special Purpose Plan > Perspective Plan > Local Area Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the URDPFI Guidelines, choose the option which indicate the appropriate hierarchy of plans from higher to lower order:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2, 4 and 5",
+        "b": "2, 3, 4 and 5",
+        "c": "1, 3, 4 and 5",
+        "d": "1, 4 and 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following can be determined through Remote Sensing? 1. Population Density 2.Tree cover 3.Agricultural land 4.Lakes and wetlands 5.Transportation network Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Smart Cities Mission",
+        "b": "AMRUT Mission",
+        "c": "HRIDAY",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the current urban development programmes/missions, GIS based master plan is a component under which of the following?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zonal Plan",
+        "b": "Master Plan",
+        "c": "Comprehensive development plan",
+        "d": "Perspective plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The boundaries of individual land parcels of land (lots) is precisely defined in:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A-v,B-ii,C-iii,D-iv",
+        "b": "A-ii,B-i,C-iv,D-iii",
+        "c": "A-ii,B-iv,C-i,D-iii",
+        "d": "A-v,B-i,C-iv,D-iii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per NUIS- National remote Sensing Centre , which of the following is most appropriate match: **No.INo.II** **ARegional Plani1:10,000** **BDevelopment Planii1:50,000** **CSub-Regional Planiii1:2000** **DZonal Planiv1:25,000** **v1:1,00,000**",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Topographic Surveying",
+        "b": "Hydrographic Surveying",
+        "c": "Geodetic Surveying",
+        "d": "Plane Surveying"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The type of surveying in which the shape of the earth is taken into account is __________.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Creating a single type of land use.",
+        "b": "Designating areas for specific functions like residential, commercial, etc.",
+        "c": "Developing only green spaces.",
+        "d": "Ignoring land use regulations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zoning in urban and regional planning refers to:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Accident",
+        "b": "Origin and destination",
+        "c": "Classified volume",
+        "d": "Speed and delay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the traffic survey data which is plotted by means of ‘desired lines.’",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only two-wheelers are permitted",
+        "b": "Through traffic is discouraged",
+        "c": "Pedestrians are not permitted",
+        "d": "Vehicles are permitted to move in one direction only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ‘cul-de-sac’ is a street where:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sub arterial road",
+        "b": "Arterial road",
+        "c": "Collector Road",
+        "d": "Local Road"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Street, which serves or is designed to serve as a traffic way for a neighbourhood or as a feeder to a major roadway:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1,2,3,4",
+        "b": "1,3,2,4",
+        "c": "1,4,2,3",
+        "d": "1,3,4,2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sequentially arrange the following as per four stage model for transportation planning 1.Trip generation 2.Mode choice 3.Trip distribution 4.Route choice",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neighbourhood Planning",
+        "b": "Housing Typologies",
+        "c": "Architecture Design Principle",
+        "d": "Hierarchy of Roads"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "V7 concept given by Le Corbusier refers to:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suburban sprawl",
+        "b": "Gentrification",
+        "c": "Urban renewal",
+        "d": "Ruralization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which term describes the redevelopment of old, run-down city areas?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spot speed data",
+        "b": "Origin and destination data",
+        "c": "Traffic volume data",
+        "d": "Accident data"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scientific planning of transportation system and mass transit facilities in cities should be based on:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i)",
+        "b": "(i) and (iii)",
+        "c": "(i) and (ii)",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Transit Oriented Development: (i) reduces urban sprawl (ii)will induce shift from non-motorized to motorized modes of travel (iii)highly depends on establishing mixed land use zone as a part of strategic densification Which of the above statements are true?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12",
+        "b": "32",
+        "c": "4",
+        "d": "24"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The maximum number of points of conflicts in two way two lane roads meeting at right angles is:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water drainage",
+        "b": "Road marking",
+        "c": "Speed control",
+        "d": "Additional lane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Camber (cross slope) is primarily provided in roads for?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Light rail transit",
+        "b": "Sub urban train",
+        "c": "Rapid rail transit",
+        "d": "Bus road transit system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Namo Bharat trains is a type of:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Service Level Benchmarks",
+        "b": "System Level Benchmarks",
+        "c": "Station Level Benchmarks",
+        "d": "Standard Level Benchmarks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In urban transport sector, SLB means:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minimizing travel time",
+        "b": "Provide adequate frequency of service, capacity, safety & reliability",
+        "c": "Minimizing travel cost",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mobility of people and goods can be maximized by :",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerbs",
+        "b": "Sideway",
+        "c": "Margin",
+        "d": "Gutter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ indicate the boundary between the carriage way and the shoulder or islands or footpaths.",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Intellectual Transit Structure",
+        "b": "Intelligent Transport Structure",
+        "c": "Intellectual Transport System",
+        "d": "Intelligent Transportation System"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the full form of ITS?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 3",
+        "c": "1 and 3",
+        "d": "3 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the correct statement(s) from the following: 1.Introduction of automobiles led to urban sprawl 2.Compact cities show relatively higher carbon emissions 3.Land use and transportation planning is inter-dependent on each other 4.Addition of a transport mode in an urban area does not change accessibility",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Signal Phasing  Green Allocation  Cycle Length Selection",
+        "b": "Green Allocation  Cycle Length Selection  Signal Phasing",
+        "c": "Cycle Length Selection  Signal Phasing  Green Allocation",
+        "d": "Signal Phasing  Cycle Length Selection  Green Allocation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the correct sequence of steps for designing the operation of a signalized intersection.",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Moving Observer Method",
+        "b": "Registration Number Method",
+        "c": "Elevated Observer Method",
+        "d": "Photographic method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Speed and delay studies along routes are best done using the following method",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shoulder",
+        "b": "Mid reservation",
+        "c": "Central reservation",
+        "d": "Split reservation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The median separating dual carriageways is also referred to as:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pradhan Manti Gram Sadak Yojna",
+        "b": "Pracheen Mukya Gram Sadak Yojna",
+        "c": "Pradhan Mantri Gram Seva Yojna",
+        "d": "Pradhan Mantri Gram Sangh Yojna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of Rural Road Development Plan; PMGSY refers to:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Volume to Capacity ratio",
+        "b": "Sight distance",
+        "c": "Spot speed",
+        "d": "Intersection delay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a traffic survey, Enoscope is used to measure:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PM Gati Shakti",
+        "b": "Bharatmala",
+        "c": "Parvatmala",
+        "d": "Sagarmala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following initiatives of the Government of India is also known as the National Master Plan for Multi-modal Connectivity?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3.0 m",
+        "b": "5.0 m",
+        "c": "3.5 m",
+        "d": "4.5 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IRC recommends a minimum desirable width of _______ for medians of rural highways.",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "External cordon lines",
+        "b": "Internal cordon lines",
+        "c": "Desire lines",
+        "d": "Grid lines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The imaginary lines dividing the study area taken for survey into parts is called as:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

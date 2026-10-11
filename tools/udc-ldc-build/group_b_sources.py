@@ -130,6 +130,10 @@ GENERAL_PAPERS = [
  ('adfd-2025-technical-p1', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-I', 'Assistant Director Technical Paper-I 2025..pdf'),
  ('adfd-2025-technical-p2', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-II', 'Assistant Director Technical Paper-II 2025..pdf'),
  ('adfd-2025-technical-p3', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-III', 'Assistant Director Technical Paper-III 2025.pdf'),
+ ('adtp-2026-gs', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'General Studies', 'Assistant Director General Studies-2026..pdf'),
+ ('adtp-2026-tech1', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-I', 'Assistant Director Technical Subject Paper-I, 2026..pdf'),
+ ('adtp-2026-tech2', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-II', 'Assistant Director Technical Subject Paper-II, 2026..pdf'),
+ ('adtp-2026-tech3', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-III', 'Assistant Director Technical Subject Paper-III, 2026..pdf'),
  ('agri-2025-gs', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'General Studies', 'Agri&Allied General Studies 2025..pdf'),
  ('agri-2025-agri-science-p1', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Agriculture Science Paper-I', 'Agri&Allied Agriculture Science Paper-I 2025..pdf'),
  ('agri-2025-agri-science-p2', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Agriculture Science Paper-II', 'Agri&Allied Agriculture Science Paper-II 2025..pdf'),
@@ -451,6 +455,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'cdpo-2025-home-science-p3': 'Direct_2025-2027', 'cdpo-2025-social-work-p1': 'Direct_2025-2027', 'cdpo-2025-social-work-p2': 'Direct_2025-2027',
  'cdpo-2025-social-work-p3': 'Direct_2025-2027', 'adfd-2025-technical-p1': 'Direct_2025-2027', 'adfd-2025-technical-p2': 'Direct_2025-2027',
  'adfd-2025-technical-p3': 'Direct_2025-2027',
+ 'adtp-2026-gs': 'Direct_2025-2027', 'adtp-2026-tech1': 'Direct_2025-2027', 'adtp-2026-tech2': 'Direct_2025-2027', 'adtp-2026-tech3': 'Direct_2025-2027',
  'agri-2025-gs': 'Direct_2025-2027', 'agri-2025-agri-science-p1': 'Direct_2025-2027', 'agri-2025-agri-science-p2': 'Direct_2025-2027',
  'agri-2025-agri-science-p3': 'Direct_2025-2027', 'agri-2025-ah-vety-p1': 'Direct_2025-2027', 'agri-2025-ah-vety-p2': 'Direct_2025-2027',
  'agri-2025-ah-vety-p3': 'Direct_2025-2027', 'agri-2025-horticulture-p1': 'Direct_2025-2027', 'agri-2025-horticulture-p2': 'Direct_2025-2027',
@@ -842,6 +847,15 @@ def build_additional():
             # Covers: same examination, Technical Papers I-III, 3 hours, FM 200;
             # Part-A is 50 two-mark MCQs. No negative-marking rule is printed.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('adtp-2026-gs', 'adtp-2026-tech1', 'adtp-2026-tech2', 'adtp-2026-tech3')) and key:
+            # Covers: Assistant Director (Town Planning) under UD&PA Deptt.,
+            # February-2026. General Studies and Technical Subject Papers I-III
+            # each print 2 hours, FM 100, 100 one-mark MCQs. No negative-marking
+            # rule is printed. Key: the official final answer key (exam held
+            # 11-13 February 2026) - General Studies on key page 2, Technical
+            # Papers I-III on key pages 3-5.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;

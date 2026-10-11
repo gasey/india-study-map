@@ -1,0 +1,2317 @@
+{
+  "slug": "adtp-2026-tech2",
+  "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+  "sitting": "February 2026",
+  "subject": "Technical Subject Paper-II",
+  "source": "Assistant Director Technical Subject Paper-II, 2026..pdf",
+  "sourceSha256": "6289fb4be556cb0520d82b1105fe33ae1611a682977b411a67ba5935e8c5d724",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Unique lifestyles attributed to ethnic groups",
+        "b": "Social isolation or segregation of a specific group in a specific area",
+        "c": "Economical isolation or segregation of a specific group in a specific area",
+        "d": "Efficient transport planning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of housing, ‘Ghettoism’ usually refers to:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EWS",
+        "b": "EWS and LIG",
+        "c": "Industrial workers",
+        "d": "EWS, LIG & MIG"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Affordable Housing’ in the context of PMAY 2.0 is primarily targeted at:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1st Five Year Plan",
+        "b": "7th Five Year Plan",
+        "c": "12th Five Year Plan",
+        "d": "3rd Five Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Five Year Plan first shifted focus from ‘Government-built housing’ to ‘Enabler’ where the state facilitates private and cooperative housing?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FL Wright",
+        "b": "Clarence Perry",
+        "c": "Le Corbusier",
+        "d": "Pattrick Geddes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Neighborhood Unit’ concept was proposed by:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Underpass for pedestrians",
+        "b": "Grid iron roads",
+        "c": "Separation of pedestrian and vehicular traffic",
+        "d": "State of the art Cul-de-sac"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radburn planning is best known for:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Five Year Plan",
+        "b": "Second Five Year Plan",
+        "c": "Third Five Year Plan",
+        "d": "Eighth Five Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Large-scale state involvement in housing began mainly in:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Twelfth Five Year Plan",
+        "b": "Tenth Five Year Plan",
+        "c": "Eleventh Five Year Plan",
+        "d": "NITI Aayog era"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Housing for All’ policy was formulated under:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Plan",
+        "b": "Sixth Five Year Plan",
+        "c": "Ninth Plan",
+        "d": "Twelfth Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Slum improvement became a national focus during:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "New Delhi",
+        "b": "Chandigarh",
+        "c": "Varanasi",
+        "d": "Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian city serves as a primary example of ‘Sector-based’ neighborhood planning?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Proximity to jobs",
+        "b": "High seismic risk or steep slopes",
+        "c": "Good groundwater",
+        "d": "Low land price"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In housing ‘Suitability Analysis,’ which factor is considered a ‘Constraint’?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FL Wright",
+        "b": "Le Corbusier",
+        "c": "Louis Kahn",
+        "d": "Moshe Safdie"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Habitat 67, a modular housing complex in Montreal is designed by:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FL Wright",
+        "b": "Le Corbusier",
+        "c": "Clarence Stein",
+        "d": "Ebenezer Howard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Broadacre City is associated with:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gentrification",
+        "b": "Filtering process",
+        "c": "Affordability driver",
+        "d": "De-gentrification"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As new high-end housing is built, older units become available for lower-income groups. This is termed, in housing market as:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demand for building materials",
+        "b": "Demand for travel tourism",
+        "c": "Demand for social infrastructure",
+        "d": "Demand for education"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Housing Backlinkage’ to the economy includes:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Housing stress identification",
+        "b": "Housing shortage identification",
+        "c": "Housing strata identification",
+        "d": "Housing requirements identification"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identifying areas where there is high overcrowding, poor condition, or high rent-to-income ratios is termed as:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The National Habitat Policy",
+        "b": "Propagation of modern building materials",
+        "c": "The concept of high rise buildings",
+        "d": "Housing For All (HFA)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 9th Five Year Plan was significant for housing because it introduced:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inflation control and tax relaxation",
+        "b": "Foreign exchange",
+        "c": "Multiplier effect on allied industries",
+        "d": "Trade balance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Housing’s macro-economic impact is strongest through:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grid model",
+        "b": "Industrial model",
+        "c": "Neighborhood unit concept",
+        "d": "Radburn model"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Delhi’s DDA housing layouts broadly follow:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3rd Five Year Plan",
+        "b": "8th Five Year Plan",
+        "c": "7th Five Year Plan",
+        "d": "10th Five Year Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first national housing policy was formulated during:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Basic Services to Urban Poor",
+        "b": "Basic Services to Uplift the Poor",
+        "c": "Benchmark Services to Urban Poor",
+        "d": "Bridging Services to Urban Poor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BSUP stands for:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uniformity in design",
+        "b": "ULB revenue",
+        "c": "Safety, light & ventilation",
+        "d": "Land development control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Building bye-laws primarily aim to ensure:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "110 sq. mt.",
+        "b": "150 sq. mt.",
+        "c": "200 sq. mt.",
+        "d": "120 sq. mt."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the CLSS (Credit Linked Subsidy Scheme) vertical of PMAY-U, what is the maximum carpet area permitted for a house to be eligible under the MIG-II category?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Finance and regulate private real estate development in metropolitan cities",
+        "b": "Provide direct housing allotments to economically weaker sections",
+        "c": "Finance housing and urban infrastructure projects through institutional lending",
+        "d": "Prepare master plans for new towns and industrial townships"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HUDCO was primarily established to:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AMRUT",
+        "b": "ARHC",
+        "c": "HRIDAY",
+        "d": "DAY-NULM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian scheme, launched under the NITI Aayog era, focuses on providing ‘Rental Housing’ complexes for migrant workers as a sub-scheme of PMAY-U?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Strengthen real-estate performance by improving territorial image and property upkeep",
+        "b": "Optimize development economics by minimizing shared circulation and service areas",
+        "c": "Promote resident territorial control and natural surveillance to discourage criminal activity",
+        "d": "Achieve compact urban form through spatial enclosure and higher plot utilization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In neighbourhood planning, the concept of defensible space primarily seeks to:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High land cost and fragmented land ownership",
+        "b": "Climatic incompatibility",
+        "c": "Cultural resistance to auto-intensive towns",
+        "d": "Lack of professional planners"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which factor MOST limits the replicability of the Radburn model in dense Indian cities?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Climate finance",
+        "b": "Urban housing",
+        "c": "Human environment protection",
+        "d": "Biodiversity trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Stockholm Conference (1972) primarily focused on:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kyoto Protocol only",
+        "b": "Agenda 21",
+        "c": "Ramsar Convention",
+        "d": "Montreal Protocol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Rio Earth Summit (1992) resulted in:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wind speed and direction",
+        "b": "Population density",
+        "c": "Rainfall data",
+        "d": "Building height"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Air pollution dispersion models depend heavily on:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enthalpy",
+        "b": "Entropy",
+        "c": "Urban metabolism",
+        "d": "Ecological falter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In urban environmental systems, The degree of disorder or degradation of energy and resources within the city is termed as:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Is too costly",
+        "b": "Is legally weak",
+        "c": "Fails to assess cumulative impacts of multiple projects",
+        "d": "Ignores public opinion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most critical limitation of project-level EIA in urban planning is that it:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Development–Policy–System–Impact–Response",
+        "b": "Driving forces–Pressures–State–Impact–Response",
+        "c": "Demand–Population–Supply–Impact–Recovery",
+        "d": "Data–Planning–System–Impact–Regulation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The DPSIR framework in environmental planning stands for:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Toxicity level",
+        "b": "Salinity",
+        "c": "Organic pollution load",
+        "d": "Turbidity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In urban water quality management, BOD indicates:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Environment, Forest and Climate Change (MoEF&CC)",
+        "b": "State Environment Impact Assessment Authority (SEIAA)",
+        "c": "Central Pollution Control Board (CPCB)",
+        "d": "State Forest Department"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the EIA Notification 2006, which authority is responsible for granting Environmental Clearance (EC) for ‘Category B’ projects?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environmental carrying capacity",
+        "b": "Environmental climax",
+        "c": "Environmental Point of No Return (EPNoR)",
+        "d": "Environmental threshold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The point beyond which irreversible ecological damage occurs in the environment may be termed as:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An enforceable international regulatory instrument",
+        "b": "A sector-specific environmental management code",
+        "c": "A financing mechanism for ecological restoration",
+        "d": "A multi-level framework for implementing sustainability actions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agenda 21 is best interpreted in planning as:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drainage density and rainfall variability",
+        "b": "Land-use intensity and building coverage",
+        "c": "River morphology and catchment size",
+        "d": "Exposure, sensitivity, and adaptive capacity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Urban flood vulnerability is determined primarily by:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Visual quality",
+        "b": "Construction feasibility",
+        "c": "Land ownership pattern",
+        "d": "Property taxation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In land suitability analysis, slope is considered mainly because it affects:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Retrospective",
+        "b": "Voluntary",
+        "c": "Financial",
+        "d": "Predictive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The key difference between EIA and environmental auditing is that EIA is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Socio-cultural dynamism",
+        "b": "Administrative expansion",
+        "c": "Resource stress",
+        "d": "Political conflict"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Carrying capacity is reduced in urban areas mainly due to:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maximize land use",
+        "b": "Demarcate areas",
+        "c": "Separate conflicts",
+        "d": "Improve connectivity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The objective of buffer zones is to:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45 dB",
+        "b": "50 dB",
+        "c": "55 dB",
+        "d": "60 dB"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the daytime noise limit for a ‘Silence Zone’ in India?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Building density",
+        "b": "Thermal mass",
+        "c": "Surface albedo",
+        "d": "Pavement thickness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Urban Heat Island effect is mitigated by high:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Economic ROI",
+        "b": "Impact interactions",
+        "c": "Population flux",
+        "d": "Traffic capacity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Leopold Matrix’ evaluates the:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Screening",
+        "b": "Scoping",
+        "c": "Appraisal",
+        "d": "Public hearing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Terms of Reference’ (ToR) in EIA are issued during:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demographic study",
+        "b": "Cradle-to-grave",
+        "c": "Structural lifespan",
+        "d": "Health audit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Life Cycle Assessment (LCA) is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shale Gas",
+        "b": "Anthracite",
+        "c": "Biomass",
+        "d": "Lignite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which source is classified as ‘Renewable’ in infrastructure planning?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It generates high profits for developers.",
+        "b": "It’s a luxury item with high demand.",
+        "c": "It’s socially desirable, improves quality of life, and creates positive externalities.",
+        "d": "It’s solely for government employees."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Subsidized low-cost housing is considered a ‘merit good’ because:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Three",
+        "b": "Six",
+        "c": "Four",
+        "d": "Five"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the new earthquake-zoning map, India is divided in __________ seismic zones.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swadhar Greh scheme",
+        "b": "Beti Bachao Beti Padhao scheme",
+        "c": "Working woman hostel scheme",
+        "d": "One Stop Centre scheme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of housing initiative is designed to provide safe accommodation to working women?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 & 2",
+        "b": "2 & 3",
+        "c": "1, 2 & 3",
+        "d": "None"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per UN-Habitat, slum household lacks the following: 1)Durable Housing & Sufficient Living Space 2)Access to Safe Water & Sanitation 3)Security of Tenure Which of the following is true?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Direct revenue payment from registered owner to government",
+        "b": "Revenue collected by zamindars",
+        "c": "Land valuation system",
+        "d": "Housing fee collection system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is meant by Ryotwari System?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Involvement of one type-stakeholder",
+        "b": "Repeal of Urban Land Ceiling Act",
+        "c": "Not Permitting Foreign Direct Investment in housing",
+        "d": "Avoid real estate development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Landmark initiatives pronounced with National Housing & Habitat Policy,1998 are:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RAY",
+        "b": "IAY",
+        "c": "PMAY",
+        "d": "IHSDP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Slum Free City Plan of Action is part of",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A-2, B-1, C-5, D-3",
+        "b": "A-5, B-3, C-4, D-1",
+        "c": "A-2, B-3, C-5, D-4",
+        "d": "A-5, B-1, C-4, D-3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the Parts of Residential Buildings in Group-I with their respective minimum width (in m) in Group-II as per the National Building Code 2016. AHabitable room11.0 m BStair flight23.0 m CKitchen31.2 m DBathroom41.8 m 52.4 m",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "House density",
+        "b": "Housing shortage",
+        "c": "Housing price",
+        "d": "Housing affordability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Data on ‘households with one or more married couples sharing a room with a person aged 12 years or more’ is used for computing:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Limited flat land",
+        "b": "Competing land use",
+        "c": "Low birth rates",
+        "d": "Rural-urban migration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a factor that contributes to a housing shortage?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The price is below the equilibrium rent, causing a surplus.",
+        "b": "The quantity demanded exceeds the quantity supplied at a given price point.",
+        "c": "The market has a 4% vacancy rate.",
+        "d": "All available houses are “katcha” (non-durable)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Housing shortage is present when there is insufficient housing to accommodate the population in an area, which means:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2022–2027",
+        "b": "2024–2029",
+        "c": "2025–2030",
+        "d": "2020–2025"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the current implementation period for PMAY-U 2.0 ?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Up to ₹3 Lakh",
+        "b": "₹3.5 Lakh to ₹6 Lakh",
+        "c": "₹3 Lakh to ₹6 Lakh",
+        "d": "Up to ₹3.5 Lakh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under PMAY-U 2.0, what is the annual income limit for the Economically Weaker Section (EWS) category?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In-situ Slum Redevelopment",
+        "b": "Affordable Housing in Partnership",
+        "c": "Credit Linked Subsidy Scheme (CLSS)",
+        "d": "Beneficiary-led Construction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which component of PMAY-U is implemented as a ‘Central Sector Scheme’?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Free hold, Lease hold, Rental",
+        "b": "Free venture, Joint Venture",
+        "c": "Fixed grip, non -fixed grip,",
+        "d": "Rent, lease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tenure is classified in to:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4000",
+        "b": "5000",
+        "c": "6000",
+        "d": "7000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the population of a smallest planning unit conceived as Housing Area with convenience shopping, open area, Anganwadi and milk booth as minimum infrastructure provision?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1-2",
+        "b": "2-3",
+        "c": "3-4",
+        "d": "2 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many local parks and playgrounds should be provided in a neighbourhood as per URDPFI?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Consumer Price Index (CPI) weight assigned to luxury goods",
+        "b": "The national budget deficit",
+        "c": "The balance of payments",
+        "d": "Gross Domestic Product (GDP) and employment rates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A healthy and growing housing sector is a key indicator for macroeconomic stability and growth because it directly influences the national figure of:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promoting social equity and inclusivity",
+        "b": "Ensuring adequate and affordable housing for all",
+        "c": "Maximizing land value through luxury developments only",
+        "d": "Addressing housing shortages and preventing slum formation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is typically NOT a major objective of incorporating housing into a city’s master plan?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Traffic density",
+        "b": "Energy density",
+        "c": "Building density",
+        "d": "Vegetation density"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of a Zonal Development Plan, which standard related to housing is commonly specified?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Limiting urban expansion to reduce population density",
+        "b": "Focusing exclusively on rural housing development",
+        "c": "Affordable housing and slum redevelopment",
+        "d": "Banning private sector participation in housing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Special provisions are often made in a master plan to accommodate growing populations. These commonly include strategies for:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All residential projects",
+        "b": "Projects over 500 sqm",
+        "c": "Projects with more than 8 apartments",
+        "d": "Both a and b"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the mandatory registration requirement under RERA?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Impersonal relationships and social distance",
+        "b": "High social and occupational mobility",
+        "c": "A strong sense of community sentiment and shared identity",
+        "d": "Focus on individual achievements and a lack of social hierarchy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is considered a key element of neighborhood living in a traditional society?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Amendment",
+        "b": "Twenty-Fifth Amendment",
+        "c": "Forty-Fourth Amendment",
+        "d": "Forty-Second Amendment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Constitutional Amendment removed the right to property from Fundamental Rights?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1600 acres",
+        "b": "2600 acres",
+        "c": "3600 acres",
+        "d": "160 acres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Area of a neighbourhood according to C. Perry will be around:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Le Corbusier",
+        "b": "Kevin Lynch",
+        "c": "Louis I Kahn",
+        "d": "Gordon Cullen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concepts of ‘serial vision’, ‘punctuation’ and ‘closure’ were proposed by:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An imperial hectare",
+        "b": "A global hectare",
+        "c": "A world hectare",
+        "d": "A continental hectare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One hectare of biologically productive space with world average productivity is:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vienna Convention",
+        "b": "Bonn Convention",
+        "c": "Ramsar Convention",
+        "d": "Stockholm Convention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which convention is called the Convention on Wetlands?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kyoto Protocol",
+        "b": "Montreal Protocol",
+        "c": "Cartagena Protocol",
+        "d": "Nagoya Protocol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An international protocol to reduce greenhouse gas emissions:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increased tree planting",
+        "b": "Concretization and heavy vehicular traffic",
+        "c": "Lowering of industrial output",
+        "d": "Natural cooling processes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘heat island’ effect in cities is largely caused by:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecology",
+        "b": "Ecosystem",
+        "c": "Phytogeography",
+        "d": "Ethology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Study of inter-relationship between organisms and their environment is called",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Natural environment",
+        "b": "Anthropogenic environment",
+        "c": "Modem environment",
+        "d": "Urban environment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The environment which has been modified by human activities is called:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wildlife (Protection) Act, 1972",
+        "b": "Forest (Conservation) Act, 1980",
+        "c": "Environment Protection Act, 1986",
+        "d": "Biological Diversity Act, 2002"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Environment Impact Assessment in India is statutorily backed by:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Screening, Impact prediction, Public hearing, Appraisal",
+        "b": "Screening, Collection of baseline data, Risk assessment, Appraisal",
+        "c": "Screening, Impact prediction, Mitigation measures, EIA report",
+        "d": "Screening, Scoping, Public hearing, Appraisal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After 2006 Amendment the EIA cycle comprises of four stages:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Polluting and non-renewable",
+        "b": "Non-polluting and renewable",
+        "c": "Polluting and renewable",
+        "d": "Non-polluting and non-renewable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hydel-power plants produce energy that is considered:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Afforestation",
+        "b": "Preservation of wild animals",
+        "c": "Clear-felling",
+        "d": "Economy in lumbering"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is an anti-forest conservation activity?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Total coliforms",
+        "b": "E.coli",
+        "c": "Turbidity",
+        "d": "Methane concentration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a standard parameter to assess the drinking water quality?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buildings that produce as much energy as they consume over a full year",
+        "b": "Buildings that do not consume any energy",
+        "c": "Special building that get free energy through Govt of India",
+        "d": "Buildings that use renewable energy for at least 25% of their basic needs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zero energy buildings are defined as:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A point representing the unique value of a quantity in an area",
+        "b": "A line representing the difference in elevation in two areas",
+        "c": "A line representing an equal value of a given quantity",
+        "d": "An area representing a range of temperatures"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is an isogram on a map?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50 dBA",
+        "b": "55 dBA",
+        "c": "65 dBA",
+        "d": "75 dBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per IS, what is the permissible exposure limits for noise in commercial zone during daytime?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduced cost and time of project implementation",
+        "b": "Cost-saving modiûcations in project design",
+        "c": "Increase project acceptance",
+        "d": "Increase cost of treatment and clean up"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not the benefit of environmental assessment?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decrease in concentration with trophic level",
+        "b": "Increase in concentration with trophic level",
+        "c": "Equilibrium in concentration",
+        "d": "Magnifcation with time"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Biological Magnification is:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Energy flow and growth cycles",
+        "b": "Community dynamics and growth cycles",
+        "c": "Energy flow and community dynamics",
+        "d": "Carbon and nitrogen cycles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Besides the hydrological (water) cycle and the biogeochemical (nutrient) cycle what are the other two important ecological processes?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lewis Mumford",
+        "b": "Constantine Doxiadis",
+        "c": "Patric Abercrombie",
+        "d": "Thomas Malthus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Concepts of carrying capacity of an eco-system is introduced by:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cause skin cancer in children.",
+        "b": "Used as food adulterants.",
+        "c": "Harmful to marine ecosystems.",
+        "d": "Absorbed by crop plants."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main concern with ‘microbeads’?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Environmental policy",
+        "b": "Resource use, emissions, waste",
+        "c": "Financial projections",
+        "d": "Management review"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these is NOT a component of an Environmental Management System (EMS) based on ISO 14001?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon dioxide",
+        "b": "Sulphur dioxide",
+        "c": "Methane",
+        "d": "Oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pollutants is a major contributor to acid rain?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agricultural runoff",
+        "b": "Factory smokestack emissions",
+        "c": "Ocean currents",
+        "d": "Wind erosion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an example of a point source pollution?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Environment (Protection) Rules, 1986",
+        "b": "The Water Act (2000)",
+        "c": "Environment (Protection) Act, 1986",
+        "d": "Environment (Protection) Act, 2000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Standards for emission or discharge of environmental pollutants is set by:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "China",
+        "c": "Norway",
+        "d": "Netherlands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is widely recognized as the world leader in cycling infrastructure?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Life Below Water",
+        "b": "Climate Action",
+        "c": "Peace and Justice",
+        "d": "Gender Equality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does SDG 13 focus on?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brownfield development",
+        "b": "Infill development",
+        "c": "Greenfield development",
+        "d": "Redevelopment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A project that starts from scratch on unused land or in a new environment is called:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nagoya Framework",
+        "b": "Sendai Framework",
+        "c": "Geneva Framework",
+        "d": "Chiang Mai Framework"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is a framework for disaster risk reduction under the United Nations?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

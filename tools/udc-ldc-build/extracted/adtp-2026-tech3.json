@@ -1,0 +1,2317 @@
+{
+  "slug": "adtp-2026-tech3",
+  "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+  "sitting": "February 2026",
+  "subject": "Technical Subject Paper-III",
+  "source": "Assistant Director Technical Subject Paper-III, 2026..pdf",
+  "sourceSha256": "5d7979f9ba772d425a9eff21e0a125752b1293942cb00fa99e69e0b9300b968c",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supply irrigation water",
+        "b": "Remove surface runoff",
+        "c": "Recharge reservoirs",
+        "d": "Accommodate heavy rainfall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stormwater drains are designed primarily to:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liters Per Capital Demand",
+        "b": "Liters Per Capita per Day",
+        "c": "Liquid Pressure Central Distribution",
+        "d": "Local Population Consumption per Day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The full form of ‘LPCD’ in water supply planning is:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduce the pipe diameter",
+        "b": "Account for hourly variations",
+        "c": "Calculate day maximum flow",
+        "d": "Measure water purity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Peak Factor’ in water demand calculation is used to:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kitchen sinks",
+        "b": "Wash basins",
+        "c": "Water closets",
+        "d": "Bathing areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Sullage’ specifically excludes waste from:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water treatment filters",
+        "b": "Solid waste landfills",
+        "c": "Power transformers",
+        "d": "Sewerage Treatment Plan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Leachate’ is a hazardous liquid primarily associated with:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5,000",
+        "b": "30,000",
+        "c": "50,000",
+        "d": "70,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to URDPFI, a ‘Primary Health Centre’ (PHC) serves a population of:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deposition of solids",
+        "b": "Bursting of pipes",
+        "c": "Excessive pipe corrosion",
+        "d": "Entry of rainwater"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Self-cleansing velocity in sewers prevents:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gridiron system",
+        "b": "Ring system",
+        "c": "Tree system",
+        "d": "Radial system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Dead-end System in water distribution is also known as:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maintain uniform pressure across varying elevations",
+        "b": "Reduce the total water treatment cost",
+        "c": "Centralize the distribution system",
+        "d": "Store industrial chemical waste"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Zonal Reservoirs are essential in hilly terrain to:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Peak load to total capacity",
+        "b": "Average load to peak load",
+        "c": "Active power to reactive power",
+        "d": "Residential load to industrial load"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Load Factor in power planning is the ratio of:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Waste composition",
+        "b": "Color coded vehicles",
+        "c": "Disposal method",
+        "d": "Route planning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Solid waste collection efficiency is most influenced by:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Average annual rainfall",
+        "b": "Minimum daily demand",
+        "c": "Maximum daily demand",
+        "d": "Projected peak demand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Water supply system design capacity is normally based on:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Recharge groundwater",
+        "b": "Improve water quality",
+        "c": "Reduce peak runoff",
+        "d": "Prevent evaporation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stormwater retention basins are primarily used to:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Waste composition",
+        "b": "Climatic conditions",
+        "c": "Vehicle type",
+        "d": "Irregular service coverage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Collection efficiency in solid waste management is reduced mainly by:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treatment quality",
+        "b": "Chemical stability",
+        "c": "Pressure reliability",
+        "d": "Meter accuracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Network looping in water supply improves:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.001",
+        "b": "0.013",
+        "c": "0.045",
+        "d": "0.110"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Manning’s Roughness Coefficient (n) for a concrete pipe is typically:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0°C",
+        "b": "20°C",
+        "c": "37°C",
+        "d": "50°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Biochemical Oxygen Demand (BOD) testing typically occurs over 5 days at:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Every low point (valley) of the pipeline",
+        "b": "The midpoint of every straight section",
+        "c": "Only at the treatment plant",
+        "d": "Every high point (summit) of the pipeline"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Air Valves in a water main should be placed at:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pipe pressure",
+        "b": "Flow velocity",
+        "c": "Groundwater quality",
+        "d": "Treatment efficiency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sewer exfiltration primarily affects:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Peak runoff – Manning’s equation; Channel flow – Rational formula",
+        "b": "Peak runoff – Darcy’s law; Channel flow – Chezy’s equation",
+        "c": "Peak runoff – Unit hydrograph; Channel flow – Hazen–Williams formula",
+        "d": "Peak runoff – Rational formula; Channel flow – Manning’s equation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which pairing correctly represents the formula used for estimating peak runoff and the formula used for sizing open drains?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A city zone generates 24 tonnes/day of solid waste. Collection vehicles have a capacity of 4 tonnes per trip and each vehicle can make 3 trips per day. Assuming 100% operational efficiency, how many vehicles are required?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.16 MLD",
+        "b": "2.43 MLD",
+        "c": "2.92 MLD",
+        "d": "3.24 MLD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A residential zone has a population of 12,000 and per-capita demand of 135 LPCD. If the maximum day factor = 1.8, what is the maximum daily demand?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lorenz Curve",
+        "b": "Population Pyramid",
+        "c": "Scatter Plot",
+        "d": "Ogive Curve"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In demographic analysis, Age-Sex Composition is visually represented by:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physical growth of urban centers",
+        "b": "A specific way of life",
+        "c": "Industrial production rate",
+        "d": "Influence of urban administration on citizens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Urbanism as a sociological concept refers to:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Employed population as % of total population",
+        "b": "Working population as % of total population",
+        "c": "Working population as % of adult population",
+        "d": "Employed population as % of households"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Workforce participation rate represents:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Traffic flow",
+        "b": "Poverty incidence",
+        "c": "Literacy rates",
+        "d": "Housing density"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Head Count Ratio (HCR) is a standard measure for:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stage I",
+        "b": "Stage II",
+        "c": "Stage III",
+        "d": "Stage IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which demographic stage is characterized by falling birth rates and low death rates?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Personal/Community ties",
+        "b": "Formal/Contractual ties",
+        "c": "Economic profit",
+        "d": "Legal regulations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In urban sociology, “Gemeinschaft” refers to a society based on:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Population is homogeneous",
+        "b": "Area is small",
+        "c": "Population is heterogeneous",
+        "d": "Budget is unlimited"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stratified sampling is preferred when:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lewis Mumford",
+        "b": "Walther Christaller",
+        "c": "Tony Garnier",
+        "d": "Ludwig Hilberseimer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who postulated Central Place Theory?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Minimum support for a service",
+        "b": "Maximum distance for a customer",
+        "c": "Total capacity of a market",
+        "d": "Average density of a town"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Threshold Population in Central Place Theory is the:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Perfect equality",
+        "b": "Perfect inequality",
+        "c": "Zero population",
+        "d": "Maximum density"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gini Coefficient of 1.0 represents:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Small manufacturing workers",
+        "b": "Migrant construction labourers",
+        "c": "Urban street vendors",
+        "d": "Informal transport operators"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PM SVANidhi scheme mainly targets which socio-economic group?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deendayal Antyodaya Yojana - National Urban Livelihood Mission",
+        "b": "Deendayal Awas Yojana - National Urban Livelihood Mission",
+        "c": "Deendayal Antyodaya Yojana - National Urbanization Leveraging Mission",
+        "d": "Deendayal Awas Yojana - National Urban Livability Mission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DAY-NULM stands for:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Divide work into manageable components",
+        "b": "Estimate project financing",
+        "c": "Allocate legal responsibilities",
+        "d": "Fix contract conditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In project planning, a Work Breakdown Structure (WBS) is mainly used to:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduce project cost",
+        "b": "Handle uncertainty in activity duration",
+        "c": "Improve labor productivity",
+        "d": "Simplify contract administration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main advantage of PERT over CPM is its ability to:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Financial risk",
+        "b": "Technical risk",
+        "c": "Operational risk",
+        "d": "Legal risk"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In infrastructure projects, land acquisition risk is usually classified as:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sensitivity Analysis",
+        "b": "Opportunity Study",
+        "c": "Post-Mortem Analysis",
+        "d": "Impact Mitigation Audit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "· In the Pre-Feasibility Stage, which analysis is conducted to determine if a project is worth the investment of a detailed feasibility study?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The cost of building structures",
+        "b": "Extra compensation for the ‘compulsory nature’ of acquisition",
+        "c": "Additional tax on the profit from land sale",
+        "d": "The fee paid to the surveyor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the LARR Act 2013, ‘Solatium’ is defined as:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A financial document",
+        "b": "A statutory land-use plan",
+        "c": "A development manual",
+        "d": "A transport policy note"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Master Plan prepared under planning legislation is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Urban local governance",
+        "b": "Metropolitan planning",
+        "c": "Rural local governance",
+        "d": "Regional development authorities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 73rd Constitutional Amendment Act mainly relates to:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A large urban area with millions of residents",
+        "b": "A rural village with no commercial activity",
+        "c": "An industrial township with mostly rural residents",
+        "d": "A transitional area moving from rural to urban"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ‘Nagar Panchayat’ is a specific type of local body designed for:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Municipal functions are constitutionally rigid",
+        "b": "Planning powers are automatically transferred to cities",
+        "c": "Metropolitan Planning Committees replace State planning boards",
+        "d": "Financial devolution depends largely on State discretion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One structural weakness of the decentralization framework under the 74th Amendment is that:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "29 items",
+        "b": "18 items",
+        "c": "12 items",
+        "d": "24 items"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the 74th Amendment, how many functional items are listed under the purview of Municipalities?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 years",
+        "b": "15 years",
+        "c": "20 years",
+        "d": "30 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the design period for the water treatment unit?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Recycling",
+        "b": "Incineration",
+        "c": "Vermicomposting",
+        "d": "Burning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of burning municipal solid waste under controlled high temperatures in a specific furnace is called:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Landfill disposal",
+        "b": "Incineration",
+        "c": "Composting",
+        "d": "Biological treatment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a method of wastewater treatment?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bioremediation",
+        "b": "Overconsumption",
+        "c": "Soil erosion",
+        "d": "Greenwashing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the term for the process of using living organisms to clean up or reduce environmental pollution?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Unit for measurement of energy used for treatment of waste water",
+        "b": "A decentralized system that uses ponds with aquatic plants to treat waste water",
+        "c": "A decentralized system for treatment of water purification of pounds",
+        "d": "A mechanical process of wastewater treatment used in some parts of Delhi."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘DEWATS’ is :",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "135 lpcd",
+        "b": "70 lpcd",
+        "c": "125 lpcd",
+        "d": "75 lpcd"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per NBC, what is the accepted benchmark for water requirement in urban areas?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sulphur dioxide",
+        "b": "Methane",
+        "c": "Ammonia",
+        "d": "Nitrous oxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This gas is released from landfills and can be used to generate electricity.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centralised heating and cooling",
+        "b": "Water supply and sewage management",
+        "c": "Transportation planning",
+        "d": "GIS and remote sensing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SCADA is an advanced technology used in several cities. In which of the following sector does it find its application?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Municipal Solid Waste",
+        "b": "Suspended Particulate Matter",
+        "c": "Waste water",
+        "d": "Biomass"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following can be provided with tertiary treatment for recycle and reuse?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10-15",
+        "b": "20-30",
+        "c": "30-45",
+        "d": "70-80"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average consumption of water required in factories in lpcd is :",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Size of city",
+        "b": "Size of city, habit of people",
+        "c": "Cost of water, quality of water, size of city",
+        "d": "Cost of water, quality of water, size of city, habit of people"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the factors affecting per capita demand?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "75",
+        "b": "80",
+        "c": "100",
+        "d": "120"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No landfill should be constructed within _____m of a navigable river or stream.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "10-25",
+        "c": "25-35",
+        "d": "35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘active’ period of landfill design, typically range from ____years depending on the availability of land area.",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "8",
+        "c": "4",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per IS 10500-2012, the acceptable limit for chloramine content in drinking water is _____mg/l",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A spatial unit with common drainage",
+        "b": "Areas having different drainage",
+        "c": "An area devoid of drainage",
+        "d": "Areas taken up for linking rivers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Watershed is an important parameter in spatial planning. It stands for:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45m",
+        "b": "75m",
+        "c": "90m",
+        "d": "120m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per IS 1742:1960, recommended spacing of manholes on straight reaches on sewer line for diameter upto 0.9m is:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Filtration",
+        "b": "Chlorine tablets",
+        "c": "Alums",
+        "d": "Boiling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following does not help in disinfecting water?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 4",
+        "b": "1, 3 and 4",
+        "c": "1, 2, 3 and 4",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following helps in reduction of rain water runoff and mitigating of urban flooding? 1.Tree cover2.Permeable concrete blocks 3.Lawns4.Paver blocks Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sanitary land fill",
+        "b": "Open dump disposal",
+        "c": "Conversion of waste to compost",
+        "d": "Recycling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an accepted method for Municipal Solid Waste disposal?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MPN",
+        "b": "NTU",
+        "c": "Moles",
+        "d": "Grams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Turbidity is a measure of relative clarity of a liquid(water), and one of its unit of measurement is:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50£ P",
+        "b": "100 £P",
+        "c": "1000£P",
+        "d": "2000£P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per CPHEEO guidelines, the water demand for fire fighting is estimated by which of the following equations? (Note: P - Population in 1000s)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Storm water",
+        "b": "Industrial wastewater",
+        "c": "Overhead flow",
+        "d": "Industrial wastewater and storm water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A combined sewer is one which transports domestic sewage and:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 3",
+        "c": "1 and 3",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements : In solid waste management:- 1.Density separation of solid wastes can be accomplished by air classifiers. 2.Iron recovery from solid wastes can be done by magnetic separators. 3.Aluminium separation from solid wastes can be accomplished by eddy current separators. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Separate collection of each kind of waste",
+        "b": "Segregation of garbage at the source",
+        "c": "Community involvement",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is true about zero waste management?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Waste generation and collection",
+        "b": "On-site handling, storage and processing",
+        "c": "Transport and disposal",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The important steps in solid waste management are:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CPHEEO & Service level benchmarking",
+        "b": "SPCB",
+        "c": "Municipal",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benchmarks providing Authority for solid waste management as per URDPFI:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi",
+        "b": "Pimpri-Chinchwad",
+        "c": "Bengaluru",
+        "d": "Indore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian city is known for its ‘waste-to-wealth’ model and being a ‘zero-landfill city’?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hazardous Waste",
+        "b": "Plastic Waste",
+        "c": "Agricultural Waste",
+        "d": "Construction & Demolition Waste"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a major classified solid waste in India?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2, 3 and 5",
+        "b": "1, 2, 3, 4, 5",
+        "c": "1, 3, 4 and 5",
+        "d": "2, 3 and 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the problems of Urbanisation in India from the following: 1.Widening socio-economic Gap. 2.Slums and Squatter Settlements 3.Shortage of Urban Services 4.Emergence of Towns as Socio-Cultural Centres 5.Environmental Degradation",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High land prices",
+        "b": "Lower transportation costs",
+        "c": "Stronger local market",
+        "d": "Accumulation of knowledge and human"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a beneût of the Economies of Agglomeration?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central limit theorem",
+        "b": "Central Place Theorem",
+        "c": "Level of Significance",
+        "d": "Coefficient of Determination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The relationship between shape of the population distribution and the sampling distribution of the mean is known as:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A balance between two desirable but incompatible features",
+        "b": "A balance between multiple features",
+        "c": "Profitable option between two choices",
+        "d": "Profitable option between many choices"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Trade-off’ principally means:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3799",
+        "b": "4041",
+        "c": "3894",
+        "d": "4382"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Statutory towns as per Census 2011:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Improper use of land",
+        "b": "Industrialization",
+        "c": "Illiteracy",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Slums are reflection of:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Modern and traditional industries",
+        "b": "Public and Private Sectors",
+        "c": "Foreign and domestic investments",
+        "d": "Commercial and subsistence farming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a mixed economy?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The total value of goods and services produced in the country",
+        "b": "The total value of all the transactions in the country",
+        "c": "The depreciation in the total value of goods and services produced in the country",
+        "d": "The total value of goods and services produced in the country and the net factor income from abroad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is Gross National Product?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture, dairying, forestry",
+        "b": "Manufacturing of automobiles, construction of houses",
+        "c": "Communication and banking",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following activities comes under the tertiary sector?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "918",
+        "b": "189",
+        "c": "981",
+        "d": "891"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Census 2011, there are _____ out growths in India",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suburbanization",
+        "b": "Rural-to-urban migration",
+        "c": "Urban renewal",
+        "d": "Declining rural areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary driver of rapid urban growth, especially in developing countries, is:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global trade patterns",
+        "b": "The spatial organization of firms and households within cities",
+        "c": "Monetary policy",
+        "d": "Agricultural subsidies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a primary focus of Urban Economics?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Proximity to leisure facilities",
+        "b": "Easy access to raw materials, labour, and transportation",
+        "c": "High population density",
+        "d": "Government tax incentives only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which factor is generally considered crucial for locating industries?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "No-Profit No-Loss Policy",
+        "b": "Marginal Cost Pricing",
+        "c": "Profit-price policy",
+        "d": "Price skimming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under which policy do public sector enterprises set prices such that total revenue equals total cost (no profit, no loss)?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 days",
+        "b": "13 days",
+        "c": "9 days",
+        "d": "11 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For a project activity of 7 days optimistic time, 8 days most likely time and 15 days pessimistic time, the expected duration is:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tax free construction",
+        "b": "Crowd Sourcing of funds",
+        "c": "Build - Operate- Transfer (BOT)",
+        "d": "Infrastructure Project Development Fund"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For public projects where the government fails to provide services all by itself,________ is a form of project financing, wherein a private entity receives a concession from the government bodies to finance, design, construct, own and operate the service facility.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PERT",
+        "b": "CPM",
+        "c": "GANTT chart",
+        "d": "Bar chart"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the following method falls under non-deterministic approach or the probabilistic approach:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cost effectiveness analysis",
+        "b": "Cost-beneût analysis",
+        "c": "Fiscal impact analysis",
+        "d": "PPBS (Planning Programming Budgeting System)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The method of economic analysis to compare long run economic effects of a number of projects is called:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dummy",
+        "b": "Event",
+        "c": "Activity",
+        "d": "Contract"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The particular task performance in CPM is known as:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Annualized rate of return an investment is expected to generate",
+        "b": "Quarterly rate of return",
+        "c": "Break-Even point",
+        "d": "Annual interest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "IRR (Internal Rate of Return) is a crucial financial metric representing the ______",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only 1",
+        "b": "1 and 2",
+        "c": "1 and 3",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 74th Constitutional Amendment Act makes provisions for_______ 1. Constitution and Composition of a Municipality 2.Personnel system in a Municipality 3.Relations between elected members (executive) of a municipality and the bureaucracy Choose the correct option from the options given below:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Slum improvement and up-gradation",
+        "b": "Urban poverty alleviation",
+        "c": "Facilitating land supply and market",
+        "d": "Provision of urban amenities and facilities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the role of ‘The Real Estate(Regulation and Development) Act?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acquisition process is undertaken in consultation with Local Self Government",
+        "b": "There is provision for rehabilitation for all the affected families",
+        "c": "The purposes for which land can be acquired has been mentioned",
+        "d": "Central Government directly acquires the land and transfers it to concerned agency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding land acquisition as per the Act of 2013 is FALSE?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 4",
+        "b": "1, 3 and 4",
+        "c": "2, 3 and 4",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Right to Fair Compensation and Transparency in Land Acquisition , Rehabilitation and Resettlement Act 2013 covers which of the following issues: 1.Fair compensation 2.Transparency 3.Resettlement and Rehabilitation 4.Public health",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Part VII",
+        "b": "Part IX",
+        "c": "Part lXA",
+        "d": "None of them"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Town Planning Committee comes under which among the following parts of Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sanitary Commission 1864",
+        "b": "The Bombay Improvement Trust 1898",
+        "c": "The Model Town Planning Act 1900",
+        "d": "The Bombay Town Planning Act 1915"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a part of the Planning Legislation introduced in India before independence?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Town Planning Scheme",
+        "b": "Local Area Plan",
+        "c": "Development Plan",
+        "d": "Grievance Redressal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chapter VII of the Mizoram Urban and Regional Development Act,2025 talks about:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1950",
+        "b": "1951",
+        "c": "1948",
+        "d": "1949"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Institute of Town Planners, India (ITPI) was established in:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

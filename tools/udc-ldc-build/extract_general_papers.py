@@ -59,6 +59,11 @@ def extract_one(row):
         # drops its opening parenthesis, and one repeats a label.
         module.BARE_OPTION_MARKERS = True
         module.REPEATED_OPTION_LABELS = True
+    if slug == 'adtp-2026-gs':
+        # Q1 opens a numbered statement list (1./2./3.) whose numbers collide
+        # with the next expected question numbers; the margin guard keeps the
+        # statement lines from stealing Q1's options and Q2 (see extract.py).
+        module.QUESTION_MARGIN_GUARD = True
     images = Path('/tmp/group-b-paper-extraction') / slug
     images.mkdir(parents=True, exist_ok=True)
     module.tempfile.mkdtemp = lambda: str(images)

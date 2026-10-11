@@ -1,3 +1,46 @@
+## 11 October 2026 — Assistant Director (Town Planning) February-2026 General Studies + Technical I–III: +400
+
+Imported the four Series-A MCQ papers of the Assistant Director (Town Planning)
+examination under the Urban Development & Poverty Alleviation Department, held
+11–13 February 2026: General Studies plus Technical Subject Papers I, II and III,
+each 2 hours, FM 100, 100 one-mark MCQs, all questions compulsory, and no
+negative-marking rule printed. The General English paper of the same examination
+was already in the bank (via the language archive).
+
+The official **Final Answer Key** (Commission notification dated Aizawl, the 6th
+March 2026) is the same 5-page document already published for the General English
+paper (`public/papers/group-b/keys/adtp-2026-ge-final-key.pdf`): General English
+66 (page 1) and the four papers here, 100 each, in four columns of 25 rows on
+pages 2–5. Every cell was read by position at 300 dpi and independently at 600
+dpi; the two reads agree on every cell and the key's own text layer is a
+subsequence of the positional read, so no cell is guessed. Six cells carry a
+multiple-answer or compensation stamp and are registered `null`: General Studies
+Q9 (A&D), Q36, Q40, Q46 (A&B), Q44 (B&C) and Technical III Q6 (Compensated).
+
+General Studies exposed a splitter defect worth recording. Its Q1 opens a numbered
+statement list ("1. Free Movement Regime … 2. Act East Policy … 3. Transnational
+insurgency networks") whose numbers run into the sequence the splitter expects
+next, so the statement lines stole Q1's options and the paper lost Q1 and Q2. A
+real question number sits at the page's question margin while such statements are
+indented relative to it, so the splitter now also requires a candidate number to
+sit at the page margin. The margin is measured *per page* — these booklets are
+scanned with a different left margin on facing pages (Q1 is at x≈70 while the
+facing page's questions sit near x≈49). The guard is enabled only for this
+booklet (`QUESTION_MARGIN_GUARD`), because a global version perturbed ten OCR
+papers (losing genuine questions whose left edge varies) and even two native
+ones; scoping it leaves the rest of the bank byte-for-byte identical.
+
+Three of the four papers score 99/100 and General Studies 95/100: General Studies
+holds the five multi-answer/compensation cells, Technical III holds its
+Compensated cell, and Technical I Q33 and Technical II Q44/Q65 are held by the
+long-standing figure heuristic (their stems contain "diagram", "Matrix" and
+"national figure of"), each retaining its official candidate for a future source
+review. The remaining 391 keyed cells match the key exactly.
+
+Session delta: bank 8,976 → 9,367 practice-ready (+391; 7,361 official-backed);
+records 25,316 → 25,716; MCQs 24,315 → 24,715. 102 registered keys. `missingMcq`
+unchanged at 816. Tests (25) pass and `tsc --noEmit` is clean.
+
 ## 11 October 2026 — Lecturer (Serchhip) March-2026 General Studies + Technical I–III: +248
 
 Imported the General Studies and the three Technical (Part-A) papers of the

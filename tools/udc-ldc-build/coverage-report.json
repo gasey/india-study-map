@@ -3,30 +3,30 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 98,
+  "registered_keys": 102,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 405,
-  "held_mcq": 15336,
-  "tier1_key_scorable": 688,
+  "papers": 409,
+  "held_mcq": 15345,
+  "tier1_key_scorable": 697,
   "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 7904,
   "tier3_needs_derivation": 6682
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 3177,
-   "disagree": 492
+   "agree": 3505,
+   "disagree": 516
   },
   "key": {
    "agree": 67,
    "disagree": 4
   },
   "derived": {
-   "agree": 2,
+   "agree": 3,
    "disagree": 1
   }
  },
@@ -2594,6 +2594,21 @@
    "tier2_candidate": 3
   },
   {
+   "paper_id": "mpsc-group-b-adtp-2026-gs",
+   "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Final Answer Key for Asst. Director(Town Planning) under UD&PA..pdf",
+   "held": 5,
+   "tier1": 5,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-cao-2026-gs3",
    "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
    "subject": "General Studies Paper-III",
@@ -2997,6 +3012,21 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 2
+  },
+  {
+   "paper_id": "mpsc-group-b-adtp-2026-tech2",
+   "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+   "subject": "Technical Subject Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 2,
+   "tier1": 2,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-mcs-prelim-2025-p1",
@@ -3482,6 +3512,36 @@
    "paper_id": "mpsc-group-b-adfd-2025-technical-p3",
    "exam": "Assistant Director (Food & Drugs) - November-2025",
    "subject": "Technical Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-adtp-2026-tech1",
+   "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+   "subject": "Technical Subject Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-adtp-2026-tech3",
+   "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
+   "subject": "Technical Subject Paper-III",
    "key_status": "registered",
    "key_file": null,
    "held": 1,
@@ -6123,7 +6183,7 @@
    "exam": "Assistant Director (Town Planning) under UD&PA Deptt., 2026",
    "subject": "General English",
    "key_status": "registered",
-   "key_file": "Final Answer Key for Asst. Director(Town Planning) under UD&PA..pdf",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,

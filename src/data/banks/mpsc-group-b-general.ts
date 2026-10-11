@@ -221798,8 +221798,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221808,10 +221808,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q2",
@@ -221829,8 +221828,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective ‘",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221839,10 +221838,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q3",
@@ -221860,8 +221858,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221870,10 +221868,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q4",
@@ -221891,8 +221888,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "pronoun",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221901,10 +221898,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q5",
@@ -221922,8 +221918,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “interjection”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221932,10 +221928,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q6",
@@ -221953,8 +221948,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221963,10 +221958,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q7",
@@ -221984,8 +221978,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -221994,10 +221988,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q8",
@@ -222015,8 +222008,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -222025,10 +222018,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q9",
@@ -222046,8 +222038,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "noun Ble"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “noun Ble”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=1",
@@ -222056,10 +222048,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q10",
@@ -222077,8 +222068,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222087,10 +222078,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 — 10) : Name the part of speech of the underlined words in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q11",
@@ -222108,8 +222098,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "hasbeen living",
       "wasliving"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hasbeen living”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222118,10 +222108,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q12",
@@ -222139,8 +222128,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "go",
       "_ goes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “_ goes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222149,10 +222138,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q13",
@@ -222170,8 +222158,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "buys",
       "have bought"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “bought”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222180,10 +222168,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q14",
@@ -222201,8 +222188,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "learns",
       "has been learning"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “willbe learning”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222211,10 +222198,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q15",
@@ -222232,8 +222218,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "woke",
       "waked"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “waked”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222242,10 +222228,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q16",
@@ -222263,8 +222248,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "worked",
       "_ was working"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “had been working”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222273,10 +222258,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q17",
@@ -222294,8 +222278,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "will have ended",
       "has ended"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “will have ended”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222304,10 +222288,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q18",
@@ -222325,8 +222308,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "watched",
       "is watching"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “will watch”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222335,10 +222318,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q19",
@@ -222356,8 +222338,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "was wanting",
       "wanted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “wants”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222366,10 +222348,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q20",
@@ -222387,8 +222368,8 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "discussed",
       "_ will discuss"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “_ will discuss”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222397,10 +222378,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 — 20) : Choose the correct form of the verb given in the bracket:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
 const groupBQuestionsPart28: BankQuestion[] = [
@@ -222420,8 +222400,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "under",
       "over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222430,10 +222410,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q22",
@@ -222451,8 +222430,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "beyond",
       "above -3t"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “n”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=2",
@@ -222461,10 +222440,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q23",
@@ -222482,8 +222460,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "into",
       "unto"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “into”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222492,10 +222470,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q24",
@@ -222513,8 +222490,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "on",
       "_ for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “_ for”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222523,10 +222500,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q25",
@@ -222544,8 +222520,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "across",
       "beside (a) for (b) on (c) of (d)_ with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “across”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222554,10 +222530,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q27",
@@ -222575,8 +222550,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "besides",
       "between"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “between”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222585,10 +222560,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q28",
@@ -222606,8 +222580,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "over",
       "from"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222616,10 +222590,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q29",
@@ -222637,8 +222610,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "for ;",
       "_ over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “for ;”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222647,10 +222620,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q30",
@@ -222668,8 +222640,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "within",
       "among"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “among”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222678,10 +222650,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21 — 30) : Choose the correct preposition to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q31",
@@ -222699,8 +222670,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "indefinite pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “personal pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222709,10 +222680,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q32",
@@ -222730,8 +222700,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "indefinite pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “distributive pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222740,10 +222710,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q33",
@@ -222761,8 +222730,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "interrogative pronoun",
       "_ indefinite pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “interrogative pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222771,10 +222740,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q34",
@@ -222792,8 +222760,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "indefinite pronoun",
       "_ personal pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “relative pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222802,10 +222770,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q35",
@@ -222823,8 +222790,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "relative pronoun",
       "reflexive pronoun Ble"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “reflexive pronoun Ble”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=3",
@@ -222833,10 +222800,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q36",
@@ -222854,8 +222820,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "indefinite pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “indefinite pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=4",
@@ -222864,10 +222830,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q37",
@@ -222885,8 +222850,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "indefinite pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “personal pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=4",
@@ -222895,10 +222860,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q38",
@@ -222916,8 +222880,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "reflexive pronoun",
       "relative pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “indefinite pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=4",
@@ -222926,10 +222890,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q39",
@@ -222947,8 +222910,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "personal pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “reflexive pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=4",
@@ -222957,10 +222920,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q40",
@@ -222978,8 +222940,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "interrogative pronoun",
       "distributive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “interrogative pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=4",
@@ -222988,10 +222950,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 — 40) : Identify which kind of pronoun the underlined word is in the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q41",
@@ -223309,8 +223270,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "He would not love any of his daughters more than the others",
       "He did not love all his daughters any more than the others"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “He does not love any of his daughters more than the others”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223319,10 +223280,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q52",
@@ -223340,8 +223300,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Itis evident that man should die",
       "It is true that man should die"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Itis sad that man should die”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223350,10 +223310,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q53",
@@ -223371,8 +223330,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "What a pity that you did this!",
       "Oh! Pity did this with you!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “What a pity that you did this!”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223381,10 +223340,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q54",
@@ -223402,8 +223360,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "The knife is not in the kitchen",
       "The knife in the kitchen is not there"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The knife in the kitchen is not blunt”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223412,10 +223370,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q55",
@@ -223433,8 +223390,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "He did come",
       "Heis late"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hecame on time”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223443,10 +223400,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q56",
@@ -223464,8 +223420,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Can their glory never fade?",
       "May their glory fade ever?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Can their glory ever fade?”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223474,10 +223430,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q57",
@@ -223495,8 +223450,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Iwish that I was not an eagle",
       "Thope that I change into an eagle (a) Howis the life led by Henry! (b) Miserable is Henry’s leading life! (c) When is Henry leading a miserable life! (d) Whata miserable life is Henry leading!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I wish that I were an eagle”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223505,10 +223460,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q59",
@@ -223526,8 +223480,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Dampuii was not sure of Buangi’s success",
       "Dampuii wasnot successfull of Buangi’s success"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dampuii was not sure of Buangi’s success”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223536,10 +223490,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q60",
@@ -223557,8 +223510,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "The lion isa bold animal",
       "The lion isa very bold animal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The lion is the boldest animal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=5",
@@ -223567,10 +223520,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 — 60) : Transform the following sentences as directed in the bracket"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q61",
@@ -223588,8 +223540,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Sangzuala is working hard to win a scholarship",
       "Sangzuala will work hard and wina scholarship"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sangzuala is working hard to win a scholarship”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223598,10 +223550,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q62",
@@ -223619,8 +223570,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Either Dingi or Muana had eaten it",
       "Neither Dingi or Muana has eaten it"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Either Dingi or Muana has eaten it”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223629,10 +223580,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q63",
@@ -223650,8 +223600,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Isaw a chair in the room and no cushion was seen",
       "Isaw a chair in the room which had no cushion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Isaw a chair in the room which had no cushion”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223660,10 +223610,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q64",
@@ -223681,8 +223630,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "The guide will help you if you are polite",
       "The guide will help you unless you are polite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The guide will help you if you are polite”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223691,10 +223640,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q65",
@@ -223712,8 +223660,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Unfortunately Rinmuani does not inform me of it",
       "Unfortunately Rinmuani choseto not inform me of it"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Unfortunately Rinmuani did not inform me of it”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223722,10 +223670,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q66",
@@ -223743,8 +223690,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Vena, my friend, was the heir to the throne",
       "Vena was my friend and he will be the heir to the throne"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Vena, my friend, is the heir to the throne”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223753,10 +223700,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q67",
@@ -223774,8 +223720,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Zodina overworked and his health will break down",
       "Zodina overworked therefore his health broke down"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zodina overworked therefore his health broke down”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223784,10 +223730,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q68",
@@ -223805,8 +223750,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Malsawmi was a fine person except that she was not punctual",
       "Malsawmi isa fine person but she will never be punctual Bg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Malsawmi is a fine person except that she is not punctual”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=6",
@@ -223815,10 +223760,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q69",
@@ -223836,8 +223780,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Seeing my fiancé and I went up to him to embrace him fondly",
       "And having seen my fiancé, I went to embrace her fondly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Having seen my fiancé, I went up to her to embrace her fondly”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -223846,10 +223790,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q70",
@@ -223867,8 +223810,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Chhingpuii was not only punished but also made to write impositions",
       "Chhingpuii will be not only punished but also made to write impositions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chhingpuii was not only punished but also made to write impositions”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -223877,10 +223820,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 61 — 70) : Synthesize the sentences as given in the brackets:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q71",
@@ -223898,8 +223840,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "reflections",
       "unpunished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “unpunished”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -223911,10 +223853,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q72",
@@ -223932,8 +223873,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "to take over someone",
       "tobe invincible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to gain honour”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -223942,10 +223883,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q73",
@@ -223963,8 +223903,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "atthebottomofthechain -",
       "atthe middle ground"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “atthe highest degree”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -223973,10 +223913,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q74",
@@ -223994,8 +223933,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "to boast",
       "to be greeted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “to boast”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224004,10 +223943,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q75",
@@ -224025,8 +223963,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "to enhance",
       "to destroy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “to destroy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224035,10 +223973,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q76",
@@ -224056,8 +223993,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "everywhere and nowhere",
       "here and there"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “points for and against”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224066,10 +224003,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q77",
@@ -224087,8 +224023,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "to waste away",
       "joys and hardships"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “blow fora blow”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224097,10 +224033,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q78",
@@ -224118,8 +224053,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "major thing",
       "severely"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “severely”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224131,10 +224066,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q79",
@@ -224152,8 +224086,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "capture by a sudden attack",
       "sudden storm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “capture by a sudden attack”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224162,10 +224096,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q80",
@@ -224183,8 +224116,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "ruin and destroy",
       "strong and mighty = Ru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “loud noise”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=7",
@@ -224193,10 +224126,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 71 — 80) : Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q81",
@@ -224214,8 +224146,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Polyamorous",
       "Polygamy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Polygamy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224227,10 +224159,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q82",
@@ -224248,8 +224179,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Sonnet",
       "Ode"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lullaby”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224258,10 +224189,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q83",
@@ -224279,8 +224209,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Polecticide",
       "Honoricide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Insecticide [”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224289,10 +224219,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q84",
@@ -224310,8 +224239,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Anarchy",
       "Biped"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Anarchy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224323,10 +224252,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q85",
@@ -224344,8 +224272,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Obsolete",
       "Oblong"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Oriental”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224354,10 +224282,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q86",
@@ -224375,8 +224302,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Amorous",
       "Atheist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Turncoat”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224385,10 +224312,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q87",
@@ -224406,8 +224332,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Insoluble",
       "Unsolvent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Laxative”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224416,10 +224342,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q88",
@@ -224437,8 +224362,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Inaudible",
       "Ineffable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ineffable”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224450,10 +224375,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q89",
@@ -224471,8 +224395,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Infanticide",
       "Fratricide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Homicide”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224481,10 +224405,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q90",
@@ -224502,8 +224425,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "Ineffable",
       "Combustible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Combustible”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=8",
@@ -224515,10 +224438,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. 81 — 90) : Choose the correct word for the given sentence:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q96",
@@ -224536,8 +224458,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "clump",
       "course"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “course”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=9",
@@ -224546,10 +224468,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 96 — 100) : Choose the correct word to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q97",
@@ -224567,8 +224488,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "dump",
       "host"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “regiment”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=9",
@@ -224577,10 +224498,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 96 — 100) : Choose the correct word to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q98",
@@ -224598,8 +224518,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "peal",
       "course"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “code”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=9",
@@ -224608,10 +224528,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 96 — 100) : Choose the correct word to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q99",
@@ -224629,8 +224548,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "clutch",
       "heap"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “heap”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=9",
@@ -224639,10 +224558,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 96 — 100) : Choose the correct word to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q100",
@@ -224660,8 +224578,8 @@ const groupBQuestionsPart28: BankQuestion[] = [
       "bevy",
       "consignment eR KK OR RK"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “congregation”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Legal Metrology · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440.pdf#page=9",
@@ -224670,10 +224588,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 96 — 100) : Choose the correct word to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B1",
@@ -534616,14 +534533,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "8\" January, 2025",
       "15 March, 2025"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “23\" October, 2024”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q3",
@@ -534641,14 +534563,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Administration of civil and criminal justice involving decisions according to Mizo customary law",
       "Ownership and transfer of natural resources"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ownership and transfer of natural resources”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q4",
@@ -534666,14 +534593,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "%50",
       "%100"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “%50”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q5",
@@ -534691,14 +534623,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "i-Ram",
       "Mipui-Ram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “e-Ram”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q6",
@@ -534716,14 +534653,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Lawngtlai",
       "Siaha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mamit”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q7",
@@ -534741,14 +534683,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "1337.8 sq.m.",
       "1524.9 sq.m. -~2- 5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1337.8 sq.m.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q8",
@@ -534770,6 +534717,11 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -534790,14 +534742,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Chaltlang",
       "Bethlehem Vengthlang"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Zemabawk”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q11",
@@ -534815,14 +534772,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Ahmangaihi Khiangte",
       "Stephen Auhmun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ahmangaihi Khiangte”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q12",
@@ -534840,14 +534802,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "two",
       "three"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “two”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q13",
@@ -534865,14 +534832,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Zone IV",
       "Zone V"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zone V”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q14",
@@ -534890,14 +534862,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "1986",
       "1990"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1980”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q15",
@@ -534915,14 +534892,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Hellenic",
       "Sino-Tibetan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sino-Tibetan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q16",
@@ -534940,14 +534922,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Aizawl North-III",
       "Aizawl East-I"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Aizawl North-II”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q17",
@@ -534965,14 +534952,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "5 October",
       "23™ November"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “15\" September”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q18",
@@ -534990,14 +534982,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Part V",
       "PartXV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Part XVII”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q19",
@@ -535019,6 +535016,11 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -535039,14 +535041,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Ministry of Defence",
       "Ministry of Communications"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ministry of Defence”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q21",
@@ -535064,14 +535071,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "48 hours",
       "72 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “48 hours”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q22",
@@ -535089,14 +535101,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "atanker",
       "a frigate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “anaircraft carrier”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q23",
@@ -535114,14 +535131,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Bharatiya Sakshya Adhiniyam",
       "The Indian Safety Code"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bharatiya Nyaya Sanhita”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q24",
@@ -535139,14 +535161,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "25.17%",
       "26.82%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “25.17%”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q25",
@@ -535164,14 +535191,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "National Institute for Transformation of India",
       "National Institution for Transformed India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “National Institution for Transforming India =”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q26",
@@ -535189,14 +535221,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Public Information Officer",
       "Assistant Public Information Officer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Public Information Officer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q27",
@@ -535214,14 +535251,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Ministry of Housing and Urban Affairs",
       "Ministry of Rural Development"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ministry of Social Justice and Empowerment”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q28",
@@ -535239,14 +535281,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Parliament",
       "Comptroller & Auditor General"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Parliament”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q29",
@@ -535264,14 +535311,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "PMKISAN",
       "PMSY"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “NAKSHA”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q30",
@@ -535289,14 +535341,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Assam Rifles",
       "Central Armed Police Force"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Assam Rifles”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q31",
@@ -535314,14 +535371,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "IIT Kharagpur",
       "IT Dhanbad -4- *"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “IIT Kharagpur”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q32",
@@ -535339,14 +535401,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "People are given both skilled and unskilled jobs",
       "Itisimplemented only in rural areas of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Itisimplemented only in rural areas of India”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q33",
@@ -535364,14 +535431,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Dhanya",
       "Kadmai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jizya”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q34",
@@ -535389,14 +535461,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Home Minister",
       "Director, Disaster Management & Rehabilitation Department"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chief Minister”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q35",
@@ -535414,14 +535491,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "%4 lakh",
       "%5 lakh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “%4 lakh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q36",
@@ -535439,14 +535521,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "1:3:6",
       "1:2:4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1:3:6”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q37",
@@ -535464,14 +535551,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Ground collapse",
       "Faulting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Subsidence”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q38",
@@ -535489,14 +535581,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Lx 10? m",
       "1x107'Sm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lx 10? m”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q39",
@@ -535514,14 +535611,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "the genshin effect",
       "refractive index"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “the albedo effect”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q40",
@@ -535539,14 +535641,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "12 minutes",
       "30 minutes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “8 minutes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q41",
@@ -535564,14 +535671,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "serve asa lubricant",
       "insulate and cool a transformer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “insulate and cool a transformer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q42",
@@ -535589,14 +535701,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "speeds up and bends away from the normal",
       "speeds up and bends towards the normal -~5- ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “slows down and bends towards the normal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q43",
@@ -535614,14 +535731,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "change in the speed of light",
       "internal property of light"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “change in the speed of light”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q44",
@@ -535639,17 +535761,22 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Fahrenheit",
       "Joule"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kelvin”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q45",
@@ -535667,14 +535794,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "increases heavily",
       "fluctuates"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “increases heavily”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q46",
@@ -535692,14 +535824,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "humidity",
       "wind speed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “humidity”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q47",
@@ -535717,14 +535854,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Au, Sn, Pb",
       "Au, Sb, Pb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Au, Sn, Pb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q48",
@@ -535742,14 +535884,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "lead and copper",
       "copper and gold"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “copper and tin”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q50",
@@ -535767,14 +535914,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Bauxite ore",
       "Manganese ore (a) 0 (b) 4 (c) 37.4 (d) 100"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bauxite ore”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q52",
@@ -535792,14 +535944,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Atomic mass",
       "Atomic density"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Atomic mass”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q53",
@@ -535817,14 +535974,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Biological Oxygen Deficiency",
       "Biologically Oxidised Dextrose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Biochemical Oxygen Demand”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q54",
@@ -535842,14 +536004,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Neutrons",
       "Nucleus -6- ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Electrons .”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q55",
@@ -535867,14 +536034,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Slash and burn",
       "Shifting agriculture"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Conservation of flora and fauna”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q56",
@@ -535892,14 +536064,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "SARS-CoV-20",
       "SARS-CoV-1"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “SARS-CoV-2”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q57",
@@ -535917,14 +536094,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Carbohydrate",
       "Mineral"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Carbohydrate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q58",
@@ -535942,14 +536124,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Chloroplast",
       "Chromosome"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chloroplast”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q59",
@@ -535967,14 +536154,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "the virus responsible for COVID-19",
       "the virus responsible for the common cold"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “DNA molecules”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q60",
@@ -535992,14 +536184,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Pink Revolution",
       "Golden Revolution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Grey Revolution”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q61",
@@ -536017,14 +536214,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "proteins",
       "carbohydrates"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “proteins”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q62",
@@ -536042,14 +536244,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Protoplasm",
       "Ribosomes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mitochondria”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q63",
@@ -536067,14 +536274,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "absorption",
       "degradation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “photosynthesis”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q64",
@@ -536092,14 +536304,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Priority species",
       "Keystone species"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Keystone species”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q65",
@@ -536117,14 +536334,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "one arab",
       "onemillion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “one arab”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q66",
@@ -536142,14 +536364,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Median =3 Mean—2 Mode",
       "Mean = Median — Mode"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mode = 3 Median —2 Mean”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q67",
@@ -536167,14 +536394,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "200m",
       "250m -7- +"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “200m”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q68",
@@ -536192,14 +536424,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Cem",
       "Googol"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Googol”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q69",
@@ -536217,14 +536454,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "The Challenger",
       "INSAT-3DS"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “SpaceX Dragon”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q70",
@@ -536242,14 +536484,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "322",
       "302"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “312”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q71",
@@ -536267,14 +536514,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Brazil",
       "South Africa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “South Africa”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q72",
@@ -536292,14 +536544,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Ryan Reynolds",
       "Adrien Brody"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Adrien Brody”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q73",
@@ -536317,14 +536574,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Samsung",
       "Amazon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Apple :”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q74",
@@ -536342,14 +536604,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "China",
       "Israel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Israel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q75",
@@ -536367,14 +536634,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Tonga",
       "Samoa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “New Zealand”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q76",
@@ -536392,14 +536664,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "King Charles IIT",
       "King Charles TV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “King Charles IIT”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q77",
@@ -536417,14 +536694,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "‘Mount Kenya",
       "Mount Elgon :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mount Kilimanjaro”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q78",
@@ -536442,14 +536724,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Germany",
       "Spain"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “England”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q79",
@@ -536467,14 +536754,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Japan",
       "United Kingdom"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Japan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q80",
@@ -536492,14 +536784,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Samsung",
       "Apple ~8- *"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Google”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q81",
@@ -536517,14 +536814,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "21* June",
       "30% June"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “5*June”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q82",
@@ -536542,14 +536844,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "17",
       "18"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “17”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q83",
@@ -536567,14 +536874,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "AdolfHitler",
       "_ Winston Churchill"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “_ Winston Churchill”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q84",
@@ -536592,14 +536904,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Theory of Evolution",
       "Invention of the transistor"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Continental Drift hypothesis”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q85",
@@ -536617,14 +536934,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Reform Party",
       "Liberal Democrats"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Labour Party”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q86",
@@ -536642,14 +536964,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Aizawl",
       "Gangtok"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Shillong”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q87",
@@ -536667,14 +536994,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "gas",
       "viscous fluid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “solid”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q88",
@@ -536692,14 +537024,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Warm booting",
       "Logging off"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Warm booting”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q89",
@@ -536717,14 +537054,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "the Equator",
       "the Antarctic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “the Antarctic”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q90",
@@ -536742,14 +537084,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "UNESCO",
       "UNHCR"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “UNESCO”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q91",
@@ -536767,14 +537114,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Namibia",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mexico”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q92",
@@ -536792,14 +537144,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Mumbai",
       "Chennai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Chennai”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q93",
@@ -536817,14 +537174,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Certiorari",
       "Quo Warranto -9- *"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Habeas Corpus :”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q94",
@@ -536842,14 +537204,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "frost",
       "haze"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “smog”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q95",
@@ -536867,14 +537234,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "England",
       "New Zealand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “New Zealand”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q96",
@@ -536892,14 +537264,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Pakistan",
       "Nepal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “India”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q97",
@@ -536917,14 +537294,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "NorthAmerica",
       "SouthAmerica"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “NorthAmerica”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q98",
@@ -536942,14 +537324,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Lisbon, Portugal",
       "Paris, France"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Paris, France”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q99",
@@ -536967,14 +537354,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Reactive mode",
       "Fire fighting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mass customization”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q100",
@@ -536992,14 +537384,19 @@ const groupBQuestionsPart66: BankQuestion[] = [
       "Recession",
       "Stagflation RAK KE"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Stagflation RAK KE”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Technical Officer (SCERT) under School Education Deptt. · April 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive2325-technical-officer-scert-general-studies-april-2025.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/scert-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q8",
@@ -562035,14 +562432,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "312",
       "323"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “312”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q2",
@@ -562060,14 +562462,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Godfather of AI",
       "Godfather of Nuclear energy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Godfather of AI”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q3",
@@ -562085,14 +562492,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Baku",
       "Oslo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Baku”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q4",
@@ -562110,14 +562522,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Men’s Senior 70 kg right category",
       "Men’s Junior 70 kg right category"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Men’s Senior 80 kg right category”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q6",
@@ -562135,14 +562552,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "China",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “India”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q7",
@@ -562160,14 +562582,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "HDFC Bank",
       "Axis Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Axis Bank”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q8",
@@ -562185,14 +562612,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Vishakhapatnam Port :",
       "Kochi Port -2- :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kandla Port”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q9",
@@ -562210,14 +562642,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Liberator of the press",
       "Father of Indian judiciary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Liberator of the press”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q11",
@@ -562235,14 +562672,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Bahulal Lodhi",
       "Babar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Babar”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q12",
@@ -562260,14 +562702,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "1921",
       "1935"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1919”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q13",
@@ -562285,14 +562732,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Itutmish",
       "Allauddin Khilji"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Balban”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q14",
@@ -562310,14 +562762,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "The Portuguese",
       "The East India Company"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Portuguese”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q15",
@@ -562335,14 +562792,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "200 nautical miles from coastal area to the sea",
       "250 nautical miles from coastal area to the sea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “200 nautical miles from coastal area to the sea”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q16",
@@ -562360,14 +562822,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Maize",
       "Barley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rice”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q17",
@@ -562385,17 +562852,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "China",
       "Argentina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Brazil”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q18",
@@ -562413,17 +562885,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "38\" Parallel line—-North and South Korea",
       "Siegfried line—Germany and Poland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Siegfried line—Germany and Poland”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q19",
@@ -562441,14 +562918,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Blizzards",
       "Polar winds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Blizzards”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q20",
@@ -562466,17 +562948,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Savanna",
       "Steppes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Steppes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=2",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q21",
@@ -562494,14 +562981,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Article 19",
       "Article 21"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Article 21”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q22",
@@ -562519,14 +563011,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Droupadi Murmu",
       "Narendra Modi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Narendra Modi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q23",
@@ -562544,14 +563041,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Article 202",
       "Article 112"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 110”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q24",
@@ -562569,17 +563071,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Article 61",
       "Article 72"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 61”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q25",
@@ -562597,14 +563104,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "DrS Radhakrishnan",
       "ViV.Giri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “ViV.Giri”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q26",
@@ -562622,17 +563134,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Procedure established by law",
       "Rule oflaw"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rule oflaw”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q27",
@@ -562650,14 +563167,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Andhra Pradesh",
       "Bihar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q28",
@@ -562675,14 +563197,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "measures inequality",
       "illustrates the relationship between tax rates and tax revenue."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “illustrates the relationship between tax rates and tax revenue.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q30",
@@ -562700,14 +563227,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Duopoly",
       "Oligopoly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Perfect Competition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q31",
@@ -562725,14 +563257,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Pradhan Mantri Kisan Maan Dhan Yojana (PMKMY)",
       "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) -4- :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pradhan Mantri Fasal Bima Yojana (PMFBY)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q32",
@@ -562750,14 +563287,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Purchase of Securities",
       "Reduction of Repo Rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Increase Bank Rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q33",
@@ -562775,14 +563317,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Fifth five-year plan",
       "Sixth five-year pian :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Second five-year plan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q34",
@@ -562800,14 +563347,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Income Tax",
       "Corporate Tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Corporate Tax”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q35",
@@ -562825,14 +563377,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Revenue deficit",
       "Gross fiscal deficit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Primary deficit”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q36",
@@ -562850,17 +563407,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Social Sustainability",
       "Institutional Sustainability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Carrying Capacity of the Earth”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q37",
@@ -562878,14 +563440,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Solutions to plastic pollution",
       "Our Land, Our Future."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Our Land, Our Future.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q38",
@@ -562903,14 +563470,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "12 new biosphere reserves",
       "13 new biosphere reserves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “11 new biosphere reserves”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q39",
@@ -562928,14 +563500,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Sub-tropical Dry Evergreen Forest",
       "Tropical Moist Deciduous Forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tropical Moist Deciduous Forest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q40",
@@ -562953,14 +563530,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Gregory Mendel",
       "Saun Marine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ernst Haeckel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q41",
@@ -562978,14 +563560,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "3 to 14 June 1992",
       "3 to 14 June 1993"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “3 to 14 June 1992”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q42",
@@ -563003,14 +563590,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Water",
       "Wood"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Solids”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q43",
@@ -563028,14 +563620,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Solid dispersed in liquid",
       "Liquid dispersed in gas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Liquid dispersed in gas”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q44",
@@ -563053,14 +563650,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Benzoic Acid",
       "Nicotinic Acid . ~5- ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Acetic Acid”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q45",
@@ -563078,14 +563680,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Muscles",
       "Pancreas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bone Marrow”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q46",
@@ -563103,14 +563710,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Asteroid",
       "Little star"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Meteor”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q47",
@@ -563128,14 +563740,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "32°F",
       "42°F"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “32°F”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q48",
@@ -563153,14 +563770,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "January 28",
       "February 28"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “February 28”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q49",
@@ -563178,14 +563800,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "1750-1760 AD",
       "1760-1770 AD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1740-1750 AD”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q50",
@@ -563203,14 +563830,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Progressive Colloquial Exercise in Lushai Dialect of the ‘Dzo’",
       "Mizo Chanchin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Hill Tracts of Chittagong and The Dwellers Therein”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q51",
@@ -563228,14 +563860,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Zawhte no nei ang- staying in the same place",
       "Fatlum—the youngest son"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Zawhte no nei ang- staying in the same place”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q52",
@@ -563253,14 +563890,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "C.Thuamluaia",
       "KC Laivunga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “C.Thuamluaia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q53",
@@ -563278,14 +563920,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "1970-2000",
       "2000-present"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1920-1970”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q54",
@@ -563303,14 +563950,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Zoram khawvel",
       "Zorami-A redemption song"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hawilopari”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q55",
@@ -563328,17 +563980,23 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Ear",
       "Tip of the head"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tip of the head”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q56",
@@ -563356,14 +564014,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Lal ber hmaah kan ding ang",
       "Lal ber sipai kan ni _6- :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Isua Vanahaawma”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q57",
@@ -563381,14 +564044,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "GH.Loch",
       "J.Shakespeare"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “J.Shakespeare”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q58",
@@ -563406,14 +564074,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "James Dokhuma",
       "Lalhmingliana Saiawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “K.C. Lalvunga”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q59",
@@ -563431,14 +564104,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Ngote-kherh",
       "Hmar-am"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hmar-am”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q60",
@@ -563456,14 +564134,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "South Africa",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Brazil”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q61",
@@ -563481,14 +564164,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Arunachal Pradesh",
       "Nagaland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sikkim”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q62",
@@ -563506,14 +564194,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Indian Penal Reform Bill",
       "Criminal Justice Reform Bill"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bharatiya Nyaya Sanhita Bill”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q63",
@@ -563531,14 +564224,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Urban housing for all",
       "Agricultural exports"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Multimodal infrastructure development”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q64",
@@ -563556,14 +564254,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "BRICS Summit",
       "COP29"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “COP29”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q65",
@@ -563581,14 +564284,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Ashoka",
       "Kanishka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ashoka”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q66",
@@ -563606,14 +564314,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Temple management",
       "Maritime trade"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Land revenue and military administration”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q67",
@@ -563631,14 +564344,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Exemptions from payment of house tax",
       "Allofthe above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Exempting the English East India Company from paying customs duties”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q68",
@@ -563656,14 +564374,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Santhal Rebellion",
       "Indigo Revolt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ulgulan Revolt”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q69",
@@ -563681,14 +564404,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Mahatma Gandhi",
       "Sardar Patel ~7-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q71",
@@ -563706,14 +564434,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Lightning",
       "} None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Volcanic eruptions and earthquakes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q72",
@@ -563731,14 +564464,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Bhopal",
       "Udaipur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Udaipur”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q73",
@@ -563756,14 +564494,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Chilika Lake",
       "Loktak Lake"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chilika Lake”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q74",
@@ -563781,14 +564524,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Satpura",
       "Aravallis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Vindhyas”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q75",
@@ -563806,14 +564554,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "USA",
       "Saudi Arabia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Saudi Arabia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q76",
@@ -563831,14 +564584,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Supreme Court",
       "Lok Sabha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “President”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q77",
@@ -563856,17 +564614,22 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Part of Fundamental Rights",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Non-justiciable”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q78",
@@ -563884,14 +564647,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Article 360",
       "Article 370"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 352”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q79",
@@ -563909,14 +564677,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "21 years",
       "25 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “25 years”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q80",
@@ -563934,14 +564707,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "The Judiciary",
       "The Election Commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Parliament”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q81",
@@ -563959,14 +564737,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Businesses",
       "Export promotion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Education programs”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q82",
@@ -563984,14 +564767,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Isolation of nations",
       "Poverty eradication and sustainable development : -8- ‘"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Poverty eradication and sustainable development : -8- ‘”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q83",
@@ -564009,14 +564797,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Promoting self-reliance and strengthening the economy",
       "Reducing unemployment in rural areas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Promoting self-reliance and strengthening the economy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q84",
@@ -564034,14 +564827,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "To ensure equal opportunities for all genders in the social, economic, and political sphere",
       "_ To prioritize men’s participation in the workforce"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To ensure equal opportunities for all genders in the social, economic, and political sphere”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q85",
@@ -564059,14 +564857,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Respiration",
       "Decomposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Photosynthesis”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q86",
@@ -564084,14 +564887,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Photosynthesis",
       "Combustion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Composting”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q87",
@@ -564113,6 +564921,11 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -564133,14 +564946,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "International Treaty on Global Trade",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “International Treaty on Climate Change”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q89",
@@ -564158,14 +564976,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Avcooling of sea surface temperatures in the Indian Ocean",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A warming of'sea surface temperatures in the Pacific Ocean”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q90",
@@ -564183,14 +565006,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Soil erosion",
       "Creation of wetlands"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Soil erosion”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q91",
@@ -564208,14 +565036,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Yellow",
       "Violet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Violet”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q92",
@@ -564233,14 +565066,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Carbon dioxide",
       "Argon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Nitrogen”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q93",
@@ -564258,14 +565096,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Methane",
       "Butane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Methane”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q95",
@@ -564283,14 +565126,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Stomach",
       "Lungs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kidney”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q96",
@@ -564308,14 +565156,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Democracy",
       "Monarchy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chieftainship”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q97",
@@ -564333,14 +565186,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "John Shakespeare",
       "T.H. Lewin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “NE. Parry”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q99",
@@ -564358,14 +565216,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "It was the social institution of the Mizos",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It was tax (paddy) paid to the village chief”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q100",
@@ -564383,14 +565246,19 @@ const groupBQuestionsPart70: BankQuestion[] = [
       "Religious function",
       "Community leadership RR EKE KH"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Religious function”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Service ( Combined Technical)-2024 · December 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-agriculture-allied-service-general-studies-december-2024.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-gs-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q1",
@@ -577561,14 +578429,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Khawzawl",
       "Hnahthial"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hnahthial”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q2",
@@ -577586,14 +578459,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Chief Election Commissioner of India",
       "Minister of Railways"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chief Justice of India”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q3",
@@ -577611,17 +578489,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Toddle",
       "Landeed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Zepto”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q4",
@@ -577639,14 +578522,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "July 26, 2023 and August 2, 2023.",
       "July 25,2023 and August 1, 2023."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “July 26, 2023 and August 2, 2023.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q5",
@@ -577664,14 +578552,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Kerala",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Uttar Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q6",
@@ -577689,14 +578582,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rajasthan",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rajasthan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q7",
@@ -577714,14 +578612,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Gautam Adani",
       "Shiv Nadar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gautam Adani”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q8",
@@ -577739,14 +578642,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sikkim",
       "Meghalaya : -2-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Meghalaya : -2-”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q9",
@@ -577764,14 +578672,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "SriLanka",
       "Bangladesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Nepal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q10",
@@ -577789,14 +578702,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "6.1 percent of GDP",
       "6.3 per cent of GDP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5.9 per cent of GDP”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q11",
@@ -577814,14 +578732,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "161% position",
       "165\" position"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “161% position”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q12",
@@ -577839,14 +578762,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sikkim",
       "Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gujarat”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q13",
@@ -577864,14 +578792,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "17\" July 2023",
       "21% July 2023"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “14\" July 2023”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q14",
@@ -577889,14 +578822,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Arunachal Pradesh",
       "Sikkim"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jammu and Kashmir .”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q15",
@@ -577914,14 +578852,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Thiruvananthapuram",
       "Chennai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “New Delhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q16",
@@ -577939,14 +578882,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Eight",
       "Nine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Six”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q17",
@@ -577964,14 +578912,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "ASEAN",
       "GCC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “GCC”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q18",
@@ -577989,14 +578942,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Gandhi Peace Prize 2021",
       "Arjuna Award 2022"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gandhi Peace Prize 2021”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q19",
@@ -578014,14 +578972,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Aviva Life Insurance",
       "Aditya Birla Sun Life Insurance : 3."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bajaj Allianz Life Insurance”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q20",
@@ -578039,14 +579002,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "HepatitisA",
       "Typhoid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Diabetes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q21",
@@ -578064,14 +579032,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Punjab National Bank",
       "Union Bank of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Canara Bank”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q22",
@@ -578089,14 +579062,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Maharashtra",
       "Telangana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Telangana”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q23",
@@ -578114,14 +579092,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Operation Dost",
       "Operation Kaveri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Operation Kaveri”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q24",
@@ -578139,14 +579122,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Manipur",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Maharashtra”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q25",
@@ -578164,14 +579152,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Singapore",
       "USA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Singapore”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q26",
@@ -578189,14 +579182,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "World Investment Day 2023",
       "World Ozone Day 2023"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “World Earth Day 2023”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q27",
@@ -578214,14 +579212,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Austria",
       "Sweden"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Finland”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q28",
@@ -578239,14 +579242,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Spain",
       "Austria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Spain”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q29",
@@ -578264,14 +579272,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Brazil",
       "South Africa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “South Africa”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q30",
@@ -578289,14 +579302,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Qantas",
       "Delta Airlines : -4-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Emirates”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q31",
@@ -578314,14 +579332,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Indiana",
       "Georgia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Georgia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q32",
@@ -578339,14 +579362,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "30",
       "31"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “31”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q33",
@@ -578364,14 +579392,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "France",
       "Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “India :”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q34",
@@ -578389,14 +579422,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Finland",
       "UK"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Israel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q35",
@@ -578414,14 +579452,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "London Airport",
       "Sydney Airport"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hyderabad Airport”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q36",
@@ -578439,14 +579482,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Russia",
       "South Africa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “India .”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q37",
@@ -578464,14 +579512,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Singapore",
       "Switzerland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Singapore”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q38",
@@ -578489,14 +579542,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Panda diplomacy",
       "Cabbage strategy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cabbage strategy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q39",
@@ -578514,14 +579572,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Australia",
       "United Kingdom"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “United Kingdom”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q40",
@@ -578539,14 +579602,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Netherlands",
       "Persia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Netherlands”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q41",
@@ -578564,14 +579632,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Norman Whiteside",
       "Youssoufa Moukoko : 5."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Casey Phair”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q42",
@@ -578589,14 +579662,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Turkey",
       "Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Germany”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q43",
@@ -578614,14 +579692,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Alphabet",
       "Microsoft"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Apple Inc.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q44",
@@ -578639,14 +579722,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Explorer 1",
       "Galileo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Voyager 2”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q45",
@@ -578664,14 +579752,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "AliDaei",
       "Christiano Ronaldo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Christiano Ronaldo”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q46",
@@ -578689,14 +579782,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Arctic Sea",
       "Red Sea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Black Sea”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q47",
@@ -578714,14 +579812,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Jupiter -IIT",
       "Falcon=III"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Jupiter -IIT”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q48",
@@ -578739,14 +579842,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Taylor Swift",
       "Barak Obama"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jimmy Donaldson”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q49",
@@ -578764,14 +579872,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Daffodil",
       "Zinnia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zinnia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q50",
@@ -578789,14 +579902,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Turkey",
       "Russia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “UK”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q51",
@@ -578814,17 +579932,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sidhu and Kanhu",
       "Daroga Mahesh Lal Dutt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sidhu and Kanhu”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q52",
@@ -578842,14 +579965,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Uttar Pradesh",
       "Malabar region : -6-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Malabar region : -6-”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q53",
@@ -578867,14 +579995,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "the central Indian tribe, recognized as an immigrant tribe in Tripura",
       "agroup of tribal communities of Chotanagpur in eastern parts of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “the Muslim cultivating tenants, landless labourers and fishermen of Malabar region”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q55",
@@ -578892,14 +580025,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Minto",
       "Lord Bentinck"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lord Canning”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q56",
@@ -578917,17 +580055,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Dalhausie",
       "Lord Comwallis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Robert Clive”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q57",
@@ -578945,17 +580088,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Mahatma Gandhi ,",
       "Jai Prakash Narayan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q58",
@@ -578973,14 +580121,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Jodanang",
       "BirMunsa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Jodanang”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q59",
@@ -578998,14 +580151,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Settlers Society",
       "Zamindari Society"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zamindari Society”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q60",
@@ -579023,17 +580181,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Mysore",
       "Madras"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Satara”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q61",
@@ -579051,17 +580214,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord William Bentinck",
       "Lord Wellesley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lord Dalhousie”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q62",
@@ -579079,14 +580247,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Thomas Munro and Charles Reed",
       "Lord Wellesley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Thomas Munro and Charles Reed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q63",
@@ -579108,6 +580281,11 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -579128,14 +580306,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Adhiyars",
       "Dikus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Amlah”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q65",
@@ -579153,17 +580336,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "commercialization of Indian agriculture",
       "rapid increase in the urban population"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “commercialization of Indian agriculture”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q66",
@@ -579181,14 +580369,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Pandya Empire",
       "Hoysala Empire ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Vijayanagara Empire”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q67",
@@ -579206,17 +580399,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "William Bentinck",
       "Lord Auckland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “William Bentinck”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q68",
@@ -579234,17 +580432,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Bombay",
       "Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bombay”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q69",
@@ -579262,17 +580465,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Dalhousie",
       "Lord Ripon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lord Dalhousie”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q70",
@@ -579290,17 +580498,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Hardinge’",
       "Lord Ripon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Lord Ripon”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q71",
@@ -579318,17 +580531,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Allahabad : Kunwar Singh",
       "Kanpur : Nana Saheb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Allahabad : Kunwar Singh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q72",
@@ -579346,17 +580564,23 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Wallesly",
       "William Bentinck"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Warren Hastings”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q73",
@@ -579374,14 +580598,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Harish Chandra Mukherjee",
       "Lala Srinivas Das"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dinbandhu Mitra”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q74",
@@ -579399,17 +580628,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Charter act of 1853",
       "Charter act of 1858"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Charter act of 1813”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q75",
@@ -579427,17 +580661,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Government of India Act, 1935",
       "None of these . -8-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Government of India Act, 1919”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q76",
@@ -579455,17 +580694,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Bethune School",
       "Allofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Derozians”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q77",
@@ -579483,14 +580727,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Mahmud Hasan",
       "Jagat Mithra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Baba Dyal Das”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q78",
@@ -579508,14 +580757,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Keshab Chandra Sen",
       "Dayanand Sarawati ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “RajaRammohan Roy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q79",
@@ -579533,14 +580787,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Widow Remarriage",
       "Untouchability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Widow Remarriage”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q80",
@@ -579558,17 +580817,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Swami Dayanand Saraswati",
       "Mahadev Govind Ranade"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pandita Ramabai”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q81",
@@ -579586,14 +580850,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Bal Gangadhar Tilak and Mahatma Gandhi",
       "Bipin Chandra Pal and Lal Lajpat Rai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “C.R. Das and Motilal Nehru”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q82",
@@ -579611,17 +580880,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Nawab Khwaja Salimullah",
       "AgaKhan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nawab Khwaja Salimullah”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q83",
@@ -579639,14 +580913,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Subash Chandra Bose",
       "Tilak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q84",
@@ -579664,14 +580943,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lokmanya Tilak",
       "W.C. Banerjee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lokmanya Tilak”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q85",
@@ -579689,14 +580973,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1929",
       "1931"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1928”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q86",
@@ -579714,14 +581003,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lala Lajpat Rai",
       "Lala Hardayal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lala Lajpat Rai”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q87",
@@ -579739,14 +581033,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Civil Disobedience Movement",
       "Quit India Movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Civil Disobedience Movement”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q88",
@@ -579764,17 +581063,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Gopal Krishna Gokhale",
       "Bal Gangadhar Tilak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bal Gangadhar Tilak”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=8",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q89",
@@ -579792,14 +581096,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "N.S. Kajrolkar",
       "Mahatma Jyotiba Phule"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dr. B.R. Ambedkar”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q90",
@@ -579817,14 +581126,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Bhagat Singh",
       "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q91",
@@ -579842,17 +581156,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Reginald Dyer",
       "Saifuddin Kitchlew ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reginald Dyer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q92",
@@ -579870,17 +581189,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Annabhau Sathe",
       "Shantabai Kamble"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Vitthal Ramji Shinde”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q93",
@@ -579898,14 +581222,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Clement Attlee",
       "Sir P Lawrence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sir P Lawrence”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q94",
@@ -579923,14 +581252,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Cabinet Mission Plan",
       "Wavell Plan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cabinet Mission Plan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q95",
@@ -579948,17 +581282,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "M.N.Roy ‘",
       "Nalin Gupta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “M.N.Roy ‘”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q96",
@@ -579976,14 +581315,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sardar Vallabhbhai Patel",
       "Rajagopalachari"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jawaharlal Nehru”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q97",
@@ -580001,14 +581345,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Mountbatten Plan",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mountbatten Plan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q98",
@@ -580026,14 +581375,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Lord Mountbatten",
       "V.P. Menon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lord Mountbatten”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q99",
@@ -580051,14 +581405,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "August 1947",
       "August 1946"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “July 1947”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q100",
@@ -580076,14 +581435,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rajagopalachari",
       "Lord Mountbatten ERK KR"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Lord Mountbatten ERK KR”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-i.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q1",
@@ -580101,14 +581465,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "It favoured partition of India",
       "It provided separate electorate for Hindus and Muslims"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Allits members were English”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q2",
@@ -580126,14 +581495,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Non-alignment ,",
       "Panchshila"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Five-Year Plans”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q3",
@@ -580151,14 +581525,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Both (i) & (iii)",
       "Allofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both (i) & (ii)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q4",
@@ -580176,14 +581555,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Quit India Movement",
       "Swadeshi Movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Civil Disobedience Movement”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q5",
@@ -580201,14 +581585,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Both (i) & (iii)",
       "Allofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both (ii) & (iii)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q6",
@@ -580226,14 +581615,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Khilafat Movement",
       "Communist Movement . 2."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Communist Movement . 2.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q7",
@@ -580251,14 +581645,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Dadabhai Naoroji",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q8",
@@ -580276,14 +581675,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "43\"",
       "44%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “42\" .”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q9",
@@ -580301,14 +581705,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sri Aurobindo",
       "MN Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bal Gangadhar Tilak”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q10",
@@ -580326,14 +581735,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Both (i) and (iii)",
       "All ofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only(i)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q11",
@@ -580351,14 +581765,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Hind Swaraj",
       "Savitri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Savitri”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q12",
@@ -580376,14 +581795,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "26\" January, 1950",
       "15” August, 1950"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “26 November, 1949”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q13",
@@ -580401,14 +581825,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "395 articles",
       "448 articles"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “395 articles”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q14",
@@ -580426,14 +581855,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Within 6 months",
       "Within 1 year"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Within 6 months”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q15",
@@ -580451,14 +581885,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Regional Emergency",
       "Financial Emergency"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Regional Emergency”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q16",
@@ -580476,14 +581915,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Both (ii) and (iii)",
       "Only (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Only (iii)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q17",
@@ -580501,14 +581945,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Right against Exploitation",
       "Right to Constitutional Remedies"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Right to Freedom”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q18",
@@ -580526,14 +581975,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Parliamentary sovereignty",
       "Centralization of powers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Division of powers between centre and states”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q21",
@@ -580551,14 +582005,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Fundamental Duties",
       "Citizenship"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Directive Principles of State Policy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q22",
@@ -580576,14 +582035,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Moneybill",
       "Ordinary bill"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Moneybill”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q23",
@@ -580601,14 +582065,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "House of the Representatives and the Senate",
       "The President, the Council of States and the House of the People"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The President, the Council of States and the House of the People”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q24",
@@ -580626,14 +582095,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Minerva Mills case",
       "SR Bommai case"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kesavananda Bharati case”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q25",
@@ -580651,14 +582125,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Concurrent List",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “State List”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q26",
@@ -580676,14 +582155,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "2013",
       "2016"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2013”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q27",
@@ -580701,14 +582185,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Aam Aadmi Party",
       "Communist Party of India (Marxist)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mizo National Front”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q28",
@@ -580726,14 +582215,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Immunization",
       "Space exploration : _4-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Immunization”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q29",
@@ -580751,14 +582245,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rural electrification",
       "Financial inclusion and banking for all"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Financial inclusion and banking for all”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q30",
@@ -580776,14 +582275,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Income Tax",
       "Value Added Tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Value Added Tax”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q31",
@@ -580801,14 +582305,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sanskritization",
       "Revolution :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sanskritization”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q32",
@@ -580826,14 +582335,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Scheduled Castes",
       "Other Backward Classes (OBCs)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Other Backward Classes (OBCs)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q33",
@@ -580851,14 +582365,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Article 371.C",
       "Article 371 G"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Article 371 G”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q34",
@@ -580876,14 +582395,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Both (ii) & (iii)",
       "Allofthe above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Both (i) & (ii)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q35",
@@ -580901,14 +582425,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "National Commission for Backward Classes",
       "National Commission for Other Backward Classes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “National Commission for Backward Classes”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q36",
@@ -580926,14 +582455,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "DigiYatra",
       "Mera Ration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Mera Ration”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q37",
@@ -580951,14 +582485,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "PMMSY",
       "PMIVK"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “PM POSHAN”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q38",
@@ -580976,14 +582515,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Article 370",
       "Article 371 oe . -5-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 370”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q39",
@@ -581001,14 +582545,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1965",
       "1991"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1951”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q40",
@@ -581026,14 +582575,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "2017",
       "2012"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2014”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q41",
@@ -581051,14 +582605,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "2nd October, 2015",
       "1st January, 2015"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1st January, 2015”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q42",
@@ -581076,14 +582635,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "National Planning Committee",
       "Finance Commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Niti Aayog”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q43",
@@ -581101,14 +582665,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "B.R. Ambedkar",
       "M. Vishweshwariah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “M. Vishweshwariah”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q44",
@@ -581126,14 +582695,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Changes its allocation and target every year",
       "Changes onlyits target every year"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Changes its allocation and target every year”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q45",
@@ -581151,14 +582725,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "BillofEntry ,",
       "Mate’s Receipt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “BillofEntry ,”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q46",
@@ -581176,14 +582755,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "C-D-A-B",
       "D-C-B-A"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A-B-C-D”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q47",
@@ -581201,14 +582785,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "September, 2023",
       "December, 2023"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “March, 2023”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q48",
@@ -581226,14 +582815,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Superfluous exchange rate",
       "Floating exchange rate . -6-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Floating exchange rate . -6-”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q49",
@@ -581251,14 +582845,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "GNP=GDP—Depreciation or Capital consumption.",
       "Allofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “GNP=market value of domestically produced goods and services + income earned by the”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q50",
@@ -581276,14 +582875,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1942",
       "1945"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1944”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q51",
@@ -581301,14 +582905,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Superfluous exchange rate",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Nominal exchange rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q52",
@@ -581326,14 +582935,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Superfluous exchange rate",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Real exchange rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q55",
@@ -581351,14 +582965,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Balance of Payment (BoP)",
       "Special Drawing Rights (SDR)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Foreign Institutional Investment (FID)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q56",
@@ -581376,14 +582995,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Payroll Tax",
       "Progressive Tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Progressive Tax”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q57",
@@ -581401,14 +583025,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Finance Minister",
       "Finance Secretary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Finance Minister”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q58",
@@ -581426,14 +583055,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Article277A",
       "Article 277B ;"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 279A”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q59",
@@ -581451,14 +583085,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1% July, 2017",
       "1% July, 2018 . _7-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1% July, 2017”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q60",
@@ -581476,14 +583115,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rajasthan",
       "Punjab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Assam”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q61",
@@ -581501,14 +583145,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "_ Tax on interest received from bank fixed deposits",
       "Tax on profit from sale of shares for more than 12 months"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tax on profit from the sale of a capital asset during a year”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q62",
@@ -581526,14 +583175,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Union Budget 2021-22",
       "Union Budget 2022-23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Union Budget 2021-22”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q63",
@@ -581551,14 +583205,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "2009",
       "2010"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2009”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q64",
@@ -581576,14 +583235,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Repo Rate",
       "Reverse Repo Rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bank Rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q65",
@@ -581601,14 +583265,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Reverse Repo Rate",
       "Prime Lending Rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reverse Repo Rate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q66",
@@ -581626,14 +583295,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Statutory Liquidity Ratio (SLR)",
       "All ofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cash Reserve Ratio (CRR)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q67",
@@ -581651,14 +583325,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Commercial banks will have more gold deposits with RBI",
       "RBI will have less money to lend"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Commercial Banks will have less money to lend”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q68",
@@ -581676,14 +583355,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Reserve Bank of India (RBI)",
       "_ National Stock Exchange of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reserve Bank of India (RBI)”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q69",
@@ -581701,14 +583385,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "to print out more currency in the fiscal year",
       "allofthese ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to maintain price stability while keeping in mind the economic growth”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q70",
@@ -581726,14 +583415,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Reserve Bank of India Act,1954",
       "Reserve Bank of India Act,1964 . -8-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reserve Bank of India Act,1934”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q71",
@@ -581751,14 +583445,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "5.8 per cent of GDP",
       "5.9 per cent of GDP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “5.9 per cent of GDP”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q72",
@@ -581776,14 +583475,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Concurrent List",
       "Allofthese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “State List”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q73",
@@ -581801,14 +583505,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Dr. Man Mohan Singh",
       "Indira Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q74",
@@ -581826,14 +583535,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Antyodaya Card",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Antyodaya Card”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q75",
@@ -581851,14 +583565,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Wanchoo Committee",
       "Dutt Committee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Suresh Tendulkar Committee”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q76",
@@ -581876,14 +583595,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Pakistan",
       "Myanmar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bangladesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q77",
@@ -581901,17 +583625,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Transported or Alkaline soils",
       "Peaty and Marshy soils."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Transported or Azonal soil”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q78",
@@ -581936,6 +583665,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
+    "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
@@ -581954,14 +583684,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Superimposed drainage",
       "Inconsequent drainage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Antecedent drainage”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q80",
@@ -581979,17 +583714,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "The Madurai-Coimbatore-Bangalore Industrial Region",
       "Delhi and Adjoining Industrial Region"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Madurai-Coimbatore-Bangalore Industrial Region”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q81",
@@ -582007,14 +583747,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Nordics",
       "Proto-Australoid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Negritos”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q82",
@@ -582032,17 +583777,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "The Austric",
       "The Sino-Tibetan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Aryans”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q83",
@@ -582060,14 +583810,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Beljar",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gochani”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q84",
@@ -582085,14 +583840,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Karnataka and Kerala",
       "Tamil Nadu and Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tamil Nadu and Karnataka”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q85",
@@ -582110,14 +583870,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Jelep La",
       "ThagLa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “ShipkiLa”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q86",
@@ -582135,14 +583900,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Tamil",
       "Telegu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Telegu”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q87",
@@ -582160,14 +583930,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rajdhani express",
       "Vande Bharat Express"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vande Bharat Express”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q88",
@@ -582185,14 +583960,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Paper industry at Serampore in 1812",
       "Establishment of TISCO in 1907"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cotton textile industry at Mumbai in 1854”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q89",
@@ -582210,14 +583990,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Maize",
       "Cotton"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Wheat”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q90",
@@ -582235,14 +584020,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Participation",
       "Empowering"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Efficiency”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q91",
@@ -582260,14 +584050,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Raj Krishna",
       "R.K.V Rao"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “M.S Swaminathan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q92",
@@ -582285,14 +584080,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Equal Pressure",
       "Equal Sunshine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Equal Rainfall”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q93",
@@ -582310,14 +584110,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Kollam - Kottapuram",
       "Sadia - Dhubri -10- :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Allahabad - Haldia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q94",
@@ -582335,14 +584140,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Noida",
       "Bangalore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Noida”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q95",
@@ -582360,14 +584170,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Gujarat",
       "Assam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gujarat”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q96",
@@ -582385,14 +584200,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "National Highway No. 15",
       "National Highway No. 7 ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “National Highway No. 7 .”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q97",
@@ -582410,14 +584230,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Seasonal wind",
       "Regional wind"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Seasonal wind”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q98",
@@ -582435,14 +584260,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1891",
       ". 1901"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1881”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q99",
@@ -582460,14 +584290,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sri Sailam hydroelectric power plant",
       "Sardar Sarovar hydroelectric power plant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tehri hydroelectric power plant”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q100",
@@ -582485,14 +584320,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "West Bengal",
       "Maharashtra KEK KEE"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Uttar Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-ii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q1",
@@ -582510,14 +584350,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1024 KB",
       "1024 Bytes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1024 KB”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q2",
@@ -582539,6 +584384,11 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -582559,14 +584409,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Reliance Jio",
       "Vodafone Idea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bharti Airtel”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q4",
@@ -582584,14 +584439,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "RPM",
       "Petrol/Diesel level"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Distance”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q5",
@@ -582609,14 +584469,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "has higher elasticity",
       "has no ductile property"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “has higher elasticity”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q6",
@@ -582634,14 +584499,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Wetlands",
       "Livestock"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Forest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q7",
@@ -582659,14 +584529,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1st July, 2017",
       "1% July, 2020"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1% July, 2015”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q9",
@@ -582684,14 +584559,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1980",
       "1995 : -2-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1969”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=1",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q10",
@@ -582709,14 +584589,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sunita Sarawagi",
       "Indira Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Shakuntala Devi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q11",
@@ -582734,14 +584619,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Trishul",
       "Agni"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Prithvi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q12",
@@ -582759,14 +584649,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Chanrayaan-1",
       "LUPEX ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gaganyaan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q13",
@@ -582784,14 +584679,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Developing the theory of relativity",
       "Discovering the Raman Effect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Discovering the Raman Effect”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q14",
@@ -582809,14 +584709,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Brahmagupta",
       "Narendra Karmarka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Aryabhatta”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q15",
@@ -582834,14 +584739,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Bhaskara-II",
       "C.V. Raman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Brahmagupta”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q16",
@@ -582859,14 +584769,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Medicine ‘",
       "Biology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chemistry”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q17",
@@ -582884,14 +584799,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Arctic Ocean",
       "Antarctic Ocean"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Indian Ocean”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q18",
@@ -582909,14 +584829,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Gaganyaan",
       "Mangalyaan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Mangalyaan”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q19",
@@ -582934,14 +584859,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Web on World Web",
       "World Wide Watch"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “World Wide Web”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q20",
@@ -582959,14 +584889,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "NASA",
       "C-DAC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “C-DAC”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q21",
@@ -582984,14 +584919,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Dakshin Gangotri",
       "Tarun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dakshin Gangotri”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q22",
@@ -583009,14 +584949,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "He initiated the Mars Orbiter Mission.",
       "He was akey scientist in India’s ballistic missile program."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “He was akey scientist in India’s ballistic missile program.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=2",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q23",
@@ -583034,14 +584979,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "AstraZeneca",
       "Pfizer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bharat Biotech International Ltd”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q24",
@@ -583059,14 +585009,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Tamil Nadu",
       "Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kerala”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q25",
@@ -583084,14 +585039,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Skye Air",
       "_ Pixxel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Skye Air”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q26",
@@ -583109,14 +585069,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Operation Smiling Buddha",
       "Operation Tiger Giant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Operation Smiling Buddha”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q27",
@@ -583134,14 +585099,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "E-SAT-1",
       "Bhaskara-1"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “EDUSAT”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q28",
@@ -583159,14 +585129,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Tigor-EV",
       "EC-Nexon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lovebird”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q39",
@@ -583189,8 +585164,14 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
+    "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
@@ -583209,17 +585190,23 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1971 census",
       "1981 census"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1961 census”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q41",
@@ -583237,14 +585224,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1871 - 1872",
       "18—7 18375"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1871 - 1872”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q42",
@@ -583262,14 +585254,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "hlamzuih",
       "thlabual"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hlamzuih”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q43",
@@ -583287,17 +585284,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1975",
       "1976"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1972”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q44",
@@ -583315,14 +585317,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "thawhlehni",
       "lawichawpekni"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “thlannghahni”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q45",
@@ -583340,14 +585347,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Ruantlang Village",
       "Rulchawm Village"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zote Village”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q46",
@@ -583365,14 +585377,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sarthi",
       "_ thihthiap"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “awnlai”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q47",
@@ -583390,14 +585407,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "salam",
       "fathang"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “salam”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q48",
@@ -583415,14 +585437,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "valupa",
       "khawnbawlupa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “valupa”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q49",
@@ -583440,14 +585467,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "hnamchawm lal",
       "lal bawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hnamchawm lal”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q50",
@@ -583465,14 +585497,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Hachhek",
       "Hmui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pawnpui”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q51",
@@ -583490,14 +585527,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "_ chemsen bawi",
       "_ inhrang bawi ,"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “inpuichhung bawi”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q52",
@@ -583515,14 +585557,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "mual bawk",
       "mualkil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “mual veng”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q53",
@@ -583540,14 +585587,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Pawl kut",
       "Chhawnghnawt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mim kut”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q54",
@@ -583565,14 +585617,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "thangchep",
       "thangkak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “thangkak”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q55",
@@ -583590,14 +585647,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "chapchar kut",
       "hnuaipui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “pawl kut ‘”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q56",
@@ -583615,14 +585677,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "zaudawh",
       "khuangchawi nu leh pa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “zaudawh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q57",
@@ -583640,14 +585707,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1891",
       "1892"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1898”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q58",
@@ -583665,14 +585737,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Rimenhawihi",
       "Sichangneii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lalruanga”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q59",
@@ -583690,14 +585767,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "head",
       "mouth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “head”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q61",
@@ -583715,17 +585797,23 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "NE Parry",
       "Rev. L. Evans . _6-"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rev. L. Evans . _6-”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q62",
@@ -583743,17 +585831,22 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "1926",
       "1948"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1946”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q63",
@@ -583771,14 +585864,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "AS Reid",
       "H.R Browne"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “AS Reid”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q64",
@@ -583803,6 +585901,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
+    "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
@@ -583821,14 +585920,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "chheihlam",
       "solakia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “solakia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q66",
@@ -583846,14 +585950,19 @@ const groupBQuestionsPart72: BankQuestion[] = [
       "Sakung",
       "_ Hnuaipui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hnuaite”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
 const groupBQuestionsPart73: BankQuestion[] = [
@@ -583873,14 +585982,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "bengbung",
       "chawilung"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “chawilung”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q68",
@@ -583898,17 +586012,23 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "13 January 1953 ,",
       "218 June 1952"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “13 January 1953 ,”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q69",
@@ -583926,14 +586046,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Lalin",
       "Thlam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Zawlbuk”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q70",
@@ -583951,14 +586076,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "hawlhrawk",
       "lensuah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “ngawidawh”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q71",
@@ -583976,14 +586106,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Khawthlangtuipui",
       "Chhimtuipui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Chhimtuipui”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q72",
@@ -584001,17 +586136,23 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Monosyllabic language",
       "Hex syllabic language"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Monosyllabic language”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q73",
@@ -584029,17 +586170,22 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Anglo Burman",
       "Indo Tibetan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tibeto- Burman”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q74",
@@ -584057,14 +586203,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Phawngpui tlang",
       "Pukzing village"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Phawngpui tlang”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q75",
@@ -584082,14 +586233,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "H.S. Dubey",
       "_ S.P. Mukherjee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hiteswar Saikia”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q76",
@@ -584107,14 +586263,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "5216",
       "5200"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5206”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q77",
@@ -584132,14 +586293,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "32",
       "64 ."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “40”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q78",
@@ -584157,14 +586323,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "57.5",
       "59.1"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “59.1”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q79",
@@ -584182,14 +586353,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "16.75",
       "16.95"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “16.25”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q80",
@@ -584207,14 +586383,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "44",
       "48"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “42”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q81",
@@ -584232,14 +586413,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "3:1",
       "3:4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1:3”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q82",
@@ -584257,14 +586443,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "12",
       "24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “14”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q83",
@@ -584282,14 +586473,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "14",
       "16 -"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “15”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q84",
@@ -584307,14 +586503,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Emaciated",
       "Obese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Obese”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q85",
@@ -584332,14 +586533,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "over",
       "round"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “on”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q86",
@@ -584364,6 +586570,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
+    "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
@@ -584382,17 +586589,22 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Senility",
       "Superannuation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Dotage”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=8",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q88",
@@ -584410,14 +586622,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "tongue:sound",
       "_ voice:vibration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “speech:dumb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q89",
@@ -584435,14 +586652,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "hell bent upon getting",
       "hell bent to getting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hell bent upon getting”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q90",
@@ -584460,14 +586682,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Remunerate",
       "Clear"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Misappropriate”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q96",
@@ -584490,6 +586717,11 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
@@ -584510,14 +586742,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "VI",
       "UT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “VI”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q99",
@@ -584535,17 +586772,23 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "12",
       "14"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “14”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Supplies-2023 · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-inpector-of-supplies-2023-general-studies-iii.pdf#page=10",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q1",
@@ -613109,9 +615352,39 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "marksPerQuestion": 2,
     "durationMinutes": 120
   },
+  "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-archive2325-acf-2023-general-knowledge": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
     "negativeMarking": false,
     "penaltyFraction": 0
   },
@@ -613390,7 +615663,12 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-inspector-fcs-2019-gs1": 100,
   "mpsc-group-b-inspector-fcs-2019-gs2": 100,
   "mpsc-group-b-inspector-fcs-2019-gs3": 100,
+  "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025": 100,
+  "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024": 100,
   "mpsc-group-b-archive2325-acf-2023-general-knowledge": 100,
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i": 100,
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii": 99,
+  "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii": 98,
   "mpsc-group-b-ng-april-2026-assistant-leso-general-english": 66,
   "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad": 9,
   "mpsc-group-b-archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd": 7,

@@ -12263,3 +12263,32 @@ Bank now 352 papers / 22,685 records, **4,027 practice-ready (+93)**, 17,834 hel
 MCQs. 25 repair tests and `tsc --noEmit` pass. Regenerated the key-attribution
 audit (23 candidates, 0 validated, 5 contradicted, 18 unverifiable) and the
 coverage report (Tier 2a 83, Tier 2b 8,244, Tier 3 8,353).
+
+## OCR-key unlock: partial reviews score per-question
+
+Key insight: scoring is evaluated per question, so a repair covering the recovered
+numbers plus the official key scores exactly those numbers; unrecovered/bad-option
+items stay held. No need to recover a paper's full 100 to start scoring it.
+
+Registered 5 more official keys and generated repairs from the now spacing-fixed
+extractions:
+
+- **Inspector of Legal Metrology (Nov-2023) General English Paper-II** — text-layer
+  key section, 100 items. 83 scored (10 held: empty options).
+- **Grade-V Inspector of Supplies (Dec-2023) GS-I / GS-II / GS-III** — text-layer
+  key sections (100/99/98; GS-II missing #78, GS-III missing #64, #86). 98 / 95 / 76
+  scored. Covers: 2 hours, FM 200, 2 marks each, no negative marking.
+- **Technical Officer, SCERT (April-2025) General Studies** — OCR provisional key,
+  General Studies 4-col table (100). Reconstructed from the letters in reading
+  order (robust to digit misreads); number-vs-position cross-checked. 94 scored.
+  Cover: 2 hours, FM 100, 1 mark each.
+- **Agriculture & Allied Services (Combined Technical, Dec-2024) General Studies**
+  — the 2024 *final* key republishes only the technical papers, so the GS key comes
+  from the 2024 *provisional* key (names the Dec-2024 exam). 4-col table (100),
+  reconstructed + cross-checked with zero disagreements. 93 scored. Cover: 3 hours,
+  FM 100, 1 mark each.
+
+All six papers re-verified against their registered keys: **539 scored, 0 mismatches**
+(83+98+95+76+94+93). Verified-key registry now 29. Bank **4,566 practice-ready**.
+25 tests + `tsc --noEmit` + `git diff --check` clean. Repairs generated here are
+automated re-OCR transcriptions (provenance recorded in `evidence`), not hand-copied.

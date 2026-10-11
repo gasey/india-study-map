@@ -618,6 +618,16 @@ def build_additional():
                                           for answer in key['answers'].values()))
         entry['imported'] = True
         entry['reviewRequired'] = not complete_source_review
+        if slug in ('archive2325-technical-officer-scert-general-studies-april-2025',
+                    'archive2325-agriculture-allied-service-general-studies-december-2024') and key:
+            # SCERT cover: 2 hours, FM 100, 1 mark each. AGRI cover: 3 hours, FM 100, 1 mark each.
+            meta[paper_id] = {'marksPerQuestion': 1,
+                             'durationMinutes': 120 if slug.startswith('archive2325-technical-officer-scert') else 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('archive2325-inpector-of-supplies-2023-general-studies') and key:
+            # Covers: 2 hours, FM 200, 2 marks each; no negative marking printed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde' and key:
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}

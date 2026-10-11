@@ -3,31 +3,31 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 24,
+  "registered_keys": 29,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
   "papers": 368,
-  "held_mcq": 17834,
-  "tier1_key_scorable": 1154,
-  "tier2_solid_importable": 83,
-  "tier2_candidate_needs_verify": 8244,
-  "tier3_needs_derivation": 8353
+  "held_mcq": 17295,
+  "tier1_key_scorable": 891,
+  "tier2_solid_importable": 81,
+  "tier2_candidate_needs_verify": 8206,
+  "tier3_needs_derivation": 8117
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 1064,
-   "disagree": 175
+   "agree": 1098,
+   "disagree": 185
   },
   "key": {
    "agree": 47,
    "disagree": 4
   },
   "derived": {
-   "agree": 1,
-   "disagree": 0
+   "agree": 2,
+   "disagree": 1
   }
  },
  "key_match": {
@@ -232,8 +232,8 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 8244,
-  "bank_v2:derived": 62,
+  "bank_v2:inferred": 8206,
+  "bank_v2:derived": 60,
   "bank_v2:key": 21
  },
  "papers": [
@@ -388,21 +388,6 @@
    "tier2_candidate": 97
   },
   {
-   "paper_id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
-   "exam": "Technical Officer (SCERT) under School Education Deptt.",
-   "subject": "General Studies",
-   "key_status": "on_disk",
-   "key_file": "Provisional Answer Key for Technical Officer, SCERT under School Education Deptartment-2025...pdf",
-   "held": 96,
-   "tier1": 96,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
    "paper_id": "mpsc-group-b-eo-2019-gs2",
    "exam": "Employment Officer under Labour, Employment & Industrial Training Department",
    "subject": "General Studies Paper-II",
@@ -461,36 +446,6 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 94
-  },
-  {
-   "paper_id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
-   "exam": "Agriculture & Allied Service ( Combined Technical)-2024",
-   "subject": "General Studies",
-   "key_status": "on_disk",
-   "key_file": "Corrigendum of Final Answer Key for Agriculture and Allied Services-2025..pdf",
-   "held": 94,
-   "tier1": 94,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
-   "exam": "Inspector of Legal Metrology",
-   "subject": "General English",
-   "key_status": "registered",
-   "key_file": null,
-   "held": 93,
-   "tier1": 93,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-udc-agri-2019-p2",
@@ -2203,21 +2158,6 @@
    "tier2_candidate": 26
   },
   {
-   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
-   "exam": "Inspector of Supplies-2023",
-   "subject": "General Studies",
-   "key_status": "none",
-   "key_file": null,
-   "held": 99,
-   "tier1": 0,
-   "tier2": 26,
-   "tier3": 73,
-   "tier2_bank": 26,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 26
-  },
-  {
    "paper_id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
    "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
    "subject": "General English",
@@ -2398,6 +2338,21 @@
    "tier2_candidate": 10
   },
   {
+   "paper_id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
+   "exam": "Inspector of Legal Metrology",
+   "subject": "General English",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 10,
+   "tier1": 10,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-station-officer-2018-gk",
    "exam": "Station Officer, Fire & Emergency Services under Home Department",
    "subject": "General Knowledge",
@@ -2426,21 +2381,6 @@
    "tier2_solved": 0,
    "tier2_solid": 1,
    "tier2_candidate": 8
-  },
-  {
-   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
-   "exam": "Inspector of Supplies-2023",
-   "subject": "General Studies",
-   "key_status": "none",
-   "key_file": null,
-   "held": 81,
-   "tier1": 0,
-   "tier2": 9,
-   "tier3": 72,
-   "tier2_bank": 9,
-   "tier2_solved": 0,
-   "tier2_solid": 2,
-   "tier2_candidate": 7
   },
   {
    "paper_id": "mpsc-group-b-si-excise-2024-p1",
@@ -2668,21 +2608,6 @@
    "tier2_candidate": 5
   },
   {
-   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
-   "exam": "Inspector of Supplies-2023",
-   "subject": "General Studies",
-   "key_status": "none",
-   "key_file": null,
-   "held": 96,
-   "tier1": 0,
-   "tier2": 5,
-   "tier3": 91,
-   "tier2_bank": 5,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 5
-  },
-  {
    "paper_id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
    "exam": "Assistant Director (Town Planning)",
    "subject": "General Studies",
@@ -2711,6 +2636,21 @@
    "tier2_solved": 0,
    "tier2_solid": 2,
    "tier2_candidate": 3
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
+   "exam": "Inspector of Supplies-2023",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 5,
+   "tier1": 5,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-archive-lang-2015-mcs-combined-preliminary-main-2015-general-english-15-bd5631e1",
@@ -3026,6 +2966,21 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 2
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
+   "exam": "Technical Officer (SCERT) under School Education Deptt.",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Provisional Answer Key for Technical Officer, SCERT under School Education Deptartment-2025...pdf",
+   "held": 2,
+   "tier1": 2,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-archive-lang-2022-grade-iii-of-mhs-dental-surgeon-sub-cadre-under-h-fw-deptt-october-2022-6b687b4f",
@@ -3466,6 +3421,51 @@
    "paper_id": "mpsc-group-b-si-police-2026-p2",
    "exam": "Sub-Inspector of Police (Un-armed Branch)",
    "subject": "General Knowledge & Reasoning",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
+   "exam": "Agriculture & Allied Service ( Combined Technical)-2024",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Corrigendum of Final Answer Key for Agriculture and Allied Services-2025..pdf",
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
+   "exam": "Inspector of Supplies-2023",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
+   "exam": "Inspector of Supplies-2023",
+   "subject": "General Studies",
    "key_status": "registered",
    "key_file": null,
    "held": 1,

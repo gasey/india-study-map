@@ -1,16 +1,16 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (24 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (29 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **17,834**
-- Tier 1 — official key available (scorable mechanically): **1,154**
+- Held MCQs: **17,295**
+- Tier 1 — official key available (scorable mechanically): **891**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
-- Tier 2a — upstream answer solid, import then score: **83**
-- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **8,244**
-- Tier 3 — needs fresh derivation: **8,353**
+- Tier 2a — upstream answer solid, import then score: **81**
+- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **8,206**
+- Tier 3 — needs fresh derivation: **8,117**
 
 ## Validation — how trustworthy is the upstream corpus?
 
@@ -18,20 +18,20 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
-| derived | 1 | 1 | 0 | 100.0% |
-| inferred | 1239 | 1064 | 175 | 85.9% |
+| derived | 3 | 2 | 1 | 66.7% |
+| inferred | 1283 | 1098 | 185 | 85.6% |
 | key | 51 | 47 | 4 | 92.2% |
 
 ### Tier 2 sources
 
-- bank_v2:inferred: 8,244
-- bank_v2:derived: 62
+- bank_v2:inferred: 8,206
+- bank_v2:derived: 60
 - bank_v2:key: 21
 
 ## Key attribution
 
-- 120 key PDFs on disk; 24 already registered.
-- High-confidence auto-attributions: **31** (~1,154 held questions). Confirm each by eye before registering.
+- 120 key PDFs on disk; 29 already registered.
+- High-confidence auto-attributions: **31** (~891 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **27**
 - Unattributed key files: **5**
 
@@ -83,13 +83,10 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-vo-2019-english-p2 | General English Paper-II | none | 100 | 0 | 1 | 97 | 2 |
 | mpsc-group-b-feo-2017-english-p2 | General English Paper-II | none | 99 | 0 | 0 | 98 | 1 |
 | mpsc-group-b-udc-forensic-2019-p2 | Paper-II | none | 125 | 0 | 0 | 97 | 28 |
-| mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | on_disk | 96 | 96 | 0 | 0 | 0 |
 | mpsc-group-b-eo-2019-gs2 | General Studies Paper-II | none | 100 | 0 | 0 | 95 | 5 |
 | mpsc-group-b-eo-leit-2019-gs2 | General Studies Paper-II | none | 100 | 0 | 0 | 95 | 5 |
 | mpsc-group-b-fr-2019-science-2 | General Science Paper-II | none | 100 | 0 | 0 | 94 | 6 |
 | mpsc-group-b-inspector-excise-2019-gs2 | General Studies Paper-II | none | 99 | 0 | 0 | 94 | 5 |
-| mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | General Studies | on_disk | 94 | 94 | 0 | 0 | 0 |
-| mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | General English | registered | 93 | 93 | 0 | 0 | 0 |
 | mpsc-group-b-udc-agri-2019-p2 | Paper-II | none | 125 | 0 | 0 | 91 | 34 |
 | mpsc-group-b-udc-mpsc-2019-p2 | Paper-II | none | 100 | 0 | 0 | 90 | 10 |
 | mpsc-group-b-geologist-jun-nov-2020-english-p2 | General English Paper-II | none | 100 | 0 | 1 | 89 | 10 |
@@ -204,7 +201,6 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-programmer-phe-2018-english-p1 | General English Paper-I | none | 80 | 0 | 0 | 29 | 51 |
 | mpsc-group-b-ada-aa-ata-2019-arithmetic | Arithmetic | none | 50 | 0 | 0 | 27 | 23 |
 | mpsc-group-b-ada-aa-ata-2019-gk | General Knowledge | none | 100 | 0 | 0 | 26 | 74 |
-| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i | General Studies | none | 99 | 0 | 0 | 26 | 73 |
 | mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a | General English | none | 36 | 0 | 0 | 26 | 10 |
 | mpsc-group-b-inspector-fcs-2019-english-p2 | General English Paper-II | none | 100 | 0 | 1 | 20 | 79 |
 | mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848 | General English | none | 100 | 0 | 0 | 21 | 79 |
@@ -217,9 +213,9 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-udc-transport-2019-p2 | Paper-II | none | 100 | 0 | 0 | 11 | 89 |
 | mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc | General English | none | 80 | 0 | 0 | 11 | 69 |
 | mpsc-group-b-udc-horti-2019-p2 | Paper-II | none | 100 | 0 | 0 | 10 | 90 |
+| mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | General English | registered | 10 | 10 | 0 | 0 | 0 |
 | mpsc-group-b-station-officer-2018-gk | General Knowledge | none | 100 | 0 | 0 | 9 | 91 |
 | mpsc-group-b-inspector-excise-2019-gs3 | General Studies Paper-III | none | 99 | 0 | 1 | 8 | 90 |
-| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii | General Studies | none | 81 | 0 | 2 | 7 | 72 |
 | mpsc-group-b-si-excise-2024-p1 | General English | on_disk | 9 | 9 | 0 | 0 | 0 |
 | mpsc-group-b-sericulture-seo-2018-english-p2 | General English Paper-II | none | 100 | 0 | 0 | 8 | 92 |
 | mpsc-group-b-station-officer-2018-english | General English | none | 80 | 0 | 0 | 8 | 72 |
@@ -235,9 +231,9 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-je-iwr-2018-english | General English | none | 69 | 0 | 0 | 6 | 63 |
 | mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc | General English | none | 40 | 0 | 0 | 6 | 34 |
 | mpsc-group-b-station-officer-2018-mathematics | Mathematics | none | 100 | 0 | 0 | 5 | 95 |
-| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii | General Studies | none | 96 | 0 | 0 | 5 | 91 |
 | mpsc-group-b-archive2325-assist-director-town-planning-general-studies | General Studies | none | 88 | 0 | 0 | 5 | 83 |
 | mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734 | General English | none | 63 | 0 | 2 | 3 | 58 |
+| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii | General Studies | registered | 5 | 5 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2015-mcs-combined-preliminary-main-2015-general-english-15-bd5631e1 | General English | on_disk | 4 | 4 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8 | General English | none | 97 | 0 | 2 | 1 | 94 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025 | General Studies | none | 86 | 0 | 0 | 3 | 83 |
@@ -259,6 +255,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-assistant-jailor-2018-english | General English | none | 69 | 0 | 0 | 2 | 67 |
 | mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024 | General Studies | none | 48 | 0 | 0 | 2 | 46 |
 | mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c | General English | none | 20 | 0 | 0 | 2 | 18 |
+| mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2022-grade-iii-of-mhs-dental-surgeon-sub-cadre-under-h-fw-deptt-october-2022-6b687b4f | General English | on_disk | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-i-aa983a08 | General English | on_disk | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-mes-pwd-2018-gs | General Studies | none | 100 | 0 | 0 | 1 | 99 |
@@ -289,6 +286,9 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-si-excise-2025-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-si-police-2026-p1 | General English | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-si-police-2026-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
+| mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | General Studies | registered | 1 | 1 | 0 | 0 | 0 |
+| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i | General Studies | registered | 1 | 1 | 0 | 0 | 0 |
+| mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii | General Studies | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-ng-april-2026-assistant-leso-general-english | General English | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-1-cdpo-under-social-welfare-department-2-fc4e1911 | General English | on_disk | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6 | General English | on_disk | 1 | 1 | 0 | 0 | 0 |

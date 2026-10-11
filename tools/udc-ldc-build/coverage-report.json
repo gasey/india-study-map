@@ -3,13 +3,13 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 102,
+  "registered_keys": 103,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 409,
+  "papers": 410,
   "held_mcq": 15345,
   "tier1_key_scorable": 697,
   "tier2_solid_importable": 62,
@@ -18,8 +18,8 @@
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 3505,
-   "disagree": 516
+   "agree": 3587,
+   "disagree": 524
   },
   "key": {
    "agree": 67,
@@ -5477,6 +5477,21 @@
    "paper_id": "mpsc-group-b-lecturer-serchhip-2026-tech3",
    "exam": "Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026",
    "subject": "Technical Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-mes-combined-2025-gs",
+   "exam": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025",
+   "subject": "General Studies",
    "key_status": "registered",
    "key_file": null,
    "held": 0,

@@ -1,3 +1,33 @@
+## 11 October 2026 — Junior Grade of MES (Combined) October-2025 General Studies: +100
+
+Imported the General Studies paper of the Junior Grade of Mizoram
+Engineering Service (Combined) examination under Various Departments,
+held 1–6 October 2025: 3 hours, FM 100, 100 one-mark MCQs, all
+questions compulsory, and no negative-marking rule printed. The
+General English and technical papers of the same examination are not
+yet in the bank.
+
+Only a **provisional** answer key is on disk for this sitting — the
+Commission's *Final* Answer Key for MES (Combined) is the 2024
+examination, a different sitting. The provisional key (notification
+No. Jr. Gr. of MES(DR)/25(1)-2025-MPSC, dated Aizawl 7 October 2025)
+is a 13-page scan with no text layer; page 1 holds the General Studies
+section as a four-column table (q1-25 / 26-50 / 51-75 / 76-100). Every
+cell was read by position at 300 dpi and independently at 600 dpi: the
+two reads agree everywhere except the four row-10 cells (q10/35/60/85),
+where the 600-dpi pass merged each printed number with its answer token;
+a direct crop of the row-10 band at 600 dpi reads `10 (C) 35 (C)
+60 (C) 85 (B)`, matching the 300-dpi read. Because the key carries no
+text layer, the read was also checked against the key's own `.ocr.txt`:
+97/97 parseable cells agree (q1 and q15 are OCR-garbled there as
+"al"/"a5" but carry the same letters; q10 is blank there and is
+confirmed by the crop). No cell is held.
+
+Session delta: bank 9,367 → 9,467 practice-ready (+100; 7,461
+official-backed); records 25,716 → 25,816; MCQs 24,715 → 24,815. 103
+registered keys. `missingMcq` unchanged at 816. Tests (25) pass and
+`tsc --noEmit` is clean.
+
 ## 11 October 2026 — Assistant Director (Town Planning) February-2026 General Studies + Technical I–III: +400
 
 Imported the four Series-A MCQ papers of the Assistant Director (Town Planning)

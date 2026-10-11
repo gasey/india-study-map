@@ -1423,6 +1423,17 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-mes-combined-2025-gs",
+    "exam": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025",
+    "sitting": "October 2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf",
+    "keyHref": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
     "exam": "ADA, ATA & Assistant Auditor under Finance Department",
     "sitting": "2019",

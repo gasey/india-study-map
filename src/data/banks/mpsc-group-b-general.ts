@@ -1185,6 +1185,16 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf"
   },
   {
+    "id": "mpsc-group-b-mes-combined-2025-gs",
+    "examType": "Direct_NG",
+    "examName": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025",
+    "post": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/mes-combined-2025-gs.pdf"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "examType": "Direct",
     "examName": "MCS Combined - 2014",
@@ -240658,6 +240668,3069 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "sourceHref": "/papers/group-b/lecturer-serchhip-2026-tech3.pdf#page=6"
   },
   {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q1",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "A vehicle stops in 20 sec after applying brakes. If the rate of constant retardation is 1.5 m/sec², what was the initial velocity of the vehicle?",
+    "options": [
+      "10 m/sec",
+      "20 m/sec",
+      "30 m/sec",
+      "40 m/sec"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “30 m/sec”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q2",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The product of force and velocity is known as:",
+    "options": [
+      "Work",
+      "Power",
+      "Energy",
+      "Momentum"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Power”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q3",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following has the highest value of specific heat?",
+    "options": [
+      "Alcohol",
+      "Methane",
+      "Kerosene",
+      "Water"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q4",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With an increase in pressure, the boiling point of water:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Increases”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q5",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "If in a closed room, the refrigerator door is kept open for some time, the temperature of the room will:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain the same",
+      "Become zero"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Increase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q6",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which colour in the rainbow spectrum has the lowest wavelength?",
+    "options": [
+      "Violet",
+      "Blue",
+      "Yellow",
+      "Red"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Violet”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q7",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is also known as the law of inertia?",
+    "options": [
+      "Newton’s first law",
+      "Newton’s second law",
+      "Newton’s third law",
+      "Newton’s fourth law"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Newton’s first law”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q8",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The SI Unit of impulse is:",
+    "options": [
+      "Newton per second",
+      "Newton second",
+      "Newton per metre",
+      "Newton per kilogram"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Newton second”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q9",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Silver corrodes in air due to its reaction with:",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen sulphide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hydrogen sulphide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q10",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements are true of glass wool? I.It has low thermal conductivity II.It is highly fire-resistant III.It absorbs moisture IV.It has good tensile strength",
+    "options": [
+      "I and II only",
+      "I, II, and III only",
+      "I, II and IV only",
+      "I, and III only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “I, II and IV only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q11",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which gas is released when limestone is dipped in water?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Carbon dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q12",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which polymer is used as a substitute of wool in making commercial fibres?",
+    "options": [
+      "Polytetrafluoroethylene",
+      "Buna-N",
+      "Polyacrylonitrile",
+      "Polythene"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Polyacrylonitrile”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q13",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is ‘milk of magnesia’ chemically?",
+    "options": [
+      "Magnesium carbonate",
+      "Sodium carbonate",
+      "Sodium hydroxide",
+      "Magnesium hydroxide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Magnesium hydroxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q14",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which is the purest form of iron?",
+    "options": [
+      "Steel",
+      "Cast iron",
+      "Pig iron",
+      "Wrought iron"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Wrought iron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q15",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Petroleum is a mixture of:",
+    "options": [
+      "Hydrocarbons",
+      "Elements",
+      "Polymers",
+      "Alcohols"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hydrocarbons”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q16",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The coil in an electric heater is made of:",
+    "options": [
+      "Copper",
+      "Nichrome",
+      "Tungsten",
+      "Iron"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Nichrome”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q17",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Bell metal is an alloy of which of the following metals?",
+    "options": [
+      "Copper and tin",
+      "Copper and zinc",
+      "Tin and zinc",
+      "Copper and mercury"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Copper and tin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q18",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Sustainable Development Goal is associated with industry, innovation and infrastructure?",
+    "options": [
+      "SDG 7",
+      "SDG 8",
+      "SDG 9",
+      "SDG 10"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “SDG 9”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q19",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "According to the Central Pollution Control Board, what is the noise limit for residential areas at night?",
+    "options": [
+      "45dB",
+      "50dB",
+      "55dB",
+      "60dB"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “45dB”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q20",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements is incorrect regarding ecosystems?",
+    "options": [
+      "It consists of both biotic and abiotic factors",
+      "It is a closed system",
+      "It has its own productivity",
+      "It s a natural resource system"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It is a closed system”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q21",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which State is the Keoladeo National Park located?",
+    "options": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Chhattisgarh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rajasthan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q22",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Montreal Protocol was associated with which of the following?",
+    "options": [
+      "Hydrocarbons",
+      "Global warming",
+      "Ozone layer",
+      "Endangered species"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ozone layer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q23",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Among the following climatic factors, which one has the least effect on terrestrial ecosystems?",
+    "options": [
+      "Temperature",
+      "Wind",
+      "Conditions of sunlight",
+      "Availability of water"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Wind”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q24",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year was the ozone hole discovered?",
+    "options": [
+      "1980",
+      "1985",
+      "1990",
+      "1995"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1985”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q25",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following trees is considered to be an environmental hazard?",
+    "options": [
+      "Babool",
+      "Neem",
+      "Teak",
+      "Eucalyptus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Eucalyptus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q26",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The property of a species being unique to a defined geographic location is known as:",
+    "options": [
+      "Endemism",
+      "Species evenness",
+      "Ecotone",
+      "Keystone"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Endemism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q27",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "From which city did the Revolt of 1857 start?",
+    "options": [
+      "Delhi",
+      "Jhansi",
+      "Meerut",
+      "Kanpur"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Meerut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q28",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year did the Jallianwala Bagh Massacre take place?",
+    "options": [
+      "1918",
+      "1919",
+      "1920",
+      "1921"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1919”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q29",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Arrange the following capital cities from northernmost to southernmost. I.Kolkata II.Jaipur III.New Delhi IV.Chandigarh",
+    "options": [
+      "IV, II, III, I",
+      "III, II, IV, I",
+      "IV, III, I, II",
+      "IV, III, II, I"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “IV, III, II, I”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q30",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following does not provide evidence for continental drift?",
+    "options": [
+      "Fossil distribution",
+      "Matching geological formations",
+      "Similar climate patterns",
+      "Uniform ocean depth"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Uniform ocean depth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q31",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following describes India as a secular state?",
+    "options": [
+      "Fundamental duties",
+      "Directive Principles of State Policy",
+      "Sixth Schedule",
+      "Preamble to the Constitution"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Preamble to the Constitution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q32",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The boundary of a State can be altered through the provisions laid down in which Article of the Constitution?",
+    "options": [
+      "Article 3",
+      "Article 13",
+      "Article 23",
+      "Article 33"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q33",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "A person who is not a member of the State Legislature can be the Chief Minister for a maximum period of:",
+    "options": [
+      "1 month",
+      "3 months",
+      "6 months",
+      "12 months"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q34",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following is considered the guardian of fundamental rights?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Legislative",
+      "The people"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Judiciary”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q35",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Any dispute arising in connection with the election of the President of India is decided by:",
+    "options": [
+      "Parliament",
+      "Election Commission of India",
+      "The Supreme Court",
+      "The Council of Ministers"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Supreme Court”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q36",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following is the term for the state of economy in which economic activity is low but prices continue to rise?",
+    "options": [
+      "Inflation",
+      "Deflation",
+      "Skewflation",
+      "Stagflation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Stagflation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q37",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements is true of inferior goods?",
+    "options": [
+      "Demand decreases with increase in income",
+      "Demand increases with increase in income",
+      "Demand decreases with decrease in income",
+      "Demand is independent of income"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Demand decreases with increase in income”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q38",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "As per the new income tax rates for FY 2025-26 in the Union Budget 2025, what is the income tax rate for a person earning more than Rs. 24 lakhs per annum?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “30%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q39",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is used to describe the want satisfying power of a commodity?",
+    "options": [
+      "Demand",
+      "Want",
+      "Utility",
+      "Consumption"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Utility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q40",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the primary objective of the Aatmanirbhar Bharat initiative?",
+    "options": [
+      "To increase India’s exports",
+      "To make India a global manufacturing hub",
+      "To promote self reliance and reduce imports",
+      "To increase foreign direct investments"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To promote self reliance and reduce imports”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q41",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What number should come next in the following numbers series 2, 8, 18, 32, 50, ___?",
+    "options": [
+      "70",
+      "71",
+      "72",
+      "73"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “72”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q42",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Choose the pair that best represents a similar relationship to the one expressed in EXPLORE : DISCOVER.",
+    "options": [
+      "read : skim",
+      "research : learn",
+      "write : print",
+      "think : relate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “research : learn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q43",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "An ‘Informal Gathering’ occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an Informal Gathering?",
+    "options": [
+      "The book club meets on the first Thursday evening of every month.",
+      "After finding out about his promotion, Jeremy and a few coworkers decide to go out for a",
+      "Mary sends out 25 invitations for the bridal shower she is giving for her sister.",
+      "Whenever she eats at the Mexican restaurant, Clara seems to run into Peter."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “After finding out about his promotion, Jeremy and a few coworkers decide to go out for a”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q44",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country has recently developed the world’s first deep-sea radar that can detect high-flying aircraft?",
+    "options": [
+      "USA",
+      "Russia",
+      "China",
+      "Japan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “China”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q45",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "How many people were announced to be given Padma Awards by the Government of India in 2025?",
+    "options": [
+      "121",
+      "139",
+      "147",
+      "153"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “139”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q46",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following has been appointed as the Director of the Liquid Propulsion Systems Centre of ISRO?",
+    "options": [
+      "M. Mohan",
+      "S. Somnath",
+      "V. Narayanan",
+      "K. Sivan"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “M. Mohan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q47",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "How many Local Councils were there in Aizawl in the General Election to Local Councils, 2025?",
+    "options": [
+      "85",
+      "87",
+      "89",
+      "91"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “87”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q48",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "As per the newly launched Mizoram Universal Healthcare Scheme, what is the maximum possible monthly contribution for a government employee (on Level 13 & above pay level)?",
+    "options": [
+      "₹400",
+      "₹700",
+      "₹1000",
+      "₹1500"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “₹1500”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q49",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "As per the Indian Stamp (Mizoram Amendment) Act, 2024, what is the stamp duty for mortgage of an immovable property by any person who is not a widow?",
+    "options": [
+      "1%",
+      "2.5%",
+      "3%",
+      "5%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “3%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q50",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the Assembly Constituency number of Dampa Assembly Constituency?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q51",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which season did Aizawl FC win their maiden I-League title?",
+    "options": [
+      "2014-15",
+      "2015-16",
+      "2016-17",
+      "2017-18"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2016-17”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q52",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who wrote the Indian national song ‘Vande Mataram’?",
+    "options": [
+      "Rabindranath Tagore",
+      "Bankim Chandra Chatterjee",
+      "Sarojini Naidu",
+      "Subhas Chandra Bose"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bankim Chandra Chatterjee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q53",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The rocks that make up the continents and are rich in silicon and aluminium are:",
+    "options": [
+      "lighter in colour and weight",
+      "lighter in colour and heavier in weight",
+      "lighter in weight and darker in colour",
+      "heavier in weight and darker in colour"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “lighter in colour and weight”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q54",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following is nearest to the Tropic of Cancer?",
+    "options": [
+      "Aizawl",
+      "Rajkot",
+      "Kolkata",
+      "Imphal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Aizawl”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q55",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following is not a form of stored energy?",
+    "options": [
+      "Nuclear energy",
+      "Potential energy",
+      "Electrical energy",
+      "Chemical energy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Electrical energy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q56",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The black cotton soil of India has been formed due to the weathering of:",
+    "options": [
+      "brown forest soil",
+      "fissure volcanic rock",
+      "granite and schist",
+      "shale and limestone"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “fissure volcanic rock”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q57",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Articles of the Constitution of India which deal with Directive Principles of State Policy are:",
+    "options": [
+      "26 to 41",
+      "30 to 45",
+      "36 to 51",
+      "40 to 55"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “36 to 51”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q58",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not involved in the preparation of budget?",
+    "options": [
+      "Finance Ministry",
+      "Finance Commission",
+      "Niti Aayog",
+      "Comptroller and Auditor-General"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Comptroller and Auditor-General”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q59",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Right to Vote and to be elected in India is a:",
+    "options": [
+      "Fundamental Right",
+      "Natural Right",
+      "Constitutional Right",
+      "Legal Right"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Constitutional Right”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q60",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "How is India’s Gross Domestic Product (GDP) calculated?",
+    "options": [
+      "Through the Consumer Price Index (CPI)",
+      "Using the Net Domestic Product (NDP)",
+      "One method based on economic activity and the other on expenditure",
+      "By analysing trade balance and fiscal deficit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “One method based on economic activity and the other on expenditure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q61",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following institutions formulates the monetary policy in India?",
+    "options": [
+      "NITI Aayog",
+      "RBI",
+      "Ministry of Finance",
+      "SEBI"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “RBI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q62",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When a bus suddenly takes a turn, the passengers are thrown outwards because of:",
+    "options": [
+      "inertia of motion",
+      "acceleration of bus",
+      "speed of motion",
+      "Both (b) and (c)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “inertia of motion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q63",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "If a body is taken from the earth to the moon:",
+    "options": [
+      "its mass will be different but weight will remain the same",
+      "both mass and weight will be different",
+      "its mass will remain the same but weight will be different",
+      "both mass and weight will remain same"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “its mass will remain the same but weight will be different”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q64",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The pressure of the earth’s atmosphere at sea level is due to the:",
+    "options": [
+      "heating of the atmosphere by the sun",
+      "fact that most living things constantly breathe air",
+      "evaporation of water from the sea’s and oceans",
+      "gravitational attraction of the earth for the atmosphere"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “gravitational attraction of the earth for the atmosphere”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q65",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The type of mirror used in the headlamps of cars is the:",
+    "options": [
+      "plane mirror",
+      "spherical convex mirror",
+      "spherical concave mirror",
+      "parabolic concave mirror"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “spherical concave mirror”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q66",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "H₂0 is a liquid and H₂S is a gas because:",
+    "options": [
+      "oxygen forms stronger hydrogen bond than sulphur",
+      "oxygen is less electronegative than sulphur",
+      "atomic radius of oxygen is less than that of sulphur",
+      "atomic radius of oxygen is greater than that of sulphur"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “oxygen forms stronger hydrogen bond than sulphur”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q67",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Red Flag’ is the name of a joint exercise between India and which one of the following country?",
+    "options": [
+      "China",
+      "Saudi Arabia",
+      "USA",
+      "Japan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “USA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q68",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Natural uranium contains: 1.U-2352.U-238 3.U-2344.U-233 Select the correct answer using the codes given below.",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1, 2 and 3",
+      "3 and 4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q69",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is the largest gland in the human body?",
+    "options": [
+      "Thyroid",
+      "Liver",
+      "Pancreas",
+      "Adrenal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Liver”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q70",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a fundamental duty under the Indian Constitution?",
+    "options": [
+      "To respect the national flag",
+      "To vote in elections",
+      "To protect the environment",
+      "To cherish the country’s heritage"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To vote in elections”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q71",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Reserve Bank of India was nationalized in:",
+    "options": [
+      "1935",
+      "1947",
+      "1949",
+      "1951"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1949”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q72",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which article of the Indian Constitution deals with the election of the President of India?",
+    "options": [
+      "Article 54",
+      "Article 61",
+      "Article 70",
+      "Article 75"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 54”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q73",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Indian state is the largest producer of tea?",
+    "options": [
+      "Assam",
+      "West Bengal",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Assam”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q74",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who discovered the radio?",
+    "options": [
+      "Alexander Graham Bell",
+      "Guglielmo Marconi",
+      "Thomas Edison",
+      "Nikola Tesla"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Guglielmo Marconi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q75",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Kargil War’ took place in which year?",
+    "options": [
+      "1987",
+      "1999",
+      "2001",
+      "1995"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1999”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q76",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is the largest source of renewable energy in India?",
+    "options": [
+      "Solar energy",
+      "Biomass",
+      "Wind energy",
+      "Hydropower"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hydropower”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q77",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The principle of ‘Sustainable Development’ emphasizes:",
+    "options": [
+      "Economic growth only",
+      "Environmental protection only",
+      "Growth without compromising future needs",
+      "Industrialization only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Growth without compromising future needs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q78",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In project management, a Gantt chart is used to:",
+    "options": [
+      "Estimate financial cost",
+      "Show work breakdown structure",
+      "Schedule project activities",
+      "Identify project risks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Schedule project activities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q79",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Right to Clean Environment’ is guaranteed in India under:",
+    "options": [
+      "Directive Principles",
+      "Article 21",
+      "Article 32",
+      "Fundamental Duties"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 21”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q80",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which programming language is most commonly used for Artificial Intelligence?",
+    "options": [
+      "COBOL",
+      "Python",
+      "Assembly",
+      "FORTRAN"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Python”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q81",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which is NOT an example of a greenhouse gas?",
+    "options": [
+      "Methane",
+      "Nitrous oxide",
+      "Oxygen",
+      "Carbon dioxide"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Oxygen”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q82",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Kudankulam’ nuclear power plant is located in:",
+    "options": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tamil Nadu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q83",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Directive Principles of State Policy are:",
+    "options": [
+      "Justiciable",
+      "Non-justiciable",
+      "Legally Enforceable",
+      "Not a part of the Constitution"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Non-justiciable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q84",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who is called the Father of the Green Revolution in India?",
+    "options": [
+      "C. Subramaniam",
+      "Norman Borlaug",
+      "M.S. Swaminathan",
+      "Verghese Kurien"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “M.S. Swaminathan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q85",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Carbon Neutrality’ refers to:",
+    "options": [
+      "Eliminating all energy use",
+      "Balancing carbon emission with removal",
+      "Only using fossil fuels",
+      "No carbon in the environment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Balancing carbon emission with removal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q86",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Article of the Indian Constitution deals with the prohibition of discrimination on grounds of religion, race, caste, sex or place of birth?",
+    "options": [
+      "Article 19",
+      "Article 21",
+      "Article 15",
+      "Article 17"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 15”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q87",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first Indian to go to space was:",
+    "options": [
+      "Kalpana Chawla",
+      "Sunita Williams",
+      "Rakesh Sharma",
+      "Ravish Malhotra"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rakesh Sharma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q88",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Blue Revolution’ in India is associated with:",
+    "options": [
+      "Cotton production",
+      "Dairy farming",
+      "Fisheries development",
+      "Coal mining"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fisheries development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q89",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Make in India’ logo features which animal?",
+    "options": [
+      "Tiger",
+      "Lion",
+      "Elephant",
+      "Peacock"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q90",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Panchayati Raj was first introduced in India in which state?",
+    "options": [
+      "Maharashtra",
+      "Gujarat",
+      "Rajasthan",
+      "Kerala"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rajasthan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q91",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Right to Information’ (RTI) Act was enacted in India in:",
+    "options": [
+      "1991",
+      "2003",
+      "2005",
+      "2008"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2005”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q92",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Indian state shares the longest border with Myanmar?",
+    "options": [
+      "Mizoram",
+      "Arunachal pradesh",
+      "Manipur",
+      "Tripura"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Arunachal pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q93",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "DNA fingerprinting was first invented by:",
+    "options": [
+      "James Watson",
+      "Alec Jeffreys",
+      "Har Gobind Khorana",
+      "Paul Nurse"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Alec Jeffreys”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q94",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Swadeshi Movement’ began in the context of which event?",
+    "options": [
+      "Partition of Bengal 1905",
+      "Non-cooperation Movement",
+      "Jallianwala Bagh Massacre",
+      "Simon Commission"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Partition of Bengal 1905”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q95",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the generally accepted average normal human body temperature?",
+    "options": [
+      "96.8°F (36°C)",
+      "98.6°F (37°C)",
+      "100.4°F (38°C)",
+      "102.2°F (39°C)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “98.6°F (37°C)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q96",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Fundamental Duties were incorporated in the Constitution by:",
+    "options": [
+      "42nd Amendment",
+      "44th Amendment",
+      "46th Amendment",
+      "50th Amendment"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “42nd Amendment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q97",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year was the Goods and Services Tax (GST) launched in India?",
+    "options": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2017”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q98",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term ‘Fourth Estate’ refers to:",
+    "options": [
+      "Judiciary",
+      "Executive",
+      "Legislature",
+      "Press/Media"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Press/Media”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q99",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following articles of the Indian Constitution provides special provisions for the state of Mizoram?",
+    "options": [
+      "Article 370",
+      "Article 371A",
+      "Article 371G",
+      "Article 371J"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 371G”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mes-combined-2025-gs-Q100",
+    "paperId": "mpsc-group-b-mes-combined-2025-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following is not a fundamental right under the Constitution of India?",
+    "options": [
+      "Right to Equality",
+      "Right to Freedom",
+      "Right to Property",
+      "Right against Exploitation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Right to Property”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025 · October 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mes-combined-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-1",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "type": "descriptive",
@@ -245500,7 +248573,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73-80): Identify the word that gives the nearest meaning of the underlined"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-written-1",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -248338,9 +251413,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 95-100): Select the most suitable alternative to fill in the blanks in the sentence"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d-Q97",
     "paperId": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d",
@@ -253587,7 +256660,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc-B38",
     "paperId": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc",
@@ -256156,9 +259231,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 60-64) Identify the correct type of sentences from the options given below:"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B63",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
@@ -261448,7 +264521,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (questions 1-8): Choose the correct meaning of the idioms and phrases given:"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B5",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32",
@@ -264284,9 +267359,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B18",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
@@ -269622,7 +272695,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 71 – 80): Choose the correct meaning of the following idioms and phrases:"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q75",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -272151,9 +275226,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 65-80): Fill in the blanks choosing a correct word from the choices provided."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc-B67",
     "paperId": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc",
@@ -277309,7 +280382,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 91 - 100) : Fill in the blanks using the correct alternative."
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q93",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -279999,9 +283074,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 81 - 90) : Choose the appropriate word/phrase to fill in the blanks."
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q91",
     "paperId": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1",
@@ -285689,7 +288762,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 71 - 80) :  Choose the option closest in meaning to the given words:"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q79",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -288521,9 +291596,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 75-80) : Choose the word nearest in meaning of the underlined word :"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e-Q77",
     "paperId": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e",
@@ -293945,7 +297018,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No.41 - 50) : Change the following as directed."
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q45",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -296585,9 +299660,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question No. I - 20) Choose the correct answer from the options given below:"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d-B16",
     "paperId": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d",
@@ -302469,7 +305542,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237-B8",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
@@ -305217,9 +308292,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Choose the correctf orm of the verb that agrees with the subject of"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc-Q37",
     "paperId": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -310336,7 +313409,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 35): Fill in the blanks with suitable forms of pronouns from the"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q36",
     "paperId": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -312911,9 +315986,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q19",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -318410,7 +321483,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 71 - 78) : Choose the nearest in meaning for the words italicized."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q75",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -321011,9 +324086,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734-B64",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734",
@@ -326156,7 +329229,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q45",
     "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
@@ -328694,9 +331769,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 47 - 52): Identify the correct form of tenses for the sentences below. Choose"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a-B51",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
@@ -333822,7 +336895,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 48 & 49): Read the sentence given below and choose the correct option that"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B49",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -336827,9 +339902,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (QuestionNos. 11 – 15)Fill in the blanks using the correct preposition:"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B15",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -341575,7 +344648,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q15",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
@@ -344658,9 +347733,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q45",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -351058,7 +354131,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208-Q42",
     "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -354251,9 +357326,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q4",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -360333,7 +363406,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B3",
     "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
@@ -363423,9 +366498,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
     "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B34",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -368781,7 +371854,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B39",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p1-B40",
     "questionNumber": "B40",
@@ -371377,9 +374452,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B74",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q75",
     "questionNumber": "B75",
@@ -376623,7 +379696,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B5",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B6",
     "questionNumber": "B6",
@@ -379217,9 +382292,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A48",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A49",
     "questionNumber": "A49",
@@ -384476,7 +387549,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B80",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B81",
     "questionNumber": "B81",
@@ -387272,9 +390347,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-written-1",
     "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -392466,7 +395539,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q19",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -395311,9 +398386,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate",
     "passage": "A recent report titled ‘Women and Children in India’ and a nearly simultaneous report on ‘Indian Women - their health and economic productivity’ highlight the international importance being given to the problems of the progress of Indian women. Unfortunately, both the reports fail to either convey a fresh understanding of the issue or to suggest innovative and workable approaches for women’s development. The former is because the reports restrict themselves to old statistics. We are told, for example, that the ratio of women to men remains below its natural level and that it is related to other parameters, such as the level of literacy and the availability of primary health care. The failure to suggest a fresh approach is less understandable given that a variety of approaches to women’s development has been tried out over the world. In India, the state has made a strong political and economic commitment to women. In 1990, the National Commission on Women was established. In 1989, two major policy documents were released. Ever since, the Sixth Five Year Plan, there has been a special section on socio-economic programmes for women. Poverty alleviation programmes have a 30 per cent target for women. Special programmes like Development of Women and Children in Rural Areas have also been started. These governmental and other approaches have had mixed results. For example, SEWA’s (Self Employed Women’s Association) and WWF’s (Working Women’s Forum) approach of using bank credit to organize self-employed women has worked well. So also women’s literacy programmes in Kerala. On the other hand, some of the legislated reforms like dowry prohibition have not work well. The issue of whether women should be identified as separate participants in the development process is also controversial. In this context, it is disappointing to read in one of the reports that one of the government’s targets for 1991-95 ought to be foster ‘An ethos of caring in the community, not to let a child ‘go to bed hungry,’ be subjected to a preventable disease or remain without learning opportunity - this could mark the beginning of a social process towards a more humane order’ is the report saying then the Indians don’t love their children as a matter of policy makers. It is very unfortunate that these reports have become superficial and don’t delve sufficiently deep into the problems."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B19",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -401003,7 +404076,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-gs1-Q57",
     "paperId": "mpsc-group-b-si-fcs-2018-gs1",
@@ -403785,9 +406860,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B7",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
@@ -408859,7 +411932,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q82",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -411474,9 +414549,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A5",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -416739,7 +419812,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 61 - 70) : Analyze the sentences and choose the correct degree of comparison."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q67",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -419604,9 +422679,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction for Questions 65 - 72 : Choose the correct meaning of Idioms and Phrases written in bolt"
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach1-2019-english-B67",
     "paperId": "mpsc-group-b-coach1-2019-english",
@@ -425264,7 +428337,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-election-2019-english-B24",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -428078,9 +431153,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41-48) : Identify the appropriate verb-form to kill in the blanks :"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-english-B43",
     "paperId": "mpsc-group-b-dso-2019-english",
@@ -433642,7 +436715,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction for Questions 1 - 16 : Choose the correct meaning of the idioms given in italics."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-english-B14",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -436265,9 +439340,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs1-Q33",
     "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -441583,7 +444656,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q5",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -444323,9 +447398,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs2-Q30",
     "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -449562,7 +452635,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q49",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -452194,9 +455269,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q49",
     "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -457657,7 +460730,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 41 - 50) : Pick out the correct clause from the following sentences."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q43",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -460389,9 +463464,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q43",
     "paperId": "mpsc-group-b-fr-2019-science-1",
@@ -465909,7 +468982,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q43",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -468430,9 +471505,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q28",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -473720,7 +476793,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q9",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -476478,9 +479553,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q9",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -481824,7 +484897,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : From the four alternatives given below, choose the correct meaning"
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-phe-2019-english-B11",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -484479,9 +487554,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q17",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -490049,7 +493122,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 9- 16) :** Fill in the blanks with the idioms / phrases out of the given options."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-english-B10",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -492893,9 +495968,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q29",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -498256,7 +501329,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (67 - 80) : Choose the nearest meaning of the idioms and phrases given in italics from the"
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-la-2019-english-B80",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -501118,9 +504193,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 17  - 21 : Read the given passage carefully and choose the correct answer"
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B18",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -506647,7 +509720,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 49 – 56) : Analyze the given sentences and choose the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-surveyor-2019-english-B54",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -509396,9 +512471,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q11",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -514482,7 +517555,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9 -16) : Pick the correct clause of the words underlined in the given"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-B16",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -517278,9 +520353,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A39",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -522834,7 +525907,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A62",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -525598,9 +528673,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 32 – 37): Identify the parts of speech of each underlined words:"
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B37",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -531191,7 +534264,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 57 - 64) : Choose the alternative which best expresses the meaning of the"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B60",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -533939,9 +537014,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-B83",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -539505,7 +542578,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-B107",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -542318,9 +545393,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A5",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -547640,7 +550713,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A28",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -550410,9 +553485,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 22 - 32):** Fill in the blanks with suitable comparisons."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B28",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -555937,7 +559010,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 50 - 58) : Choose the correct alternative which is the closest in meaning to"
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-B51",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -558480,9 +561555,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p2-A74",
     "paperId": "mpsc-group-b-udc-rd-2019-p2",
@@ -563797,7 +566870,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-B97",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -566413,9 +569488,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 87 - 94) : Select word which is opposite in meaning to the underlined word or"
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -571698,7 +574771,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -574438,9 +577513,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q91",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -579919,7 +582992,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of"
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B4",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -582706,9 +585781,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs1-Q53",
     "paperId": "mpsc-group-b-museum-guide-2020-gs1",
@@ -588263,7 +591336,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A27",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -590870,9 +593945,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q17",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -596422,7 +599495,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q11",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -598927,9 +602002,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 10) : Identify the parts of speech of the underlined words:"
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q5",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -604543,7 +607616,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 16) : Choose the correct option that conveys the meaning of the"
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-agri-2020-english-B5",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -607258,9 +610333,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q17",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -612652,7 +615725,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 1 - 10) : Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q4",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -615234,9 +618309,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "source": "Tourist Officer under Tourism Department · December 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/to-2020-english-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p1-written-4",
     "paperId": "mpsc-group-b-to-2020-english-p1",
@@ -620714,7 +623787,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 - 100) : Choose the correct word substitute from the given choices :"
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -623455,9 +626530,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -628971,7 +632044,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 91 & 92): Each of the following questions consists of five figures marked A, B,"
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q92",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -631942,9 +635017,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q96",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -637953,7 +641026,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q33",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -640964,9 +644039,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q47",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -646969,7 +650042,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q70",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -649969,9 +653044,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q82",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
@@ -655967,7 +659040,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q49",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -658970,9 +662045,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q75",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
@@ -664976,7 +668049,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q5",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -667522,9 +670597,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q16",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -673307,7 +676380,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q16",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -676294,9 +679369,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q8",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -682383,7 +685456,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q22",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -685387,9 +688462,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q25",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -690736,7 +693809,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q63",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -693239,9 +696314,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q71",
     "paperId": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
@@ -698682,7 +701755,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q37",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -701767,9 +704842,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q41",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -707423,7 +710496,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q43",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -710291,9 +713366,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Questions No 44– 48) : Identify the correct form of sentences :"
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-general-english-B47",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
@@ -715514,7 +718587,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low"
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q039",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -715964,7 +719039,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86,...groupBQuestionsPart87];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -716508,6 +719583,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   },
   "mpsc-group-b-lecturer-serchhip-2026-tech3": {
     "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-mes-combined-2025-gs": {
+    "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,
     "penaltyFraction": 0
@@ -717637,6 +720718,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-lecturer-serchhip-2026-tech1": 50,
   "mpsc-group-b-lecturer-serchhip-2026-tech2": 50,
   "mpsc-group-b-lecturer-serchhip-2026-tech3": 50,
+  "mpsc-group-b-mes-combined-2025-gs": 100,
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": 50,
   "mpsc-group-b-ada-aa-ata-2019-english": 60,
   "mpsc-group-b-ada-aa-ata-2019-gk": 100,

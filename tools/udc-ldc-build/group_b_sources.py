@@ -170,6 +170,7 @@ GENERAL_PAPERS = [
  ('lecturer-serchhip-2026-tech1', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-I', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-I..pdf'),
  ('lecturer-serchhip-2026-tech2', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-II', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-II..pdf'),
  ('lecturer-serchhip-2026-tech3', 'Lecturer, Govt. Hr. Secondary School, Serchhip (Contract) under School Education Department - March-2026', 'March 2026', 'Technical Paper-III', 'Lecturer Govt.Hr,Higher Secondary School, Serchhip, 2026-Technical Paper-III..pdf'),
+ ('mes-combined-2025-gs', 'Junior Grade of Mizoram Engineering Service (Combined) under Various Departments - October-2025', 'October 2025', 'General Studies', 'Jr. Grade of MES (Combined)-2025 - General Studies..pdf'),
 ]
 # Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
 # clerical / UDC / Assistant Grade papers in full plus the non-technical
@@ -456,6 +457,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'cdpo-2025-social-work-p3': 'Direct_2025-2027', 'adfd-2025-technical-p1': 'Direct_2025-2027', 'adfd-2025-technical-p2': 'Direct_2025-2027',
  'adfd-2025-technical-p3': 'Direct_2025-2027',
  'adtp-2026-gs': 'Direct_2025-2027', 'adtp-2026-tech1': 'Direct_2025-2027', 'adtp-2026-tech2': 'Direct_2025-2027', 'adtp-2026-tech3': 'Direct_2025-2027',
+ 'mes-combined-2025-gs': 'Direct_2025-2027',
  'agri-2025-gs': 'Direct_2025-2027', 'agri-2025-agri-science-p1': 'Direct_2025-2027', 'agri-2025-agri-science-p2': 'Direct_2025-2027',
  'agri-2025-agri-science-p3': 'Direct_2025-2027', 'agri-2025-ah-vety-p1': 'Direct_2025-2027', 'agri-2025-ah-vety-p2': 'Direct_2025-2027',
  'agri-2025-ah-vety-p3': 'Direct_2025-2027', 'agri-2025-horticulture-p1': 'Direct_2025-2027', 'agri-2025-horticulture-p2': 'Direct_2025-2027',
@@ -856,6 +858,16 @@ def build_additional():
             # 11-13 February 2026) - General Studies on key page 2, Technical
             # Papers I-III on key pages 3-5.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'mes-combined-2025-gs' and key:
+            # Cover: Junior Grade of MES (Combined) under Various
+            # Departments, October-2025, General Studies, 3 hours,
+            # FM 100, 100 one-mark MCQs. No negative-marking rule
+            # is printed. Key: the provisional answer key
+            # (notification No. Jr. Gr. of MES(DR)/25(1)-2025-MPSC,
+            # dated Aizawl 7 October 2025) - General Studies on
+            # key page 1.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;

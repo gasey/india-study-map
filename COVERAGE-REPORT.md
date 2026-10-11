@@ -1,6 +1,6 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (102 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (103 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
@@ -19,7 +19,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 4 | 3 | 1 | 75.0% |
-| inferred | 4021 | 3505 | 516 | 87.2% |
+| inferred | 4111 | 3587 | 524 | 87.3% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
@@ -30,7 +30,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 ## Key attribution
 
-- 120 key PDFs on disk; 102 already registered.
+- 120 key PDFs on disk; 103 already registered.
 - High-confidence auto-attributions: **32** (~697 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **25**
 - Unattributed key files: **5**

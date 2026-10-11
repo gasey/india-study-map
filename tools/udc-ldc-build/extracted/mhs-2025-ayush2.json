@@ -1,0 +1,2274 @@
+{
+  "slug": "mhs-2025-ayush2",
+  "exam": "Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)",
+  "sitting": "September 2025",
+  "subject": "Technical Subject Paper-II",
+  "source": "Technical Paper-II - Jr. of MHS (AYUSH Sub-Cadre), 2025..pdf",
+  "sourceSha256": "d230cc8ea1122c71946a77ae87b0f0a8fa4e8df302c92a94fba5a72351596067",
+  "ocr": false,
+  "count": 98,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumps",
+        "b": "Hepatitis B",
+        "c": "Hepatitis A",
+        "d": "Pneumonic Plague"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Isolation not useful for all except:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japanese encephalitis",
+        "b": "Dengue fever",
+        "c": "Kyasanur forest disease (KFD)",
+        "d": "Yellow fever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following viral infection is transmitted by tick?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Measles",
+        "b": "Typhoid",
+        "c": "Hepatitis B",
+        "d": "Gonorrhoea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chronic carriers are found in all the following diseases except:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rifampicin",
+        "b": "Isoniazid",
+        "c": "Ethambutol",
+        "d": "Pyrazinamide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In RNTCP which of the following drug was included in the year 2004 for treatment of Paediatric cases of TB even under 6 years of age after recommendation by Indian Academy of Paediatrics?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sputum culture",
+        "b": "Sputum microscopy",
+        "c": "X -ray chest",
+        "d": "PCR antibody detection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Case finding in RNTCP is based on:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diptheria",
+        "b": "Polio",
+        "c": "Measles",
+        "d": "Tetanus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Herd Immunity is NOT useful in:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National AIDS control program",
+        "b": "RNTCP",
+        "c": "NVBDCP",
+        "d": "NPCDC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Integrated counselling and testing centre (ICTC) is related to:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 July- 8 August",
+        "b": "25 August-8 September thththth",
+        "c": "25 September-8 October",
+        "d": "25 October- 8 November"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Eye donation fortnight’ is observed on__________ . thththth",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13th January, 2011",
+        "b": "25th February, 2012",
+        "c": "27th March, 2014",
+        "d": "25th April, 2016"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the following year India was declared Polio Free by WHO?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leprosy",
+        "b": "Poliomyelitis",
+        "c": "Tuberculosis",
+        "d": "Hepatitis B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acute Flaccid paralysis (AFP) surveillance is related to:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100,000 IU",
+        "b": "150,000 IU",
+        "c": "200,000 IU",
+        "d": "250,000 IU"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the dose of Vit A above 1 year of age under Vit A prophylaxis programme in India?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iron",
+        "b": "Folic acid",
+        "c": "Calcium",
+        "d": "Iron and folic acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following supplement is given in national Nutritional Anaemia prophylaxis programme in pregnant women?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immunisation is the phenomena of increasing specific antibody production",
+        "b": "Vaccination is the process of inoculation of harmless antigenic material into the healthy person",
+        "c": "A single vaccination gives adequate immunity and lasts lifelong",
+        "d": "Immunisation is carried out through vaccination and injection of antiserum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is incorrect regarding Vaccination and Immunisation?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anganwadi Services Scheme",
+        "b": "Pradhan Mantri Matru Vandana Yojana",
+        "c": "Scheme for Adolescent Girls",
+        "d": "All the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Integrated Child Development Services Scheme (ICDS) includes:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1953-1954",
+        "b": "1978",
+        "c": "2003-2004",
+        "d": "2014"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When was the national vector borne disease control programme launched?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ayushman Bharat Digital Mission",
+        "b": "National Health Mission",
+        "c": "National Ayush Mission",
+        "d": "Swaccha Bharat Abhiyan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Healthcare Professionals Registry (HPR) is related to:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Epizootics",
+        "b": "Zoonosis",
+        "c": "Sporadic",
+        "d": "Pandemic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An infectious disease which occurs only infrequently, haphazardly, irregularly or occasionally is called as:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 per 1000",
+        "b": "1 per 1000",
+        "c": "30 per 1000",
+        "d": "60 per 1000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per National Health Policy-2017, Mother Mortality rate should be less than:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To inculcate culture of quality production of Ayush products assured with safety and efficacy",
+        "b": "To enable Ayush drug industry in complying with national and global regulatory requirements",
+        "c": "To build up visibility and demand- driven market presence of Ayush products",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The vision of Ayush Oushadhi Gunvattaevam Uttpadan Samvardhan Yojana (AOGUSY) is/are:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Statement 1 & Statement 2 both are correct",
+        "b": "Statement 1 & Statement 2 both are incorrect",
+        "c": "Statement 1 is correct but Statement 2 is incorrect",
+        "d": "Statement 1 is incorrect but Statement 2 is correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given below are two statements : Statement 1 : Antidote of Dhatura is Picrotoxine Statement 2 : Antidote of Barbiturates is Pilocarpine",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clostridium perfringens",
+        "b": "Mycobacterium tuberculosis",
+        "c": "Pseudomonas aeruginosa",
+        "d": "Mycobacterium leprae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Leprosy is caused by:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To promote integrative medicine",
+        "b": "To promote AYUSH systems through cost-effective services",
+        "c": "To promote traditional medicine",
+        "d": "To focus on research in AYUSH"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary objective of the National AYUSH Mission?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blood test",
+        "b": "Skin biopsy and microscopic examination",
+        "c": "X-ray of the affected area",
+        "d": "MRI scan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the “gold standard” for diagnosing leprosy?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anopheles culifacies",
+        "b": "Sandfly",
+        "c": "Aedes aegypti",
+        "d": "Culex pipiens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a vector for Kala-azar?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vaccination",
+        "b": "Antibiotics",
+        "c": "Vector control measures",
+        "d": "Antiviral drugs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary method of preventing malaria transmission?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saliva of freshly moulted female Anopheles mosquito",
+        "b": "Saliva of infected female Anopheles mosquito",
+        "c": "RBCs of infected human",
+        "d": "Spleen of infected human"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where are sporozoites of the malarial parasite found?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eradicate malaria completely",
+        "b": "Control and prevent vector-borne diseases",
+        "c": "Develop new vaccines for malaria",
+        "d": "Promote the use of insecticides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the role of the National Vector Borne Disease Control Programme (NVBDCP) in India?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The digestive system",
+        "b": "The respiratory system",
+        "c": "The central nervous system",
+        "d": "The circulatory system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rabies virus primarily affects:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prevention of new infections",
+        "b": "Providing care, support, and treatment for those living with HIV",
+        "c": "Raising awareness about HIV/AIDS",
+        "d": "Providing cash benefits to all people affected by HIV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a key component of the NACP?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National AIDS Control Organisation",
+        "b": "National Awareness and Control Organisation",
+        "c": "National AIDS Counselling Organisation",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does NACO stand for?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To provide free treatment for all infectious diseases",
+        "b": "To combat the increasing HIV/AIDS prevalence in the North-East region",
+        "c": "To promote tourism in the North-Eastern state",
+        "d": "To focus on economic development in the North-Eastern states"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main objective of Project Sunrise, launched in the North-Eastern states of India?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2025",
+        "b": "2030",
+        "c": "2035",
+        "d": "2040"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the target year for ending the HIV/AIDS epidemic as a public health threat according to the Sustainable Development Goals?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UNICEF",
+        "b": "WHO",
+        "c": "UNDP",
+        "d": "World Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organization played a key role in the global polio eradication initiative, which influenced the launch of the Pulse Polio Programme in India?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reproductive Health",
+        "b": "Maternal Health",
+        "c": "Adolescent Health",
+        "d": "Disease Control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a component of the RMNCH+A program under NHM?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Free medical education for all",
+        "b": "Providing affordable healthcare services to rural and urban populations",
+        "c": "Privatizing all healthcare services",
+        "d": "Limiting access to healthcare in urban areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a key focus area of NHM?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50000",
+        "b": "1 lakh",
+        "c": "2 lakhs",
+        "d": "5 lakhs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The PM-JAY schemes provide how much health coverage per family per year?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Health and family welfare",
+        "b": "Ministry of Ayush",
+        "c": "Ministry of women and child development",
+        "d": "Ministry of Finance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ministry oversee the Ayushman Bharat Programme?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blockchain",
+        "b": "Artificial Intelligence",
+        "c": "Telemedicine",
+        "d": "Virtual reality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ayushman Bharat encourages use of which type of technology for effective healthcare delivery?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rubella",
+        "b": "Scarlet fever",
+        "c": "Roseola",
+        "d": "Measles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 4-year-old child presents with high fever, cough, coryza, and conjunctivitis. Two days later, a maculopapular rash appears, starting at the hairline and spreading downward. What is the most likely diagnosis?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Koplik spot",
+        "b": "Strawberry tongue",
+        "c": "Slapped cheek appearance",
+        "d": "Forchheimer spots"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a pathognomonic sign of Measles?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lungs",
+        "b": "Liver",
+        "c": "Testicles",
+        "d": "Kidney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In males, mumps can lead to inflammation of which of the following organ?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rota virus",
+        "b": "Noro virus",
+        "c": "Varicella",
+        "d": "Hand foot and mouth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What kind of diarrheal virus is most common in children?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Escherichia coli",
+        "b": "Campylobacter",
+        "c": "Shigella",
+        "d": "Yersinia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which bacterial agent of diarrhoea is a gram-negative motile bacillus belonging to the Enterobacteriaceae family?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High oxygen levels",
+        "b": "Anaerobic environments",
+        "c": "High temperatures",
+        "d": "Salty water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which environment do Clostridium tetani bacteria thrive?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Elevated blood pressure",
+        "b": "Muscle spasms",
+        "c": "Difficulty swallowing",
+        "d": "Skin rash"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a symptom of tetanus?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leukaemia",
+        "b": "Sarcoma",
+        "c": "Lymphoma",
+        "d": "Carcinoma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of cancers form in bone and soft tissues, including muscle, fat, blood vessels, lymph vessels, and fibrous tissue (such as tendons and ligaments)?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biological therapy",
+        "b": "Chemotherapy",
+        "c": "Radiotherapy",
+        "d": "Total body irradiation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which cancer treatment uses cell killing (cytotoxic) drugs?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Exercise tolerance test",
+        "b": "Electrocardiogram",
+        "c": "Coronary angiogram",
+        "d": "All of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which test is/are used to diagnose and determine the best treatment to relieve symptoms in people with suspected CHD?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immune system",
+        "b": "Immune system and the central nervous system",
+        "c": "Endocrine system",
+        "d": "Immune system and endocrine system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HIV is a retrovirus that infects and colonizes cells in the ______.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Incorrectly; kissing and spitting",
+        "b": "Correctly; kissing and spitting",
+        "c": "Incorrectly; needle sharing",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One in ten people __________  believe, HIV infection can be transmitted through routes such as __________ .",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nux vomica",
+        "b": "Iso-propyl alcohol",
+        "c": "Hydrogen sulphide",
+        "d": "Opium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fruit odour in breath is seen in__________  poisoning.",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "President’s court",
+        "b": "Rajya sabha",
+        "c": "Lok Sabha",
+        "d": "Supreme court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The highest judicial tribunal in India is:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Injury",
+        "b": "Causing death by negligence",
+        "c": "Culpable homicide",
+        "d": "Issuing false certificate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Section 197 of IPC deals with:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canine",
+        "b": "Lateral incisor",
+        "c": "First molar",
+        "d": "Second molar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The last deciduous tooth to erupt is:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coagulation of protein",
+        "b": "Rigor mortis",
+        "c": "Coagulation of fats",
+        "d": "Cadaveric spasm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pugilistic attitude is primarily caused due to:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uterus",
+        "b": "Ovary",
+        "c": "Heart",
+        "d": "Spleen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In female, the last organ to putrefy is:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Natural sexual offence",
+        "b": "Unnatural sexual offense",
+        "c": "Abnormal perversion",
+        "d": "Sexual desire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sodomy is:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cerebral",
+        "b": "Spinal",
+        "c": "Cardiac",
+        "d": "Narcotic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oleander is a __________  poison.",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gastritis",
+        "b": "Dehydration",
+        "c": "Liver damage",
+        "d": "Kidney damage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "British Anti-Lewisite (BAL) is contraindicated in:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arsenic",
+        "b": "Mercury",
+        "c": "Lead",
+        "d": "Copper"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hatter’s shake is seen in the poisoning of:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rigor mortis",
+        "b": "Cold stiffening",
+        "c": "Heat stiffening",
+        "d": "Post mortem cooling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Algor mortis is the other name for:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arsenic",
+        "b": "Cyanide",
+        "c": "Barbiturate",
+        "d": "Strychnine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hairs and nails are preserved for chemical analysis in suspected case of poisoning due to:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bluish discoloration of the vaginal and cervical tissues",
+        "b": "Softening of cervix",
+        "c": "Increased vaginal mucous secretion",
+        "d": "Both (a) and (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chadwick’s sign is:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is recorded in question answer form",
+        "b": "Oath is administered to patient",
+        "c": "No witness is required",
+        "d": "Any person may be present during recording"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is true about dying declaration?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2-3 hours after death",
+        "b": "12 hours after death",
+        "c": "24 hours after death",
+        "d": "48 hours after death"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rigor mortis, the stiffening of muscles after death, is typically fully established:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copper",
+        "b": "Mercury",
+        "c": "Arsenic",
+        "d": "Iron"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which poisoning Mees lines appear on finger nails?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hemotoxic",
+        "b": "Neurotoxic",
+        "c": "Cytotoxic",
+        "d": "Acidotoxic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a common type of snake venom?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abrus precatorius",
+        "b": "Croton tinglium",
+        "c": "Calotropis gigantea",
+        "d": "Ergot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The commonly used cattle poison is:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mechanical",
+        "b": "Chemical",
+        "c": "Physiological",
+        "d": "Universal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Banana is an example of __________ antidote.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyoscine",
+        "b": "Hyosyamine",
+        "c": "Brucine",
+        "d": "Atropine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nuxvomica seeds contain 2 alkaloids, strychnine and __________ .",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poroscopy",
+        "b": "Euthanasia",
+        "c": "Cor en sabot",
+        "d": "Gustafson’s method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mercy killing is also called as:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "177",
+        "b": "176",
+        "c": "175",
+        "d": "174"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“A”, a landholder, knowing of the commission of a murder within the limits of his estate, wilfully misinforms the Magistrate of the district that the death has occurred by accident in consequence of the bite of a snake. “A” is guilty of the offence defined in this section under IPC:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Declaration of Helsinki 1964",
+        "b": "Declaration of Geneva,1948",
+        "c": "Declaration of Tokyo,1975",
+        "d": "Declaration of Sweden, 1949"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hippocrates’s oath was modified and is now known as:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dhatura",
+        "b": "Cannabis",
+        "c": "Belladona",
+        "d": "Opium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Somniferous poison is:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cobra",
+        "b": "Krait",
+        "c": "Sea snakes",
+        "d": "Viper"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Haematuria occurs in bite from:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 -78) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "friendly",
+        "b": "humorous",
+        "c": "healthy",
+        "d": "convincing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "AMIABLE",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 -78) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "hazardous",
+        "b": "difficult",
+        "c": "different",
+        "d": "pleasurable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ARDOUS",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 -78) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "extreme",
+        "b": "intermediate",
+        "c": "revolutionary",
+        "d": "change"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "TRANSITIONAL",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bell tower",
+        "b": "elaborate candle stick",
+        "c": "artillery bombardment",
+        "d": "thin metal plate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is ‘campanile’?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "expectedly",
+        "b": "certainly",
+        "c": "mostly",
+        "d": "avoidably"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word which is most nearly the OPPOSITE in meaning ‘INEVITABLY’.",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ADES",
+        "b": "HOME",
+        "c": "LINE",
+        "d": "ODES"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Insert the word that completes the first word and begins the second: DEC (. . . .) AGE",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "grapes",
+        "b": "mangoes",
+        "c": "apples",
+        "d": "oranges"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Grapes are sweeter than mangoes. Apples are sweeter than oranges, mangoes are sweeter than apples. Which is the sweetest fruit?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rashmi is older than Anjali",
+        "b": "Rashmi is the youngest of them all",
+        "c": "Rashmi is the oldest among the three",
+        "d": "Anjali is older than Rashmi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anjali is older than Pooja but Pooja is not older than Anjali. If Rashmi is older than Pooja but not older than Anjali, then which one of the following is the correct relationship?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All boys are vegetarians",
+        "b": "All girls are vegetarians",
+        "c": "Majority of the students are vegetarians",
+        "d": "Majority of the students are non-vegetarians"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Classes A and B have equal strengths and equal number of boys and girls. All students from A are vegetarians and some students from B are vegetarians. Which one of the following statements is definitely FALSE?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Helen plays Basketball",
+        "b": "Betty plays Soccer",
+        "c": "Samantha plays volleyball",
+        "d": "Valerie plays Hockey."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Betty, Helen, Samantha and Valerie each plays exactly one unique game out of Basketball, Hockey, Soccer and Volleyball, but no one plays a game having same first letter as the first letter of  her name. If Valerie plays Basketball and Helen does not play Soccer, then:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 86 & 87) : Given below are four sets of letters. Three of the four sets follow",
+      "opts": {
+        "a": "BCFF",
+        "b": "GHKK",
+        "c": "KLNN",
+        "d": "PQTT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CGFJ",
+        "b": "EIHL",
+        "c": "GKJN",
+        "d": "IMNR"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 88 & 89) : In this test, you will see a word with parts of the letters missing.",
+      "opts": {
+        "a": "rgaon",
+        "b": "gapna",
+        "c": "lpano",
+        "d": "ginaa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rygzeran",
+        "b": "ezcymai",
+        "c": "izonrega",
+        "d": "yezirdan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "60 m",
+        "b": "90 m",
+        "c": "120 m",
+        "d": "180 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bus runs at 54 km per hour. How far will it go in 12 seconds?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are four wooden poles, A, B, C and D. If A is longer than C, B is smaller than D and C is longer than D, which is the smallest pole?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 92 & 93) : The following items are made up of short number problems. Each",
+      "opts": {
+        "a": "16",
+        "b": "16 105 41",
+        "c": "15",
+        "d": "15 510"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Add : 9+6 51 11",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30",
+        "b": "32",
+        "c": "70",
+        "d": "72"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Divide 1050 ÷ 15",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "960",
+        "b": "860",
+        "c": "950",
+        "d": "850"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "40% of ? +180 = 564",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14",
+        "b": "24",
+        "c": "36",
+        "d": "98"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "√196 is _________",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "4",
+        "c": "6",
+        "d": "7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "26?9 54188127",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 97 & 98) : Choose the odd one out:-",
+      "opts": {
+        "a": "36",
+        "b": "48",
+        "c": "64",
+        "d": "81"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "51",
+        "b": "65",
+        "c": "78",
+        "d": "104"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q99 (p10, part None): only 0 option(s) [] - not emitted",
+    "Q100 (p11, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": []
+  }
+}

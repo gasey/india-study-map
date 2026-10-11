@@ -1,0 +1,2317 @@
+{
+  "slug": "mhs-2025-gdm2",
+  "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+  "sitting": "September 2025",
+  "subject": "Technical Subject Paper-II",
+  "source": "Technical Paper-II - Jr. of MHS (GDMO Sub-Cadre), 2025.p.pdf",
+  "sourceSha256": "4297b8a3d765dccff870bfa2024da009ba56104a94890c37fef94ac450a5b9df",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Postoperative care",
+        "b": "Palliative care",
+        "c": "Preoperative care",
+        "d": "Follow-up care"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Different phases of Perioperative care include all of the followings EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Serum Bilirubin",
+        "b": "Serum Creatinine",
+        "c": "Serum Albumin",
+        "d": "Serum Alkaline phosphatase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liver function test include all of the following EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amoebic liver abscess",
+        "b": "Lung abscess",
+        "c": "Splenic abscess",
+        "d": "Pancreatic abscess"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anchovy sauce pus is a feature of:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fever",
+        "b": "Pain",
+        "c": "Jaundice",
+        "d": "Gall Bladder Lump"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Not included in Charcot’s triad:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pyrexia",
+        "b": "Analgesia",
+        "c": "Inflammation",
+        "d": "Myalgia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "C-Reactive Protein (CRP) is an indicator of:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Patient’s name",
+        "b": "Consent-mark side",
+        "c": "All investigations available",
+        "d": "Social status"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Not included for pre-operative check-list before operation-",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clostridium perfringens",
+        "b": "Clostridium botulinum",
+        "c": "Clostridium difficile",
+        "d": "Clostridium tetani"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gas gangrene is caused by:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Locate the fracture by shifting the patient side to side",
+        "b": "X-ray of spine",
+        "c": "Clear the airway and intubate him",
+        "d": "Immobilize the cervical spine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A patient presents in emergency with a cervical spine fracture. First thing to do is:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Extradural hemorrhage",
+        "b": "Subdural hemorrhage",
+        "c": "Intracerebral hematoma",
+        "d": "Diffuse axonal injury"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After head injury, biconvex, lenticular shape hematoma in CT scan is characteristic of which of the following:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plain x-ray and packing of nose",
+        "b": "Nasal packing only",
+        "c": "Antibiotics and observation",
+        "d": "Immediate surgery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Management for CSF rhinorrhea is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subdural bleed",
+        "b": "Extradural bleed",
+        "c": "Intracerebral bleed",
+        "d": "Subarachnoid bleed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "After rupture of middle meningeal artery bleeding occurs in which region:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blood transfusion",
+        "b": "IV fluids",
+        "c": "Reconstruction",
+        "d": "Maintenance of airway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First step taken in case of multiple injuries of face & neck:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glasgow coma scale",
+        "b": "Age",
+        "c": "Mode of injury",
+        "d": "CT Scan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Best prognostic factor for head injury is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypotension",
+        "b": "Dehydration",
+        "c": "Airway",
+        "d": "Cardiac status"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In severe injury, first to be maintained is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marjolin’s",
+        "b": "Rodent",
+        "c": "Melanoma",
+        "d": "Curlings"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ulcer that may develop in burn tissue is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Salmon patch",
+        "b": "Strawberry angiomas",
+        "c": "Portwine stain",
+        "d": "Capillary hemangiomas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these does not change or remains same throughout life:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sepsis",
+        "b": "Hypovolemia",
+        "c": "Contractures",
+        "d": "Neurogenic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Late death in burns is due to:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fluid resuscitation",
+        "b": "Dressing",
+        "c": "Escharotomy",
+        "d": "Antibiotics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the most important aspect of management of burn injury in the first 24 hrs?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spleen",
+        "b": "Liver",
+        "c": "Pancreas",
+        "d": "Stomach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common abdominal organ injured in blunt trauma abdomen is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Always midline incision",
+        "b": "Depending upon the organ",
+        "c": "Transverse incision",
+        "d": "Paramedian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Preferred incision for abdominal exploration in blunt trauma abdomen is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anterior aspect of the 1st part of duodenum",
+        "b": "Posterior aspect of the 1st part of duodenum",
+        "c": "Greater curvature of the stomach",
+        "d": "Anterior aspect of 2nd part of duodenum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commonest site of peptic ulcer perforation:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "<3 mmHg",
+        "b": "3-5 mmHg",
+        "c": "5-10 mmHg",
+        "d": "10-12 mmHg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Normal portal vein pressure is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediate appendectomy",
+        "b": "Exploratory laparotomy",
+        "c": "Oschner Sherren regimen",
+        "d": "External drainage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 25 year old man presents with 3 days history of pain in the right lower abdomen and vomiting. Patient’s general condition is satisfactory and clinical examination reveals a tender lump in the right iliac fossa. The most appropriate management in this case would be:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Face",
+        "b": "Leg",
+        "c": "Presternal Area",
+        "d": "Arm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common site of hypertrophied keloid is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eversion of sac",
+        "b": "Excision of sac",
+        "c": "Lords procedure",
+        "d": "Herniotomy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Congenital hydrocele is best treated by:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pelvic",
+        "b": "Paracolic",
+        "c": "Retrocaecal",
+        "d": "Retroperitoneal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the most common position of the appendix?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin K",
+        "b": "Vitamin B 12",
+        "c": "Vitamin B1",
+        "d": "Folic acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Vitamin deficiencies is seen in short bowel syndrome with ileal resection?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Murphy’s sign",
+        "b": "Grey Turner sign",
+        "c": "Boa’s sign",
+        "d": "Cullen’s sign"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Referred pain to the shoulder in case of acute cholecystitis is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Resection with end-to-end anastomosis",
+        "b": "Resection with side-to-side anastomosis",
+        "c": "Enterotomy removal of worms and primary closure",
+        "d": "Diversion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ileal obstruction due to roundworm obstruction treatment is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Superficial",
+        "b": "Partial-thickness superficial",
+        "c": "Partial-thickness deep",
+        "d": "Full thickness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The burn area appears red, has blisters, and is very painful; the burn is categorised as:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hb Level",
+        "b": "Mid-arm circumference",
+        "c": "Serum albumin",
+        "d": "Triceps skin fold thickness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a surgical patient, malnutrition is best assessed by:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ileum",
+        "b": "Stomach",
+        "c": "Duodenum",
+        "d": "Oesophagus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common site for Curling’s ulcer is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thighs",
+        "b": "Buttocks",
+        "c": "Scalp",
+        "d": "Palms and soles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The thickest skin in the human body is located on the:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chin",
+        "b": "Eyelids",
+        "c": "Post auricular region",
+        "d": "Neck"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On the human body, the thinnest skin is located on the:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Crust",
+        "b": "Callus",
+        "c": "Tumour",
+        "d": "Wheal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A solid mass in the skin that could be soft or hard, fixed or freely movable, and may be elevated or deep is called a:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Berry ligament",
+        "b": "Pretracheal fascia",
+        "c": "Sternothyroid muscle",
+        "d": "Thyrohyoid membrane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Upward movement of the thyroid gland is prevented due to:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mesoderm",
+        "b": "Endoderm",
+        "c": "Neural crest",
+        "d": "Neuroectoderm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nerves of the brachial arch are derived from:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Squamous cell carcinoma",
+        "b": "Adenocarcinoma",
+        "c": "Adenoacanthoma",
+        "d": "Papillary type"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most typical type of anal carcinoma is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malrotation of the gut",
+        "b": "Perforation peritonitis",
+        "c": "Peritoneal metastasis",
+        "d": "Peritoneal tuberculosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rolled up omentum is seen in the case of:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parotid",
+        "b": "Sublingual",
+        "c": "Submandibular",
+        "d": "Minor salivary glands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sialolithiasis is common in which gland?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cephalic vein",
+        "b": "Pectoralis minor",
+        "c": "Pectoralis major",
+        "d": "Branches of the intercostobrachial N."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which structure is not preserved in modified radical mastectomy?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Metabolic alkalosis",
+        "b": "Non-bilious vomiting",
+        "c": "Jaundice",
+        "d": "Fever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most crucial diagnostic feature of congenital hypertrophic pyloric stenosis:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Endorectal US",
+        "b": "Colonoscopy",
+        "c": "MRI",
+        "d": "Proctoscopy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For recurrent anal fistula, the most appropriate investigation is:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gall bladder",
+        "b": "Hepatic artery",
+        "c": "Hepatic cyst",
+        "d": "Bile duct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choledochal cyst is a dilatation of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The entire complex intussusception",
+        "b": "The entering layer",
+        "c": "The outer layer",
+        "d": "The process of reducing the intussusception"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is intussuscepiens?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clean contaminated wound",
+        "b": "Clean an uncontaminated wound",
+        "c": "Unclean, uncontaminated wound",
+        "d": "Dirty infected wound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Drainage of cervical abscess is an example of:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plain catgut",
+        "b": "Silk",
+        "c": "Polydioxanone",
+        "d": "Chromic catgut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most tissue reaction is seen in:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Direct inguinal hernia",
+        "b": "Femoral hernia",
+        "c": "Indirect inguinal hernia",
+        "d": "Incisional hernia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the case of females, the commonest hernia is:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Benign colloid goitre",
+        "b": "Follicular adenoma",
+        "c": "Toxic adenoma",
+        "d": "Toxic multinodular goitre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 65-year-old female presents with a swelling in the neck, diagnosed as a solitary thyroid nodule. The patient undergoes investigation, and a scan reveals increased iodine uptake. Serum T3 and T4 are elevated. The most probable diagnosis is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SDH",
+        "b": "EDH",
+        "c": "Intracranial bleed",
+        "d": "Diffuse axonal injury"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neurosurgery is indicated in all, except:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hegar’s sign",
+        "b": "Palmer’s sign",
+        "c": "Goodel’s sign",
+        "d": "Jacquemiers sign"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On examination, a primigravida who is 7 weeks amenorrhoeic is found to have bluish coloration of vaginal mucosa. This sign suggestive of pregnancy is called:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grade 1",
+        "b": "Grade 2",
+        "c": "Grade 3",
+        "d": "Grade 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If on per vaginal examination, you find that the sagittal sutures are irreducible and overlapping. What is the grade of moulding here?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert’s pelvis",
+        "b": "Rachitic pelvis",
+        "c": "Android pelvis",
+        "d": "Osteomyelitic pelvis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On clinical examination per vaginally, you find that ala of sacrum is absent, what is this type of pelvis called?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Serum iron level",
+        "b": "Transferrin saturation",
+        "c": "Total iron binding capacity",
+        "d": "Serum Ferritin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the best diagnostic test for iron deficiency in pregnancy?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "34th weeks",
+        "b": "36th weeks",
+        "c": "32nd weeks",
+        "d": "28th weeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When is the blood volume maximum in pregnancy?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pyrexia",
+        "b": "Dehydration",
+        "c": "Hypothyroidism",
+        "d": "Hypovolemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All of the following maternal causes can lead to fetal tachycardia except:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monosomy",
+        "b": "Trisomy",
+        "c": "Translocation",
+        "d": "Triploidy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common chromosomal anomaly in abortion is:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iron sucrose infusion after calculating total dose required",
+        "b": "Ferric carboxymaltose injection",
+        "c": "Packed RBC transfusion",
+        "d": "Iron dextran"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A G4P3 female patient who is agricultural worker presents with fatigue at 38 weeks of gestation. On examination, pallor, mild pedal edema is seen . Her Hemoglobin is 6.8gm%. Name the appropriate treatment:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Duodenum",
+        "b": "Jejunum",
+        "c": "Ileum",
+        "d": "Stomach"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Site for maximum absorption of iron is:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 ml of fetal red cells",
+        "b": "40 ml of fetal whole blood",
+        "c": "20 ml of fetal red cells",
+        "d": "15 ml of fetal whole blood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One 300mcg dose of anti D will neutralize how much of fetal blood?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Klebsiella",
+        "b": "E coli",
+        "c": "Pseudomonas",
+        "d": "Proteus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common organism responsible for Asymptomatic bacteriuria in pregnancy is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "<10%",
+        "b": "10-30%",
+        "c": "30-50%",
+        "d": ">50%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the risk of vertical transmission of HIV during pregnancy and delivery and breastfeeding without ART?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chloramphenicol",
+        "b": "Quinine",
+        "c": "Chloroquine",
+        "d": "Primaquine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the malarial drugs is safest in pregnancy?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Revealed abruption",
+        "b": "Placenta praevia",
+        "c": "Concealed abruption",
+        "d": "Grade 1 abruptio placentae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consumptive coagulopathy is more likely with:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Myomectomy",
+        "b": "Conservative",
+        "c": "Termination of pregnancy by medical induction",
+        "d": "Early artificial rupture of membrane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the treatment of red degeneration in pregnancy?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alpha fetoprotein",
+        "b": "Estradiol",
+        "c": "bHcg",
+        "d": "Inhibin A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The triple test in second trimester screening includes all except:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12 weeks",
+        "b": "20 weeks",
+        "c": "8 weeks",
+        "d": "16 weeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The upper limit of age of gestation for medical termination of pregnancy by one registered practitioner is:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The morning dose of insulin to be withheld",
+        "b": "Start monitoring blood glucose level",
+        "c": "IV Normal saline to be started and insulin given according to blood glucose level",
+        "d": "Give the usual medication on the day as before"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a special measure for a woman with diabetes on insulin during childbirth?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50mg",
+        "b": "25mg",
+        "c": "100mg",
+        "d": "200mg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What dose of misoprostol is used for induction of labour?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6 hours",
+        "b": "5 hours",
+        "c": "4 hours",
+        "d": "10 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Time interval between alert line and active line in partograph is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hirsutism",
+        "b": "Endometrial cancer",
+        "c": "Sleep apnoea",
+        "d": "Dyslipidemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following condition is at high risk due to an increased level of estrogen in PCOS?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carcinoid tumour",
+        "b": "Theca lutein cyst",
+        "c": "Mucinous cystadenoma",
+        "d": "Struma ovarii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ovarian tumour can cause thyrotoxicosis due to functioning thyroid tissue?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Emergency LSCS",
+        "b": "Mid pelvic Forceps delivery",
+        "c": "Fundal pressure",
+        "d": "Vacuum delivery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A multigravida is in second stage of labour for 2 hours. Per vaginal examination show station at 0 with caput and +2 Moulding. Sagittal suture in right occipito transverse. Foetal heart rate is 140. Appropriate management will be:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mc Robert’s",
+        "b": "Zavanelli",
+        "c": "Fundal pressure",
+        "d": "Wood’s screw manoeuvre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which manoeuvre is not included in the management of shoulder dystocia?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Continue warfarin as before",
+        "b": "Switch to LMWH unit until 12 weeks , then resume warfarin",
+        "c": "Switch to aspirin",
+        "d": "Stop all anticoagulants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 30 year-old pregnant woman has a history of mitral valve replacement. She is on warfarin. At 6 weeks pregnancy, what is the best management?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Daily 100mg of elemental iron with 500 mg of folic acid from 14 weeks onwards for 100 days",
+        "b": "60 mg of elemental iron with 400 mg of folic acid daily for latter 6 months of pregnancy till 3 months post-partum",
+        "c": "60 mg of elemental iron plus 500 mg of folic acid daily starting from 2nd trimester for 180 days and to be continued for 180 days after delivery",
+        "d": "100 mg of elemental iron plus 400 mg of folic acid daily for latter 6 months of pregnancy till 6 months post-partum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In “Anemia Mukt Bharat operational guideline 2018” What is the recommended oral iron and folic acid supplementation in pregnancy by The Ministries of Health, Govt of India?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NST, Liquor volume, Fetal tone, Fetal breathing movement and fetal movements",
+        "b": "NST and Liquor volume",
+        "c": "NST, fetal breathing movements, fetal position, Fetal tone and doppler study of umbilical vein",
+        "d": "Doppler study of umbilical, MCA, Ductus arteriosus and Uterine arteries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following test are included in Fetal Biophysical profile?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MMR",
+        "b": "Varicella",
+        "c": "Influenza",
+        "d": "HPV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which vaccination is not contraindicated during pregnancy?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediate resuscitation and termination of pregnancy by LSCS",
+        "b": "Immediate resuscitation and wait till due date",
+        "c": "Perform artificial rupture of membrane and try vaginal delivery",
+        "d": "Do a double set up Pelvic examination at OT after resuscitation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sudden bleeding per vagina at 37 weeks which is painless, bright red. On examination, patient is pale, BP 80/50mmHg, pulse 125/min, and presenting part is unengaged. Management should be:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abruptio placentae",
+        "b": "Vasa previa",
+        "c": "Placenta previa",
+        "d": "Combined Abruption with placenta previa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A grand multipara complains of scanty, painless, bleeding per vagina at 38 weeks of pregnancy. On examination, patient is stable, bleeding is not copious, but there is fetal heart deceleration. The likely cause of bleeding is:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Loss of appetite",
+        "b": "Headache",
+        "c": "Shortness of breath",
+        "d": "Leucorrhoea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Symptoms of anemia in pregnancy are all except:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blurring of vision",
+        "b": "Occipital Headache",
+        "c": "Epigastric pain",
+        "d": "Lower abdominal pain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not seen in impending eclampsia?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abnormal trophoblastic invasion and remodeling of spiral arterioles",
+        "b": "Increased level of estrogen and progesterone",
+        "c": "Increased level of aldosterone",
+        "d": "Decrease in blood volume"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Pathophysiology of pre-eclampsia is mainly due to:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cleft lip",
+        "b": "Cardiac anomalies",
+        "c": "Renal agenesis",
+        "d": "Anencephaly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following congenital anomaly is most commonly seen in pre gestational diabetes?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cholestyramine",
+        "b": "Ursodeoxycholic acid",
+        "c": "Prednisolone",
+        "d": "Lactocalamine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a patient with intrahepatic cholestasis of pregnancy, which is the drug of choice for symptom control and improving fetal outcome?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Azithromycin",
+        "b": "Benzathine Penicillin",
+        "c": "Doxycycline",
+        "d": "Ceftriaxone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A pregnant woman in her first trimester is diagnosed with Primary syphilis. What is the choice of treatment?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rubella",
+        "b": "Toxoplasmosis",
+        "c": "HSV",
+        "d": "Varicella"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following infections causes sensori-neural deafness, especially if contracted in the first trimester?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediate Surgery",
+        "b": "MRI Pelvis",
+        "c": "Start progesterone support",
+        "d": "Repeat scan after 6 weeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "25 years old, 10 weeks pregnant woman was found to have 7 cm ovarian cyst with thin wall and clear fluid on routine ultrasound. Next action would be:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uterine rupture",
+        "b": "Placenta previa",
+        "c": "Obstructed labor",
+        "d": "Preeclampsia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 35 year old woman in early pregnancy presents with a large, obstructing cervical fibroid. What complication is likely during labor?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "True conjugate",
+        "b": "Transverse diameter",
+        "c": "Diagonal conjugate",
+        "d": "Obstetric conjugate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following diameters is considered most important in assessing pelvic inlet adequacy?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Occipito -frontal",
+        "b": "Sub Occipito frontal",
+        "c": "Sub mento Bregmatic",
+        "d": "Mento-vertical"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which diameter of the presenting part is vaginal delivery impossible?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Misoprostol",
+        "b": "Dinoprostone gel",
+        "c": "Foleys intracervical catheter",
+        "d": "Mifepristone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following agents is safest for cervical ripening in a case of previous caesarean section?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anovulation",
+        "b": "Bleeding disorders",
+        "c": "Endometrial carcinoma",
+        "d": "Adenomyosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abnormal uterine bleeding in adolescent is most commonly due to;",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Serous Cystadenoma",
+        "b": "Dysgerminoma",
+        "c": "Granulosa cell tumour",
+        "d": "Immature teratoma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common malignant ovarian tumour in young women under 30 years is:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oligo-or anovulation",
+        "b": "Hyperandrogenism",
+        "c": "Elevated LH/FSH",
+        "d": "Polycystic ovaries on ultrasound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All are Rotterdam criteria for diagnosing PCOS except:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "E coli and klebsiella",
+        "b": "Chlamydia trachomatis and Neisseria Gonorrhoeae",
+        "c": "Mycoplasma and ureaplasma",
+        "d": "Gardenella Vaginalis and Candida"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common causative organism in PID are:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Complete abortion",
+        "b": "Threatened abortion",
+        "c": "Missed abortion",
+        "d": "Inevitable abortion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 36 year old multipara presents at 8 weeks with bleeding per vagina and lower abdominal pain.On examination, Os is closed, uterus is 8 weeks size and foetal heartbeat is present on USG. What is the likely diagnosis?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USG to confirm retained products",
+        "b": "Stabilise and start broad spectrum antibiotics",
+        "c": "Start misoprostol",
+        "d": "Schedule evacuation immediately"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 16 years old girl is brought to the clinic with a complaint of fever, foul smelling vaginal discharge, hypotension and bleeding after MTP done illegally 3 days back. Immediate step of management would be:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abdominal pain",
+        "b": "Loss of resistance",
+        "c": "Bradycardia",
+        "d": "Bleeding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is most consistent with uterine perforation during surgical treatment of abortion?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Complete abortion",
+        "b": "Threatened abortion",
+        "c": "Missed abortion",
+        "d": "Ectopic pregnancy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A woman presents with bleeding per vagina with severe abdominal cramps. Ultrasound show empty uterine cavity. Serum Beta HCG is 1500IU/L. Which is the most likely diagnosis?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

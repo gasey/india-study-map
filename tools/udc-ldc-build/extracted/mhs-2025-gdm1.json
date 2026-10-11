@@ -1,0 +1,2317 @@
+{
+  "slug": "mhs-2025-gdm1",
+  "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+  "sitting": "September 2025",
+  "subject": "Technical Subject Paper-I",
+  "source": "Technical Paper-I - Jr. of MHS (GDMO Sub-Cadre), 2025..pdf",
+  "sourceSha256": "52e3d2d3431810eb33368f3c039a46dfc6a468e5da674fb991e2384302c8a33a",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Giardia",
+        "b": "Rotavirus",
+        "c": "E. histolytica",
+        "d": "C. difficile"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All are common causes of persistent diarrhoea except:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alcoholism",
+        "b": "Uncontrolled hyperglycemia",
+        "c": "Starvation",
+        "d": "Liddle Syndrome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is not a cause of metabolic acidosis?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Urinary incontinence",
+        "b": "Frequent falls",
+        "c": "Social isolation",
+        "d": "Cognitive impairment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Geriatric giants do not include:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ACE",
+        "b": "Aldosterone",
+        "c": "Renin",
+        "d": "BNP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Angiotensinogen is converted to angiotensin in kidney by:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increased afterload",
+        "b": "increased preload",
+        "c": "decreased afterload",
+        "d": "decreased preload"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Activation of RAAS results in:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HBcAg",
+        "b": "HBeAg",
+        "c": "HBsAg",
+        "d": "HBxAg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First antigen to appear in Hep B infection is:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gilbert’s Syndome",
+        "b": "Rotor’s syndrome",
+        "c": "Crigler-Najjar syndrome 2",
+        "d": "Haemolytic disease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is a cause of conjugated hyperbilirubinemia?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increased afterload",
+        "b": "Increased preload",
+        "c": "Decreased contractility",
+        "d": "Decreased preload"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pathophysiology of right sided heart failure include all except:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oesophageal varix",
+        "b": "Peptic ulcer",
+        "c": "Upper GI tumour",
+        "d": "Mallory-Weiss tear"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common cause of upper Gi bleed is:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Faecal-orally",
+        "b": "Percutaneous",
+        "c": "Sexual",
+        "d": "Perinatal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common route of Hepatitis C infection transmission is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anti-HBcAg",
+        "b": "HBeAg",
+        "c": "HBcAg",
+        "d": "Anti-HBeAg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Serological test for Hep B includes all except:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Efavirenz",
+        "b": "Tenofovir Disoproxil fumarate",
+        "c": "Lopinavir/ritonavir",
+        "d": "Zidovudine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anemia is a well recognised side effect of:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enterohemorrhagic E. Coli (0157:H7)",
+        "b": "Campylobacter",
+        "c": "Salmonella",
+        "d": "Coxiella burnetii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Infection which can cause Q fever?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin B",
+        "b": "Vitamin C",
+        "c": "Vitamin D",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All of the following are water soluble vitamin except:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pulmonic stenosis",
+        "b": "HOCM",
+        "c": "Mitral valvulitis",
+        "d": "Aortic stenosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mid systolic murmur is a feature of all except.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcinosis",
+        "b": "Raynauds phenomenon",
+        "c": "Sclerodactyly",
+        "d": "Tinea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CREST consist of all except:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarcoidosis",
+        "b": "Hepatitis B",
+        "c": "Crohn’s Disease",
+        "d": "Leukemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not associated with erythema nodosum?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pyrazinamide",
+        "b": "Rifampicin",
+        "c": "Ethambutol",
+        "d": "Isoniazid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All Anti-tubercular drugs are hepatotoxic except:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Factor Xa inhibitor",
+        "b": "Direct thrombin inhibition",
+        "c": "Vitamin K antagonist",
+        "d": "Antiplatelet activity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fondaparinux is an anticoagulant with a mechanism of action as:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarcopenia",
+        "b": "Osteoporosis",
+        "c": "Atherosclerosis",
+        "d": "Hypertension"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What term is used to describe loss of muscle mass and strength that occurs with aging, often leading to functional decline and increased risk of falls?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20-24^oC",
+        "b": "2-6^oC",
+        "c": "-40^oC",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the temperature at which platelet is stored under standard blood banking conditions?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sub-arachnoid hemorrhage",
+        "b": "Sub-dural hemorrhage",
+        "c": "Extra-dural hemorrhage",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 50 year old man presents with a characteristic sudden onset ‘thunderclap headache’. What is the most likely diagnosis for this condition?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C5-C6",
+        "b": "L5-S1",
+        "c": "L3-L4",
+        "d": "D12-L1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Root value of bicep jerk is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diabetes",
+        "b": "Hypertension",
+        "c": "Glomerulonephritis",
+        "d": "Polycystic kidney disease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cause of chronic kidney disease is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Null cells",
+        "b": "Helper T-cells",
+        "c": "Killer T-cells.",
+        "d": "Plasma cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following produces antibodies in the body?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "E.coli",
+        "b": "Pneumococcus",
+        "c": "Corynebacterium",
+        "d": "Adenovirus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In gene therapy; which infective agent is used as a vehicle?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pemphigus vulgaris",
+        "b": "Anti phospholipid syndrome",
+        "c": "Wilson’s disease",
+        "d": "Hashimoto’s thyroiditis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an autoimmune disorder?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High uric acid",
+        "b": "Oxalate stones in kidney",
+        "c": "Loss of libido",
+        "d": "Sideroblastic anaemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vitamin C toxicity may result in:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcitonin",
+        "b": "Thyroxine",
+        "c": "Parathormone",
+        "d": "Both calcitonin and parathormone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Serum calcium level is lowered by the deficiency of:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scarlet fever",
+        "b": "Glandular fever",
+        "c": "Yellow fever",
+        "d": "Rheumatic fever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raspberry tongue is found in:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "At least 60ml of blood is required",
+        "b": "Blood should remain at least 4 hours within the gut",
+        "c": "Black tarry semi solid stool",
+        "d": "Offensive in odour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding melaena, which statement is false?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diverticulitis",
+        "b": "Duodenal ulcer",
+        "c": "Reflux oesophagitis",
+        "d": "Irritable bowel syndrome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common gastrointestinal disorder in a community is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acute pulmonary oedema",
+        "b": "Fallot’s tetralogy",
+        "c": "Left-to-right shunt",
+        "d": "Transposition of great vessels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Central cyanosis is not found in:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Left ventricular hypertrophy",
+        "b": "Right atrial hypertrophy",
+        "c": "Right ventricular hypertrophy",
+        "d": "Hypertrophic cardiomyopathy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Left parasternal heave is diagnostic of:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thickened pleura",
+        "b": "Consolidation",
+        "c": "Collapse of the lung",
+        "d": "Pleural effusion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Woody dullness in percussion over chest is classically found in:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Collapse with patent bronchus",
+        "b": "Bronchial asthma",
+        "c": "Superficial, big, empty cavity with patent bronchus",
+        "d": "Broncho pleural fistula"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bronchial breath sound is found in all except:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Altered consciousness",
+        "b": "Headache",
+        "c": "Non-projectile vomiting",
+        "d": "Convulsions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is not a symptom of raised intracranial tension?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "After epileptic seizure",
+        "b": "Meningism",
+        "c": "Hysteria",
+        "d": "Tetanus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Neck rigidity is not found in:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Internal capsule",
+        "b": "Cortex",
+        "c": "Cervical spine",
+        "d": "Brainstem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crossed hemiplegia indicates the site of lesion in:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spasticity",
+        "b": "Babinski’s sign",
+        "c": "Clonus",
+        "d": "Fasciculations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a feature of UMN palsy?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cerebral haemorrhage",
+        "b": "Cerebral thrombosis",
+        "c": "Cerebral embolism.",
+        "d": "Subarachnoid haemorrhage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commonest cerebrovascular accident (CVA) is:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypertension",
+        "b": "Massive proteinuria",
+        "c": "Hyperlipidaemia",
+        "d": "Anasarca"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a criteria for diagnosis of nephrotic syndrome?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "<50 ml urine/24hrs",
+        "b": "<100 ml urine/24hrs",
+        "c": "<200 ml urine/24hrs.",
+        "d": "<400 mL urine/24hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Oliguria is:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amyloidosis",
+        "b": "Acute glomerulonephritis",
+        "c": "Interstitial nephritis",
+        "d": "Horse shoe kidney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Renal vein thrombosis in adults is seen in:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acute myeloid leukaemia (AML)",
+        "b": "Blast crisis of CML",
+        "c": "Acute lymphatic leukaemia (ALL)",
+        "d": "Blast crisis of CLL"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Auer rods are found in:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Viral hepatitis C",
+        "b": "Iron deposition in liver",
+        "c": "Viral hepatitis B",
+        "d": "Haemolysis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commonest cause of jaundice in thalassaemia is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbamazepine",
+        "b": "Cotrimoxazole",
+        "c": "Corticosteroids",
+        "d": "Thiacetazones"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stevens-Johnson syndrome is classically seen in all except:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lichen planus",
+        "b": "Lupus vulgaris",
+        "c": "Psoriasis",
+        "d": "Molluscum contagiosum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a viral infection?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyper viscosity syndrome",
+        "b": "Ergot ingestion",
+        "c": "Coarctation of aorta",
+        "d": "Dermatomyositis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Raynaud’s phenomenon is not a feature of:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diabetic ketoacidosis",
+        "b": "Lactic acidosis",
+        "c": "Hyperosmolar non-ketotic coma.",
+        "d": "Hypoglycaemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commonest cause of coma in a diabetic is:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phenytoin",
+        "b": "Diazepam",
+        "c": "Levetiracetam",
+        "d": "Phenobarbitone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first line drug used to treat seizure in neonate is:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 seconds",
+        "b": "20 seconds",
+        "c": "30 seconds",
+        "d": "60 seconds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During positive pressure ventilation in newborn resuscitation, heart rate assessment is done every",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aplastic anemia",
+        "b": "Immune thrombocytopenia",
+        "c": "Acute leukemia",
+        "d": "Drug induced thrombocytopenia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 5 year old boy presenting with fever for 1 week with fatiguability and skin bleeds, and noted to have hepatosplenomegaly is more likely to have :",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prolonged PT, APTT",
+        "b": "Normal PT, prolonged APTT",
+        "c": "Normal APTT, prolonged PT",
+        "d": "Normal PT and APTT, but low platelets"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The characteristic coagulation abnormality seen in haemophilia is :",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Herpes simplex infection",
+        "b": "Varicella",
+        "c": "Parvovirus infection",
+        "d": "Epstein-Barr virus infection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following viral infections is associated with a strong predisposition to Hodgkin lymphoma?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Valparin",
+        "b": "Phenytoin",
+        "c": "Clobazam",
+        "d": "Levipil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following drugs can be used for intermittent prophylaxis in febrile seizure?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "200 IU/day",
+        "b": "400 IU/day",
+        "c": "600 IU/day",
+        "d": "800 IU/day"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recommended vitamin D intake in children < 1 year is :",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Premature death",
+        "b": "Repeated infections",
+        "c": "Stunting",
+        "d": "Cell damage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most profound consequence of undernutrition is :",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Azithromycin",
+        "b": "Erythromycin",
+        "c": "Clarithromycin",
+        "d": "Amoxycillin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The preferable antibiotic in neonate with pertussis is:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coxsackievirus A6",
+        "b": "Coxsackievirus A16",
+        "c": "Coxsackievirus B2",
+        "d": "Coxsackievirus B12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hand foot mouth disease is one of the more distinctive rash syndromes, it is MOST frequently caused by:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Excessive crying",
+        "b": "Regurgitation",
+        "c": "Failure to thrive",
+        "d": "Sleeping disturbances"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gastroesophageal reflux disease is the most common esophageal disorder in children of all ages. Of the following, the most common symptom in infancy is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacillus anthracis",
+        "b": "Bacillus cereus",
+        "c": "Campylobacter jejuni",
+        "d": "Clostridium botulinum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Guillain- barre syndrome can be a sequel in the following foodborne bacterial illness:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "75 mEq of sodium",
+        "b": "50 mEq of chloride",
+        "c": "20 mEq of potassium",
+        "d": "Total osmolality of 245 mOsm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The low osmolality WHO oral rehydration solution has the following per liter EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kidney anomalies",
+        "b": "Cardiac anomalies",
+        "c": "Esophageal atresia",
+        "d": "Spina bifida"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "There are many anomalies associated with anorectal malformations. Of the following, the MOST common are:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cefotaxime",
+        "b": "Meropenem",
+        "c": "Erythromycin",
+        "d": "Ceftriaxone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Biliary sludge or cholelithiasis can be detected in > 40 % of children who are treated with prolonged course of:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abrupt",
+        "b": "Barking quality",
+        "c": "All day, never during sleep",
+        "d": "Paroxysmal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Habit cough (psychogenic cough ) must be considered in any child with a cough that has lasted for weeks or months, that has been refractory to treatment and is:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 or more episodes in a single year, with radiographic clearing between occurences",
+        "b": "2 or more episodes in a single year, without radiographic clearing between occurences",
+        "c": "3 or more episodes in a single year, with radiographic clearing between occurences",
+        "d": "4 or more episodes in a single year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recurrent pneumonia is defined as-",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Subcostal retraction",
+        "b": "Tachypnea",
+        "c": "Fever",
+        "d": "Cough"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most consistent clinical manifestation of pneumonia is-",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dextroposed transposition of the great arteries",
+        "b": "Hypoplastic left heart syndrome",
+        "c": "Tetralogy of fallot",
+        "d": "Truncus arteriosus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cyanotic cardiac lesion to present in the newborn period is:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wolff Parkinson white syndrome",
+        "b": "Prolonged QT syndrome",
+        "c": "Atrioventricular block",
+        "d": "Neurocardiogenic syncope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cause of syncope in children is:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Small supracristal VSD",
+        "b": "Nonrestrictive VSD",
+        "c": "Hemodynamically significant VSD",
+        "d": "Restrictive VSD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Surgical repair of VSD at the time of diagnosis should be considered in:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liver MRI",
+        "b": "Bone marrow biopsy",
+        "c": "Serum iron",
+        "d": "Serum ferritin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The best assessment of iron overload for patients with thalassemia major is achieved by:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cytomegalovirus",
+        "b": "Parvovirus",
+        "c": "Influenza virus",
+        "d": "Human immune deficiency virus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following viruses is more likely to be associated with chronic immune thrombocytopenia?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Persistent microscopic hematuria",
+        "b": "Decreased renal function",
+        "c": "Hypertension",
+        "d": "Persistent high serum complement C3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In hematuria, renal biopsy is indicated in all the following EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dyshormonogenesis",
+        "b": "Thyroid agenesis",
+        "c": "Iodine deficiency",
+        "d": "Defect of iodide transport"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cause of permanent Congenital hypothyroidism is:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clinical jaundice detected before 48 hours of age",
+        "b": "Rise in serum bilirubin by more than 5 mg/ dL/ day",
+        "c": "Serum bilirubin more than 15 mg/dL",
+        "d": "Clay/white coloured stool"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following are true about pathological jaundice EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dry baby and remove wet linen",
+        "b": "Cut the cord and shift to radiant warmer",
+        "c": "Stimulate baby by rubbing",
+        "d": "Initiate breastfeeding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All are included under ‘initial steps’ in neonatal resuscitation EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxygen at Fio2 of 50 %",
+        "b": "Oxygen at FiO2 of 21-30%",
+        "c": "Oxygen at FiO2 of 100%",
+        "d": "Oxygen in room air"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Neonatal resuscitation protocol (NRP), initial positive pressure ventilation (PPV) in a term baby should be done using:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Encephalopathy",
+        "b": "Dehydration",
+        "c": "Hypoglycaemia",
+        "d": "Infection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All are common complications associated with malnutrition EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weight/height < -2SD",
+        "b": "Height/weight < -2SD",
+        "c": "Height/age < -2SD",
+        "d": "BMI < -2SD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stunting in a child is:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Less than 12 cm",
+        "b": "Less than 11.5 cm",
+        "c": "Less than 11 cm",
+        "d": "Less than 10.5 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How much measurement of mid-upper arm circumference is considered as Severe acute malnutrition (SAM)?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Program aims to eliminate tuberculosis in India by 2028",
+        "b": "Operates on four pillars: Detect, Treat, Prevent and Build",
+        "c": "The program collaborates with the private sector to enhance TB detection and management",
+        "d": "Provides free TB testing and treatment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "False about National Tuberculosis Eradication Program (NTEP):",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BCG can be given till 1 year of age",
+        "b": "OPV is given as 5 drops orally",
+        "c": "Hepatitis B should be given at birth or within 24 hours of birth",
+        "d": "BCG is given intradermally"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "False about birth dose vaccine is:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Severe wasting",
+        "b": "Baggy pants appearance",
+        "c": "Monkey facies",
+        "d": "Mild to moderate edema"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Marasmus is characterized by the following EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Measles",
+        "b": "Mumps",
+        "c": "Scarlet fever",
+        "d": "Chicken pox"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Polymorphic rash is seen in:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hepatitis A",
+        "b": "Hepatitis B",
+        "c": "Hepatitis C",
+        "d": "Hepatitis D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Viral hepatitis in children is most commonly caused by:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caused by arbovirus of family Flaviviridae",
+        "b": "Spread by mosquito of the species Aedes aegypti",
+        "c": "Positive tourniquet test may be seen",
+        "d": "Febrile phase is characterised by shock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "False about Dengue fever:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diarrhea lasting for more than 7 days",
+        "b": "Diarrhea lasting for more than 14 days",
+        "c": "Diarrhea lasting for more than 3 weeks",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Persistent diarrhea is:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pneumococcus",
+        "b": "Hemophilus influenza type b",
+        "c": "Rotavirus",
+        "d": "Respiratory syncytial virus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Common organisms causing pneumonia in children are all EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Breastmilk jaundice",
+        "b": "Neonatal cholestasis",
+        "c": "Gilbert syndrome",
+        "d": "Hypothyroidism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Conjugated hyperbilirubinemia is seen in:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pneumonia",
+        "b": "Septicemia",
+        "c": "Severe Pneumonia",
+        "d": "Mild Pneumonia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 12-month-old infant with cold and cough has SpO2 of 88% in room air. According to IMNCI, this infant will be classified as having:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carditis",
+        "b": "Arthralgia",
+        "c": "Polyarthritis",
+        "d": "Subcutaneous nodules"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For diagnosing Acute Rheumatic fever, which one of the following is a minor criteria?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VSD",
+        "b": "ASD",
+        "c": "PDS",
+        "d": "Tricuspid Atresia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a cyanotic heart disease:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypotonia",
+        "b": "Acute leukaemia",
+        "c": "Congenital heart defects",
+        "d": "Brachycephaly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a constant feature seen in Downs syndrome?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pneumonia",
+        "b": "Bronchiolitis",
+        "c": "Croup",
+        "d": "Empyema"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fever, barking cough and stridor is a common presentation of:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decreased breath sound",
+        "b": "Tympanic note on percussion",
+        "c": "Mediastinal shift to the opposite site",
+        "d": "Crowding of ribs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All of the following signs are seen in a child with pneumothorax EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Elevated blood pressure in arms",
+        "b": "Digital clubbing",
+        "c": "Polycythaemia",
+        "d": "Exercise intolerance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a usual characteristic of cyanotic congenital heart disease?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edema",
+        "b": "Hypercholesterolemia",
+        "c": "Hypertension",
+        "d": "Hypoproteinaemia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minimal change nephrotic syndrome is characterized by all of the following EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Giving paracetamol does not prevent recurrence",
+        "b": "Genetic predisposition",
+        "c": "2 types - simple and complex febrile seizure",
+        "d": "Occur in newborn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In febrile seizure, the following statements are true EXCEPT:",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypoglycaemia",
+        "b": "Hypocalcaemia",
+        "c": "Hypoxia",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Seizure during neonatal period can be caused by:",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

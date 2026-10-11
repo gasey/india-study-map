@@ -1029,6 +1029,116 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-mhs-2025-ge-secb",
+    "exam": "Junior Grade of MHS (Combined)",
+    "sitting": "September 2025",
+    "subject": "General English",
+    "sourceHref": "/papers/group-b/mhs-2025-ge-secb.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 40,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-gdm1",
+    "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-I",
+    "sourceHref": "/papers/group-b/mhs-2025-gdm1.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-gdm2",
+    "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-II",
+    "sourceHref": "/papers/group-b/mhs-2025-gdm2.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-gdm3",
+    "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-III",
+    "sourceHref": "/papers/group-b/mhs-2025-gdm3.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-dent1",
+    "exam": "Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-I",
+    "sourceHref": "/papers/group-b/mhs-2025-dent1.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-dent2",
+    "exam": "Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-II",
+    "sourceHref": "/papers/group-b/mhs-2025-dent2.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-dent3",
+    "exam": "Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-III",
+    "sourceHref": "/papers/group-b/mhs-2025-dent3.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=7",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-ayush1",
+    "exam": "Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-I",
+    "sourceHref": "/papers/group-b/mhs-2025-ayush1.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=8",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-ayush2",
+    "exam": "Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-II",
+    "sourceHref": "/papers/group-b/mhs-2025-ayush2.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=9",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mhs-2025-ayurveda3",
+    "exam": "Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)",
+    "sitting": "September 2025",
+    "subject": "Technical Subject Paper-III (Ayurveda)",
+    "sourceHref": "/papers/group-b/mhs-2025-ayurveda3.pdf",
+    "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=11",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-agri-2025-gs",
     "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
     "sitting": "November 2025",

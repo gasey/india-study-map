@@ -1,0 +1,2256 @@
+{
+  "slug": "mhs-2025-gdm3",
+  "exam": "Junior Grade of MHS (Combined) (GDMO Sub-Cadre)",
+  "sitting": "September 2025",
+  "subject": "Technical Subject Paper-III",
+  "source": "Technical Paper-III- Jr. of MHS (GDMO Sub-Cadre), 2025..pdf",
+  "sourceSha256": "1c9d305c8226005c837758ee3d62a888c77aa6c740db1ff87504e4e569efc8c5",
+  "ocr": false,
+  "count": 97,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10/4000 per 1000 population",
+        "b": "20/2000 per 1000 population",
+        "c": "10%",
+        "d": "0.5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a village of 2,000 people, 10 new cases of a disease were detected  over one year. If the average duration of the disease is 2 years, the expected prevalence (at steady state) is approximately:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Proportional mortality rate",
+        "b": "Specific mortality rate",
+        "c": "Case fatality rate",
+        "d": "Amount of GDP spent on control of disease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Virulence of a disease is indicated by:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cross sectional study",
+        "b": "RCT",
+        "c": "Case-control study",
+        "d": "Cohort study"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Natural history of disease is best studied by:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Common source, single exposure epidemic",
+        "b": "Common source, continuous exposure epidemic",
+        "c": "Propagated epidemic",
+        "d": "Slow epidemic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An epidemic of Hepatitis A is an example of:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sulphur dioxide, smoke, and Suspended particles",
+        "b": "Sulphur dioxide, hydrogen sulphide, carbon monoxide",
+        "c": "Carbon dioxide, hydrogen sulphide, lead",
+        "d": "Sulphur dioxide, lead and particulate matter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Best indicators for air pollution are: Indicators for Air Quality Index for monitoring of Air pollution Include:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shake test",
+        "b": "Habel test",
+        "c": "Shick test",
+        "d": "Heinz test"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The test used to identify frozen vaccine is:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In depth interview with the patient",
+        "b": "Using CCTV",
+        "c": "In depth interview with the health care professional",
+        "d": "Questionnaire based with checklist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A study is to be designed to understand the correct technique for injection by a health care professional. The best way to assess will be:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Disease",
+        "b": "Impairment",
+        "c": "Disability",
+        "d": "Handicap"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Any restriction or lack of ability to perform an activity within the range that is considered normal for a human being is called:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Black gram",
+        "b": "Dry peas",
+        "c": "Soybean",
+        "d": "Bengal gram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Plant source with highest protein:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "300",
+        "b": "500",
+        "c": "600",
+        "d": "1000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Extra calories per day in lactating mothers in first six months:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AGMARK",
+        "b": "ISI",
+        "c": "PFA",
+        "d": "Codex alimentarius"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following formulates food standards for inter- national market:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "<3/60 in worse eye",
+        "b": "<6/60 in better eye",
+        "c": "<3/60 in better eye",
+        "d": "<6/60 in worse eye"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per NPCB, cut off for blindness is a vision of:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mountain climbing",
+        "b": "Deep sea diving",
+        "c": "Flying",
+        "d": "Space travel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Caisson disease is associated with:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dengue fever",
+        "b": "Yellow fever",
+        "c": "Kala Azar",
+        "d": "Japanese encephalitis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All of the following have a common vector except:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Infection",
+        "b": "Eclampsia",
+        "c": "Anemia",
+        "d": "Bleeding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most common cause of maternal death in India is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Myocarditis",
+        "b": "Pneumonia",
+        "c": "Encephalitis",
+        "d": "Pancreatitis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most serious complication of influenza is:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10-19 years of age",
+        "b": "10-14 years of age",
+        "c": "10-25 years of age",
+        "d": "9-14 years of age"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WHO defines adolescent age between:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Foreign body reaction",
+        "b": "Thickening of cervical mucus",
+        "c": "Unfavorable endometrium for implantation",
+        "d": "Thinning of fallopian tube"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mechanism of action of Intra Uterine Device is all except:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treating the most serious cases.",
+        "b": "Treating mentally ill patients",
+        "c": "Categorization of patients and treating them according to the available resources",
+        "d": "Treating terminally ill patients"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Triage is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Most expensive path in a network",
+        "b": "Congested path in a network",
+        "c": "Shortest path in a network",
+        "d": "Longest path in a network"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Critical path’ in network analysis is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "After 24 hours fever controlled on paracetamol",
+        "b": "After return of appetite",
+        "c": "Urine output 200ml/day",
+        "d": "24 hrs after control of shock"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dengue hemorrhagic fever discharge criteria is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Relapse case",
+        "b": "Default case",
+        "c": "Treatment failure case",
+        "d": "New case"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A patient with sputum positive pulmonary TB who has taken anti-TB drugs for <4 weeks is classified as:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 hours",
+        "b": "24 hours",
+        "c": "48 hours",
+        "d": "72 Hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HIV postexposure prophylaxis should be started in:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Domestic approach to safeguard hepatitis",
+        "b": "Dietary approach to stop hyperlipidemia",
+        "c": "Dietary approach to stop hypertension",
+        "d": "Domestic approach to stop hypertension"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "DASH is the acronym for:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oral polio vaccine",
+        "b": "BCG vaccine",
+        "c": "DPT vaccine",
+        "d": "Measles vaccine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following vaccines is most sensitive to heat?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mortality",
+        "b": "Fertility",
+        "c": "Migration",
+        "d": "Life expectancy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All are processes that influence demography except:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "less than 70 per 1,00,000 live births",
+        "b": "less than 75 per 1,00,000 live births",
+        "c": "less than 80 per 1,00,000 live births",
+        "d": "less than 85 per 1,00,000 live births"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Global Strategy for Women’s, Children’s and Adolescent’s Health 2016 - 2030, the goal for maternal mortality reduction is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "985",
+        "b": "990",
+        "c": "1010",
+        "d": "1020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sex-ratio at birth in India as per NFHS-5 is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sharing of needles",
+        "b": "Sexual contact",
+        "c": "Blood transfusion",
+        "d": "Organ transplantation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mode of transmission of Zika virus are all except:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "OPV",
+        "b": "Pentavalent vaccine",
+        "c": "Rota virus vaccine",
+        "d": "Pneumococcal Conjugate vaccine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Open Vial Policy is applicable to all the following vaccines except:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poliomyelitis",
+        "b": "Measles",
+        "c": "COVID-19",
+        "d": "Influenza"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reverse cold chain is a strategy used for the surveillance of which disease?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sensitivity",
+        "b": "Specificity",
+        "c": "Accuracy",
+        "d": "Negative Predictive Value"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ability of a test to correctly identify those who do not have a disease is called?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20,000",
+        "b": "30,000",
+        "c": "40,000",
+        "d": "50,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Indian Public Health Standards for Health and Wellness Centre - Primary Health Centre, the population norm for urban areas is-",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Education status",
+        "b": "Occupational status",
+        "c": "Per capita Income",
+        "d": "Gross Domestic Product"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "All the following parameters are taken into account for classification of Socio-economic classes as per Kuppuswamy scale except:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.1 mg/L per hour",
+        "b": "0.01mg/L per hour",
+        "c": "0.5 mg/L per hour",
+        "d": "0.05 mg/L per hour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For purification of water by chlorination the minimum recommended concentration of free chlorine should be:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anopheles",
+        "b": "Aedes",
+        "c": "Mansonia",
+        "d": "Culex"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which species of mosquito breeds in dirty water?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 10,000",
+        "b": "Rs 15,000",
+        "c": "Rs 20,000",
+        "d": "Rs 25,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Employee State Insurance Act, the maximum amount payable for funeral expenses is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "< 2.5 lakhs",
+        "b": "<2 lakhs",
+        "c": ">2 lakhs",
+        "d": ">2.5 lakhs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum population of an urban area to be organized as a Corporation?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cross-sectional study",
+        "b": "Cohort study",
+        "c": "Case-control study",
+        "d": "Ecological study"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A public health researcher is investigating an outbreak of a rare infectious disease in a community. The disease is characterized by high fever, headache, joint pain, and a rash. The researcher collects data on cases and non-cases, exposure history, and demographic information. Which type of study design is most suitable for this outbreak investigation?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primordial",
+        "b": "Primary",
+        "c": "Secondary",
+        "d": "Tertiary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Screening of a disease is an example of what level of prevention?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nominal",
+        "b": "Ordinal",
+        "c": "Interval",
+        "d": "Ratio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What measurement scale is Likert Scale?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Child trafficking",
+        "b": "Domestic violence",
+        "c": "Alcohol abuse",
+        "d": "Substance abuse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What social problem does the campaign ‘Nasha Mukt Bharat Abhiyaan’ address?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reliability",
+        "b": "Reproducibility",
+        "c": "Validity",
+        "d": "Consistency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ability of a measurement process to correctly measure what it actually tends to measure is known as:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surveillance",
+        "b": "Evaluation",
+        "c": "Monitoring",
+        "d": "Assessment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The continuous oversight of activities to ensure that they are proceeding according to plan is known as:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Control",
+        "b": "Elimination",
+        "c": "Eradication",
+        "d": "Low prevalence"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a disease agent is permitted to persist in a community at a level where it ceases to be a public health problem, the phase is called:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4th February",
+        "b": "7th April",
+        "c": "10th October",
+        "d": "1st December"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which day is celebrated as ‘World Mental Health Day’?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "OPV",
+        "b": "Pentavalent",
+        "c": "BCG",
+        "d": "Hepatitis B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In immunization, Zero Dose (ZD) children is used for referring those who have not received a first dose of which vaccine by one year of age?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Blinding",
+        "b": "Statistical analysis",
+        "c": "Randomization",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the tool for control of confounding in an experimental study design?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Breast cancer",
+        "b": "Ovarian cancer",
+        "c": "Endometrial cancer",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use of Combined Oral Contraceptive accounts for an increase in the risk of:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Road Traffic Authority Act",
+        "b": "Motor Vehicles Act",
+        "c": "Traffic Violence Act",
+        "d": "Prevention of Immoral Traffic Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, the law pertaining to prevention of RTAs are laid down in which of the following legislation?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen",
+        "b": "Oxygen",
+        "c": "Hydrogen",
+        "d": "Carbon Dioxide ."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Asphyxia denotes to a condition in which there is a deprivation of :",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Presence of frothy fluid in the airways",
+        "b": "Fracture of the cervical spine",
+        "c": "Ruptured heart and lungs",
+        "d": "Abdominal injuries due to blunt force"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The classic post-mortem finding in case of death due to drowning is:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Linear abrasion",
+        "b": "Pressure abrasion",
+        "c": "Sliding abrasion",
+        "d": "Superficial bruise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Patterned abrasion is a variety of:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fraud cases",
+        "b": "Death of the doctor",
+        "c": "Wrong error",
+        "d": "Serious professional misconduct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cause of removing name of a doctor from the Medical Register is:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "231 BNS",
+        "b": "232 BNS",
+        "c": "233 BNS",
+        "d": "234 BNS"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BNS section for issuing a false certificate:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lightening",
+        "b": "Electrocution",
+        "c": "Vitriolage",
+        "d": "Infanticide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Filigree burns occur in:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cyanide",
+        "b": "Mercury",
+        "c": "Arsenic",
+        "d": "Carbon monoxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The characteristic smell of bitter almonds is associated with poisoning by:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neutrophil leucocytes",
+        "b": "Monocytes",
+        "c": "T-lymphocytes",
+        "d": "Buccal smears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Davidson body is found in:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Trichology",
+        "b": "Cheiloscopy",
+        "c": "Virtopsy",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of hair is:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediately after death",
+        "b": "Within 6-12 hours after death",
+        "c": "Within 24 hours after death",
+        "d": "Within 48 hours after death"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Post-mortem staining begins to appear:",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7 years",
+        "b": "10 years",
+        "c": "25 years",
+        "d": "No time limit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Time limit for exhumation in India is:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Road traffic accidents",
+        "b": "Hanging",
+        "c": "Throttling",
+        "d": "Choking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hyoid fracture is common in:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sadism",
+        "b": "Tribadism",
+        "c": "Nymphomania",
+        "d": "Satyriasis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Irresistible sexual desire in males is known as:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Datura",
+        "b": "Opium",
+        "c": "Methyl alcohol",
+        "d": "Barbiturate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Deliriant poison is:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 minutes",
+        "b": "3 minutes",
+        "c": "10 minutes",
+        "d": "15 minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cerebral cortical cells being more sensitive to circulatory arrest begin to die within :",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3",
+        "b": "5",
+        "c": "1",
+        "d": "2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India how many inquest is/are there :",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Femur",
+        "b": "Tibia",
+        "c": "Pelvis",
+        "d": "Humerus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To determine Sex in the skeletal remains, the most important bones is:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Section 50",
+        "b": "Section 75",
+        "c": "Section 38",
+        "d": "Section 63"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which section of the new law BNS describes ‘Rape’ ?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oesophagus",
+        "b": "Mouth & Tongue",
+        "c": "Stomach & small intestine",
+        "d": "Large intestine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When alcohols enter human body absorption starts from?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CO poisoning",
+        "b": "CO₂ poisoning",
+        "c": "H₂S poisoning",
+        "d": "Snake bite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cherry red coloration of the skin and mucus membrane is a signs of:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "cyanosis of fingernails",
+        "b": "congestions of organs",
+        "c": "pale internal organs",
+        "d": "soot in the respiratory passages"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In case of burns, medical officers can determine if burns are ante-mortem by :",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ante-mortem wound",
+        "b": "post-mortem wound",
+        "c": "poisoning",
+        "d": "electrocution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Spurting and clotting of blood takes place only in:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Death certificate",
+        "b": "To a govt. employee",
+        "c": "Poor patient",
+        "d": "Psychiatric patient"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A doctor should not take fees for issuing certificate:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abrasion",
+        "b": "Laceration",
+        "c": "Contusion",
+        "d": "Incised wound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mechanical injury, which have length and breadth but no depth is called :",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An expert witness",
+        "b": "Common witness",
+        "c": "Both expert and common witness",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Medical officer in the witness box is:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 - 79) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "unlike",
+        "b": "musical",
+        "c": "dancing",
+        "d": "unpredictable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "WHIMSICAL",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 - 79) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "ignorant",
+        "b": "indifferent",
+        "c": "pitiful",
+        "d": "concerned"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "APATHETIC",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 - 79) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "furtive",
+        "b": "safe",
+        "c": "tribal",
+        "d": "open"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CLANDESTINE",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 76 - 79) : Look at the word in capital letters. Then, from the four words that",
+      "opts": {
+        "a": "grow",
+        "b": "inquire",
+        "c": "instill",
+        "d": "compute"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "INCULCATE",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "one man’s meat is another man’s poison",
+        "b": "ships fear fire more than water",
+        "c": "wise men learn from other men’s mistakes",
+        "d": "the worst things happen at sea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First read the saying or proverb in capital letters. Then, from the five sayings under it, find the one that means the same thing, and mark your answer. LET ANOTHER’S SHIPWRECK BE YOUR GUIDE AT SEA",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "soldier – company",
+        "b": "bread – cookie",
+        "c": "magazine – cover",
+        "d": "tap – water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Please select a pair of words that have similar relationships Flower – bouquet",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SCHAMOT",
+        "b": "LABLOTOF",
+        "c": "CEKTIRC",
+        "d": "SNINET"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out from the following anagrams:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question No. 83) : Pick out the correct synonym of the word underlined.",
+      "opts": {
+        "a": "constricted",
+        "b": "genuine",
+        "c": "forged",
+        "d": "prepared"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The police officer found that the documents recovered were **fabricated.**",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Question No. 84) :  Find the Missing number in the series given below.",
+      "opts": {
+        "a": "102",
+        "b": "108",
+        "c": "99",
+        "d": "104"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "121, 112, ?, 97, 91, 86",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spade",
+        "b": "Heart",
+        "c": "Diamond",
+        "d": "Club"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among four playing cards, a Heart is to the immediate left of a spade, a 9 is to the left of a J, a Diamond to the right of a Heart, a 7 is the left most card and a Club is the right most card. An 8 is to the left of a 9. Then the 9 is a ___________.",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 86 & 87) : Given below are four sets of letters. Three of the four sets follow",
+      "opts": {
+        "a": "CDED",
+        "b": "LMOM",
+        "c": "PQRQ",
+        "d": "STUT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DECG",
+        "b": "JKIL",
+        "c": "MNLO",
+        "d": "QRPS"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 88 & 89) : In this test, you will see a word with parts of the letters missing.",
+      "opts": {
+        "a": "rodba",
+        "b": "dnbra",
+        "c": "aibnr",
+        "d": "radeb"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lowilw",
+        "b": "rdweno",
+        "c": "dwowni",
+        "d": "nawred"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "105 cm",
+        "b": "110 cm",
+        "c": "112 cm",
+        "d": "115 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The average height of students in a class of 10 is 105cm. If 20 more students with an average height of 120cm join the class, what will the average height be?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "200",
+        "c": "300",
+        "d": "400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A student has to secure 35% marks to pass. He got 80 marks and failed by 60 marks. The maximum marks are:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "12",
+        "c": "36",
+        "d": "40"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "125% of 32 = ______",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a square of side 10 cms",
+        "b": "a rectangle of sides 12 cms and 9 cms",
+        "c": "a circle of radius 7 cms",
+        "d": "a rhombus of side 9 cms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which has the longest perimeter?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "165",
+        "b": "175",
+        "c": "207",
+        "d": "343"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "of 245 is - 7",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "3",
+        "c": "2",
+        "d": "1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the numbers below could replace X in both places in 4 + X = 6 - X?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "105",
+        "b": "123",
+        "c": "113",
+        "d": "115"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The third smallest 3-digit odd number using the digits 1 to 9 is ___",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the figures given below, one of the shapes (A –D) is identical to the first figure, but has been rotated. Which figure is identical to the first?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q97 (p9, part None): only 0 option(s) [] - not emitted",
+    "Q98 (p10, part None): only 0 option(s) [] - not emitted",
+    "Q99 (p10, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      97,
+      98,
+      99
+    ]
+  }
+}

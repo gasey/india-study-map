@@ -134,6 +134,16 @@ GENERAL_PAPERS = [
  ('adtp-2026-tech1', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-I', 'Assistant Director Technical Subject Paper-I, 2026..pdf'),
  ('adtp-2026-tech2', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-II', 'Assistant Director Technical Subject Paper-II, 2026..pdf'),
  ('adtp-2026-tech3', 'Assistant Director (Town Planning) under UD&PA Deptt., 2026', 'February 2026', 'Technical Subject Paper-III', 'Assistant Director Technical Subject Paper-III, 2026..pdf'),
+ ('mhs-2025-ge-secb', 'Junior Grade of MHS (Combined)', 'September 2025', 'General English', 'General English - Jr. of MHS, 2025..pdf'),
+ ('mhs-2025-gdm1', 'Junior Grade of MHS (Combined) (GDMO Sub-Cadre)', 'September 2025', 'Technical Subject Paper-I', 'Technical Paper-I - Jr. of MHS (GDMO Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-gdm2', 'Junior Grade of MHS (Combined) (GDMO Sub-Cadre)', 'September 2025', 'Technical Subject Paper-II', 'Technical Paper-II - Jr. of MHS (GDMO Sub-Cadre), 2025.p.pdf'),
+ ('mhs-2025-gdm3', 'Junior Grade of MHS (Combined) (GDMO Sub-Cadre)', 'September 2025', 'Technical Subject Paper-III', 'Technical Paper-III- Jr. of MHS (GDMO Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-dent1', 'Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)', 'September 2025', 'Technical Subject Paper-I', 'Technical Paper-I - Jr. of MHS (Dental Surgeon Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-dent2', 'Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)', 'September 2025', 'Technical Subject Paper-II', 'Technical Paper-II - Jr. of MHS (Dental Surgeon Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-dent3', 'Junior Grade of MHS (Combined) (Dental Surgeon Sub-Cadre)', 'September 2025', 'Technical Subject Paper-III', 'Technical Paper-III - Jr. of MHS (Dental Surgeon Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-ayush1', 'Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)', 'September 2025', 'Technical Subject Paper-I', 'Technical Paper-I - Jr. of MHS (AYUSH Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-ayush2', 'Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)', 'September 2025', 'Technical Subject Paper-II', 'Technical Paper-II - Jr. of MHS (AYUSH Sub-Cadre), 2025..pdf'),
+ ('mhs-2025-ayurveda3', 'Junior Grade of MHS (Combined) (AYUSH Sub-Cadre)', 'September 2025', 'Technical Subject Paper-III (Ayurveda)', 'Technical Paper-III (Ayurveda) - Jr. of MHS (AYUSH Sub-Cadre), 2025..pdf'),
  ('agri-2025-gs', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'General Studies', 'Agri&Allied General Studies 2025..pdf'),
  ('agri-2025-agri-science-p1', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Agriculture Science Paper-I', 'Agri&Allied Agriculture Science Paper-I 2025..pdf'),
  ('agri-2025-agri-science-p2', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Agriculture Science Paper-II', 'Agri&Allied Agriculture Science Paper-II 2025..pdf'),
@@ -457,6 +467,10 @@ GENERAL_ARCHIVE_FOLDERS = {
  'cdpo-2025-social-work-p3': 'Direct_2025-2027', 'adfd-2025-technical-p1': 'Direct_2025-2027', 'adfd-2025-technical-p2': 'Direct_2025-2027',
  'adfd-2025-technical-p3': 'Direct_2025-2027',
  'adtp-2026-gs': 'Direct_2025-2027', 'adtp-2026-tech1': 'Direct_2025-2027', 'adtp-2026-tech2': 'Direct_2025-2027', 'adtp-2026-tech3': 'Direct_2025-2027',
+ 'mhs-2025-ge-secb': 'Direct_2025-2027', 'mhs-2025-gdm1': 'Direct_2025-2027', 'mhs-2025-gdm2': 'Direct_2025-2027',
+ 'mhs-2025-gdm3': 'Direct_2025-2027', 'mhs-2025-dent1': 'Direct_2025-2027', 'mhs-2025-dent2': 'Direct_2025-2027',
+ 'mhs-2025-dent3': 'Direct_2025-2027', 'mhs-2025-ayush1': 'Direct_2025-2027', 'mhs-2025-ayush2': 'Direct_2025-2027',
+ 'mhs-2025-ayurveda3': 'Direct_2025-2027',
  'mes-combined-2025-gs': 'Direct_2025-2027',
  'agri-2025-gs': 'Direct_2025-2027', 'agri-2025-agri-science-p1': 'Direct_2025-2027', 'agri-2025-agri-science-p2': 'Direct_2025-2027',
  'agri-2025-agri-science-p3': 'Direct_2025-2027', 'agri-2025-ah-vety-p1': 'Direct_2025-2027', 'agri-2025-ah-vety-p2': 'Direct_2025-2027',
@@ -859,6 +873,24 @@ def build_additional():
             # Papers I-III on key pages 3-5.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('mhs-2025-ge-secb', 'mhs-2025-gdm1', 'mhs-2025-gdm2', 'mhs-2025-gdm3', 'mhs-2025-dent1', 'mhs-2025-dent2', 'mhs-2025-dent3', 'mhs-2025-ayush1', 'mhs-2025-ayush2', 'mhs-2025-ayurveda3')) and key:
+            # Covers: Junior Grade of MHS (Combined), September-2025. Technical
+            # Subject Papers print 2-3 hours, FM 200, 100 two-mark MCQs; General
+            # English Section-B prints 3 hours, FM 100 (40 one-mark MCQs). No
+            # negative-marking rule is printed. Key: the official final answer
+            # key (exam held 9-10 September 2025) - General English Section-B
+            # on key page 1, GDMO I/II/III on key pages 2-4, Dental I/II/III on
+            # key pages 5-7, AYUSH I/II on key pages 8-9, Ayurveda III on key
+            # page 11.
+            if slug == 'mhs-2025-ge-secb':
+                meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+            elif slug in ('mhs-2025-dent1', 'mhs-2025-dent2'):
+                meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+            else:
+                meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'mes-combined-2025-gs' and key:
             # Cover: Junior Grade of MES (Combined) under Various
             # Departments, October-2025, General Studies, 3 hours,

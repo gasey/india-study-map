@@ -2,12 +2,12 @@
   "generatedBy": "tools/udc-ldc-build/build_group_b.py",
   "scope": "All English-bearing library papers, including mixed papers. Counts are English records only. Null expected/missing totals mean unknown, not zero. Written records may group subparts; guide counts are not exam scores.",
   "summary": {
-    "papers": 261,
+    "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2301,
+    "ready": 2341,
     "pendingMcq": 7529,
     "heldReviewed": 30,
-    "pendingWritten": 866
+    "pendingWritten": 879
   },
   "papers": [
     {
@@ -4941,6 +4941,28 @@
       "writtenGuides": 0,
       "pendingWritten": 7,
       "keyHref": null,
+      "heldItems": []
+    },
+    {
+      "paperId": "mpsc-group-b-mhs-2025-ge-secb",
+      "exam": "Junior Grade of MHS (Combined)",
+      "sitting": "September 2025",
+      "subject": "General English",
+      "sourceHref": "/papers/group-b/mhs-2025-ge-secb.pdf",
+      "archiveBatch": "earlier-import",
+      "status": "needs-review",
+      "mcq": 40,
+      "ready": 40,
+      "readyOfficial": 40,
+      "sourceReviewedMcq": 0,
+      "pendingMcq": 0,
+      "heldReviewed": 0,
+      "expectedMcq": 40,
+      "missingMcq": 0,
+      "writtenRecords": 13,
+      "writtenGuides": 0,
+      "pendingWritten": 13,
+      "keyHref": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=1",
       "heldItems": []
     },
     {

@@ -12475,3 +12475,36 @@ each, plus a corrigendum to GS-III Q49 = C), but those source papers are not yet
 the library, so only the General English paper is registered here.
 
 **Bank 22,684 records / 6,589 practice-ready (+36).**
+
+## 11 October 2026 — Inspector of Excise (Aug-2025) GS Paper-I/II/III (+99)
+
+Continuing from the Excise General English registration: added the two missing
+General Studies sources to the library and registered the remaining key pages.
+
+- **library additions** (`GENERAL_PAPERS` + `GENERAL_ARCHIVE_FOLDERS` →
+  `Direct_2025-2027`): `inspector-excise-2025-gs1/gs2/gs3`, all Inspector under
+  Excise & Narcotics Dept., (AUGUST-2025), 3 hours, FM 200, Section-I (MCQ)
+  100 marks = 50 Q × 2 marks. Extraced as clean native text (50/50/48 questions).
+- **keys** (`verified-general-keys.json`, now 62): pages 2/3/4 of the registered
+  final key (dated 2 September 2025). 50 answers per section, read cell-by-cell
+  with tesseract; the OCR-ambiguous GS-II rows 44/45/46 and GS-III rows 41/46
+  were pixel-cropped and verified. GS-III Q49 = **C** per the Commission's
+  Corrigendum (Inspector(DR)/19/2025-MPSC(Exam), dated 11 September 2025).
+- **Outcome**: GS-I scores 50/50 official; GS-II 49/50 (Q43 is a List-I/II
+  matching item, held for visual review by convention); GS-III stays fully held
+  because items 48/49 are picture-figure questions with no text, so the paper is
+  not `complete_native` — its 48 text items are now key-attached for a future
+  source review. Meta 2 marks / 180 min per cover.
+
+No valid on-disk key matches the remaining held 2026 papers (Staff Nurse
+Aug-2026, Librarian Jul-2026, Group B (Gazetted) Sep-2026 GE, Inspector of
+Statistics Mar-2026, JE Agri Mar-2026, HFW & NG technical Jan-2026): the
+candidates (S.I. of Statistics Jan-2026, Radiotherapy Technologist Apr-2026,
+Entomologist Feb-2024, Group B Gazetted Jul-2024) are different posts/sittings.
+Also verified MLS: `General Knowledge Final.pdf` matches the **August-2024**
+MLS GK paper, but that paper is a scan needing text review, so the key is noted
+but not registered for scoring. The July-2023 MLS GK paper is a different
+sitting — kept held.
+
+**Bank 22,833 records / 21,929 MCQ / 6,688 practice-ready (+99, readyofficial
+4,682).**

@@ -1095,6 +1095,28 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1",
+    "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "sitting": "August 2025",
+    "subject": "Paper-I (General Studies)",
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf",
+    "keyHref": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2",
+    "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "sitting": "August 2025",
+    "subject": "Paper-II (General Aptitude)",
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf",
+    "keyHref": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
     "sitting": "May 2025",

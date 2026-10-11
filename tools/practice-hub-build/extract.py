@@ -393,7 +393,7 @@ def derive_threshold(questions):
 
 # -------------------------------------------------------------------- parsing
 
-def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,)):
+def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,), skip_pages=0):
     target = PALETTE[colour]
     tmp = tempfile.mkdtemp()
     subprocess.run(["pdftoppm", "-r", str(DPI), "-png", pdf,
@@ -462,6 +462,12 @@ def extract(pdf, colour, allow_number_gaps=False, option_counts=(4,)):
         cur = None
 
     for p in pages:
+        # A numbered cover (e.g. MCS Preliminary prints its 1..8 INSTRUCTIONS,
+        # which QNUM_RE would open as Q1..Q8) is not a question page. skip_pages
+        # leaves those booklets' page numbering intact while the walk starts on
+        # the first real question page.
+        if p["n"] <= skip_pages:
+            continue
         for li, line in enumerate(p["lines"]):
             text = line["text"].strip()
             plain = line["plain"].strip()

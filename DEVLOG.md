@@ -24,6 +24,35 @@ expiry/resume. Browser visual verification remains outstanding under the existin
 access restriction. Future work includes user settings, cross-device sync and
 historical-key reconciliation; none is implied by local progress.
 
+## 11 October 2026 — MCS (Combined Competitive) Preliminary 2025: +197
+
+Imported the Mizoram Civil Services (Combined Competitive) Preliminary
+Examination held 8 August 2025: Paper-I (General Studies) and Paper-II (General
+Aptitude), Series A, 100 two-mark items each in two hours with a one-third
+wrong-answer penalty. Following the repo's one-series-per-paper convention, the
+Series-A booklets are registered with the Series-A sections of the official
+**Final Answer Key** (Notification No. 12034/18/2025-MPSC (EXAM), 20 August 2025,
+8 pages: Paper-I Series A–D and Paper-II Series A–D).
+
+The 8-page key is a scan read cell-by-cell with tesseract word boxes at 300 dpi,
+cross-checked against the separate provisional Paper-I and Paper-II keys. Four
+final answers genuinely differ from the provisional ones (Paper-I A Q41, B Q15,
+D Q67 and Paper-II B Q19) and the final key is used throughout. Each Paper-I
+series prints two `(Compensated)` cells at shuffled serials — Series A Q37/Q96,
+B Q11/Q70, C Q46/Q87, D Q22/Q63 — confirming two Paper-I questions were
+compensated. Series-A Q37 and Q96 are registered as `null` and held unscored.
+
+Two extraction fixes were needed. MCS booklets number their cover INSTRUCTIONS
+"1.–8.", which `QNUM_RE` opened as the first questions and locked out the real
+Q1–Q8; `extract()` now takes an optional `skip_pages` so a numbered cover is
+skipped while the printed page numbers stay intact. Paper-II Q75 is a printed
+figure item with no option text, so it is not extracted: its number is omitted
+from the key and its `expectedMcq` stays at the printed 100 (99 score).
+
+Session delta: bank 7,822 → 8,019 practice-ready (+197; 5,816 → 6,013
+official-backed); records 24,092 → 24,291. 85 registered keys. Tests (25) pass,
+`tsc --noEmit` and `git diff --check` clean.
+
 ## 11 October 2026 — Agriculture & Allied Services (Combined Technical) Nov-2025: +596
 
 Imported the November-2025 combined-technical exam for **Agriculture & Allied

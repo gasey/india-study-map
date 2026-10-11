@@ -1,0 +1,2317 @@
+{
+  "slug": "mcs-prelim-2025-p1",
+  "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+  "sitting": "August 2025",
+  "subject": "Paper-I (General Studies)",
+  "source": "MCS Combined 2025 Preliminary Exam Paper-I Series-A..pdf",
+  "sourceSha256": "681390fb2095b38803e9f9987c7975461829a0e821e589ec0f761c7539c9c528",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iii) only",
+        "b": "(ii) and (iv) only",
+        "c": "(iii) and (iv) only",
+        "d": "(ii), (iii) and (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following cities in Iran: (i)Tehran (ii)Bushehr (iii)Natanz (iv)Isfahan The nuclear facilities of which of the above cities were bombed by the US in June 2025?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the new railway line in Mizoram: (i)It connects Bairabi with Sairang. (ii)The total length of the new railway line is 101 kms. (iii)The project is divided into four sections – Bairabi-Hortoki, Hortoki-Kawnpui, Kawnpui- Mualkhang, and Mualkhang-Sairang. (iv)The Commission of Railway Safety (CRS) has recently approved the opening of the railway line from Hortoki to Sairang in Mizoram. Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "He was born in Mumbai in 1982.",
+        "b": "He was named Cricketer of the Decade for 2011 to 2020 by ICC.",
+        "c": "He was awarded with the Khel Ratna Award in 2018.",
+        "d": "He is married to Anushka Sharma."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Virat Kohli has recently announced his retirement from test cricket. Which of the following statements regarding him is not correct?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (ii)",
+        "b": "Only (iii)",
+        "c": "Only (i) and (ii)",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the Mizoram Universal HealthCare Scheme (MUHCS): (i)For Contributory Beneficiaries under the Standard Plan, a Premium of Rs. 5000 per family per year allows family to get benefit of ₹8,00,000/- per family per year in Semi-Private (shared) Ward. (ii)No contribution from AB PM-JAY beneficiaries is required. (iii)Provisional Employees under the Government of Mizoram will have to pay monthly contribution of Rs. 100 for General Ward. Which of the above statement(s) is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is a Japanese Artificial Intelligence start up that has rivalled global leaders like OpenAI, Google, and Meta.",
+        "b": "DeepSeek is a free AI-powered chatbot similar to ChatGPT, providing text-based assistance via web, mobile, and API.",
+        "c": "DeepSeek (AI firm) was founded by Liang Wenfeng in May 2023.",
+        "d": "Its cost of development is much lower than that of US models. CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding DeepSeek is not correct?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A high-intensity counterinsurgency mission targeting Maoist strongholds in forested hilly terrains",
+        "b": "A long distance bombing of nuclear sites in Iran by the US using stealth bombers.",
+        "c": "A clandestine bombing mission by Ukraine using M-52 dones, targeting various Russian military",
+        "d": "A night-time operation carried out by the Principal Chief Controller of Forests, Assam where"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best describes Operation Black Forest carried out in 2025?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹1257.8 Crore",
+        "b": "₹1115.7 Crore",
+        "c": "₹1475.8 Crore",
+        "d": "₹1138.07 Crore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Government of Mizoram budget of 2025-26, the projected state’s own non-tax revenue is",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iii) only",
+        "b": "(i), (ii) and (iii) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding NHIDCL. (i)It stands for National Highways & Infrastructure Development Corporation Limited. (ii)It is a Public Sector Undertaking. (iii)It is under the Ministry of Road Transport and Highways. (iv)NHIDCL also provides consultancy services for highway and bridge construction in Nepal. Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i), (ii) and (iii) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following government schemes in India: (i)UNNATI (ii)PM-DevINE (iii)NESIDS (iv)PMEGP Which of the above schemes specifically target the North-East?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fertility rates are stabilizing globally, reducing the need for population-related policies.",
+        "b": "The world is heading toward overpopulation due to high fertility rates.",
+        "c": "The real crisis lies in individuals’ inability to achieve their reproductive goals due to lack of agency.",
+        "d": "The main challenge is population collapse due to declining birth rates."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the core message of the United Nations Population Fund’s ‘State of World Population Report 2025’, titled “The Real Fertility Crisis: The Pursuit of Reproductive Agency in a Changing World”?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The project aims to counter only cruise missile threats from Iran and North Korea.",
+        "b": "It is a $175 billion project led by US Space Force and includes private companies like SpaceX",
+        "c": "The system is inspired by Russia’s S-400 and will be built entirely by the US military.",
+        "d": "It is a joint project between the US and Israel to protect Europe from missile threats. Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is correct about the ‘Golden Dome’ missile defence system announced by the US in May 2025?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ajit Doval; executed Operation Sindoor in Kashmir.",
+        "b": "Parag Jain; led Operation Sindoor targeting terror camps.",
+        "c": "Arvind Kumar; launched HUMINT surveillance across borders.",
+        "d": "Ravi Sinha; initiated hybrid intelligence operations."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was appointed as the new Chief of the Research and Analysis Wing (RAW) by the Government of India on June 28, 2025, and what is one of his notable achievements?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Champhai",
+        "b": "Serchhip",
+        "c": "Hnahthial",
+        "d": "Aizawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which district in Mizoram ranked highest in NITI Aayog second edition of the North Eastern Region District SDG Index 2023-24?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "99.2 %",
+        "b": "98.2 %",
+        "c": "100%",
+        "d": "97.2 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram was recently (May 20, 2025) officially declared as India’s first fully literate state under the ULLAS initiative with literacy rate of",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord William Bentinck",
+        "b": "Willian Marshall",
+        "c": "John Shore",
+        "d": "Henry Derozio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following took measures against the practice of  ‘Sati’?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abbas Khan Sherwani",
+        "b": "Mulla Daud",
+        "c": "Ziauddin Barni",
+        "d": "Nizamuddin Ahmed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following wrote “Tarikh-i-Shershahi”?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Doad",
+        "b": "Kaithal",
+        "c": "Jaunpur",
+        "d": "Thatta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Where did Muhammad Bin Tughluq die?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Robert Reid",
+        "b": "R.M. Bird",
+        "c": "John Lawrence",
+        "d": "William Carey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following Britishers was associated with the introduction of the Mahalwari system?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to literary works during the Sultanate period, consider the following. **AuthorBook** (i)Al Biruni:Kitab-ul-Hind (ii)Firoz Shah:Taj-ul-Maathir (iii)Ibn Battuta:Kitab-ul-Rehla Which of the above pairs are correct?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(i), (ii) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(ii), (iii) and (iv) only CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Aurangzeb’s religious policies, consider the following statements. (i)He forbade the inscription of the kalma on coins. (ii)He revived the celebration of the festival of Nauroz. (iii)He appointed Muhtasibs to promote the Sharia laws. (iv)He reintroduced Jizyah. Which of the above are correct?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the correct statements with reference to the Swadeshi Movement? (i)The famous Boycott Resolution was passed even before the formal proclamation of the Swadeshi Movement. (ii)Students, women and a large section of the urban and rural population participated. (iii)Indian National Congress supported the Boycott movement. Select the answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements are correct in respect of the three Round Table Conferences held during 1930-1932? (i)Indian National Congress boycotted two of the three Round Table Conferences. (ii)Mahatma Gandhi attended the First Round Table Conference. (iii)Sarojini Naidu participated in the Second Round Table Conference. Select the answer using the code given below.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iii) only",
+        "c": "(i) and (iv) only",
+        "d": "(ii) and (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following points with reference to August Offer, 1940. (i)Dominion status to India. (ii)Establishment of linguistic provinces. (iii)Expansion of the Viceroy’s Executive Council. (iv)Institution of joint electorates with reserved seats for minorities. Which of the above features are correct?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Copper",
+        "b": "Bronze",
+        "c": "Iron",
+        "d": "Gold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which metal was not known to the people of Indus Valley Civilization?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Idols",
+        "b": "Nature",
+        "c": "Buddha",
+        "d": "Mahavira"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Vedic people primarily worshipped:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sama Veda",
+        "b": "Rig Veda",
+        "c": "Yajur Veda",
+        "d": "Atharva Veda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The earliest composition among the four Vedas is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constant easterly winds",
+        "b": "Seasonal reversal of winds",
+        "c": "Permanent high-pressure systems",
+        "d": "Continuous rainfall throughout the year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian monsoon is fundamentally characterized by:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malabar Coast",
+        "b": "Konkan Coast",
+        "c": "Carnatic",
+        "d": "Northern Circars Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the regional name for the section of the Eastern Coastal Plains between the Mahanadi and Krishna rivers?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Siderite",
+        "b": "Limonite",
+        "c": "Hematite",
+        "d": "Magnetite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Durg-Bastar-Chandrapur Belt is a major region for the production of which type of Iron Ore?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shiwaliks",
+        "b": "Sahyadri",
+        "c": "Vindhyas",
+        "d": "Karakoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Western Ghats are also known as:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thailand",
+        "b": "Laos",
+        "c": "Malaysia",
+        "d": "Vietnam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the only landlocked country in Southeast Asia?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i), (ii) and (iii) are correct",
+        "b": "Only (ii) and (iii) are correct",
+        "c": "Only (ii) and (iv) are correct",
+        "d": "Only (i) and (iv) are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pairs: AB (i)Nebular HypothesisHoyle and Laplace (ii)Tidal HypothesisJeans and Jeffreys (iii)Gaseous HypothesisDavis (iv)Planetesimal HypothesisChamberlin and Moulton Which of the above pairs is/ are correctly matched?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i) is correct",
+        "b": "Only (i) and (ii) are correct",
+        "c": "Only (ii) and (iii) are correct",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is/ are correct? (i)Jet streams are formed by temperature differences between air masses. (ii)In the Northern hemisphere, currents are deflected to the right due to Coriolis force. (iii)Very strong and cold icy winds that blow in the polar and  mountainous regions are called blizzards.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) are correct",
+        "b": "(i) and (iii) are correct",
+        "c": "(ii) and (iii) are correct",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is/ are correct? (i)The magnitude of earthquakes is measured on Richter scale. (ii)The longest mountain range in the world is Himalayas. (iii)The Himalayas are formed due to folding of a geo-syncline called Tethys.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii)",
+        "b": "(i) and (ii) only",
+        "c": "(iii) only",
+        "d": "(ii) and (iii) only CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following channels: (i)8° channel passes between Maldives and Minicoy. (ii)9° channel separates Minicoy from Lakshadweep. (iii)10° channel separates  Andaman from Nicobar Islands. Which of the above statement(s) is/ are correct?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i)",
+        "b": "Only (ii)",
+        "c": "(ii) and (iii) only",
+        "d": "Only (i) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pairs: RiverSource (i)SutlejGangotri Glacier (ii)JhelumVerinag (iii)BeasNear Rohtang Pass (iv)ChenabBara Lacha Pass Which of the above pairs is/ are incorrectly matched?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tropical Moist Deciduous Forest",
+        "b": "Tropical Dry Deciduous Forest",
+        "c": "Tropical Evergreen Forest",
+        "d": "Mountainous Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following descriptions: (i)Annual rainfall is more than 100 cm. (ii)Average temperate is about 22° C. (iii)They are generally found in Western Ghats and Northeast India. (iv)Mahagony, Bamboo, canes, ironwood, rubber are the major species. What is this type of forest in India?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(ii) and (iii) only",
+        "b": "(i) and (iv) only",
+        "c": "(ii), (iii) and (iv) only",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pairs: (i)MundasArunachal Pradesh (ii)BhilsRajasthan (iii)KhasUttarakhand (iv)IrulaBihar Which of the above is/ are correctly matched?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "and the other as Reason (R). Assertion (A) :According to the Constitution of India, the same person cannot function as the Governor of two or more States at the same time. State. (a)Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "b": "(A) is false, but (R) is true.",
+        "c": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+        "d": "(A) is true, but (R) is false."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prohibition against Torture",
+        "b": "Prohibition against Self Incrimination",
+        "c": "Ex-post Facto Law",
+        "d": "Double Jeopardy Clause Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a part of Article 20 of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii), (iii) and (iv)",
+        "b": "(iii) only",
+        "c": "(ii) and (iii)",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Substantive Public Policies are those which- (i)Plan to get things done. (ii)Allocate resources/services to particular segments of larger society. (iii)Directly distribute benefits or costs to citizens. (iv)Impose restrictions on behaviours. Which of the following is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii)",
+        "b": "(i), (ii) and (iv)",
+        "c": "(i), (ii), (iii) and (iv)",
+        "d": "(i) and (ii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements- (i)The National Human Rights Commission came into force on 12th October 1993 through a Government notification under the Protection of Human Rights Act, 1993. (ii)The National Human Rights Commission investigate complaints of human rights violation or negligence by public servants. (iii)The National Human Rights Commission promote human rights literacy and awareness. (iv)The National Human Rights Commission has judicial power to ensure compliance. Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (iii)",
+        "b": "(ii) and (iii)",
+        "c": "(iii) and (iv)",
+        "d": "(i) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following with regard to the writ of Certiorari- (i)Writ of certiorari is issued both during the pendency of proceedings and after the order or decision has been announced. (ii)It is issued only during the pendency of proceedings. (iii)It is issued against legal bodies. (iv)It is issued only after the order or decision has been announced. Which of the above statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 21A",
+        "b": "Article 17",
+        "c": "Article 6",
+        "d": "Article 26B"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Constitution (Eighty-Sixth Amendment) Act, 2002 resulted in the insertion of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Panchayati Raj",
+        "b": "Mayo’s Resolution",
+        "c": "Ripon’s resolution",
+        "d": "Montfort Reforms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following laid the founding step for democratic decentralization and local self-governing institutions in India?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NITI Ayog",
+        "b": "Viksit Bharat",
+        "c": "Make in India",
+        "d": "Pradhan Mantri Awaas Yojana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The roadmap for India’s development by 2047 was provided by Prime Minister Narendra Modi through:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Block, District, State",
+        "b": "Grassroot, District, State",
+        "c": "Local, District, Region",
+        "d": "Village, Block, District CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What are the three tiers of the Panchayati Raj system in India?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 21",
+        "b": "Article 23",
+        "c": "Article 24",
+        "d": "Article 32"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Human trafficking is prohibited by the Indian Constitution through:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35 members of the Lok Sabha",
+        "b": "40 members of the Rajya Sabha",
+        "c": "50 members of the Lok Sabha",
+        "d": "60 members of both houses of the Parliament"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The introduction of motion of “No confidence” requires the minimal support of:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kesavananda Bharti case",
+        "b": "Golaknath case",
+        "c": "Women Rao case",
+        "d": "Mc Mehta and the Union of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The largest bench constituted by the Supreme Court of India was for the trial of which of the following case:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Structural unemployment",
+        "b": "Frictional unemployment",
+        "c": "Cyclical unemployment",
+        "d": "Underemployment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phenomenon where a person is employed below their skill level is known as:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only people who are currently employed.",
+        "b": "Only unemployed people looking for work.",
+        "c": "Both people who are working and those who are looking for work.",
+        "d": "People in formal jobs only."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements best describes the term ‘Labour Force’?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Multiple deprivations in health, education, and living standards.",
+        "b": "Income, consumption expenditure and employment status.",
+        "c": "Income and consumption expenditure only.",
+        "d": "Food and shelter availability."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Multidimensional Poverty Index (MPI) is designed to measure poverty based on:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Individuals who frequently move in and out of poverty due to vulnerable livelihoods.",
+        "b": "Individuals who are always below the poverty line and depend entirely on government assistance.",
+        "c": "Individuals that have recently escaped poverty and are unlikely to fall back.",
+        "d": "Urban homeless populations with no formal identity or income records."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Churning poor’ in the context of poverty refers to:",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) & (iii) only",
+        "b": "(i), (iii) & (iv) only",
+        "c": "(ii), (iii) & (iv) only",
+        "d": "(i), (ii), (iii) &  (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements with reference to CIBIL Score: (i)It is a banker’s assessment which tells the client’s financial health. (ii)It stand for Credit Index Bureau India Limited. (iii)It is a 3-digit numeric summary of client’s credit history. (iv)The closer the client’s score is to 900, the higher are the chances of his/her getting loan/credit card. Which of the above statement(s) is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phase I (1901–1921)",
+        "b": "Phase II (1921–1951)",
+        "c": "Phase III (1951–1981)",
+        "d": "Phase IV (1981–2001) Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which period in India’s demographic history is marked by a sharp decline in mortality and persistently high fertility rates?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The difference between the birth rate and death rate of a population.",
+        "b": "The difference between the birth rate and infant mortality rate of a population.",
+        "c": "The gap in population growth between urban and rural areas.",
+        "d": "The age gap between the youngest and oldest members of a population."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Demographic Gap’ signifies:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of the Reserve Bank of India’s (RBI) monetary policy operations, a sustained period of increasing Repo Rate is generally expected to have which of the following effects on the Indian economy? (i)Dampen demand-pull inflation by increasing the cost of borrowing and investment. (ii)Reduce the net interest margin (NIM) of commercial banks that rely heavily on deposits for funding. (iii)Lead to an appreciation of the Indian Rupee against major global currencies. (iv)Encourage a shift in household savings from market-linked instruments to bank fixed deposits. Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (ii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following potential effects on economic development when the central bank decides to lower the Cash Reserve Ratio (CRR) in a developing economy: (i)It is likely to inject additional liquidity into the banking system, potentially increasing banks’ capacity for credit creation. (ii)It could lead to a reduction in market interest rates, making borrowing cheaper for businesses and consumers. (iii)It might stimulate aggregate demand, potentially leading to increased investment and consumption. (iv)It invariably guarantees a rapid acceleration of real economic growth by ensuring optimal allocation of credit to productive sectors. Which of the statements given above are conceptually sound effects of lowering CRR, but not necessarily a guaranteed outcome in all economic contexts?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "‘Sambal’ focuses on providing economic empowerment to women through skill development and financial inclusion, while ‘Samarthya’ focuses on ensuring their safety and legal rights.",
+        "b": "‘Sambal’ is a protection-oriented component aimed at the safety and security of women, while ‘Samarthya’ is an empowerment-oriented component focused on enabling women’s self-reliance.",
+        "c": "‘Sambal’ deals with the health and nutrition of women and children, while ‘Samarthya’ provides them with educational opportunities.",
+        "d": "Both ‘Sambal’ and ‘Samarthya’ are primarily focused on providing shelter and rehabilitation to women in distress, but ‘Sambal’ is for rural areas and ‘Samarthya’ is for urban areas. CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The umbrella scheme ‘Mission Shakti’ represents an integrated approach to women’s empowerment. Which of the following best analyzes the logic behind its two sub-schemes , ‘Sambal’ and ‘Samarthya’?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the expenditure priorities and allocations in the Mizoram Budget 2025-26: (i)The largest portion of the total estimated expenditure is allocated to the Economic Services Sector, which includes flagship schemes like “Mizoram Bana Kaih”. (ii)The government has increased the budget for the Health Care Scheme by allocating additional funds from the state’s resources, over and above the revenue typically generated from the State Lottery. (iii)The allocation for Power Purchase has been increased, while the allocation for Power Subsidy has been reduced for the fiscal year 2025-26 compared to the current year. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) only",
+        "b": "(i) and (ii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Considering the financial allocations presented in the ‘Rupee Goes To’ section of the Budget 2025- 2026, which of the following inferences about the government’s spending priorities can be logically drawn? (i)The largest share of government expenditure is directed towards meeting its mandatory financial commitments rather than direct developmental or welfare schemes. (ii)Defence spending, while substantial, is less than half of the allocation for the ‘Central Sector Scheme’ (excluding capital outlay on Defence and Subsidy). (iii)Transfers to States and Union Territories (including their share of taxes and duties, Finance Commission transfers, and Centrally Sponsored Schemes) collectively represent a larger portion of expenditure than all direct central government schemes and other operational expenses combined. Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecotone",
+        "b": "Home Range",
+        "c": "Habitat",
+        "d": "Ecological niche"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following organisms- (i)Bat(ii)Bee (iii)Bird Which of the above is/are pollinating agent/agents?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The system was ratified in conjunction with Kyoto Protocol.",
+        "b": "They are traded at a fixed price under the UNEP.",
+        "c": "They are awarded to countries that have reduced their greenhouse gas below their emission quota.",
+        "d": "The goal is to limit the increase of carbon emission quota."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a feature of ‘carbon credits’?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50dB",
+        "b": "55dB",
+        "c": "65dB",
+        "d": "70dB Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Central Pollution Control Board, what is the noise limit for residential areas during the day?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Silver Revolution",
+        "b": "Grey Revolution",
+        "c": "Pink Revolution",
+        "d": "Golden Revolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is related to poultry farming?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Life below water",
+        "b": "Life on land",
+        "c": "Life on Air",
+        "d": "Climate action"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not one of the Sustainable Development Goals?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ecosystem diversity",
+        "b": "Homeostatic mechanism",
+        "c": "Ecosystem complexity",
+        "d": "Ecosystem uniformity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not helpful in maintaining ecological stability?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Autotrophic succession",
+        "b": "Heterotrophic succession",
+        "c": "Allogenic succession",
+        "d": "Secondary succession"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An ecological succession which begins on a place rich in inorganic contents but poor in organic contents is called-",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) only",
+        "b": "(i) and (ii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i) and (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is/are not true in connection with the United Nations Conference on Environment and Development? (i)It was held in Stockholm, Sweden. (ii)It was held in the year 1992. (iii)The UN Framework Convention on Climate Change was established. (iv)It paved the way for similar conventions such as the Kyoto Protocol.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The number of organisms that can be carried for one year.",
+        "b": "The number of endemic species an ecosystem can support without degradation.",
+        "c": "The number of organisms of a species that can be sustainably supported.",
+        "d": "The number of exotic species that exists in an ecosystem."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is true of ‘carrying capacity of an ecosystem’?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ozone",
+        "b": "Carbon monoxide",
+        "c": "Sulphur oxides",
+        "d": "Nitrogen oxides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a secondary air pollutant?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) only",
+        "b": "(i) and (ii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is/are true of ‘Earth Hour’? (i)It is an initiative of the United Nations Environment Programme. (ii)Participants switch off the lights for one hour on a certain day every year. (iii)The aim is to raise awareness on climate change and need for energy convention. (iv)It is observed only in India",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "glycogen synthase",
+        "b": "glucose phosphatase",
+        "c": "glycogen phosphorylase",
+        "d": "glycogen phosphatase CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The conversion of glucose to glycogen is mediated by an enzyme called-",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only I is correct",
+        "b": "Only II is correct",
+        "c": "Both I and II are correct",
+        "d": "Both I and II are not correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The function of the human kidney is - I.Removing waste and excess fluid from the body II.The functional unit is nephron Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only I is correct",
+        "b": "Only II is correct",
+        "c": "Both I and II are correct",
+        "d": "Both I and II are not correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Suicidal bag of the cell is- I.ribosomes II.suicidal bag contains hydrolytic enzymes Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Algae",
+        "b": "Bryophytes",
+        "c": "Pteridophytes",
+        "d": "Gymnosperms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Amphibians of the plant kingdom are-",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banana",
+        "b": "Jackfruit",
+        "c": "Apple",
+        "d": "Brinjal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following fruits is parthenocarpic?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "it is beautiful",
+        "b": "it has the shortest wavelength",
+        "c": "it has the longest wavelength",
+        "d": "it is visible to people even with bad eyesight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Red light is used in traffic signals because-",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isotopes",
+        "b": "Isotones",
+        "c": "Isobars",
+        "d": "Isotherms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Atoms of different elements having the same mass number but different atomic numbers are called-",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solid changes into vapours state",
+        "b": "Solid changes into Liquid state",
+        "c": "Liquid changes into vapours state",
+        "d": "Liquid changes into solid state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the process of Sublimation?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gaseous medium",
+        "b": "Liquid",
+        "c": "Solid",
+        "d": "Vacuum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the medium do sound waves travel the fastest?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(i) and (iii) only",
+        "c": "(ii) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Light can travel through vacuum while sound cannot do so. (ii)The speed of light in vacuum is a constant. (iii)Light year is a unit for measuring distance. Which of the following statements is/are true?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5th June, 1971",
+        "b": "5th June, 1972",
+        "c": "5th June, 1973",
+        "d": "5th June, 1974 Paper-I (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "World Environment Day was first observed on-",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sacred grove",
+        "b": "National park",
+        "c": "Seed bank",
+        "d": "Wildlife sanctuary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An example of ex-situ conservation is-",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Fathang is the due payable to a Chief by each household or family in kind or cash. (ii)Sachhiah is the due payable to a Chief by anyone who shoots or traps a wild animal. (iii)Ramhual are the people who advise a Chief where fish should be caught. Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1889",
+        "b": "1890",
+        "c": "1891",
+        "d": "1892"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chief Zakapa Fanai defeated the British force led by CS Murray at Khawhri in-",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalsuthlaha and Ngura",
+        "b": "Suakpuilala and Vanhnuaithangi",
+        "c": "Rothangpuia and Lalchheuva",
+        "d": "Lianphunga and Kalkhama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Mizo Chiefs defeated the British force of Sylhet Column on the bank of Tut river near Kawkpui village in March 1869?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhawndawl",
+        "b": "Arkeziak",
+        "c": "Hranghrual",
+        "d": "Lenchhawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which article was presented by ladies to men who returned with enemies’ heads from their head hunting?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15",
+        "b": "16",
+        "c": "17",
+        "d": "18"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The word Lushai was altered to Mizo with effect from 1.9.1954 by an Act of Parliament No ______ of 1954.",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manpui",
+        "b": "Pusum",
+        "c": "Palal",
+        "d": "Niman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The price for a wife, paid to the bride’s nearest male relative on the father’s side is-",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Japan",
+        "b": "Germany",
+        "c": "France",
+        "d": "Assam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Conference of Chiefs of Mizo in April, 1942 held at Aizawl declared war on:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) and (ii) only",
+        "b": "(ii) and (iii) only",
+        "c": "(i) and (iii) only",
+        "d": "(i), (ii) and (iii) CSP : 25Paper-I (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Kawngpui Siam is performed to get luck in hunting. (ii)Fano Dawi is performed to ensure good crops. (iii)Mitthirawp Lam is a feast and dance in honour of the spirits of a man’s ancestors. Select the correct answer using the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) & (iii) only",
+        "b": "(i), (ii) & (iv) only",
+        "c": "(i), (iii) & (iv) only",
+        "d": "(i), (ii), (iii) & (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Pasal\\ha Khuangchera is not only known for his bravery but also his strength and righteousness that won over the hearts of the people. (ii) He was killed while trying to resist the advancing British troops in 1890, which marked the British conquest of the Lushai Hills. (iii)He is known as the first Mizo freedom fighter to have sacrificed his life, after Lalnu Ropuiliani, fighting British imperialism. (iv)The region (New Mizoram) was formally incorporated into the British Empire in 1895. Which of the following is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laltheri Zai",
+        "b": "Awithangpa Zai",
+        "c": "Abor Run Zai",
+        "d": "German Run Zai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name Ngaihban Tlang was associated with one of Mizo Zai called-",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuavang",
+        "b": "Khuazingnu",
+        "c": "Vanhrika",
+        "d": "Thlanrawkpa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Mizo mythology, who is the creator of the earth?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18th February, 1872",
+        "b": "20th March, 1872",
+        "c": "1st February, 1872",
+        "d": "27th February, 1872"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The peace agreement of The First Lushai Expedition was made between TH Lewin and Lalburha on-",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "only (i), (ii) & (iv) are correct",
+        "b": "(i), (ii), (iii) & (iv) are correct",
+        "c": "only (i) & (iv) are correct",
+        "d": "(i), (iii), (iv) & (v) are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pairs: AB (i)JH Lorrain:Pu Buanga (ii)E. Rowlands:Zosaphluia (iii)DE Jones:Sap upa (iv)TH Lewin:Thangliana (v)FW Savidge:Zosapthara Which of the following statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sadawt",
+        "b": "Bawlpu",
+        "c": "Khawnbawl",
+        "d": "Fathang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was assigned to cure sickness and procure medicine in a traditional village?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

@@ -140,6 +140,8 @@ GENERAL_PAPERS = [
  ('agri-2025-horticulture-p1', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Horticulture Science Paper-I', 'Agri&Allied Horticulture Science Paper-I 2025..pdf'),
  ('agri-2025-horticulture-p2', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Horticulture Science Paper-II', 'Agri&Allied Horticulture Science Paper-II 2025..pdf'),
  ('agri-2025-horticulture-p3', 'Agriculture & Allied Services (Combined Technical)-November-2025', 'November 2025', 'Horticulture Science Paper-III', 'Agri&Allied Horticulture Science Paper-III 2025..pdf'),
+ ('mcs-prelim-2025-p1', 'Mizoram Civil Services (Combined Competitive) Preliminary - 2025', 'August 2025', 'Paper-I (General Studies)', 'MCS Combined 2025 Preliminary Exam Paper-I Series-A..pdf'),
+ ('mcs-prelim-2025-p2', 'Mizoram Civil Services (Combined Competitive) Preliminary - 2025', 'August 2025', 'Paper-II (General Aptitude)', 'MCS Combined 2025 Preliminary Exam Paper-II Series-A..pdf'),
  ('si-fcs-2025-p1', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General English', 'Paper-I General English (Series A)..pdf'),
  ('si-fcs-2025-p2', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General Knowledge, Arithmetic & Reasoning', 'Paper-II (Series A)..pdf'),
  ('aao-2025-p1', 'AAO / AAAO / Field Facilitator', 'November 2025', 'General English', 'General English - Series A..pdf'),
@@ -441,6 +443,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'agri-2025-agri-science-p3': 'Direct_2025-2027', 'agri-2025-ah-vety-p1': 'Direct_2025-2027', 'agri-2025-ah-vety-p2': 'Direct_2025-2027',
  'agri-2025-ah-vety-p3': 'Direct_2025-2027', 'agri-2025-horticulture-p1': 'Direct_2025-2027', 'agri-2025-horticulture-p2': 'Direct_2025-2027',
  'agri-2025-horticulture-p3': 'Direct_2025-2027',
+ 'mcs-prelim-2025-p1': 'Direct_2025-2027', 'mcs-prelim-2025-p2': 'Direct_2025-2027',
 }
 
 
@@ -763,6 +766,17 @@ def build_additional():
             # each is absent from the source text layer (its option list is
             # malformed), so it is not registered and the paper scores 49.
             entry['expectedMcq'] = 50
+        if slug in ('mcs-prelim-2025-p1', 'mcs-prelim-2025-p2') and key:
+            # Cover: Mizoram Civil Services (Combined Competitive) Preliminary
+            # Examination, Paper-I/II, 100 items carrying 2 marks each in two
+            # hours; a one-third penalty for a wrong answer is printed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': True, 'penaltyFraction': 1/3}
+        if slug == 'mcs-prelim-2025-p2':
+            # Q75 is a printed figure item whose option text is not in the PDF, so
+            # it is not extracted; the other 99 score and expectedMcq stays at the
+            # printed 100.
+            entry['expectedMcq'] = 100
         if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:
             # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).
             # Key states the exam was held 10-12 March 2026.

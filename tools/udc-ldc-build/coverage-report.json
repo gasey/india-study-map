@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 83,
+  "registered_keys": 85,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 391,
-  "held_mcq": 15349,
-  "tier1_key_scorable": 664,
+  "papers": 393,
+  "held_mcq": 15351,
+  "tier1_key_scorable": 666,
   "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 7940,
   "tier3_needs_derivation": 6683
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2352,
-   "disagree": 347
+   "agree": 2489,
+   "disagree": 382
   },
   "key": {
    "agree": 67,
@@ -31,7 +31,7 @@
   }
  },
  "key_match": {
-  "high_confidence": 30,
+  "high_confidence": 31,
   "needs_attribution_check": [
    {
     "key_file": "Assistant Architect (Contract) under PWD Final Answer Key..pdf",
@@ -80,13 +80,6 @@
     "candidate_paper": "mpsc-group-b-mes-pwd-2018-english",
     "matched_on": [
      "mes"
-    ]
-   },
-   {
-    "key_file": "Final Answer Key of Preliminary Examn. of Grade-III of MJS (Civil Judge)..pdf",
-    "candidate_paper": "mpsc-group-b-mes-phe-2014-english",
-    "matched_on": [
-     "civil"
     ]
    },
    {
@@ -2961,6 +2954,21 @@
    "tier2_candidate": 2
   },
   {
+   "paper_id": "mpsc-group-b-mcs-prelim-2025-p1",
+   "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+   "subject": "Paper-I (General Studies)",
+   "key_status": "registered",
+   "key_file": "Final Answer Key of Preliminary Examn. of Grade-III of MJS (Civil Judge)..pdf",
+   "held": 2,
+   "tier1": 2,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
    "exam": "Technical Officer (SCERT) under School Education Deptt.",
    "subject": "General Studies",
@@ -5124,6 +5132,21 @@
    "paper_id": "mpsc-group-b-agri-2025-horticulture-p3",
    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
    "subject": "Horticulture Science Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-mcs-prelim-2025-p2",
+   "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+   "subject": "Paper-II (General Aptitude)",
    "key_status": "registered",
    "key_file": null,
    "held": 0,

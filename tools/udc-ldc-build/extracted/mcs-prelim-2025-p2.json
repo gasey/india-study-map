@@ -1,0 +1,2298 @@
+{
+  "slug": "mcs-prelim-2025-p2",
+  "exam": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+  "sitting": "August 2025",
+  "subject": "Paper-II (General Aptitude)",
+  "source": "MCS Combined 2025 Preliminary Exam Paper-II Series-A..pdf",
+  "sourceSha256": "63ee7c9d5510accf7a0d0da33f18c5fb79764fea6d5ddf8945b1ec7587392cf0",
+  "ocr": false,
+  "count": 99,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "To create machines that can perform all human tasks perfectly.",
+        "b": "To develop computer systems that can mimic human intelligence and perform tasks that typically require human intelligence.",
+        "c": "To replace all human workers with robots.",
+        "d": "To create machines that are smarter than humans."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main aim of Artificial Intelligence?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Facial recognition",
+        "b": "Self-driving cars",
+        "c": "Traditional programming of software",
+        "d": "Virtual assistants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not included in an application of AI?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "A type of AI that focuses on mimicking human emotions.",
+        "b": "A subset of AI that enables systems to learn from data without explicit programming.",
+        "c": "A field of AI that focuses on creating robots that can walk and talk.",
+        "d": "A type of AI that focuses on creating human-like consciousness."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A machine learning can be:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Increased efficiency in various industries.",
+        "b": "Reduced costs for businesses.",
+        "c": "Bias in algorithms leading to unfair outcomes.",
+        "d": "Faster processing speeds for computers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a potential ethical concern related to AI?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Reduced accuracy in medical diagnoses.",
+        "b": "Slower processing of medical data.",
+        "c": "Early disease detection and personalized medicine.",
+        "d": "Increased cost of healthcare. CSP : 25- 2 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is one of the main benefits of AI in healthcare?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Enhanced social skills.",
+        "b": "Increased feelings of isolation and loneliness.",
+        "c": "Greater self-awareness.",
+        "d": "Improved creativity."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What can be a potential drawback of unchecked solitude?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Recharges mental and emotional batteries.",
+        "b": "Lightens intense social work.",
+        "c": "Lightens demanding work by peaceful thoughts.",
+        "d": "Intense social and demanding work are done peacefully."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How can solitude be a source of rejuvenation?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "It is not necessary for creative work.",
+        "b": "It is a crucial element for inspiration and innovation.",
+        "c": "It can be a hindrance to creative output.",
+        "d": "It is only relevant for certain types of art."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the role of solitude in creative work?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:",
+      "opts": {
+        "a": "Engaging in meaningful conversations with loved ones.",
+        "b": "Engaging in activities that promote both solitude and social connection.",
+        "c": "Spending time in nature, pursuing hobbies.",
+        "d": "Finding a healthy balance between time alone and social interaction. Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How can an individual cultivate a sense of well-being and fulfillment?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Being both free and expensive to use.",
+        "b": "Offering both connection opportunities and mental health challenges",
+        "c": "Being both audio and visual.",
+        "d": "Having both written and unwritten format."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is described as social media’s “dual nature” in the text?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Made it impossible for small businesses to compete.",
+        "b": "Eliminated lack of opportunities for women.",
+        "c": "Levelled the playing field between small and large businesses.",
+        "d": "Removed the need for physical money. CSP : 25- 4 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How has social media affected business marketing?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Amplifying grassroots movements.",
+        "b": "Enabling voter manipulation through misinformation.",
+        "c": "Completely replacing traditional news media.",
+        "d": "Creating ideological echo chambers."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these is not mentioned as a political impact of social media?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Making all entertainment too irrational.",
+        "b": "Decreasing attention spans through short-form content.",
+        "c": "Eliminating celebrity culture completely.",
+        "d": "Making all content for adults only."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What cultural concern about social media is specifically mentioned?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Government shutdown of all platforms.",
+        "b": "Technological advances and regulatory responses.",
+        "c": "Complete abandonment by younger users.",
+        "d": "Return to only text-based communication."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ will influence social media’s future development.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Interest in working",
+        "b": "Financial independence",
+        "c": "Leadership roles",
+        "d": "Excessive government support"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________  is crucial for women’s empowerment, as it allows them to escape dependency.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "unreasonably",
+        "b": "vaguely",
+        "c": "loosely",
+        "d": "imprecisely Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the synonym of the word “disproportionately”:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions",
+      "opts": {
+        "a": "Limiting women’s education.",
+        "b": "Engaging men as allies in empowerment efforts.",
+        "c": "Encouraging women to avoid leadership roles.",
+        "d": "Ignoring cultural norms virtual world."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is essential for achieving true gender equality?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:",
+      "opts": {
+        "a": "Brood",
+        "b": "Steed",
+        "c": "Breed",
+        "d": "Stood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "John’s horse is of an excellent _________.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:",
+      "opts": {
+        "a": "Effects",
+        "b": "Kills",
+        "c": "Rejects",
+        "d": "Affects"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Smoking _________ health.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:",
+      "opts": {
+        "a": "Pitfalls",
+        "b": "Impediments",
+        "c": "Ordeal",
+        "d": "Snags"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At first, there were some _________ with the software, but its okay now.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The cost of fruits and vegetables has risen sharply.",
+        "b": "Consumers have decreased their consumption of fruits and vegetables.",
+        "c": "The cost of fruit and vegetable is a major item in the CI.",
+        "d": "Food cost changes are reflected quickly in the CI."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An economist was quoted as saying that the Cost Index (CI) will go up next month because of a recent increase in the price of fruit and vegetables. Which of the following cannot be inferred from the statement?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Defensiveness",
+        "b": "Accusations",
+        "c": "Alternatives",
+        "d": "Memory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The major obstacle to effective interpersonal communication includes:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(iii) only",
+        "b": "(i), (ii) and (iv) only",
+        "c": "(ii) and (iv) only",
+        "d": "(i), (ii), (iii) and (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the followings are/is non-verbal communication examples? (i)Blushing (ii)Crying (iii)Kinesics (iv)Laughter",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inability to take feedback",
+        "b": "Introvert",
+        "c": "Decisiveness",
+        "d": "Praising others"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One characteristic of an abusive boss is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satisfies the other party’s concern while neglecting one’s own.",
+        "b": "Satisfies one’s own needs at the expense of the needs of other individual.",
+        "c": "Neglects the interest of both parties.",
+        "d": "Obtaining partial satisfaction for both the parties. CSP : 25Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The accommodating approach of conflict management is:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Congruent",
+        "b": "Evaluative",
+        "c": "Global",
+        "d": "Disjunctive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The attribute of supportive communication is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Being able to make the correct decisions",
+        "b": "Effective communication",
+        "c": "Understanding oneself",
+        "d": "Mimicking people’s behavior"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Interpersonal Skills include:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Use of jargon",
+        "b": "Gender",
+        "c": "Language",
+        "d": "Prejudice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a barrier to effective communication?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "regional colloquialisms and expressions may be misinterpreted or even considered offensive.",
+        "b": "there may be use of unnecessarily complex language.",
+        "c": "verbal cues may not be visible to the speakers.",
+        "d": "the speakers may be distracted or inattentive."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cultural difference may present a unique barrier to communication because:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Persuasion",
+        "b": "Leadership",
+        "c": "Active Listening",
+        "d": "Empathy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Being able to put oneself in someone else’s situation is called:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Conscientiousness",
+        "b": "Agreeableness",
+        "c": "Extraversion",
+        "d": "Charisma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A powerful personal quality that some people have to attract and impress other people is:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paraphrasing",
+        "b": "Questioning",
+        "c": "Active Listening",
+        "d": "Emotions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_________ means to state something written or spoken in different words, especially in a shorter and simpler form to make the meaning clearer.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Being able to openly express thoughts and opinions.",
+        "b": "Being able to put oneself in the shoe of other people.",
+        "c": "Being able to lead effectively and inspire others.",
+        "d": "Being able to achieve one’s goals."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertiveness is a very powerful interpersonal skill which includes:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Empathy",
+        "b": "Mirroring",
+        "c": "Active Listening",
+        "d": "Reflective Skill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An important skill where a person is able to look back at previous behaviour/actions and learn from them is known as:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hexagon",
+        "b": "Hendecagon",
+        "c": "Heptagon",
+        "d": "Pentagon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Three of the following words are similar in a certain way. Pick the odd one out:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GrAphItE",
+        "b": "GrApHiTe",
+        "c": "gRaPHiTe",
+        "d": "GRAphiTE"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code ‘POTASSIUM’ is written as ‘PoTassium’. How is ‘GRAPHITE’ written in that code?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IFEDNITY",
+        "b": "IETDNYFI",
+        "c": "INFYEDIT",
+        "d": "IEDTNFIY Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a certain code ‘PROBLEM’ is written as ‘PORLBME’. How can ‘IDENTIFY’ be written in that code?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mother",
+        "b": "Sister",
+        "c": "Daughter",
+        "d": "Cousin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "K is the son of A’s mother’s sister. Q is daughter of D, who is the father of G and grandfather of A. P is the Daughter of H who is grandmother of K. D is husband of H and G is husband of L. How is K related to A?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "35",
+        "b": "63",
+        "c": "54",
+        "d": "42"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th",
+        "b": "12th",
+        "c": "14th",
+        "d": "8th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of  21 girls, Rini was shifted by four places towards the right, now she becomes 12th from the left end. What was her earlier position from the right end of the row?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither I nor II follow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Statements** I.All roads are black. II.No black is a house. **Conclusions** I.Some roads are houses. II.Some houses are black.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither I nor II follow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Statements** I.All fish are tadpole. II.No tadpole is a crocodile. **Conclusions** I.All tadpole is a fish. II.No fish is a crocodile.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither I nor II follow Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Statements** I.No bat is ball. II.No ball is brown. **Conclusions** I.No bat is brown. II.All browns are bats.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two",
+      "opts": {
+        "a": "If only conclusion I follows",
+        "b": "If only conclusion II follows",
+        "c": "If either conclusion I or II follows",
+        "d": "If neither I nor II follow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "**Statements** I.Some books are toys. II.No toy is blue. **Conclusions** I.Some books are blue. II.Some toys are books.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as",
+      "opts": {
+        "a": "Tides indicate the regular and periodic rise and fall in sea level. (a)Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is not the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A) Tides indicate the regular and periodic rise and fall in sea level.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as",
+      "opts": {
+        "a": "Most of the Himalayan rivers are perennial. (a)Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is not the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A) Most of the Himalayan rivers are perennial.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as",
+      "opts": {
+        "a": "Glaciers are melting at a faster speed. (a)Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is not the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A) Glaciers are melting at a faster speed.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements",
+      "opts": {
+        "a": "If statement I is the cause and statement II is its effect.",
+        "b": "If statement II is the cause and statement I is its effect.",
+        "c": "If both the statements I and II are independent causes.",
+        "d": "If both the statements I and II are effects of independent causes. Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I. The prices of petroleum products dropped marginally last week. II. The State government reduced the tax on petroleum products last week.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements",
+      "opts": {
+        "a": "If statement I is the cause and statement II is its effect.",
+        "b": "If statement II is the cause and statement I is its effect.",
+        "c": "If both the statements I and II are independent causes.",
+        "d": "If both the statements I and II are effects of independent causes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I. The government medical college has decided to increase the number of seats in undergraduate course from the next academic session. II. The government has decided to withdraw its grant from the government medical colleges from the next academic session.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements",
+      "opts": {
+        "a": "If statement I is the cause and statement II is its effect.",
+        "b": "If statement II is the cause and statement I is its effect.",
+        "c": "If both the statements I and II are independent causes.",
+        "d": "If both the statements I and II are effects of independent causes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I. Many employees of the company proceeded on a day’s leave on Friday. II. Both Thursday and Saturday were declared holiday by the company.",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Repairing roads",
+        "b": "Distributing food and water",
+        "c": "Rebuilding houses",
+        "d": "Organizing entertainment to lift people’s spirits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An area is affected by severe flooding. You, as a District Magistrate, have limited resources. Which of the following should be your immediate priority?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Popularity of the program",
+        "b": "Political backing",
+        "c": "Program’s potential impact on public health",
+        "d": "The novelty of the program"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have a limited budget for a healthcare initiative. What is the crucial factor to consider when deciding which health programs to fund?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Debating Club meets on the first Sunday morning of every month.",
+        "b": "After finding out about his salary raise, Jay and a few colleagues go out for a quick dinner after work.",
+        "c": "Meena sends out 10 invitations for a bachelorette party she is giving for her elder sister.",
+        "d": "Whenever she eats at a Chinese restaurant, Roop seems to run into Dibya."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An informal gathering occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an informal gathering?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Break relations with him/her",
+        "b": "Give him/her tit for tat.",
+        "c": "Make him / her realise his/her mistake",
+        "d": "Tell other friends about him / her."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You find that a person whom you call your friend has been cheating you. What would you do?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "convince the subordinate that he is wrong.",
+        "b": "tell him to reconsider the results.",
+        "c": "revise the report on your own.",
+        "d": "tell him not to justify the mistake."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have differences of opinion regarding the final report prepared by your subordinate that is to be submitted urgently. The subordinate is justifying the information given in the report. You would:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "warn the team members for their non-cooperation.",
+        "b": "look into reasons for non-cooperation.",
+        "c": "ask for the replacement of team members.",
+        "d": "ask for extension of time citing reasons. CSP : 25- 10 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are handling a time-bound project. During the project review meeting, you find that the project is likely to get delayed due to lack of cooperation of the team members. You would:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "sell the property at a cheap price to him.",
+        "b": "go to the police for necessary action.",
+        "c": "ask for help from your neighbours.",
+        "d": "negotiate with the goon to get a higher price."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A local thug (bad element) has started illegal construction on your vacant plot. He has refused your request to vacate and threatened you of dire consequences in case you do not sell the property at a cheap price to him. You would:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "spend time planning how accurately to convey your strengths so that your position is safe within",
+        "b": "plan to ask questions about what new opportunities are available and how you can position yourself",
+        "c": "aim to get as much information from your Head about the restructure: timescale and impact.",
+        "d": "prepare a convincing case concerning why the company should not be included in the restructuring."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sector where you are working for is to be included for a major restructure. Some posts will vanish; some roles will change and there will be some new opportunities created. The announcement has created some concern within the office, especially as it has been performing well up to this point. Your Head has arranged for a one-on-one meeting with everyone to discuss the restructure. You need to decide how best to prepare for the meeting. Which of the given statements must definitely be followed with reference to the information?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "reject the proposal and immediately escalate the matter to higher authorities, requesting urgent",
+        "b": "accept the lowest price as it is urgent.",
+        "c": "make temporary verbal commitments with boat owners, hoping to resolve the pricing issue later.",
+        "d": "threaten the boat owners about a possible cancellation of the license."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have been made responsible to hire boats at a short notice to be used for an area under flood. On seeing the price mentioned by the boat owners, you found that the lowest price was approximately three times more than the approved rate of the Government. You would:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Implementing the solution",
+        "b": "Identifying the problem",
+        "c": "Generating alternatives",
+        "d": "Evaluating outcomes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the first step in any systematic problem-solving approach?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Distribute equally.",
+        "b": "Prioritize based on need and impact.",
+        "c": "Follow political recommendations.",
+        "d": "Choose based on the popular opinion of the people."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are tasked with distributing a limited amount of funds across five proposed development projects, each addressing important but varying community needs. Considering the budget constraints and the potential impact of each project, what would be the most logical and effective approach to allocate the resources?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediate results that benefit majority at the initial stage.",
+        "b": "Political gain.",
+        "c": "Long-term social and environmental impact.",
+        "d": "Ease of implementation. Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You’re asked to recommend one of two projects: one benefits a majority but harms the environment; the other is slower but sustainable. What would guide your decision?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enforce strict penalties.",
+        "b": "Initiate awareness campaigns involving local leaders.",
+        "c": "Ignore the practices.",
+        "d": "Impose modern practices directly."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You have been assigned to a rural region where deep-rooted traditional beliefs and practices are negatively impacting public health outcomes—such as resistance to medical treatment, unsafe childbirth practices, or reliance on unscientific remedies. As a responsible official, how would you effectively address the community’s resistance to change, while respecting their cultural values and ensuring the implementation of health-promoting practices?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A balanced approach incorporating public interest, legal permissibility, and the principle of proportionality.",
+        "b": "Literal interpretation of statutory provisions irrespective of context.",
+        "c": "Prevailing public sentiment as reflected in media narratives.",
+        "d": "Directives issued by political executives, even if not codified in administrative norms."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a given administrative scenario, you are confronted with a dilemma where rigid adherence to statutory rules may lead to significant humanitarian hardship. Which of the following principles should primarily guide your course of action as a civil servant?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ignore the violation to maintain cordial political relations.",
+        "b": "Issue the challan according to the law, documenting all evidence carefully.",
+        "c": "Give a verbal warning instead of official action.",
+        "d": "Refer the matter to your senior officer before taking action."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "You are an officer in charge of road safety in an urban area. A well-known political leader’s vehicle is repeatedly violating traffic rules, including signal jumping and driving on the wrong side. Your subordinate asks whether to issue a challan or ignore it due to political pressure. What should you do?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Immediately confront the officer on the spot and demand an explanation.",
+        "b": "Ignore the matter until written proof is obtained.",
+        "c": "Discreetly monitor the officer’s activity, document irregularities, and initiate a confidential inquiry.",
+        "d": "Alert the media to expose the officer’s misconduct."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "While managing a relief camp during a flood, you discover that one of your junior officers is diverting resources to his relatives. You have no concrete documentation yet but several verbal complaints. What is the best approach?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Evaluate all candidates on merit and document the process transparently.",
+        "b": "Appoint the recommended candidate to avoid political conflict.",
+        "c": "Request the politician to send a better candidate.",
+        "d": "Cancel the recruitment altogether."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A politician strongly recommends a candidate for appointment in a temporary government post under your supervision. The candidate is underqualified and others in the list are better suited. What should you do?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "QSUERA",
+        "b": "QUSERA",
+        "c": "UQSAER",
+        "d": "UQSERA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "CIRCLE is related to RICELC in the same way as SQUARE is related to:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TSFRJ",
+        "b": "RPFTJ",
+        "c": "NJFTP",
+        "d": "TSFGJ CSP : 25- 12 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In code language, ASTARK is written as LBFMG and MOBILE is written as TNRSPJ. How is BLAME written in that code?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "HJN",
+        "b": "JLP",
+        "c": "PRU",
+        "d": "QSW"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd one out:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question No. 71): Read the following information carefully and answer the question",
+      "opts": {
+        "a": "Sachin",
+        "b": "Kunal",
+        "c": "Ravi",
+        "d": "Gaurav"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is good in Hockey, Cricket and Volleyball?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "31",
+        "b": "32",
+        "c": "33",
+        "d": "34"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rohan ranks seventh from the top and twenty sixth from the bottom in a class. How many students are there in the class?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "104",
+        "c": "108",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A farmer built a fence around his square plot. He used 27 fence on each ride of the square. How many poles did he need all together?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swimming",
+        "b": "Polo",
+        "c": "Pole vault",
+        "d": "Judo Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which in the following is the same as wrestling, karate, boxing?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "M",
+        "b": "W",
+        "c": "P",
+        "d": "I"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Which letter in the Alphabet is the Eighth letter to the right of the letter which is Tenth letter to the left of the last but one letter of the alphabet?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1/5",
+        "b": "5/10",
+        "c": "3/5",
+        "d": "3/4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Out of 60 people in a colony, 10 speak only Mizo, 5 speak only Assamese, 10 speak both Hindi and Odia, 12 speak both Khasi and Hindi, 13 speak English, Tamil and Khasi, 5 speak both Assamese and Hindi and the remaining speak both Mizo and Hindi. The ratio of people who speak Mizo to those who speak Khasi is:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 14,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5,1, 3, 4, 2",
+        "b": "3, 5, 1, 4, 2",
+        "c": "5, 1, 2, 4, 3",
+        "d": "1, 4, 3, 5, 2 CSP : 25- 14 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following words in a meaningful sequence: (1) Presentation, (2) Recommendation, (3) Arrival, (4) Discussion, (5) Introduction",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Difficult : Impossible",
+        "b": "Tolerating : Accommodating",
+        "c": "Export : Import",
+        "d": "Strong : Hard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following question consists of two words each that have a certain relationship to each other, followed by four lettered pairs of words. Select the lettered pair that has the same relationship as the original pair of words i.e Optimistic : Pessimistic:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prose",
+        "b": "Song",
+        "c": "Poetry",
+        "d": "Sonnet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is same as Ode, Ballad, Lyric?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seismology",
+        "b": "Pathology",
+        "c": "Morphology",
+        "d": "Taxonomy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose a word from the given alternatives that belongs to the same group. Botany : Zoology : Cardiology:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Box",
+        "b": "Sharpener",
+        "c": "Eraser",
+        "d": "Pencil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If eraser is called box, box is called pencil, pencil is called sharpener and sharpener is called bag, what will a child write with?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stool",
+        "b": "Bench",
+        "c": "Table",
+        "d": "Chair"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In this question, four words have been given, out of which three are alike in some manner and the fourth one is different. Choose out the odd one.",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "23 days",
+        "b": "21 days",
+        "c": "18 days",
+        "d": "16 days"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lala and Dova can do a piece of work in 45 days and 40 days respectively. They began the work together, but Lala leaves after 9 days. In how many days will Dova finish the remaining work?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs 1200",
+        "b": "Rs 1440",
+        "c": "Rs 1580",
+        "d": "Rs 1620"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The difference between the cost price and the selling price of an article is Rs 240. If the profit is 20%, then the selling price is:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 years",
+        "b": "22 years",
+        "c": "24 years",
+        "d": "18 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Five years ago, A was thrice as old as B and ten years later, A shall be twice as old as B. The present age of B is:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18 m",
+        "b": "19 m",
+        "c": "21m",
+        "d": "22 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A ladder 15 m long reaches a window which is 9 m above the ground on one side of a street. Keeping its foot at the same point, the ladder is turned to the other side of the street to reach a window 12 m high. The width of the street is:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "21 cm",
+        "b": "14 cm",
+        "c": "11 cm",
+        "d": "7 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A steel wire, when bent in the form of a square, encloses an area of 121 cm². If the same wire is bent in the form of a circle, then radius of the circle is:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 15,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "12.73 m",
+        "b": "13.84 m",
+        "c": "15.34 m",
+        "d": "17.3 m Paper-II (A)CSP : 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a violent storm, a tree got bent by the wind.The top of the tree meets the ground at an angle of 30°, at a distance of 24 m from the root. At what height from the bottom did the tree get bent?(3=1.73)",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "54 m",
+        "b": "58 m",
+        "c": "60 m",
+        "d": "63 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The diameter of a metallic sphere is 42 cm. It is melted and drawn into a cylindrical wire of diameter 2.8 cm. The length of the wire in metre is:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6",
+        "b": "2",
+        "c": "10",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 5²^x⁺¹÷25=125, find the value of x:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "96",
+        "b": "72",
+        "c": "84",
+        "d": "108"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rama obtained 12 marks more than that of Thana. If the ratio of their marks is 3 : 4, find the sum of their marks:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 % gain",
+        "b": "10 % loss",
+        "c": "12 % loss",
+        "d": "12 % gain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A shopkeeper purchased 300 bulbs for Rs. 10 each. However, 20 bulbs were fused and had to be thrown away. The remaining were sold at Rs. 12 each. Find the gain or loss percent.",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "56",
+        "c": "34",
+        "d": "96 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 15 workers can finish a work in 48 hrs. How many workers will be required to do the same work in 30 hrs?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4",
+        "b": "2",
+        "c": "6",
+        "d": "3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Evaluate : 4096",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "360",
+        "b": "390",
+        "c": "420",
+        "d": "460"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If 40% of the students in a school are boys and the number of girls in the school is 540. How many boys are there in the school?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 16,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "8",
+        "c": "6",
+        "d": "4 CSP : 25- 16 -Paper-II (A)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A bag contains 12 white balls and some green balls. If the probability of drawing a white ball from the bag is thrice that of the green ball. Find the number of green balls:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 17,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 3600",
+        "b": "Rs. 4800",
+        "c": "Rs. 5400",
+        "d": "Rs. 6000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The given pie chart shows the monthly expenses of a family on four items. If Rs. 1600 was spend on Rent. Find the amount of expenditures on Education:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 17,
+      "part": null,
+      "conventional": false,
+      "direction": "Direction (Question Nos. 99 & 100) Study the graph carefully and answer the following questions:",
+      "opts": {
+        "a": "4100",
+        "b": "2000",
+        "c": "1800",
+        "d": "1750"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the average number of boys from all the colleges together?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 17,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 : 7",
+        "b": "5 : 9",
+        "c": "5 : 8",
+        "d": "5 : 6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the respective ratio of the girls of college A to the boys of college C?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [
+    "Q75 (p14, part None): only 0 option(s) [] - not emitted"
+  ],
+  "gaps": {
+    "-": [
+      75
+    ]
+  }
+}

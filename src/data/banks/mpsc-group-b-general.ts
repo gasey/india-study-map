@@ -885,6 +885,26 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/agri-2025-horticulture-p3.pdf"
   },
   {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1",
+    "examType": "Direct_NG",
+    "examName": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "post": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Paper-I (General Studies)",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/mcs-prelim-2025-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2",
+    "examType": "Direct_NG",
+    "examName": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "post": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Paper-II (General Aptitude)",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/mcs-prelim-2025-p2.pdf"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "examType": "Direct_NG",
     "examName": "Sub-Inspector FCS&CA / Receptionist H&FW",
@@ -166416,6 +166436,6036 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
   },
   {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q1",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following cities in Iran: (i)Tehran (ii)Bushehr (iii)Natanz (iv)Isfahan The nuclear facilities of which of the above cities were bombed by the US in June 2025?",
+    "options": [
+      "(i) and (iii) only",
+      "(ii) and (iv) only",
+      "(iii) and (iv) only",
+      "(ii), (iii) and (iv) only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q2",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the new railway line in Mizoram: (i)It connects Bairabi with Sairang. (ii)The total length of the new railway line is 101 kms. (iii)The project is divided into four sections – Bairabi-Hortoki, Hortoki-Kawnpui, Kawnpui- Mualkhang, and Mualkhang-Sairang. (iv)The Commission of Railway Safety (CRS) has recently approved the opening of the railway line from Hortoki to Sairang in Mizoram. Which of the above statements are correct?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q3",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Virat Kohli has recently announced his retirement from test cricket. Which of the following statements regarding him is not correct?",
+    "options": [
+      "He was born in Mumbai in 1982.",
+      "He was named Cricketer of the Decade for 2011 to 2020 by ICC.",
+      "He was awarded with the Khel Ratna Award in 2018.",
+      "He is married to Anushka Sharma."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “He was born in Mumbai in 1982.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q4",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the Mizoram Universal HealthCare Scheme (MUHCS): (i)For Contributory Beneficiaries under the Standard Plan, a Premium of Rs. 5000 per family per year allows family to get benefit of ₹8,00,000/- per family per year in Semi-Private (shared) Ward. (ii)No contribution from AB PM-JAY beneficiaries is required. (iii)Provisional Employees under the Government of Mizoram will have to pay monthly contribution of Rs. 100 for General Ward. Which of the above statement(s) is/are correct?",
+    "options": [
+      "Only (ii)",
+      "Only (iii)",
+      "Only (i) and (ii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only (ii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q5",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding DeepSeek is not correct?",
+    "options": [
+      "It is a Japanese Artificial Intelligence start up that has rivalled global leaders like OpenAI, Google, and Meta.",
+      "DeepSeek is a free AI-powered chatbot similar to ChatGPT, providing text-based assistance via web, mobile, and API.",
+      "DeepSeek (AI firm) was founded by Liang Wenfeng in May 2023.",
+      "Its cost of development is much lower than that of US models. CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It is a Japanese Artificial Intelligence start up that has rivalled global leaders like OpenAI, Google, and Meta.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q6",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following best describes Operation Black Forest carried out in 2025?",
+    "options": [
+      "A high-intensity counterinsurgency mission targeting Maoist strongholds in forested hilly terrains",
+      "A long distance bombing of nuclear sites in Iran by the US using stealth bombers.",
+      "A clandestine bombing mission by Ukraine using M-52 dones, targeting various Russian military",
+      "A night-time operation carried out by the Principal Chief Controller of Forests, Assam where"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A high-intensity counterinsurgency mission targeting Maoist strongholds in forested hilly terrains”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q7",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "As per the Government of Mizoram budget of 2025-26, the projected state’s own non-tax revenue is",
+    "options": [
+      "₹1257.8 Crore",
+      "₹1115.7 Crore",
+      "₹1475.8 Crore",
+      "₹1138.07 Crore"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “₹1138.07 Crore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q8",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding NHIDCL. (i)It stands for National Highways & Infrastructure Development Corporation Limited. (ii)It is a Public Sector Undertaking. (iii)It is under the Ministry of Road Transport and Highways. (iv)NHIDCL also provides consultancy services for highway and bridge construction in Nepal. Which of the above statements are correct?",
+    "options": [
+      "(i) and (iii) only",
+      "(i), (ii) and (iii) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii), (iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q9",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following government schemes in India: (i)UNNATI (ii)PM-DevINE (iii)NESIDS (iv)PMEGP Which of the above schemes specifically target the North-East?",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q10",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "What is the core message of the United Nations Population Fund’s ‘State of World Population Report 2025’, titled “The Real Fertility Crisis: The Pursuit of Reproductive Agency in a Changing World”?",
+    "options": [
+      "Fertility rates are stabilizing globally, reducing the need for population-related policies.",
+      "The world is heading toward overpopulation due to high fertility rates.",
+      "The real crisis lies in individuals’ inability to achieve their reproductive goals due to lack of agency.",
+      "The main challenge is population collapse due to declining birth rates."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The real crisis lies in individuals’ inability to achieve their reproductive goals due to lack of agency.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q11",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements is correct about the ‘Golden Dome’ missile defence system announced by the US in May 2025?",
+    "options": [
+      "The project aims to counter only cruise missile threats from Iran and North Korea.",
+      "It is a $175 billion project led by US Space Force and includes private companies like SpaceX",
+      "The system is inspired by Russia’s S-400 and will be built entirely by the US military.",
+      "It is a joint project between the US and Israel to protect Europe from missile threats. Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It is a $175 billion project led by US Space Force and includes private companies like SpaceX”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q12",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Who was appointed as the new Chief of the Research and Analysis Wing (RAW) by the Government of India on June 28, 2025, and what is one of his notable achievements?",
+    "options": [
+      "Ajit Doval; executed Operation Sindoor in Kashmir.",
+      "Parag Jain; led Operation Sindoor targeting terror camps.",
+      "Arvind Kumar; launched HUMINT surveillance across borders.",
+      "Ravi Sinha; initiated hybrid intelligence operations."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Parag Jain; led Operation Sindoor targeting terror camps.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q13",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which district in Mizoram ranked highest in NITI Aayog second edition of the North Eastern Region District SDG Index 2023-24?",
+    "options": [
+      "Champhai",
+      "Serchhip",
+      "Hnahthial",
+      "Aizawl"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Hnahthial”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q14",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Mizoram was recently (May 20, 2025) officially declared as India’s first fully literate state under the ULLAS initiative with literacy rate of",
+    "options": [
+      "99.2 %",
+      "98.2 %",
+      "100%",
+      "97.2 %"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “98.2 %”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q15",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Who among the following took measures against the practice of  ‘Sati’?",
+    "options": [
+      "Lord William Bentinck",
+      "Willian Marshall",
+      "John Shore",
+      "Henry Derozio"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lord William Bentinck”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q16",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Who among the following wrote “Tarikh-i-Shershahi”?",
+    "options": [
+      "Abbas Khan Sherwani",
+      "Mulla Daud",
+      "Ziauddin Barni",
+      "Nizamuddin Ahmed"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Abbas Khan Sherwani”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q17",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Where did Muhammad Bin Tughluq die?",
+    "options": [
+      "Doad",
+      "Kaithal",
+      "Jaunpur",
+      "Thatta"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Thatta”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q18",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Who among the following Britishers was associated with the introduction of the Mahalwari system?",
+    "options": [
+      "Robert Reid",
+      "R.M. Bird",
+      "John Lawrence",
+      "William Carey"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “R.M. Bird”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q19",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "With reference to literary works during the Sultanate period, consider the following. **AuthorBook** (i)Al Biruni:Kitab-ul-Hind (ii)Firoz Shah:Taj-ul-Maathir (iii)Ibn Battuta:Kitab-ul-Rehla Which of the above pairs are correct?",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and and (iii)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q20",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "With reference to Aurangzeb’s religious policies, consider the following statements. (i)He forbade the inscription of the kalma on coins. (ii)He revived the celebration of the festival of Nauroz. (iii)He appointed Muhtasibs to promote the Sharia laws. (iv)He reintroduced Jizyah. Which of the above are correct?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(i), (ii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(ii), (iii) and (iv) only CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q21",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "What are the correct statements with reference to the Swadeshi Movement? (i)The famous Boycott Resolution was passed even before the formal proclamation of the Swadeshi Movement. (ii)Students, women and a large section of the urban and rural population participated. (iii)Indian National Congress supported the Boycott movement. Select the answer using the code given below.",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q22",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements are correct in respect of the three Round Table Conferences held during 1930-1932? (i)Indian National Congress boycotted two of the three Round Table Conferences. (ii)Mahatma Gandhi attended the First Round Table Conference. (iii)Sarojini Naidu participated in the Second Round Table Conference. Select the answer using the code given below.",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q23",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following points with reference to August Offer, 1940. (i)Dominion status to India. (ii)Establishment of linguistic provinces. (iii)Expansion of the Viceroy’s Executive Council. (iv)Institution of joint electorates with reserved seats for minorities. Which of the above features are correct?",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(i) and (iv) only",
+      "(ii) and (iv) only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q24",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which metal was not known to the people of Indus Valley Civilization?",
+    "options": [
+      "Copper",
+      "Bronze",
+      "Iron",
+      "Gold"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Iron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q25",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Vedic people primarily worshipped:",
+    "options": [
+      "Idols",
+      "Nature",
+      "Buddha",
+      "Mahavira"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Nature”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q26",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The earliest composition among the four Vedas is:",
+    "options": [
+      "Sama Veda",
+      "Rig Veda",
+      "Yajur Veda",
+      "Atharva Veda"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rig Veda”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q27",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Indian monsoon is fundamentally characterized by:",
+    "options": [
+      "Constant easterly winds",
+      "Seasonal reversal of winds",
+      "Permanent high-pressure systems",
+      "Continuous rainfall throughout the year"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Seasonal reversal of winds”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q28",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "What is the regional name for the section of the Eastern Coastal Plains between the Mahanadi and Krishna rivers?",
+    "options": [
+      "Malabar Coast",
+      "Konkan Coast",
+      "Carnatic",
+      "Northern Circars Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Northern Circars Paper-I (A)CSP : 25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q29",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Durg-Bastar-Chandrapur Belt is a major region for the production of which type of Iron Ore?",
+    "options": [
+      "Siderite",
+      "Limonite",
+      "Hematite",
+      "Magnetite"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Hematite”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q30",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Western Ghats are also known as:",
+    "options": [
+      "Shiwaliks",
+      "Sahyadri",
+      "Vindhyas",
+      "Karakoram"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sahyadri”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q31",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which is the only landlocked country in Southeast Asia?",
+    "options": [
+      "Thailand",
+      "Laos",
+      "Malaysia",
+      "Vietnam"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Laos”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q32",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following pairs: AB (i)Nebular HypothesisHoyle and Laplace (ii)Tidal HypothesisJeans and Jeffreys (iii)Gaseous HypothesisDavis (iv)Planetesimal HypothesisChamberlin and Moulton Which of the above pairs is/ are correctly matched?",
+    "options": [
+      "Only (i), (ii) and (iii) are correct",
+      "Only (ii) and (iii) are correct",
+      "Only (ii) and (iv) are correct",
+      "Only (i) and (iv) are correct"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Only (ii) and (iv) are correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q33",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements is/ are correct? (i)Jet streams are formed by temperature differences between air masses. (ii)In the Northern hemisphere, currents are deflected to the right due to Coriolis force. (iii)Very strong and cold icy winds that blow in the polar and  mountainous regions are called blizzards.",
+    "options": [
+      "Only (i) is correct",
+      "Only (i) and (ii) are correct",
+      "Only (ii) and (iii) are correct",
+      "All are correct"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All are correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q34",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements is/ are correct? (i)The magnitude of earthquakes is measured on Richter scale. (ii)The longest mountain range in the world is Himalayas. (iii)The Himalayas are formed due to folding of a geo-syncline called Tethys.",
+    "options": [
+      "(i) and (ii) are correct",
+      "(i) and (iii) are correct",
+      "(ii) and (iii) are correct",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i) and (iii) are correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q35",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following channels: (i)8° channel passes between Maldives and Minicoy. (ii)9° channel separates Minicoy from Lakshadweep. (iii)10° channel separates  Andaman from Nicobar Islands. Which of the above statement(s) is/ are correct?",
+    "options": [
+      "(i), (ii) and (iii)",
+      "(i) and (ii) only",
+      "(iii) only",
+      "(ii) and (iii) only CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q36",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following pairs: RiverSource (i)SutlejGangotri Glacier (ii)JhelumVerinag (iii)BeasNear Rohtang Pass (iv)ChenabBara Lacha Pass Which of the above pairs is/ are incorrectly matched?",
+    "options": [
+      "Only (i)",
+      "Only (ii)",
+      "(ii) and (iii) only",
+      "Only (i) and (iv)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only (i)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q37",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following descriptions: (i)Annual rainfall is more than 100 cm. (ii)Average temperate is about 22° C. (iii)They are generally found in Western Ghats and Northeast India. (iv)Mahagony, Bamboo, canes, ironwood, rubber are the major species. What is this type of forest in India?",
+    "options": [
+      "Tropical Moist Deciduous Forest",
+      "Tropical Dry Deciduous Forest",
+      "Tropical Evergreen Forest",
+      "Mountainous Forest"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q38",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following pairs: (i)MundasArunachal Pradesh (ii)BhilsRajasthan (iii)KhasUttarakhand (iv)IrulaBihar Which of the above is/ are correctly matched?",
+    "options": [
+      "(ii) and (iii) only",
+      "(i) and (iv) only",
+      "(ii), (iii) and (iv) only",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q39",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).",
+    "options": [
+      "and the other as Reason (R). Assertion (A) :According to the Constitution of India, the same person cannot function as the Governor of two or more States at the same time. State. (a)Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is false, but (R) is true.",
+      "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "(A) is true, but (R) is false."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(A) is false, but (R) is true.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q40",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is not a part of Article 20 of the Constitution of India?",
+    "options": [
+      "Prohibition against Torture",
+      "Prohibition against Self Incrimination",
+      "Ex-post Facto Law",
+      "Double Jeopardy Clause Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Prohibition against Torture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q41",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Substantive Public Policies are those which- (i)Plan to get things done. (ii)Allocate resources/services to particular segments of larger society. (iii)Directly distribute benefits or costs to citizens. (iv)Impose restrictions on behaviours. Which of the following is/are correct?",
+    "options": [
+      "(i), (ii), (iii) and (iv)",
+      "(iii) only",
+      "(ii) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i), (ii), (iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q42",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements- (i)The National Human Rights Commission came into force on 12th October 1993 through a Government notification under the Protection of Human Rights Act, 1993. (ii)The National Human Rights Commission investigate complaints of human rights violation or negligence by public servants. (iii)The National Human Rights Commission promote human rights literacy and awareness. (iv)The National Human Rights Commission has judicial power to ensure compliance. Which of the above statements are correct?",
+    "options": [
+      "(i), (ii) and (iii)",
+      "(i), (ii) and (iv)",
+      "(i), (ii), (iii) and (iv)",
+      "(i) and (ii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q43",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following with regard to the writ of Certiorari- (i)Writ of certiorari is issued both during the pendency of proceedings and after the order or decision has been announced. (ii)It is issued only during the pendency of proceedings. (iii)It is issued against legal bodies. (iv)It is issued only after the order or decision has been announced. Which of the above statements are correct?",
+    "options": [
+      "(i) and (iii)",
+      "(ii) and (iii)",
+      "(iii) and (iv)",
+      "(i) only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q44",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Constitution (Eighty-Sixth Amendment) Act, 2002 resulted in the insertion of:",
+    "options": [
+      "Article 21A",
+      "Article 17",
+      "Article 6",
+      "Article 26B"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 21A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q45",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which among the following laid the founding step for democratic decentralization and local self-governing institutions in India?",
+    "options": [
+      "Ministry of Panchayati Raj",
+      "Mayo’s Resolution",
+      "Ripon’s resolution",
+      "Montfort Reforms"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ripon’s resolution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q46",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The roadmap for India’s development by 2047 was provided by Prime Minister Narendra Modi through:",
+    "options": [
+      "NITI Ayog",
+      "Viksit Bharat",
+      "Make in India",
+      "Pradhan Mantri Awaas Yojana"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Viksit Bharat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q47",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "What are the three tiers of the Panchayati Raj system in India?",
+    "options": [
+      "Block, District, State",
+      "Grassroot, District, State",
+      "Local, District, Region",
+      "Village, Block, District CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Village, Block, District CSP : 25Paper-I (A)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q48",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Human trafficking is prohibited by the Indian Constitution through:",
+    "options": [
+      "Article 21",
+      "Article 23",
+      "Article 24",
+      "Article 32"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 23”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q49",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The introduction of motion of “No confidence” requires the minimal support of:",
+    "options": [
+      "35 members of the Lok Sabha",
+      "40 members of the Rajya Sabha",
+      "50 members of the Lok Sabha",
+      "60 members of both houses of the Parliament"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “50 members of the Lok Sabha”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q50",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The largest bench constituted by the Supreme Court of India was for the trial of which of the following case:",
+    "options": [
+      "Kesavananda Bharti case",
+      "Golaknath case",
+      "Women Rao case",
+      "Mc Mehta and the Union of India"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kesavananda Bharti case”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q51",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The phenomenon where a person is employed below their skill level is known as:",
+    "options": [
+      "Structural unemployment",
+      "Frictional unemployment",
+      "Cyclical unemployment",
+      "Underemployment"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Underemployment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q52",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements best describes the term ‘Labour Force’?",
+    "options": [
+      "Only people who are currently employed.",
+      "Only unemployed people looking for work.",
+      "Both people who are working and those who are looking for work.",
+      "People in formal jobs only."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both people who are working and those who are looking for work.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q53",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Multidimensional Poverty Index (MPI) is designed to measure poverty based on:",
+    "options": [
+      "Multiple deprivations in health, education, and living standards.",
+      "Income, consumption expenditure and employment status.",
+      "Income and consumption expenditure only.",
+      "Food and shelter availability."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Multiple deprivations in health, education, and living standards.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q54",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "‘Churning poor’ in the context of poverty refers to:",
+    "options": [
+      "Individuals who frequently move in and out of poverty due to vulnerable livelihoods.",
+      "Individuals who are always below the poverty line and depend entirely on government assistance.",
+      "Individuals that have recently escaped poverty and are unlikely to fall back.",
+      "Urban homeless populations with no formal identity or income records."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Individuals who frequently move in and out of poverty due to vulnerable livelihoods.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q55",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements with reference to CIBIL Score: (i)It is a banker’s assessment which tells the client’s financial health. (ii)It stand for Credit Index Bureau India Limited. (iii)It is a 3-digit numeric summary of client’s credit history. (iv)The closer the client’s score is to 900, the higher are the chances of his/her getting loan/credit card. Which of the above statement(s) is/are correct?",
+    "options": [
+      "(i), (ii) & (iii) only",
+      "(i), (iii) & (iv) only",
+      "(ii), (iii) & (iv) only",
+      "(i), (ii), (iii) &  (iv)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (iii) & (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q56",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which period in India’s demographic history is marked by a sharp decline in mortality and persistently high fertility rates?",
+    "options": [
+      "Phase I (1901–1921)",
+      "Phase II (1921–1951)",
+      "Phase III (1951–1981)",
+      "Phase IV (1981–2001) Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Phase III (1951–1981)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q57",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The term ‘Demographic Gap’ signifies:",
+    "options": [
+      "The difference between the birth rate and death rate of a population.",
+      "The difference between the birth rate and infant mortality rate of a population.",
+      "The gap in population growth between urban and rural areas.",
+      "The age gap between the youngest and oldest members of a population."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The difference between the birth rate and death rate of a population.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q58",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "In the context of the Reserve Bank of India’s (RBI) monetary policy operations, a sustained period of increasing Repo Rate is generally expected to have which of the following effects on the Indian economy? (i)Dampen demand-pull inflation by increasing the cost of borrowing and investment. (ii)Reduce the net interest margin (NIM) of commercial banks that rely heavily on deposits for funding. (iii)Lead to an appreciation of the Indian Rupee against major global currencies. (iv)Encourage a shift in household savings from market-linked instruments to bank fixed deposits. Select the correct answer using the code given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i), (iii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q59",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following potential effects on economic development when the central bank decides to lower the Cash Reserve Ratio (CRR) in a developing economy: (i)It is likely to inject additional liquidity into the banking system, potentially increasing banks’ capacity for credit creation. (ii)It could lead to a reduction in market interest rates, making borrowing cheaper for businesses and consumers. (iii)It might stimulate aggregate demand, potentially leading to increased investment and consumption. (iv)It invariably guarantees a rapid acceleration of real economic growth by ensuring optimal allocation of credit to productive sectors. Which of the statements given above are conceptually sound effects of lowering CRR, but not necessarily a guaranteed outcome in all economic contexts?",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (ii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i), (ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q60",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The umbrella scheme ‘Mission Shakti’ represents an integrated approach to women’s empowerment. Which of the following best analyzes the logic behind its two sub-schemes , ‘Sambal’ and ‘Samarthya’?",
+    "options": [
+      "‘Sambal’ focuses on providing economic empowerment to women through skill development and financial inclusion, while ‘Samarthya’ focuses on ensuring their safety and legal rights.",
+      "‘Sambal’ is a protection-oriented component aimed at the safety and security of women, while ‘Samarthya’ is an empowerment-oriented component focused on enabling women’s self-reliance.",
+      "‘Sambal’ deals with the health and nutrition of women and children, while ‘Samarthya’ provides them with educational opportunities.",
+      "Both ‘Sambal’ and ‘Samarthya’ are primarily focused on providing shelter and rehabilitation to women in distress, but ‘Sambal’ is for rural areas and ‘Samarthya’ is for urban areas. CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “‘Sambal’ is a protection-oriented component aimed at the safety and security of women, while ‘Samarthya’ is an empowerment-oriented component focused on enabling women’s self-reliance.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q61",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the expenditure priorities and allocations in the Mizoram Budget 2025-26: (i)The largest portion of the total estimated expenditure is allocated to the Economic Services Sector, which includes flagship schemes like “Mizoram Bana Kaih”. (ii)The government has increased the budget for the Health Care Scheme by allocating additional funds from the state’s resources, over and above the revenue typically generated from the State Lottery. (iii)The allocation for Power Purchase has been increased, while the allocation for Power Subsidy has been reduced for the fiscal year 2025-26 compared to the current year. Which of the statements given above is/are correct?",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q62",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Considering the financial allocations presented in the ‘Rupee Goes To’ section of the Budget 2025- 2026, which of the following inferences about the government’s spending priorities can be logically drawn? (i)The largest share of government expenditure is directed towards meeting its mandatory financial commitments rather than direct developmental or welfare schemes. (ii)Defence spending, while substantial, is less than half of the allocation for the ‘Central Sector Scheme’ (excluding capital outlay on Defence and Subsidy). (iii)Transfers to States and Union Territories (including their share of taxes and duties, Finance Commission transfers, and Centrally Sponsored Schemes) collectively represent a larger portion of expenditure than all direct central government schemes and other operational expenses combined. Select the correct answer using the code given below:",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q63",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which one of the following describes not only the physical space occupied by an organism, but also its functional role in the community of organisms?",
+    "options": [
+      "Ecotone",
+      "Home Range",
+      "Habitat",
+      "Ecological niche"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ecological niche”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q64",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following organisms- (i)Bat(ii)Bee (iii)Bird Which of the above is/are pollinating agent/agents?",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q65",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is not a feature of ‘carbon credits’?",
+    "options": [
+      "The system was ratified in conjunction with Kyoto Protocol.",
+      "They are traded at a fixed price under the UNEP.",
+      "They are awarded to countries that have reduced their greenhouse gas below their emission quota.",
+      "The goal is to limit the increase of carbon emission quota."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “They are traded at a fixed price under the UNEP.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q66",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "According to the Central Pollution Control Board, what is the noise limit for residential areas during the day?",
+    "options": [
+      "50dB",
+      "55dB",
+      "65dB",
+      "70dB Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “55dB”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q67",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which among the following is related to poultry farming?",
+    "options": [
+      "Silver Revolution",
+      "Grey Revolution",
+      "Pink Revolution",
+      "Golden Revolution"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Silver Revolution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q68",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is not one of the Sustainable Development Goals?",
+    "options": [
+      "Life below water",
+      "Life on land",
+      "Life on Air",
+      "Climate action"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Life on Air”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q69",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is not helpful in maintaining ecological stability?",
+    "options": [
+      "Ecosystem diversity",
+      "Homeostatic mechanism",
+      "Ecosystem complexity",
+      "Ecosystem uniformity"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ecosystem uniformity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q70",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "An ecological succession which begins on a place rich in inorganic contents but poor in organic contents is called-",
+    "options": [
+      "Autotrophic succession",
+      "Heterotrophic succession",
+      "Allogenic succession",
+      "Secondary succession"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Autotrophic succession”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q71",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is/are not true in connection with the United Nations Conference on Environment and Development? (i)It was held in Stockholm, Sweden. (ii)It was held in the year 1992. (iii)The UN Framework Convention on Climate Change was established. (iv)It paved the way for similar conventions such as the Kyoto Protocol.",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(i) and (iv) only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q72",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements is true of ‘carrying capacity of an ecosystem’?",
+    "options": [
+      "The number of organisms that can be carried for one year.",
+      "The number of endemic species an ecosystem can support without degradation.",
+      "The number of organisms of a species that can be sustainably supported.",
+      "The number of exotic species that exists in an ecosystem."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The number of organisms of a species that can be sustainably supported.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q73",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following is a secondary air pollutant?",
+    "options": [
+      "Ozone",
+      "Carbon monoxide",
+      "Sulphur oxides",
+      "Nitrogen oxides"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ozone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q74",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which of the following statements is/are true of ‘Earth Hour’? (i)It is an initiative of the United Nations Environment Programme. (ii)Participants switch off the lights for one hour on a certain day every year. (iii)The aim is to raise awareness on climate change and need for energy convention. (iv)It is observed only in India",
+    "options": [
+      "(i) only",
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(ii) and (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q75",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The conversion of glucose to glycogen is mediated by an enzyme called-",
+    "options": [
+      "glycogen synthase",
+      "glucose phosphatase",
+      "glycogen phosphorylase",
+      "glycogen phosphatase CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “glycogen synthase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q76",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The function of the human kidney is - I.Removing waste and excess fluid from the body II.The functional unit is nephron Which of the above statements is/are correct?",
+    "options": [
+      "Only I is correct",
+      "Only II is correct",
+      "Both I and II are correct",
+      "Both I and II are not correct"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both I and II are correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q77",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Suicidal bag of the cell is- I.ribosomes II.suicidal bag contains hydrolytic enzymes Which of the above statements is/are correct?",
+    "options": [
+      "Only I is correct",
+      "Only II is correct",
+      "Both I and II are correct",
+      "Both I and II are not correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Only II is correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q78",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Amphibians of the plant kingdom are-",
+    "options": [
+      "Algae",
+      "Bryophytes",
+      "Pteridophytes",
+      "Gymnosperms"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bryophytes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q79",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which one of the following fruits is parthenocarpic?",
+    "options": [
+      "Banana",
+      "Jackfruit",
+      "Apple",
+      "Brinjal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Banana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q80",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Red light is used in traffic signals because-",
+    "options": [
+      "it is beautiful",
+      "it has the shortest wavelength",
+      "it has the longest wavelength",
+      "it is visible to people even with bad eyesight"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “it has the longest wavelength”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q81",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Atoms of different elements having the same mass number but different atomic numbers are called-",
+    "options": [
+      "Isotopes",
+      "Isotones",
+      "Isobars",
+      "Isotherms"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Isobars”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q82",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "What is the process of Sublimation?",
+    "options": [
+      "Solid changes into vapours state",
+      "Solid changes into Liquid state",
+      "Liquid changes into vapours state",
+      "Liquid changes into solid state"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Solid changes into vapours state”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q83",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "In which of the medium do sound waves travel the fastest?",
+    "options": [
+      "Gaseous medium",
+      "Liquid",
+      "Solid",
+      "Vacuum"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Solid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q84",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Light can travel through vacuum while sound cannot do so. (ii)The speed of light in vacuum is a constant. (iii)Light year is a unit for measuring distance. Which of the following statements is/are true?",
+    "options": [
+      "(i) and (ii) only",
+      "(i) and (iii) only",
+      "(ii) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii) and (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q85",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "World Environment Day was first observed on-",
+    "options": [
+      "5th June, 1971",
+      "5th June, 1972",
+      "5th June, 1973",
+      "5th June, 1974 Paper-I (A)CSP : 25"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “5th June, 1973”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=13",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q86",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "An example of ex-situ conservation is-",
+    "options": [
+      "Sacred grove",
+      "National park",
+      "Seed bank",
+      "Wildlife sanctuary"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Seed bank”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q87",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Fathang is the due payable to a Chief by each household or family in kind or cash. (ii)Sachhiah is the due payable to a Chief by anyone who shoots or traps a wild animal. (iii)Ramhual are the people who advise a Chief where fish should be caught. Select the correct answer using the codes given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “(i) and (ii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q88",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Chief Zakapa Fanai defeated the British force led by CS Murray at Khawhri in-",
+    "options": [
+      "1889",
+      "1890",
+      "1891",
+      "1892"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1891”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q89",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which Mizo Chiefs defeated the British force of Sylhet Column on the bank of Tut river near Kawkpui village in March 1869?",
+    "options": [
+      "Lalsuthlaha and Ngura",
+      "Suakpuilala and Vanhnuaithangi",
+      "Rothangpuia and Lalchheuva",
+      "Lianphunga and Kalkhama"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Suakpuilala and Vanhnuaithangi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q90",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Which article was presented by ladies to men who returned with enemies’ heads from their head hunting?",
+    "options": [
+      "Chhawndawl",
+      "Arkeziak",
+      "Hranghrual",
+      "Lenchhawn"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Arkeziak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q91",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The word Lushai was altered to Mizo with effect from 1.9.1954 by an Act of Parliament No ______ of 1954.",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “18”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q92",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The price for a wife, paid to the bride’s nearest male relative on the father’s side is-",
+    "options": [
+      "Manpui",
+      "Pusum",
+      "Palal",
+      "Niman"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Manpui”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q93",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The Conference of Chiefs of Mizo in April, 1942 held at Aizawl declared war on:",
+    "options": [
+      "Japan",
+      "Germany",
+      "France",
+      "Assam"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Japan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q94",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Kawngpui Siam is performed to get luck in hunting. (ii)Fano Dawi is performed to ensure good crops. (iii)Mitthirawp Lam is a feast and dance in honour of the spirits of a man’s ancestors. Select the correct answer using the codes given below:",
+    "options": [
+      "(i) and (ii) only",
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(i), (ii) and (iii) CSP : 25Paper-I (A)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii) and (iii) CSP : 25Paper-I (A)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=14",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q95",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Pasal\\ha Khuangchera is not only known for his bravery but also his strength and righteousness that won over the hearts of the people. (ii) He was killed while trying to resist the advancing British troops in 1890, which marked the British conquest of the Lushai Hills. (iii)He is known as the first Mizo freedom fighter to have sacrificed his life, after Lalnu Ropuiliani, fighting British imperialism. (iv)The region (New Mizoram) was formally incorporated into the British Empire in 1895. Which of the following is/are correct?",
+    "options": [
+      "(i), (ii) & (iii) only",
+      "(i), (ii) & (iv) only",
+      "(i), (iii) & (iv) only",
+      "(i), (ii), (iii) & (iv)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (ii) & (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q96",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The name Ngaihban Tlang was associated with one of Mizo Zai called-",
+    "options": [
+      "Laltheri Zai",
+      "Awithangpa Zai",
+      "Abor Run Zai",
+      "German Run Zai"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q97",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "According to Mizo mythology, who is the creator of the earth?",
+    "options": [
+      "Khuavang",
+      "Khuazingnu",
+      "Vanhrika",
+      "Thlanrawkpa"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Khuazingnu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q98",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "The peace agreement of The First Lushai Expedition was made between TH Lewin and Lalburha on-",
+    "options": [
+      "18th February, 1872",
+      "20th March, 1872",
+      "1st February, 1872",
+      "27th February, 1872"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “18th February, 1872”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q99",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Consider the following pairs: AB (i)JH Lorrain:Pu Buanga (ii)E. Rowlands:Zosaphluia (iii)DE Jones:Sap upa (iv)TH Lewin:Thangliana (v)FW Savidge:Zosapthara Which of the following statements is/are correct?",
+    "options": [
+      "only (i), (ii) & (iv) are correct",
+      "(i), (ii), (iii) & (iv) are correct",
+      "only (i) & (iv) are correct",
+      "(i), (iii), (iv) & (v) are correct"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “only (i) & (iv) are correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p1-Q100",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p1",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-I (General Studies)",
+    "difficulty": "medium",
+    "question": "Who was assigned to cure sickness and procure medicine in a traditional village?",
+    "options": [
+      "Sadawt",
+      "Bawlpu",
+      "Khawnbawl",
+      "Fathang"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bawlpu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p1.pdf#page=15",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q1",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is the main aim of Artificial Intelligence?",
+    "options": [
+      "To create machines that can perform all human tasks perfectly.",
+      "To develop computer systems that can mimic human intelligence and perform tasks that typically require human intelligence.",
+      "To replace all human workers with robots.",
+      "To create machines that are smarter than humans."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To develop computer systems that can mimic human intelligence and perform tasks that typically require human intelligence.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q2",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of the following is not included in an application of AI?",
+    "options": [
+      "Facial recognition",
+      "Self-driving cars",
+      "Traditional programming of software",
+      "Virtual assistants"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Traditional programming of software”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q3",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A machine learning can be:",
+    "options": [
+      "A type of AI that focuses on mimicking human emotions.",
+      "A subset of AI that enables systems to learn from data without explicit programming.",
+      "A field of AI that focuses on creating robots that can walk and talk.",
+      "A type of AI that focuses on creating human-like consciousness."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A subset of AI that enables systems to learn from data without explicit programming.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q4",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is a potential ethical concern related to AI?",
+    "options": [
+      "Increased efficiency in various industries.",
+      "Reduced costs for businesses.",
+      "Bias in algorithms leading to unfair outcomes.",
+      "Faster processing speeds for computers."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bias in algorithms leading to unfair outcomes.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q5",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is one of the main benefits of AI in healthcare?",
+    "options": [
+      "Reduced accuracy in medical diagnoses.",
+      "Slower processing of medical data.",
+      "Early disease detection and personalized medicine.",
+      "Increased cost of healthcare. CSP : 25- 2 -Paper-II (A)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Early disease detection and personalized medicine.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 1 - 5): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q6",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What can be a potential drawback of unchecked solitude?",
+    "options": [
+      "Enhanced social skills.",
+      "Increased feelings of isolation and loneliness.",
+      "Greater self-awareness.",
+      "Improved creativity."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Increased feelings of isolation and loneliness.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q7",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "How can solitude be a source of rejuvenation?",
+    "options": [
+      "Recharges mental and emotional batteries.",
+      "Lightens intense social work.",
+      "Lightens demanding work by peaceful thoughts.",
+      "Intense social and demanding work are done peacefully."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Recharges mental and emotional batteries.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q8",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is the role of solitude in creative work?",
+    "options": [
+      "It is not necessary for creative work.",
+      "It is a crucial element for inspiration and innovation.",
+      "It can be a hindrance to creative output.",
+      "It is only relevant for certain types of art."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It is a crucial element for inspiration and innovation.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q9",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "How can an individual cultivate a sense of well-being and fulfillment?",
+    "options": [
+      "Engaging in meaningful conversations with loved ones.",
+      "Engaging in activities that promote both solitude and social connection.",
+      "Spending time in nature, pursuing hobbies.",
+      "Finding a healthy balance between time alone and social interaction. Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Engaging in activities that promote both solitude and social connection.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 6 - 9): Read the given passage and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q10",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is described as social media’s “dual nature” in the text?",
+    "options": [
+      "Being both free and expensive to use.",
+      "Offering both connection opportunities and mental health challenges",
+      "Being both audio and visual.",
+      "Having both written and unwritten format."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Offering both connection opportunities and mental health challenges”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q11",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "How has social media affected business marketing?",
+    "options": [
+      "Made it impossible for small businesses to compete.",
+      "Eliminated lack of opportunities for women.",
+      "Levelled the playing field between small and large businesses.",
+      "Removed the need for physical money. CSP : 25- 4 -Paper-II (A)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Levelled the playing field between small and large businesses.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q12",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of these is not mentioned as a political impact of social media?",
+    "options": [
+      "Amplifying grassroots movements.",
+      "Enabling voter manipulation through misinformation.",
+      "Completely replacing traditional news media.",
+      "Creating ideological echo chambers."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Completely replacing traditional news media.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q13",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What cultural concern about social media is specifically mentioned?",
+    "options": [
+      "Making all entertainment too irrational.",
+      "Decreasing attention spans through short-form content.",
+      "Eliminating celebrity culture completely.",
+      "Making all content for adults only."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Decreasing attention spans through short-form content.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q14",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "_________ will influence social media’s future development.",
+    "options": [
+      "Government shutdown of all platforms.",
+      "Technological advances and regulatory responses.",
+      "Complete abandonment by younger users.",
+      "Return to only text-based communication."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Technological advances and regulatory responses.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Questions Nos. 10 - 14): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q15",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "_________  is crucial for women’s empowerment, as it allows them to escape dependency.",
+    "options": [
+      "Interest in working",
+      "Financial independence",
+      "Leadership roles",
+      "Excessive government support"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Financial independence”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q16",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Choose the synonym of the word “disproportionately”:",
+    "options": [
+      "unreasonably",
+      "vaguely",
+      "loosely",
+      "imprecisely Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “unreasonably”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q17",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is essential for achieving true gender equality?",
+    "options": [
+      "Limiting women’s education.",
+      "Engaging men as allies in empowerment efforts.",
+      "Encouraging women to avoid leadership roles.",
+      "Ignoring cultural norms virtual world."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Engaging men as allies in empowerment efforts.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 15 - 17): Read the following passage carefully and answer the questions"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q18",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "John’s horse is of an excellent _________.",
+    "options": [
+      "Brood",
+      "Steed",
+      "Breed",
+      "Stood"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Breed”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q19",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Smoking _________ health.",
+    "options": [
+      "Effects",
+      "Kills",
+      "Rejects",
+      "Affects"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Affects”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q20",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "At first, there were some _________ with the software, but its okay now.",
+    "options": [
+      "Pitfalls",
+      "Impediments",
+      "Ordeal",
+      "Snags"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Snags”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q21",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "An economist was quoted as saying that the Cost Index (CI) will go up next month because of a recent increase in the price of fruit and vegetables. Which of the following cannot be inferred from the statement?",
+    "options": [
+      "The cost of fruits and vegetables has risen sharply.",
+      "Consumers have decreased their consumption of fruits and vegetables.",
+      "The cost of fruit and vegetable is a major item in the CI.",
+      "Food cost changes are reflected quickly in the CI."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Consumers have decreased their consumption of fruits and vegetables.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q22",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The major obstacle to effective interpersonal communication includes:",
+    "options": [
+      "Defensiveness",
+      "Accusations",
+      "Alternatives",
+      "Memory"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Defensiveness”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q23",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of the followings are/is non-verbal communication examples? (i)Blushing (ii)Crying (iii)Kinesics (iv)Laughter",
+    "options": [
+      "(iii) only",
+      "(i), (ii) and (iv) only",
+      "(ii) and (iv) only",
+      "(i), (ii), (iii) and (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (ii), (iii) and (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q24",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "One characteristic of an abusive boss is:",
+    "options": [
+      "Inability to take feedback",
+      "Introvert",
+      "Decisiveness",
+      "Praising others"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Inability to take feedback”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q25",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The accommodating approach of conflict management is:",
+    "options": [
+      "Satisfies the other party’s concern while neglecting one’s own.",
+      "Satisfies one’s own needs at the expense of the needs of other individual.",
+      "Neglects the interest of both parties.",
+      "Obtaining partial satisfaction for both the parties. CSP : 25Paper-II (A)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Satisfies the other party’s concern while neglecting one’s own.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q26",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The attribute of supportive communication is:",
+    "options": [
+      "Congruent",
+      "Evaluative",
+      "Global",
+      "Disjunctive"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Congruent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q27",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Interpersonal Skills include:",
+    "options": [
+      "Being able to make the correct decisions",
+      "Effective communication",
+      "Understanding oneself",
+      "Mimicking people’s behavior"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Effective communication”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q28",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of the following is not a barrier to effective communication?",
+    "options": [
+      "Use of jargon",
+      "Gender",
+      "Language",
+      "Prejudice"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gender”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q29",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Cultural difference may present a unique barrier to communication because:",
+    "options": [
+      "regional colloquialisms and expressions may be misinterpreted or even considered offensive.",
+      "there may be use of unnecessarily complex language.",
+      "verbal cues may not be visible to the speakers.",
+      "the speakers may be distracted or inattentive."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “regional colloquialisms and expressions may be misinterpreted or even considered offensive.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q30",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Being able to put oneself in someone else’s situation is called:",
+    "options": [
+      "Persuasion",
+      "Leadership",
+      "Active Listening",
+      "Empathy"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Empathy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q31",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A powerful personal quality that some people have to attract and impress other people is:",
+    "options": [
+      "Conscientiousness",
+      "Agreeableness",
+      "Extraversion",
+      "Charisma"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Charisma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q32",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "_________ means to state something written or spoken in different words, especially in a shorter and simpler form to make the meaning clearer.",
+    "options": [
+      "Paraphrasing",
+      "Questioning",
+      "Active Listening",
+      "Emotions"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Paraphrasing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q33",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Assertiveness is a very powerful interpersonal skill which includes:",
+    "options": [
+      "Being able to openly express thoughts and opinions.",
+      "Being able to put oneself in the shoe of other people.",
+      "Being able to lead effectively and inspire others.",
+      "Being able to achieve one’s goals."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Being able to openly express thoughts and opinions.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q34",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "An important skill where a person is able to look back at previous behaviour/actions and learn from them is known as:",
+    "options": [
+      "Empathy",
+      "Mirroring",
+      "Active Listening",
+      "Reflective Skill"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Reflective Skill”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q35",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Three of the following words are similar in a certain way. Pick the odd one out:",
+    "options": [
+      "Hexagon",
+      "Hendecagon",
+      "Heptagon",
+      "Pentagon"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hexagon”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q36",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In a certain code ‘POTASSIUM’ is written as ‘PoTassium’. How is ‘GRAPHITE’ written in that code?",
+    "options": [
+      "GrAphItE",
+      "GrApHiTe",
+      "gRaPHiTe",
+      "GRAphiTE"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “gRaPHiTe”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q37",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In a certain code ‘PROBLEM’ is written as ‘PORLBME’. How can ‘IDENTIFY’ be written in that code?",
+    "options": [
+      "IFEDNITY",
+      "IETDNYFI",
+      "INFYEDIT",
+      "IEDTNFIY Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “IEDTNFIY Paper-II (A)CSP : 25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q38",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "K is the son of A’s mother’s sister. Q is daughter of D, who is the father of G and grandfather of A. P is the Daughter of H who is grandmother of K. D is husband of H and G is husband of L. How is K related to A?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Daughter",
+      "Cousin"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cousin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q39",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Find the odd one out:",
+    "options": [
+      "35",
+      "63",
+      "54",
+      "42"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “54”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q40",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In a row of  21 girls, Rini was shifted by four places towards the right, now she becomes 12th from the left end. What was her earlier position from the right end of the row?",
+    "options": [
+      "10th",
+      "12th",
+      "14th",
+      "8th"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “14th”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q41",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "**Statements** I.All roads are black. II.No black is a house. **Conclusions** I.Some roads are houses. II.Some houses are black.",
+    "options": [
+      "If only conclusion I follows",
+      "If only conclusion II follows",
+      "If either conclusion I or II follows",
+      "If neither I nor II follow"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “If neither I nor II follow”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q42",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "**Statements** I.All fish are tadpole. II.No tadpole is a crocodile. **Conclusions** I.All tadpole is a fish. II.No fish is a crocodile.",
+    "options": [
+      "If only conclusion I follows",
+      "If only conclusion II follows",
+      "If either conclusion I or II follows",
+      "If neither I nor II follow"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “If only conclusion II follows”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q43",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "**Statements** I.No bat is ball. II.No ball is brown. **Conclusions** I.No bat is brown. II.All browns are bats.",
+    "options": [
+      "If only conclusion I follows",
+      "If only conclusion II follows",
+      "If either conclusion I or II follows",
+      "If neither I nor II follow Paper-II (A)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “If neither I nor II follow Paper-II (A)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q44",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "**Statements** I.Some books are toys. II.No toy is blue. **Conclusions** I.Some books are blue. II.Some toys are books.",
+    "options": [
+      "If only conclusion I follows",
+      "If only conclusion II follows",
+      "If either conclusion I or II follows",
+      "If neither I nor II follow"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “If only conclusion II follows”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 41 - 44): In each question given below are two statements followed by two"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q45",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Assertion (A) Tides indicate the regular and periodic rise and fall in sea level.",
+    "options": [
+      "Tides indicate the regular and periodic rise and fall in sea level. (a)Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tides indicate the regular and periodic rise and fall in sea level. (a)Both A and R are true and R is the correct explanation of A.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q46",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Assertion (A) Most of the Himalayan rivers are perennial.",
+    "options": [
+      "Most of the Himalayan rivers are perennial. (a)Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Most of the Himalayan rivers are perennial. (a)Both A and R are true and R is the correct explanation of A.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q47",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Assertion (A) Glaciers are melting at a faster speed.",
+    "options": [
+      "Glaciers are melting at a faster speed. (a)Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Both A and R are true but R is not the correct explanation of A.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question Nos. 45 - 47): Choose the correct alternatives from the following options as"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q48",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "I. The prices of petroleum products dropped marginally last week. II. The State government reduced the tax on petroleum products last week.",
+    "options": [
+      "If statement I is the cause and statement II is its effect.",
+      "If statement II is the cause and statement I is its effect.",
+      "If both the statements I and II are independent causes.",
+      "If both the statements I and II are effects of independent causes. Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “If statement II is the cause and statement I is its effect.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q49",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "I. The government medical college has decided to increase the number of seats in undergraduate course from the next academic session. II. The government has decided to withdraw its grant from the government medical colleges from the next academic session.",
+    "options": [
+      "If statement I is the cause and statement II is its effect.",
+      "If statement II is the cause and statement I is its effect.",
+      "If both the statements I and II are independent causes.",
+      "If both the statements I and II are effects of independent causes."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “If statement II is the cause and statement I is its effect.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q50",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "I. Many employees of the company proceeded on a day’s leave on Friday. II. Both Thursday and Saturday were declared holiday by the company.",
+    "options": [
+      "If statement I is the cause and statement II is its effect.",
+      "If statement II is the cause and statement I is its effect.",
+      "If both the statements I and II are independent causes.",
+      "If both the statements I and II are effects of independent causes."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “If statement II is the cause and statement I is its effect.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 48 - 50): There are two statements below marked as I & II. These statements"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q51",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "An area is affected by severe flooding. You, as a District Magistrate, have limited resources. Which of the following should be your immediate priority?",
+    "options": [
+      "Repairing roads",
+      "Distributing food and water",
+      "Rebuilding houses",
+      "Organizing entertainment to lift people’s spirits"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Distributing food and water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q52",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You have a limited budget for a healthcare initiative. What is the crucial factor to consider when deciding which health programs to fund?",
+    "options": [
+      "Popularity of the program",
+      "Political backing",
+      "Program’s potential impact on public health",
+      "The novelty of the program"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Program’s potential impact on public health”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q53",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "An informal gathering occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an informal gathering?",
+    "options": [
+      "Debating Club meets on the first Sunday morning of every month.",
+      "After finding out about his salary raise, Jay and a few colleagues go out for a quick dinner after work.",
+      "Meena sends out 10 invitations for a bachelorette party she is giving for her elder sister.",
+      "Whenever she eats at a Chinese restaurant, Roop seems to run into Dibya."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “After finding out about his salary raise, Jay and a few colleagues go out for a quick dinner after work.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q54",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You find that a person whom you call your friend has been cheating you. What would you do?",
+    "options": [
+      "Break relations with him/her",
+      "Give him/her tit for tat.",
+      "Make him / her realise his/her mistake",
+      "Tell other friends about him / her."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Make him / her realise his/her mistake”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q55",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You have differences of opinion regarding the final report prepared by your subordinate that is to be submitted urgently. The subordinate is justifying the information given in the report. You would:",
+    "options": [
+      "convince the subordinate that he is wrong.",
+      "tell him to reconsider the results.",
+      "revise the report on your own.",
+      "tell him not to justify the mistake."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “tell him to reconsider the results.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q56",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You are handling a time-bound project. During the project review meeting, you find that the project is likely to get delayed due to lack of cooperation of the team members. You would:",
+    "options": [
+      "warn the team members for their non-cooperation.",
+      "look into reasons for non-cooperation.",
+      "ask for the replacement of team members.",
+      "ask for extension of time citing reasons. CSP : 25- 10 -Paper-II (A)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “look into reasons for non-cooperation.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q57",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A local thug (bad element) has started illegal construction on your vacant plot. He has refused your request to vacate and threatened you of dire consequences in case you do not sell the property at a cheap price to him. You would:",
+    "options": [
+      "sell the property at a cheap price to him.",
+      "go to the police for necessary action.",
+      "ask for help from your neighbours.",
+      "negotiate with the goon to get a higher price."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “go to the police for necessary action.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q58",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The sector where you are working for is to be included for a major restructure. Some posts will vanish; some roles will change and there will be some new opportunities created. The announcement has created some concern within the office, especially as it has been performing well up to this point. Your Head has arranged for a one-on-one meeting with everyone to discuss the restructure. You need to decide how best to prepare for the meeting. Which of the given statements must definitely be followed with reference to the information?",
+    "options": [
+      "spend time planning how accurately to convey your strengths so that your position is safe within",
+      "plan to ask questions about what new opportunities are available and how you can position yourself",
+      "aim to get as much information from your Head about the restructure: timescale and impact.",
+      "prepare a convincing case concerning why the company should not be included in the restructuring."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “spend time planning how accurately to convey your strengths so that your position is safe within”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q59",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You have been made responsible to hire boats at a short notice to be used for an area under flood. On seeing the price mentioned by the boat owners, you found that the lowest price was approximately three times more than the approved rate of the Government. You would:",
+    "options": [
+      "reject the proposal and immediately escalate the matter to higher authorities, requesting urgent",
+      "accept the lowest price as it is urgent.",
+      "make temporary verbal commitments with boat owners, hoping to resolve the pricing issue later.",
+      "threaten the boat owners about a possible cancellation of the license."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “reject the proposal and immediately escalate the matter to higher authorities, requesting urgent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q60",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of the following is the first step in any systematic problem-solving approach?",
+    "options": [
+      "Implementing the solution",
+      "Identifying the problem",
+      "Generating alternatives",
+      "Evaluating outcomes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Identifying the problem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q61",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You are tasked with distributing a limited amount of funds across five proposed development projects, each addressing important but varying community needs. Considering the budget constraints and the potential impact of each project, what would be the most logical and effective approach to allocate the resources?",
+    "options": [
+      "Distribute equally.",
+      "Prioritize based on need and impact.",
+      "Follow political recommendations.",
+      "Choose based on the popular opinion of the people."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Prioritize based on need and impact.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q62",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You’re asked to recommend one of two projects: one benefits a majority but harms the environment; the other is slower but sustainable. What would guide your decision?",
+    "options": [
+      "Immediate results that benefit majority at the initial stage.",
+      "Political gain.",
+      "Long-term social and environmental impact.",
+      "Ease of implementation. Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Long-term social and environmental impact.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q63",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You have been assigned to a rural region where deep-rooted traditional beliefs and practices are negatively impacting public health outcomes—such as resistance to medical treatment, unsafe childbirth practices, or reliance on unscientific remedies. As a responsible official, how would you effectively address the community’s resistance to change, while respecting their cultural values and ensuring the implementation of health-promoting practices?",
+    "options": [
+      "Enforce strict penalties.",
+      "Initiate awareness campaigns involving local leaders.",
+      "Ignore the practices.",
+      "Impose modern practices directly."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Initiate awareness campaigns involving local leaders.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q64",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In a given administrative scenario, you are confronted with a dilemma where rigid adherence to statutory rules may lead to significant humanitarian hardship. Which of the following principles should primarily guide your course of action as a civil servant?",
+    "options": [
+      "A balanced approach incorporating public interest, legal permissibility, and the principle of proportionality.",
+      "Literal interpretation of statutory provisions irrespective of context.",
+      "Prevailing public sentiment as reflected in media narratives.",
+      "Directives issued by political executives, even if not codified in administrative norms."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A balanced approach incorporating public interest, legal permissibility, and the principle of proportionality.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q65",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "You are an officer in charge of road safety in an urban area. A well-known political leader’s vehicle is repeatedly violating traffic rules, including signal jumping and driving on the wrong side. Your subordinate asks whether to issue a challan or ignore it due to political pressure. What should you do?",
+    "options": [
+      "Ignore the violation to maintain cordial political relations.",
+      "Issue the challan according to the law, documenting all evidence carefully.",
+      "Give a verbal warning instead of official action.",
+      "Refer the matter to your senior officer before taking action."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Issue the challan according to the law, documenting all evidence carefully.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q66",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "While managing a relief camp during a flood, you discover that one of your junior officers is diverting resources to his relatives. You have no concrete documentation yet but several verbal complaints. What is the best approach?",
+    "options": [
+      "Immediately confront the officer on the spot and demand an explanation.",
+      "Ignore the matter until written proof is obtained.",
+      "Discreetly monitor the officer’s activity, document irregularities, and initiate a confidential inquiry.",
+      "Alert the media to expose the officer’s misconduct."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Discreetly monitor the officer’s activity, document irregularities, and initiate a confidential inquiry.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q67",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A politician strongly recommends a candidate for appointment in a temporary government post under your supervision. The candidate is underqualified and others in the list are better suited. What should you do?",
+    "options": [
+      "Evaluate all candidates on merit and document the process transparently.",
+      "Appoint the recommended candidate to avoid political conflict.",
+      "Request the politician to send a better candidate.",
+      "Cancel the recruitment altogether."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Evaluate all candidates on merit and document the process transparently.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q68",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "CIRCLE is related to RICELC in the same way as SQUARE is related to:",
+    "options": [
+      "QSUERA",
+      "QUSERA",
+      "UQSAER",
+      "UQSERA"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “UQSERA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q69",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In code language, ASTARK is written as LBFMG and MOBILE is written as TNRSPJ. How is BLAME written in that code?",
+    "options": [
+      "TSFRJ",
+      "RPFTJ",
+      "NJFTP",
+      "TSFGJ CSP : 25- 12 -Paper-II (A)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “RPFTJ”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q70",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Choose the odd one out:",
+    "options": [
+      "HJN",
+      "JLP",
+      "PRU",
+      "QSW"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “PRU”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q71",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Who is good in Hockey, Cricket and Volleyball?",
+    "options": [
+      "Sachin",
+      "Kunal",
+      "Ravi",
+      "Gaurav"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kunal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=13",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question No. 71): Read the following information carefully and answer the question"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q72",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Rohan ranks seventh from the top and twenty sixth from the bottom in a class. How many students are there in the class?",
+    "options": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “32”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=13",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q73",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A farmer built a fence around his square plot. He used 27 fence on each ride of the square. How many poles did he need all together?",
+    "options": [
+      "100",
+      "104",
+      "108",
+      "None of these"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “104”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=13",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q74",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which in the following is the same as wrestling, karate, boxing?",
+    "options": [
+      "Swimming",
+      "Polo",
+      "Pole vault",
+      "Judo Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Judo Paper-II (A)CSP : 25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=13",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q76",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Which letter in the Alphabet is the Eighth letter to the right of the letter which is Tenth letter to the left of the last but one letter of the alphabet?",
+    "options": [
+      "M",
+      "W",
+      "P",
+      "I"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “W”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=14",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q77",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Out of 60 people in a colony, 10 speak only Mizo, 5 speak only Assamese, 10 speak both Hindi and Odia, 12 speak both Khasi and Hindi, 13 speak English, Tamil and Khasi, 5 speak both Assamese and Hindi and the remaining speak both Mizo and Hindi. The ratio of people who speak Mizo to those who speak Khasi is:",
+    "options": [
+      "1/5",
+      "5/10",
+      "3/5",
+      "3/4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “3/5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=14",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q78",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Arrange the following words in a meaningful sequence: (1) Presentation, (2) Recommendation, (3) Arrival, (4) Discussion, (5) Introduction",
+    "options": [
+      "5,1, 3, 4, 2",
+      "3, 5, 1, 4, 2",
+      "5, 1, 2, 4, 3",
+      "1, 4, 3, 5, 2 CSP : 25- 14 -Paper-II (A)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “3, 5, 1, 4, 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=14",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q79",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The following question consists of two words each that have a certain relationship to each other, followed by four lettered pairs of words. Select the lettered pair that has the same relationship as the original pair of words i.e Optimistic : Pessimistic:",
+    "options": [
+      "Difficult : Impossible",
+      "Tolerating : Accommodating",
+      "Export : Import",
+      "Strong : Hard"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Export : Import”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q80",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Which of the following is same as Ode, Ballad, Lyric?",
+    "options": [
+      "Prose",
+      "Song",
+      "Poetry",
+      "Sonnet"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sonnet”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q81",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Choose a word from the given alternatives that belongs to the same group. Botany : Zoology : Cardiology:",
+    "options": [
+      "Seismology",
+      "Pathology",
+      "Morphology",
+      "Taxonomy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Morphology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q82",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "If eraser is called box, box is called pencil, pencil is called sharpener and sharpener is called bag, what will a child write with?",
+    "options": [
+      "Box",
+      "Sharpener",
+      "Eraser",
+      "Pencil"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sharpener”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q83",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In this question, four words have been given, out of which three are alike in some manner and the fourth one is different. Choose out the odd one.",
+    "options": [
+      "Stool",
+      "Bench",
+      "Table",
+      "Chair"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Table”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q84",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Lala and Dova can do a piece of work in 45 days and 40 days respectively. They began the work together, but Lala leaves after 9 days. In how many days will Dova finish the remaining work?",
+    "options": [
+      "23 days",
+      "21 days",
+      "18 days",
+      "16 days"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “23 days”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q85",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The difference between the cost price and the selling price of an article is Rs 240. If the profit is 20%, then the selling price is:",
+    "options": [
+      "Rs 1200",
+      "Rs 1440",
+      "Rs 1580",
+      "Rs 1620"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rs 1440”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q86",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Five years ago, A was thrice as old as B and ten years later, A shall be twice as old as B. The present age of B is:",
+    "options": [
+      "20 years",
+      "22 years",
+      "24 years",
+      "18 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “20 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q87",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A ladder 15 m long reaches a window which is 9 m above the ground on one side of a street. Keeping its foot at the same point, the ladder is turned to the other side of the street to reach a window 12 m high. The width of the street is:",
+    "options": [
+      "18 m",
+      "19 m",
+      "21m",
+      "22 m"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “21m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q88",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A steel wire, when bent in the form of a square, encloses an area of 121 cm². If the same wire is bent in the form of a circle, then radius of the circle is:",
+    "options": [
+      "21 cm",
+      "14 cm",
+      "11 cm",
+      "7 cm"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “7 cm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q89",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "In a violent storm, a tree got bent by the wind.The top of the tree meets the ground at an angle of 30°, at a distance of 24 m from the root. At what height from the bottom did the tree get bent?(3=1.73)",
+    "options": [
+      "12.73 m",
+      "13.84 m",
+      "15.34 m",
+      "17.3 m Paper-II (A)CSP : 25"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “13.84 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=15",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q90",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The diameter of a metallic sphere is 42 cm. It is melted and drawn into a cylindrical wire of diameter 2.8 cm. The length of the wire in metre is:",
+    "options": [
+      "54 m",
+      "58 m",
+      "60 m",
+      "63 m"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “63 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q91",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "If 5²^x⁺¹÷25=125, find the value of x:",
+    "options": [
+      "6",
+      "2",
+      "10",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q92",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Rama obtained 12 marks more than that of Thana. If the ratio of their marks is 3 : 4, find the sum of their marks:",
+    "options": [
+      "96",
+      "72",
+      "84",
+      "108"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “84”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q93",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A shopkeeper purchased 300 bulbs for Rs. 10 each. However, 20 bulbs were fused and had to be thrown away. The remaining were sold at Rs. 12 each. Find the gain or loss percent.",
+    "options": [
+      "10 % gain",
+      "10 % loss",
+      "12 % loss",
+      "12 % gain"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “12 % gain”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q94",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "If 15 workers can finish a work in 48 hrs. How many workers will be required to do the same work in 30 hrs?",
+    "options": [
+      "24",
+      "56",
+      "34",
+      "96 3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “24”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q95",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "Evaluate : 4096",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q96",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "If 40% of the students in a school are boys and the number of girls in the school is 540. How many boys are there in the school?",
+    "options": [
+      "360",
+      "390",
+      "420",
+      "460"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “360”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q97",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "A bag contains 12 white balls and some green balls. If the probability of drawing a white ball from the bag is thrice that of the green ball. Find the number of green balls:",
+    "options": [
+      "10",
+      "8",
+      "6",
+      "4 CSP : 25- 16 -Paper-II (A)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “4 CSP : 25- 16 -Paper-II (A)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=16",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q98",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "The given pie chart shows the monthly expenses of a family on four items. If Rs. 1600 was spend on Rent. Find the amount of expenditures on Education:",
+    "options": [
+      "Rs. 3600",
+      "Rs. 4800",
+      "Rs. 5400",
+      "Rs. 6000"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rs. 4800”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=17",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q99",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is the average number of boys from all the colleges together?",
+    "options": [
+      "4100",
+      "2000",
+      "1800",
+      "1750"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “4100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=17",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
+    "direction": "Direction (Question Nos. 99 & 100) Study the graph carefully and answer the following questions:"
+  },
+  {
+    "id": "mpsc-group-b-mcs-prelim-2025-p2-Q100",
+    "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Paper-II (General Aptitude)",
+    "difficulty": "medium",
+    "question": "What is the respective ratio of the girls of college A to the boys of college C?",
+    "options": [
+      "5 : 7",
+      "5 : 9",
+      "5 : 8",
+      "5 : 6"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “5 : 6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Mizoram Civil Services (Combined Competitive) Preliminary - 2025 · August 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/mcs-prelim-2025-p2.pdf#page=17",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1-B1",
     "paperId": "mpsc-group-b-si-fcs-2025-p1",
     "questionNumber": "B1",
@@ -168961,9 +175011,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Duplicate equivalent options"
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q31",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -171721,7 +177769,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B32",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -176988,9 +183038,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q54",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -179733,7 +185781,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "source": "Group B technical common exam, Health & Family Welfare · January 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/hfw-2026-p1.pdf#page=7"
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p1-written-5",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -185486,9 +191536,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q35",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -188626,7 +194674,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-B36",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -194571,9 +200621,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions : (Questions 49 -56) :Analyse the sentences below and choose the correct answer:-"
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B57",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -197408,7 +203456,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73-80): Identify the word that gives the nearest meaning of the underlined"
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B77",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -202855,9 +208905,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 31 – 35): Name the Tense of the Verb of the following."
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q33",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -205507,7 +211555,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc-B34",
     "paperId": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc",
@@ -210844,9 +216894,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 73-80): Identify the word that gives the nearest meaning of the underlined"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B78",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -213356,7 +219404,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "source": "Research Investigator (Archaeology) Contract 2016 under Art & Culture Deptt. · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B1",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32",
@@ -218844,9 +224894,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9 - 14):  Read the following passage carefully and choose the best answer to"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B13",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -221542,7 +227590,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 61 – 70): Synthesise the sentences as directed in the brackets:"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q71",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -226645,9 +232695,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 76 – 80 ) : Fill in the blanks with the appropriate form of the words given"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-written-1",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -229226,7 +235274,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 86 - 90) : Choose the correct option as required."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q89",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -234695,9 +240745,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 71 to 80): Choose the correct meanings of the following underlined"
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q77",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -237597,7 +243645,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 71 - 80) :  Choose the option closest in meaning to the given words:"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q75",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -243161,9 +249211,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 51 - 60) : Transform the following sentences as directed, without changing"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q61",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -245853,7 +251901,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 31 - 40) : Complete the sentences with the correct prepositions or conjunctions."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q41",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -251374,9 +257424,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q25",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -254373,7 +260421,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237-Q4",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
@@ -259645,9 +265695,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q28",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -262256,7 +268304,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 35): Fill in the blanks with suitable forms of pronouns from the"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q32",
     "paperId": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -267729,9 +273779,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B21",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -270332,7 +276380,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q71",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -275476,9 +281526,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed."
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q67",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -278076,7 +284124,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q41",
     "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
@@ -283146,9 +289196,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B8",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -285741,7 +291789,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 44 & 45): In the following sentences, an underlined/highlighted part of a"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B45",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -290778,9 +296828,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=6"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-57",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -293467,7 +299515,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q11",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
@@ -299715,9 +305765,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q6",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -302950,7 +308998,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208-Q38",
     "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -309276,9 +315326,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q30",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -312255,7 +318303,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-written-4",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -317615,9 +323665,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
     "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B12",
     "paperId": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
@@ -320368,7 +326416,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p1-written-A10",
     "paperId": "mpsc-group-b-jao-2026-p1",
@@ -325583,9 +331633,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B29",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q30",
     "questionNumber": "B30",
@@ -328248,7 +334296,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B30",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B31",
     "questionNumber": "B31",
@@ -333428,9 +339478,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B4",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B5",
     "questionNumber": "B5",
@@ -336094,7 +342142,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to"
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-B6",
     "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -341438,9 +347488,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q43",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -344128,7 +350176,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q44",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -349838,9 +355888,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 60 - 64) : Identify the correct notion expressed by each of the following"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B62",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -352640,7 +358688,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-gs2-Q7",
     "paperId": "mpsc-group-b-si-fcs-2018-gs2",
@@ -357882,9 +363932,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q6",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -360484,7 +366532,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 1 - 10) : Identify the part of speech of the words in italics in the following"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p1-B7",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p1",
@@ -365664,9 +371714,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "source": "Circle Education Officer under School Education Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ceo-2019-english-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ceo-2019-english-p1-written-4",
     "paperId": "mpsc-group-b-ceo-2019-english-p1",
@@ -368404,7 +374452,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions."
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -374078,9 +380128,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 28 - 36) : Analyze the given sentences and pick out the correct option:"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B29",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -376905,7 +382953,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-election-2019-english-B49",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -382498,9 +388548,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q11",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -385276,7 +391324,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions for Questions 37 - 42 : Fill in the blanks using the correct form of the verb."
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-english-B39",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -390373,9 +396423,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-english-B10",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -393220,7 +399268,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q30",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -398554,9 +404604,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 71 – 80) : Choose the correct meaning of idioms and phrases given in bold"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q73",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -401136,7 +407184,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q74",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -406555,9 +412605,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q73",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -409280,7 +415328,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 61 - 70) : Choose the correct alternative to complete the sentences."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q68",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -414731,9 +420781,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q67",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -417513,7 +423561,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q68",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -422639,9 +428689,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q33",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -425366,7 +431414,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q34",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -430784,9 +436834,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q35",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -433480,7 +439528,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives"
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-phe-2019-english-B37",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -438865,9 +444915,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q34",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -441720,7 +447768,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Direction (Questions 29 - 40) :** Choose the caused forms of nouns, verbs, adjectives and adverb from"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-english-B35",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -447211,9 +453261,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words:"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-la-2019-english-B4",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -449916,7 +455964,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 36 – 40) : Insert appropriate articles if necessary, to fill up the gaps."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lib-lunglei-2019-english-B24",
     "paperId": "mpsc-group-b-lib-lunglei-2019-english",
@@ -455558,9 +461608,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 57 - 60) : Choose the correct punctuation:"
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B61",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -458301,7 +464349,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:"
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-surveyor-2019-english-B79",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -463747,9 +469797,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q60",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -466156,7 +472204,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 40) : Fill in the blanks with the correct phrases:"
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-Q41",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -471717,9 +477767,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 60 - 67): Pick out the correct clause of the words underlined in the given"
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B63",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -474462,7 +480510,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A87",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -479967,9 +486017,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-B84",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -482827,7 +488875,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-A8",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -488366,9 +494416,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A31",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -491136,7 +497184,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 8) : Identify the kinds of pronouns of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p1-B7",
     "paperId": "mpsc-group-b-udc-horti-2019-p1",
@@ -496483,9 +502533,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 20 - 29) : Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B29",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -499274,7 +505322,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A53",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -504787,9 +510837,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A75",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -507568,7 +513616,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(Questions 68 - 75) : Pick out the correct clause of the words underlined in the given"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-written-1",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -512814,9 +518864,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-A21",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -515359,7 +521407,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11 - 15) : Choose the appropriate preposition from the alternatives given under"
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q16",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -520529,9 +526579,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q15",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -523344,7 +529392,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q16",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -528685,9 +534735,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 12): Read the following passage carefully and answer the questions"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-chemist2-2020-english-B9",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -531572,7 +537620,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B29",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -537075,9 +543125,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 19 to 27): Analyze the given sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B28",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -539885,7 +545933,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A52",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -545235,9 +551285,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 31 - 40) : Read the following sentences carefully and choose the best"
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q35",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -547996,7 +554044,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q36",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -553375,9 +559425,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q29",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -556214,7 +562262,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 25 - 32) : Read the passages carefully and choose the correct option"
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-agri-2020-english-B30",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -561564,9 +567614,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q34",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -564251,7 +570299,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions:"
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q29",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -569647,9 +575697,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11-20): Fill in the blanks with the correct form of the verbs:"
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q16",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -572339,7 +578387,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q17",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -577828,9 +583878,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q16",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -580639,7 +586687,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q19",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -586614,9 +592664,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -589651,7 +595699,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q63",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -595637,9 +601687,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q85",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -598670,7 +604718,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q95",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -604636,9 +610686,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025-Q32",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
@@ -607666,7 +613714,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q75",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -613643,9 +619693,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q24",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -616548,7 +622596,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q34",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -622113,9 +628163,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q40",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -625031,7 +631079,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q41",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -630987,9 +637037,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q43",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -634082,7 +640130,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q47",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -639766,9 +645816,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q76",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -642312,7 +648360,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q91",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -647344,9 +653394,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024-Q9",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024",
@@ -650379,7 +656427,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024-Q14",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024",
@@ -656395,9 +662445,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q65",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -659002,7 +665050,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q71",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -664513,9 +670563,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2014-p2-q018",
     "paperId": "mpsc-group-b-si-excise-2014-p2",
@@ -667287,6 +673335,18 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
   },
+  "mpsc-group-b-mcs-prelim-2025-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-mcs-prelim-2025-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
   "mpsc-group-b-si-fcs-2025-p1": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -668444,6 +674504,8 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-agri-2025-horticulture-p1": 50,
   "mpsc-group-b-agri-2025-horticulture-p2": 50,
   "mpsc-group-b-agri-2025-horticulture-p3": 50,
+  "mpsc-group-b-mcs-prelim-2025-p1": 100,
+  "mpsc-group-b-mcs-prelim-2025-p2": 100,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-aao-2025-p1": 60,

@@ -1,11 +1,11 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (83 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (85 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **15,349**
-- Tier 1 — official key available (scorable mechanically): **664**
+- Held MCQs: **15,351**
+- Tier 1 — official key available (scorable mechanically): **666**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **62**
@@ -19,7 +19,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 3 | 2 | 1 | 66.7% |
-| inferred | 2699 | 2352 | 347 | 87.1% |
+| inferred | 2871 | 2489 | 382 | 86.7% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
@@ -30,9 +30,9 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 ## Key attribution
 
-- 120 key PDFs on disk; 83 already registered.
-- High-confidence auto-attributions: **30** (~664 held questions). Confirm each by eye before registering.
-- Single-token candidates to inspect: **26**
+- 120 key PDFs on disk; 85 already registered.
+- High-confidence auto-attributions: **31** (~666 held questions). Confirm each by eye before registering.
+- Single-token candidates to inspect: **25**
 - Unattributed key files: **5**
 
 ### Single-token candidates (key file -> best paper)
@@ -46,7 +46,6 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | Final Answer Key of Informatics Officer under ICT Department..pdf | mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad | informatics |
 | Final Answer Key of Jr. Grade of MHS,2025..pdf | mpsc-group-b-archive2325-grade-iii-of-mhs-2023-general-studies | mhs |
 | Final Answer Key of MES (Combined) under Various Department-2024..pdf | mpsc-group-b-mes-pwd-2018-english | mes |
-| Final Answer Key of Preliminary Examn. of Grade-III of MJS (Civil Judge)..pdf | mpsc-group-b-mes-phe-2014-english | civil |
 | Final Answer key of Assistant LESO under LESDE Deptt., 2026.pdf | mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies | leso |
 | Inpector of Excise General English Answer Key - 2025..pdf | mpsc-group-b-si-excise-2024-p1 | excise |
 | Jr. Grade of MHS under Horticulture Department FInal Answer Key..pdf | mpsc-group-b-horticulture-demonstrator-2018-english | horticulture |
@@ -68,7 +67,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key..pdf, Final Answer key - DSWO, 2026..pdf, General Knowledge Final.pdf, Provisional Answer Key for DSWO under SW,W&CD Department..pdf
 
-## Papers with evidence (top 40 of 222)
+## Papers with evidence (top 40 of 223)
 
 | paper | subject | key | held | T1 | T2solid | T2cand | T3 |
 |---|---|---|---|---|---|---|---|
@@ -254,6 +253,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-do-mar-2019-gs2 | General Studies Paper-II | none | 73 | 0 | 0 | 2 | 71 |
 | mpsc-group-b-assistant-jailor-2018-english | General English | none | 69 | 0 | 0 | 2 | 67 |
 | mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c | General English | none | 20 | 0 | 0 | 2 | 18 |
+| mpsc-group-b-mcs-prelim-2025-p1 | Paper-I (General Studies) | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |

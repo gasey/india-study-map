@@ -1,3 +1,13 @@
+## Continuation guide — 11 October 2026
+
+Start with [HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md) for source inspection,
+worked explanations, correct input schemas, all five subjects, exception handling,
+model/effort advice and a copyable continuation prompt. Follow the subject-practice
+contract for Maths/Arithmetic, English and Computer sections and topic routing.
+Use the generated subject/English ledgers for current local progress; older dated
+snapshots below are historical and do not establish current deployment status.
+The guide supersedes older OCR-only review or blanket staging instructions.
+
 ## Published English review batch — 10 October 2026
 
 App content commit `49ff3ae` is pushed to `main` and deployed to production.

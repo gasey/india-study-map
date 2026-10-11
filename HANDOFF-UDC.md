@@ -1,3 +1,13 @@
+## Continuation guide — 11 October 2026
+
+Start with [HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md) for source inspection,
+worked explanations, correct input schemas, all five subjects, exception handling,
+model/effort advice and a copyable continuation prompt. Follow the subject-practice
+contract for Maths/Arithmetic, English and Computer sections and topic routing.
+Use the generated subject/English ledgers for current local progress; older dated
+snapshots below are historical and do not establish current deployment status.
+The guide supersedes older OCR-only review or blanket staging instructions.
+
 ## Dedicated subject practice — 10 October 2026
 
 Maths/Arithmetic, English only and Computer Knowledge now have separate local study tabs. Maths and Computer use topic cards; English separates MCQs from written work. Future import and answer-derivation work must follow [HANDOFF-SUBJECT-PRACTICE.md](HANDOFF-SUBJECT-PRACTICE.md), including canonical tags, durable classification inputs, and unchanged scoring gates. This UI update is not yet published; local browser verification was declined.

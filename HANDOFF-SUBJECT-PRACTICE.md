@@ -7,6 +7,11 @@ follow this design when deriving answers or importing papers.
 For the live MPSC archive audit and the remaining Gazetted English/Arithmetic
 import queue, continue from [HANDOFF-ARCHIVE-AUDIT.md](HANDOFF-ARCHIVE-AUDIT.md).
 
+For a repeatable review/solving workflow and a copyable prompt, read
+[HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md). Its generated subject ledger
+tracks English, Arithmetic, Computer, GK and Reasoning; answer readiness and
+worked-guide completion are separate measures.
+
 ## Current design
 
 The module has three dedicated tabs: **Maths / Arithmetic**, **English only**,

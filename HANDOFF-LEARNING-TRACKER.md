@@ -20,6 +20,11 @@ weak. Explicit reading is tracked independently with **Mark studied**, including
 written and held questions. Simply opening a page or revealing an answer does
 not claim that the user studied or recalled it.
 
+Read opens up to 20 items, prioritizing those not marked studied while keeping
+printed order within the unstudied/studied groups. Mark a batch studied and
+reopen Read to continue through the area. Studied items remain available for
+rereading. Do not replace this ordering with an unconditional first-20 slice.
+
 Practice records a marked choice immediately, including the optional confidence
 and foreground response time. Feedback remains visible if the choice removes
 the question from a Not attempted / Previously wrong filter. Next does not
@@ -154,7 +159,7 @@ changed questions and request fresh recall without silently rewriting evidence.
 
 ## Verification and publication
 
-Local verification passed: 26 engine/storage checks, the component integration
+Local verification passed: 27 engine/storage checks, the component integration
 suite, TypeScript and the production build. A current-bank smoke check covered
 27,431 records across five subjects and 88 topic groups; an untouched profile
 received 15 questions and no false weak-area labels. These counts are a dated

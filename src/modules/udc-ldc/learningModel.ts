@@ -49,7 +49,13 @@ function areaFor(id: string, label: string, subjectId: string, subjectLabel: str
       const pa = state.questions[a.id], pb = state.questions[b.id];
       const rank = (p: QuestionLearning | undefined) => (p?.dueAt ?? Infinity) <= now ? 0 : p?.lastCorrect === false ? 1 : !p?.attempts ? 2 : 3;
       return rank(pa) - rank(pb) || (pa?.dueAt ?? Infinity) - (pb?.dueAt ?? Infinity);
-    }).map(q => q.id), readQuestionIds: rows.map(q => q.id),
+    }).map(q => q.id),
+    // Read sessions are bounded. Put unstudied items first so completing one
+    // batch exposes the next, retaining printed order within each group.
+    readQuestionIds: [
+      ...rows.filter(q => !state.questions[q.id]?.studiedAt),
+      ...rows.filter(q => !!state.questions[q.id]?.studiedAt),
+    ].map(q => q.id),
   };
 }
 export function buildLearningDashboard(questions: BankQuestion[], state: LearningState, now = Date.now()): LearningDashboardModel {

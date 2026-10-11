@@ -98,6 +98,18 @@ try {
     assert.equal(model.summary.studied, 2); assert.equal(model.summary.readableTotal, 4); assert.equal(model.summary.total, 1);
     assert.deepEqual(model.queues.new, ['ok']); assert.equal(model.subjects[0].readQuestionIds.length, 4);
   });
+  check('bounded reading moves past studied items without losing printed order or held questions', () => {
+    const bank = Array.from({ length: 45 }, (_, i) => question(`read-${i}`, i === 21 ? { type: 'descriptive' } : {}));
+    let state = start();
+    for (const q of bank.slice(0, 20)) state = e.markQuestionStudied(state, q.id, 'a', at);
+    const model = e.buildLearningDashboard(bank, state, at);
+    assert.deepEqual(model.subjects[0].readQuestionIds.slice(0, 20), bank.slice(20, 40).map(q => q.id));
+    assert.deepEqual(model.topics[0].readQuestionIds.slice(0, 20), bank.slice(20, 40).map(q => q.id));
+    assert.equal(new Set(model.subjects[0].readQuestionIds).size, 45);
+    assert.equal(model.summary.attempts, 0);
+    for (const q of bank.slice(20)) state = e.markQuestionStudied(state, q.id, 'a', at);
+    assert.deepEqual(e.buildLearningDashboard(bank, state, at).subjects[0].readQuestionIds, bank.map(q => q.id));
+  });
   check('manageable sessions mix due recall with genuinely unseen questions', () => {
     const bank = Array.from({ length: 50 }, (_, i) => question(`q${i}`));
     const rows = bank.slice(0, 30).map(q => ({ questionId: q.id, correct: false, at, eventId: `due:${q.id}` }));

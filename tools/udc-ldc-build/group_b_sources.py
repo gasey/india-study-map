@@ -643,6 +643,10 @@ def build_additional():
             marks, minutes = UPSTREAM_SOLID_META[slug]
             meta[paper_id] = {'marksPerQuestion': marks, 'durationMinutes': minutes,
                               'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith('archive2325-lecturer-vse-general-studies-paper-') and key:
+            # Covers: 100 Q x 2 marks, 2 hours, FM 200, no negative marking.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('archive2325-inpector-of-supplies-2023-general-studies') and key:
             # Covers: 2 hours, FM 200, 2 marks each; no negative marking printed.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,

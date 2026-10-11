@@ -2189,8 +2189,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-a-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2199,8 +2200,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-b-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2209,8 +2211,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-c-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2219,8 +2222,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-i-d-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2229,8 +2233,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-a-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2239,8 +2244,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-b-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2249,8 +2255,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-c-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2259,8 +2266,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-d-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2269,8 +2277,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-a-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2279,8 +2288,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-b-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2289,8 +2299,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-c-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2299,8 +2310,9 @@
     "sitting": "2025",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-iii-d-2025.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -2402,8 +2414,9 @@
     "sitting": "2023",
     "subject": "General Studies",
     "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {

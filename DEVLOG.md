@@ -1,3 +1,34 @@
+## 11 October 2026 — Lecturer (VSE)/VGO 2025 key unlocks 12 GS papers (+933)
+
+While confirming on-disk keys against printed covers, found that the single
+official Final Answer Key for the Combined Competitive Examination for
+Counsellor, Lecturer (VSE) & Vocational Guidance Officer under SCERT
+(No. CLV/1/2024-MPSC, 23 April 2025) carries **General Studies Paper-I/II/III ×
+Booklet Series A/B/C/D** sections. The library already held all 12 matching
+Papers (scans, previously held). Registered all 12; each paper is paired with its
+own series section because MPSC reorders options across booklet series. The
+series letter was confirmed from each cover (Paper-I/II via the "GENERAL
+STUDIES <X>" line; Paper-III via a targeted crop OCR of the "Question Booklet
+Series" box, which the full-page OCR missed). Covers give 100 Q × 2 marks,
+2 hours, FM 200, no negative marking.
+
+Also registered **Jr. Grade of MES, P&E Cadre (Electrical Wing) & Assistant
+Architect (PWD), July-2023 General Studies** (text-layer key, native paper,
+100/100 scored).
+
+Keys were reconstructed by reading-order (4 columns × 25 rows) rather than by
+OCR'd question numbers, which is robust to digit misreads. Two sections
+(Paper-II D, Paper-III B) were split across page breaks (column 1 on one page,
+columns 2–4 on the next) so reading-order could not apply; those were rebuilt
+positionally from the raw OCR. That exposed a subtle trap: in Paper-III B the
+first-page line `43 (A)` was really question 13, and the true `43 (B)` appears
+later — a number-first-wins parse would have set 43:A. Corrected by hand
+(13:A, 17:A, 43:B). Every scored answer was re-verified against the registered
+key: 933 scored across the 12 papers, 0 mismatches.
+
+Session delta: bank 4,586 → 5,618 practice-ready (+99 MES +933). 42 registered
+keys. Tests (25) pass, `tsc --noEmit` clean.
+
 ## 11 October 2026 — Tier 1 key audit; registered the ACF-2023 GK key
 
 Added `coverage_report.py`/`COVERAGE-REPORT.md`, which tiers the 18k held

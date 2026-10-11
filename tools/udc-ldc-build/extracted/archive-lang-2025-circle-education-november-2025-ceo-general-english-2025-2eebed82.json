@@ -6,7 +6,7 @@
   "source": "archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf",
   "sourceSha256": "a3b617a9b67098ab26fcb4798a8d0d931136c363c524da23a789a27d602b6b92",
   "ocr": false,
-  "count": 37,
+  "count": 66,
   "questions": [
     {
       "n": 1,
@@ -857,6 +857,673 @@
       },
       "ambiguous": [],
       "q": "A wild goose chase",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from",
+      "opts": {
+        "a": "detest",
+        "b": "envy",
+        "c": "adore",
+        "d": "praise"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "admire",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from",
+      "opts": {
+        "a": "inclusive",
+        "b": "prominent",
+        "c": "repudiate",
+        "d": "similar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "contrary",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from",
+      "opts": {
+        "a": "meek",
+        "b": "alluring",
+        "c": "hideous",
+        "d": "exhibiting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "repulsive",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from",
+      "opts": {
+        "a": "destroy",
+        "b": "collapse",
+        "c": "praise",
+        "d": "construct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "demolish",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:",
+      "opts": {
+        "a": "The fire had been burning in the forest",
+        "b": "The fire will have been burning in the forest",
+        "c": "The fire will be burning in the forest",
+        "d": "The fire will had been burning in the forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fire was burning in the forest. (Change to Future Perfect Continuous Tense)",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:",
+      "opts": {
+        "a": "The man was spreading false rumours about his wife",
+        "b": "The man is spreading false rumours about his wife",
+        "c": "The man had been spreading false rumours about his wife",
+        "d": "The man had spread false rumours about his wife"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The man spread false rumours about his wife (Change to Past Continuous Tense)",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:",
+      "opts": {
+        "a": "Mrs. Solis has refused to help her husband",
+        "b": "Mrs. Solis was refusing to help her husband",
+        "c": "Mrs. Solis refuses to help her husband",
+        "d": "Mrs. Solis is refusing to help her husband"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": ".Mrs. Solis refused to help her husband. (Change to Present Indefinite Tense)",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:",
+      "opts": {
+        "a": "The farmer was reaping his harvest",
+        "b": "The farmer reaped his harvest",
+        "c": "The farmer had reaped his harvest",
+        "d": "The farmer is reaping his harvest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The farmer has reaped his harvest. (Change to Past Perfect Tense)",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:",
+      "opts": {
+        "a": "Who will be knocking on the door?",
+        "b": "Who will knock on the door?",
+        "c": "Who will have been knocking on the door?",
+        "d": "Who will have knocked on the door?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is knocking at the door? (Change to Future Indefinite Tense)",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+      "opts": {
+        "a": "The teacher says that it has been raining since that morning",
+        "b": "The teacher said that it had been raining since that morning",
+        "c": "The teacher said that it has been raining since this morning",
+        "d": "The teacher said that it was raining since that morning"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The teacher said, “It has been raining since this morning”",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+      "opts": {
+        "a": "Sarah said that the soldiers were marching towards the castle",
+        "b": "Sarah said that the soldiers had marched towards the castle",
+        "c": "Sarah said that the soldiers have been marching towards the castle",
+        "d": "Sarah said that the soldiers had been marching towards the castle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sarah said, “The soldiers were marching towards the castle”",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+      "opts": {
+        "a": "Benjamin said,” I have not enjoyed the concert”",
+        "b": "Benjamin said, “I am not enjoying the concert”",
+        "c": "Benjamin said, “I did not enjoy the concert”",
+        "d": "Benjamin said, “I had not enjoyed the concert”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Benjamin said that he did not enjoy the concert.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+      "opts": {
+        "a": "Siama asked Kimi why was she sketching on the wall.",
+        "b": "Siama asked Kimi why had she been sketching on the wall.",
+        "c": "Siama asked Kimi why she is sketching on the wall.",
+        "d": "Siama asked Kimi why she was sketching on the wall."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Siama said to Kimi, “Why are you sketching on the wall?”",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+      "opts": {
+        "a": "He said that he had been seeing a rabbit there.",
+        "b": "He said that he had seen a rabbit there.",
+        "c": "He said that he has seen a rabbit here.",
+        "d": "He said that he has been seeing a rabbit here."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "He said, “I saw a rabbit here.”",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "who",
+        "b": "whom",
+        "c": "whose",
+        "d": "once"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "She is the girl ________ I shall marry.",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "however",
+        "b": "unless",
+        "c": "provided",
+        "d": "although"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I wore only a shirt ________ it was very cold.",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "however",
+        "b": "whither",
+        "c": "since",
+        "d": "that"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "I will do it ________ you want me to do it.",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "that",
+        "b": "whether",
+        "c": "because",
+        "d": "which"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is not certain ________ he will leave or stay.",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+      "opts": {
+        "a": "because",
+        "b": "as far as",
+        "c": "despite",
+        "d": "however"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The patient died ________ receiving the best medical care available.",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from",
+      "opts": {
+        "a": "elegance",
+        "b": "despair",
+        "c": "fluency",
+        "d": "obstinate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "eloquence",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from",
+      "opts": {
+        "a": "weak",
+        "b": "cruel",
+        "c": "violent",
+        "d": "delightful"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "feeble",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from",
+      "opts": {
+        "a": "careless",
+        "b": "indifferent",
+        "c": "undisguised",
+        "d": "inappropriate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "incongruous",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from",
+      "opts": {
+        "a": "ambiguous",
+        "b": "reserved",
+        "c": "indifferent",
+        "d": "patient"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "nonchalant",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from",
+      "opts": {
+        "a": "love",
+        "b": "hate",
+        "c": "admire",
+        "d": "respect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "despise",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Everybody is absent.",
+        "b": "Everybody is not present.",
+        "c": "Nobody is present.",
+        "d": "Nobody is absent."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Everybody is present. (transform this into a negative sentence)",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Everybody accepts that she sings well.",
+        "b": "Nobody can accept that she sings well.",
+        "c": "Can anyone deny that she sings well?",
+        "d": "Nobody can deny that she sings well."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No one can deny that she sings well. (transform this into assertive sentence)",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Is it not a lovely day!",
+        "b": "What a lovely day it was!",
+        "c": "Ah! Today is a lovely day.",
+        "d": "What a lovely day today!"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It was a lovely day. (transform it into exclamatory sentence)",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Is it useful to not cry over spilt milk?",
+        "b": "Is it not useless to cry over spilt milk?",
+        "c": "Is it useless to cry over spilt milk?",
+        "d": "Is it useless to not cry over spilt milk?"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is useless to cry over spilt milk. (transform it into interrogative sentence)",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": "B",
+      "conventional": false,
+      "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as",
+      "opts": {
+        "a": "Is the building red in colour?",
+        "b": "The building is red in colour.",
+        "c": "Is the building not red in colour?",
+        "d": "The building is not red in colour."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Isn’t the building red in colour? (transform this into a negative sentence)",
       "multi": false
     }
   ],

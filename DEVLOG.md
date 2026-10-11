@@ -1,3 +1,32 @@
+## 11 October 2026 — Circle Education Officer November-2025: +166
+
+Imported the two Circle Education Officer (School Education Department) papers
+from the examination held 11 November 2025: General Knowledge (new) and the
+General English Part-B (which was already in the bank). The official **Final
+Answer Key** (No. CEO/28/2025-MPSC (EXAM), 9 December 2025) is a 2-page scan:
+General English as three columns of 25 rows (q1-25 / 26-50 / 51-66) and General
+Knowledge as four columns of 25 rows (q1-100). Both were read by printed
+position at 300 dpi and independently re-read at 600 dpi. The one cell where the
+two passes disagreed, General English Q29, resolved to C from the 600-dpi glyph
+and the key's own text layer. Covers: General English 3 hours, FM 100, Part-A
+written (34 marks) plus 66 one-mark MCQs; General Knowledge 2 hours, FM 100, 1
+mark each. Neither prints a negative-marking rule, so both score without a
+penalty.
+
+The General English paper had been extracted with only 37 of its 66 questions.
+The native PDF text layer prints three question numbers without a separator
+("38admire", "43The man", "44.. Mrs."); the shared numbering pattern required a
+period, space or uppercase letter, so the parser stopped dead at Q37. The
+pattern now also accepts a number followed directly by any letter. A corpus scan
+found only 16 such left-margin lines, and a before/after extraction of every one
+of the affected papers changed nothing except this paper, which recovered all
+66 questions; the `expect`-next guard keeps statement lists from being mistaken
+for questions.
+
+Session delta: bank 8,269 → 8,435 practice-ready (+166; 6,263 → 6,429
+official-backed); records 24,609 → 24,738; MCQs 23,636 → 23,765. 91 registered
+keys. Tests (25) pass and `tsc --noEmit` is clean.
+
 ## 11 October 2026 — Assistant Controller of Mines March-2026: +250
 
 Imported the four remaining native papers of the Assistant Controller of Mines

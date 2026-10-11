@@ -1065,6 +1065,16 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/acm-2026-tech-p3.pdf"
   },
   {
+    "id": "mpsc-group-b-ceo-2025-gk",
+    "examType": "Direct_NG",
+    "examName": "Circle Education Officer under School Education Department - November 2025",
+    "post": "Circle Education Officer under School Education Department - November 2025",
+    "paperNumber": "General Knowledge",
+    "paperSubject": "General Knowledge",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/ceo-2025-gk.pdf"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "examType": "Direct",
     "examName": "MCS Combined - 2014",
@@ -207917,6 +207927,3058 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
   },
   {
+    "id": "mpsc-group-b-ceo-2025-gk-Q1",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "India’s first bullet train project is being constructed on which route?",
+    "options": [
+      "Delhi-Mumbai",
+      "Bengaluru-Chennai",
+      "Mumbai-Ahmedabad",
+      "Prayagraj-Varanasi"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mumbai-Ahmedabad”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q2",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The ‘Sengol’, a gold-plated silver scepter was installed in the new Parliament building of India. This symbol is inspired by the:",
+    "options": [
+      "Chola dynasty",
+      "Sunga dynasty",
+      "Gupta empire",
+      "Mauryan empire"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chola dynasty”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q3",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Operation Black Forest was aimed at:",
+    "options": [
+      "Piracy and smuggling",
+      "Cross-border terrorism",
+      "Naxalism",
+      "Reforestation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Naxalism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q4",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the primary aim of China’s newly announced K Visa?",
+    "options": [
+      "Family reunification for people of Chinese origin living abroad",
+      "Attracting young foreign professionals in science and technology",
+      "Short-term tourism for business travellers",
+      "Study programmes for international students"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Attracting young foreign professionals in science and technology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q5",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of the Sahyog Portal?",
+    "options": [
+      "Facilitating consumer grievance redressal",
+      "Issuing takedown orders for unlawful online content",
+      "Promoting digital literacy among users",
+      "Registering new social media accounts"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Issuing takedown orders for unlawful online content”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q6",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Recently, there has been mention of the Special Intensive Revision (SIR). Which of the following is engaged in this activity?",
+    "options": [
+      "Election Commission of India",
+      "Registrar General and Census Commissioner of India",
+      "Niti Aayog",
+      "Finance Commission"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Election Commission of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q7",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who among the following was recently named the National Youth Icon by Ministry of Youth Affairs under its Viksit Bharat Yuva Connect Initiative?",
+    "options": [
+      "Grace Lalrinpari Hauzel",
+      "Gracy L Bawitlung",
+      "Grace VL Pachuau",
+      "Grace Hauhnar"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Grace Lalrinpari Hauzel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q8",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who led the Mahad Satyagraha?",
+    "options": [
+      "Mahatma Gandhi",
+      "Vallabhbhai Patel",
+      "B.R Ambedkar",
+      "Subhash Chandra Bose"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “B.R Ambedkar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q9",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is considered the Magna Carta of English Education in India?",
+    "options": [
+      "Macaulay’s Minutes",
+      "Wood’s Educational Despatch",
+      "Hunter Education Commission",
+      "General Committee on Public Instruction"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Wood’s Educational Despatch”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q10",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Gupta period is often referred to as a ‘Golden Age’ in Indian history. Which of the following statements about this period is/are correct? 1.The Nagara style of temple architecture emerged 2.The practice of Sati was abolished 3.Caste system and untouchability were prohibited 4.The Gupta Empire unified the entire Indian subcontinent under one rule Select the correct option:",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1, 2 and 3 only",
+      "2, 3 and 4 only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q11",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Why was the Simon Commission opposed by Indian nationalists:",
+    "options": [
+      "It aimed to divide India into smaller provinces",
+      "It did not include any Indian members",
+      "It proposed Dominion status for India",
+      "It planned to extend British rule in India for another 50 years"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It did not include any Indian members”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q12",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which one of the following movements contributed to a split in the Indian National Congress, resulting in the emergence of ‘Moderates’ and ‘Extremists’?",
+    "options": [
+      "Swadeshi movement",
+      "Non-cooperation movement",
+      "Civil disobedience movement",
+      "Quit India movement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Swadeshi movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q13",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Nalanda University is considered a great centre of learning in ancient India. Which of the following statements is INCORRECT?",
+    "options": [
+      "It was established during the Mauryan period under Chandragupta Maurya",
+      "It attracted scholars from India and abroad, and offered a wide range of subjects",
+      "It was an inclusive center of learning that also trained monks and scholars of various Buddhist",
+      "It was a residential university providing free education and accommodation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It was established during the Mauryan period under Chandragupta Maurya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q14",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "With reference to revenue collection by the British colonial government in India, consider the following statements: 1.In the Ryotwari system, revenue was collected from a group of villages 2.In the Zamindari system, revenue was collected from the landlords 3.In the Mahalwari system, revenue was collected directly from the individual cultivators Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2 only",
+      "1 and 3 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q15",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following statements about Rabindranath Tagore are correct? 1.He established Shantiniketan as a centre for holistic education 2.He composed the national song of India 3.He was the first Asian to be awarded the Nobel Prize in Literature 4.He renounced knighthood conferred by the British in protest against the Jallianwala Bagh massacre Select the correct option:",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 3 only",
+      "2, 3 and 4 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1, 3 and 4 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q16",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The seasonal reversal of winds is a typical characteristic of:",
+    "options": [
+      "Equatorial climate",
+      "Mediterranean climate",
+      "Monsoon climate",
+      "Temperate climate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Monsoon climate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q17",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following rivers does NOT originate from the region around Mount Kailash?",
+    "options": [
+      "Indus",
+      "Ganga",
+      "Brahmaputra",
+      "Karnali"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ganga”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q18",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following list of minerals? 1.Thorium2.Titanium 3.Graphite4.Copper 5.Silicon Which of the above are identified as ‘Critical Minerals’ by the Government of India:",
+    "options": [
+      "1 and 2 only",
+      "1, 3 and 5 only",
+      "1, 2, 4 and 5 only",
+      "2, 3, 4 and 5 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2, 3, 4 and 5 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q19",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Early morning mist over hills and mountains is mainly formed because:",
+    "options": [
+      "Hill slopes have a lot of moisture that turns to mist in the morning",
+      "Warm, moist air rises up the slopes, cools down, and forms mist",
+      "Cold air flows into valleys at night and turns into mist in the morning",
+      "Strong winds at high altitudes push moisture to form mist"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Warm, moist air rises up the slopes, cools down, and forms mist”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q20",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is the only floating National Park in the world?",
+    "options": [
+      "Sundarbans National Park",
+      "Keibul Lamjao National Park",
+      "Gulf of Mannar National Park",
+      "Gangotri National Park"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Keibul Lamjao National Park”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q21",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements: 1.Winds blow primarily due to differences in atmospheric pressure 2.Coriolis force causes winds to move from high pressure to low pressure Which of the statements is/are correct?",
+    "options": [
+      "Both Statement 1 and 2 are correct, and Statement 2 explains Statement 1",
+      "Both Statements are correct, but Statement 2 does not explain Statement 1",
+      "Statement 1 is correct, but Statement 2 is incorrect",
+      "Statement 1 is incorrect, but Statement 2 is correct"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Statement 1 is correct, but Statement 2 is incorrect”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q22",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding Indian Citizenship: 1.There is only one citizenship and one domicile in India 2.Only a citizen by birth is eligible to become the Head of State Which of the statements given above are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q23",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "In the context of Indian elections, which use the First Past The Post (FPTP) system for both Lok Sabha and State Assembly Elections, which of the following statements gives the most accurate description of this electoral system?",
+    "options": [
+      "The candidate who secures more than 50% of the total votes in a constituency is declared the",
+      "The candidate who receives the highest number of votes in a constituency is declared the",
+      "The candidate who receives the most first-preference rankings from voters is declared the",
+      "The candidate is finally elected based on the proportion of total votes received by their party"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The candidate who receives the highest number of votes in a constituency is declared the”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q24",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the position of the Right to Property in India?",
+    "options": [
+      "Legal right available to citizens only",
+      "Legal right available to any person",
+      "Fundamental right available to citizens only",
+      "Neither Fundamental right nor legal right"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Legal right available to any person”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q25",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding MLALADS is INCORRECT?",
+    "options": [
+      "The amount allocated to each MLA from Mizoram is Rs. 2 crore per legislative assembly",
+      "MLAs suggest specific development works to the Deputy Commissioner",
+      "The cost of work undertaken should not exceed Rs. 1 lakh in each case",
+      "A minimum of 10% of the fund allocated must be utilized for capacity building and training of"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The cost of work undertaken should not exceed Rs. 1 lakh in each case”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q26",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which Article of the Constitution of India safeguards one’s right to marry the person of one’s choice?",
+    "options": [
+      "Article 19",
+      "Article 21",
+      "Article 25",
+      "Article 29"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 21”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q27",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which part of the Indian Constitution declares the ideal of Welfare State?",
+    "options": [
+      "Directive Principles of State Policy",
+      "Fundamental Rights",
+      "Preamble",
+      "Seventh Schedule"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Directive Principles of State Policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q28",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "With reference to Lok Adalats (People’s Court), consider the following statements: 1.They have only civil jurisdiction 2.They have the powers of a civil court 3.No court fee is required Which of the above statements is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 only",
+      "2 and 3 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q29",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding Mizoram Rural Bank is INCORRECT?",
+    "options": [
+      "It was established under the Mizoram Rural Bank Act, 1983",
+      "It is sponsored by State Bank of India, which holds a 35% share",
+      "It is supervised by NABARD",
+      "The Government of Mizoram holds a 15% share"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It was established under the Mizoram Rural Bank Act, 1983”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q30",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following are considered Capital Expenditure? 1.Purchase of land2.Purchase of machinery 3.Investment in shares4.Salaries of employees",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "2, and 4 only",
+      "1, 2 and 3 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q31",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Gender Budgeting is best described as:",
+    "options": [
+      "Allocating a separate budget exclusively for women",
+      "Reducing allocations for men to increase allocations for women",
+      "Increasing the number of women-specific schemes in the Budget",
+      "Promoting gender equity through inclusive budgetary allocations"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Promoting gender equity through inclusive budgetary allocations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q32",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is included in the calculation of a country’s Gross Domestic Product (GDP)?",
+    "options": [
+      "The value of raw materials and inputs used in the production of goods and services",
+      "The market value of all goods and services produced by all its citizens",
+      "The market value of all final goods and services produced within the country",
+      "The total income received by residents including remittances from abroad"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The market value of all final goods and services produced within the country”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q33",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements about the Indian economy: 1.Share of services in GDP significantly increased 2.Share of India’s exports in world trade increased 3.FDI inflows decreased Which of the following occurred in India after the economic liberalization in 1991?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q34",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following best defines ‘inflation’ in an economy?",
+    "options": [
+      "A decline in the purchasing power of the domestic currency due to rising prices",
+      "An increase in cost of consumer goods that reduces the standard of living",
+      "A temporary increase in the prices of food and fuel due to external shocks",
+      "A sustained increase in the general price level of goods and services over a period of time"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A sustained increase in the general price level of goods and services over a period of time”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q35",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements 1.Promoting Self-Help Groups 2.Promoting Micro Food Processing Units 3.Promoting Industrial Training Institutes Which of the above can help in the government’s objective of inclusive growth?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q36",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements about National Deworming Day: 1.Albendazole is the medication administered under the program 2.It targets children and adolescents in the age group of 1-16 years 3.It aims to reduce the prevalence of soil-transmitted helmiths Which of the statements given above are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "3 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q37",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following provisions under the PM POSHAN (Mid-Day Meal) Rules: 1.Social audits are mandated to enhance transparency and accountability 2.Cooked meals are provided to children enrolled in Classes 1 to 8 in government schools, government-aided schools, and private unaided schools 3.If cooked meals cannot be provided, a food security allowance must be given to the beneficiaries Which of the statements given above are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q38",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which one of the following best describes the term ‘ecosystem’?",
+    "options": [
+      "The flora and fauna of a geographical area",
+      "A community of organisms interacting with one another",
+      "That part of the Earth which is inhabited by living organisms",
+      "A community of organisms together with the environment in which they live"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A community of organisms together with the environment in which they live”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q39",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "As part of the Paris Agreement, India has submitted its Nationally Determined Contributions (NDCs), which include the goal of achieving Net Zero Emissions by the year:",
+    "options": [
+      "2030",
+      "2050",
+      "2070",
+      "2100"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2070”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q40",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which among the following statements regarding Tiger Reserves is INCORRECT?",
+    "options": [
+      "All North Eastern states have at least one Tiger Reserve",
+      "National Parks can be designated as Tiger Reserves",
+      "Core-Buffer strategy is central to the management Tiger Reserves",
+      "Corbett Tiger Reserve was the first Tiger Reserve to be established"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “All North Eastern states have at least one Tiger Reserve”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q41",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is Green Carbon?",
+    "options": [
+      "Carbon dioxide emissions from green technologies",
+      "Carbon released by decaying vegetation in forests",
+      "Carbon captured and stored by plants through photosynthesis",
+      "Carbon stored using artificial capture techniques"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Carbon captured and stored by plants through photosynthesis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q42",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "With reference to ‘palm oil’, consider the following statements: 1.Palm oil can be used to produce biodiesel 2.Palm oil is an inedible product 3.The palm oil tree is native to India Which of the statements given above are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q43",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following types of plants are known to be associated with nitrogen fixation?",
+    "options": [
+      "Pulses",
+      "Cereals",
+      "Oilseeds",
+      "Root crops"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pulses”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q44",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The most important strategy for the conservation of biodiversity along with traditional human life is the establishment of:",
+    "options": [
+      "Biosphere reserves",
+      "Botanical gardens",
+      "National parks",
+      "Wildlife sanctuaries"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Biosphere reserves”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q45",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Bluetooth 6.0 introduces a new feature called ‘Channel Sounding’. What is the primary purpose of this feature?",
+    "options": [
+      "To enable immersive 3D audio in wireless sound systems",
+      "To enhance device location accuracy",
+      "To significantly reduce audio latency in Bluetooth devices",
+      "To improve stereo separation between left and right audio channels"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To enhance device location accuracy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q46",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "People often feel dizzy or short of breath when they ascend to high altitudes quickly. In this context, consider the following statements: 1.There is less oxygen available to breathe at high altitudes 2.The body produces lesser red blood cells and hemoglobin to cope with low oxygen levels Which of the above statements is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q47",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which part of the brain is primarily responsible for processing emotions such as fear and for detecting potential threats?",
+    "options": [
+      "Amygdala",
+      "Hypothalamus",
+      "Cerebellum",
+      "Hippocampus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Amygdala”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q48",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Roughage or dietary fiber present in fruits, vegetables, and grains is considered beneficial for the body. What is the primary reason?",
+    "options": [
+      "It has high nutritional value",
+      "It helps remove harmful toxins",
+      "It aids in removal of undigested food",
+      "It assists in digestion of trans fat"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It aids in removal of undigested food”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q49",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Sunscreen is considered important to apply to the skin because: 1.Harmful UV rays can cause skin cancer 2.Sunscreen effectively blocks UV-C rays 3.It helps increase the body’s production of Vitamin D",
+    "options": [
+      "Only 1",
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only 1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q50",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "ASTROSAT is India’s first space observatory and recently completed 10 years. Which parts of the electromagnetic spectrum does it study? 1.Gamma rays2.UV rays 3.X rays4.Visible rays",
+    "options": [
+      "1and 2 only",
+      "2 and 3 only",
+      "1 and 4 only",
+      "2, 3 and 4 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2, 3 and 4 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q51",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following statements: 1.Rotavirus is a major cause of diarrhea in young children 2.Rotavac is a vaccine developed by India to protect against rotavirus infection Which of the following statements is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both 1 and 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q52",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Small Modular Reactors (SMRs) are related to:",
+    "options": [
+      "Nuclear energy",
+      "Thermal power",
+      "Hydro-electricity",
+      "Solar energy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Nuclear energy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q53",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding Article 371G of the Indian Constitution is INCORRECT?",
+    "options": [
+      "The Legislative Assembly of Mizoram shall consist of not more than 40 members",
+      "It was inserted by the 53rd Amendment Act, 1986",
+      "It aims to protect Mizo customs and traditions",
+      "It is titled as ‘Special provision with respect to the State of Mizoram’"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Legislative Assembly of Mizoram shall consist of not more than 40 members”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q54",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who was the first Indian Superintendent of the Lushai Hills?",
+    "options": [
+      "Gopinath Bordoloi",
+      "S. J Das",
+      "Bishnuram Medhi",
+      "S. N. Barkataki"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “S. N. Barkataki”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q55",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Consider the following list: 1.Fathang2.Sachhiah 3.Khuaichhiah4.Chikhurchhiah 5.Coolie system Which of the above were abolished in the 1950s?",
+    "options": [
+      "1, 2 and 4 only",
+      "1 , 3 and 5 only",
+      "2, 3 and 4 only",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q56",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who among the following was NOT a signatory to the Mizo Accord (Memorandum of Settlement), 1986?",
+    "options": [
+      "Laldenga",
+      "R.D Pradhan",
+      "G. Parthasarathy",
+      "Lalkhama"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “G. Parthasarathy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q57",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Regarding the Chin-Lushai Expedition of 1889-90, which of the statement is INCORRECT?",
+    "options": [
+      "The expedition aimed to prevent Lushai raids and punish Lushai chiefs",
+      "It was led by Captain T.H Lewin",
+      "The headquarters of North Lushai Hills was established at Fort Aijal",
+      "The headquarters of South Lushai Hills was established at Lungleh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It was led by Captain T.H Lewin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q58",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who among the following was appointed as the first Honorary Inspector of Schools in the Lushai Hills?",
+    "options": [
+      "Reverend E. Rowlands",
+      "Reverend D.E. Jones",
+      "Reverend J.H. Lorrain",
+      "Reverend F.W. Savidge"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reverend E. Rowlands”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q59",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following was the first Mizo language textbook?",
+    "options": [
+      "Mizo Chanchin Laisuih",
+      "Mizo Zir Tir Bu",
+      "Zirtirh Bu",
+      "Zirtan Bu"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mizo Zir Tir Bu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q60",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Ministry of Education, through the Right of Children to Free and Compulsory Education (Amendment) Rules, 2024, has amended which policy for students in Grades 5 and 8?",
+    "options": [
+      "No detention policy",
+      "Continuous assessment policy",
+      "Scholarship policy",
+      "Internal examination policy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “No detention policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q61",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Why was the Battle of Plassey (1757) considered as a turning point in Indian history?",
+    "options": [
+      "It ended Mughal rule completely",
+      "It marked the beginning of British political control in India",
+      "It led to the fall of the Marathas",
+      "It established a new alliance between British and French"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It marked the beginning of British political control in India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q62",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Kautilya, also known as Chanakya, wrote which famous work?",
+    "options": [
+      "Mahabharata",
+      "Ramayana",
+      "Arthashastra",
+      "Rigveda"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Arthashastra”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q63",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which ruler of the Delhi Sultanate initiated the construction of the tallest brick minaret in India, later completed by his successor?",
+    "options": [
+      "Qutb-ud-din Aibak",
+      "Alauddin Khilji",
+      "Iltutmish",
+      "Firoz Shah Tughlaq"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Qutb-ud-din Aibak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q64",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Who founded the Indian National Congress (INC) in 1885?",
+    "options": [
+      "Bal Gangadhar Tilak",
+      "Dadabhai Naoroji",
+      "Allan Octavian Hume",
+      "Gopal Krishna Gokhale"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Allan Octavian Hume”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q65",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Reign of Terror, a period marked by mass executions, political purges, and radical social changes, is most closely associated with which historical event?",
+    "options": [
+      "American Revolution",
+      "Industrial Revolution",
+      "Russian Revolution",
+      "French Revolution"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “French Revolution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q66",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Great Barrier Reef is located in which country?",
+    "options": [
+      "Indonesia",
+      "Australia",
+      "Philippines",
+      "Madagascar"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Australia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q67",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following countries is both in Europe and Asia?",
+    "options": [
+      "Turkey",
+      "Japan",
+      "Egypt",
+      "Brazil"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Turkey”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q68",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Mount Kilimanjaro is located in which country?",
+    "options": [
+      "Kenya",
+      "Uganda",
+      "Ethiopia",
+      "Tanzania"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tanzania”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q69",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which country lies directly between the United States and South America, acting as a land bridge?",
+    "options": [
+      "Cuba",
+      "Mexico",
+      "Canada",
+      "Colombia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mexico”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q70",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Tropic of Capricorn crosses which continent where you can find the Amazon rainforest?",
+    "options": [
+      "Africa",
+      "South America",
+      "Asia",
+      "Australia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “South America”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q71",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Coral bleaching is primarily caused by:",
+    "options": [
+      "Plastic pollution",
+      "Overfishing",
+      "Rising sea temperatures",
+      "Deforestation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rising sea temperatures”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q72",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which Article of the Indian Constitution prohibits discrimination on the grounds of religion, race, caste, sex, or place of birth?",
+    "options": [
+      "Article 14",
+      "Article 15",
+      "Article 16",
+      "Article 19"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 15”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q73",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The concept of Judicial Review in India is derived from:",
+    "options": [
+      "British Constitution",
+      "US Constitution",
+      "French Constitution",
+      "Canadian Constitution"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “US Constitution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q74",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The ‘Pradhan Mantri Jan Dhan Yojana’ primarily aims to:",
+    "options": [
+      "Provide affordable housing",
+      "Promote financial inclusion",
+      "Improve sanitation",
+      "Offer health insurance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Promote financial inclusion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q75",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The ‘Swachh Bharat Abhiyan’  was launched in:",
+    "options": [
+      "2012",
+      "2010",
+      "2014",
+      "2018"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2014”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q76",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "NEP 2020 aims to achieve 100% Gross Enrolment Ratio (GER) in school education by which year?",
+    "options": [
+      "2025",
+      "2030",
+      "2035",
+      "2040"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2030”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q77",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The Sustainable Development Goals (SDGs) are promoted by:",
+    "options": [
+      "IMF",
+      "WHO",
+      "WTO",
+      "UN"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “UN”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q78",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The WTO replaced which earlier organization?",
+    "options": [
+      "International Trade Organization",
+      "General Agreement on Tariffs and Trade (GATT)",
+      "IMF",
+      "World Bank"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “General Agreement on Tariffs and Trade (GATT)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q79",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "What is the theme of South Africa’s G20 Presidency (Dec 2024 – Nov 2025)?",
+    "options": [
+      "Inclusive Growth, Innovation, Sustainability",
+      "Solidarity, Equality, Sustainability",
+      "Climate Action, Trade, Prosperity",
+      "Partnership, Development, Peace"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Solidarity, Equality, Sustainability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q80",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is a monetary policy tool of RBI?",
+    "options": [
+      "Income Tax",
+      "Cash Reserve Ratio (CRR)",
+      "GST",
+      "Union Budget"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cash Reserve Ratio (CRR)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q81",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘BRICS’ countries include:",
+    "options": [
+      "Brazil, Russia, India, China, South Africa",
+      "Belgium, Russia, Italy, China, Spain",
+      "Brazil, Romania, Indonesia, Canada, Singapore",
+      "Bangladesh, Russia, India, Chile, Sweden"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Brazil, Russia, India, China, South Africa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q82",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘Beti Bachao, Beti Padhao’ scheme aims to:",
+    "options": [
+      "Promote girl child survival and education",
+      "Financial inclusion",
+      "Health insurance for women",
+      "Rural housing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Promote girl child survival and education”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q83",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "‘Repo Rate’ is the rate at which:",
+    "options": [
+      "Commercial banks lend to each other",
+      "RBI lends to commercial banks",
+      "Government borrows from RBI",
+      "Public deposits earn interest"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “RBI lends to commercial banks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q84",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which body regulates the stock market in India?",
+    "options": [
+      "RBI",
+      "IRDAI",
+      "SEBI",
+      "NABARD"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “SEBI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q85",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which organ in humans produces insulin?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Heart",
+      "Pancreas"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pancreas”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q86",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The first human to travel into space was:",
+    "options": [
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Valentina Tereshkova",
+      "Buzz Aldrin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Yuri Gagarin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q87",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which Indian satellite, launched on July 30, 2025, is a joint mission with NASA to monitor Earth’s surface changes?",
+    "options": [
+      "EOS-09",
+      "GSAT-30",
+      "Cartosat-3",
+      "NISAR"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “NISAR”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q88",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "First Indian badminton player to win All England Badminton Championship is _______.",
+    "options": [
+      "Saina Nehwal",
+      "P. V. Sindhu",
+      "Kidambi Srikanth",
+      "Prakash Padukone"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Prakash Padukone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q89",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which Indian city was designated as the first ‘City of Literature’ by UNESCO?",
+    "options": [
+      "Kolkata",
+      "Chennai",
+      "Kozhikode",
+      "Jaipur"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kozhikode”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q90",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The FIFA Ballon d’Or is awarded to:",
+    "options": [
+      "Best football club in the world",
+      "Best football referee",
+      "Best male footballer of the year",
+      "Highest goal scorer in FIFA World Cup"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Best male footballer of the year”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q91",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which of the following is the correct order of Padma Awards from highest to lowest?",
+    "options": [
+      "Padma Vibhushan, Padma Bhushan, Padma Shri",
+      "Padma Shri, Padma Bhushan, Padma Vibhushan",
+      "Padma Bhushan, Padma Vibhushan, Padma Shri",
+      "Padma Vibhushan, Padma Shri, Padma Bhushan"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Padma Vibhushan, Padma Bhushan, Padma Shri”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q92",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The vaccine for polio was developed by:",
+    "options": [
+      "Edward Jenne",
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Robert Koch"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Jonas Salk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q93",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which company developed the AI language model ChatGPT?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "OpenAI",
+      "IBM"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “OpenAI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q94",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Elon Musk is associated with which of the following technologies?",
+    "options": [
+      "Neuralink",
+      "Moderna",
+      "IBM Watson",
+      "Google Brain"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Neuralink”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q95",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Christ the Redeemer statue overlooks which city?",
+    "options": [
+      "Buenos Aires",
+      "Rio de Janeiro",
+      "Brasilia",
+      "São Paulo"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rio de Janeiro”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q96",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The supercomputer ‘PARAM’ was developed in:",
+    "options": [
+      "USA",
+      "China",
+      "Japan",
+      "India"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q97",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "India’s rank in the Global Innovation Index 2025 is:",
+    "options": [
+      "28th",
+      "38th",
+      "48th",
+      "58th"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “38th”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q98",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The resignation of which Nepalese Prime Minister occurred as a result of the 2025 Gen Z protests?",
+    "options": [
+      "Sher Bahadur Deuba",
+      "Baburam Bhattarai",
+      "Pushpa Kamal Dahal",
+      "K. P. Sharma Oli"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “K. P. Sharma Oli”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=12",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q99",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "Which disease has the Mizoram health department recently warned about spreading across the state?",
+    "options": [
+      "Malaria",
+      "Dengue",
+      "Japanese Encephalitisa",
+      "Scrub Typhus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Scrub Typhus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-ceo-2025-gk-Q100",
+    "paperId": "mpsc-group-b-ceo-2025-gk",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Knowledge",
+    "difficulty": "medium",
+    "question": "The recently inaugurated ₹ 8,070-crore railway project in Mizoram spans 51.38 km. Which of the following is an incorrect feature of the project?",
+    "options": [
+      "It includes 48 tunnels and 55 major bridges",
+      "It was built under complex geological conditions",
+      "It directly links Aizawl with Guwahati bypassing Silchar",
+      "The total project cost is ₹ 8,070 crore"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It directly links Aizawl with Guwahati bypassing Silchar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education Officer under School Education Department - November 2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-1",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "type": "descriptive",
@@ -209323,7 +212385,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 38 -42) Put in the correct form of the verbs from the alternatives given:"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B40",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -212139,9 +215203,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 54-58): Pick the correct clause of the words underlined in the given"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B59",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -217650,7 +220712,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 11 – 20): Fill in the blanks with the correct form of the verbs from those given"
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q16",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -220271,9 +223335,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc-B16",
     "paperId": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc",
@@ -225603,7 +228665,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 59 – 64): Identify the correct notion expressed by each of the following"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B61",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -228131,9 +231195,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 59-64) : Identify the correct notion expressed by each of the following sentences"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B64",
     "paperId": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
@@ -233629,7 +236691,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "source": "MCS Combined ( Main ) - 2017 · 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683-written-6",
     "paperId": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -236309,9 +239373,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Convert the given sentences as directed in the brackets:"
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q53",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -241441,7 +244503,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 59 -64 ) : Analyse the given sentences and choose the correct options :"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B64",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -243993,9 +247057,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 61 - 70) : Analyze the sentences and choose the correct answer."
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q71",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -249442,7 +252504,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 51 to 60): Transform the following sentences as directed without losing"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q60",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -252310,9 +255374,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 51 – 60) : Transform the following sentences as directed in the brackets."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q57",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -257926,7 +260988,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 41 -50) : Analyse the following sentences by finding out the clause mentioned"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q44",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -260620,9 +263684,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 21 - 30) : Fill in the blanks with the correct adverbs or adjectives."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q23",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -266101,7 +269163,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-B8",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -269101,9 +272165,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281-Q52",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
@@ -274440,7 +277502,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q10",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -277019,9 +280083,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. Il - 20) : Choose the appropriate determiners from the alternatives given"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q14",
     "paperId": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -282521,7 +285583,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B4",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -285099,9 +288163,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one."
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q49",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -290271,7 +293333,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q50",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -292872,9 +295936,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos, 57 - 61) : Choose the correct alternative which is closest in meaning to the"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f-B59",
     "paperId": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f",
@@ -297965,7 +301027,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 57 - 66): Choose the correct form of the verb that agrees with the subject of"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B60",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -300508,9 +303572,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive,"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B27",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -305709,7 +308771,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=4"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-40",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -308183,9 +311247,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B71",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -314483,7 +317545,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B23",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -317591,9 +320655,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208-Q20",
     "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -324003,7 +327065,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q13",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -326980,9 +330044,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B36",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -327545,17 +330607,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "Verb",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -327574,17 +330640,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "Adverb",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -327603,17 +330673,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "Adjective",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -327632,17 +330706,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "Adjective",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -327661,17 +330739,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "Preposition",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 5) : Identify the parts of speech of the underlined words:"
   },
   {
@@ -327690,17 +330772,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "beside",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “beside”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327719,17 +330805,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "by",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327748,17 +330838,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "within",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “within”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327777,17 +330871,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "before",
       "since"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “since”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327806,17 +330904,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "but",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “but”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327835,17 +330937,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "but",
       "while"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “or”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=3",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327864,18 +330970,23 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "from",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “to”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B13",
@@ -327893,17 +331004,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "with",
       "from"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “about”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327922,17 +331037,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "in",
       "against"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “on”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327951,17 +331070,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "after",
       "from"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “from”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 15) : Fill in the blanks with the appropriate preposition/ conjunction:"
   },
   {
@@ -327980,17 +331103,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "is shaking",
       "was shaking"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “was shaking”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328009,17 +331136,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "has been working",
       "had worked"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “has been working”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328038,17 +331169,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "rise",
       "rose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “rises”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328067,17 +331202,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "will have been wishing",
       "has wished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “wished”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328096,17 +331235,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "stole",
       "stealed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “has stolen”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328125,17 +331268,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "runs",
       "would run"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “will be running”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328154,17 +331301,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "want",
       "have wanted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “wants”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328183,17 +331334,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "received",
       "receives"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “received”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328212,17 +331367,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "was examining",
       "examines"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “was examining”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328241,17 +331400,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "has been landing",
       "landed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “landed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 16 - 25) : Fill in the blanks with the appropriate form of the verbs from the"
   },
   {
@@ -328270,17 +331433,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "eminent",
       "intelligible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “eminent”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:"
   },
   {
@@ -328299,17 +331466,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "cite",
       "sigh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “cite”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:"
   },
   {
@@ -328328,17 +331499,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "fatalist",
       "mercenary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “mercenary”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:"
   },
   {
@@ -328357,17 +331532,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "philanderer",
       "pedestrian"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “philanderer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 29) : Complete the following sentences with the most appropriate words:"
   },
   {
@@ -328386,17 +331565,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "polygamy",
       "monogamy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “polygamy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the"
   },
   {
@@ -328415,17 +331598,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "astronomer",
       "astroentitis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “astronomer”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the"
   },
   {
@@ -328444,17 +331631,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "epistemology",
       "anatomy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “anatomy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the"
   },
   {
@@ -328473,17 +331664,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "philanthropist",
       "anarchist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “pessimist”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 30 - 33 ) : Substitute each expression with a single word from among the"
   },
   {
@@ -328502,17 +331697,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "To make peace",
       "To make use of an opportunity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To make peace”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms"
   },
   {
@@ -328531,17 +331730,21 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "A selfless friend",
       "A complete friend"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A selfish friend”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms"
   },
   {
@@ -328560,14 +331763,17 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "To encourage",
       "To discourage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To discourage”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms"
   },
   {
@@ -328586,18 +331792,949 @@ const groupBQuestionsPart40: BankQuestion[] = [
       "An impromptu treasure hunt",
       "A foolish and useless pursuit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A foolish and useless pursuit”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Circle Education November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 34 - 37) : Choose the most appropriate meaning for the following idioms"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B38",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B38",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "admire",
+    "options": [
+      "detest",
+      "envy",
+      "adore",
+      "praise"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “detest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B39",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B39",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "contrary",
+    "options": [
+      "inclusive",
+      "prominent",
+      "repudiate",
+      "similar"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “similar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B40",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B40",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "repulsive",
+    "options": [
+      "meek",
+      "alluring",
+      "hideous",
+      "exhibiting"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “alluring”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B41",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B41",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "demolish",
+    "options": [
+      "destroy",
+      "collapse",
+      "praise",
+      "construct"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “construct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 38 - 41) : Choose a word that is opposite in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B42",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B42",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The fire was burning in the forest. (Change to Future Perfect Continuous Tense)",
+    "options": [
+      "The fire had been burning in the forest",
+      "The fire will have been burning in the forest",
+      "The fire will be burning in the forest",
+      "The fire will had been burning in the forest"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The fire will have been burning in the forest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B43",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B43",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The man spread false rumours about his wife (Change to Past Continuous Tense)",
+    "options": [
+      "The man was spreading false rumours about his wife",
+      "The man is spreading false rumours about his wife",
+      "The man had been spreading false rumours about his wife",
+      "The man had spread false rumours about his wife"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The man was spreading false rumours about his wife”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B44",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B44",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": ".Mrs. Solis refused to help her husband. (Change to Present Indefinite Tense)",
+    "options": [
+      "Mrs. Solis has refused to help her husband",
+      "Mrs. Solis was refusing to help her husband",
+      "Mrs. Solis refuses to help her husband",
+      "Mrs. Solis is refusing to help her husband"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mrs. Solis refuses to help her husband”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B45",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B45",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The farmer has reaped his harvest. (Change to Past Perfect Tense)",
+    "options": [
+      "The farmer was reaping his harvest",
+      "The farmer reaped his harvest",
+      "The farmer had reaped his harvest",
+      "The farmer is reaping his harvest"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The farmer had reaped his harvest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B46",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B46",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Who is knocking at the door? (Change to Future Indefinite Tense)",
+    "options": [
+      "Who will be knocking on the door?",
+      "Who will knock on the door?",
+      "Who will have been knocking on the door?",
+      "Who will have knocked on the door?"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Who will knock on the door?”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B47",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B47",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The teacher said, “It has been raining since this morning”",
+    "options": [
+      "The teacher says that it has been raining since that morning",
+      "The teacher said that it had been raining since that morning",
+      "The teacher said that it has been raining since this morning",
+      "The teacher said that it was raining since that morning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The teacher said that it had been raining since that morning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B48",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B48",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Sarah said, “The soldiers were marching towards the castle”",
+    "options": [
+      "Sarah said that the soldiers were marching towards the castle",
+      "Sarah said that the soldiers had marched towards the castle",
+      "Sarah said that the soldiers have been marching towards the castle",
+      "Sarah said that the soldiers had been marching towards the castle"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sarah said that the soldiers had been marching towards the castle”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B49",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B49",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Benjamin said that he did not enjoy the concert.",
+    "options": [
+      "Benjamin said,” I have not enjoyed the concert”",
+      "Benjamin said, “I am not enjoying the concert”",
+      "Benjamin said, “I did not enjoy the concert”",
+      "Benjamin said, “I had not enjoyed the concert”"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Benjamin said, “I did not enjoy the concert””. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B50",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B50",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Siama said to Kimi, “Why are you sketching on the wall?”",
+    "options": [
+      "Siama asked Kimi why was she sketching on the wall.",
+      "Siama asked Kimi why had she been sketching on the wall.",
+      "Siama asked Kimi why she is sketching on the wall.",
+      "Siama asked Kimi why she was sketching on the wall."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Siama asked Kimi why she was sketching on the wall.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B51",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B51",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "He said, “I saw a rabbit here.”",
+    "options": [
+      "He said that he had been seeing a rabbit there.",
+      "He said that he had seen a rabbit there.",
+      "He said that he has seen a rabbit here.",
+      "He said that he has been seeing a rabbit here."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “He said that he had seen a rabbit there.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 47 - 51) : Select the appropriate direct/indirect speech from the options"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B52",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B52",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "She is the girl ________ I shall marry.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "once"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “whom”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B53",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B53",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "I wore only a shirt ________ it was very cold.",
+    "options": [
+      "however",
+      "unless",
+      "provided",
+      "although"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “although”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B54",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B54",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "I will do it ________ you want me to do it.",
+    "options": [
+      "however",
+      "whither",
+      "since",
+      "that"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “since”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B55",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B55",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "It is not certain ________ he will leave or stay.",
+    "options": [
+      "that",
+      "whether",
+      "because",
+      "which"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “whether”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B56",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B56",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "The patient died ________ receiving the best medical care available.",
+    "options": [
+      "because",
+      "as far as",
+      "despite",
+      "however"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “despite”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 52 - 56) : Choose the correct word to connect the following sentences:"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B57",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B57",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "eloquence",
+    "options": [
+      "elegance",
+      "despair",
+      "fluency",
+      "obstinate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “fluency”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B58",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B58",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "feeble",
+    "options": [
+      "weak",
+      "cruel",
+      "violent",
+      "delightful"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “weak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B59",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B59",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "incongruous",
+    "options": [
+      "careless",
+      "indifferent",
+      "undisguised",
+      "inappropriate"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “inappropriate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B60",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B60",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "nonchalant",
+    "options": [
+      "ambiguous",
+      "reserved",
+      "indifferent",
+      "patient"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “indifferent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B61",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B61",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "despise",
+    "options": [
+      "love",
+      "hate",
+      "admire",
+      "respect"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “hate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "direction": "Direction (Question Nos. 57 - 61) : Choose a word that is similar in meaning to the given word from"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B62",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B62",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Everybody is present. (transform this into a negative sentence)",
+    "options": [
+      "Everybody is absent.",
+      "Everybody is not present.",
+      "Nobody is present.",
+      "Nobody is absent."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nobody is absent.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B63",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B63",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "No one can deny that she sings well. (transform this into assertive sentence)",
+    "options": [
+      "Everybody accepts that she sings well.",
+      "Nobody can accept that she sings well.",
+      "Can anyone deny that she sings well?",
+      "Nobody can deny that she sings well."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Everybody accepts that she sings well.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B64",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B64",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "It was a lovely day. (transform it into exclamatory sentence)",
+    "options": [
+      "Is it not a lovely day!",
+      "What a lovely day it was!",
+      "Ah! Today is a lovely day.",
+      "What a lovely day today!"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “What a lovely day it was!”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B65",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B65",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "It is useless to cry over spilt milk. (transform it into interrogative sentence)",
+    "options": [
+      "Is it useful to not cry over spilt milk?",
+      "Is it not useless to cry over spilt milk?",
+      "Is it useless to cry over spilt milk?",
+      "Is it useless to not cry over spilt milk?"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Is it useless to cry over spilt milk?”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as"
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B66",
+    "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+    "questionNumber": "B66",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "Isn’t the building red in colour? (transform this into a negative sentence)",
+    "options": [
+      "Is the building red in colour?",
+      "The building is red in colour.",
+      "Is the building not red in colour?",
+      "The building is not red in colour."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The building is not red in colour.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Circle Education November - 2025 · 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 62  -66) : Choose the correct transformation for the following sentences as"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-written-1",
@@ -331713,7 +335850,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B27",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -335153,9 +339292,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B46",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p1-B47",
     "questionNumber": "B47",
@@ -339653,7 +343790,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B50",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B51",
     "questionNumber": "B51",
@@ -342997,9 +347136,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B12",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B13",
     "questionNumber": "B13",
@@ -347496,7 +351633,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B26",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B27",
     "questionNumber": "B27",
@@ -350842,9 +354981,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B87",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B88",
     "questionNumber": "B88",
@@ -355523,7 +359660,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 76 - 80) : Select the word which is opposite in meaning to the underlined"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B78",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -358853,9 +362992,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q26",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -363778,7 +367915,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B16",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -367380,9 +371519,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-gs1-Q64",
     "paperId": "mpsc-group-b-si-fcs-2018-gs1",
@@ -371935,7 +376072,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 21-27): Fill in the blanks with appropriate prepositions:"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B22",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -375239,9 +379378,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q89",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -379697,7 +383834,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B83",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -383126,9 +387265,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q74",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -388023,7 +392160,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach3-2019-english-B64",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -391651,9 +395790,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-election-2019-english-B31",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -396468,7 +400605,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q40",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -400025,9 +404164,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 17 - 23 : Read the given passage carefully and choose the correct answer"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-english-B21",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -404419,7 +408556,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q37",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -407957,9 +412096,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q12",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -412575,7 +416712,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate forms of Verbs from the four"
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q27",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -415921,9 +420060,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q56",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -420552,7 +424689,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q27",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -424032,9 +428171,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 41 - 50) : Pick out the correct clause from the following sentences."
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q50",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -428692,7 +432829,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q21",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -432289,9 +436428,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q50",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -436723,7 +440860,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-english-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p1-written-6",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p1",
@@ -440100,9 +444239,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q16",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -444833,7 +448970,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q87",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -448211,9 +452350,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-phe-2019-english-B18",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -452914,7 +457051,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q95",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -456436,9 +460575,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 9- 16) :** Fill in the blanks with the idioms / phrases out of the given options."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-english-B17",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -461236,7 +465373,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q32",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -464629,9 +468768,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 – 10) : Identify the parts of speech of each underlined words :"
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lib-lunglei-2019-english-B6",
     "paperId": "mpsc-group-b-lib-lunglei-2019-english",
@@ -469473,7 +473610,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B15",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -473034,9 +477173,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-surveyor-2019-english-B61",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -477739,7 +481876,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q14",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -480869,9 +485008,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 24) : Analyse the given sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-B23",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -485621,7 +489758,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9 - 17): Fill in the blanks with the appropriate prepositions."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B17",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -489211,9 +493350,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A69",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -493937,7 +498074,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A38",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -497578,9 +501717,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 65 - 75) : Choose the correct alternative which is closest in meaning to the"
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B67",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -502348,7 +506485,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 60 - 67) Analyze the given sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B61",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -505882,9 +510021,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-B114",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -510478,7 +514615,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-B83",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -514014,9 +518153,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A35",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -518754,7 +522891,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A29",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -522323,9 +526462,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 50 - 58) : Choose the correct alternative which is the closest in meaning to"
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-B58",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -526820,7 +530957,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 49 - 57) : Fill in the blanks with appropriate prepositions."
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B52",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -530135,9 +534274,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "source": "Employment Officer under Labour, Employment & Industrial Training Department (second series) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-leit-2019-english-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p1-written-4",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p1",
@@ -534583,7 +538720,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q69",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -538078,9 +542217,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q98",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -542632,7 +546769,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q63",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -546306,9 +550445,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of"
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B11",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -551017,7 +555154,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q57",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -554631,9 +558770,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A34",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -559219,7 +563356,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q95",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -562781,9 +566920,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q18",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -567342,7 +571479,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 77 - 86) : Choose the correct antonyms of the following words."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q83",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -570930,9 +575069,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 16) : Choose the correct option that conveys the meaning of the"
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-agri-2020-english-B12",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -575598,7 +579735,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q95",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -579018,9 +583157,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 1 - 10) : Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q11",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -583649,7 +587786,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms"
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q76",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -587080,9 +591219,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 - 100) : Choose the correct word substitute from the given choices :"
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q99",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -591780,7 +595917,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q70",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -595340,9 +599479,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two"
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q99",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -600473,7 +604610,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q86",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -604347,9 +608486,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q41",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -609488,7 +613625,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q37",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -613362,9 +617501,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q77",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -618496,7 +622633,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q73",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -622361,9 +626500,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q56",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -627493,7 +631630,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q66",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -631334,9 +635473,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q13",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -636079,7 +640216,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q94",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -639708,9 +643847,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q23",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -644841,7 +648978,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q97",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -648777,9 +652916,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q29",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -653838,7 +657975,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q25",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -657094,9 +661233,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q70",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -661382,7 +665519,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q60",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -665076,9 +669215,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q44",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -670377,7 +674514,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q19",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -673785,9 +677924,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q51",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -678639,7 +682776,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=5",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q56",
     "questionNumber": "56",
@@ -681894,9 +686033,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low"
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q059",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -682622,6 +686759,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   },
   "mpsc-group-b-acm-2026-tech-p3": {
     "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-ceo-2025-gk": {
+    "marksPerQuestion": 1,
     "durationMinutes": 120,
     "negativeMarking": false,
     "penaltyFraction": 0
@@ -683544,6 +687687,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
   },
+  "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -683733,6 +687882,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-acm-2026-tech-p1": 50,
   "mpsc-group-b-acm-2026-tech-p2": 50,
   "mpsc-group-b-acm-2026-tech-p3": 63,
+  "mpsc-group-b-ceo-2025-gk": 100,
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": 50,
   "mpsc-group-b-ada-aa-ata-2019-english": 60,
   "mpsc-group-b-ada-aa-ata-2019-gk": 100,
@@ -683949,7 +688099,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17": 66,
   "mpsc-group-b-archive-lang-2025-junior-grade-of-mpe-ss-december-2025-jr-grade-of-mpe-ss-general-english-ff0a2d0b": 11,
   "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487": 50,
-  "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82": 37,
+  "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82": 66,
   "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde": 66,
   "mpsc-group-b-archive-lang-2025-mcs-combined-competitive-main-examination-2025-mcs-main-general-english-b14cce93": 10,
   "mpsc-group-b-archive-lang-2025-jr-grade-of-mes-combined-october-2025-jr-grade-of-mes-combined-2025-gene-702051c6": 10,

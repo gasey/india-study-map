@@ -1,0 +1,2317 @@
+{
+  "slug": "ceo-2025-gk",
+  "exam": "Circle Education Officer under School Education Department - November 2025",
+  "sitting": "November 2025",
+  "subject": "General Knowledge",
+  "source": "CEO General Knowledge - 2025..pdf",
+  "sourceSha256": "6545ddb7dbf57ba2d5aebe5943190105fed56aace4025bb72e0ed3fd3c939603",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delhi-Mumbai",
+        "b": "Bengaluru-Chennai",
+        "c": "Mumbai-Ahmedabad",
+        "d": "Prayagraj-Varanasi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first bullet train project is being constructed on which route?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chola dynasty",
+        "b": "Sunga dynasty",
+        "c": "Gupta empire",
+        "d": "Mauryan empire"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Sengol’, a gold-plated silver scepter was installed in the new Parliament building of India. This symbol is inspired by the:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Piracy and smuggling",
+        "b": "Cross-border terrorism",
+        "c": "Naxalism",
+        "d": "Reforestation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Operation Black Forest was aimed at:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Family reunification for people of Chinese origin living abroad",
+        "b": "Attracting young foreign professionals in science and technology",
+        "c": "Short-term tourism for business travellers",
+        "d": "Study programmes for international students"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary aim of China’s newly announced K Visa?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Facilitating consumer grievance redressal",
+        "b": "Issuing takedown orders for unlawful online content",
+        "c": "Promoting digital literacy among users",
+        "d": "Registering new social media accounts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary purpose of the Sahyog Portal?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Election Commission of India",
+        "b": "Registrar General and Census Commissioner of India",
+        "c": "Niti Aayog",
+        "d": "Finance Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recently, there has been mention of the Special Intensive Revision (SIR). Which of the following is engaged in this activity?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grace Lalrinpari Hauzel",
+        "b": "Gracy L Bawitlung",
+        "c": "Grace VL Pachuau",
+        "d": "Grace Hauhnar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was recently named the National Youth Icon by Ministry of Youth Affairs under its Viksit Bharat Yuva Connect Initiative?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Vallabhbhai Patel",
+        "c": "B.R Ambedkar",
+        "d": "Subhash Chandra Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who led the Mahad Satyagraha?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Macaulay’s Minutes",
+        "b": "Wood’s Educational Despatch",
+        "c": "Hunter Education Commission",
+        "d": "General Committee on Public Instruction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is considered the Magna Carta of English Education in India?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1, 2 and 3 only",
+        "d": "2, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Gupta period is often referred to as a ‘Golden Age’ in Indian history. Which of the following statements about this period is/are correct? 1.The Nagara style of temple architecture emerged 2.The practice of Sati was abolished 3.Caste system and untouchability were prohibited 4.The Gupta Empire unified the entire Indian subcontinent under one rule Select the correct option:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It aimed to divide India into smaller provinces",
+        "b": "It did not include any Indian members",
+        "c": "It proposed Dominion status for India",
+        "d": "It planned to extend British rule in India for another 50 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was the Simon Commission opposed by Indian nationalists:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swadeshi movement",
+        "b": "Non-cooperation movement",
+        "c": "Civil disobedience movement",
+        "d": "Quit India movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following movements contributed to a split in the Indian National Congress, resulting in the emergence of ‘Moderates’ and ‘Extremists’?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It was established during the Mauryan period under Chandragupta Maurya",
+        "b": "It attracted scholars from India and abroad, and offered a wide range of subjects",
+        "c": "It was an inclusive center of learning that also trained monks and scholars of various Buddhist",
+        "d": "It was a residential university providing free education and accommodation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nalanda University is considered a great centre of learning in ancient India. Which of the following statements is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "1 and 2 only",
+        "d": "1 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to revenue collection by the British colonial government in India, consider the following statements: 1.In the Ryotwari system, revenue was collected from a group of villages 2.In the Zamindari system, revenue was collected from the landlords 3.In the Mahalwari system, revenue was collected directly from the individual cultivators Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 3 only",
+        "b": "1, 3 and 4 only",
+        "c": "2 and 3 only",
+        "d": "2, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements about Rabindranath Tagore are correct? 1.He established Shantiniketan as a centre for holistic education 2.He composed the national song of India 3.He was the first Asian to be awarded the Nobel Prize in Literature 4.He renounced knighthood conferred by the British in protest against the Jallianwala Bagh massacre Select the correct option:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equatorial climate",
+        "b": "Mediterranean climate",
+        "c": "Monsoon climate",
+        "d": "Temperate climate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The seasonal reversal of winds is a typical characteristic of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indus",
+        "b": "Ganga",
+        "c": "Brahmaputra",
+        "d": "Karnali"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following rivers does NOT originate from the region around Mount Kailash?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1, 3 and 5 only",
+        "c": "1, 2, 4 and 5 only",
+        "d": "2, 3, 4 and 5 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following list of minerals? 1.Thorium2.Titanium 3.Graphite4.Copper 5.Silicon Which of the above are identified as ‘Critical Minerals’ by the Government of India:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hill slopes have a lot of moisture that turns to mist in the morning",
+        "b": "Warm, moist air rises up the slopes, cools down, and forms mist",
+        "c": "Cold air flows into valleys at night and turns into mist in the morning",
+        "d": "Strong winds at high altitudes push moisture to form mist"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Early morning mist over hills and mountains is mainly formed because:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sundarbans National Park",
+        "b": "Keibul Lamjao National Park",
+        "c": "Gulf of Mannar National Park",
+        "d": "Gangotri National Park"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the only floating National Park in the world?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both Statement 1 and 2 are correct, and Statement 2 explains Statement 1",
+        "b": "Both Statements are correct, but Statement 2 does not explain Statement 1",
+        "c": "Statement 1 is correct, but Statement 2 is incorrect",
+        "d": "Statement 1 is incorrect, but Statement 2 is correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Winds blow primarily due to differences in atmospheric pressure 2.Coriolis force causes winds to move from high pressure to low pressure Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Indian Citizenship: 1.There is only one citizenship and one domicile in India 2.Only a citizen by birth is eligible to become the Head of State Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The candidate who secures more than 50% of the total votes in a constituency is declared the",
+        "b": "The candidate who receives the highest number of votes in a constituency is declared the",
+        "c": "The candidate who receives the most first-preference rankings from voters is declared the",
+        "d": "The candidate is finally elected based on the proportion of total votes received by their party"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of Indian elections, which use the First Past The Post (FPTP) system for both Lok Sabha and State Assembly Elections, which of the following statements gives the most accurate description of this electoral system?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Legal right available to citizens only",
+        "b": "Legal right available to any person",
+        "c": "Fundamental right available to citizens only",
+        "d": "Neither Fundamental right nor legal right"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the position of the Right to Property in India?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The amount allocated to each MLA from Mizoram is Rs. 2 crore per legislative assembly",
+        "b": "MLAs suggest specific development works to the Deputy Commissioner",
+        "c": "The cost of work undertaken should not exceed Rs. 1 lakh in each case",
+        "d": "A minimum of 10% of the fund allocated must be utilized for capacity building and training of"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding MLALADS is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 19",
+        "b": "Article 21",
+        "c": "Article 25",
+        "d": "Article 29"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Article of the Constitution of India safeguards one’s right to marry the person of one’s choice?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Directive Principles of State Policy",
+        "b": "Fundamental Rights",
+        "c": "Preamble",
+        "d": "Seventh Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of the Indian Constitution declares the ideal of Welfare State?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 only",
+        "d": "2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Lok Adalats (People’s Court), consider the following statements: 1.They have only civil jurisdiction 2.They have the powers of a civil court 3.No court fee is required Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It was established under the Mizoram Rural Bank Act, 1983",
+        "b": "It is sponsored by State Bank of India, which holds a 35% share",
+        "c": "It is supervised by NABARD",
+        "d": "The Government of Mizoram holds a 15% share"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding Mizoram Rural Bank is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "2, and 4 only",
+        "d": "1, 2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are considered Capital Expenditure? 1.Purchase of land2.Purchase of machinery 3.Investment in shares4.Salaries of employees",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Allocating a separate budget exclusively for women",
+        "b": "Reducing allocations for men to increase allocations for women",
+        "c": "Increasing the number of women-specific schemes in the Budget",
+        "d": "Promoting gender equity through inclusive budgetary allocations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gender Budgeting is best described as:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The value of raw materials and inputs used in the production of goods and services",
+        "b": "The market value of all goods and services produced by all its citizens",
+        "c": "The market value of all final goods and services produced within the country",
+        "d": "The total income received by residents including remittances from abroad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is included in the calculation of a country’s Gross Domestic Product (GDP)?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about the Indian economy: 1.Share of services in GDP significantly increased 2.Share of India’s exports in world trade increased 3.FDI inflows decreased Which of the following occurred in India after the economic liberalization in 1991?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A decline in the purchasing power of the domestic currency due to rising prices",
+        "b": "An increase in cost of consumer goods that reduces the standard of living",
+        "c": "A temporary increase in the prices of food and fuel due to external shocks",
+        "d": "A sustained increase in the general price level of goods and services over a period of time"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best defines ‘inflation’ in an economy?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements 1.Promoting Self-Help Groups 2.Promoting Micro Food Processing Units 3.Promoting Industrial Training Institutes Which of the above can help in the government’s objective of inclusive growth?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about National Deworming Day: 1.Albendazole is the medication administered under the program 2.It targets children and adolescents in the age group of 1-16 years 3.It aims to reduce the prevalence of soil-transmitted helmiths Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 3 only",
+        "c": "2 and 3 only",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following provisions under the PM POSHAN (Mid-Day Meal) Rules: 1.Social audits are mandated to enhance transparency and accountability 2.Cooked meals are provided to children enrolled in Classes 1 to 8 in government schools, government-aided schools, and private unaided schools 3.If cooked meals cannot be provided, a food security allowance must be given to the beneficiaries Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The flora and fauna of a geographical area",
+        "b": "A community of organisms interacting with one another",
+        "c": "That part of the Earth which is inhabited by living organisms",
+        "d": "A community of organisms together with the environment in which they live"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following best describes the term ‘ecosystem’?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2030",
+        "b": "2050",
+        "c": "2070",
+        "d": "2100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As part of the Paris Agreement, India has submitted its Nationally Determined Contributions (NDCs), which include the goal of achieving Net Zero Emissions by the year:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All North Eastern states have at least one Tiger Reserve",
+        "b": "National Parks can be designated as Tiger Reserves",
+        "c": "Core-Buffer strategy is central to the management Tiger Reserves",
+        "d": "Corbett Tiger Reserve was the first Tiger Reserve to be established"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following statements regarding Tiger Reserves is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon dioxide emissions from green technologies",
+        "b": "Carbon released by decaying vegetation in forests",
+        "c": "Carbon captured and stored by plants through photosynthesis",
+        "d": "Carbon stored using artificial capture techniques"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is Green Carbon?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "1 and 3 only",
+        "d": "2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to ‘palm oil’, consider the following statements: 1.Palm oil can be used to produce biodiesel 2.Palm oil is an inedible product 3.The palm oil tree is native to India Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pulses",
+        "b": "Cereals",
+        "c": "Oilseeds",
+        "d": "Root crops"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following types of plants are known to be associated with nitrogen fixation?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biosphere reserves",
+        "b": "Botanical gardens",
+        "c": "National parks",
+        "d": "Wildlife sanctuaries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important strategy for the conservation of biodiversity along with traditional human life is the establishment of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To enable immersive 3D audio in wireless sound systems",
+        "b": "To enhance device location accuracy",
+        "c": "To significantly reduce audio latency in Bluetooth devices",
+        "d": "To improve stereo separation between left and right audio channels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bluetooth 6.0 introduces a new feature called ‘Channel Sounding’. What is the primary purpose of this feature?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "People often feel dizzy or short of breath when they ascend to high altitudes quickly. In this context, consider the following statements: 1.There is less oxygen available to breathe at high altitudes 2.The body produces lesser red blood cells and hemoglobin to cope with low oxygen levels Which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amygdala",
+        "b": "Hypothalamus",
+        "c": "Cerebellum",
+        "d": "Hippocampus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of the brain is primarily responsible for processing emotions such as fear and for detecting potential threats?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It has high nutritional value",
+        "b": "It helps remove harmful toxins",
+        "c": "It aids in removal of undigested food",
+        "d": "It assists in digestion of trans fat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Roughage or dietary fiber present in fruits, vegetables, and grains is considered beneficial for the body. What is the primary reason?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only 1",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "2 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sunscreen is considered important to apply to the skin because: 1.Harmful UV rays can cause skin cancer 2.Sunscreen effectively blocks UV-C rays 3.It helps increase the body’s production of Vitamin D",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 4 only",
+        "d": "2, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ASTROSAT is India’s first space observatory and recently completed 10 years. Which parts of the electromagnetic spectrum does it study? 1.Gamma rays2.UV rays 3.X rays4.Visible rays",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Rotavirus is a major cause of diarrhea in young children 2.Rotavac is a vaccine developed by India to protect against rotavirus infection Which of the following statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nuclear energy",
+        "b": "Thermal power",
+        "c": "Hydro-electricity",
+        "d": "Solar energy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Small Modular Reactors (SMRs) are related to:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Legislative Assembly of Mizoram shall consist of not more than 40 members",
+        "b": "It was inserted by the 53rd Amendment Act, 1986",
+        "c": "It aims to protect Mizo customs and traditions",
+        "d": "It is titled as ‘Special provision with respect to the State of Mizoram’"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements regarding Article 371G of the Indian Constitution is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gopinath Bordoloi",
+        "b": "S. J Das",
+        "c": "Bishnuram Medhi",
+        "d": "S. N. Barkataki"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Indian Superintendent of the Lushai Hills?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 4 only",
+        "b": "1 , 3 and 5 only",
+        "c": "2, 3 and 4 only",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following list: 1.Fathang2.Sachhiah 3.Khuaichhiah4.Chikhurchhiah 5.Coolie system Which of the above were abolished in the 1950s?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laldenga",
+        "b": "R.D Pradhan",
+        "c": "G. Parthasarathy",
+        "d": "Lalkhama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was NOT a signatory to the Mizo Accord (Memorandum of Settlement), 1986?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The expedition aimed to prevent Lushai raids and punish Lushai chiefs",
+        "b": "It was led by Captain T.H Lewin",
+        "c": "The headquarters of North Lushai Hills was established at Fort Aijal",
+        "d": "The headquarters of South Lushai Hills was established at Lungleh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the Chin-Lushai Expedition of 1889-90, which of the statement is INCORRECT?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reverend E. Rowlands",
+        "b": "Reverend D.E. Jones",
+        "c": "Reverend J.H. Lorrain",
+        "d": "Reverend F.W. Savidge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was appointed as the first Honorary Inspector of Schools in the Lushai Hills?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo Chanchin Laisuih",
+        "b": "Mizo Zir Tir Bu",
+        "c": "Zirtirh Bu",
+        "d": "Zirtan Bu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was the first Mizo language textbook?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "No detention policy",
+        "b": "Continuous assessment policy",
+        "c": "Scholarship policy",
+        "d": "Internal examination policy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ministry of Education, through the Right of Children to Free and Compulsory Education (Amendment) Rules, 2024, has amended which policy for students in Grades 5 and 8?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It ended Mughal rule completely",
+        "b": "It marked the beginning of British political control in India",
+        "c": "It led to the fall of the Marathas",
+        "d": "It established a new alliance between British and French"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was the Battle of Plassey (1757) considered as a turning point in Indian history?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahabharata",
+        "b": "Ramayana",
+        "c": "Arthashastra",
+        "d": "Rigveda"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kautilya, also known as Chanakya, wrote which famous work?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Qutb-ud-din Aibak",
+        "b": "Alauddin Khilji",
+        "c": "Iltutmish",
+        "d": "Firoz Shah Tughlaq"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ruler of the Delhi Sultanate initiated the construction of the tallest brick minaret in India, later completed by his successor?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bal Gangadhar Tilak",
+        "b": "Dadabhai Naoroji",
+        "c": "Allan Octavian Hume",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who founded the Indian National Congress (INC) in 1885?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "American Revolution",
+        "b": "Industrial Revolution",
+        "c": "Russian Revolution",
+        "d": "French Revolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Reign of Terror, a period marked by mass executions, political purges, and radical social changes, is most closely associated with which historical event?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Australia",
+        "c": "Philippines",
+        "d": "Madagascar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Great Barrier Reef is located in which country?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Turkey",
+        "b": "Japan",
+        "c": "Egypt",
+        "d": "Brazil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries is both in Europe and Asia?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kenya",
+        "b": "Uganda",
+        "c": "Ethiopia",
+        "d": "Tanzania"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mount Kilimanjaro is located in which country?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cuba",
+        "b": "Mexico",
+        "c": "Canada",
+        "d": "Colombia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country lies directly between the United States and South America, acting as a land bridge?",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Africa",
+        "b": "South America",
+        "c": "Asia",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Tropic of Capricorn crosses which continent where you can find the Amazon rainforest?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plastic pollution",
+        "b": "Overfishing",
+        "c": "Rising sea temperatures",
+        "d": "Deforestation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coral bleaching is primarily caused by:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 14",
+        "b": "Article 15",
+        "c": "Article 16",
+        "d": "Article 19"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Article of the Indian Constitution prohibits discrimination on the grounds of religion, race, caste, sex, or place of birth?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "British Constitution",
+        "b": "US Constitution",
+        "c": "French Constitution",
+        "d": "Canadian Constitution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Judicial Review in India is derived from:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Provide affordable housing",
+        "b": "Promote financial inclusion",
+        "c": "Improve sanitation",
+        "d": "Offer health insurance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Pradhan Mantri Jan Dhan Yojana’ primarily aims to:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2012",
+        "b": "2010",
+        "c": "2014",
+        "d": "2018"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Swachh Bharat Abhiyan’  was launched in:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2025",
+        "b": "2030",
+        "c": "2035",
+        "d": "2040"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "NEP 2020 aims to achieve 100% Gross Enrolment Ratio (GER) in school education by which year?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IMF",
+        "b": "WHO",
+        "c": "WTO",
+        "d": "UN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Sustainable Development Goals (SDGs) are promoted by:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Trade Organization",
+        "b": "General Agreement on Tariffs and Trade (GATT)",
+        "c": "IMF",
+        "d": "World Bank"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The WTO replaced which earlier organization?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inclusive Growth, Innovation, Sustainability",
+        "b": "Solidarity, Equality, Sustainability",
+        "c": "Climate Action, Trade, Prosperity",
+        "d": "Partnership, Development, Peace"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the theme of South Africa’s G20 Presidency (Dec 2024 – Nov 2025)?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Income Tax",
+        "b": "Cash Reserve Ratio (CRR)",
+        "c": "GST",
+        "d": "Union Budget"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a monetary policy tool of RBI?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brazil, Russia, India, China, South Africa",
+        "b": "Belgium, Russia, Italy, China, Spain",
+        "c": "Brazil, Romania, Indonesia, Canada, Singapore",
+        "d": "Bangladesh, Russia, India, Chile, Sweden"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘BRICS’ countries include:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promote girl child survival and education",
+        "b": "Financial inclusion",
+        "c": "Health insurance for women",
+        "d": "Rural housing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Beti Bachao, Beti Padhao’ scheme aims to:",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Commercial banks lend to each other",
+        "b": "RBI lends to commercial banks",
+        "c": "Government borrows from RBI",
+        "d": "Public deposits earn interest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Repo Rate’ is the rate at which:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "RBI",
+        "b": "IRDAI",
+        "c": "SEBI",
+        "d": "NABARD"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which body regulates the stock market in India?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Liver",
+        "b": "Kidney",
+        "c": "Heart",
+        "d": "Pancreas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which organ in humans produces insulin?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neil Armstrong",
+        "b": "Yuri Gagarin",
+        "c": "Valentina Tereshkova",
+        "d": "Buzz Aldrin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first human to travel into space was:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "EOS-09",
+        "b": "GSAT-30",
+        "c": "Cartosat-3",
+        "d": "NISAR"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian satellite, launched on July 30, 2025, is a joint mission with NASA to monitor Earth’s surface changes?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saina Nehwal",
+        "b": "P. V. Sindhu",
+        "c": "Kidambi Srikanth",
+        "d": "Prakash Padukone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "First Indian badminton player to win All England Badminton Championship is _______.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata",
+        "b": "Chennai",
+        "c": "Kozhikode",
+        "d": "Jaipur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Indian city was designated as the first ‘City of Literature’ by UNESCO?",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Best football club in the world",
+        "b": "Best football referee",
+        "c": "Best male footballer of the year",
+        "d": "Highest goal scorer in FIFA World Cup"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The FIFA Ballon d’Or is awarded to:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Padma Vibhushan, Padma Bhushan, Padma Shri",
+        "b": "Padma Shri, Padma Bhushan, Padma Vibhushan",
+        "c": "Padma Bhushan, Padma Vibhushan, Padma Shri",
+        "d": "Padma Vibhushan, Padma Shri, Padma Bhushan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the correct order of Padma Awards from highest to lowest?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edward Jenne",
+        "b": "Louis Pasteur",
+        "c": "Jonas Salk",
+        "d": "Robert Koch"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The vaccine for polio was developed by:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Google",
+        "b": "Microsoft",
+        "c": "OpenAI",
+        "d": "IBM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which company developed the AI language model ChatGPT?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neuralink",
+        "b": "Moderna",
+        "c": "IBM Watson",
+        "d": "Google Brain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Elon Musk is associated with which of the following technologies?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Buenos Aires",
+        "b": "Rio de Janeiro",
+        "c": "Brasilia",
+        "d": "São Paulo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Christ the Redeemer statue overlooks which city?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "China",
+        "c": "Japan",
+        "d": "India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The supercomputer ‘PARAM’ was developed in:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28th",
+        "b": "38th",
+        "c": "48th",
+        "d": "58th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s rank in the Global Innovation Index 2025 is:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sher Bahadur Deuba",
+        "b": "Baburam Bhattarai",
+        "c": "Pushpa Kamal Dahal",
+        "d": "K. P. Sharma Oli"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The resignation of which Nepalese Prime Minister occurred as a result of the 2025 Gen Z protests?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malaria",
+        "b": "Dengue",
+        "c": "Japanese Encephalitisa",
+        "d": "Scrub Typhus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which disease has the Mizoram health department recently warned about spreading across the state?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It includes 48 tunnels and 55 major bridges",
+        "b": "It was built under complex geological conditions",
+        "c": "It directly links Aizawl with Guwahati bypassing Silchar",
+        "d": "The total project cost is ₹ 8,070 crore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recently inaugurated ₹ 8,070-crore railway project in Mizoram spans 51.38 km. Which of the following is an incorrect feature of the project?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

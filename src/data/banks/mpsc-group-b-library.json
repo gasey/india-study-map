@@ -1291,6 +1291,17 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-ceo-2025-gk",
+    "exam": "Circle Education Officer under School Education Department - November 2025",
+    "sitting": "November 2025",
+    "subject": "General Knowledge",
+    "sourceHref": "/papers/group-b/ceo-2025-gk.pdf",
+    "keyHref": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
     "exam": "ADA, ATA & Assistant Auditor under Finance Department",
     "sitting": "2019",
@@ -4090,10 +4101,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/ceo-2025-final-key.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 37
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",

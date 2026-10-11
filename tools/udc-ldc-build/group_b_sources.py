@@ -158,6 +158,7 @@ GENERAL_PAPERS = [
  ('acm-2026-tech-p1', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-I', 'Asst. Controller of Mines Technical Paper-I..pdf'),
  ('acm-2026-tech-p2', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-II', 'Asst. Controller of Mines Technical Paper-II..pdf'),
  ('acm-2026-tech-p3', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-III', 'Asst. Controller of Mines Technical Paper-III..pdf'),
+ ('ceo-2025-gk', 'Circle Education Officer under School Education Department - November 2025', 'November 2025', 'General Knowledge', 'CEO General Knowledge - 2025..pdf'),
 ]
 # Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
 # clerical / UDC / Assistant Grade papers in full plus the non-technical
@@ -449,6 +450,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'agri-2025-horticulture-p3': 'Direct_2025-2027',
  'mcs-prelim-2025-p1': 'Direct_2025-2027', 'mcs-prelim-2025-p2': 'Direct_2025-2027',
  'acm-2026-gs': 'Direct_2025-2027', 'acm-2026-tech-p1': 'Direct_2025-2027', 'acm-2026-tech-p2': 'Direct_2025-2027', 'acm-2026-tech-p3': 'Direct_2025-2027',
+ 'ceo-2025-gk': 'Direct_2025-2027',
 }
 
 
@@ -798,6 +800,17 @@ def build_additional():
             # marks each (100 marks -> 50 questions for Papers I/II, 126 marks ->
             # 63 questions for Paper III). No negative-marking rule is printed.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'ceo-2025-gk' and key:
+            # Cover: Circle Education Officer (November-2025), General Knowledge,
+            # 2 hours, FM 100, 1 mark each; no negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82' and key:
+            # Cover: Circle Education Officer (November-2025), General English,
+            # 3 hours, FM 100; Part-A written (34 marks) plus Part-B 66 one-mark
+            # MCQs. No negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;

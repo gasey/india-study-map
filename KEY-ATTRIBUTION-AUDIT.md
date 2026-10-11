@@ -50,6 +50,7 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487 | 50 | /papers/group-b/keys/agri-2025-final-key.pdf#page=1 |
 | archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde | 66 | /papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf |
 | archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208 | 66 | /papers/group-b/keys/acm-2026-final-key.pdf |
+| archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82 | 66 | /papers/group-b/keys/ceo-2025-final-key.pdf#page=1 |
 | archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a | 36 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1 |
 | archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a | 59 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2 |
 | archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29 | 99 | /papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4 |
@@ -93,6 +94,7 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | cdpo-2025-social-work-p1 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=6 |
 | cdpo-2025-social-work-p2 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=7 |
 | cdpo-2025-social-work-p3 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=8 |
+| ceo-2025-gk | 100 | /papers/group-b/keys/ceo-2025-final-key.pdf#page=2 |
 | co-2026-p1 | 60 | /papers/group-b/keys/co-2026-final-key.pdf#page=1 |
 | co-2026-p2 | 100 | /papers/group-b/keys/co-2026-final-key.pdf#page=3 |
 | inspector-excise-2025-gs1 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2 |

@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 89,
+  "registered_keys": 91,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 397,
-  "held_mcq": 15364,
+  "papers": 398,
+  "held_mcq": 15327,
   "tier1_key_scorable": 679,
   "tier2_solid_importable": 62,
-  "tier2_candidate_needs_verify": 7940,
-  "tier3_needs_derivation": 6683
+  "tier2_candidate_needs_verify": 7904,
+  "tier3_needs_derivation": 6682
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2647,
-   "disagree": 437
+   "agree": 2778,
+   "disagree": 446
   },
   "key": {
    "agree": 67,
@@ -203,7 +203,7 @@
    },
    {
     "key_file": "Provisional Answer key of Circle Officer under SW, WCD Deptt.,2026.pdf",
-    "candidate_paper": "mpsc-group-b-ceo-2019-english-p1",
+    "candidate_paper": "mpsc-group-b-ceo-2025-gk",
     "matched_on": [
      "circle"
     ]
@@ -218,7 +218,7 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 7940,
+  "bank_v2:inferred": 7904,
   "bank_v2:derived": 60,
   "bank_v2:key": 2
  },
@@ -1928,21 +1928,6 @@
    "tier1": 0,
    "tier2": 36,
    "tier3": 22,
-   "tier2_bank": 36,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 36
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
-   "exam": "Circle Education November - 2025",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 37,
-   "tier1": 0,
-   "tier2": 36,
-   "tier3": 1,
    "tier2_bank": 36,
    "tier2_solved": 0,
    "tier2_solid": 0,
@@ -5324,11 +5309,26 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-ceo-2025-gk",
+   "exam": "Circle Education Officer under School Education Department - November 2025",
+   "subject": "General Knowledge",
+   "key_status": "registered",
+   "key_file": "Final Answer Key of Circle Education Officer, 2025..pdf",
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-ceo-2019-english-p1",
    "exam": "Circle Education Officer under School Education Department",
    "subject": "General English Paper-I",
-   "key_status": "on_disk",
-   "key_file": "Final Answer Key of Circle Education Officer, 2025..pdf",
+   "key_status": "none",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,
@@ -6019,6 +6019,21 @@
    "subject": "General English",
    "key_status": "registered",
    "key_file": "Final Answer Key for Asst. Director(Town Planning) under UD&PA..pdf",
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
+   "exam": "Circle Education November - 2025",
+   "subject": "General English",
+   "key_status": "registered",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,

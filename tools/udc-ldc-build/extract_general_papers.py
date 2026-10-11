@@ -49,7 +49,10 @@ def extract_one(row):
     spec = importlib.util.spec_from_file_location('general_paper_extract', ROOT / 'tools' / 'practice-hub-build' / 'extract.py')
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    module.QNUM_RE = re.compile(r'^(\d{1,3})(?:\s*[.,]\s*|\s+(?=[A-Za-z])|(?=[A-Z]))')
+    # A question number normally prints as '12.' or '12 ' (cf. psm 4 OCR). The
+    # native text layer sometimes drops the separator entirely ('38admire',
+    # '43The man'), so accept a leading number followed directly by a letter.
+    module.QNUM_RE = re.compile(r'^(\d{1,3})(?:\s*[.,]\s*|\s*(?=[A-Za-z]))')
     images = Path('/tmp/group-b-paper-extraction') / slug
     images.mkdir(parents=True, exist_ok=True)
     module.tempfile.mkdtemp = lambda: str(images)

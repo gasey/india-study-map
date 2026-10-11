@@ -12404,3 +12404,51 @@ instruction line mis-OCR'd as a duplicate Q7 on series B is dropped via `nonMcq`
 
 **Bank 22,684 records / 6,433 practice-ready (+815 this session).** The five new key
 PDFs are published under `public/papers/group-b/keys/`. 25 tests + `tsc --noEmit` clean.
+
+## ADTP General English + JAO July-2026 Series-B keys (2026-10-11)
+
+### Assistant Director (Town Planning) General English, Feb-2026
+
+The cover (`(FEBRUARY-2026)`, 3 hours / FM 100, Part-A written 34 + Part-B MCQs)
+matches the on-disk `Final Answer key - Asst. Director (Town Planning) ... 2026..pdf`,
+whose notification says the exam was held **11-13 February 2026**. The key is a
+3-column table read row-positionally -> 66 answers; published as
+`public/papers/group-b/keys/adtp-2026-ge-final-key.pdf`, repair 66 (`partialReview`),
+meta 1 mark / 180 min. Registry 55 -> 56.
+
+### Junior Accounts Officer (FCS&CA) July-2026, Series-B
+
+The final key PDF has 4 pages; page 2 is headed **PAPER-I (Series-B)** and page 4
+**PAPER-II (Series-B)**. Both tables were read with `pdftotext -bbox` word coordinates
+(cluster by y into rows, by x into columns, then `q = row + col*need`), cross-checked
+against a direct number->letter pairing:
+
+* **Page 2** (3 cols x 20 rows): 59 answers; **Q31** is overprinted by the
+  `(Compensated)` stamp and is held unscored.
+* **Page 4** (4 cols x 25 rows): 99 answers; **Q30** is likewise overprinted and held.
+
+Registered against the two Series-B slugs (`...paper-i-general-english-series-b`
+#page=2 and `...paper-ii-gk-arithmetic-reasoning` #page=4). Paper-I is a clean native
+extraction -> repair 1-59, `complete_source_review`, scored 59/60. Paper-II uses the
+existing `jao-2026-series-b-reviewed.json` patch; the official key now overrides the
+earlier Series-A peer candidates, so **93 items move from derived to official**.
+Five items stay held and are documented in the build report:
+
+| q | held because | resolution |
+|---|---|---|
+| 7  | reviewed item: no printed option equals 57.2 kg (key says D=57 kg) | manual dispute, `unscored` |
+| 43 | reviewed item: direction wording ambiguous (key says B=South) | manual dispute, `unscored` |
+| 40 | deliberately out of the Series-B text review | by design |
+| 41, 44 | figure items, options not extractable (`""`) | held |
+| 100 | key C (K.V. Krishna Rao, correct) vs Series-A peer B | key-vs-peer conflict |
+| 30 | key cell overprinted | scored from the Series-A peer (`derived`, medium) |
+
+Note the Series A/B difference: the peer matcher matches on the option *set*, not
+order, so 3 contests appeared (q41/q44/q100). Pixel checks confirmed the official key
+(q41 = `D`, q43 = `B`); the peer letters were the ones out of order. The
+official key is authoritative, but where the peer *explanation* would contradict the
+key the item is held rather than scored with a mismatched explanation.
+
+**Bank 22,684 records / 6,553 practice-ready (+123 vs `5c8d625`: +66 ADTP, +58
+paper-I, -1 paper-II net of the peer-sourced items).** 25 tests + `git diff --check`
+clean.

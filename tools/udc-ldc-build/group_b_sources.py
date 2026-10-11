@@ -668,6 +668,12 @@ def build_additional():
             # answer key (exam held 12-14.12.2023, notified 2 February 2024).
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17' and key:
+            # Cover: Assistant Director (Town Planning) ... (February-2026),
+            # General English, 3 hours, FM 100; Part-A written (34), Part-B MCQs.
+            # Key: official final answer key (exam held 11-13 February 2026).
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:
             # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).
             # Key states the exam was held 10-12 March 2026.

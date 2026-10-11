@@ -251463,9 +251463,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d.pdf#page=1"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B1",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q1",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B1",
+    "questionNumber": "1",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251478,22 +251478,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Neither of the answer were correct.",
       "Neither of the answers have correct."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Neither of the answers is correct.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=3",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B2",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q2",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B2",
+    "questionNumber": "2",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251506,22 +251511,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "since",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “since”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=3",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B3",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q3",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B3",
+    "questionNumber": "3",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251534,22 +251544,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "He broke the ice by falling down.",
       "She spilled the beans about the surprise party."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “She spilled the beans about the surprise party.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B4",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q4",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B4",
+    "questionNumber": "4",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251562,22 +251577,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "The furnitures are expensive.",
       "The furnitures is expensive."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The furniture is expensive.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B5",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q5",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B5",
+    "questionNumber": "5",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251590,22 +251610,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Reduce",
       "Stretch"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduce”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B6",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q6",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B6",
+    "questionNumber": "6",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251618,19 +251643,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Each of the boys were completed the task.",
       "Each of the boys complete the task."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Each of the boys has completed the task.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B7",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q7",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B7",
+    "questionNumber": "7",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251643,22 +251673,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "eagerly",
       "wished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “dreaded”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B8",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q8",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B8",
+    "questionNumber": "8",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251671,22 +251706,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Somniferous",
       "Sleeptalker"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Somniloquist”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B9",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q9",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B9",
+    "questionNumber": "9",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251699,22 +251739,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Is a popular figure of the society.",
       "Is a popular figure of the history."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Destroys images.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B10",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q10",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B10",
+    "questionNumber": "10",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251727,22 +251772,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Calligrapher",
       "Numismatist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Numismatist”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B11",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q11",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B11",
+    "questionNumber": "11",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251755,22 +251805,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Democracy",
       "Oligarchy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Democracy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B12",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q12",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B12",
+    "questionNumber": "12",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251783,22 +251838,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "assembly",
       "herd"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “band”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B13",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q13",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B13",
+    "questionNumber": "13",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251811,22 +251871,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "gaggle",
       "pride"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “litter”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B14",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q14",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B14",
+    "questionNumber": "14",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251839,22 +251904,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "shoal",
       "armada"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “armada”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B15",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q15",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B15",
+    "questionNumber": "15",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251867,22 +251937,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "most complicated",
       "complicates"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “most complicated”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B16",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q16",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B16",
+    "questionNumber": "16",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251895,22 +251970,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "She is smartest than any other student in the class.",
       "She is more smarter than any other student in the class."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “She is smarter than any other student in the class.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B17",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q17",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B17",
+    "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251923,19 +252003,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "No sooner he had arrived than it started raining.",
       "No sooner did he arrived than it started raining."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “No sooner had he arrived than it started raining.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B18",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q18",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B18",
+    "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251948,22 +252033,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "precise",
       "evident"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ambiguous”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B19",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q19",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B19",
+    "questionNumber": "19",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -251976,22 +252066,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "ordinary",
       "obsolete"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “revolutionary”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B20",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q20",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B20",
+    "questionNumber": "20",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252004,22 +252099,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "arrogant",
       "careless"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “diligent”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B21",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q21",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B21",
+    "questionNumber": "21",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252032,23 +252132,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "He could not attend the classes at school because of his illness.",
       "He was ill and so he could not attend the classes at school."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “As he was ill, he could not attend the classes at school.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B22",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q22",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B22",
+    "questionNumber": "22",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252061,23 +252165,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "He finished his homework so that he could go out to play.",
       "Having finished his homework, he went out to play."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Having finished his homework, he went out to play.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B23",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q23",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B23",
+    "questionNumber": "23",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252090,23 +252198,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "By working hard, you can avoid failure.",
       "You will fail unless you work hard."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Work hard or you will fail”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B24",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q24",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B24",
+    "questionNumber": "24",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252119,23 +252231,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Why did such a letter be written by your brother?",
       "Why such a letter written by your brother?"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Why was such a letter written by your brother?”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B25",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q25",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B25",
+    "questionNumber": "25",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252148,23 +252264,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Smoke fills the room.",
       "Smoke had filled the room."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Smoke filled the room.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B26",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q26",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B26",
+    "questionNumber": "26",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252177,23 +252297,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Someone was present.",
       "Everyone was not absent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Everyone was present.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B27",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q27",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B27",
+    "questionNumber": "27",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252206,23 +252330,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "The committee was approved by the proposal.",
       "The proposal has approved the committee."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The proposal was approved by the committee.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B28",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q28",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B28",
+    "questionNumber": "28",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252235,23 +252363,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "The bridge constructed skilled engineers.",
       "Skilled engineers are constructing the bridge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Skilled engineers constructed the bridge.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B29",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q29",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B29",
+    "questionNumber": "29",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252264,23 +252396,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "No one admired his honesty.",
       "Everyone did not admire his honesty."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “No one failed to admire his honesty.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B30",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q30",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B30",
+    "questionNumber": "30",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252293,18 +252429,22 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "How beautiful the night was!",
       "The night is beautiful indeed!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “How beautiful the night was!”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 21 - 30) : Transform the following sentences as directed in the brackets"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B31",
@@ -252333,9 +252473,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "direction": "Direction (Question Nos. 31 - 34) : Identify the type of clauses of the underlined words."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B32",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q32",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B32",
+    "questionNumber": "32",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252348,20 +252488,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adverb clause",
       "Coordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 31 - 34) : Identify the type of clauses of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B33",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q33",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B33",
+    "questionNumber": "33",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252374,20 +252518,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adjective clause",
       "Coordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 31 - 34) : Identify the type of clauses of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B34",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q34",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B34",
+    "questionNumber": "34",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252400,20 +252548,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adjective clause",
       "Main clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adjective clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 31 - 34) : Identify the type of clauses of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B35",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q35",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B35",
+    "questionNumber": "35",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252426,23 +252578,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "on",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “at”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B36",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q36",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B36",
+    "questionNumber": "36",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252455,23 +252611,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "on",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B37",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q37",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B37",
+    "questionNumber": "37",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252484,23 +252644,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "in",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B38",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q38",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B38",
+    "questionNumber": "38",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252513,23 +252677,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "for",
       "about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B39",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q39",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B39",
+    "questionNumber": "39",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252542,23 +252710,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "out of",
       "through"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “out of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B40",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q40",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B40",
+    "questionNumber": "40",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252571,23 +252743,28 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "with",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “for”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 35 - 40) : Choose the correct prepositions to fill in the blanks:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B41",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q41",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B41",
+    "questionNumber": "41",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252600,22 +252777,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Possessive pronoun",
       "Demonstrative pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Possessive pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B42",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q42",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B42",
+    "questionNumber": "42",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252628,22 +252810,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "They",
       "Softly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “They”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B43",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q43",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B43",
+    "questionNumber": "43",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252656,22 +252843,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adverb",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B44",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q44",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B44",
+    "questionNumber": "44",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252684,22 +252876,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "His watch stopped working yesterday.",
       "The teacher asked us to watch the experiment quietly."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “His watch stopped working yesterday.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B45",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q45",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B45",
+    "questionNumber": "45",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252712,22 +252909,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Several",
       "Competition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Several”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B46",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q46",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B46",
+    "questionNumber": "46",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252740,22 +252942,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Pronoun",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B47",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q47",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B47",
+    "questionNumber": "47",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252768,22 +252975,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Country",
       "Dr. Ravi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Country”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B48",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q48",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B48",
+    "questionNumber": "48",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252796,22 +253008,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Pronoun",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B49",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q49",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B49",
+    "questionNumber": "49",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252824,22 +253041,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Pronoun",
       "Article"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B50",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q50",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B50",
+    "questionNumber": "50",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252852,22 +253074,27 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Infinitive",
       "Auxiliary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gerund”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B51",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q51",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B51",
+    "questionNumber": "51",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252880,20 +253107,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B52",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q52",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B52",
+    "questionNumber": "52",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252906,20 +253137,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Noun",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B53",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q53",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B53",
+    "questionNumber": "53",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252932,20 +253167,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Interjection",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B54",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q54",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B54",
+    "questionNumber": "54",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252958,20 +253197,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adjective",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B55",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q55",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B55",
+    "questionNumber": "55",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252984,20 +253227,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Conjunction",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Interjection”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B56",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q56",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B56",
+    "questionNumber": "56",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -253010,20 +253257,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Pronoun",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B57",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q57",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B57",
+    "questionNumber": "57",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -253036,20 +253287,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Pronoun",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B58",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q58",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B58",
+    "questionNumber": "58",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -253062,20 +253317,24 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Preposition",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B59",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q59",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B59",
+    "questionNumber": "59",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -253088,15 +253347,19 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adjective",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q60",
@@ -253115,15 +253378,21 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Here 'after' stands alone (no noun following) and modifies the verb phrase 'arrived soon', so it is an adverb (D).",
+    "explanation": "The official final key marks option D: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-written-1",
@@ -253322,15 +253591,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "22"
     ],
     "answerIndex": 1,
-    "explanation": "The endpoints are excluded, so the integers run from −11 through 8. Their count is 8 − (−11) + 1 = 20.",
+    "explanation": "'Between' excludes the endpoints, so the integers run from −11 to 8: 8 − (−11) + 1 = 20. Counting inclusively would give 22, which is the trap in option (d).",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q2",
@@ -253349,15 +253623,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "90"
     ],
     "answerIndex": 1,
-    "explanation": "For two positive integers, their product equals HCF × LCM. The other number is (12 × 180) ÷ 36 = 60.",
+    "explanation": "Product of the numbers = HCF × LCM, so the other number = (12 × 180)/36 = 60. Checked: HCF(36, 60) = 12 and LCM(36, 60) = 180.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q3",
@@ -253376,15 +253655,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "145"
     ],
     "answerIndex": 1,
-    "explanation": "The sequence increases by 4. Counting 16 terms backward from 215 gives 215 − 15 × 4 = 155.",
+    "explanation": "The AP has a = 7, d = 4 and last term 215, giving 215 = 7 + (n−1)4 so n = 53 terms. Counting back from the end, the 16th term from the end = 215 − 15 × 4 = 155 (equivalently the 38th term: 7 + 37 × 4 = 155).",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q4",
@@ -253403,15 +253687,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "7"
     ],
     "answerIndex": 3,
-    "explanation": "The five values are evenly spaced, so their mean is the middle value x+4. Thus x+4=11 and x=7.",
+    "explanation": "The five terms sum to 5x + 20, so the mean is (5x + 20)/5 = x + 4. Setting x + 4 = 11 gives x = 7.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q5",
@@ -253430,15 +253719,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 0,
-    "explanation": "The roots are 1 and 2, so α²+β² = 1²+2² = 5.",
+    "explanation": "By Vieta, α + β = 3 and αβ = 2, so α² + β² = (α+β)² − 2αβ = 9 − 4 = 5. Directly, the roots are 1 and 2, and 1 + 4 = 5.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q6",
@@ -253457,15 +253751,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "160"
     ],
     "answerIndex": 2,
-    "explanation": "The pass mark is 72+8=80. Since 80 is 40% of the total, total marks = 80 ÷ 0.40 = 200.",
+    "explanation": "Failing by 8 means the pass mark is 72 + 8 = 80, and 80 is 40% of the total, so total = 80/0.40 = 200.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q7",
@@ -253488,6 +253787,11 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
@@ -253510,15 +253814,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "28%"
     ],
     "answerIndex": 3,
-    "explanation": "After successive discounts, 80%×90%=72% of the price remains. The equivalent discount is 100%−72%=28%.",
+    "explanation": "Successive discounts multiply the remaining fraction: 0.80 × 0.90 = 0.72, so 28% is taken off in all. Adding 20 + 10 = 30% is the classic trap.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q9",
@@ -253541,13 +253850,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q10",
@@ -253570,13 +253883,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q11",
@@ -253595,15 +253912,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "2:15:21"
     ],
     "answerIndex": 0,
-    "explanation": "Make Q equal in both ratios: P:Q=10:15 and Q:R=15:21. Therefore P:Q:R=10:15:21.",
+    "explanation": "Make Q common by scaling the first ratio by 5 and the second by 3: P:Q = 10:15 and Q:R = 15:21, so P:Q:R = 10:15:21.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q12",
@@ -253622,15 +253944,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "₹2,000"
     ],
     "answerIndex": 1,
-    "explanation": "Let the first part be x. The second is 3x/4 and the third is (5/3)(3x/4)=5x/4. Thus  x+3x/4+5x/4=3x=₹4,800, so x=₹1,600.",
+    "explanation": "With the first part x, the second is 3x/4 and the third is (5/3)(3x/4) = 5x/4, so x + 0.75x + 1.25x = 3x = 4800 and x = ₹1,600. The three parts are 1600, 1200 and 2000.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q13",
@@ -253653,13 +253980,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q14",
@@ -253682,13 +254013,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q15",
@@ -253711,13 +254046,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q16",
@@ -253740,13 +254079,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q17",
@@ -253769,13 +254112,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q18",
@@ -253798,13 +254145,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q19",
@@ -253827,13 +254178,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q20",
@@ -253856,13 +254211,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q21",
@@ -253885,13 +254244,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q22",
@@ -253910,15 +254273,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "10"
     ],
     "answerIndex": 2,
-    "explanation": "Square both sides: 3ⁿ=81²=3⁸. Therefore n=8.",
+    "explanation": "√(3ⁿ) = 3^(n/2) and 81 = 3⁴, so n/2 = 4 and n = 8. Check: √(3⁸) = √6561 = 81.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q23",
@@ -253941,11 +254309,16 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q24",
@@ -253968,13 +254341,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q25",
@@ -253993,15 +254370,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "2100 m."
     ],
     "answerIndex": 1,
-    "explanation": "60 km/hr = 1,000 m/min, so in 2 minutes the train covers 2,000 m. This is train length plus tunnel length; tunnel length = 2,000−300 = 1,700 m.",
+    "explanation": "60 km/hr = 1000 m/min, so in 2 minutes the train covers 2000 m, which equals tunnel + train length. Tunnel = 2000 − 300 = 1700 m.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q26",
@@ -254020,15 +254402,20 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "152"
     ],
     "answerIndex": 3,
-    "explanation": "Divide the quantity by the unit fraction: 25 1/3 ÷ 1/6 = (76/3)×6 = 152.",
+    "explanation": "25⅓ = 76/3, and (76/3) ÷ (1/6) = 76 × 6/3 = 152.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q27",
@@ -254051,13 +254438,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Question Nos. 27 & 28): The following pie chart shows the expenditure of a family on"
   },
   {
@@ -254081,13 +254472,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q29",
@@ -254110,13 +254505,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q30",
@@ -254168,13 +254567,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q32",
@@ -254197,13 +254600,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q33",
@@ -254226,13 +254633,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q34",
@@ -254255,13 +254666,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q35",
@@ -254284,13 +254699,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q36",
@@ -254313,13 +254732,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q37",
@@ -254342,13 +254765,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q38",
@@ -254371,13 +254798,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q39",
@@ -254400,11 +254831,16 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q40",
@@ -254427,6 +254863,11 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
     "answerConfidence": "medium",
@@ -254455,6 +254896,11 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
@@ -254481,13 +254927,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q43",
@@ -254510,6 +254960,13 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
@@ -254536,6 +254993,11 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
@@ -254563,13 +255025,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254593,13 +255059,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254623,13 +255093,17 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   }
 ];
@@ -254655,13 +255129,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254685,13 +255163,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254715,13 +255197,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254745,13 +255231,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254775,13 +255265,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254805,13 +255299,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254835,13 +255333,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254865,13 +255367,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254895,13 +255401,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254925,13 +255435,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254955,13 +255469,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -254985,13 +255503,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255015,13 +255537,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255045,13 +255571,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255075,13 +255605,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255105,13 +255639,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255135,13 +255673,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255165,13 +255707,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255195,13 +255741,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255225,13 +255775,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255255,13 +255809,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255285,13 +255843,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255315,13 +255877,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255345,13 +255911,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255375,13 +255945,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=9",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255405,13 +255979,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255435,13 +256013,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255465,13 +256047,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255495,13 +256081,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255525,13 +256115,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255555,13 +256149,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255585,13 +256183,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255615,13 +256217,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255645,13 +256251,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=10",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255675,13 +256285,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255705,13 +256319,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255735,13 +256353,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255765,13 +256387,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255795,13 +256421,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255825,13 +256455,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255855,13 +256489,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255885,13 +256523,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255915,13 +256557,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255945,13 +256591,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=11",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -255975,13 +256625,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256005,13 +256659,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256035,13 +256693,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256065,13 +256727,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256095,13 +256761,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256125,13 +256795,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256155,13 +256829,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256185,13 +256863,17 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
+    "answerConfidence": "medium",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
   },
   {
@@ -256210,19 +256892,25 @@ const groupBQuestionsPart32: BankQuestion[] = [
       "KV Krishna Rao",
       "Williamson A. Sangma"
     ],
-    "answerIndex": 3,
+    "answerIndex": -1,
     "explanation": "Mizoram's first Governor after statehood on 20 February 1987 was Hiteswar Saikia, and my recollection of the Raj Bhavan succession puts Williamson A. Sangma next, in 1989. The marked option says K.V. Krishna Rao, who did hold north-eastern governorships in this period, so the two candidates must be checked against Raj Bhavan Mizoram's official list before either is trusted.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=12",
-    "answerSource": "derived",
-    "answerConfidence": "medium",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
-    "sourceReviewed": true,
+    "answerConfidence": "medium",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
-    "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
+    "sourceReviewed": true,
+    "sourceNote": "Official key gives C; the reviewed independent solution gives D. Held unscored until the conflict is resolved.",
+    "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is",
+    "disputeNote": "Independent solution gives D; the official key gives C. Verify the printed item before scoring."
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B1",
@@ -266043,9 +266731,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4.pdf#page=3"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B1",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q1",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B1",
+    "questionNumber": "1",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266058,20 +266746,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B2",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q2",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B2",
+    "questionNumber": "2",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266084,20 +266776,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adverb",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B3",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q3",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B3",
+    "questionNumber": "3",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266110,20 +266806,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adverb",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B4",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q4",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B4",
+    "questionNumber": "4",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266136,20 +266836,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B5",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q5",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B5",
+    "questionNumber": "5",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266162,20 +266866,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=3",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B6",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q6",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B6",
+    "questionNumber": "6",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266188,20 +266896,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Conjunction",
       "Interjection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B7",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q7",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B7",
+    "questionNumber": "7",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266214,20 +266926,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Noun",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B8",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q8",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B8",
+    "questionNumber": "8",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266240,20 +266956,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Pronoun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B9",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q9",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B9",
+    "questionNumber": "9",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266266,20 +266986,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Preposition",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B10",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q10",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B10",
+    "questionNumber": "10",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266292,20 +267016,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Verb",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10): Identify the part of speech of the underlined word:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B11",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q11",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B11",
+    "questionNumber": "11",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266318,20 +267046,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "over",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “over”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B12",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q12",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B12",
+    "questionNumber": "12",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266344,20 +267076,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "with",
       "over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B13",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q13",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B13",
+    "questionNumber": "13",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266370,20 +267106,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "by",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “within”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B14",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q14",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B14",
+    "questionNumber": "14",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266396,20 +267136,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "below",
       "beneath"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “beneath”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B15",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q15",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B15",
+    "questionNumber": "15",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266422,20 +267166,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "by",
       "besides"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “among”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B16",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q16",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B16",
+    "questionNumber": "16",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266448,20 +267196,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "at",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B17",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q17",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B17",
+    "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266474,20 +267226,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "in",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “at”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B18",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q18",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B18",
+    "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266500,20 +267256,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "of",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B19",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q19",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B19",
+    "questionNumber": "19",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266526,20 +267286,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "for",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B20",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q20",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B20",
+    "questionNumber": "20",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266552,20 +267316,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "on",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “in”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B21",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q21",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B21",
+    "questionNumber": "21",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266578,20 +267346,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "or",
       "because"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “lest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B22",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q22",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B22",
+    "questionNumber": "22",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266604,20 +267376,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Since",
       "Then"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Though”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B23",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q23",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B23",
+    "questionNumber": "23",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266630,20 +267406,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "or",
       "as well as"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “as well as”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B24",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q24",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B24",
+    "questionNumber": "24",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266656,20 +267436,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Because",
       "As"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “While”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B25",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q25",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B25",
+    "questionNumber": "25",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266682,20 +267466,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "hence",
       "although"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hence”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B26",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q26",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B26",
+    "questionNumber": "26",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266708,20 +267496,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "because",
       "even if"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “because”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B27",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q27",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B27",
+    "questionNumber": "27",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266734,20 +267526,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "because",
       "until"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “wherein”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B28",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q28",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B28",
+    "questionNumber": "28",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266760,20 +267556,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "than",
       "while"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “than”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B29",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q29",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B29",
+    "questionNumber": "29",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266786,20 +267586,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "unless",
       "while"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “till”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B30",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q30",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B30",
+    "questionNumber": "30",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266812,20 +267616,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "thence",
       "whence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “whence”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 21- 30): Fill in the blanks using the appropriate conjunction:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B31",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q31",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B31",
+    "questionNumber": "31",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266838,20 +267646,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "have been arguing",
       "were arguing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “had been arguing”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B32",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q32",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B32",
+    "questionNumber": "32",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266864,20 +267676,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "will have been teaching",
       "am teaching"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “will have been teaching”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B33",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q33",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B33",
+    "questionNumber": "33",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266890,20 +267706,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "have finished",
       "was finishing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “had finished”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B34",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q34",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B34",
+    "questionNumber": "34",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266916,20 +267736,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "read",
       "had read"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “has read”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B35",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q35",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B35",
+    "questionNumber": "35",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266942,20 +267766,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "see",
       "had seen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “saw”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 31 - 35) Choose the correct form of the verb given in the bracket to complete"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B36",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q36",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B36",
+    "questionNumber": "36",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266968,20 +267796,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Epicurean",
       "Hedonist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Miser”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B37",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q37",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B37",
+    "questionNumber": "37",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -266994,20 +267826,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Hypnotist",
       "Sleepwalker"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Somnambulist”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B38",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q38",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B38",
+    "questionNumber": "38",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267020,20 +267856,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Inebriate",
       "Tippler"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Teetotaller”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=6",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B39",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q39",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B39",
+    "questionNumber": "39",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267046,20 +267886,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Bigamist",
       "Misanthrope"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Uxorious”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B40",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q40",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B40",
+    "questionNumber": "40",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267072,20 +267916,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Collector",
       "Antiquarian"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Numismatist”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 40) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B41",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q41",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B41",
+    "questionNumber": "41",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267098,20 +267946,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adjective clause",
       "Adverb phrase"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adjective clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B42",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q42",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B42",
+    "questionNumber": "42",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267124,20 +267976,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adjective phrase",
       "Noun phrase"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B43",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q43",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B43",
+    "questionNumber": "43",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267150,20 +268006,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adverb phrase",
       "Noun phrase"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adverb phrase”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B44",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q44",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B44",
+    "questionNumber": "44",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267176,20 +268036,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adverb clause",
       "Adverb phrase"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun phrase”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B45",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q45",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B45",
+    "questionNumber": "45",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267202,20 +268066,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Adverb clause",
       "Noun clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questoin Nos. 41 - 45): Identify the phrase or clause of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B46",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q46",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B46",
+    "questionNumber": "46",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267228,20 +268096,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "to be in an orderly manner",
       "to be on the verge of completion of something"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “to be in a state of total confusion or disarray”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B47",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q47",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B47",
+    "questionNumber": "47",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267254,20 +268126,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "to be free from a previously mandatory activity",
       "to enter a rivalry or a competition with someone"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to acquire initial practice or experience of a particular activity”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B48",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q48",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B48",
+    "questionNumber": "48",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267280,20 +268156,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "to show complete disregard towards one’s inferiors",
       "to completely dismantle something down to its foundation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “to support someone who has the least chance of winning”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B49",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q49",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B49",
+    "questionNumber": "49",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267306,20 +268186,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "to completely sabotage one’s chances through miscommunication",
       "to patch up differences after an argument"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to completely retract what one has said since one has been proven wrong”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B50",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q50",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B50",
+    "questionNumber": "50",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267332,20 +268216,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "to live up to someone’s expectations, especially in one’s profession",
       "to be undecided about something"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “to be undecided about something”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 50): Choose the correct meaning of the following idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B51",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q51",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B51",
+    "questionNumber": "51",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267358,20 +268246,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Itemerary",
       "Itinerary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Itinerary”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B52",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q52",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B52",
+    "questionNumber": "52",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267384,20 +268276,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Unintelligible",
       "Unindelible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Unintelligible”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B53",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q53",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B53",
+    "questionNumber": "53",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267410,20 +268306,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Dosser",
       "Dossier"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dossier”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B54",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q54",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B54",
+    "questionNumber": "54",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267436,20 +268336,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Beuraucracy",
       "Bauraucracy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bureaucracy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 51 - 54): Choose the correct meaning and spelling:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B55",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q55",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B55",
+    "questionNumber": "55",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267462,20 +268366,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Generous",
       "Greedy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hostile”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B56",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q56",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B56",
+    "questionNumber": "56",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267488,20 +268396,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Certain",
       "Easy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Certain”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B57",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q57",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B57",
+    "questionNumber": "57",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267514,20 +268426,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Temporary",
       "Dissimilar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dissimilar”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B58",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q58",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B58",
+    "questionNumber": "58",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267540,20 +268456,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Desirous",
       "Interest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Interest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 55 - 58) Choose the correct antonym of the following:"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B59",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q59",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B59",
+    "questionNumber": "59",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267566,20 +268486,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Response",
       "Question"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Response”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B60",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q60",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B60",
+    "questionNumber": "60",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267592,20 +268516,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Quiver",
       "queer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Waver”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B61",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q61",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B61",
+    "questionNumber": "61",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267618,20 +268546,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "Beautiful",
       "Sparkling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sparkling”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 59 - 61) From the following, choose the word similar in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B62",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q62",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B62",
+    "questionNumber": "62",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267644,20 +268576,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "He said that he would leave early today",
       "He said uncertainly that he might leave early that day"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “He said uncertainly that he might leave early that day”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B63",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q63",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B63",
+    "questionNumber": "63",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267670,20 +268606,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "The audience exclaimed that what a wonderful performance I gave",
       "The audience exclaimed that it is a wonderful performance I gave"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The audience exclaimed that it was a wonderful performance I had given”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B64",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q64",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B64",
+    "questionNumber": "64",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267696,20 +268636,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "He exclaimed how foolish he has been",
       "He exclaimed that he was foolish"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “He exclaimed that he had been very foolish”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=9",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B65",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q65",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B65",
+    "questionNumber": "65",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267722,20 +268666,24 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "“How beautiful painting it was!” she exclaimed.",
       "“It was a very beautiful painting!” she exclaimed."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: ““What a beautiful painting it is!” she exclaimed.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-B66",
+    "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q66",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
-    "questionNumber": "B66",
+    "questionNumber": "66",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -267748,15 +268696,19 @@ const groupBQuestionsPart33: BankQuestion[] = [
       "“I might not attend the meeting today,” he said.",
       "“I may not attend the meeting that day,” he said."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: ““I might not attend the meeting today,” he said.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Assistant Director (Town Planning) under UD&PA Deptt., 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf#page=10",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Direction (Question Nos. 62 - 66) Change the speech of the following sentences by choosing the"
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-written-1",
@@ -625162,6 +626114,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,

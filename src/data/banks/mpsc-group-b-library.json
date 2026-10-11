@@ -3661,10 +3661,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 60
+    "expectedMcq": 60,
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -3672,10 +3672,10 @@
     "sitting": "July 2026",
     "subject": "General Knowledge, Arithmetic & Reasoning",
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 100
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -3738,10 +3738,10 @@
     "sitting": "2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-junior-grade-of-mpe-ss-december-2025-jr-grade-of-mpe-ss-general-english-ff0a2d0b",

@@ -29,6 +29,10 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | aao-2024-arithmetic | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3 |
 | aao-2024-english | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1 |
 | aao-2024-gk | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=2 |
+| acm-2026-gs | 100 | /papers/group-b/keys/acm-2026-final-key.pdf#page=2 |
+| acm-2026-tech-p1 | 50 | /papers/group-b/keys/acm-2026-final-key.pdf#page=3 |
+| acm-2026-tech-p2 | 50 | /papers/group-b/keys/acm-2026-final-key.pdf#page=4 |
+| acm-2026-tech-p3 | 63 | /papers/group-b/keys/acm-2026-final-key.pdf#page=5 |
 | adfd-2025-technical-p1 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=3 |
 | adfd-2025-technical-p2 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=4 |
 | adfd-2025-technical-p3 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=5 |

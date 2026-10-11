@@ -1025,6 +1025,46 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/si-police-2026-p2.pdf"
   },
   {
+    "id": "mpsc-group-b-acm-2026-gs",
+    "examType": "Direct_NG",
+    "examName": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "post": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/acm-2026-gs.pdf"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1",
+    "examType": "Direct_NG",
+    "examName": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "post": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Technical Paper-I",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/acm-2026-tech-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2",
+    "examType": "Direct_NG",
+    "examName": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "post": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Technical Paper-II",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/acm-2026-tech-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3",
+    "examType": "Direct_NG",
+    "examName": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "post": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Technical Paper-III",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/acm-2026-tech-p3.pdf"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "examType": "Direct",
     "examName": "MCS Combined - 2014",
@@ -198730,6 +198770,9153 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
+    "id": "mpsc-group-b-acm-2026-gs-Q1",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who was sworn in as the Deputy Chief Minister of Maharashtra, becoming the first woman to hold the post?",
+    "options": [
+      "Supriya Sule",
+      "Pankaja Munde",
+      "Rohini Khadse",
+      "Sunetra Pawar"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sunetra Pawar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q2",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following category was not included in the Aizawl International Half Marathon 2026?",
+    "options": [
+      "5 kilometres",
+      "10 kilometres",
+      "15 kilometres",
+      "21.1 kilometres"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “15 kilometres”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q3",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country’s National Assembly has recently approved a bill to ban children under 15 from accessing social media platforms to protect mental health?",
+    "options": [
+      "France",
+      "Germany",
+      "Australia",
+      "Spain"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “France”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q4",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "U.S. military “decapitation strike” that successfully apprehended Venezuelan President Nicolás Maduro and his wife earlier this year was codenamed:",
+    "options": [
+      "Operation Midnight Hammer",
+      "Operation Rising Lion",
+      "Operation Absolute Resolve",
+      "Operation Devil Hunt"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Operation Absolute Resolve”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q5",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Gen Z protest 2025 occurred in",
+    "options": [
+      "Bangladesh",
+      "Iran",
+      "USA",
+      "Nepal"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nepal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q6",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country is the host of 18th BRICS Summit 2026?",
+    "options": [
+      "South Africa",
+      "China",
+      "India",
+      "Brazil"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q7",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which major international meeting was held in Johannesburg, South Africa, in November 2025?",
+    "options": [
+      "BRICS Summit",
+      "UNGA",
+      "G20 Summit",
+      "ASEAN Summit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “G20 Summit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q8",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "As per the Economic Survey 2025–26, which sector crossed ₹10,000 crore in 2024?",
+    "options": [
+      "Solar exports",
+      "Live entertainment sector",
+      "Pharmaceuticals",
+      "Automobile manufacturing"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Live entertainment sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q9",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Mizoram’s opposition to fencing along the India–Myanmar border is mainly due to concerns over:",
+    "options": [
+      "Increased taxation",
+      "Disruption of ethnic, cultural and social ties",
+      "Water-sharing disputes",
+      "Electoral boundary changes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Disruption of ethnic, cultural and social ties”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q10",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding India’s approach at global climate summits such as COP30: 1.India supports climate action based on the principle of Common but Differentiated Responsibilities (CBDR). 2.India advocates legally binding emission cuts for all countries regardless of development status. 3.India emphasises climate finance and technology transfer from developed countries. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q11",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which international organization recently released the ‘World Economic Outlook’ report?",
+    "options": [
+      "International Monetary Fund (IMF)",
+      "World Bank",
+      "World Trade Organization (WTO)",
+      "World Economic Forum (WEF)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “International Monetary Fund (IMF)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q12",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statements is true regarding the ‘Vibrant Villages Programme’ launched by the Central Government?",
+    "options": [
+      "The primary goal is to promote organic farming in coastal regions.",
+      "It focuses on developing infrastructure in villages along India’s northern border.",
+      "It is limited only to the state of Jammu and Kashmir.",
+      "It is a scheme for providing high-speed internet to every village in India."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It focuses on developing infrastructure in villages along India’s northern border.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q13",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which revenue system among the following is also known as the bandobast system?",
+    "options": [
+      "Zabti",
+      "Dahsala",
+      "Nasaq",
+      "Kankut"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zabti”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q14",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Under Maratha administration who was Dabir?",
+    "options": [
+      "Prime Minister",
+      "Chief Justice",
+      "Foreign secretary",
+      "Superintendent"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Foreign secretary”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q15",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The expression “Satyamev jayate” is referenced in which of the accompanying Upanishads?",
+    "options": [
+      "Katho Upanishad",
+      "Mandukya Upanishad",
+      "Chandogya Upanishad",
+      "None of the Above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mandukya Upanishad”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q16",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Jinnah’s two nation theory was adopted at the:",
+    "options": [
+      "Lahore Resolution",
+      "Karachi Resolution",
+      "Dacca Declaration",
+      "Bombay resolution"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lahore Resolution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q17",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "______________, who led the Congress party, introduced Mahatma Gandhi to the concerns in India and the struggle of the people.",
+    "options": [
+      "Tej Bahadur Sapru",
+      "Rabindranath Tagore",
+      "Mohammad Ali Jinnah",
+      "Gopal Krishna Gokhale"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Gopal Krishna Gokhale”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q18",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following revolts was made famous by Bankim Chandra Chatterjee in his novel Anand Math?",
+    "options": [
+      "Bhil uprising",
+      "Rangpur and Dinapur Uprising",
+      "Bishnupur and Birbhum rebellion",
+      "Sanyasi rebellion"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sanyasi rebellion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q19",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who was the head of the commission which was appointed by Congress to investigate the Jallianwala Bagh Massacre?",
+    "options": [
+      "C.R. Das",
+      "Motilal Nehru",
+      "Ambika Charan Majumdar",
+      "B.V Patel"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “C.R. Das”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q20",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Permanent Settlement of 1793 was introduced by:",
+    "options": [
+      "Warren Hastings",
+      "Lord Cornwallis",
+      "Lord Wellesley",
+      "Lord Dalhousie"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lord Cornwallis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q21",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Indian National Congress was founded in 1885 primarily to:",
+    "options": [
+      "Launch mass movements immediately",
+      "Demand complete independence",
+      "Provide a platform for political dialogue with the British",
+      "Organise armed resistance"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Provide a platform for political dialogue with the British”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q22",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Ryotwari system differed from the Permanent Settlement because:",
+    "options": [
+      "It recognized zamindars as landowners",
+      "It established a direct relationship between the state and cultivator",
+      "Land revenue was fixed permanently",
+      "It was confined only to Bengal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It established a direct relationship between the state and cultivator”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q23",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The significance of the Home Rule Movement lies in the fact that it:",
+    "options": [
+      "Demanded complete independence",
+      "Popularised the idea of self-government",
+      "Advocated armed revolution",
+      "Ended communal politics"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Popularised the idea of self-government”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q24",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Why was the Simon Commission opposed in India?",
+    "options": [
+      "It proposed partition",
+      "It recommended complete independence",
+      "It had no Indian members",
+      "It supported princely states"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It had no Indian members”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q25",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Match the following places with the things known for: A.Korba1.Atomic Power plant B.Raniganj2.Heavy Electricals C.Kalpakkam3.Coal Mines D.Hardwar4.Aluminium ABCD",
+    "options": [
+      "1324",
+      "4312",
+      "2143",
+      "2413"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “4312”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q26",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Arrange the following from North to South direction: 1.Coco channel 2.Little Andaman 3.Narcondam Island 4.Barren Island Choose the correct option from the codes given below:",
+    "options": [
+      "1, 4, 2, 3",
+      "1, 3, 4, 2",
+      "1, 2, 3, 4",
+      "1, 3, 2, 4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1, 3, 4, 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q27",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following is the oldest mountain range of India?",
+    "options": [
+      "Shivalik hills",
+      "Himalyas",
+      "Aravali hills",
+      "The Naga Hills"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Aravali hills”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q28",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Generally, the soil of the northern plains of India has been formed by:",
+    "options": [
+      "Degradation",
+      "Weathering in situ",
+      "Erosion",
+      "Aggradation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Aggradation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q29",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Chemical weathering of rocks is much greater in a place with:",
+    "options": [
+      "Cold and dry climate",
+      "Hot and humid climate",
+      "Hot and dry climate",
+      "Cold and humid climate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hot and humid climate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q30",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements: 1.Jet streams occur in the Northern Hemisphere only. 2.Only some cyclones develop an eye. 3.The temperature inside the eye of a cyclone is nearly 10°C lesser than that of the surroundings. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "2 only",
+      "1 and 3 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q31",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best explains the high population density of the Indo-Gangetic Plain?",
+    "options": [
+      "High mineral resources",
+      "Fertile soils, flat terrain and availability of water",
+      "Pleasant climate throughout the year",
+      "Industrialisation alone"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Fertile soils, flat terrain and availability of water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q32",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Hirakud Dam is built across which river?",
+    "options": [
+      "Kaveri",
+      "Godavari",
+      "Krishna",
+      "Mahanadi"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Mahanadi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q33",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following are not correctly matched? (Mineral)(Mining City) 1.CopperChitradurga 2.Iron oreBallari 3.ManganeseBhilwara 4.BauxiteKatni Select the correct answer from the codes given below: Codes:",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "2 and 4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q34",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding monsoon rainfall in India: 1.It is caused by differential heating of land and sea. 2.It is influenced by the shift of the Inter-Tropical Convergence Zone (ITCZ). 3.It is uniform throughout the country. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q35",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The rain-shadow effect in India is most clearly observed in:",
+    "options": [
+      "Western Himalayas",
+      "Eastern slopes of the Western Ghats",
+      "Gangetic plains",
+      "Brahmaputra valley"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Eastern slopes of the Western Ghats”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q36",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to El Niño, consider the following statements: 1.It involves warming of the eastern Pacific Ocean. 2.It weakens the Walker circulation. 3.It always leads to excess rainfall in India. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q37",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Writ is issued by a High Court or the Supreme Court to compel an authority to perform a function that it was not performing?",
+    "options": [
+      "Writ of Certiorari",
+      "Writ of Habeas Corpus",
+      "Writ of Mandamus",
+      "Writ of Quo Warranto"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Writ of Mandamus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q38",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The minimum age of the member of Rajya Sabha is :",
+    "options": [
+      "25 years",
+      "21 years",
+      "30 years",
+      "35 years"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “30 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q39",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Standing Committees of Parliament has no MP from Rajya Sabha?",
+    "options": [
+      "Public Accounts Committee",
+      "Estimates Committee",
+      "Committee on Public Undertakings",
+      "Committee on Government Assurances"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Estimates Committee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q40",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In essence, what does ‘Due Process of Law’ mean?",
+    "options": [
+      "The principle of natural justice",
+      "The procedure established by law",
+      "Fair application of law",
+      "Equality before law"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fair application of law”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q41",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Ninth Schedule was introduced in the Constitution of India during the prime ministership of",
+    "options": [
+      "Jawaharlal Nehru",
+      "Lal Bahadur Shastri",
+      "Indira Gandhi",
+      "Morarji Desai"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jawaharlal Nehru”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q42",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to Vote on Account, consider the following statements: 1.It is passed after general discussion of the Budget is over. 2.It is passed before the discussion on demands for grants is taken up 3.Parliament is authorised to make any grant in advance in with regard to Vote on Account Choose the correct statement/s from the code below:",
+    "options": [
+      "1 and 3 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q43",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to Fundamental Duties, consider the following statements: 1.They were originally part of the Constitution. 2.They are non-justiciable in nature. 3.They apply only to citizens. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q44",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best explains the role of Public Interest Litigation (PIL) in India?",
+    "options": [
+      "Enforces private contractual rights",
+      "Expands access to justice for disadvantaged groups",
+      "Replaces ordinary litigation",
+      "Limits judicial review"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Expands access to justice for disadvantaged groups”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q45",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The principle of separation of powers in India implies that:",
+    "options": [
+      "Powers are rigidly separated",
+      "Judiciary is subordinate to the legislature",
+      "Functions are separated with checks and balances",
+      "Executive dominates all branches"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Functions are separated with checks and balances”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q46",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to Article 19, consider the following statements: 1.Reasonable restrictions can be imposed only by law. 2.Restrictions must be in the interest of public order alone. 3.Rights under Article 19 are available to citizens only. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q47",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The distinction between rights and duties in the Indian Constitution implies that:",
+    "options": [
+      "Duties are enforceable by courts",
+      "Rights override duties",
+      "Rights are justiciable while duties are moral obligations",
+      "Duties are superior to rights"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rights are justiciable while duties are moral obligations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q48",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best reflects good governance as understood in the Indian context?",
+    "options": [
+      "Centralisation of power",
+      "Speedy decision-making alone",
+      "Transparency, accountability and citizen participation",
+      "Strict executive control"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Transparency, accountability and citizen participation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q49",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country was overtaken by India to become the world’s fourth-largest economy in 2025?",
+    "options": [
+      "Germany",
+      "United Kingdom",
+      "Japan",
+      "France"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Japan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q50",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Pradhan Mantri MUDRA Yojana is aimed at:",
+    "options": [
+      "bringing the small entrepreneurs into formal financial system",
+      "providing loans to poor farmers for cultivating particular crops",
+      "providing pensions to old and destitute persons",
+      "funding the voluntary organizations involved in the promotion of skill development and employment generation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “bringing the small entrepreneurs into formal financial system”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q51",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The basic aim of Lead Bank Scheme is that:",
+    "options": [
+      "individual banks should adopt particular districts for intensive development",
+      "there should be stiff competition among the various nationalized banks",
+      "big banks should try to open offices in each district",
+      "all the banks should make intensive efforts to mobilize deposits"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “individual banks should adopt particular districts for intensive development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q52",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In India, poverty ratio is lowest in:",
+    "options": [
+      "Kerala",
+      "Punjab",
+      "Haryana",
+      "Delhi"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Kerala”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q53",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to multidimensional poverty, consider the following statements: 1.It goes beyond income-based measurement. 2.It includes health and education indicators. 3.It is measured exclusively by GDP growth. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q54",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best explains the concept of social inclusion?",
+    "options": [
+      "Equal income for all",
+      "Expansion of welfare schemes",
+      "Ensuring participation of all groups in social, economic and political processes",
+      "Removal of private sector"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ensuring participation of all groups in social, economic and political processes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q55",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to demographic transition, consider the following stages: 1.Declining death rate followed by declining birth rate 2.High birth rate and high death rate 3.Low birth rate and low death rate Which sequence correctly represents the demographic transition model?",
+    "options": [
+      "2  3  1",
+      "2  1  3",
+      "1  2  3",
+      "3  1  2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2  1  3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q56",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of jobless growth refers to a situation where:",
+    "options": [
+      "Employment growth exceeds GDP growth",
+      "Economic growth does not lead to proportionate employment generation",
+      "Unemployment rate becomes zero",
+      "Informal employment disappears"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Economic growth does not lead to proportionate employment generation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q57",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In the context of sustainable agriculture, which of the following practices is most aligned with long- term sustainability?",
+    "options": [
+      "Optimum use of chemical fertilisers",
+      "Monocropping",
+      "Crop diversification and efficient water use",
+      "Efficient groundwater extraction"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Crop diversification and efficient water use”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q58",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to inequality, consider the following statements: 1.High economic growth automatically reduces inequality. 2.Inequality can coexist with poverty reduction. 3.Excessive inequality can hinder long-term growth. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q59",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of Just Transition in sustainable development relates to:",
+    "options": [
+      "Rapid industrialisation",
+      "Immediate closure of polluting industries",
+      "Ensuring social protection for workers affected by green transition",
+      "Replacement of labour by technology"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ensuring social protection for workers affected by green transition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q60",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Assertion (A):India’s demographic dividend is expected to peak around 2040.",
+    "options": [
+      ":India’s demographic dividend is expected to peak around 2040. ratio. (a)Both A and R are true, and R is the correct explanation of A",
+      "Both A and R are true, but R is not the correct explanation of A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “:India’s demographic dividend is expected to peak around 2040. ratio. (a)Both A and R are true, and R is the correct explanation of A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q61",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Kyoto Protocol, an agreement signed by various countries, is associated with",
+    "options": [
+      "International Trade",
+      "Building common food stock to save human beings from any natural disaster",
+      "Clean Environment and Climate Change",
+      "Deep Sea Oil and Mineral Exploration"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Clean Environment and Climate Change”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q62",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Ramsar Wetland sites are located in North East India? 1.Deepor Beel 2.Chandra Taal 3.Wular Lake 4.Pala Wetland Select the correct answer from the codes given below:",
+    "options": [
+      "1 and 4",
+      "1, 2 and 3 only",
+      "1, 2 and 4 only",
+      "2, 3 and 4 only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 and 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q63",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Green Mizoram Day is observed annually on:",
+    "options": [
+      "October 19",
+      "May 16",
+      "April 22",
+      "June 11"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “June 11”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q64",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which policy is specifically aimed at reducing deforestation and forest degradation in developing countries?",
+    "options": [
+      "REDD+",
+      "Ramsar Convention",
+      "Basel Convention",
+      "World Heritage Convention"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “REDD+”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q65",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not Major Protected Areas (Biodiversity Hotspots) in Mizoram?",
+    "options": [
+      "Dampa Tiger Reserve",
+      "Phawngpui (Blue Mountain) National Park",
+      "Tlawng River Catchment Areas",
+      "Lengteng Wildlife Sanctuary"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tlawng River Catchment Areas”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q66",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Red Data Book is associated with:",
+    "options": [
+      "Air pollution control",
+      "Endangered and threatened species",
+      "Water quality standards",
+      "Forest fire prevention"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Endangered and threatened species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q67",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about mangrove forests: 1.They act as natural barriers against cyclones. 2.They are rich in biodiversity. 3.They are found only in the Andaman Islands. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q68",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding biodiversity hotspots in India: 1.The Western Ghats and the Himalayas are considered hotspots. 2.The Andaman & Nicobar Islands are not included in hotspots. 3.Biodiversity hotspots are regions with rich species endemism and high habitat loss. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q69",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term “carbon sink” refers to:",
+    "options": [
+      "A device to reduce emissions",
+      "A natural reservoir that absorbs more carbon than it releases",
+      "Industrial carbon capture plants",
+      "A process of carbon trading"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A natural reservoir that absorbs more carbon than it releases”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q70",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding desertification: 1.It is caused by overgrazing, deforestation, and climate change. 2.It can be reversed through afforestation and sustainable land management. 3.It occurs only in arid regions. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 3 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q71",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is a common impact of poaching on biodiversity?",
+    "options": [
+      "Increase in the population of endangered species",
+      "Decrease in genetic diversity due to the loss of key species",
+      "Restoration of degraded habitats",
+      "Improvement in local ecosystems"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Decrease in genetic diversity due to the loss of key species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q72",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following correctly describes invasive alien species?",
+    "options": [
+      "Native species with declining population",
+      "Non-native species with beneficial ecosystem functions",
+      "Non-native species that cause ecological or economic harm",
+      "Endemic species"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Non-native species that cause ecological or economic harm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q73",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following characteristics distinguish man from other animals? 1.His capacity to adapt to the needs of the environment 2.His curiosity 3.His blood groups 4.His DNA Select the correct answer from the following:",
+    "options": [
+      "2 and 4",
+      "2 and 3",
+      "1,2,3 and 4",
+      "only 2"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “2 and 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q74",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following drugs cause death by common respiratory failure due to overdose?",
+    "options": [
+      "Marijuana",
+      "Methamphetamine",
+      "Heroin",
+      "Cocaine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Heroin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q75",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following colors is least scattered by fog, dust or smoke?",
+    "options": [
+      "Violet",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Red”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q76",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The optical phenomena, twinkling of stars, is due to:",
+    "options": [
+      "Atmospheric refraction",
+      "Atmospheric reflection",
+      "Total reflection",
+      "Total refraction"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Atmospheric refraction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q77",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In high mountain regions bleeding through nose occurs because",
+    "options": [
+      "The pressure of the blood capillaries is higher than the outside pressure",
+      "The pressure at high altitudes is greater than that in the plains",
+      "The blood pressure increases at high altitudes",
+      "The blood pressure decreases at high altitudes"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The pressure of the blood capillaries is higher than the outside pressure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q78",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The heating element in an electric iron is made of:",
+    "options": [
+      "Nichrome",
+      "Tungsten",
+      "Copper",
+      "Iron"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Nichrome”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q79",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Water conducts electricity because it contains:",
+    "options": [
+      "Pure H‚ O molecules",
+      "Dissolved ions and impurities",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Dissolved ions and impurities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q80",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following vitamins is fat-soluble?",
+    "options": [
+      "Vitamin B1",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B12"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Vitamin D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q81",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding antibiotics: 1.They kill bacteria. 2.They are effective against viruses. 3.Overuse can lead to antibiotic resistance. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q82",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which component of the blood is primarily responsible for transporting oxygen to different parts of the human body?",
+    "options": [
+      "Red Blood Cells",
+      "Plasma",
+      "Platelets",
+      "White Blood Cells"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Red Blood Cells”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q83",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a ‘Colloid’?",
+    "options": [
+      "Distilled Water",
+      "Granite",
+      "Milk",
+      "Salt Water"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Milk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q84",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What happens to the boiling point of water as you go to higher altitudes (e.g., the top of a mountain)?",
+    "options": [
+      "It remains the same at 100°C.",
+      "It fluctuates based on the humidity.",
+      "It decreases because the atmospheric pressure is lower.",
+      "It increases because the air is colder."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It decreases because the atmospheric pressure is lower.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q85",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following was the first Mizo language textbook?",
+    "options": [
+      "Mizo Chanchin Laisuih",
+      "Mizo Zirtir Bu",
+      "Zirtirh Bu",
+      "Zirtan Bu"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mizo Zirtir Bu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q86",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one is non-bamboo mizo traditional music instrument?",
+    "options": [
+      "Lemlawi",
+      "Rawchhem",
+      "Phaiphuleng",
+      "Bengbung"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bengbung”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q87",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Khaukhurh’ was one type of graves meant for:",
+    "options": [
+      "Ordinary people",
+      "Chiefs and prominent persons",
+      "Warriors",
+      "Infant child"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ordinary people”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q88",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following is traditional attire of mizo men?",
+    "options": [
+      "Siapsuap",
+      "Vakiria",
+      "Kawkpuizikzial",
+      "Hnawkhal"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hnawkhal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q89",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "“A Monograph on Lushai Customs and Ceremonies” was written by:",
+    "options": [
+      "T.H. Lewin",
+      "J. Shakespeare",
+      "N.E. Parry",
+      "B. Lalthangliana"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “N.E. Parry”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q90",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Lakher Pioneer Mission was started by:",
+    "options": [
+      "Reginald A. Lorrain",
+      "J. Herbert Lorrain",
+      "William Williams",
+      "F.W. Savidge"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reginald A. Lorrain”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q91",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Choose the correct statement:",
+    "options": [
+      "Val Upa were elected by the young men",
+      "Val Upa enjoyed their status by dint of their seniority in age",
+      "Val Upa were appointed by the chief",
+      "Val Upa were not elected but chosen and recognized due to his good works"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Val Upa were appointed by the chief”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q92",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The early British policy towards the Lushai Hills was:",
+    "options": [
+      "to introduce force labour among the Mizo",
+      "to collect revenue",
+      "to introduce Christianity",
+      "non-intervention"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “non-intervention”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q93",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the term for the nomadic settlement of new land known as in Mizo history?",
+    "options": [
+      "Ram thar kai",
+      "Ram zuan",
+      "Ram thar luah",
+      "Ram sawn"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ram zuan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q94",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What term was used for the substitute when the village Sadawt was not able to perform his customary duties?",
+    "options": [
+      "Tlahpawi",
+      "Vanhrik",
+      "Bawlpu",
+      "Khua bawl"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tlahpawi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q95",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following was not believed to be one of the female evil spirits in Mizo history?",
+    "options": [
+      "Lasi",
+      "Tau",
+      "Chawm",
+      "In-thum-kar"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “In-thum-kar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q96",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following was deemed to have a higher social status than “Zalen”?",
+    "options": [
+      "Ramhual",
+      "Thirdeng",
+      "Tlangau",
+      "Khawchhiar"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ramhual”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q97",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following was not exempted from “hnatlang”?",
+    "options": [
+      "Widows",
+      "Lal thirdeng, when he is preoccupied with his work",
+      "The physically handicapped",
+      "Tlangau"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tlangau”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q98",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What was the type of “Zu” which was known as “hranden zu”?",
+    "options": [
+      "Zupui",
+      "Zufang",
+      "Tin zu",
+      "Rak zu"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zupui”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q99",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following denotes the least amount of rice harvested?",
+    "options": [
+      "Favah zai",
+      "Chhip zawn",
+      "Tuthlawh zawn",
+      "Silai zawn"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Favah zai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-gs-Q100",
+    "paperId": "mpsc-group-b-acm-2026-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is regarded as belonging to the Lai community?",
+    "options": [
+      "Khuallam",
+      "Chawnglaizawn",
+      "Solakia",
+      "Tlanglam"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chawnglaizawn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-gs.pdf#page=13",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Contiguous seams mean the parting between two seams is within:",
+    "options": [
+      "10 m",
+      "9 m",
+      "8 m",
+      "12 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “9 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Given the following: **Mining methodTechnique** P: Thick seam extraction1: Double unit face Q: Bord and pillar extraction2: Jet cutting R: Longwall face development3: Inclined slicing S: Hydraulic mining4: Half-moon method The correct match is:",
+    "options": [
+      "P-3. Q-4, R-2, S-1",
+      "P-3. Q-2, R-1, S-4",
+      "P-1, Q-4, R-2, S-3",
+      "P-3, Q-4, R-1, S-2"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “P-3, Q-4, R-1, S-2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Given the following: **Excavating/loading machineTransportation scheme** P: Bucket Wheel Excavator1: Mine tub Q: Continuous Miner2: Armoured flexible chain conveyor R: Shearer3: Shiftable Conveyor S: Load Haul Dumper4: Shuttle car The correct match is:",
+    "options": [
+      "P-3, Q-2, R-4, S-1",
+      "P-3, Q-4, R-2, S-1",
+      "P-3, Q-2, R-1, S-4",
+      "P-1, Q-4, R-3. S-2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “P-3, Q-4, R-2, S-1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The opening cut in opencast mining is known as:",
+    "options": [
+      "berm",
+      "box cut",
+      "trench",
+      "drift"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “box cut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Adit is adopted for:",
+    "options": [
+      "a deposit having less depth of cover",
+      "hilly terrain",
+      "a deposit having more depth of cover",
+      "quick return on investment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “hilly terrain”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Size of pillars is decided based on:",
+    "options": [
+      "nature of roof and floor",
+      "time dependent strain",
+      "depth from surface",
+      "coal strength"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “depth from surface”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Why is fleet angle limited to 1.5°?",
+    "options": [
+      "to reduce the side travel on the pulley",
+      "to prevent excessive wear & tear of the winding rope",
+      "it allows maximum persons to travel at a time in a cage",
+      "it allows use of rope having lesser diameter"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “to prevent excessive wear & tear of the winding rope”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What percentage of (CO formed/O₂ absorbed) ratio indicates existence of heating?",
+    "options": [
+      "0.5 %",
+      "1%",
+      "2%",
+      "3%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following factor is considered for calculation of cycle time of excavating machine such as shovel, drag line etc.?",
+    "options": [
+      "bucket factor",
+      "swell factor",
+      "swing factor",
+      "drill factor"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “swing factor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Prop density is defined as:",
+    "options": [
+      "weight carried by a single prop",
+      "time elapsed to set a prop",
+      "number of props required to support one sq. meter area",
+      "number of persons required to erect a prop"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “number of props required to support one sq. meter area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the minimum length of roof bolt used in underground coal mine?",
+    "options": [
+      "half of the width of roadway",
+      "one-third of the width of roadway",
+      "equal to the width of roadway",
+      "double the width of roadway"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “one-third of the width of roadway”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is known as point load index?",
+    "options": [
+      "(14 + 0.175 D) Is",
+      "P/D²",
+      "m = I/3",
+      "S = C + tanθ"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “P/D²”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The correct order of hardness of rock in their increasing order:",
+    "options": [
+      "Gypsum < Fluorite < Quartz < Topaz",
+      "Fluorite < Gypsum < Quartz < Topaz",
+      "Fluorite < Quartz < Gypsum< Topaz",
+      "Topaz < Quartz < Fluorite < Gypsum"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gypsum < Fluorite < Quartz < Topaz”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Weak sandstone has modulus of elasticity of 1000 MPa and Poisson’s ratio is 0.25. Its shear modulus is:",
+    "options": [
+      "4 GPa",
+      "400 Mpa",
+      "500 GPa",
+      "800 GPa"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “400 Mpa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "With increase in moisture content of rock, the effect on bearing capacity of the rock:",
+    "options": [
+      "increases",
+      "decreases",
+      "no relation with the moisture content",
+      "depends on the rock type"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “decreases”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A16",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The grain size distribution of soil is known as:",
+    "options": [
+      "Permeability",
+      "Structure",
+      "Porosity",
+      "Texture"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Texture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A17",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In an underground working area, CH₄ and CO₂ are normally expected to be found respectively:",
+    "options": [
+      "Near the floor and along the roadway",
+      "Near the floor and near the roof",
+      "Near the roof and near the floor",
+      "Along the roadway and near the floor"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Near the roof and near the floor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A18",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In the Coward flammability diagram, the respective percentages of methane and oxygen at the nose limit are:",
+    "options": [
+      "14.2, 0.0",
+      "14.1, 18.2",
+      "5.8, 12.1",
+      "5.0, 19.2"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A19",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Quantity of air to be circulated to u/g workings depends on:",
+    "options": [
+      "Manpower employed in a largest shift",
+      "Manpower employed in a day",
+      "Total production in a day",
+      "Both (a) and (c)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Both (a) and (c)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A20",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Geothermic gradient is:",
+    "options": [
+      "Increase in temperature with depth.",
+      "Increase in pressure with depth.",
+      "Decrease in temperature with depth.",
+      "Decrease in pressure with depth."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Increase in temperature with depth.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A21",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The chemical Hopcalite is used in:",
+    "options": [
+      "Self-contained breathing apparatus",
+      "Gas mask",
+      "CO- detector",
+      "MSA- methanometer"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gas mask”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A22",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "It is the junction plane of one bed of rock with another:",
+    "options": [
+      "conformity",
+      "dip of bed",
+      "strike of bed",
+      "bedding plane"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “bedding plane”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A23",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "It is a compound of CaCO₃ and MgCO₃ in various proportions.",
+    "options": [
+      "Magnetite",
+      "Laterite",
+      "Siderite",
+      "Dolomite"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dolomite”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A24",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "If sandstone is the original rock, then what is its metamorphic rock?",
+    "options": [
+      "Slate",
+      "Gneiss",
+      "Quartzite",
+      "Marble"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Quartzite”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A25",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In paleontology, the conversion of remains of plants and animals into rock is known as:",
+    "options": [
+      "Fossils",
+      "Petrification",
+      "Moulds",
+      "Carbonization"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Petrification”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A26",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A natural mineral substance of iron oxide, clay and sometimes manganese is called:",
+    "options": [
+      "Shale",
+      "Silt",
+      "Ochre",
+      "Tuff"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ochre”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A27",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A coal seam in India is said to be thick when the thickness is more than:",
+    "options": [
+      "1.5 m",
+      "2.5 m",
+      "3.5 m",
+      "4.5 m"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “4.5 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A28",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the minimum size of coal pillar when the depth of coal seam from surface remains between 240 m to 360 m and gallery width does not exceed 3 m?",
+    "options": [
+      "28 m",
+      "28.5 m",
+      "29 m",
+      "29.5 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “28.5 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A29",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Protodyaknov index of Indian coals varies from:",
+    "options": [
+      "1-4",
+      "4-8",
+      "8-12",
+      "12-16"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1-4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A30",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Over 90% of underground coal production in India comes from:",
+    "options": [
+      "Longwall method",
+      "Hydraulic Mining method",
+      "Board & Pillar method",
+      "Blasting Gallery method"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Board & Pillar method”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A31",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The suitable method of mining a 2 m thick strong sulphide ore deposit within strong wall rocks dipping at 18° and occurring at 60 m below the surface is:",
+    "options": [
+      "Overhand stoping",
+      "Top slicing",
+      "Underhand longwall stoping",
+      "Breast stoping"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Breast stoping”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A32",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In-situ ore of 2.0 % Cu got diluted with waste rock of value 0.4 Cu. If the resultant extracted ore has 1.6 % Cu, what is the percentage of dilution?",
+    "options": [
+      "18%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “25%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A33",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "As per DGMS guidelines for soft ground (alluvium, gravel, clay, debris), the maximum bench height shall not exceed:",
+    "options": [
+      "1.0 m",
+      "1.5 m",
+      "2.0 m",
+      "3.0 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1.5 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A34",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Factor of Safety (FOS) of a slope when there is a tension crack and water pressure present is: c. A+(W. Cosβ -V)tanφ c. A+(W. Cosβ +V)tanφ FOS=FOS=",
+    "options": [
+      "",
+      " W. Sinβ+UW. Sinβ - U c. A+(W. Sinβ -V)tanφ c. A+(W. Sinβ +V)tanφ FOS=FOS=",
+      "",
+      " W. Cosβ + UW. Cosβ - U"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A35",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Match the following features with the corresponding symbols.",
+    "options": [
+      "P1; Q3; R4; S2",
+      "P4; Q2; R1; S3",
+      "P2; Q4; R3; S1",
+      "P4; Q1; R2; S3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “P4; Q2; R1; S3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A36",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "______________ material has different property in different axes.",
+    "options": [
+      "Isotropy",
+      "Anisotropy",
+      "Angiostropy",
+      "Monotropy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Anisotropy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A37",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The void ratio of an unconsolidated soil heap of volume 1000 m³ is 1.0. If the soil heap is consolidated to a volume of 800 m³, the corresponding void ratio is:",
+    "options": [
+      "0.6",
+      "0.5",
+      "1",
+      "1.5"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “0.6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A38",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The angle between the major principal stress () and vertical stress () is given by: 1−12 z−1−31−12 z+1+3 θ=  Cosθ=  Cos",
+    "options": [
+      "z",
+      "z 2 1−32 1+3 1−12 z−1−31−12 z+1+3 θ=  Tanθ=  Tan",
+      "z",
+      "z 2 1−32 1+3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “z”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A39",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In the generalized Hoek–Brown equation, the uni-axial compressive strength of a rock mass is obtained by setting:",
+    "options": [
+      "₁ =0",
+      "₂ =0",
+      "σ₃ =0",
+      "mᵢ= 0"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “₂ =0”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A40",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "For a cylindrical specimen of cross section area A, length L, Young’s modulus E, and axial load P, the strain energy stored is: P²LP.L²",
+    "options": [
+      "",
+      " 2 A.E2 A.E P².L²P²L",
+      "",
+      " A.EA.E"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A41",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The oxygen concentration in underground mines should not be less than:",
+    "options": [
+      "18%",
+      "19%",
+      "20%",
+      "21%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “19%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A42",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A coal mine with methane emission rate ≤ 1 m³/tonne is:",
+    "options": [
+      "Degree I",
+      "Degree II",
+      "Degree III",
+      "Nongassy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Degree I”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A43",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Quantity of air to be circulated to U/G working where 150 workers employed in the largest shift and daily production is 500 tonnes will be:",
+    "options": [
+      "950 m³/min",
+      "1050 m³/min",
+      "1150 m³/min",
+      "1250 m³/min"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1250 m³/min”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A44",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In an underground coal mine, a Graham’s Ratio of 3% is an indication of:",
+    "options": [
+      "Existence of spontaneous heating",
+      "Active fire",
+      "Heating in advance stage",
+      "Normal coal mine"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Active fire”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A45",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The early indication of spontaneous heating of coal can be given by:",
+    "options": [
+      "Sweating of strata",
+      "Formation of CO²",
+      "Rise of temperature",
+      "Smoke from the coal face"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sweating of strata”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A46",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The hardness of a mineral depends mainly on:",
+    "options": [
+      "Cleavage",
+      "Luster",
+      "Colour",
+      "Bond strength between atoms"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bond strength between atoms”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A47",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Dip is measured:",
+    "options": [
+      "Vertically",
+      "Horizontally",
+      "Perpendicular to Strike",
+      "Parallel to Strike"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Perpendicular to Strike”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A48",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A fold with both limbs dipping toward the axis is:",
+    "options": [
+      "Anticline",
+      "Syncline",
+      "Monocline",
+      "Recumbent Fold"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Syncline”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A49",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The era known as the “Age of Reptiles” is:",
+    "options": [
+      "Mesozoic",
+      "Paleozoic",
+      "Cenozoic",
+      "Precambrian"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mesozoic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-A50",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Limestone deposits in India are extensively used for:",
+    "options": [
+      "Fertilizers",
+      "Steel Industries",
+      "Cement Industries",
+      "Medicinal purpose"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cement Industries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define the following terms:(4×1=4)\na. Gestation Period\nb. Block Caving\nc. Stripping Ratio\nd. Break – Even Stripping Ratio",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "In an Under Ground Coal Mine, 1800 workers are employed. The average production from the mine is 900 tonne per day. Assuming 3 working shifts per day, calculate the Output per Man Shift (OMS). (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Broken rock of 3684 m³ is heaped into a square pyramid of height 12 m. Calculate the base area in metre square.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Four benches are being worked by the opencast mining system. Height, width and face angle for each bench are 15m, 50m and 70º respectively. Calculate the overall slope angle of the benches. (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "The ratio of uniaxial compressive strength to uniaxial tensile strength of a sandstone specimen is 8:1. Calculate the theoretical value of angle of internal friction of the specimen in degree.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A series of triaxial tests of sandstone samples reveal the cohesion and the angle of internal friction as 21.65 MPa and 30º respectively. Based on the assumption that the sandstone samples and by following the Mohr-Coulomb’s failure criteria, calculate the tensile strength in Mpa.(6) 2-82-8",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "In a mine ventilation system, the resistances of two splits A and B are 0.5 Nsm and 2 Nsm respectively. Combined resistance of two shafts and trunk airways is 0.7 Ns²m⁻⁸. A quantity of 20 m³/s of air passes through split A. Calculate the total air quantity passing the mine in m³/s.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "State the three fundamental Fan Laws used in mine ventilation. If the rotational speed of a mine fan is doubled, what will be the resulting effect on the quantity of airflow, ventilating pressure, and fan power?(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define dip and strike. Illustrate with suitable diagram.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Fold? Distinguish between Anticline and Syncline by illustrating with the help of suitable diagrams.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "11",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Ultimate Analysis and Proximate Analysis of coal. List the constituents determined in each method.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "12",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "In an underground coal mine using the bord and pillar method, a development panel provides the following production data for a single shift:(5) Number of blasting rounds fired per shift: 8 Dimensions of the face exposed for each blast: 4.2 m (width) × 2.5 m (height) Average pull obtained per blast: 1.2 m Specific gravity of coal: 1.4 Total manpower employed in the panel per shift: 100\na. Determine the Output per Manshift (OMS) for the panel in tonnes.\nb. Comment briefly on whether the OMS value indicates high, moderate, or low productivity for a development district in an underground coal mine.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A rectangular coal pillar is formed with center-to-center dimensions of 30 m × 30 m in an underground mine. The width of each gallery is 5.0 m, and the depth of the working is 200 m. If the unit weight of the overlying strata is 0.025 MPa/m, calculate the load (stress) acting on the pillar using the Tributary Area Method.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "14",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is Rock Quality Designation (RQD)? Explain how it is determined and give the standard classification of rock mass based on RQD values.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "15",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Rock mass parameters for a shale rock, mβ, s, and a of the Hoek and Brown failure criterion as given in the equation are 2.4, 0.01 and 0.52 respectively. The uni-axial compressive strength (_cᵢ) of intact shale is 50 MPa. 1=3+ci (mβ   3/ci +s)^a Find the uniaxial compressive strength of rock mass.(5) σ",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-16",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "16",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Modulus of Elasticity of rock. Derive the expression E= and explain the difference between ε Tangent modulus and Secant modulus.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-17",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "17",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Sample of air collected in the intake and return gate roads of an advancing longwall face show 0.25% and 0.75% CH₄, respectively. The panel has a production of 400 tonnes in an 8-hour shift, when an air quality of 18 m³/s passes through it, what will be the emission in m³/t of coal produced.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-18",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "18",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Calculate the N.V.P in an underground mine using the following data:(5) Depth of mine = 300 m Pit bottom barometer reading = 101.27 kPa Pit-top barometer reading = 98.10 kPa Average temperature in downcast shaft = 307 K Average temperature in upcast shaft = 304 K",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-19",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "19",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are joints in rocks? Classify different types of joints and discuss their effect on blasting and excavation workability.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p1-written-20",
+    "paperId": "mpsc-group-b-acm-2026-tech-p1",
+    "type": "descriptive",
+    "questionNumber": "20",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Classify mineral deposits based on their mode of origin. Describe any three types with suitable examples. (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p1.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "An air quality parameter required to be monitored under the Indian National Ambient Air Quality Standards is:",
+    "options": [
+      "As",
+      "Pb",
+      "Hg",
+      "Silica"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Hg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The value of COD is related to BOD as:",
+    "options": [
+      "COD > BOD",
+      "COD = BOD",
+      "COD < BOD",
+      "There is no relation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “COD > BOD”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The limit of explosibility of a mixture of combustible gases can be computed by which of the following equation?",
+    "options": [
+      "Pythagoras equation",
+      "Le Chatelier equation",
+      "Simon’s equation",
+      "Solmon’s equation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Le Chatelier equation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the minimum percentage of O₂ to make methane air mixture explosive?",
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "15%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “12%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Gas chromatography separates & analyze components of gas mixture by:",
+    "options": [
+      "Adsorbent",
+      "Molecular Species",
+      "Boiling Water",
+      "Catalyst"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Molecular Species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "As per Indian law the methane concentration should not exceed “A%” in any part of the mine. A is given by:",
+    "options": [
+      "0.5 %",
+      "0.75 %",
+      "1 %",
+      "1.25%"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1.25%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the basic principle of chain surveying?",
+    "options": [
+      "Dialing",
+      "Chaining",
+      "Traversing",
+      "Triangulation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Triangulation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Match the following: **InstrumentsPurpose/Measurement** 1: Abney’s levela: Horizontal and vertical angles 2: Pantographb: Area of plotted figure 3: Planimeterc: Enlargement and reduction of plotted maps 4: Box sextantd: Angle of inclination",
+    "options": [
+      "1-a, 2-c, 3-d, 4-b",
+      "1-c, 2-b, 3-d, 4-a",
+      "1-d, 2-a, 3-d, 4-c",
+      "1-d, 2-c, 3-b, 4-a"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1-d, 2-c, 3-b, 4-a”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which is used when leveling of the highest precision is required?",
+    "options": [
+      "Telescope",
+      "Invar staff",
+      "Tape",
+      "Object glass"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Invar staff”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Name the method which is particularly suitable when a contoured map of hill is required:",
+    "options": [
+      "By squares method",
+      "Tacheometric method",
+      "Cross-section",
+      "Indirect method"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tacheometric method”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "It is a simple device attached to the wheel of any vehicle and registers the number of revolutions of the wheel. Knowing the circumference of the wheel, the distance traversed may be obtained:",
+    "options": [
+      "Passometer",
+      "Pedometer",
+      "Speedometer",
+      "Odometer"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Odometer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What indication do we get when contour lines lie closer?",
+    "options": [
+      "It means that slope of land is gentle",
+      "It means that slope of land is steep",
+      "It means that the land is flat",
+      "It does not give any indication"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It means that slope of land is steep”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A 6×19 wire rope would be:",
+    "options": [
+      "6 inches in diameter and 19 fathoms long.",
+      "6 inches in circumference with 19 strands.",
+      "6 strands with 19 wires in each strand.",
+      "19 strands with 6 wires in each strand."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6 strands with 19 wires in each strand.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In a drum hoisting system through a vertical shaft, overwinding is prevented by:",
+    "options": [
+      "Lilly controller",
+      "Detaching hook",
+      "Caliper Brake",
+      "Safety catch"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Detaching hook”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The sequence of attachments between the winding rope and the cage is:",
+    "options": [
+      "bull chains, triangular plate, capel, detaching hook",
+      "detaching hook, bull chains, triangular plate, capel",
+      "triangular plate, bull chains, capel, detaching hook",
+      "capel, detaching hook, bull chains, triangular plate"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “capel, detaching hook, bull chains, triangular plate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A16",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Main advantage of using main and tail rope haulage is:",
+    "options": [
+      "No derailment of tub occurs.",
+      "Suitable for high output.",
+      "Suitable for undulating roadways and one operator can drive both drums.",
+      "Long train of tubs can be attached."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Suitable for undulating roadways and one operator can drive both drums.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A17",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In relation to pump, head is known as:",
+    "options": [
+      "Distance between pump motor and discharge point.",
+      "Vertical distance between suction end to discharge point.",
+      "Distance between suction end to pump impeller.",
+      "Pump impeller to discharge point"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Vertical distance between suction end to discharge point.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A18",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Match the following: **Blast ProblemCause** P: Misfire1: Poor stemming Q: Vibration2: Low current R: Blown-out shot3: Excess charge S: Cut-off shot4: Improper delays",
+    "options": [
+      "P- 3, Q- 2, R - 4, S-1",
+      "P- 4, Q-1, R - 2, S-3",
+      "P- 2, Q- 3, R - 1, S-4",
+      "P- 1, Q-2, R - 4, S-3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “P- 2, Q- 3, R - 1, S-4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A19",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "No drill shall be used for boring a shot hole unless it allows a clearance of at least “A” cm over the diameter of the explosive cartridge. “A” is given by:",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "0.3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “0.3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A20",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "No shot shall be fired unless the length of fuse is at least “A” meter. A is given by:",
+    "options": [
+      "1.2 m",
+      "1.8 m",
+      "2.5 m",
+      "4 m"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1.2 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A21",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Pop shooting or plaster shooting is a type of:",
+    "options": [
+      "Primary blasting",
+      "Secondary blasting",
+      "Muffling",
+      "Clay capping"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Secondary blasting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A22",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "During drilling, the hole gets filled with cuttings and has to be cleaned out frequently. This is done with the help of:",
+    "options": [
+      "Derrick",
+      "Calyx shot drilling",
+      "Sludger",
+      "V-chisel"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sludger”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A23",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is the oxidizing agent in an explosive?",
+    "options": [
+      "Charcoal",
+      "Aluminum",
+      "Ammonium nitrate",
+      "Magnesium carbonate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ammonium nitrate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A24",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following has poor water-resistant property?",
+    "options": [
+      "ANFO",
+      "Slurry explosive",
+      "Emulsion explosive",
+      "NG based explosive"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “ANFO”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A25",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following prime characteristic the NONEL blasting has?",
+    "options": [
+      "It has greater shock to the surrounding.",
+      "It is noiseless in character.",
+      "It has tremendous effect on explosive column.",
+      "It cannot be used in a place where there is a chance of stray current."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It is noiseless in character.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A26",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In ambient air of industrial area, the permissible concentration of suspended particulate matter (PM₁₀) measured on 24 hours average in µg/m³ is:",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "400"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A27",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Light wave travel with a velocity of:",
+    "options": [
+      "3 × 10¹⁰ cm/s",
+      "3 × 10¹¹ cm/s",
+      "3 × 10¹² cm/s",
+      "3 × 10¹³ cm/s"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “3 × 10¹⁰ cm/s”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A28",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The most important parameter of a dust that governs its physiological effect is:",
+    "options": [
+      "Concentration of dust in air",
+      "Shape of dust",
+      "Time of exposure",
+      "Size of dust"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Size of dust”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A29",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Dust generation in drilling maybe reduced by using:",
+    "options": [
+      "Low RPM",
+      "Sharp bit",
+      "High RPM",
+      "Low thrust"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sharp bit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A30",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "___________ disease is caused by working in places of insufficient light.",
+    "options": [
+      "Pneumoconiosis",
+      "Ancylostomiasis",
+      "Nystagmus",
+      "Silicosis"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nystagmus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A31",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The noise level at 10 m from a long conveyor belt is 95 dBA. What is the noise level at 100 m?",
+    "options": [
+      "80 dBA",
+      "85 dBA",
+      "90 dBA",
+      "95 dBA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “85 dBA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A32",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The permissible value of oil and grease discharge from the mine workshop is:",
+    "options": [
+      "120 mg/L",
+      "150 mg/L",
+      "220 mg/L",
+      "250 mg/L"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “250 mg/L”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A33",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The combined effect of curvature and refraction in levelling is an error which is:",
+    "options": [
+      "Additive",
+      "Subtractive",
+      "Multiplicative",
+      "Divisive"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Subtractive”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A34",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The method of leveling adopted to determine the difference of level between two points at a considerable distance apart with great precision is:",
+    "options": [
+      "Hypsometry",
+      "Profile levelling",
+      "Reciprocal levelling",
+      "Trigonometrical levelling"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reciprocal levelling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A35",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The fore bearing of a line AB is 136°. What will be the back bearing of the line AB?",
+    "options": [
+      "314°",
+      "315°",
+      "316°",
+      "317°"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “316°”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A36",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "GIS stands for:",
+    "options": [
+      "Global Information System",
+      "Geological Information System",
+      "Geographical Information System",
+      "Group Information system"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Geographical Information System”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A37",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Rope used for winding purpose is:",
+    "options": [
+      "Lang’s lay rope",
+      "Ordinary lay type",
+      "Fully locked coiled rope",
+      "Half locked coiled rope"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lang’s lay rope”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A38",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Minimum gradient for Gravity Haulage operation is:",
+    "options": [
+      "13°",
+      "14°",
+      "15°",
+      "16°"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “14°”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A39",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Tractive effort of a locomotive is given by: W",
+    "options": [
+      "",
+      "µ. W",
+      "W - µ",
+      "W + µ"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A40",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Compared to conventional belt conveyors, high angle conveyors are suitable for:",
+    "options": [
+      "Long horizontal distance only",
+      "Very low speed operation",
+      "Steep gradient transport",
+      "Fine material handling only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Steep gradient transport”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A41",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Brake Horse Power (BHP) of a pump is given by: Q*H_TQ*H_T*Sp",
+    "options": [
+      "",
+      " 39603960* µ Q*H_T*µ3960",
+      "",
+      " 3960µ*HT"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A42",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "If a pump develops 10 Bar of pressure and has a flow rate of 1500 L/min, what will be the pump motor power at 90% efficiency?",
+    "options": [
+      "26 kW",
+      "28 kW",
+      "30 kW",
+      "32 kW"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “28 kW”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A43",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The maximum permissible angle of fleet should not exceed:",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1.5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A44",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Detonating chord has a VOD of:",
+    "options": [
+      "4500-5000 m/s",
+      "5500-6000 m/s",
+      "6500-7000 m/s",
+      "7500-8000 m/s"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6500-7000 m/s”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A45",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The blast pattern of a coal face shown in the figure represents:",
+    "options": [
+      "Burn Cut",
+      "Pyramid cut",
+      "Wedge cut",
+      "Drag cut"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A46",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A square pattern of blasting is shown in the figure. For the case of simultaneous blast, identify the zone of no fragmentation.",
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A47",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "To prevent slope failure the blasting system selected should be:",
+    "options": [
+      "Pre-split",
+      "Muffled",
+      "Deck charging",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pre-split”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A48",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In case of opencast mine blasting, the danger zone comprises of area within the diameter of:",
+    "options": [
+      "400 m",
+      "500 m",
+      "600 m",
+      "300 m"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “500 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A49",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "At zero oxygen balance, the ratio of oxidizers to fuel ratio for ANFO is:",
+    "options": [
+      "92 : 8",
+      "93 : 7",
+      "94 : 6",
+      "95 : 5"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “94 : 6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-A50",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A coal heading 4m wide and 2.5 m high has an advance of 1 m per blasting round. The amount of explosive used in the blasting round is 6 kg. If the sp.gr of the coal is 1.5. the powder factor is:",
+    "options": [
+      "2.0 te/kg",
+      "2.5 te/kg",
+      "3.0 te/kg",
+      "3.5 te/kg"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2.5 te/kg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "The noise levels measured during the operation of three machines are 80 dBA, 75 dBA and 85 dBA respectively. Determine the equivalent noise level for the above three machines. (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "The sound pressure level is measured as 5 × 10⁻⁴ N/m². What is the noise level in dB?(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define the following in one or two sentences. Also give the mathematical expression (formula) for each.(5×1=5) (i)Correction Factor due to incorrect chain. (ii)Correction Factor for slope. (iii)Correction Factor for temperature. (iv)Correction Factor for pull. (v)Correction Factor for sag.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "The ground distance between the mine manager’s office and pit top is 300 m and it is represented by 3 cm in the mine plan. What is the representative factor?(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is Friction / Koepe Winding? Write the mathematical expression governing the relationship between the tensions on the two sides of the rope as it passes over the friction wheel.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "It is proposed to connect two straights of a road by a simple circular curve. If the maximum speed of the vehicle is 60 km/h and the centrifugal ratio for the road is ¼, calculate the minimum radius of the curve in metre.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A 1100 V, 3 power supply system of a mine draws a load of 185 kW. The ammeter reading shows 115 A. Calculate the power factor of the system.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define explosive in the context of Mining Engineering. What are the two main classification of explosive? Give one example each.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A coal heading 4m wide and 2.5 metre high has an advance of 1 metre per cycle. The amount of explosive used in blasting is 6 kg. Taking specific gravity of coal as 1.5, calculate the powder factor. (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Briefly discuss the main ingredients of an explosive, namely: the Oxidizer, Fuel, and Sensitizer.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "11",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a short note on sources of air pollution in mining industries.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "12",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the major occupational diseases associated with mining and discuss the different types of dust hazards that lead to pneumoconiosis.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain in brief what is Bio-chemical Oxygen Demand (BOD) and Chemical Oxygen Demand (COD). (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "14",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain five (5) measurement parameters of Levelling.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "15",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the working principle of GPS.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-16",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "16",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain in brief the different types of Conveyor Transport used in Mines.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-17",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "17",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the factors affecting the selection of a mine pump and define the terms capacity and head. (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-18",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "18",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the concept of ground vibration due to blasting. Discuss the methods of its control and the DGMS permissible limits of Peak Particle Velocity (PPV) for different structures.(6)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-19",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "19",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is Powder Factor? Discuss the factors affecting it. Also state the maximum permissible charge per shot hole as per DGMS regulations.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p2-written-20",
+    "paperId": "mpsc-group-b-acm-2026-tech-p2",
+    "type": "descriptive",
+    "questionNumber": "20",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A blast consists of 8 delay circuits with 30 ms interval between delays. Each hole contains 4 kg of explosive and two holes fire per delay. The blasting is carried out at a distance of 200 m from a domestic house (kacha brick & cement).(5) The ground vibration predictor equation is: D−1.6 V=K Q Where: K= 1000 D = distance in metres Q = maximum charge per delay in kg i)Calculate the maximum charge per delay. ii)Calculate the Peak Particle Velocity (PPV). iii)Comment whether the blast is within DGMS permissible limit (8–25 Hz range).",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If the “Coefficient of Variation” of ore grade in two different blocks is 15% and 30% respectively, which block has higher relative variability?",
+    "options": [
+      "The block with 15%",
+      "The block with 30%",
+      "Both have equal variability",
+      "Coefficient of variation does not measure variability"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The block with 30%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The “Poisson Distribution” is most commonly used in mining safety analysis to model:",
+    "options": [
+      "The average grade of a massive deposit.",
+      "The thickness of a coal seam.",
+      "The occurrence of rare events, such as underground accidents.",
+      "The distribution of particle sizes in mineral dressing."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The occurrence of rare events, such as underground accidents.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which measure of central tendency is most affected by extreme values (outliers) in a sampling dataset?",
+    "options": [
+      "Median",
+      "Mode",
+      "Arithmetic Mean",
+      "Range"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Arithmetic Mean”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "An “Exponential Distribution” is frequently used in mine reliability engineering to represent:",
+    "options": [
+      "Time between equipment failures.",
+      "The shape of a blast fragment.",
+      "The depth of a borehole.",
+      "The market price of minerals."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Time between equipment failures.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Heavy Media Separation (HMS) is primarily based on the difference in ________ of the minerals.",
+    "options": [
+      "Particle Size",
+      "Magnetic Susceptibility",
+      "Specific Gravity (Density)",
+      "Surface Wettability"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Specific Gravity (Density)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Jigging is a process of separating particles based on their density using:",
+    "options": [
+      "A constant horizontal flow of air.",
+      "A vertical pulsating column of water.",
+      "High-tension electrical wires.",
+      "Chemical reagents."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A vertical pulsating column of water.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which reagent is commonly used as a ‘Frother’ in the flotation of sulphide ores?",
+    "options": [
+      "Xanthates",
+      "Pine Oil",
+      "Sodium Cyanide",
+      "Copper Sulphate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pine Oil”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to the Mines Rules, 1955, a First-Aid room must be provided and maintained if the number of persons employed in a mine is more than:",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "250"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “150”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "As per the Mines Act, 1952, no adult worker shall be required or allowed to work in a mine above ground for more than how many hours in any week?",
+    "options": [
+      "40 hours",
+      "45 hours",
+      "48 hours",
+      "54 hours"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “48 hours”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The District Mineral Foundation (DMF) was introduced through an amendment to which of the following Acts?",
+    "options": [
+      "The Mines Act, 1952",
+      "The MMDR Act, 1957",
+      "The Mineral Concession Rules, 1960",
+      "National Mineral Policy, 2019"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The MMDR Act, 1957”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following authorities is responsible for granting licenses for the bulk storage of explosives under the Explosives Rules, 2008?",
+    "options": [
+      "DGMS",
+      "Indian Bureau of Mines (IBM)",
+      "Petroleum and Explosives Safety Organization (PESO)",
+      "State Pollution Control Board"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Petroleum and Explosives Safety Organization (PESO)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to the Metalliferous Mines Regulations, a “Reportable Injury” means any injury which involves the enforced absence of the injured person from work for a period of:",
+    "options": [
+      "24 hours or more",
+      "48 hours or more",
+      "72 hours or more",
+      "7 days or more"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “72 hours or more”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "As per the Mines Rules, 1955, what is the minimum scale of drinking water to be provided per person employed in a mine?",
+    "options": [
+      "1 litre",
+      "2 litres",
+      "3 litres",
+      "5 litres"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2 litres”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to the National Mineral Policy 2019, which of the following is highly emphasized?",
+    "options": [
+      "Banning all underground mining",
+      "Sustainable mining and Zero Waste mining",
+      "Exporting all raw minerals",
+      "Nationalizing all private mines"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sustainable mining and Zero Waste mining”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under the provisions of the Mines and Minerals (Development and Regulation) Amendment Act, 2015, what is the standard period for which a mining lease for major minerals is now granted?",
+    "options": [
+      "20 years",
+      "30 years",
+      "50 years",
+      "99 years"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “50 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A16",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which explosive is most commonly used in open-cast metalliferous mines due to its safety and cost- effectiveness?",
+    "options": [
+      "Dynamite",
+      "Gunpowder",
+      "ANFO (Ammonium Nitrate Fuel Oil)",
+      "TNT"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ANFO (Ammonium Nitrate Fuel Oil)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A17",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A “Serious Bodily Injury” under the Mines Act involves the permanent loss of any part of the body, or loss of sight/hearing, or fracture of any:",
+    "options": [
+      "Bone or joint",
+      "Rib only",
+      "Finger only",
+      "Skin tissue"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Bone or joint”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A18",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Who is held ultimately responsible for the overall financial and safety compliance of the mine under the Mines Act?",
+    "options": [
+      "The Mine Foreman",
+      "The Manager",
+      "The Owner / Agent",
+      "The Blaster"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Owner / Agent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A19",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under the Oilfields (Regulation and Development) Act, 1948, “mineral oils” include:",
+    "options": [
+      "Coal bed methane only",
+      "Natural gas and petroleum",
+      "Edible oils extracted near mines",
+      "Synthetic lubricants"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Natural gas and petroleum”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A20",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Karl Pearson’s coefficient of skewness is zero when:",
+    "options": [
+      "Mean  Mode",
+      "Mean = Mode",
+      "Mean > Mode",
+      "Mode > Mean"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mean = Mode”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A21",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Coefficient of variation is a measure of:",
+    "options": [
+      "Central tendency",
+      "Absolute dispersion",
+      "Relative dispersion",
+      "Skewness"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Relative dispersion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A22",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is the present value of Rs. 500 receivable at the end of 5 years, if the discount rate is 10% per annum?",
+    "options": [
+      "210",
+      "310",
+      "410",
+      "510"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “310”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A23",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In a Poisson distribution, the mean and variance are:",
+    "options": [
+      "Equal",
+      "Mean > Variance",
+      "Mean < Variance",
+      "Unrelated"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Equal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A24",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The coefficient of variation is given by: M",
+    "options": [
+      "×100",
+      "×100 M",
+      "×100",
+      "M.N×100 N"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “×100 M”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A25",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "An equipment costs Rs. 5,00,000. Salvage value after 10 years is Rs. 50,000. Yearly depreciation under straight-line method is:",
+    "options": [
+      "₹ 45,000",
+      "₹ 50,000",
+      "₹ 55,000",
+      "₹ 60,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “₹ 45,000”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A26",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Primary crushers are mainly classified into:",
+    "options": [
+      "Jaw and Cone crusher",
+      "Jaw and Gyratory crusher",
+      "Roll and Hammer crusher",
+      "Cone and Roll crusher"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jaw and Gyratory crusher”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A27",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to Stokes’ law, settling velocity in hindered settling is: g.  d²_s−_p18η ()",
+    "options": [
+      "",
+      " ρ−ρ 18(sp) g",
+      "3 g.d²",
+      "2 d"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A28",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The percentage of the mineral occurring as a free particle in the ore in relation to the total content is known as:",
+    "options": [
+      "Degree of freedom",
+      "Degree of bondage",
+      "Degree of liberation",
+      "Degree of integration"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Degree of liberation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A29",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Selection of crusher is done on the basis of particle:",
+    "options": [
+      "Shape",
+      "Specific gravity",
+      "Size",
+      "Percentage of mineral in ore"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Size”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A30",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Washing is normally performed after:",
+    "options": [
+      "Grinding",
+      "Flotation",
+      "Primary crushing",
+      "Smelting"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Primary crushing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A31",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is the minimum No. of persons to be employed when the Owner, Agent or Manager shall constitute a Safety Committee for promoting safety in the mines?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "500"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A32",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which section of Mines Act 1952 prohibits the employment of women in underground mines?",
+    "options": [
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “46”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A33",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under Section 5 of the Explosive Substances Act, 1908, possession of explosives under suspicious circumstances may lead to imprisonment up to:",
+    "options": [
+      "5 years",
+      "10 years",
+      "14 years",
+      "Life imprisonment."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “14 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A34",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under National Mineral Policy, 2019, the State acts as:",
+    "options": [
+      "Absolute owner of mineral resource",
+      "Regulatory authority without fiduciary role",
+      "Trustee of mineral resources on behalf of the people",
+      "Revenue collecting agency only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Trustee of mineral resources on behalf of the people”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A35",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "District Mineral Foundation (DMF) is guided by which scheme for benefit devolution?",
+    "options": [
+      "National Mineral Exploration Trust (NMET)",
+      "PMKKKY",
+      "MCDR 2017",
+      "Fifth Schedule"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “PMKKKY”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A36",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Under the Petroleum and Natural Gas Rules, 1959, no person shall prospect for petroleum except under:",
+    "options": [
+      "Mining Lease",
+      "Reconnaissance Permit",
+      "Petroleum Exploration License",
+      "Prospecting Certificate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Petroleum Exploration License”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A37",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "As Per the Mizoram Minor Concession Rule, 2000 the maximum ordinary period for which a mining lease may be granted under these rules is:",
+    "options": [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “5 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A38",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "As Per the Mizoram Minor Concession Rule, 2000 the lessee shall pay royalty on minor minerals at the rate specified in the:",
+    "options": [
+      "First Schedule",
+      "Second Schedule",
+      "Third Schedule",
+      "Gazette Notification **APTITUDE TEST**"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Second Schedule”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A39",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "For doing a certain job, a boy is offered Rs. 5 on the first day. Rs. 15 on the second day, Rs. 45 on the third day and so on. How much will the boy earn at the end of seven days?",
+    "options": [
+      "Rs. 5486",
+      "Rs. 5484",
+      "Rs. 5465",
+      "Rs. 5450"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rs. 5465”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A40",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In the sequence of numbers 5, 8, 13, x, 34, 55, 89. The value of x is:",
+    "options": [
+      "20",
+      "21",
+      "23",
+      "29"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “21”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A41",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If the radius of sphere is decreased by 24%, by what per cent does the surface area decrease?",
+    "options": [
+      "44%",
+      "49%",
+      "42.24%",
+      "46.2%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “42.24%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A42",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which one of the following has a greater perimeter than the rest?",
+    "options": [
+      "A square with an area of 36 sq cm",
+      "An equilateral triangle with a side of 9 cm",
+      "A rectangle with 10 cm as length and 40 sq cm as area",
+      "A circle with a radius of 4 cm"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “A rectangle with 10 cm as length and 40 sq cm as area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A43",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "100 students appeared for two examinations, 60 passed the first, 50 passed the second and 30 passed both. The probability that a student selected at random has failed in both the examination, is:",
+    "options": [
+      "0.3",
+      "0.2",
+      "0.4",
+      "0.1"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A44",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What sum lent out at simple interest will amount to Rs. 3400 in 3 years at 1% per month?",
+    "options": [
+      "Rs. 2400",
+      "Rs. 1800",
+      "Rs. 1600",
+      "Rs. 2500"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rs. 2500”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A45",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd number out in the following set: 8, 27, 64, 100, 125, 216.",
+    "options": [
+      "8",
+      "27",
+      "125",
+      "100"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A46",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the wrong number in the series: 3, 5, 9, 15, 25, 33, 45.",
+    "options": [
+      "33",
+      "15",
+      "9",
+      "25"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A47",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the word most nearly opposite in meaning to ABSTEMIOUS:",
+    "options": [
+      "Self-indulgent",
+      "Frugal",
+      "Temperate",
+      "Moderate"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Self-indulgent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A48",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Antonym of ENERVATE:",
+    "options": [
+      "Weaken",
+      "Exhaust",
+      "Invigorate",
+      "Comfort"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Invigorate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A49",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Analogy — LURID: DISMAL::",
+    "options": [
+      "Lucid: Obscure",
+      "Gaudy: Drab",
+      "Adroit: Skilful",
+      "Ephemeral: Eternal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gaudy: Drab”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A50",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Synonym of ‘OBSTINATE’:",
+    "options": [
+      "Flexible",
+      "Humble",
+      "Cheerful",
+      "Stubborn"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Stubborn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A51",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "One word for ‘fear of heights’:",
+    "options": [
+      "Agrophobia",
+      "Acrophobia",
+      "Hydrophobia",
+      "Necrophobia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Acrophobia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A52",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "“To burn the candle at both ends” means:",
+    "options": [
+      "To be very resourceful.",
+      "To waste energy on a useless project.",
+      "To work or play excessively without enough rest.",
+      "To light a room efficiently."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To work or play excessively without enough rest.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A53",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is the meaning of the idiom “To tilt at windmills”?",
+    "options": [
+      "To attack imaginary enemies or grievances.",
+      "To engage in agriculture.",
+      "To build renewable energy sources.",
+      "To behave in a strange manner."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To attack imaginary enemies or grievances.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A54",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If you are facing North-West and turn 225 degrees clockwise, which direction are you facing?",
+    "options": [
+      "East",
+      "South-West",
+      "North",
+      "South"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “South”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A55",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In the given figure, the triangle represents girls, the square represents sport persons and the circle represents coaches. The portion in the figure which represents girls who are sports persons but not coaches is the one labelled as",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A56",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Consider the following pictures of dice: What is the number opposite to 3?",
+    "options": [
+      "1",
+      "4",
+      "5",
+      "None"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A57",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "How many different triangles are there in the figure shown below?",
+    "options": [
+      "28",
+      "24",
+      "20",
+      "16"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A58",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Siama starts from a place X towards North and reaches place Y. From there he turns towards North- West and reaches place Z. He then turns towards South-West and walks to place A. From there he turns towards North-West and finally reaches point B. Which of the following figures shows the movement of Siama?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A59",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If ROAD=URDG, then TOWN=?",
+    "options": [
+      "WSAS",
+      "WSRA",
+      "ZRBS",
+      "WQRA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “WSRA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A60",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out",
+    "options": [
+      "AK",
+      "CM",
+      "EP",
+      "DN"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “EP”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A61",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd figure out 1234",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A62",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following figures can be joined to form a rectangle?",
+    "options": [
+      "i, ii, iii",
+      "ii, iii, iv",
+      "iii, iv, v",
+      "i, iii, v"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “i, iii, v”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-A63",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "questionNumber": "A63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following figure is different from others? 1234",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-1",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the difference between Net Present Value (NPV) and Internal Rate of Return (IRR). (5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-2",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "In a geochemical survey, the following values of copper (in ppm) were recorded: 45, 52, 48, 60 and 55. Calculate the Arithmetic Mean and the Standard Deviation for this dataset.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-3",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A mining company plans to set aside ₹ 20,00,000 today for the future reclamation of a mine site. If the annual interest rate is 10%, calculate the Future Worth of this amount at the end of 4 years, compounded annually.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-4",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Briefly explain the working principle of a Ball Mill. Why is it preferred for fine grinding compared to a Rod Mill?(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-5",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A primary Jaw Crusher receives a feed where the largest boulder is 800 mm in size. The crusher is set to produce a product with a maximum size of 100 mm.(5) (i)Calculate the Reduction Ratio of this crusher. (ii)If the reduction ratio must be maintained at 5:1, what would be the required product size for the same feed?",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-6",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Differentiate between “Major Minerals” and “Minor Minerals” under the MMDR Act, 1957. Give two examples of each.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-7",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Briefly outline the basic safety precautions that must be strictly followed during the storage and transport of explosives in a mine, referencing the Explosives Rules, 2008.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-8",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the role and primary functions of the Directorate General of Mines Safety (DGMS) in regulating safety in Indian mines.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-9",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "In the context of minor mineral concessions in Mizoram, define “Royalty” and “Dead Rent”. What is the standard rule regarding the payment of these two charges by a leaseholder?(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-10",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Under the Metalliferous Mines Regulations (MMR), 1961, write short notes on:(2+2=4) (i)Competent Person (ii)Reportable Injury",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-11",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "11",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a short note on Depreciation, Redemption and Depletion.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-12",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "12",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the process of crushing in mineral processing. Differentiate between open-circuit and closed- circuit crushing with the help of a neat flow diagram.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-13",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the role of Indian Bureau of Mines under MCDR, 2017.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-14",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "14",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the general safety provisions under Coal Mines Regulations, 2017.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
+    "id": "mpsc-group-b-acm-2026-tech-p3-written-15",
+    "paperId": "mpsc-group-b-acm-2026-tech-p3",
+    "type": "descriptive",
+    "questionNumber": "15",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the key objectives of National Mineral Policy, 2019.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/acm-2026-tech-p3.pdf#page=10"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-1",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "type": "descriptive",
@@ -202952,7 +212139,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 54-58): Pick the correct clause of the words underlined in the given"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B59",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -203456,9 +212645,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73-80): Identify the word that gives the nearest meaning of the underlined"
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B77",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -211084,7 +220271,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 15 — 19): Fill in the blanks with correct prepositions."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc-B16",
     "paperId": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc",
@@ -211555,9 +220744,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 33 — 40): Fill up the blanks in the passage given below with the most"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc-B34",
     "paperId": "mpsc-group-b-archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc",
@@ -218944,7 +228131,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 59-64) : Identify the correct notion expressed by each of the following sentences"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B64",
     "paperId": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
@@ -219404,9 +228593,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "source": "Research Investigator (Archaeology) Contract 2016 under Art & Culture Deptt. · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32.pdf#page=1"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B1",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32",
@@ -227122,7 +236309,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Convert the given sentences as directed in the brackets:"
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q53",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -227590,9 +236779,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 61 – 70): Synthesise the sentences as directed in the brackets:"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q71",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -234806,7 +243993,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 61 - 70) : Analyze the sentences and choose the correct answer."
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q71",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -235274,9 +244463,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 86 - 90) : Choose the correct option as required."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q89",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -243123,7 +252310,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 51 – 60) : Transform the following sentences as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q57",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -243645,9 +252834,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 71 - 80) :  Choose the option closest in meaning to the given words:"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q75",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -251433,7 +260620,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 21 - 30) : Fill in the blanks with the correct adverbs or adjectives."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q23",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -251901,9 +261090,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 31 - 40) : Complete the sentences with the correct prepositions or conjunctions."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q41",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -259914,7 +269101,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281-Q52",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
@@ -260421,9 +269610,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237-Q4",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
@@ -267832,7 +277019,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. Il - 20) : Choose the appropriate determiners from the alternatives given"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q14",
     "paperId": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -268304,9 +277493,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 35): Fill in the blanks with suitable forms of pronouns from the"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q32",
     "paperId": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -275912,7 +285099,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 48) : Analyse the following sentences and choose the right one."
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q49",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -276380,9 +285569,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 65 - 70) : Identify the types of sentences for the Following sentences by"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q71",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -283685,7 +292872,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos, 57 - 61) : Choose the correct alternative which is closest in meaning to the"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f-B59",
     "paperId": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f",
@@ -284124,9 +293313,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q41",
     "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
@@ -291321,7 +300508,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 23-32): Choose the option that correctly transforms the sentence (Active/Passive,"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B27",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -291789,9 +300978,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 44 & 45): In the following sentences, an underlined/highlighted part of a"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B45",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -298996,7 +308183,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 67 - 71): Out of the four alternatives suggested, select the one which best"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B71",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -299515,9 +308704,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q11",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
@@ -308404,7 +317591,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208-Q20",
     "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -308998,9 +318187,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208-Q38",
     "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",
@@ -317793,7 +326980,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B36",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -318303,9 +327492,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=2"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-written-4",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -325966,7 +335153,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B46",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p1-B47",
     "questionNumber": "B47",
@@ -326416,9 +335605,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p1-written-A10",
     "paperId": "mpsc-group-b-jao-2026-p1",
@@ -333810,7 +342997,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B12",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B13",
     "questionNumber": "B13",
@@ -334296,9 +343485,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B30",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B31",
     "questionNumber": "B31",
@@ -341655,7 +350842,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B87",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B88",
     "questionNumber": "B88",
@@ -342142,9 +351331,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-B6",
     "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -349666,7 +358853,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q26",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -350176,9 +359365,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q44",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -358193,7 +367380,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-gs1-Q64",
     "paperId": "mpsc-group-b-si-fcs-2018-gs1",
@@ -358688,9 +367877,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-gs2-Q7",
     "paperId": "mpsc-group-b-si-fcs-2018-gs2",
@@ -366052,7 +375239,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q89",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -366532,9 +375721,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 1 - 10) : Identify the part of speech of the words in italics in the following"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p1-B7",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p1",
@@ -373939,7 +383126,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 71 - 80) : Choose the correct pair of words to fill in the blanks."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q74",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -374452,9 +383641,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 91 - 100) : Give one word for the following expressions."
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -382464,7 +391651,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 23 - 32) : Read the following passage carefully and answer the questions"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-election-2019-english-B31",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -382953,9 +392142,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions No. 33 - 48) : Identify the parts of speech of the underlined words :"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-election-2019-english-B49",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -390838,7 +400025,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 17 - 23 : Read the given passage carefully and choose the correct answer"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-english-B21",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -391324,9 +400513,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions for Questions 37 - 42 : Fill in the blanks using the correct form of the verb."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-english-B39",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -398770,7 +407957,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q12",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -399268,9 +408457,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q30",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -406734,7 +415921,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q56",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -407184,9 +416373,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q74",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -414845,7 +424032,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 41 - 50) : Pick out the correct clause from the following sentences."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q50",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -415328,9 +424517,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 61 - 70) : Choose the correct alternative to complete the sentences."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q68",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -423102,7 +432289,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q50",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -423561,9 +432750,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q68",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -430913,7 +440100,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q16",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -431414,9 +440603,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q34",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -439024,7 +448211,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 28) : Read the following passage carefully and choose the appropriate"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-phe-2019-english-B18",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -439528,9 +448717,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 35 - 40) : Fill up the blanks with suitable prepositions from the alternatives"
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-phe-2019-english-B37",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -447249,7 +456436,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Directions (Questions 9- 16) :** Fill in the blanks with the idioms / phrases out of the given options."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-english-B17",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -447768,9 +456957,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "**Direction (Questions 29 - 40) :** Choose the caused forms of nouns, verbs, adjectives and adverb from"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-english-B35",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -455442,7 +464629,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 – 10) : Identify the parts of speech of each underlined words :"
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lib-lunglei-2019-english-B6",
     "paperId": "mpsc-group-b-lib-lunglei-2019-english",
@@ -455964,9 +465153,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 36 – 40) : Insert appropriate articles if necessary, to fill up the gaps."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lib-lunglei-2019-english-B24",
     "paperId": "mpsc-group-b-lib-lunglei-2019-english",
@@ -463847,7 +473034,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-surveyor-2019-english-B61",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -464349,9 +473538,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 76 – 80): Fill in the blanks with the appropriate form of the words given below:"
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-surveyor-2019-english-B79",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -471682,7 +480869,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17 - 24) : Analyse the given sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-B23",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -472204,9 +481393,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 40) : Fill in the blanks with the correct phrases:"
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-Q41",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -480024,7 +489211,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A69",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -480510,9 +489699,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A87",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -488391,7 +497578,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 65 - 75) : Choose the correct alternative which is closest in meaning to the"
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B67",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -488875,9 +498064,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-A8",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -496695,7 +505882,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-B114",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -497184,9 +506373,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 8) : Identify the kinds of pronouns of the underlined words."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p1-B7",
     "paperId": "mpsc-group-b-udc-horti-2019-p1",
@@ -504827,7 +514014,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A35",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -505322,9 +514511,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A53",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -513136,7 +522323,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 50 - 58) : Choose the correct alternative which is the closest in meaning to"
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-B58",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -513616,9 +522805,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions(Questions 68 - 75) : Pick out the correct clause of the words underlined in the given"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-written-1",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -520948,7 +530135,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "source": "Employment Officer under Labour, Employment & Industrial Training Department (second series) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-leit-2019-english-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p1-written-4",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p1",
@@ -521407,9 +530596,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11 - 15) : Choose the appropriate preposition from the alternatives given under"
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q16",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -528891,7 +538078,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q98",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -529392,9 +538581,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q16",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -537119,7 +546306,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 – 10): Choose the correct alternative, which expresses the  meaning of"
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B11",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -537620,9 +546809,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 – 30): Identify the Parts of Speech of the underlined words."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B29",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -545444,7 +554631,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A34",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -545933,9 +555122,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A52",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -553594,7 +562781,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q18",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -554044,9 +563233,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q36",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -561743,7 +570930,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 16) : Choose the correct option that conveys the meaning of the"
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-agri-2020-english-B12",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -562262,9 +571451,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 25 - 32) : Read the passages carefully and choose the correct option"
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-je-agri-2020-english-B30",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -569831,7 +579018,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 1 - 10) : Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q11",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -570299,9 +579488,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions:"
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q29",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -577893,7 +587080,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 - 100) : Choose the correct word substitute from the given choices :"
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q99",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -578387,9 +587576,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q17",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -586153,7 +595340,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 96 & 97) : In the questions given below are two statements followed by two"
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q99",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -586687,9 +595876,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q19",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -595160,7 +604347,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q41",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -595699,9 +604888,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q63",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -604175,7 +613362,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q77",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -604718,9 +613907,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q95",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -613174,7 +622361,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q56",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -613714,9 +622903,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q75",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -622147,7 +631334,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q13",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -622596,9 +631785,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q34",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -630521,7 +639708,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q23",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -631079,9 +640268,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q41",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -639590,7 +648777,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q29",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -640130,9 +649319,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q47",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -647907,7 +657094,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q70",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -648360,9 +657549,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q91",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -655889,7 +665076,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q44",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -656427,9 +665616,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024-Q14",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024",
@@ -664598,7 +673785,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q51",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -665050,9 +674239,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q71",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -672707,7 +681894,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low"
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q059",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -672961,7 +682150,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -673412,6 +682601,30 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "durationMinutes": 120,
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-acm-2026-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-acm-2026-tech-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-acm-2026-tech-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-acm-2026-tech-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
   },
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": {
     "negativeMarking": false,
@@ -674516,6 +683729,10 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-radio-2026-p2": 100,
   "mpsc-group-b-si-police-2026-p1": 60,
   "mpsc-group-b-si-police-2026-p2": 100,
+  "mpsc-group-b-acm-2026-gs": 100,
+  "mpsc-group-b-acm-2026-tech-p1": 50,
+  "mpsc-group-b-acm-2026-tech-p2": 50,
+  "mpsc-group-b-acm-2026-tech-p3": 63,
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": 50,
   "mpsc-group-b-ada-aa-ata-2019-english": 60,
   "mpsc-group-b-ada-aa-ata-2019-gk": 100,

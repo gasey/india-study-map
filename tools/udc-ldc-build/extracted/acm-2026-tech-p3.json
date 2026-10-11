@@ -1,0 +1,1588 @@
+{
+  "slug": "acm-2026-tech-p3",
+  "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+  "sitting": "March 2026",
+  "subject": "Technical Paper-III",
+  "source": "Asst. Controller of Mines Technical Paper-III..pdf",
+  "sourceSha256": "02f8505dca80f28fe773749e96430d33869c023942aa06d05d16a11e8c5a0832",
+  "ocr": false,
+  "count": 63,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The block with 15%",
+        "b": "The block with 30%",
+        "c": "Both have equal variability",
+        "d": "Coefficient of variation does not measure variability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the “Coefficient of Variation” of ore grade in two different blocks is 15% and 30% respectively, which block has higher relative variability?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The average grade of a massive deposit.",
+        "b": "The thickness of a coal seam.",
+        "c": "The occurrence of rare events, such as underground accidents.",
+        "d": "The distribution of particle sizes in mineral dressing."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The “Poisson Distribution” is most commonly used in mining safety analysis to model:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Median",
+        "b": "Mode",
+        "c": "Arithmetic Mean",
+        "d": "Range"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which measure of central tendency is most affected by extreme values (outliers) in a sampling dataset?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Time between equipment failures.",
+        "b": "The shape of a blast fragment.",
+        "c": "The depth of a borehole.",
+        "d": "The market price of minerals."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An “Exponential Distribution” is frequently used in mine reliability engineering to represent:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Particle Size",
+        "b": "Magnetic Susceptibility",
+        "c": "Specific Gravity (Density)",
+        "d": "Surface Wettability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heavy Media Separation (HMS) is primarily based on the difference in ________ of the minerals.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A constant horizontal flow of air.",
+        "b": "A vertical pulsating column of water.",
+        "c": "High-tension electrical wires.",
+        "d": "Chemical reagents."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jigging is a process of separating particles based on their density using:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Xanthates",
+        "b": "Pine Oil",
+        "c": "Sodium Cyanide",
+        "d": "Copper Sulphate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which reagent is commonly used as a ‘Frother’ in the flotation of sulphide ores?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50",
+        "b": "100",
+        "c": "150",
+        "d": "250"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Mines Rules, 1955, a First-Aid room must be provided and maintained if the number of persons employed in a mine is more than:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40 hours",
+        "b": "45 hours",
+        "c": "48 hours",
+        "d": "54 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Mines Act, 1952, no adult worker shall be required or allowed to work in a mine above ground for more than how many hours in any week?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Mines Act, 1952",
+        "b": "The MMDR Act, 1957",
+        "c": "The Mineral Concession Rules, 1960",
+        "d": "National Mineral Policy, 2019"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The District Mineral Foundation (DMF) was introduced through an amendment to which of the following Acts?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DGMS",
+        "b": "Indian Bureau of Mines (IBM)",
+        "c": "Petroleum and Explosives Safety Organization (PESO)",
+        "d": "State Pollution Control Board"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following authorities is responsible for granting licenses for the bulk storage of explosives under the Explosives Rules, 2008?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24 hours or more",
+        "b": "48 hours or more",
+        "c": "72 hours or more",
+        "d": "7 days or more"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Metalliferous Mines Regulations, a “Reportable Injury” means any injury which involves the enforced absence of the injured person from work for a period of:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 litre",
+        "b": "2 litres",
+        "c": "3 litres",
+        "d": "5 litres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Mines Rules, 1955, what is the minimum scale of drinking water to be provided per person employed in a mine?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banning all underground mining",
+        "b": "Sustainable mining and Zero Waste mining",
+        "c": "Exporting all raw minerals",
+        "d": "Nationalizing all private mines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the National Mineral Policy 2019, which of the following is highly emphasized?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20 years",
+        "b": "30 years",
+        "c": "50 years",
+        "d": "99 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the provisions of the Mines and Minerals (Development and Regulation) Amendment Act, 2015, what is the standard period for which a mining lease for major minerals is now granted?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dynamite",
+        "b": "Gunpowder",
+        "c": "ANFO (Ammonium Nitrate Fuel Oil)",
+        "d": "TNT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which explosive is most commonly used in open-cast metalliferous mines due to its safety and cost- effectiveness?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bone or joint",
+        "b": "Rib only",
+        "c": "Finger only",
+        "d": "Skin tissue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A “Serious Bodily Injury” under the Mines Act involves the permanent loss of any part of the body, or loss of sight/hearing, or fracture of any:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Mine Foreman",
+        "b": "The Manager",
+        "c": "The Owner / Agent",
+        "d": "The Blaster"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is held ultimately responsible for the overall financial and safety compliance of the mine under the Mines Act?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coal bed methane only",
+        "b": "Natural gas and petroleum",
+        "c": "Edible oils extracted near mines",
+        "d": "Synthetic lubricants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Oilfields (Regulation and Development) Act, 1948, “mineral oils” include:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mean  Mode",
+        "b": "Mean = Mode",
+        "c": "Mean > Mode",
+        "d": "Mode > Mean"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Karl Pearson’s coefficient of skewness is zero when:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Central tendency",
+        "b": "Absolute dispersion",
+        "c": "Relative dispersion",
+        "d": "Skewness"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Coefficient of variation is a measure of:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "210",
+        "b": "310",
+        "c": "410",
+        "d": "510"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the present value of Rs. 500 receivable at the end of 5 years, if the discount rate is 10% per annum?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equal",
+        "b": "Mean > Variance",
+        "c": "Mean < Variance",
+        "d": "Unrelated"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a Poisson distribution, the mean and variance are:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "×100",
+        "b": "×100 M",
+        "c": "×100",
+        "d": "M.N×100 N"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The coefficient of variation is given by: M",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹ 45,000",
+        "b": "₹ 50,000",
+        "c": "₹ 55,000",
+        "d": "₹ 60,000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An equipment costs Rs. 5,00,000. Salvage value after 10 years is Rs. 50,000. Yearly depreciation under straight-line method is:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jaw and Cone crusher",
+        "b": "Jaw and Gyratory crusher",
+        "c": "Roll and Hammer crusher",
+        "d": "Cone and Roll crusher"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Primary crushers are mainly classified into:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " ρ−ρ 18(sp) g",
+        "c": "3 g.d²",
+        "d": "2 d"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Stokes’ law, settling velocity in hindered settling is: g.  d²_s−_p18η ()",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Degree of freedom",
+        "b": "Degree of bondage",
+        "c": "Degree of liberation",
+        "d": "Degree of integration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The percentage of the mineral occurring as a free particle in the ore in relation to the total content is known as:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shape",
+        "b": "Specific gravity",
+        "c": "Size",
+        "d": "Percentage of mineral in ore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Selection of crusher is done on the basis of particle:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grinding",
+        "b": "Flotation",
+        "c": "Primary crushing",
+        "d": "Smelting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Washing is normally performed after:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "200",
+        "c": "300",
+        "d": "500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum No. of persons to be employed when the Owner, Agent or Manager shall constitute a Safety Committee for promoting safety in the mines?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "45",
+        "b": "46",
+        "c": "47",
+        "d": "48"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which section of Mines Act 1952 prohibits the employment of women in underground mines?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 years",
+        "b": "10 years",
+        "c": "14 years",
+        "d": "Life imprisonment."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under Section 5 of the Explosive Substances Act, 1908, possession of explosives under suspicious circumstances may lead to imprisonment up to:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absolute owner of mineral resource",
+        "b": "Regulatory authority without fiduciary role",
+        "c": "Trustee of mineral resources on behalf of the people",
+        "d": "Revenue collecting agency only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under National Mineral Policy, 2019, the State acts as:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Mineral Exploration Trust (NMET)",
+        "b": "PMKKKY",
+        "c": "MCDR 2017",
+        "d": "Fifth Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "District Mineral Foundation (DMF) is guided by which scheme for benefit devolution?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mining Lease",
+        "b": "Reconnaissance Permit",
+        "c": "Petroleum Exploration License",
+        "d": "Prospecting Certificate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Petroleum and Natural Gas Rules, 1959, no person shall prospect for petroleum except under:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 years",
+        "b": "3 years",
+        "c": "4 years",
+        "d": "5 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As Per the Mizoram Minor Concession Rule, 2000 the maximum ordinary period for which a mining lease may be granted under these rules is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First Schedule",
+        "b": "Second Schedule",
+        "c": "Third Schedule",
+        "d": "Gazette Notification **APTITUDE TEST**"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As Per the Mizoram Minor Concession Rule, 2000 the lessee shall pay royalty on minor minerals at the rate specified in the:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 5486",
+        "b": "Rs. 5484",
+        "c": "Rs. 5465",
+        "d": "Rs. 5450"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For doing a certain job, a boy is offered Rs. 5 on the first day. Rs. 15 on the second day, Rs. 45 on the third day and so on. How much will the boy earn at the end of seven days?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20",
+        "b": "21",
+        "c": "23",
+        "d": "29"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the sequence of numbers 5, 8, 13, x, 34, 55, 89. The value of x is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "44%",
+        "b": "49%",
+        "c": "42.24%",
+        "d": "46.2%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the radius of sphere is decreased by 24%, by what per cent does the surface area decrease?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A square with an area of 36 sq cm",
+        "b": "An equilateral triangle with a side of 9 cm",
+        "c": "A rectangle with 10 cm as length and 40 sq cm as area",
+        "d": "A circle with a radius of 4 cm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following has a greater perimeter than the rest?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.3",
+        "b": "0.2",
+        "c": "0.4",
+        "d": "0.1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "100 students appeared for two examinations, 60 passed the first, 50 passed the second and 30 passed both. The probability that a student selected at random has failed in both the examination, is:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rs. 2400",
+        "b": "Rs. 1800",
+        "c": "Rs. 1600",
+        "d": "Rs. 2500"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What sum lent out at simple interest will amount to Rs. 3400 in 3 years at 1% per month?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "27",
+        "c": "125",
+        "d": "100"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd number out in the following set: 8, 27, 64, 100, 125, 216.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "33",
+        "b": "15",
+        "c": "9",
+        "d": "25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the wrong number in the series: 3, 5, 9, 15, 25, 33, 45.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Self-indulgent",
+        "b": "Frugal",
+        "c": "Temperate",
+        "d": "Moderate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word most nearly opposite in meaning to ABSTEMIOUS:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weaken",
+        "b": "Exhaust",
+        "c": "Invigorate",
+        "d": "Comfort"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Antonym of ENERVATE:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lucid: Obscure",
+        "b": "Gaudy: Drab",
+        "c": "Adroit: Skilful",
+        "d": "Ephemeral: Eternal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Analogy — LURID: DISMAL::",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Flexible",
+        "b": "Humble",
+        "c": "Cheerful",
+        "d": "Stubborn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Synonym of ‘OBSTINATE’:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agrophobia",
+        "b": "Acrophobia",
+        "c": "Hydrophobia",
+        "d": "Necrophobia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One word for ‘fear of heights’:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To be very resourceful.",
+        "b": "To waste energy on a useless project.",
+        "c": "To work or play excessively without enough rest.",
+        "d": "To light a room efficiently."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“To burn the candle at both ends” means:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To attack imaginary enemies or grievances.",
+        "b": "To engage in agriculture.",
+        "c": "To build renewable energy sources.",
+        "d": "To behave in a strange manner."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the meaning of the idiom “To tilt at windmills”?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "East",
+        "b": "South-West",
+        "c": "North",
+        "d": "South"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If you are facing North-West and turn 225 degrees clockwise, which direction are you facing?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "D",
+        "d": "E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the given figure, the triangle represents girls, the square represents sport persons and the circle represents coaches. The portion in the figure which represents girls who are sports persons but not coaches is the one labelled as",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "4",
+        "c": "5",
+        "d": "None"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following pictures of dice: What is the number opposite to 3?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28",
+        "b": "24",
+        "c": "20",
+        "d": "16"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many different triangles are there in the figure shown below?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Siama starts from a place X towards North and reaches place Y. From there he turns towards North- West and reaches place Z. He then turns towards South-West and walks to place A. From there he turns towards North-West and finally reaches point B. Which of the following figures shows the movement of Siama?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WSAS",
+        "b": "WSRA",
+        "c": "ZRBS",
+        "d": "WQRA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ROAD=URDG, then TOWN=?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AK",
+        "b": "CM",
+        "c": "EP",
+        "d": "DN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd figure out 1234",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i, ii, iii",
+        "b": "ii, iii, iv",
+        "c": "iii, iv, v",
+        "d": "i, iii, v"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following figures can be joined to form a rectangle?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following figure is different from others? 1234",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 10,
+      "text": "Explain the difference between Net Present Value (NPV) and Internal Rate of Return (IRR). (5)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 10,
+      "text": "In a geochemical survey, the following values of copper (in ppm) were recorded: 45, 52, 48, 60 and 55. Calculate the Arithmetic Mean and the Standard Deviation for this dataset.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 10,
+      "text": "A mining company plans to set aside ₹ 20,00,000 today for the future reclamation of a mine site. If the annual interest rate is 10%, calculate the Future Worth of this amount at the end of 4 years, compounded annually.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 10,
+      "text": "Briefly explain the working principle of a Ball Mill. Why is it preferred for fine grinding compared to a Rod Mill?(5)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 10,
+      "text": "A primary Jaw Crusher receives a feed where the largest boulder is 800 mm in size. The crusher is set to produce a product with a maximum size of 100 mm.(5) (i)Calculate the Reduction Ratio of this crusher. (ii)If the reduction ratio must be maintained at 5:1, what would be the required product size for the same feed?",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 10,
+      "text": "Differentiate between “Major Minerals” and “Minor Minerals” under the MMDR Act, 1957. Give two examples of each.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 10,
+      "text": "Briefly outline the basic safety precautions that must be strictly followed during the storage and transport of explosives in a mine, referencing the Explosives Rules, 2008.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 10,
+      "text": "Explain the role and primary functions of the Directorate General of Mines Safety (DGMS) in regulating safety in Indian mines.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "B",
+      "page": 10,
+      "text": "In the context of minor mineral concessions in Mizoram, define “Royalty” and “Dead Rent”. What is the standard rule regarding the payment of these two charges by a leaseholder?(5)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "B",
+      "page": 10,
+      "text": "Under the Metalliferous Mines Regulations (MMR), 1961, write short notes on:(2+2=4) (i)Competent Person (ii)Reportable Injury",
+      "subparts": {}
+    },
+    {
+      "n": 11,
+      "part": "B",
+      "page": 10,
+      "text": "Write a short note on Depreciation, Redemption and Depletion.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 12,
+      "part": "B",
+      "page": 10,
+      "text": "Explain the process of crushing in mineral processing. Differentiate between open-circuit and closed- circuit crushing with the help of a neat flow diagram.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 13,
+      "part": "B",
+      "page": 10,
+      "text": "Discuss the role of Indian Bureau of Mines under MCDR, 2017.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 14,
+      "part": "B",
+      "page": 10,
+      "text": "Explain the general safety provisions under Coal Mines Regulations, 2017.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 15,
+      "part": "B",
+      "page": 10,
+      "text": "Explain the key objectives of National Mineral Policy, 2019.(5)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q11 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q12 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q13 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q14 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q15 (p10, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

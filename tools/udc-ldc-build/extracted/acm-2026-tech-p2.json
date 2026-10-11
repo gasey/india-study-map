@@ -1,0 +1,1329 @@
+{
+  "slug": "acm-2026-tech-p2",
+  "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+  "sitting": "March 2026",
+  "subject": "Technical Paper-II",
+  "source": "Asst. Controller of Mines Technical Paper-II..pdf",
+  "sourceSha256": "104f166a8f1d4f2e003ab749f1168ecca6abfe01c645f3c866cf81b3ae627d08",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "As",
+        "b": "Pb",
+        "c": "Hg",
+        "d": "Silica"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An air quality parameter required to be monitored under the Indian National Ambient Air Quality Standards is:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "COD > BOD",
+        "b": "COD = BOD",
+        "c": "COD < BOD",
+        "d": "There is no relation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The value of COD is related to BOD as:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pythagoras equation",
+        "b": "Le Chatelier equation",
+        "c": "Simon’s equation",
+        "d": "Solmon’s equation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The limit of explosibility of a mixture of combustible gases can be computed by which of the following equation?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8%",
+        "b": "10%",
+        "c": "12%",
+        "d": "15%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum percentage of O₂ to make methane air mixture explosive?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adsorbent",
+        "b": "Molecular Species",
+        "c": "Boiling Water",
+        "d": "Catalyst"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gas chromatography separates & analyze components of gas mixture by:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.5 %",
+        "b": "0.75 %",
+        "c": "1 %",
+        "d": "1.25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Indian law the methane concentration should not exceed “A%” in any part of the mine. A is given by:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dialing",
+        "b": "Chaining",
+        "c": "Traversing",
+        "d": "Triangulation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the basic principle of chain surveying?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1-a, 2-c, 3-d, 4-b",
+        "b": "1-c, 2-b, 3-d, 4-a",
+        "c": "1-d, 2-a, 3-d, 4-c",
+        "d": "1-d, 2-c, 3-b, 4-a"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following: **InstrumentsPurpose/Measurement** 1: Abney’s levela: Horizontal and vertical angles 2: Pantographb: Area of plotted figure 3: Planimeterc: Enlargement and reduction of plotted maps 4: Box sextantd: Angle of inclination",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Telescope",
+        "b": "Invar staff",
+        "c": "Tape",
+        "d": "Object glass"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is used when leveling of the highest precision is required?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By squares method",
+        "b": "Tacheometric method",
+        "c": "Cross-section",
+        "d": "Indirect method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the method which is particularly suitable when a contoured map of hill is required:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Passometer",
+        "b": "Pedometer",
+        "c": "Speedometer",
+        "d": "Odometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a simple device attached to the wheel of any vehicle and registers the number of revolutions of the wheel. Knowing the circumference of the wheel, the distance traversed may be obtained:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It means that slope of land is gentle",
+        "b": "It means that slope of land is steep",
+        "c": "It means that the land is flat",
+        "d": "It does not give any indication"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What indication do we get when contour lines lie closer?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6 inches in diameter and 19 fathoms long.",
+        "b": "6 inches in circumference with 19 strands.",
+        "c": "6 strands with 19 wires in each strand.",
+        "d": "19 strands with 6 wires in each strand."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A 6×19 wire rope would be:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lilly controller",
+        "b": "Detaching hook",
+        "c": "Caliper Brake",
+        "d": "Safety catch"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a drum hoisting system through a vertical shaft, overwinding is prevented by:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bull chains, triangular plate, capel, detaching hook",
+        "b": "detaching hook, bull chains, triangular plate, capel",
+        "c": "triangular plate, bull chains, capel, detaching hook",
+        "d": "capel, detaching hook, bull chains, triangular plate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sequence of attachments between the winding rope and the cage is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "No derailment of tub occurs.",
+        "b": "Suitable for high output.",
+        "c": "Suitable for undulating roadways and one operator can drive both drums.",
+        "d": "Long train of tubs can be attached."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Main advantage of using main and tail rope haulage is:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Distance between pump motor and discharge point.",
+        "b": "Vertical distance between suction end to discharge point.",
+        "c": "Distance between suction end to pump impeller.",
+        "d": "Pump impeller to discharge point"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In relation to pump, head is known as:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P- 3, Q- 2, R - 4, S-1",
+        "b": "P- 4, Q-1, R - 2, S-3",
+        "c": "P- 2, Q- 3, R - 1, S-4",
+        "d": "P- 1, Q-2, R - 4, S-3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following: **Blast ProblemCause** P: Misfire1: Poor stemming Q: Vibration2: Low current R: Blown-out shot3: Excess charge S: Cut-off shot4: Improper delays",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.5",
+        "b": "1",
+        "c": "2",
+        "d": "0.3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No drill shall be used for boring a shot hole unless it allows a clearance of at least “A” cm over the diameter of the explosive cartridge. “A” is given by:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.2 m",
+        "b": "1.8 m",
+        "c": "2.5 m",
+        "d": "4 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "No shot shall be fired unless the length of fuse is at least “A” meter. A is given by:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary blasting",
+        "b": "Secondary blasting",
+        "c": "Muffling",
+        "d": "Clay capping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pop shooting or plaster shooting is a type of:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Derrick",
+        "b": "Calyx shot drilling",
+        "c": "Sludger",
+        "d": "V-chisel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During drilling, the hole gets filled with cuttings and has to be cleaned out frequently. This is done with the help of:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charcoal",
+        "b": "Aluminum",
+        "c": "Ammonium nitrate",
+        "d": "Magnesium carbonate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the oxidizing agent in an explosive?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ANFO",
+        "b": "Slurry explosive",
+        "c": "Emulsion explosive",
+        "d": "NG based explosive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following has poor water-resistant property?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It has greater shock to the surrounding.",
+        "b": "It is noiseless in character.",
+        "c": "It has tremendous effect on explosive column.",
+        "d": "It cannot be used in a place where there is a chance of stray current."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following prime characteristic the NONEL blasting has?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100",
+        "b": "200",
+        "c": "300",
+        "d": "400"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In ambient air of industrial area, the permissible concentration of suspended particulate matter (PM₁₀) measured on 24 hours average in µg/m³ is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3 × 10¹⁰ cm/s",
+        "b": "3 × 10¹¹ cm/s",
+        "c": "3 × 10¹² cm/s",
+        "d": "3 × 10¹³ cm/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Light wave travel with a velocity of:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Concentration of dust in air",
+        "b": "Shape of dust",
+        "c": "Time of exposure",
+        "d": "Size of dust"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important parameter of a dust that governs its physiological effect is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Low RPM",
+        "b": "Sharp bit",
+        "c": "High RPM",
+        "d": "Low thrust"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dust generation in drilling maybe reduced by using:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pneumoconiosis",
+        "b": "Ancylostomiasis",
+        "c": "Nystagmus",
+        "d": "Silicosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "___________ disease is caused by working in places of insufficient light.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80 dBA",
+        "b": "85 dBA",
+        "c": "90 dBA",
+        "d": "95 dBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The noise level at 10 m from a long conveyor belt is 95 dBA. What is the noise level at 100 m?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "120 mg/L",
+        "b": "150 mg/L",
+        "c": "220 mg/L",
+        "d": "250 mg/L"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The permissible value of oil and grease discharge from the mine workshop is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Additive",
+        "b": "Subtractive",
+        "c": "Multiplicative",
+        "d": "Divisive"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The combined effect of curvature and refraction in levelling is an error which is:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypsometry",
+        "b": "Profile levelling",
+        "c": "Reciprocal levelling",
+        "d": "Trigonometrical levelling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The method of leveling adopted to determine the difference of level between two points at a considerable distance apart with great precision is:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "314°",
+        "b": "315°",
+        "c": "316°",
+        "d": "317°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fore bearing of a line AB is 136°. What will be the back bearing of the line AB?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global Information System",
+        "b": "Geological Information System",
+        "c": "Geographical Information System",
+        "d": "Group Information system"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "GIS stands for:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lang’s lay rope",
+        "b": "Ordinary lay type",
+        "c": "Fully locked coiled rope",
+        "d": "Half locked coiled rope"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rope used for winding purpose is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "13°",
+        "b": "14°",
+        "c": "15°",
+        "d": "16°"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minimum gradient for Gravity Haulage operation is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": "µ. W",
+        "c": "W - µ",
+        "d": "W + µ"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tractive effort of a locomotive is given by: W",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Long horizontal distance only",
+        "b": "Very low speed operation",
+        "c": "Steep gradient transport",
+        "d": "Fine material handling only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Compared to conventional belt conveyors, high angle conveyors are suitable for:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 39603960* µ Q*H_T*µ3960",
+        "c": "",
+        "d": " 3960µ*HT"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Brake Horse Power (BHP) of a pump is given by: Q*H_TQ*H_T*Sp",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "26 kW",
+        "b": "28 kW",
+        "c": "30 kW",
+        "d": "32 kW"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If a pump develops 10 Bar of pressure and has a flow rate of 1500 L/min, what will be the pump motor power at 90% efficiency?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "1.5",
+        "c": "2",
+        "d": "2.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The maximum permissible angle of fleet should not exceed:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4500-5000 m/s",
+        "b": "5500-6000 m/s",
+        "c": "6500-7000 m/s",
+        "d": "7500-8000 m/s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Detonating chord has a VOD of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Burn Cut",
+        "b": "Pyramid cut",
+        "c": "Wedge cut",
+        "d": "Drag cut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The blast pattern of a coal face shown in the figure represents:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P",
+        "b": "Q",
+        "c": "R",
+        "d": "S"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A square pattern of blasting is shown in the figure. For the case of simultaneous blast, identify the zone of no fragmentation.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pre-split",
+        "b": "Muffled",
+        "c": "Deck charging",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To prevent slope failure the blasting system selected should be:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "400 m",
+        "b": "500 m",
+        "c": "600 m",
+        "d": "300 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In case of opencast mine blasting, the danger zone comprises of area within the diameter of:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "92 : 8",
+        "b": "93 : 7",
+        "c": "94 : 6",
+        "d": "95 : 5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At zero oxygen balance, the ratio of oxidizers to fuel ratio for ANFO is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2.0 te/kg",
+        "b": "2.5 te/kg",
+        "c": "3.0 te/kg",
+        "d": "3.5 te/kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A coal heading 4m wide and 2.5 m high has an advance of 1 m per blasting round. The amount of explosive used in the blasting round is 6 kg. If the sp.gr of the coal is 1.5. the powder factor is:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 7,
+      "text": "The noise levels measured during the operation of three machines are 80 dBA, 75 dBA and 85 dBA respectively. Determine the equivalent noise level for the above three machines. (5)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 7,
+      "text": "The sound pressure level is measured as 5 × 10⁻⁴ N/m². What is the noise level in dB?(5)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "Define the following in one or two sentences. Also give the mathematical expression (formula) for each.(5×1=5) (i)Correction Factor due to incorrect chain. (ii)Correction Factor for slope. (iii)Correction Factor for temperature. (iv)Correction Factor for pull. (v)Correction Factor for sag.",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 7,
+      "text": "The ground distance between the mine manager’s office and pit top is 300 m and it is represented by 3 cm in the mine plan. What is the representative factor?(5)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "What is Friction / Koepe Winding? Write the mathematical expression governing the relationship between the tensions on the two sides of the rope as it passes over the friction wheel.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "It is proposed to connect two straights of a road by a simple circular curve. If the maximum speed of the vehicle is 60 km/h and the centrifugal ratio for the road is ¼, calculate the minimum radius of the curve in metre.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "A 1100 V, 3 power supply system of a mine draws a load of 185 kW. The ammeter reading shows 115 A. Calculate the power factor of the system.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "Define explosive in the context of Mining Engineering. What are the two main classification of explosive? Give one example each.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "B",
+      "page": 7,
+      "text": "A coal heading 4m wide and 2.5 metre high has an advance of 1 metre per cycle. The amount of explosive used in blasting is 6 kg. Taking specific gravity of coal as 1.5, calculate the powder factor. (5)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "B",
+      "page": 7,
+      "text": "Briefly discuss the main ingredients of an explosive, namely: the Oxidizer, Fuel, and Sensitizer.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 11,
+      "part": "B",
+      "page": 7,
+      "text": "Write a short note on sources of air pollution in mining industries.(4)",
+      "subparts": {}
+    },
+    {
+      "n": 12,
+      "part": "B",
+      "page": 7,
+      "text": "Explain the major occupational diseases associated with mining and discuss the different types of dust hazards that lead to pneumoconiosis.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 13,
+      "part": "B",
+      "page": 8,
+      "text": "Explain in brief what is Bio-chemical Oxygen Demand (BOD) and Chemical Oxygen Demand (COD). (5)",
+      "subparts": {}
+    },
+    {
+      "n": 14,
+      "part": "B",
+      "page": 8,
+      "text": "Explain five (5) measurement parameters of Levelling.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 15,
+      "part": "B",
+      "page": 8,
+      "text": "Explain the working principle of GPS.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 16,
+      "part": "B",
+      "page": 8,
+      "text": "Explain in brief the different types of Conveyor Transport used in Mines.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 17,
+      "part": "B",
+      "page": 8,
+      "text": "Explain the factors affecting the selection of a mine pump and define the terms capacity and head. (5)",
+      "subparts": {}
+    },
+    {
+      "n": 18,
+      "part": "B",
+      "page": 8,
+      "text": "Explain the concept of ground vibration due to blasting. Discuss the methods of its control and the DGMS permissible limits of Peak Particle Velocity (PPV) for different structures.(6)",
+      "subparts": {}
+    },
+    {
+      "n": 19,
+      "part": "B",
+      "page": 8,
+      "text": "What is Powder Factor? Discuss the factors affecting it. Also state the maximum permissible charge per shot hole as per DGMS regulations.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 20,
+      "part": "B",
+      "page": 8,
+      "text": "A blast consists of 8 delay circuits with 30 ms interval between delays. Each hole contains 4 kg of explosive and two holes fire per delay. The blasting is carried out at a distance of 200 m from a domestic house (kacha brick & cement).(5) The ground vibration predictor equation is: D−1.6 V=K Q Where: K= 1000 D = distance in metres Q = maximum charge per delay in kg i)Calculate the maximum charge per delay. ii)Calculate the Peak Particle Velocity (PPV). iii)Comment whether the blast is within DGMS permissible limit (8–25 Hz range).",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q11 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q12 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q13 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q14 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q15 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q16 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q17 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q18 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q19 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q20 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

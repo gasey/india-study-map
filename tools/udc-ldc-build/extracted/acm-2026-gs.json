@@ -1,0 +1,2317 @@
+{
+  "slug": "acm-2026-gs",
+  "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+  "sitting": "March 2026",
+  "subject": "General Studies",
+  "source": "Asst. Controller of Mines General Studies..pdf",
+  "sourceSha256": "fe02df5c0d7712bb455fd7e210041ee5401afc4bfbcb1094c2034cf8726568e6",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supriya Sule",
+        "b": "Pankaja Munde",
+        "c": "Rohini Khadse",
+        "d": "Sunetra Pawar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was sworn in as the Deputy Chief Minister of Maharashtra, becoming the first woman to hold the post?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 kilometres",
+        "b": "10 kilometres",
+        "c": "15 kilometres",
+        "d": "21.1 kilometres"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following category was not included in the Aizawl International Half Marathon 2026?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "France",
+        "b": "Germany",
+        "c": "Australia",
+        "d": "Spain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country’s National Assembly has recently approved a bill to ban children under 15 from accessing social media platforms to protect mental health?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operation Midnight Hammer",
+        "b": "Operation Rising Lion",
+        "c": "Operation Absolute Resolve",
+        "d": "Operation Devil Hunt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "U.S. military “decapitation strike” that successfully apprehended Venezuelan President Nicolás Maduro and his wife earlier this year was codenamed:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bangladesh",
+        "b": "Iran",
+        "c": "USA",
+        "d": "Nepal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Gen Z protest 2025 occurred in",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "China",
+        "c": "India",
+        "d": "Brazil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is the host of 18th BRICS Summit 2026?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BRICS Summit",
+        "b": "UNGA",
+        "c": "G20 Summit",
+        "d": "ASEAN Summit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which major international meeting was held in Johannesburg, South Africa, in November 2025?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solar exports",
+        "b": "Live entertainment sector",
+        "c": "Pharmaceuticals",
+        "d": "Automobile manufacturing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Economic Survey 2025–26, which sector crossed ₹10,000 crore in 2024?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increased taxation",
+        "b": "Disruption of ethnic, cultural and social ties",
+        "c": "Water-sharing disputes",
+        "d": "Electoral boundary changes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram’s opposition to fencing along the India–Myanmar border is mainly due to concerns over:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding India’s approach at global climate summits such as COP30: 1.India supports climate action based on the principle of Common but Differentiated Responsibilities (CBDR). 2.India advocates legally binding emission cuts for all countries regardless of development status. 3.India emphasises climate finance and technology transfer from developed countries. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Monetary Fund (IMF)",
+        "b": "World Bank",
+        "c": "World Trade Organization (WTO)",
+        "d": "World Economic Forum (WEF)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which international organization recently released the ‘World Economic Outlook’ report?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The primary goal is to promote organic farming in coastal regions.",
+        "b": "It focuses on developing infrastructure in villages along India’s northern border.",
+        "c": "It is limited only to the state of Jammu and Kashmir.",
+        "d": "It is a scheme for providing high-speed internet to every village in India."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is true regarding the ‘Vibrant Villages Programme’ launched by the Central Government?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zabti",
+        "b": "Dahsala",
+        "c": "Nasaq",
+        "d": "Kankut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which revenue system among the following is also known as the bandobast system?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prime Minister",
+        "b": "Chief Justice",
+        "c": "Foreign secretary",
+        "d": "Superintendent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under Maratha administration who was Dabir?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Katho Upanishad",
+        "b": "Mandukya Upanishad",
+        "c": "Chandogya Upanishad",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The expression “Satyamev jayate” is referenced in which of the accompanying Upanishads?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lahore Resolution",
+        "b": "Karachi Resolution",
+        "c": "Dacca Declaration",
+        "d": "Bombay resolution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Jinnah’s two nation theory was adopted at the:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tej Bahadur Sapru",
+        "b": "Rabindranath Tagore",
+        "c": "Mohammad Ali Jinnah",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "______________, who led the Congress party, introduced Mahatma Gandhi to the concerns in India and the struggle of the people.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bhil uprising",
+        "b": "Rangpur and Dinapur Uprising",
+        "c": "Bishnupur and Birbhum rebellion",
+        "d": "Sanyasi rebellion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following revolts was made famous by Bankim Chandra Chatterjee in his novel Anand Math?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C.R. Das",
+        "b": "Motilal Nehru",
+        "c": "Ambika Charan Majumdar",
+        "d": "B.V Patel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the head of the commission which was appointed by Congress to investigate the Jallianwala Bagh Massacre?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Warren Hastings",
+        "b": "Lord Cornwallis",
+        "c": "Lord Wellesley",
+        "d": "Lord Dalhousie"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Permanent Settlement of 1793 was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Launch mass movements immediately",
+        "b": "Demand complete independence",
+        "c": "Provide a platform for political dialogue with the British",
+        "d": "Organise armed resistance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian National Congress was founded in 1885 primarily to:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It recognized zamindars as landowners",
+        "b": "It established a direct relationship between the state and cultivator",
+        "c": "Land revenue was fixed permanently",
+        "d": "It was confined only to Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ryotwari system differed from the Permanent Settlement because:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demanded complete independence",
+        "b": "Popularised the idea of self-government",
+        "c": "Advocated armed revolution",
+        "d": "Ended communal politics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The significance of the Home Rule Movement lies in the fact that it:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It proposed partition",
+        "b": "It recommended complete independence",
+        "c": "It had no Indian members",
+        "d": "It supported princely states"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was the Simon Commission opposed in India?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1324",
+        "b": "4312",
+        "c": "2143",
+        "d": "2413"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following places with the things known for: A.Korba1.Atomic Power plant B.Raniganj2.Heavy Electricals C.Kalpakkam3.Coal Mines D.Hardwar4.Aluminium ABCD",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 4, 2, 3",
+        "b": "1, 3, 4, 2",
+        "c": "1, 2, 3, 4",
+        "d": "1, 3, 2, 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following from North to South direction: 1.Coco channel 2.Little Andaman 3.Narcondam Island 4.Barren Island Choose the correct option from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shivalik hills",
+        "b": "Himalyas",
+        "c": "Aravali hills",
+        "d": "The Naga Hills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the oldest mountain range of India?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Degradation",
+        "b": "Weathering in situ",
+        "c": "Erosion",
+        "d": "Aggradation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Generally, the soil of the northern plains of India has been formed by:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cold and dry climate",
+        "b": "Hot and humid climate",
+        "c": "Hot and dry climate",
+        "d": "Cold and humid climate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chemical weathering of rocks is much greater in a place with:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "2 only",
+        "d": "1 and 3 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.Jet streams occur in the Northern Hemisphere only. 2.Only some cyclones develop an eye. 3.The temperature inside the eye of a cyclone is nearly 10°C lesser than that of the surroundings. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High mineral resources",
+        "b": "Fertile soils, flat terrain and availability of water",
+        "c": "Pleasant climate throughout the year",
+        "d": "Industrialisation alone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best explains the high population density of the Indo-Gangetic Plain?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kaveri",
+        "b": "Godavari",
+        "c": "Krishna",
+        "d": "Mahanadi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hirakud Dam is built across which river?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2",
+        "b": "2 and 3",
+        "c": "1 and 3",
+        "d": "2 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following are not correctly matched? (Mineral)(Mining City) 1.CopperChitradurga 2.Iron oreBallari 3.ManganeseBhilwara 4.BauxiteKatni Select the correct answer from the codes given below: Codes:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding monsoon rainfall in India: 1.It is caused by differential heating of land and sea. 2.It is influenced by the shift of the Inter-Tropical Convergence Zone (ITCZ). 3.It is uniform throughout the country. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Western Himalayas",
+        "b": "Eastern slopes of the Western Ghats",
+        "c": "Gangetic plains",
+        "d": "Brahmaputra valley"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rain-shadow effect in India is most clearly observed in:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to El Niño, consider the following statements: 1.It involves warming of the eastern Pacific Ocean. 2.It weakens the Walker circulation. 3.It always leads to excess rainfall in India. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Writ of Certiorari",
+        "b": "Writ of Habeas Corpus",
+        "c": "Writ of Mandamus",
+        "d": "Writ of Quo Warranto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Writ is issued by a High Court or the Supreme Court to compel an authority to perform a function that it was not performing?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 years",
+        "b": "21 years",
+        "c": "30 years",
+        "d": "35 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The minimum age of the member of Rajya Sabha is :",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public Accounts Committee",
+        "b": "Estimates Committee",
+        "c": "Committee on Public Undertakings",
+        "d": "Committee on Government Assurances"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Standing Committees of Parliament has no MP from Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The principle of natural justice",
+        "b": "The procedure established by law",
+        "c": "Fair application of law",
+        "d": "Equality before law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In essence, what does ‘Due Process of Law’ mean?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jawaharlal Nehru",
+        "b": "Lal Bahadur Shastri",
+        "c": "Indira Gandhi",
+        "d": "Morarji Desai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ninth Schedule was introduced in the Constitution of India during the prime ministership of",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 3 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Vote on Account, consider the following statements: 1.It is passed after general discussion of the Budget is over. 2.It is passed before the discussion on demands for grants is taken up 3.Parliament is authorised to make any grant in advance in with regard to Vote on Account Choose the correct statement/s from the code below:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Fundamental Duties, consider the following statements: 1.They were originally part of the Constitution. 2.They are non-justiciable in nature. 3.They apply only to citizens. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enforces private contractual rights",
+        "b": "Expands access to justice for disadvantaged groups",
+        "c": "Replaces ordinary litigation",
+        "d": "Limits judicial review"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best explains the role of Public Interest Litigation (PIL) in India?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Powers are rigidly separated",
+        "b": "Judiciary is subordinate to the legislature",
+        "c": "Functions are separated with checks and balances",
+        "d": "Executive dominates all branches"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principle of separation of powers in India implies that:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Article 19, consider the following statements: 1.Reasonable restrictions can be imposed only by law. 2.Restrictions must be in the interest of public order alone. 3.Rights under Article 19 are available to citizens only. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Duties are enforceable by courts",
+        "b": "Rights override duties",
+        "c": "Rights are justiciable while duties are moral obligations",
+        "d": "Duties are superior to rights"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The distinction between rights and duties in the Indian Constitution implies that:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centralisation of power",
+        "b": "Speedy decision-making alone",
+        "c": "Transparency, accountability and citizen participation",
+        "d": "Strict executive control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best reflects good governance as understood in the Indian context?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Germany",
+        "b": "United Kingdom",
+        "c": "Japan",
+        "d": "France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country was overtaken by India to become the world’s fourth-largest economy in 2025?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bringing the small entrepreneurs into formal financial system",
+        "b": "providing loans to poor farmers for cultivating particular crops",
+        "c": "providing pensions to old and destitute persons",
+        "d": "funding the voluntary organizations involved in the promotion of skill development and employment generation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pradhan Mantri MUDRA Yojana is aimed at:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "individual banks should adopt particular districts for intensive development",
+        "b": "there should be stiff competition among the various nationalized banks",
+        "c": "big banks should try to open offices in each district",
+        "d": "all the banks should make intensive efforts to mobilize deposits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic aim of Lead Bank Scheme is that:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kerala",
+        "b": "Punjab",
+        "c": "Haryana",
+        "d": "Delhi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, poverty ratio is lowest in:",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to multidimensional poverty, consider the following statements: 1.It goes beyond income-based measurement. 2.It includes health and education indicators. 3.It is measured exclusively by GDP growth. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equal income for all",
+        "b": "Expansion of welfare schemes",
+        "c": "Ensuring participation of all groups in social, economic and political processes",
+        "d": "Removal of private sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best explains the concept of social inclusion?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2  3  1",
+        "b": "2  1  3",
+        "c": "1  2  3",
+        "d": "3  1  2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to demographic transition, consider the following stages: 1.Declining death rate followed by declining birth rate 2.High birth rate and high death rate 3.Low birth rate and low death rate Which sequence correctly represents the demographic transition model?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Employment growth exceeds GDP growth",
+        "b": "Economic growth does not lead to proportionate employment generation",
+        "c": "Unemployment rate becomes zero",
+        "d": "Informal employment disappears"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of jobless growth refers to a situation where:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Optimum use of chemical fertilisers",
+        "b": "Monocropping",
+        "c": "Crop diversification and efficient water use",
+        "d": "Efficient groundwater extraction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of sustainable agriculture, which of the following practices is most aligned with long- term sustainability?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to inequality, consider the following statements: 1.High economic growth automatically reduces inequality. 2.Inequality can coexist with poverty reduction. 3.Excessive inequality can hinder long-term growth. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rapid industrialisation",
+        "b": "Immediate closure of polluting industries",
+        "c": "Ensuring social protection for workers affected by green transition",
+        "d": "Replacement of labour by technology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of Just Transition in sustainable development relates to:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ":India’s demographic dividend is expected to peak around 2040. ratio. (a)Both A and R are true, and R is the correct explanation of A",
+        "b": "Both A and R are true, but R is not the correct explanation of A",
+        "c": "A is true, but R is false",
+        "d": "A is false, but R is true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A):India’s demographic dividend is expected to peak around 2040.",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Trade",
+        "b": "Building common food stock to save human beings from any natural disaster",
+        "c": "Clean Environment and Climate Change",
+        "d": "Deep Sea Oil and Mineral Exploration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kyoto Protocol, an agreement signed by various countries, is associated with",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 4",
+        "b": "1, 2 and 3 only",
+        "c": "1, 2 and 4 only",
+        "d": "2, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Ramsar Wetland sites are located in North East India? 1.Deepor Beel 2.Chandra Taal 3.Wular Lake 4.Pala Wetland Select the correct answer from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "October 19",
+        "b": "May 16",
+        "c": "April 22",
+        "d": "June 11"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Green Mizoram Day is observed annually on:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "REDD+",
+        "b": "Ramsar Convention",
+        "c": "Basel Convention",
+        "d": "World Heritage Convention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which policy is specifically aimed at reducing deforestation and forest degradation in developing countries?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dampa Tiger Reserve",
+        "b": "Phawngpui (Blue Mountain) National Park",
+        "c": "Tlawng River Catchment Areas",
+        "d": "Lengteng Wildlife Sanctuary"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not Major Protected Areas (Biodiversity Hotspots) in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Air pollution control",
+        "b": "Endangered and threatened species",
+        "c": "Water quality standards",
+        "d": "Forest fire prevention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Red Data Book is associated with:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about mangrove forests: 1.They act as natural barriers against cyclones. 2.They are rich in biodiversity. 3.They are found only in the Andaman Islands. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding biodiversity hotspots in India: 1.The Western Ghats and the Himalayas are considered hotspots. 2.The Andaman & Nicobar Islands are not included in hotspots. 3.Biodiversity hotspots are regions with rich species endemism and high habitat loss. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A device to reduce emissions",
+        "b": "A natural reservoir that absorbs more carbon than it releases",
+        "c": "Industrial carbon capture plants",
+        "d": "A process of carbon trading"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term “carbon sink” refers to:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 3 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding desertification: 1.It is caused by overgrazing, deforestation, and climate change. 2.It can be reversed through afforestation and sustainable land management. 3.It occurs only in arid regions. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase in the population of endangered species",
+        "b": "Decrease in genetic diversity due to the loss of key species",
+        "c": "Restoration of degraded habitats",
+        "d": "Improvement in local ecosystems"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a common impact of poaching on biodiversity?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Native species with declining population",
+        "b": "Non-native species with beneficial ecosystem functions",
+        "c": "Non-native species that cause ecological or economic harm",
+        "d": "Endemic species"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following correctly describes invasive alien species?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 and 4",
+        "b": "2 and 3",
+        "c": "1,2,3 and 4",
+        "d": "only 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following characteristics distinguish man from other animals? 1.His capacity to adapt to the needs of the environment 2.His curiosity 3.His blood groups 4.His DNA Select the correct answer from the following:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marijuana",
+        "b": "Methamphetamine",
+        "c": "Heroin",
+        "d": "Cocaine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following drugs cause death by common respiratory failure due to overdose?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Violet",
+        "b": "Blue",
+        "c": "Red",
+        "d": "Yellow"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following colors is least scattered by fog, dust or smoke?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atmospheric refraction",
+        "b": "Atmospheric reflection",
+        "c": "Total reflection",
+        "d": "Total refraction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The optical phenomena, twinkling of stars, is due to:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The pressure of the blood capillaries is higher than the outside pressure",
+        "b": "The pressure at high altitudes is greater than that in the plains",
+        "c": "The blood pressure increases at high altitudes",
+        "d": "The blood pressure decreases at high altitudes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In high mountain regions bleeding through nose occurs because",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nichrome",
+        "b": "Tungsten",
+        "c": "Copper",
+        "d": "Iron"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The heating element in an electric iron is made of:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pure H‚ O molecules",
+        "b": "Dissolved ions and impurities",
+        "c": "Oxygen",
+        "d": "Hydrogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Water conducts electricity because it contains:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin B1",
+        "b": "Vitamin C",
+        "c": "Vitamin D",
+        "d": "Vitamin B12"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following vitamins is fat-soluble?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding antibiotics: 1.They kill bacteria. 2.They are effective against viruses. 3.Overuse can lead to antibiotic resistance. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Red Blood Cells",
+        "b": "Plasma",
+        "c": "Platelets",
+        "d": "White Blood Cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which component of the blood is primarily responsible for transporting oxygen to different parts of the human body?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Distilled Water",
+        "b": "Granite",
+        "c": "Milk",
+        "d": "Salt Water"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an example of a ‘Colloid’?",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It remains the same at 100°C.",
+        "b": "It fluctuates based on the humidity.",
+        "c": "It decreases because the atmospheric pressure is lower.",
+        "d": "It increases because the air is colder."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What happens to the boiling point of water as you go to higher altitudes (e.g., the top of a mountain)?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mizo Chanchin Laisuih",
+        "b": "Mizo Zirtir Bu",
+        "c": "Zirtirh Bu",
+        "d": "Zirtan Bu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was the first Mizo language textbook?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lemlawi",
+        "b": "Rawchhem",
+        "c": "Phaiphuleng",
+        "d": "Bengbung"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is non-bamboo mizo traditional music instrument?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ordinary people",
+        "b": "Chiefs and prominent persons",
+        "c": "Warriors",
+        "d": "Infant child"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Khaukhurh’ was one type of graves meant for:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Siapsuap",
+        "b": "Vakiria",
+        "c": "Kawkpuizikzial",
+        "d": "Hnawkhal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is traditional attire of mizo men?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "T.H. Lewin",
+        "b": "J. Shakespeare",
+        "c": "N.E. Parry",
+        "d": "B. Lalthangliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“A Monograph on Lushai Customs and Ceremonies” was written by:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reginald A. Lorrain",
+        "b": "J. Herbert Lorrain",
+        "c": "William Williams",
+        "d": "F.W. Savidge"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Lakher Pioneer Mission was started by:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Val Upa were elected by the young men",
+        "b": "Val Upa enjoyed their status by dint of their seniority in age",
+        "c": "Val Upa were appointed by the chief",
+        "d": "Val Upa were not elected but chosen and recognized due to his good works"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct statement:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to introduce force labour among the Mizo",
+        "b": "to collect revenue",
+        "c": "to introduce Christianity",
+        "d": "non-intervention"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The early British policy towards the Lushai Hills was:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ram thar kai",
+        "b": "Ram zuan",
+        "c": "Ram thar luah",
+        "d": "Ram sawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the term for the nomadic settlement of new land known as in Mizo history?",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlahpawi",
+        "b": "Vanhrik",
+        "c": "Bawlpu",
+        "d": "Khua bawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What term was used for the substitute when the village Sadawt was not able to perform his customary duties?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lasi",
+        "b": "Tau",
+        "c": "Chawm",
+        "d": "In-thum-kar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was not believed to be one of the female evil spirits in Mizo history?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ramhual",
+        "b": "Thirdeng",
+        "c": "Tlangau",
+        "d": "Khawchhiar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following was deemed to have a higher social status than “Zalen”?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Widows",
+        "b": "Lal thirdeng, when he is preoccupied with his work",
+        "c": "The physically handicapped",
+        "d": "Tlangau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was not exempted from “hnatlang”?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zupui",
+        "b": "Zufang",
+        "c": "Tin zu",
+        "d": "Rak zu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the type of “Zu” which was known as “hranden zu”?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Favah zai",
+        "b": "Chhip zawn",
+        "c": "Tuthlawh zawn",
+        "d": "Silai zawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following denotes the least amount of rice harvested?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 13,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuallam",
+        "b": "Chawnglaizawn",
+        "c": "Solakia",
+        "d": "Tlanglam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is regarded as belonging to the Lai community?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

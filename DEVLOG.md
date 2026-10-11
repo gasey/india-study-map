@@ -1,3 +1,43 @@
+## 11 October 2026 — Assistant Controller of Mines March-2026: +250
+
+Imported the four remaining native papers of the Assistant Controller of Mines
+(Geology & Mining, Commerce & Industries Department) examination held 10–12
+March 2026: General Studies and Technical Papers I, II and III. The General
+English (Part-B) paper was already in the bank, so its page of the same key is
+unchanged and only the four subject papers are added here.
+
+The official **Final Answer Key** (No. ACM/1/2022-MPSC, notified 2 May 2026) is a
+5-page scan: General English (Part-B, 3 columns × 22 = 66), General Studies
+(4 × 25 = 100), Technical Paper-I (2 × 25 = 50), Technical Paper-II (2 × 25 =
+50) and Technical Paper-III (3 × 21 = 63). Each section was read by printed
+position with tesseract word boxes at 300 dpi and independently re-read at
+600 dpi; the two passes agreed on every cell.
+
+Covers: General Studies 2 hours, FM 100, 1 mark each; Technical Papers I/II/III
+2 hours, FM 200 with Part-A MCQ at 2 marks each (100 marks → 50 questions for
+Papers I/II, 126 marks → 63 for Paper III). No negative-marking rule is printed
+on any ACM paper, so all four score without a penalty. Thirteen Part-A items
+across the three technical papers are figure/diagram/formula questions (mining
+safety diagrams, slope/pipe formulas, counting-figures) and stay held for
+source review rather than being guessed; the other 250 score.
+
+Session delta: bank 8,019 → 8,269 practice-ready (+250; 6,013 → 6,263
+official-backed); records 24,291 → 24,609; MCQs 23,373 → 23,636. 89 registered
+keys. Tests (25) pass and `tsc --noEmit` is clean.
+
+## 11 October 2026 — Reading sessions advance through a large topic
+
+Follow-up checks found that My learning's bounded Read action always reopened
+the first 20 questions. Reading queues now put unstudied questions first and
+retain printed order within each group; marked items remain available for
+rereading. Both subject and topic queues use the same rule. Explicit reading
+still creates no answer evidence or spaced-review mastery.
+
+All 27 engine/storage checks and component integration checks passed, including
+a new 45-question regression for advancing past a completed reading batch,
+including written questions, and preserving all items. Browser visual checking
+remains outstanding under the previously recorded access restriction.
+
 ## 11 October 2026 — Personal learning dashboard and short review cycle
 
 Published content commit `3703c70`; production deployment

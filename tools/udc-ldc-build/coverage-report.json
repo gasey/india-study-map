@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 85,
+  "registered_keys": 89,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 393,
-  "held_mcq": 15351,
-  "tier1_key_scorable": 666,
+  "papers": 397,
+  "held_mcq": 15364,
+  "tier1_key_scorable": 679,
   "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 7940,
   "tier3_needs_derivation": 6683
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2489,
-   "disagree": 382
+   "agree": 2647,
+   "disagree": 437
   },
   "key": {
    "agree": 67,
@@ -31,7 +31,7 @@
   }
  },
  "key_match": {
-  "high_confidence": 31,
+  "high_confidence": 32,
   "needs_attribution_check": [
    {
     "key_file": "Assistant Architect (Contract) under PWD Final Answer Key..pdf",
@@ -2519,6 +2519,21 @@
    "tier2_candidate": 6
   },
   {
+   "paper_id": "mpsc-group-b-acm-2026-tech-p3",
+   "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+   "subject": "Technical Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 6,
+   "tier1": 6,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
    "subject": "General Studies",
@@ -2669,6 +2684,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-acm-2026-tech-p2",
+   "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+   "subject": "Technical Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 4,
+   "tier1": 4,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
    "subject": "General Studies",
@@ -2777,6 +2807,21 @@
    "paper_id": "mpsc-group-b-cdpo-2025-home-science-p3",
    "exam": "Child Development Project Officer (CDPO) - November-2025",
    "subject": "Home Science Technical Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 3,
+   "tier1": 3,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-acm-2026-tech-p1",
+   "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+   "subject": "Technical Paper-I",
    "key_status": "registered",
    "key_file": null,
    "held": 3,
@@ -5254,6 +5299,21 @@
    "subject": "General Knowledge",
    "key_status": "registered",
    "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-acm-2026-gs",
+   "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Final Answer key of Assistant Controller of Mines under Commerce & Industries Deptt., 2026.pdf",
    "held": 0,
    "tier1": 0,
    "tier2": 0,

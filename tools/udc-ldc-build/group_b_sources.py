@@ -154,6 +154,10 @@ GENERAL_PAPERS = [
  ('radio-2026-p2', 'Radiotherapy Technologist', 'April 2026', 'General Knowledge', 'Radiotherapy Technologist Paper-II (General Knowledge)..pdf'),
  ('si-police-2026-p1', 'Sub-Inspector of Police (Un-armed Branch)', 'March 2026', 'General English', 'Sub-Inspector of Police (UB) March-2026 Paper-I.pdf'),
  ('si-police-2026-p2', 'Sub-Inspector of Police (Un-armed Branch)', 'March 2026', 'General Knowledge & Reasoning', 'Sub-Inspector of Police (UB) March-2026 Paper-II..pdf'),
+ ('acm-2026-gs', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'General Studies', 'Asst. Controller of Mines General Studies..pdf'),
+ ('acm-2026-tech-p1', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-I', 'Asst. Controller of Mines Technical Paper-I..pdf'),
+ ('acm-2026-tech-p2', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-II', 'Asst. Controller of Mines Technical Paper-II..pdf'),
+ ('acm-2026-tech-p3', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-III', 'Asst. Controller of Mines Technical Paper-III..pdf'),
 ]
 # Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
 # clerical / UDC / Assistant Grade papers in full plus the non-technical
@@ -444,6 +448,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'agri-2025-ah-vety-p3': 'Direct_2025-2027', 'agri-2025-horticulture-p1': 'Direct_2025-2027', 'agri-2025-horticulture-p2': 'Direct_2025-2027',
  'agri-2025-horticulture-p3': 'Direct_2025-2027',
  'mcs-prelim-2025-p1': 'Direct_2025-2027', 'mcs-prelim-2025-p2': 'Direct_2025-2027',
+ 'acm-2026-gs': 'Direct_2025-2027', 'acm-2026-tech-p1': 'Direct_2025-2027', 'acm-2026-tech-p2': 'Direct_2025-2027', 'acm-2026-tech-p3': 'Direct_2025-2027',
 }
 
 
@@ -781,6 +786,18 @@ def build_additional():
             # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).
             # Key states the exam was held 10-12 March 2026.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'acm-2026-gs' and key:
+            # Cover: Assistant Controller of Mines (March-2026), General Studies,
+            # 2 hours, FM 100, 1 mark each; no negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('acm-2026-tech-p1', 'acm-2026-tech-p2', 'acm-2026-tech-p3')) and key:
+            # Covers: Assistant Controller of Mines (March-2026), Technical
+            # Papers I/II/III, 2 hours, FM 200; Part-A is the MCQ section at 2
+            # marks each (100 marks -> 50 questions for Papers I/II, 126 marks ->
+            # 63 questions for Paper III). No negative-marking rule is printed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;

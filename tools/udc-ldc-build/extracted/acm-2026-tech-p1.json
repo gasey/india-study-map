@@ -1,0 +1,1337 @@
+{
+  "slug": "acm-2026-tech-p1",
+  "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
+  "sitting": "March 2026",
+  "subject": "Technical Paper-I",
+  "source": "Asst. Controller of Mines Technical Paper-I..pdf",
+  "sourceSha256": "c36997608d8e21aa2af9c3d5b4e9004e29f60c242b4f6da6a10ce60594edc75e",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10 m",
+        "b": "9 m",
+        "c": "8 m",
+        "d": "12 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Contiguous seams mean the parting between two seams is within:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P-3. Q-4, R-2, S-1",
+        "b": "P-3. Q-2, R-1, S-4",
+        "c": "P-1, Q-4, R-2, S-3",
+        "d": "P-3, Q-4, R-1, S-2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given the following: **Mining methodTechnique** P: Thick seam extraction1: Double unit face Q: Bord and pillar extraction2: Jet cutting R: Longwall face development3: Inclined slicing S: Hydraulic mining4: Half-moon method The correct match is:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P-3, Q-2, R-4, S-1",
+        "b": "P-3, Q-4, R-2, S-1",
+        "c": "P-3, Q-2, R-1, S-4",
+        "d": "P-1, Q-4, R-3. S-2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Given the following: **Excavating/loading machineTransportation scheme** P: Bucket Wheel Excavator1: Mine tub Q: Continuous Miner2: Armoured flexible chain conveyor R: Shearer3: Shiftable Conveyor S: Load Haul Dumper4: Shuttle car The correct match is:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "berm",
+        "b": "box cut",
+        "c": "trench",
+        "d": "drift"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The opening cut in opencast mining is known as:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "a deposit having less depth of cover",
+        "b": "hilly terrain",
+        "c": "a deposit having more depth of cover",
+        "d": "quick return on investment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Adit is adopted for:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "nature of roof and floor",
+        "b": "time dependent strain",
+        "c": "depth from surface",
+        "d": "coal strength"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Size of pillars is decided based on:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "to reduce the side travel on the pulley",
+        "b": "to prevent excessive wear & tear of the winding rope",
+        "c": "it allows maximum persons to travel at a time in a cage",
+        "d": "it allows use of rope having lesser diameter"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why is fleet angle limited to 1.5°?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.5 %",
+        "b": "1%",
+        "c": "2%",
+        "d": "3%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What percentage of (CO formed/O₂ absorbed) ratio indicates existence of heating?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bucket factor",
+        "b": "swell factor",
+        "c": "swing factor",
+        "d": "drill factor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following factor is considered for calculation of cycle time of excavating machine such as shovel, drag line etc.?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "weight carried by a single prop",
+        "b": "time elapsed to set a prop",
+        "c": "number of props required to support one sq. meter area",
+        "d": "number of persons required to erect a prop"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Prop density is defined as:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "half of the width of roadway",
+        "b": "one-third of the width of roadway",
+        "c": "equal to the width of roadway",
+        "d": "double the width of roadway"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum length of roof bolt used in underground coal mine?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(14 + 0.175 D) Is",
+        "b": "P/D²",
+        "c": "m = I/3",
+        "d": "S = C + tanθ"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is known as point load index?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gypsum < Fluorite < Quartz < Topaz",
+        "b": "Fluorite < Gypsum < Quartz < Topaz",
+        "c": "Fluorite < Quartz < Gypsum< Topaz",
+        "d": "Topaz < Quartz < Fluorite < Gypsum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The correct order of hardness of rock in their increasing order:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4 GPa",
+        "b": "400 Mpa",
+        "c": "500 GPa",
+        "d": "800 GPa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weak sandstone has modulus of elasticity of 1000 MPa and Poisson’s ratio is 0.25. Its shear modulus is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "increases",
+        "b": "decreases",
+        "c": "no relation with the moisture content",
+        "d": "depends on the rock type"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With increase in moisture content of rock, the effect on bearing capacity of the rock:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Permeability",
+        "b": "Structure",
+        "c": "Porosity",
+        "d": "Texture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The grain size distribution of soil is known as:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Near the floor and along the roadway",
+        "b": "Near the floor and near the roof",
+        "c": "Near the roof and near the floor",
+        "d": "Along the roadway and near the floor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an underground working area, CH₄ and CO₂ are normally expected to be found respectively:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "14.2, 0.0",
+        "b": "14.1, 18.2",
+        "c": "5.8, 12.1",
+        "d": "5.0, 19.2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Coward flammability diagram, the respective percentages of methane and oxygen at the nose limit are:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manpower employed in a largest shift",
+        "b": "Manpower employed in a day",
+        "c": "Total production in a day",
+        "d": "Both (a) and (c)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Quantity of air to be circulated to u/g workings depends on:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase in temperature with depth.",
+        "b": "Increase in pressure with depth.",
+        "c": "Decrease in temperature with depth.",
+        "d": "Decrease in pressure with depth."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Geothermic gradient is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Self-contained breathing apparatus",
+        "b": "Gas mask",
+        "c": "CO- detector",
+        "d": "MSA- methanometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chemical Hopcalite is used in:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "conformity",
+        "b": "dip of bed",
+        "c": "strike of bed",
+        "d": "bedding plane"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is the junction plane of one bed of rock with another:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magnetite",
+        "b": "Laterite",
+        "c": "Siderite",
+        "d": "Dolomite"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is a compound of CaCO₃ and MgCO₃ in various proportions.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Slate",
+        "b": "Gneiss",
+        "c": "Quartzite",
+        "d": "Marble"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If sandstone is the original rock, then what is its metamorphic rock?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fossils",
+        "b": "Petrification",
+        "c": "Moulds",
+        "d": "Carbonization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In paleontology, the conversion of remains of plants and animals into rock is known as:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shale",
+        "b": "Silt",
+        "c": "Ochre",
+        "d": "Tuff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A natural mineral substance of iron oxide, clay and sometimes manganese is called:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.5 m",
+        "b": "2.5 m",
+        "c": "3.5 m",
+        "d": "4.5 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A coal seam in India is said to be thick when the thickness is more than:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "28 m",
+        "b": "28.5 m",
+        "c": "29 m",
+        "d": "29.5 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum size of coal pillar when the depth of coal seam from surface remains between 240 m to 360 m and gallery width does not exceed 3 m?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1-4",
+        "b": "4-8",
+        "c": "8-12",
+        "d": "12-16"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Protodyaknov index of Indian coals varies from:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Longwall method",
+        "b": "Hydraulic Mining method",
+        "c": "Board & Pillar method",
+        "d": "Blasting Gallery method"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Over 90% of underground coal production in India comes from:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Overhand stoping",
+        "b": "Top slicing",
+        "c": "Underhand longwall stoping",
+        "d": "Breast stoping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The suitable method of mining a 2 m thick strong sulphide ore deposit within strong wall rocks dipping at 18° and occurring at 60 m below the surface is:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "20%",
+        "c": "25%",
+        "d": "30%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In-situ ore of 2.0 % Cu got diluted with waste rock of value 0.4 Cu. If the resultant extracted ore has 1.6 % Cu, what is the percentage of dilution?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.0 m",
+        "b": "1.5 m",
+        "c": "2.0 m",
+        "d": "3.0 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per DGMS guidelines for soft ground (alluvium, gravel, clay, debris), the maximum bench height shall not exceed:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " W. Sinβ+UW. Sinβ - U c. A+(W. Sinβ -V)tanφ c. A+(W. Sinβ +V)tanφ FOS=FOS=",
+        "c": "",
+        "d": " W. Cosβ + UW. Cosβ - U"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Factor of Safety (FOS) of a slope when there is a tension crack and water pressure present is: c. A+(W. Cosβ -V)tanφ c. A+(W. Cosβ +V)tanφ FOS=FOS=",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P1; Q3; R4; S2",
+        "b": "P4; Q2; R1; S3",
+        "c": "P2; Q4; R3; S1",
+        "d": "P4; Q1; R2; S3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following features with the corresponding symbols.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Isotropy",
+        "b": "Anisotropy",
+        "c": "Angiostropy",
+        "d": "Monotropy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "______________ material has different property in different axes.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.6",
+        "b": "0.5",
+        "c": "1",
+        "d": "1.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The void ratio of an unconsolidated soil heap of volume 1000 m³ is 1.0. If the soil heap is consolidated to a volume of 800 m³, the corresponding void ratio is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "z",
+        "b": "z 2 1−32 1+3 1−12 z−1−31−12 z+1+3 θ=  Tanθ=  Tan",
+        "c": "z",
+        "d": "z 2 1−32 1+3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The angle between the major principal stress () and vertical stress () is given by: 1−12 z−1−31−12 z+1+3 θ=  Cosθ=  Cos",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₁ =0",
+        "b": "₂ =0",
+        "c": "σ₃ =0",
+        "d": "mᵢ= 0"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the generalized Hoek–Brown equation, the uni-axial compressive strength of a rock mass is obtained by setting:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "",
+        "b": " 2 A.E2 A.E P².L²P²L",
+        "c": "",
+        "d": " A.EA.E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For a cylindrical specimen of cross section area A, length L, Young’s modulus E, and axial load P, the strain energy stored is: P²LP.L²",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "19%",
+        "c": "20%",
+        "d": "21%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oxygen concentration in underground mines should not be less than:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Degree I",
+        "b": "Degree II",
+        "c": "Degree III",
+        "d": "Nongassy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A coal mine with methane emission rate ≤ 1 m³/tonne is:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "950 m³/min",
+        "b": "1050 m³/min",
+        "c": "1150 m³/min",
+        "d": "1250 m³/min"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Quantity of air to be circulated to U/G working where 150 workers employed in the largest shift and daily production is 500 tonnes will be:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Existence of spontaneous heating",
+        "b": "Active fire",
+        "c": "Heating in advance stage",
+        "d": "Normal coal mine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an underground coal mine, a Graham’s Ratio of 3% is an indication of:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sweating of strata",
+        "b": "Formation of CO²",
+        "c": "Rise of temperature",
+        "d": "Smoke from the coal face"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The early indication of spontaneous heating of coal can be given by:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cleavage",
+        "b": "Luster",
+        "c": "Colour",
+        "d": "Bond strength between atoms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hardness of a mineral depends mainly on:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vertically",
+        "b": "Horizontally",
+        "c": "Perpendicular to Strike",
+        "d": "Parallel to Strike"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dip is measured:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anticline",
+        "b": "Syncline",
+        "c": "Monocline",
+        "d": "Recumbent Fold"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A fold with both limbs dipping toward the axis is:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mesozoic",
+        "b": "Paleozoic",
+        "c": "Cenozoic",
+        "d": "Precambrian"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The era known as the “Age of Reptiles” is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fertilizers",
+        "b": "Steel Industries",
+        "c": "Cement Industries",
+        "d": "Medicinal purpose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Limestone deposits in India are extensively used for:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 7,
+      "text": "Define the following terms:(4×1=4)",
+      "subparts": {
+        "a": "Gestation Period",
+        "b": "Block Caving",
+        "c": "Stripping Ratio",
+        "d": "Break – Even Stripping Ratio"
+      }
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 7,
+      "text": "In an Under Ground Coal Mine, 1800 workers are employed. The average production from the mine is 900 tonne per day. Assuming 3 working shifts per day, calculate the Output per Man Shift (OMS). (5)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "Broken rock of 3684 m³ is heaped into a square pyramid of height 12 m. Calculate the base area in metre square.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 7,
+      "text": "Four benches are being worked by the opencast mining system. Height, width and face angle for each bench are 15m, 50m and 70º respectively. Calculate the overall slope angle of the benches. (5)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "The ratio of uniaxial compressive strength to uniaxial tensile strength of a sandstone specimen is 8:1. Calculate the theoretical value of angle of internal friction of the specimen in degree.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "A series of triaxial tests of sandstone samples reveal the cohesion and the angle of internal friction as 21.65 MPa and 30º respectively. Based on the assumption that the sandstone samples and by following the Mohr-Coulomb’s failure criteria, calculate the tensile strength in Mpa.(6) 2-82-8",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "In a mine ventilation system, the resistances of two splits A and B are 0.5 Nsm and 2 Nsm respectively. Combined resistance of two shafts and trunk airways is 0.7 Ns²m⁻⁸. A quantity of 20 m³/s of air passes through split A. Calculate the total air quantity passing the mine in m³/s.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "State the three fundamental Fan Laws used in mine ventilation. If the rotational speed of a mine fan is doubled, what will be the resulting effect on the quantity of airflow, ventilating pressure, and fan power?(5)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "B",
+      "page": 7,
+      "text": "Define dip and strike. Illustrate with suitable diagram.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "B",
+      "page": 7,
+      "text": "Define Fold? Distinguish between Anticline and Syncline by illustrating with the help of suitable diagrams.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 11,
+      "part": "B",
+      "page": 7,
+      "text": "Define Ultimate Analysis and Proximate Analysis of coal. List the constituents determined in each method.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 12,
+      "part": "B",
+      "page": 7,
+      "text": "In an underground coal mine using the bord and pillar method, a development panel provides the following production data for a single shift:(5) Number of blasting rounds fired per shift: 8 Dimensions of the face exposed for each blast: 4.2 m (width) × 2.5 m (height) Average pull obtained per blast: 1.2 m Specific gravity of coal: 1.4 Total manpower employed in the panel per shift: 100",
+      "subparts": {
+        "a": "Determine the Output per Manshift (OMS) for the panel in tonnes.",
+        "b": "Comment briefly on whether the OMS value indicates high, moderate, or low productivity for a development district in an underground coal mine."
+      }
+    },
+    {
+      "n": 13,
+      "part": "B",
+      "page": 8,
+      "text": "A rectangular coal pillar is formed with center-to-center dimensions of 30 m × 30 m in an underground mine. The width of each gallery is 5.0 m, and the depth of the working is 200 m. If the unit weight of the overlying strata is 0.025 MPa/m, calculate the load (stress) acting on the pillar using the Tributary Area Method.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 14,
+      "part": "B",
+      "page": 8,
+      "text": "What is Rock Quality Designation (RQD)? Explain how it is determined and give the standard classification of rock mass based on RQD values.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 15,
+      "part": "B",
+      "page": 8,
+      "text": "Rock mass parameters for a shale rock, mβ, s, and a of the Hoek and Brown failure criterion as given in the equation are 2.4, 0.01 and 0.52 respectively. The uni-axial compressive strength (_cᵢ) of intact shale is 50 MPa. 1=3+ci (mβ   3/ci +s)^a Find the uniaxial compressive strength of rock mass.(5) σ",
+      "subparts": {}
+    },
+    {
+      "n": 16,
+      "part": "B",
+      "page": 8,
+      "text": "Define Modulus of Elasticity of rock. Derive the expression E= and explain the difference between ε Tangent modulus and Secant modulus.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 17,
+      "part": "B",
+      "page": 8,
+      "text": "Sample of air collected in the intake and return gate roads of an advancing longwall face show 0.25% and 0.75% CH₄, respectively. The panel has a production of 400 tonnes in an 8-hour shift, when an air quality of 18 m³/s passes through it, what will be the emission in m³/t of coal produced.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 18,
+      "part": "B",
+      "page": 8,
+      "text": "Calculate the N.V.P in an underground mine using the following data:(5) Depth of mine = 300 m Pit bottom barometer reading = 101.27 kPa Pit-top barometer reading = 98.10 kPa Average temperature in downcast shaft = 307 K Average temperature in upcast shaft = 304 K",
+      "subparts": {}
+    },
+    {
+      "n": 19,
+      "part": "B",
+      "page": 8,
+      "text": "What are joints in rocks? Classify different types of joints and discuss their effect on blasting and excavation workability.(5)",
+      "subparts": {}
+    },
+    {
+      "n": 20,
+      "part": "B",
+      "page": 8,
+      "text": "Classify mineral deposits based on their mode of origin. Describe any three types with suitable examples. (5)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q2 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q11 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q12 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q13 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q14 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q15 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q16 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q17 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q18 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q19 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q20 (p8, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

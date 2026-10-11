@@ -1,0 +1,1249 @@
+{
+  "slug": "adfd-2025-technical-p3",
+  "exam": "Assistant Director (Food & Drugs) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Technical Paper-III",
+  "source": "Assistant Director Technical Paper-III 2025.pdf",
+  "sourceSha256": "f6c6559ea746101ad526d1a932d6bc67fcbf34282f8c7b24d6de6d8e93f51aee",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Making SOPs accessible only to management",
+        "b": "Elimination of all previous protocol immediately",
+        "c": "Regular training for staff",
+        "d": "Frequent revisions of SOPs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which element is essential for implementing successful standard operating procedures?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Quality control",
+        "b": "Analytical",
+        "c": "Production",
+        "d": "Formulation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Master formula record is prepared and endorsed by the competent technical staff like manufacturing chemist and ____chemist.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Personnel",
+        "b": "Documentation",
+        "c": "Recall procedures",
+        "d": "Finished products"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Quality audit may include questionnaires on Good Manufacturing process (GMP) requirements covering",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First party audit",
+        "b": "Second party audit",
+        "c": "Third party audit",
+        "d": "Fourth party audit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regulatory audit is also known as __________.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Its support function",
+        "b": "The necessary validation documentation for the process",
+        "c": "Criteria and information on hazards and critical steps associated with the products, process or",
+        "d": "To serves as a basis for Quality Risk Management (QRM) exercise at Receiving Unit (RU)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In technology transfer, the Sending Unit (SU) should provide:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Development Phase",
+        "b": "Production Phase",
+        "c": "Research Phase",
+        "d": "Quality testing Phase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a phase of technology transfer process considered as the last phase?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "US",
+        "b": "Japan",
+        "c": "India",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Government has authorized NABL as the sole accreditation body for testing and calibrations Laboratory?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ISO/IEC 17025",
+        "b": "ISO 9001",
+        "c": "ISO 14001",
+        "d": "ISO 45001"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which standard is commonly used as a basis for NABL accreditation of testing and calibration laboratories?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GRADE A",
+        "b": "GRADE B",
+        "c": "GRADE C",
+        "d": "GRADE D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following clean rooms grade is used for aseptic filling operation?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physical assay",
+        "b": "Chemical assay",
+        "c": "Biological assay",
+        "d": "Chemical and biological assay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the most accurate method for microbial assay of antibiotics?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It displays the signal",
+        "b": "It converts the interaction between the analytes and the immobilized enzymes into a measurable signal",
+        "c": "It is used as bioreceptors",
+        "d": "It is an optional part which is rarely used"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is true for a transducer in biosensor?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacillus",
+        "b": "Rhizopus",
+        "c": "Mucor",
+        "d": "Bacillus coagulans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following does not produce ‘Proteases’?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IgA",
+        "b": "IgG",
+        "c": "IgD",
+        "d": "IgM"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of immunoglobulin provides local immunity?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3-5 hours",
+        "b": "5-8 hours",
+        "c": "7-9 hours",
+        "d": "10-13 hours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Once blood is collected, the constituents should be separated within:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 year",
+        "b": "2 years",
+        "c": "5 years",
+        "d": "10 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The shelf life of dried human plasma is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cholera",
+        "b": "Anthrax",
+        "c": "Plague",
+        "d": "Typhoid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following vaccine is an example of live attenuated bacterial vaccine?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Standing Order",
+        "b": "Basic Stock",
+        "c": "PAR or Maximum stock level",
+        "d": "Restricted distribution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The amount of a drug product that should be kept in the pharmacy shelf is called:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Open Formulary",
+        "b": "Patient wrist band",
+        "c": "Closed Formulary",
+        "d": "Medical administration record"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A form that tracks the medications administered to a patient is called:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To measure patient’s drug blood concentration",
+        "b": "To measure patient urine drug concentration",
+        "c": "Limited role in toxicology",
+        "d": "To study adverse effect of drugs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The basic principle of therapeutic drug monitoring is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The concentration of drug in plasma which optimizes therapy",
+        "b": "The amount of reduction of pathologic symptoms obtained by use of a specific drug",
+        "c": "The ranking of the effect of the drug versus other drugs for the same disease",
+        "d": "The ratio between the average toxic dose and the average therapeutic dose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The therapeutic index is defined as:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1980",
+        "b": "1985",
+        "c": "1986",
+        "d": "1990"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, therapeutic drug monitoring was introduced in the year:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Taking an over-the-counter pain reliever when symptoms appear",
+        "b": "Drinking lots of fluids",
+        "c": "Protecting yourself from mosquito bites",
+        "d": "Avoiding travel to endemic areas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary method recommended by World Health Organization to prevent dengue infection?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Confirm medication adherence",
+        "b": "Monitor the efficacy of hypoglycaemic agent",
+        "c": "Track potential ADRs of Antibiotics",
+        "d": "Ensure liver function is not compromised"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The physiological significance of blood glucose monitoring in diabetic patient is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To treat cancer once it is diagnosed",
+        "b": "To detect cancer at an early stage",
+        "c": "To prevent the development of cancer cells",
+        "d": "To manage the side effects of chemotherapy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of these is the goal of cancer screening?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Validation",
+        "b": "Enriching",
+        "c": "Leaching",
+        "d": "Spiking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "__________ is the addition of a known amount of a compound to a standard, sample or placebo, typically for the purpose of confirming the performance of an analytical procedure.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only I is true",
+        "b": "Only II is true",
+        "c": "Both I and II are false",
+        "d": "Both I and II are true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider these statements on the generic drug approval process under USFDA: I.Clinical trials are not mandatory. II.They may submit a marketing authorization application to the FDA in the form of an Abbreviated New Drug Application (ANDA).",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The regulatory authority of the exporting country to the importing country",
+        "b": "The regulatory authority of the importing country to the exporting country",
+        "c": "WHO only",
+        "d": "USFDA only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Certificate of Pharmaceutical Products (CoPP ) is issued by _______.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Stage 1 (Discovery stage)",
+        "b": "Stage 2 (Non-clinical stage)",
+        "c": "Stage 3 (Clinical stage)",
+        "d": "Stage 4 (Post-approval stage)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Within the classical drug development, compliance with GLP is required in _______.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Principal Investigator",
+        "b": "Research Scientist",
+        "c": "Volunteer",
+        "d": "Study Director"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This individual will have to assume full responsibility for the GLP compliance of all activities within the study and is the single most important individual in GLP study.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A corridor for the movement of used supplies",
+        "b": "A corridor for the movement of new supplies",
+        "c": "A corridor for the movement of dead animals only",
+        "d": "A corridor for the movement of laboratory staff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to WHO GLP guidelines, ‘dirty corridors’ in animal facilities means _______.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Molecular scissor",
+        "b": "Molecular glue",
+        "c": "Ligase enzyme",
+        "d": "Polymerase enzyme"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Restriction enzymes are called as",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shelf-life plus 25 years",
+        "b": "Shelf-life plus 50 years",
+        "c": "Shelf-life plus 10 years",
+        "d": "Shelf-life plus 1 year"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For a pharmaceutical product on the market, the generally accepted retention period of the records containing all original observations, including calculations and derived data, calibration, validation and verification etc. is _______.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.1 µm",
+        "b": "0.3 µm",
+        "c": "1.0 µm",
+        "d": "5.0 µm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HEPA filters remove particles as small as:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enzyme solubility",
+        "b": "Enzyme activity in solution",
+        "c": "Enzyme reusability and stability",
+        "d": "Reaction rate always"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Enzyme immobilization increases:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Urease",
+        "b": "Glucose oxidase",
+        "c": "Peroxidase",
+        "d": "Catalase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A glucose biosensor uses which enzyme?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0°C",
+        "b": "2–8°C",
+        "c": "10–15°C",
+        "d": "Room temperature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vaccines should generally be stored at:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Benzalkonium chloride",
+        "b": "Alcohol",
+        "c": "Formaldehyde",
+        "d": "Thiomersal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A commonly used preservative in vaccines is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Escherichia coli",
+        "b": "Aspergillus oryzae",
+        "c": "Penicillium chrysogenum",
+        "d": "Saccharomyces cerevisiae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common microbial source for industrial production of amylase is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phenol or formaldehyde at controlled temperature",
+        "b": "UV radiation alone",
+        "c": "High-pressure homogenization",
+        "d": "Freezing and thawing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During the preparation of bacterial vaccines, the inactivation of bacteria is commonly achieved using:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Non-toxic and non-pyrogenic",
+        "b": "Osmotically active",
+        "c": "Readily metabolized to water and CO₂",
+        "d": "Antigenic with long half-life"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ideal characteristics of a plasma substitute include all except:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbohydrates only",
+        "b": "Inducers like olive oil or triglycerides",
+        "c": "Ammonium salts only",
+        "d": "Alcohols"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lipase production is enhanced when the medium contains:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduce nursing workload",
+        "b": "Minimize medication errors and wastage",
+        "c": "Store large quantities of drugs in wards",
+        "d": "Replace pharmacy staff"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The unit dose drug distribution system primarily aims to:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paracetamol",
+        "b": "Morphine",
+        "c": "Amoxicillin",
+        "d": "Metformin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is considered a controlled drug?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digoxin, Vancomycin, Phenytoin",
+        "b": "Paracetamol, Ibuprofen, Aspirin",
+        "c": "Omeprazole, Pantoprazole",
+        "d": "Vitamin D, Calcium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following drugs commonly require TDM?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poor drug stability",
+        "b": "Complex drug regimens and side effects",
+        "c": "Pharmacy location",
+        "d": "Nurse unavailability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common cause of medication non-adherence is:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reducing consultation time",
+        "b": "Changing drug brand only",
+        "c": "Patient education, regimen simplification, reminder systems",
+        "d": "Avoiding follow-ups"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pharmacists can improve medication adherence by:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enhancing drug metabolism",
+        "b": "Preventing relapse due to craving triggered by environmental cues",
+        "c": "Administering vaccines",
+        "d": "Improving kidney clearance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A major challenge in treating drug addiction pharmacologically is:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Young adults",
+        "b": "Geriatric patients",
+        "c": "Healthy children",
+        "d": "Healthcare professionals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which population is most at risk of non-adherence due to cognitive impairment?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hypertension",
+        "b": "Congestive Heart Failure",
+        "c": "Tuberculosis",
+        "d": "Vitamin supplementation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Directly Observed Therapy (DOT) is an effective strategy for improving adherence in:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "L1",
+        "b": "L2",
+        "c": "L3",
+        "d": "L4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Good Laboratory practice comes under which schedule?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Define enzyme immobilization. Elaborate various methods for enzyme immobilization and its application. (2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Describe the general procedure for preparation of bacterial vaccines. Write a note on processing of Whole Human Blood.(6+4=10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the types of documents maintained in a pharmaceutical industry with special reference to Master Formula Record, Batch Formula Record, and Standard Operating Procedures (SOPs). (4+3+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the concept of technology transfer, as per WHO Guidelines. What are the principles and steps to be taken for NABL accreditation?(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "Describe the design and layout of an aseptic area with appropriate labelled diagram. Explain the importance of laminar airflow equipment and discuss the various sources of contamination. (4+3+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "Describe the general methods for the preparation of bacterial and viral vaccines, including toxoids and antitoxins.5+5=10",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "Define Therapeutic Drug Monitoring (TDM). Explain the need and importance of TDM in clinical practice. Discuss the factors to be considered during TDM considering the Indian scenario. (2+4+4=10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Define patient counselling. Explain in detail the steps involved in effective patient counselling and describe the special situations where pharmacist’s intervention and counselling are crucial. (2+4+4=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "Write a note on preventive medicine and its importance in public health. Discuss the general principles of prevention and control of communicable and non-communicable diseases.(4+6=10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "Write the WHO guidelines of documentation commonly required for technology transfer of Pharmaceutical Manufacturing.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

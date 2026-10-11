@@ -1,0 +1,1249 @@
+{
+  "slug": "adfd-2025-technical-p2",
+  "exam": "Assistant Director (Food & Drugs) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Technical Paper-II",
+  "source": "Assistant Director Technical Paper-II 2025..pdf",
+  "sourceSha256": "0be95a27563aad529e5092aca680b120be138ae2475b5ba771e28679c15a7ca5",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cosmetics",
+        "b": "Homeopathic drugs",
+        "c": "Narcotic and psychotropic drugs",
+        "d": "Ayurvedic drugs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Schedule X drugs are:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "False or misleading claims on the label",
+        "b": "Concealment of damage through coating",
+        "c": "Incorrect strength or composition",
+        "d": "Improper labelling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following conditions does not make a drug misbranded?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pc = Ps × (1 + M/100)",
+        "b": "Pc = Ps × (1 - M/100)",
+        "c": "Pc = Ps + M",
+        "d": "Pc = M × 100 / Ps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The formula for calculating the ceiling price (Pc) is:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20% ad valorem",
+        "b": "4% ad valorem",
+        "c": "50% ad valorem",
+        "d": "10% ad valorem"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the Schedule of Medicinal & Toilet Preparations (Excise Duties) Act, 1955, toilet preparations containing alcohol or narcotic drug attract a rate of duty—",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drugs and Cosmetics Act, 1940",
+        "b": "Essential Commodities Act, 1955",
+        "c": "Pharmacy Act, 1948",
+        "d": "Drug Price Regulation Act, 1970"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Drugs (Prices Control) Order, 2013 was issued under which Act?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drug metabolism through Phase II reactions",
+        "b": "Partition coefficient in non-polar solvents",
+        "c": "Binding affinity to biological targets such as enzymes and receptors",
+        "d": "The rate of ionization in aqueous solution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hydrogen bonding in a drug molecule primarily influences:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lipophilicity",
+        "b": "Steric hindrance",
+        "c": "Electronic effects of substituents",
+        "d": "Hydrogen bonding capacity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In QSAR, the Hammett constant () describes:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only the structure of the enzyme",
+        "b": "The essential features responsible for biological activity",
+        "c": "The full 3D structure of the drug molecule",
+        "d": "Only hydrogen bonding acceptor groups"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A pharmacophore model includes:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Identify the enzyme classification",
+        "b": "Rank the protein structures",
+        "c": "Estimate the binding affinity between ligand and target",
+        "d": "Modify the drug’s solubility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In molecular docking, the scoring function is used to:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increasing lipophilicity",
+        "b": "Adding a hydrophilic functional group",
+        "c": "Enhancing aromaticity",
+        "d": "Introducing a halogen substituent"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following changes would most likely reduce protein binding of a drug?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lipophilic contribution to activity",
+        "b": "Electronic influence of substituents",
+        "c": "Spatial or bulk effects of substituents",
+        "d": "Hydrogen bonding capability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Taft steric parameter (Es) quantifies:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only one enantiomer binds to plasma proteins",
+        "b": "Enzymes and receptors are chiral",
+        "c": "They have different chemical formulas",
+        "d": "They are always metabolized at the same rate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pharmacological activity of enantiomers can differ because:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decrease the molecular weight of the drug",
+        "b": "Inactivate the drug completely",
+        "c": "Convert drugs into more lipophilic forms",
+        "d": "Increase water solubility for excretion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary goal of Phase II metabolism is to:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indole alkaloids",
+        "b": "Pyrrolidine alkaloids",
+        "c": "Quinoline alkaloids",
+        "d": "Benzylisoquinoline alkaloids"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Papaver somniferum yields alkaloids belonging to which class?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alzheimer’s disease",
+        "b": "Prostate cancer prevention",
+        "c": "Diabetes",
+        "d": "Asthma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lycopene, a carotenoid found in tomatoes, is beneficial in—",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CYP3A4 enzymes",
+        "b": "CYP2C19 inhibition",
+        "c": "MAO inhibition",
+        "d": "CYP2D6 inhibition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hypericum perforatum (St. John’s Wort) induces—",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CNS depression",
+        "b": "Hypotension",
+        "c": "Drowsiness",
+        "d": "Hypertensive crisis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ephedra use with caffeine may cause—",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Terpenes are made up of linked glucose units",
+        "b": "Terpenes are composed of C5 units arranged head-to-tail",
+        "c": "Alkaloids are derived from amino acids",
+        "d": "Flavonoids are formed by C6-C3-C6 unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Isoprene Rule states that:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Macroscopic and microscopic evaluation",
+        "b": "Chromatographic fingerprinting",
+        "c": "Radiographic imaging",
+        "d": "Assay of marker compounds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not  WHO-recommended method for evaluation of herbal drugs?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6 months",
+        "b": "1 month",
+        "c": "1 year",
+        "d": "2 months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ICH guidelines recommend testing herbal drug stability under accelerated conditions for:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Omega-3 fatty acids",
+        "b": "Beta-carotene",
+        "c": "Probiotics",
+        "d": "Coenzyme Q10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which nutraceutical is most commonly used for lowering cholesterol and improving heart health?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monoterpenoids",
+        "b": "Sesquiterpenoids",
+        "c": "Diterpenoids",
+        "d": "Triterpenoids"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Iridoids are classified chemically as:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Activation of beta-adrenergic receptors",
+        "b": "Calcium channel blockade",
+        "c": "Angiotensin II inhibition",
+        "d": "Inhibition of Na⁺ /K⁺ -ATPase pump"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary mechanism of action of cardiac glycosides is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Preserves color and active constituents",
+        "b": "Reduces moisture more rapidly",
+        "c": "Kills microbes effectively",
+        "d": "Increases aroma"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Shade drying is preferred over sun drying because it:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Schedule H",
+        "b": "Schedule G",
+        "c": "Schedule O",
+        "d": "Schedule C and C1"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Drugs covered under this schedule are not permitted for repacking license. Identify the correct schedule.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Education regulation 1991 does not prescribe the minimum qualification for the registration as",
+        "b": "Section 12 of the Act deals with the approval of course of study under Chapter 2 there of",
+        "c": "Section 12 of the Act deals with the approval of course of study and examination under Chapter",
+        "d": "State government is authorized to make any rules with respect to course of study"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chose the CORRECT statement with respect to ‘The Pharmacy Act, 1948’:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rigorous imprisonment up to 10 years or fine up to Rs. 10 Lakhs",
+        "b": "Rigorous imprisonment up to 10 years or fine up to Rs. 1 Lakh",
+        "c": "Rigorous imprisonment up to 6 months",
+        "d": "Fine up to Rs. 10 Lakhs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Penalty for the cultivation of any cannabis plant to produce, sell, purchase transport in contravention of Narcotic Drugs and Psychotropic Substances Act and Rules on first conviction is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increases absorption",
+        "b": "Decreases absorption",
+        "c": "No effect on absorption",
+        "d": "Depends on the pH"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the effect of ionization on drug absorption?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albumin",
+        "b": "Globulin",
+        "c": "Fibrinogen",
+        "d": "Hemoglobin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following proteins is primarily involved in drug binding?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increases cytochrome P450 levels",
+        "b": "Variable effect on cytochrome P450 levels",
+        "c": "No effect on cytochrome P450 levels",
+        "d": "Decreases cytochrome P450 levels"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the effect of a fat-free diet on cytochrome P450 levels?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enzyme inhibition",
+        "b": "Enzyme induction",
+        "c": "Enzyme saturation",
+        "d": "No effect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common pharmacological effect of tobacco smoking on drug metabolism is:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Covalent bonding",
+        "b": "Metal Binding",
+        "c": "Vander Waals Bonding",
+        "d": "Hydrogen bonding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most favorable bonding between ligand and protein is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To predict the color of a compound",
+        "b": "To predict the biological activity of a compound based on its structure",
+        "c": "To predict the solubility of a compound in water",
+        "d": "To predict the melting point of a compound"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the purpose of the Hansch equation?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Partition coefficient (P)",
+        "b": "Molecular connectivity",
+        "c": "Pi Substituent constant",
+        "d": "Log P"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a hydrophobic parameter?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase the activity of liver enzymes",
+        "b": "Decrease the activity of liver enzymes",
+        "c": "Have no effect on liver enzymes",
+        "d": "Only interact with herbal supplements"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hypericum is known to interact with certain medications because it can:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Expectorant activity",
+        "b": "Lipid lowering activity",
+        "c": "PAF antagonistic activity",
+        "d": "Antidepressant activity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ginkgo biloba is used for its:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A condition where an organism has two sets of chromosomes",
+        "b": "A condition where an organism has more than two sets of chromosomes",
+        "c": "A condition where an organism has one set of chromosomes",
+        "d": "A condition where an organism has no chromosomes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is polyploidy?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ispaghula",
+        "b": "Strophanthus",
+        "c": "Nux vomica",
+        "d": "Ephedra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The drug used for irritable bowel syndrome is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Schedule M",
+        "b": "Schedule C",
+        "c": "Schedule Y",
+        "d": "Schedule H"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the Drugs and Cosmetic Act and Rules, the Schedule relating to GMP is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "P, Q",
+        "b": "P, R",
+        "c": "R, S",
+        "d": "P, S"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Two ex-officio members of the Drugs Technical Advisory Board under Drugs and Cosmetics Act are: (P)The Drugs Controller General of India (Q)The President, Medical Council of India (R)The Secretary, Pharmacy Council of India (S)The Director, National Institute of Pharmaceutical Education and Research, India",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Essential Commodities Act",
+        "b": "Essential Commodities Amendment",
+        "c": "Essential Commodities Accessories",
+        "d": "Ethical Commodities Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Drug Price Control Order (DPCO) is an order issued by the Government under the ______ which enables it to fix the prices of some essential bulk and their formulations",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Standing committee",
+        "b": "Registered Medical Practitioner",
+        "c": "Owner of the approved place",
+        "d": "Chief Medical Officer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per the Medical Termination of Pregnancy Act and Rules, the safe custody of ‘Forms’ is with:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Pharmaceutical Pricing Authority",
+        "b": "Director General Health Services",
+        "c": "National Medical Commission",
+        "d": "Pharmacy Council of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who has the power to fix the ceiling price of scheduled formulations?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Two",
+        "b": "Three",
+        "c": "Four",
+        "d": "Five"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Medical devices are classified into how many classes under the Rules?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Termination of pregnancy after foetus is viable",
+        "b": "Termination of pregnancy of less than 12 weeks",
+        "c": "Termination of pregnancy before foetus is viable",
+        "d": "Termination of pregnancy of more than 12 weeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Medical Termination of Pregnancy Act, 1971; the term abortion indicates:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To promote certain types of advertisements related to drugs which mislead public",
+        "b": "To prohibit advertisements related to magic remedies with false claims",
+        "c": "To provide uniform education and training to pharmacists",
+        "d": "To regulate profession of pharmacy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The objective of Drug and Remedies Act is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Section 10",
+        "b": "Section 11",
+        "c": "Section 12",
+        "d": "Section 16"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which section of the Pharmacy Act, 1948 empowers the PCI to prescribe minimum standards of education required for qualification as a pharmacist?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2(xxiii)",
+        "b": "2(ix)",
+        "c": "2(xi)",
+        "d": "2(viii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘psychotropic substance’ is defined in section:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Schedule A",
+        "b": "Schedule J",
+        "c": "Schedule H",
+        "d": "Schedule K"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Diseases prohibited from advertisement under Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 are listed in:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Form MD-10",
+        "b": "Form MD-14",
+        "c": "Form MD-25",
+        "d": "Form MD-26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The application for import licence for a medical device is made in —",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "What is the primary objective of Narcotic Drugs and Psychotropic Substances (NDPS) Act? Explain the procedures for cultivation, manufacture, possession, and transportation of narcotic drugs under the NDPS Act.(2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the objectives and classification of medical devices under the Medical Devices Rules, 2017. Discuss the categories of diseases and conditions for which advertisements are prohibited under Drugs and Magic Remedies (Objectionable Advertisements) Act.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the principles of drug metabolism. Describe Phase I and Phase II reactions with examples of each category.(4+6=10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "Explain classical and non-classical bioisosterism with appropriate examples. Discuss how bioisosterism is applied in drug design to improve pharmacodynamic and pharmacokinetic properties of drugs. (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "Differentiate between rigid and flexible docking. Discuss the concept of pharmacophore mapping and pharmacophore based screening of small molecules.(2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the need and importance of quality control in drugs of natural origin. Describe the chemical classes, sources, and therapeutic uses of flavonoids with examples.(4+6=10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the role of WHO guidelines in maintaining the quality and purity of herbal drugs. Explain the ICH guidelines for stability testing of herbal formulations.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Write about the salient features of Drugs and Magic Remedies Act and its Rules. Describe the general requirements of labeling under Drugs and Cosmetics Act, 1940.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "Define nutraceutical. Explain the health benefits and role of nutraceutical in cardiovascular diseases. Write the possible side effects and interactions of garlic.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "Define and differentiate between adulterated, misbranded and spurious drugs as per the D&C Act. Explain the correponding penalties for these offences.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

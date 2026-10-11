@@ -1,0 +1,1249 @@
+{
+  "slug": "cdpo-2025-home-science-p2",
+  "exam": "Child Development Project Officer (CDPO) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Home Science Technical Paper-II",
+  "source": "CDPO Home Science -Paper-II 2025..pdf",
+  "sourceSha256": "7b45cf546596a0de477f9bd8bd8bb7b6d776104747ea8f5a822f465fa88dea36",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The process of cooking nutritious food",
+        "b": "The process by which the body uses nutrients from food for growth and maintenance",
+        "c": "The amount of food consumed in a day for good health",
+        "d": "The food which provides materials for tissue building"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Definition of nutrition is:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water soluble",
+        "b": "Lipids",
+        "c": "Fat soluble",
+        "d": "Minerals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vitamin A,D,E,K are known as:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcium",
+        "b": "Iron",
+        "c": "Vitamin A",
+        "d": "Sodium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Deficiency of which nutrient can lead to anaemia?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Roasting",
+        "b": "Boiling",
+        "c": "Grilling",
+        "d": "Baking"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Moist-heat cooking method is:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magnesium glycinate",
+        "b": "Lithium iodide",
+        "c": "Potassium iodide",
+        "d": "Sodium bicarbonate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Salt is supplemented by:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Psychrophilic bacteria",
+        "b": "Mesophilic bacteria",
+        "c": "Thermophilic bacteria",
+        "d": "Thermophiles"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kneaded dough left in the refrigerator show gray or black specks due to the activity of:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alcohol to sugar",
+        "b": "Sugar into alcohol",
+        "c": "Proteins into amino acids",
+        "d": "Fats into fatty acids"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Yeast fermentation produces chemical changes in which enzymes produced by the yeast cells converts:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "40-42ºC",
+        "b": "50-52ºC",
+        "c": "60-62ºC",
+        "d": "70-72ºC"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Egg whites coagulate at:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Green leafy vegetables",
+        "b": "Root vegetables",
+        "c": "Fruits",
+        "d": "Meat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sodium nitrite is used for curing and pickling:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sauteing",
+        "b": "Deep frying",
+        "c": "Shallow frying",
+        "d": "Stir frying"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pancakes are prepared by:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Riboflavin",
+        "b": "Vitamin C",
+        "c": "Thiamine",
+        "d": "Niacin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is also known as the ‘appetite vitamin’:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Simple protein",
+        "b": "Derived protein",
+        "c": "Conjugated protein",
+        "d": "Hydrolyzed protein"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Haemoglobin is a:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Linoleic acid",
+        "b": "Oleic acid",
+        "c": "Palmitic acid",
+        "d": "Lauric acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An example of an essential fatty acid is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Riboflavin",
+        "b": "Calcium",
+        "c": "Proteins",
+        "d": "Iodine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Angular stomatitis occurs due to deficiency of:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Excess of phosphorus and vitamin A",
+        "b": "Excess of calcium and Vitamin C",
+        "c": "Excess of calcium and Vitamin D",
+        "d": "Excess of magnesium only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hypercalcemia means:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin D and calcium",
+        "b": "Iron and folic acid",
+        "c": "Vitamin C and protein",
+        "d": "Fat and sugar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Nutrients which  are essential for bone growth in children:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbohydrates and fruits",
+        "b": "Breast milk and infant formula",
+        "c": "Cereals and pulses",
+        "d": "Sugar-rich snacks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main source of energy for infants is:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lysine",
+        "b": "Histidine",
+        "c": "Tryptophan",
+        "d": "Threonine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An essential amino acid and a precursor of niacin is:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxalic acid",
+        "b": "Malic acid",
+        "c": "Oleic acid",
+        "d": "Oxaloacetic acid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It combines with calcium to form an insoluble complex of calcium oxalate which cannot be absorbed:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Red meat",
+        "b": "Chicken",
+        "c": "Liver",
+        "d": "Green leafy vegetables"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It is considered to be the best source of iron:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Body fat based on height and weight",
+        "b": "Muscle mass only",
+        "c": "Bone density",
+        "d": "Bone mineral density"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indicator of BMI :",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weight",
+        "b": "Height",
+        "c": "Body surface area",
+        "d": "Height and weight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BMR depends upon:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Provides energy",
+        "b": "Acts as a solvent and maintains fluid balance",
+        "c": "Builds muscles",
+        "d": "Provides vitamins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Primary function of water in the body:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Regulating fluid balance and nerve-muscle function",
+        "b": "Storing energy",
+        "c": "Producing enzymes",
+        "d": "Building bones only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Electrolytes help in:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin A",
+        "b": "Vitamin B",
+        "c": "Vitamin C",
+        "d": "Vitamin D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Delayed closing of the fontanelle in infants can occur due to the deficiency of:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8%",
+        "b": "10%",
+        "c": "12 %",
+        "d": "15%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the last trimester of pregnancy BMR increases by:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Patient’s age, disease condition, and activity level",
+        "b": "Patient’s taste preference",
+        "c": "Patient’s selection of food",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Factor to be considered while planning a therapeutic diet:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poppy seeds",
+        "b": "Chia seeds",
+        "c": "Argemone seeds",
+        "d": "Sesame seeds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mustard seeds are commonly adulterated with:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5th August 2008",
+        "b": "5th August 2007",
+        "c": "5th August 2006",
+        "d": "5th August 2005"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Food Safety and Standards Authority of India (FSSAI) was established on:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clear fluid diet",
+        "b": "Soft diet",
+        "c": "Full fluid diet",
+        "d": "Semi-fluid diet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This diet should not be continued for more than 24 to 48 hours:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18-22.9 kg/m2",
+        "b": "23-24.9 kg/m2",
+        "c": "25-26.9 kg/m2",
+        "d": "27-28.9 kg/m2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, a person is considered overweight if their Body Mass Index (BMI) is between:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.16g/kg body weight",
+        "b": "1.5gm/kg body weight",
+        "c": "1gm/kg body weight",
+        "d": "2gm/kg body weight"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Protein intake of healthy infants is about:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8gm",
+        "b": "8.5gm",
+        "c": "10.5gm",
+        "d": "12.5gm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RDA for protein for 8-month-old infant is:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lactose",
+        "b": "Galactose",
+        "c": "Glucose",
+        "d": "Maltose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chief carbohydrate in milk is:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2000g",
+        "b": "2200g",
+        "c": "2500g",
+        "d": "2600g"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Low birth weight babies are born with birth weight less than:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cow’s milk",
+        "b": "Breast milk",
+        "c": "Rice cereal",
+        "d": "Fruit juice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For an infant, the ideal first food is:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2500 to 3000 calories",
+        "b": "1500 to 2000 calories",
+        "c": "1000 to 1500 calories",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Energy requirements for adolescent males are:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lack of micronutrients",
+        "b": "Deficiency of proteins and calories",
+        "c": "Excess vitamin intake",
+        "d": "Overhydration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Protein-Energy Malnutrition (PEM) primarily results from:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edema, fatty liver, and growth retardation",
+        "b": "Marasmus-like severe wasting only",
+        "c": "Severe anemia",
+        "d": "Excess weight gain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kwashiorkor is a type of PEM characterized by:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6-8 kg",
+        "b": "8-10 kg",
+        "c": "11-13 kg",
+        "d": "14-16 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Optimal weight gain during pregnancy is about:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Infant mortality rate",
+        "b": "Post natal mortality rate",
+        "c": "Perinatal mortality rate",
+        "d": "Neo natal mortality rate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Number of deaths of infants under 1 week and still-births per 1000 total births is known as:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goitre",
+        "b": "Hyperthyroidism",
+        "c": "Cretinism",
+        "d": "Myxedema"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Congenital iodine deficiency syndrome is also known as:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Child Development Society",
+        "b": "Indian Child Development Scheme",
+        "c": "Infant Care and Development Services",
+        "d": "Integrated Child Development Services"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ICDS stand for:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Provide free textbooks to school students",
+        "b": "Improve nutritional status of school children and combat malnutrition",
+        "c": "Offer scholarships to school students",
+        "d": "Provide school uniform for free"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mid-Day Meal Scheme aims to:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "United Nations",
+        "b": "World Bank",
+        "c": "UNESCO",
+        "d": "WHO"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FAO is a specialized agency of:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2014",
+        "b": "2016",
+        "c": "2018",
+        "d": "2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": ".POSHAN Abhiyaan was launched in the year:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pregnant and lactating women for first living child",
+        "b": "All married women irrespective of pregnancy",
+        "c": "Only adolescent girls",
+        "d": "All children under 5 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "PMMVY provides cash incentives to:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Keratomalacia",
+        "b": "Conjunctival xerosis",
+        "c": "Corneal xerosis",
+        "d": "Xeropthalmia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "It encompasses all ocular manifestations of vitamin A deficiency:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oedema",
+        "b": "Lymphedema",
+        "c": "Ascites",
+        "d": "Hydrocephalus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The accumulation of fluid in the abdomen is known as:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary hypertension",
+        "b": "secondary hypertension",
+        "c": "Gestational hypertension",
+        "d": "Isolated systolic hypertension"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pregnancy induced hypertension is also known as:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "What do you mean by meal planning? Explain the principles of meal planning. What are the steps involved in planning a balanced diet?(2+4+4=10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the advantages of cooking food and how different cooking methods affect its nutritional quality. Differentiate between natural and artificial methods of food preservation with examples. (3+4+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "What do you mean by the term ‘carbohydrates?’ Explain in detail how carbohydrates are classified. (2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "Describe the causes and clinical features of vitamin-A deficiency. What are the good food sources of Vitamin-A?(4+4+2=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "What are the factors affecting BMR? Discuss the role of sodium and potassium in maintaining electrolyte and water balance. How can diet therapy help in the prevention of malnutrition and deficiency diseases? (4+3+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "What are the factors to be considered in planning therapeutic diets? Write on tube feeding and intravenous feeding.(4+3+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "Write the objectives of ICDS program. Mention the National and International agencies working towards foods and nutrition. What are the various schemes relating to maternal nutrition and health? (4+3+3=10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the reasons for increased nutrient requirement during pregnancy. Discuss the general dietary problems of pregnancy.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "What are the objectives and functions of National Institute of Public Cooperation and Child Development? (NIPCCD)(10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the strategies implemented by the Government for the prevention of nutritional anaemia. (10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

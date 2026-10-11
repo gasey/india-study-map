@@ -1,0 +1,1249 @@
+{
+  "slug": "adfd-2025-technical-p1",
+  "exam": "Assistant Director (Food & Drugs) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Technical Paper-I",
+  "source": "Assistant Director Technical Paper-I 2025..pdf",
+  "sourceSha256": "0304f767d6083559b00d1664785c2ca53db21e12c5202ce86186440f219969c7",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cmax",
+        "b": "Tmax",
+        "c": "The area under the plasma level-time curve",
+        "d": "Steady state level"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an important parameter of plasma level time studies?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "True",
+        "b": "False",
+        "c": "None",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A drug with poor stability means higher bioavailability.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zero order reaction.",
+        "b": "Pseudo zero order reaction",
+        "c": "First order reaction",
+        "d": "Second order reaction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When rate is independent of the reactant concentration, it is called:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "t1/2 = A0/2k",
+        "b": "t1/2 = 0.693/2k",
+        "c": "t1/2 = 2k",
+        "d": "t1/2 = 0.693/k"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the half life of first order reaction?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carboxylation",
+        "b": "Decarboxylation",
+        "c": "Hydrolysis",
+        "d": "Oxidation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On a product, the label states ‘protect from light’. What type of decomposition does the product undergo?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "adding a chelating agent",
+        "b": "adding an antioxidant",
+        "c": "protecting it from light",
+        "d": "suppressing its solubility"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Aspirin undergoes decomposition in a formulation. It can be prevented by:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "an air-conditioned area at 10°C",
+        "b": "a refrigerator at 15°C",
+        "c": "a place whose temperature is set at 5°C",
+        "d": "room temperature at 25°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The storage directions of  parenteral solution specify ‘store in a cool place’. This may be stored in:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Accuracy",
+        "b": "Precision",
+        "c": "Span",
+        "d": "Drift"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which term describes the closeness of two or more measurements to each other, regardless of accuracy?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fe3+",
+        "b": "Fluorescein",
+        "c": "Potassium chromate",
+        "d": "Eosin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The indicator used in the Mohr method is–",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To split the beam into two",
+        "b": "To break the steady light into pulsating light",
+        "c": "To filter unwanted components",
+        "d": "To reduce the sample into atomic state"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the function of the Flame or Emission system in Atomic Absorption Spectroscopy?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cold filtration",
+        "b": "Hot filtration",
+        "c": "Vacuum filtration",
+        "d": "Centrifugation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which type of filtration is preferred in gravimetric analysis?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Time taken for sample injection",
+        "b": "Time taken for a compound to travel through the column",
+        "c": "Time taken for column equilibration",
+        "d": "Time taken for detector response"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the term ‘retention time’ refer to in the context of HPLC analysis?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "alpha, beta and gamma subunits",
+        "b": "alpha and beta subunits",
+        "c": "alpha subunits only",
+        "d": "alpha, beta, gamma and delta subunits"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "G proteins are made up of:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A type of hypersensitivity reaction",
+        "b": "A type of drug antagonism",
+        "c": "Unpredictable, inherent, qualitatively abnormal reaction to a drug",
+        "d": "Quantitatively exaggerated response"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Idiosyncratic reaction of a drug is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Type A ADR",
+        "b": "Type B ADR",
+        "c": "Type C ADR",
+        "d": "Type D ADR"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Anaphylaxis is a severe, life-threatening allergic reaction that is classified as a:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increased gastric motility",
+        "b": "Formation of insoluble chelates",
+        "c": "Alteration of gut flora",
+        "d": "Inhibition of P-glycoprotein"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The absorption of tetracycline is significantly reduced when co-administered with antacids or dairy products due to:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CYP2C9",
+        "b": "Thiopurine methyltransferase (TPMT)",
+        "c": "Xanthine oxidase",
+        "d": "Aldehyde dehydrogenase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Allopurinol increases the activity and toxicity of azathioprine and 6-mercaptopurine by inhibiting which enzyme?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Filing a new drug application",
+        "b": "Identifying disease symptoms",
+        "c": "Target identification and validation",
+        "d": "Drug formulation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the initial step in drug discovery?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "W/O emulsions",
+        "b": "Multiple emulsions",
+        "c": "Not emulsions",
+        "d": "O/W emulsions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vanishing creams are ________ emulsions.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram-negative bacteria",
+        "b": "Gram-positive bacteria",
+        "c": "Coronavirus",
+        "d": "Mycotoxins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Endotoxins are a subset of pyrogens that come from ________.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Type I glass",
+        "b": "Type II glass",
+        "c": "Type III glass",
+        "d": "Type IV glass"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Treated soda lime glass for parenteral packaging is classified as a ________.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Levigation",
+        "b": "Trituration",
+        "c": "Spatulation",
+        "d": "Geometric dilution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a small amount of a potent substance is to be mixed with a large amount of diluent, the ________ method is used to ensure the uniform distribution of the potent drug.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2",
+        "b": "100",
+        "c": "10",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A pH of 1 is ________ times more acidic than a pH of 2.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Design Qualification (DQ)",
+        "b": "Operational Qualification (OQ)",
+        "c": "Installation Qualification (IQ)",
+        "d": "Prospective validation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a type of process validation?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "induced dipole interactions",
+        "b": "their high dielectric constants",
+        "c": "acid-base reactions",
+        "d": "hydrogen-bond formations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Non-polar solvents dissolve non-polar solutes through ________.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "oxidation in the presence of air",
+        "b": "hydrolysis in the presence of water",
+        "c": "photolysis in the presence of visible light",
+        "d": "general acid-base catalysis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Drugs having ester and amide labile groups in their molecular structure degraded through ________.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "80%",
+        "b": "90%",
+        "c": "50%",
+        "d": "60%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For pharmaceuticals, Shelf-life (Expiry date) is usually calculated as the time to reduce to ________ of the initial amount.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "highly soluble, highly permeable",
+        "b": "poorly soluble, poorly permeable",
+        "c": "highly soluble, poorly permeable",
+        "d": "poorly soluble, highly permeable"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "BCS Class II drugs are:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50%",
+        "b": "2%",
+        "c": "75%",
+        "d": "18.75%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The AUC of a diclofenac sodium from a 37.5 mg IV dose was 150 mcg.ml⁻¹.hr. When the same dose was given orally, the AUC was found to be 75 mcg.ml⁻¹.hr. The absolute bioavailability will be ________.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "three",
+        "b": "five",
+        "c": "ten",
+        "d": "twelve"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The wash out period during cross-over bioequivalence study design is usually about ________ times the half-life of the drug.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "reduce the particle size",
+        "b": "increase the contact angle",
+        "c": "reduce the bioavailability",
+        "d": "improve the dissolution rates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A solid dispersion technique is used to ________ of poorly soluble drugs.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Syrup",
+        "b": "Elixir",
+        "c": "Liniment",
+        "d": "Tincture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A clear, sweetened hydroalcoholic solution intended for oral use and is usually flavoured to enhance its palatability is called ________.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only I is true",
+        "b": "Only II is true",
+        "c": "Both I and II are false",
+        "d": "Both I and II are true"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements on Water for Injection (WFI): I.The total solid contents of WFI should not be more than 1mg/100 mL of WFI. II.Although water for injection is not required to be sterile, it must be pyrogen-free.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "two doses of standard and two doses of unknown are used",
+        "b": "two standards and two unknowns are used",
+        "c": "two animals are used for standards and unknowns",
+        "d": "only four responses are recorded"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In parallel line bioassay, the minimal design is the 2+2 assay, in which ________.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "probit analysis",
+        "b": "student t-test",
+        "c": "linear regression analysis",
+        "d": "ANOVA test"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The appropriate statistical test for analysing quantal bioassay data would be ________.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cytochrome P-450 isozymes",
+        "b": "Dihydropyrimidine dehydrogenases",
+        "c": "Thiopurine S-methyltransferases",
+        "d": "N-Acetyltransferases"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most abundant and extensively studied phase I drug-metabolizing enzymes are _",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tachyphylaxis",
+        "b": "Drug resistance",
+        "c": "Tolerance",
+        "d": "Antagonism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An appropriate term conventionally used to describe a more gradual decrease in responsiveness of a receptor to a drug, taking days or weeks to develop is ________.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ED/LD",
+        "b": "E/ED 5050max50",
+        "c": "LD/ED",
+        "d": "E/LD 5050max50"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Therapeutic index is calculated as:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "-Adrenoceptor antagonists diminish the effectiveness of -adrenoceptor agonists such as salbutamol",
+        "b": "Warfarin competes with vitamin K, preventing hepatic synthesis of various coagulation factors",
+        "c": "Monoamine oxidase inhibitors increase the amount of noradrenaline stored in noradrenergic nerve terminals and interact dangerously with drugs, such as ephedrine",
+        "d": "Gastrointestinal absorption is slowed by drugs that inhibit gastric emptying, such as atropine or opiates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following examples is not a pharmacodynamic interaction?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drug discovery stage",
+        "b": "Preclinical development stage",
+        "c": "Clinical development stage",
+        "d": "Post-marketing surveillance stage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Toxicity testing, pharmacokinetic analysis and formulation are performed during ________.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GFR test",
+        "b": "Gastruloids test",
+        "c": "Comet Assay",
+        "d": "Ames test"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most widely used in vitro tests for mutagenicity is ________.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solvents with low toxic potential",
+        "b": "Solvents to be limited",
+        "c": "Solvents to be avoided",
+        "d": "Solvents with strong odour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to ICH Guideline on impurities (Q3C), Class 1 solvents are:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bidentate ligand",
+        "b": "tridentate ligand",
+        "c": "hexadentate ligand",
+        "d": "tetradentate ligand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most commonly used chelating agent in complexometric titrations, EDTA is a ________.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "adjustment of the pH of the solution",
+        "b": "to make larger crystals",
+        "c": "to remove the moisture",
+        "d": "to remove the impurities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The purpose of digestion in gravimetry is ________.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "concentration only",
+        "b": "path length only",
+        "c": "concentration and path length",
+        "d": "wavelength only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to the Beer-Lambert’s law, absorbance is directly proportional to the ________.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Helium",
+        "b": "Argon",
+        "c": "Nitrogen",
+        "d": "Hydrogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In gas chromatography, ________  remains the most commonly used carrier gas in about 90% of instruments.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Flame Ionization Detector",
+        "b": "Thermal Conductivity Detector",
+        "c": "Electron Capture Detector",
+        "d": "Flame Photometric Detector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This GC detector is also known as Katharometer.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UV-Vis detector",
+        "b": "Light scattering detector",
+        "c": "Refractive index detector",
+        "d": "Fluorescence detector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which HPLC detector is used in the analysis of carbohydrates?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "non-polar",
+        "b": "polar",
+        "c": "ionic",
+        "d": "surfactants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For normal phase HPLC, the mobile phase is ________.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10:1",
+        "b": "3:1",
+        "c": "1:10",
+        "d": "1:3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "To determine the Limit of Detection (LOD), the signal-to-noise ratio of the peak of analyte of interest in the sample should be at ________.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the relationship between a drug’s pKa and its pH-dependent solubility. Describe the methods used for measuring tonicity.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the types of excipients used in tablet formulation, including diluents, binders, disintegrants, and lubricants. Also discuss the importance of content uniformity and weight variation tests for tablets. (10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "What are the main components of a UV visible spectrophotometer? What is the effect of solvent on the absorption of UV visible spectroscopy?(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "What are the various sources of impurities in pharmaceutical substances? How can impurities be minimized in pharmaceutical production? Why is it important to control impurities in pharmaceuticals? (10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "Explain the G- Protein – coupled receptors and transmembrane enzyme link receptors in detail with examples.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "Explain in detail the different phases for clinical evaluation of new drug molecules.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "What is the principle of Bioassay? What are the different types of bioassay with their specific applications?(10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Explain NDA and ANDA in drug approval process. Explain and differentiate adverse drug events (ADEs) and adverse drug reactions (ADRs).(6+4=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the pharmacopoeial tests for quality control of tablet dosage form.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "How will you differentiate calibration from validation? Explain chromophores and auxochromes in the context of UV-Vis spectroscopy, providing suitable examples.(6+4=10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

@@ -29,6 +29,9 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | aao-2024-arithmetic | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=3 |
 | aao-2024-english | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=1 |
 | aao-2024-gk | 100 | /papers/group-b/keys/final-answer-key-of-assistant-audit-accounts-officer-and-assistant-accounts-officer-under-finance-dept.pdf#page=2 |
+| adfd-2025-technical-p1 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=3 |
+| adfd-2025-technical-p2 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=4 |
+| adfd-2025-technical-p3 | 50 | /papers/group-b/keys/adfd-2025-final-key.pdf#page=5 |
 | archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440 | 100 | /papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf |
 | archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde | 66 | /papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf |
 | archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208 | 66 | /papers/group-b/keys/acm-2026-final-key.pdf |
@@ -68,6 +71,13 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | archive2325-lecturer-vse-general-studies-paper-iii-c-2025 | 100 | /papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=15 |
 | archive2325-lecturer-vse-general-studies-paper-iii-d-2025 | 100 | /papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=16 |
 | archive2325-technical-officer-scert-general-studies-april-2025 | 100 | /papers/group-b/keys/scert-gs-final-key.pdf |
+| cdpo-2025-gs | 100 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=2 |
+| cdpo-2025-home-science-p1 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=3 |
+| cdpo-2025-home-science-p2 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=4 |
+| cdpo-2025-home-science-p3 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=5 |
+| cdpo-2025-social-work-p1 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=6 |
+| cdpo-2025-social-work-p2 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=7 |
+| cdpo-2025-social-work-p3 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=8 |
 | co-2026-p1 | 60 | /papers/group-b/keys/co-2026-final-key.pdf#page=1 |
 | co-2026-p2 | 100 | /papers/group-b/keys/co-2026-final-key.pdf#page=3 |
 | inspector-excise-2025-gs1 | 50 | /papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=2 |

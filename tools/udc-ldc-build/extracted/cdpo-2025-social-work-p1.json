@@ -1,0 +1,1253 @@
+{
+  "slug": "cdpo-2025-social-work-p1",
+  "exam": "Child Development Project Officer (CDPO) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Social Work Technical Paper-I",
+  "source": "CDPO Social Works -Paper-I 2025..pdf",
+  "sourceSha256": "fccf4c3692ed5419faf3a79f0fafef4e04791dd4cdcdd1de0028e57fdbb5ee8f",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Profit maximization",
+        "b": "Social justice",
+        "c": "Individualism",
+        "d": "Counselling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is a fundamental value in the field of social work?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Corporate Code of Ethics",
+        "b": "The NASW Code of Ethics",
+        "c": "The Legal Code of Ethics",
+        "d": "The Medical Code of Ethics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which code of ethics serves as a guide for ethical practice in social work?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Clients have no say in their treatment.",
+        "b": "Social workers make all decisions for clients.",
+        "c": "Clients have the right to make choices about their own lives.",
+        "d": "Clients must follow the recommendations of the social worker."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In social work, the principle of self-determination means:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The individual’s internal struggles",
+        "b": "Considering the influence of individuals on their environment",
+        "c": "Considering the interaction between individuals and their environment",
+        "d": "The environmental influence on individuals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The person-in-environment perspective in social work emphasizes:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary Groups",
+        "b": "Treatment Groups",
+        "c": "Task Groups",
+        "d": "Recreational Groups"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Groups where members are brought together to accomplish tasks within a specified time period, are known as:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International social work practice",
+        "b": "Integrated social work practice",
+        "c": "Specialized social work practice",
+        "d": "Case Intake"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Equifinality is a concept used in:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To prove the superiority of one social work approach over others.",
+        "b": "To enhance the academic credentials of social workers.",
+        "c": "To justify the actions of social workers.",
+        "d": "To inform evidence-based practice and policy."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary purpose of social work research?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social workers should protect the privacy of client information.",
+        "b": "Social workers should share client information without consent.",
+        "c": "Social workers should disclose all client information to the public.",
+        "d": "Social workers should use client information for personal gain."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principle of confidentiality in social work means that:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Respect for diversity",
+        "b": "Social justice",
+        "c": "Autonomy of the social worker",
+        "d": "Human dignity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a value commonly associated with social work?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social Casework",
+        "b": "Community Organization",
+        "c": "PRA",
+        "d": "Social Group Work"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘triad’ is associated with:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hull House",
+        "b": "Toynbee Hall",
+        "c": "The Chicago Commons",
+        "d": "The Henry Street Settlement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the first settlement house in the United States?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Medical model of social work",
+        "b": "Charity-based approach",
+        "c": "Public health social work",
+        "d": "Traditional counseling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which emerging trend in social work emphasizes the importance of addressing the social determinants of health?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Providing individual therapy in a community setting",
+        "b": "Empowering communities to advocate for change and address social issues",
+        "c": "Imposing solutions on communities without their input",
+        "d": "Avoiding community involvement in social work practice"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘community organizing’ in social work involves:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charity organisation society",
+        "b": "Neighbourhood guild",
+        "c": "Toynbee Hall",
+        "d": "Hull house"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first settlement house was known as:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Albert Bandura",
+        "b": "Thorndike",
+        "c": "Ivan Pavlov",
+        "d": "Eric Berne"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Social learning theory is associated with:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sublimation",
+        "b": "Displacement",
+        "c": "Regression",
+        "d": "Denial"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Someone who is frustrated by his superiors may go home and abuse his wife. This is an example of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Class and Estate",
+        "b": "Society and Community",
+        "c": "Caste and Class",
+        "d": "Family and Kinship"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The two main forms of social stratification are:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "H.H. Perlman",
+        "b": "Mary Richmond",
+        "c": "Trecker",
+        "d": "Herbert Bisno"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book, ‘Social Diagnosis’ was written by:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ivan Pavlov",
+        "b": "Sigmund Freud",
+        "c": "Abraham Maslow",
+        "d": "Thorndike"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Classical conditioning was propagated by:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Treatment",
+        "b": "Assessment",
+        "c": "Study",
+        "d": "Content Analysis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a part of social case work process?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Progressive programme experience",
+        "b": "Specific objectives",
+        "c": "Group experiments",
+        "d": "Continuous evaluation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a principle of group work?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Storage capacity and Biographical information",
+        "b": "Semantic information and Processing capacity",
+        "c": "Storage capacity and Processing capacity",
+        "d": "Biographical information and Semantic information"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Working memory involves which of the following:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physical",
+        "b": "Occupational",
+        "c": "Mental",
+        "d": "Social"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following dimensions is not included in the definition of ‘Health’ by the World Health Organization (WHO)?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Interview",
+        "b": "Observation",
+        "c": "Case study",
+        "d": "Participatory Rural Appraisal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which technique of qualitative data collection is followed by researcher to understand people and their behaviour through direct, focused and non-verbal interaction in their natural setting?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Confidential information",
+        "b": "Individual therapy goals",
+        "c": "Behavioral expectations within the group",
+        "d": "Legal requirements for the group"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Social Group Work, what does the term ‘norms’ refer to?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Collecting and analyzing information about the client’s situation and needs",
+        "b": "Implementing interventions",
+        "c": "Terminating the relationship with the client",
+        "d": "Ignoring the client’s perspective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of assessment in social case work involves:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It allows for more assessment time",
+        "b": "It assesses the client’s issues in depth",
+        "c": "It prolongs the intervention",
+        "d": "It provides closure and summarizes progress made"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In social case work, the termination phase is essential because:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Building a working relationship with the client",
+        "b": "Solving the client’s problems immediately",
+        "c": "Assessing the client’s problems thoroughly",
+        "d": "Setting long-term goals for the client"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary goal of the engagement phase in social case work?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supportive, Meaningful, Analytical, Realistic, Targeted",
+        "b": "Specific, Measurable, Achievable, Relevant, Time-bound",
+        "c": "Structured, Manageable, Appropriate, Resourceful, Timely",
+        "d": "Strategic, Motivational, Actionable, Result-oriented, Task-oriented"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does the acronym ‘SMART’ stand for in the context of setting goals?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dictating community policies",
+        "b": "Imposing decisions on the community",
+        "c": "Ignoring community input",
+        "d": "Evaluating the strengths and needs of a community"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A community assessment in social work involves:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Friendly Almoners",
+        "b": "Friendly Visitors",
+        "c": "Friendly Workers",
+        "d": "Friendly Helpers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Social Workers were initially called:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Community engagement",
+        "b": "Community exclusion",
+        "c": "Community isolation",
+        "d": "Community control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which concept in community work refers to the active involvement and participation of community members in decision-making processes?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The financial resources within a community",
+        "b": "The networks, relationships, and connections within a community that can be valuable resources",
+        "c": "The community members",
+        "d": "The natural and spatial resources of the community"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘social capital’ in community work refers to:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ensuring community participation and inclusivity",
+        "b": "Community leaders’ experiences",
+        "c": "Consulting Community Experts",
+        "d": "Decision of the majority"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ethical consideration is vital in community work?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The imposition of decisions on the community",
+        "b": "Conflict among certain community groups",
+        "c": "The degree of social control in a community",
+        "d": "The degree of unity and connectedness among community members"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘community cohesion’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Resistance to change within the community",
+        "b": "Enforcing decisions on the community",
+        "c": "Ignoring community needs",
+        "d": "Imposing a single perspective on the community"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a significant challenge in community work?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charitable actions for the poor",
+        "b": "Including women",
+        "c": "Ensuring that all community members are involved and have access to resources and opportunities",
+        "d": "Research based Community development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘social inclusion’ emphasizes:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Policy advocacy",
+        "b": "Social service provision",
+        "c": "Discrimination",
+        "d": "Segregation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which approach in community work focuses on changing social policies and systems to address community needs?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Erik Erikson",
+        "b": "Abraham Maslow",
+        "c": "Urie Bronfenbrenner",
+        "d": "Sigmund Freud"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which theorist is known for the ecological systems perspective?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Beggary",
+        "b": "White collar crimes",
+        "c": "Trafficking in Human Beings or Persons",
+        "d": "Sexual offenses against children"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Constitution of India under Article 23 (1) prohibits:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Individual level",
+        "b": "Community and organizational level",
+        "c": "Family level",
+        "d": "International level"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘micro-macro-mezzo’ framework is often used in social work. What does ‘mezzo’ refer to in this context?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mary Ellen Richmond",
+        "b": "Frances Perkins",
+        "c": "Charlotte Perkins Gilman",
+        "d": "Jane Addams"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which influential social worker and sociologist was known for her work in urban planning and community organization?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The closure of orphanages and asylums in favor of community-based care",
+        "b": "The expansion of institutional care for vulnerable populations",
+        "c": "The promotion of large-scale, centralized institutions",
+        "d": "The emergence of private philanthropic organizations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘de-institutionalization’ in social work history refers to:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "East India Company",
+        "b": "Muslim League",
+        "c": "Raja Ram Mohan Roy",
+        "d": "Christian Missionaries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the factors responsible for the early social reforms in India were:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Disempowering clients to protect them from harm",
+        "b": "Equitable distribution of resources",
+        "c": "The exclusion of marginalized groups",
+        "d": "Motivating individuals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘empowerment’ in social work emphasizes:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equality",
+        "b": "Oppression and discrimination",
+        "c": "Privilege",
+        "d": "Cultural assimilation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘intersectionality’ in social work recognizes that individuals may face multiple forms of:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Individual medical conditions",
+        "b": "Genetic factors",
+        "c": "Environmental and social barriers",
+        "d": "Lack of access to healthcare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘social model of disability’ in social work highlights that disability is primarily a result of:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social justice",
+        "b": "Advocacy and rights",
+        "c": "Rehabilitation and recovery",
+        "d": "Duty and moral obligation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of “dharma” in ancient Indian culture relates to which aspect of social work?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1905",
+        "b": "1913",
+        "c": "1920",
+        "d": "1936"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first professional school of social work in India was established in which year?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Keshab Chandra Sen",
+        "b": "Raja Ram Mohan Roy",
+        "c": "Dwarknath Tagore",
+        "d": "Sasipada Banerjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ is the founder of the Brahmo Samaj.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the impact of Gandhian Philosophy on Professional Social Work.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Critically examine the Strengths perspective in Social Work.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "Examine the core values of Social Work.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "What is the purpose of working with groups? Examine the techniques of Social Group Work. (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the principles of Social Casework with suitable examples.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "Define Social Welfare Administration. Explain the principles of social welfare administration with examples.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "Write short notes on any two the following:(5+5=10)",
+      "subparts": {
+        "a": "Substance Use Disorder",
+        "b": "Sexual Offenses",
+        "c": "Gender Inequality"
+      }
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Distinguish between community work and community organisation in social work.(5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss any one type of research design with examples.(10)",
+      "subparts": {}
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "Differentiate between direct and indirect practice in Social Work.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 3 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

@@ -875,6 +875,116 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-cdpo-2025-gs",
+    "exam": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025",
+    "sitting": "November 2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Home Science Technical Paper-I",
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Home Science Technical Paper-II",
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Home Science Technical Paper-III",
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Social Work Technical Paper-I",
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Social Work Technical Paper-II",
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "exam": "Child Development Project Officer (CDPO) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Social Work Technical Paper-III",
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf",
+    "keyHref": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1",
+    "exam": "Assistant Director (Food & Drugs) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Technical Paper-I",
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf",
+    "keyHref": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2",
+    "exam": "Assistant Director (Food & Drugs) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Technical Paper-II",
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf",
+    "keyHref": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3",
+    "exam": "Assistant Director (Food & Drugs) - November-2025",
+    "sitting": "November 2025",
+    "subject": "Technical Paper-III",
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf",
+    "keyHref": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
     "sitting": "May 2025",

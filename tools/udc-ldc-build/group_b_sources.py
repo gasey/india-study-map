@@ -120,6 +120,16 @@ GENERAL_PAPERS = [
  ('inspector-excise-2025-gs1', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-I', 'General Studies Paper-I - Inspector of Excise-2025..pdf'),
  ('inspector-excise-2025-gs2', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-II', 'General Studies Paper-II - Inspector of Excise-2025..pdf'),
  ('inspector-excise-2025-gs3', 'Inspector of Excise under Excise & Narcotics Dept.-August-2025', 'August 2025', 'General Studies Paper-III', 'General Studies Paper-III - Inspector of Excise-2025..pdf'),
+ ('cdpo-2025-gs', 'Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'General Studies', 'CDPO General Studies-2025..pdf'),
+ ('cdpo-2025-home-science-p1', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Home Science Technical Paper-I', 'CDPO Home Science -Paper-I 2025..pdf'),
+ ('cdpo-2025-home-science-p2', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Home Science Technical Paper-II', 'CDPO Home Science -Paper-II 2025..pdf'),
+ ('cdpo-2025-home-science-p3', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Home Science Technical Paper-III', 'CDPO Home Science -Paper-III 2025..pdf'),
+ ('cdpo-2025-social-work-p1', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Social Work Technical Paper-I', 'CDPO Social Works -Paper-I 2025..pdf'),
+ ('cdpo-2025-social-work-p2', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Social Work Technical Paper-II', 'CDPO Social Works -Paper-II 2025..pdf'),
+ ('cdpo-2025-social-work-p3', 'Child Development Project Officer (CDPO) - November-2025', 'November 2025', 'Social Work Technical Paper-III', 'CDPO Social Works -Paper-III 2025..pdf'),
+ ('adfd-2025-technical-p1', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-I', 'Assistant Director Technical Paper-I 2025..pdf'),
+ ('adfd-2025-technical-p2', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-II', 'Assistant Director Technical Paper-II 2025..pdf'),
+ ('adfd-2025-technical-p3', 'Assistant Director (Food & Drugs) - November-2025', 'November 2025', 'Technical Paper-III', 'Assistant Director Technical Paper-III 2025.pdf'),
  ('si-fcs-2025-p1', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General English', 'Paper-I General English (Series A)..pdf'),
  ('si-fcs-2025-p2', 'Sub-Inspector FCS&CA / Receptionist H&FW', 'May 2025', 'General Knowledge, Arithmetic & Reasoning', 'Paper-II (Series A)..pdf'),
  ('aao-2025-p1', 'AAO / AAAO / Field Facilitator', 'November 2025', 'General English', 'General English - Series A..pdf'),
@@ -413,6 +423,10 @@ GENERAL_ARCHIVE_FOLDERS = {
  'inspector-stats-2017-english': 'Direct_2014-2018', 'steno2-2015-english': 'Direct_2014-2018', 'steno2-2015-gk': 'Direct_2014-2018',
  'mimer-labtech-2018-english': 'Direct_2014-2018',
  'inspector-excise-2025-gs1': 'Direct_2025-2027', 'inspector-excise-2025-gs2': 'Direct_2025-2027', 'inspector-excise-2025-gs3': 'Direct_2025-2027',
+ 'cdpo-2025-gs': 'Direct_2025-2027', 'cdpo-2025-home-science-p1': 'Direct_2025-2027', 'cdpo-2025-home-science-p2': 'Direct_2025-2027',
+ 'cdpo-2025-home-science-p3': 'Direct_2025-2027', 'cdpo-2025-social-work-p1': 'Direct_2025-2027', 'cdpo-2025-social-work-p2': 'Direct_2025-2027',
+ 'cdpo-2025-social-work-p3': 'Direct_2025-2027', 'adfd-2025-technical-p1': 'Direct_2025-2027', 'adfd-2025-technical-p2': 'Direct_2025-2027',
+ 'adfd-2025-technical-p3': 'Direct_2025-2027',
 }
 
 
@@ -694,6 +708,22 @@ def build_additional():
             # 2/3/4, plus corrigendum (11 September 2025) setting Paper-III
             # Q49 = C. Items 48/49 of Paper-III are picture-figure questions and
             # stay held; the remaining text items score once source-reviewed.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'cdpo-2025-gs' and key:
+            # Cover: combined CDPO / Assistant Director (Food & Drugs) exam,
+            # November-2025, General Studies, 2 hours, FM 100, 1 mark each. Key:
+            # the final CDPO answer key's General Studies section (which the
+            # separate final Assistant Director (Food & Drugs) key reproduces
+            # identically for the shared paper).
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('cdpo-2025-home-science-', 'cdpo-2025-social-work-', 'adfd-2025-technical-')) and key:
+            # Covers: November-2025 technical papers, 3 hours, FM 200; Section-A
+            # conventional (100 marks) plus Section-B with 50 one-answer MCQs in
+            # 100 marks (2 marks each). No negative-marking rule is printed. Key:
+            # the final CDPO key (Home Science / Social Work sections) and the
+            # final Assistant Director (Food & Drugs) key (Technical sections).
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:

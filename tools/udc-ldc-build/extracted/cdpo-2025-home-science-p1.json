@@ -1,0 +1,1255 @@
+{
+  "slug": "cdpo-2025-home-science-p1",
+  "exam": "Child Development Project Officer (CDPO) - November-2025",
+  "sitting": "November 2025",
+  "subject": "Home Science Technical Paper-I",
+  "source": "CDPO Home Science -Paper-I 2025..pdf",
+  "sourceSha256": "b2246047ec51303b2b84a9632dcffc27331128ea3bdb7f0d6f25c651845c398a",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Learning",
+        "b": "Experience",
+        "c": "Working",
+        "d": "Maturity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘development’ means a progressive series of changes that occurs as a result of maturation and-",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "One-third",
+        "b": "Two-third",
+        "c": "One-fourth",
+        "d": "One-fifth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The infant’s head compared to the body length is:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The onset of true labour pain",
+        "b": "Complete dilation of the cervix",
+        "c": "The delivery of the placenta",
+        "d": "The rupture of membranes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Beginning of the second stage of labour.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lightening",
+        "b": "Quickening",
+        "c": "Crowning",
+        "d": "Flexion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Correct term for when the baby’s head becomes visible at the vaginal opening.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Caesarean section",
+        "b": "Forceps delivery",
+        "c": "Episiotomy",
+        "d": "Ventouse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An incision made through the skin and muscles in the perineum to enlarge the vaginal opening is called:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forceps delivery",
+        "b": "Vaginal birth",
+        "c": "Caesarean section",
+        "d": "Ventouse delivery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The surgical delivery of a baby through an incision in the mother’s abdomen and uterus.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Head to foot",
+        "b": "Inner to outer",
+        "c": "Toe to tip",
+        "d": "Foot to Head"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cephalocaudal law maintains that development spreads over the body from:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prolactin",
+        "b": "Estrogen",
+        "c": "Oxytocin",
+        "d": "Progesterone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hormone used to induce labour.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brain",
+        "b": "Bones",
+        "c": "Reflexes",
+        "d": "Muscles and Fats"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ossification takes place in the:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Society",
+        "b": "Family",
+        "c": "Peers",
+        "d": "Environment"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heredity provides the raw material from which a person is made. How the material is moulded, and what becomes depend chiefly on:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Infancy",
+        "b": "Early Childhood",
+        "c": "Middle childhood",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Make- believe play age:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anxiety and depression",
+        "b": "Enhanced skill development",
+        "c": "Development of Autism",
+        "d": "Retarded physical development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Emotional developmental challenges in children may lead to:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gang age",
+        "b": "Preparatory age",
+        "c": "Pregang age",
+        "d": "Preliminary age"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Preschool age is also known as the:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1975",
+        "b": "2000",
+        "c": "2013",
+        "d": "2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Implementation of national ECCE.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parallel play",
+        "b": "Solitary play",
+        "c": "Group play",
+        "d": "Amusements"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Play where enjoyment is derived from watching the activities of others is known as:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fine Muscle Development",
+        "b": "Eye-hand coordination",
+        "c": "Large muscle development",
+        "d": "Stability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Activities requiring running, jumping, balancing, and cycling should be provided for:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rate of development.",
+        "b": "rate of life.",
+        "c": "rate of speed.",
+        "d": "rate of growth"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Early years are critical in any child’s life span since the_______ is more rapid than at any other stage of development.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reaching full and advanced development",
+        "b": "Learning from experiences",
+        "c": "Physical development",
+        "d": "Motor development"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Maturation refers to:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2020",
+        "b": "2030",
+        "c": "2040",
+        "d": "2050"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Timeline for universal provisioning of quality early childhood development, care, and education proposed by NEP.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fine Muscle Development",
+        "b": "Eye-hand coordination",
+        "c": "Large muscle development",
+        "d": "Stability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Activities like cutting, pasting, tearing, stringing the beads, fixing the puzzles, playing with blocks, and playing with clay, sand, and water lead to:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hormonal activity",
+        "b": "Growth hormones",
+        "c": "Gonads",
+        "d": "Pituitary glands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Changes in sexual functioning during adolescence can be traced to:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "menstruation",
+        "b": "menarche",
+        "c": "ovulation",
+        "d": "none of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The reproductive phase in women is from _____ to menopause.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social adjustment",
+        "b": "School life",
+        "c": "Emotional adjustment",
+        "d": "Romance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the most difficult developmental tasks of adolescence relates to:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "“Save the Girl Child, Educate the Girl Child”",
+        "b": "“Empower Women, Empower the Nation”",
+        "c": "“Health for Her, Education Forever”",
+        "d": "“Educate All, Save All”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which slogan is associated with the Beti Bachao Beti Padhao campaign.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Testosterone",
+        "b": "Progesterone",
+        "c": "Estrogen",
+        "d": "Melatonin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "This hormone is responsible for secondary sexual characteristics in males.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Osteopathy",
+        "b": "Osteoarthritis",
+        "c": "Osteomyelitis",
+        "d": "Osteoporosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The condition in which the bones become thin and brittle as a result of rapid calcium depletion is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Alzheimer’s disease",
+        "b": "Parkinson’s disease",
+        "c": "Dementia",
+        "d": "Multiple sclerosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The progressive, irreversible degenerative neurological disorder, characterized by tremor, stiffness, slowed movement and unstable posture is termed as:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Deepening of voice",
+        "b": "Enlargement of breasts",
+        "c": "Growth of hair at armpit",
+        "d": "Menstruation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following changes do not occur in females during puberty.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promoting women’s sports",
+        "b": "Encouraging entrepreneurship among women",
+        "c": "Combating female foeticide and promoting the education of the girl child",
+        "d": "Enhancing healthcare for women"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Primary objective of the Beti Bachao Beti Padhao initiative.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arthritis",
+        "b": "Aphasia",
+        "c": "Gout",
+        "d": "Scoliosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Disorders affecting the joints, causing pain and loss of movement is:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Providing financial aid to all families",
+        "b": "Supporting only orphans and abandoned children",
+        "c": "Encouraging child labour for economic growth",
+        "d": "Ensuring the well-being and protection of children"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What does child welfare primarily focus on:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Health of the mother",
+        "b": "Clinical",
+        "c": "Health of the child",
+        "d": "Immunization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The initial objective of Family Welfare Programmes was:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Maternal under-nutrition",
+        "b": "Age of the mothers",
+        "c": "Health of the mothers",
+        "d": "Weight of the mothers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The common cause for low birth weight of babies is:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adventurous",
+        "b": "Stimulating",
+        "c": "Daring",
+        "d": "Challenging"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Anganwadi worker or preschool teacher must ensure that the outdoor space for the children must be:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Settle family dispute",
+        "b": "Train the youth",
+        "c": "Educate women",
+        "d": "Manage older person"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Family counseling provides services to:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Orthopaedically handicapped",
+        "b": "Social handicapped",
+        "c": "Visually handicapped",
+        "d": "Difficulty in body movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sensory handicapped refers to:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rehabilitative",
+        "b": "Reformative",
+        "c": "Counselling",
+        "d": "Retribution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The nature of the Juvenile Justice Act, 2000 is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1943",
+        "b": "1944",
+        "c": "1945",
+        "d": "1946"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "UNICEF was created in the year:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2000",
+        "b": "2005",
+        "c": "2010",
+        "d": "2020"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Domestic Violence Act was enacted in the year:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Child abuse",
+        "b": "Child life",
+        "c": "Child’s rights",
+        "d": "Child care"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Intentional psychological and physical injuries caused to a child is known as:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Poverty Alleviation",
+        "b": "Women Empowerment",
+        "c": "Child Development and Nutrition",
+        "d": "Environmental Conservation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Primary objective of the ICDS program:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To provide healthcare services",
+        "b": "To offer vocational training",
+        "c": "To promote early childhood care and development",
+        "d": "To facilitate adult education"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The purpose of Anganwadi Centers under ICDS:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mathematics area",
+        "b": "Block building area",
+        "c": "Circle time area",
+        "d": "Reading area"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the other name of the manipulative area in preschool or Aganwadi?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hearing impairement",
+        "b": "Visual impairment",
+        "c": "Speech difficulty",
+        "d": "All the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Braille is used by person having:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enrich environment",
+        "b": "Low level Curriculum",
+        "c": "Individualized instructions",
+        "d": "Play methods"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which approach is suitable for the education of mentally retarded children:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All women",
+        "b": "Pregnant women and lactating mothers",
+        "c": "Working mothers with newborns",
+        "d": "Women who are the sole breadwinners of the family"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Pradhan Mantri Matru Vandana Yojana’ was launched to provide financial assistance to:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Midday Meal Scheme",
+        "b": "Swachh Bharat Abhiyan",
+        "c": "National Rural Employment Guarantee Scheme",
+        "d": "Pradhan Mantri Awas Yojana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Component of the ICDS program:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Difficulty in communication",
+        "b": "Visual problem",
+        "c": "Deaf",
+        "d": "Difficulty in body part movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Orthopaedically handicapped children are those who have:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Snellen Chart",
+        "b": "Histogram",
+        "c": "Pie Chart",
+        "d": "Bar graph"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chart which is commonly based to  measure visual acuity:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "B",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chronic medical illness",
+        "b": "Mental retardation",
+        "c": "Occupation of the family",
+        "d": "Poor emotional climate of the family"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Factor which is not responsible to educational backwardness of the child:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "A",
+      "page": 1,
+      "text": "Define human development. What are the principles of human development.(2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss the stages of prenatal development and conditions affecting prenatal development. (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "A",
+      "page": 1,
+      "text": "What is creativity? How would you foster creativity in a child?(2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "A",
+      "page": 1,
+      "text": "What is the primary mission and the reasons for introduction of Beti Bachao, Beti Padhao scheme? (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "A",
+      "page": 1,
+      "text": "Write the procedure of JJ Act, 2000.",
+      "subparts": {
+        "a": "When a child comes in conflict with the law?(5)",
+        "b": "A child in need of care and protection.(5)"
+      }
+    },
+    {
+      "n": 6,
+      "part": "A",
+      "page": 1,
+      "text": "Who are the physically disabled? Explain the different kinds of disabilities and their management. (2+8=10)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "A",
+      "page": 1,
+      "text": "Why is early years education important? Expand on this topic  by discussing the holistic development (cognitive, physical, social-emotional) that Early Childhood Care and Education (ECCE) supports. (10)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "A",
+      "page": 1,
+      "text": "Discuss any five problems faced by an adolescent and suggest measures to solve these problems. (5+5=10)",
+      "subparts": {}
+    },
+    {
+      "n": 9,
+      "part": "A",
+      "page": 1,
+      "text": "(a)Analyse the primary psychological and social challenges of establishing independence in early",
+      "subparts": {
+        "a": "Analyse the primary psychological and social challenges of establishing independence in early adulthood such as career development, forming intimate relationships, and creating a stable life.(5)",
+        "b": "Evaluate the impact of the Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA) in reducing maternal and neo-natal mortality in India.(5)"
+      }
+    },
+    {
+      "n": 10,
+      "part": "A",
+      "page": 1,
+      "text": "Analyse the effectiveness of the Integrated Child Development Scheme (ICDS)  in improving the health and nutrition of children and mothers.(10)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p1, part A): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q6 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q9 (p1, part A): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q10 (p1, part A): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "B": []
+  }
+}

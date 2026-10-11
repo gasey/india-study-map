@@ -1,3 +1,38 @@
+## 11 October 2026 — CDPO / Assistant Director (Food & Drugs) Nov-2025: +538
+
+Imported the combined November-2025 exam for **Child Development Project Officer
+(CDPO)** and **Assistant Director (Food & Drugs)**. Its General English and
+General Studies papers are shared between the two posts; the technical papers are
+post-specific (CDPO: Home Science / Social Work Paper-I/II/III; AD(F&D):
+Technical Paper-I/II/III). Every source paper is native text.
+
+The shared General English paper already existed in the library under the AD
+(Food & Drugs) entry (the CDPO-labelled download is byte-identical), so the 10
+new papers are: the shared General Studies (100 Q) plus six CDPO technical papers
+and three AD (Food & Drugs) technical papers (50 Q each).
+
+Keys: the final CDPO key carries General English, General Studies, Home Science
+I/II/III and Social Work I/II/III; the separate final AD (Food & Drugs) key
+carries General English, General Studies and Technical I/II/III. Both final keys
+reproduce the shared General English and General Studies sections identically.
+Each section was read from a 300 dpi render with tesseract and independently
+cross-checked against the key's own `OCR` text layer; the two reads agree on
+every captured cell. The final key also agrees with the provisional key except
+where the Commission changed an answer (e.g. General Studies 34/35/60), and those
+final values were read from the printed numbers in the cell.
+
+Two cells are held: Social Work Paper-III Q27/28/30/31/32 are printed
+*Compensated* (no answer published), and AD (Food & Drugs) Technical Paper-III
+Q5 shows an unexplained extra `(C)` beside the printed `(B)` and is left
+unscored. Both are registered as `null` key cells, which the build marks
+`compensated:true`/held while the rest of each paper scores. Covers: General
+Studies 2 hours/100 marks/1 mark each; technical papers 3 hours/FM 200 with a
+50-question Section-B at 2 marks each; no negative marking printed.
+
+Session delta: bank 6,688 → 7,226 practice-ready (+538; 5,220 official-backed);
+records 22,833 → 23,473. 72 registered keys. Tests (25) pass, `tsc --noEmit` and
+`git diff --check` clean.
+
 ## 11 October 2026 — Lecturer (VSE)/VGO 2025 key unlocks 12 GS papers (+933)
 
 While confirming on-disk keys against printed covers, found that the single

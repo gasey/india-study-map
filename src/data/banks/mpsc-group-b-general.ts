@@ -685,6 +685,106 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/inspector-excise-2025-gs3.pdf"
   },
   {
+    "id": "mpsc-group-b-cdpo-2025-gs",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025",
+    "post": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-gs.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Home Science Technical Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-home-science-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Home Science Technical Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-home-science-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Home Science Technical Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-home-science-p3.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Social Work Technical Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-social-work-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Social Work Technical Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-social-work-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "examType": "Direct_NG",
+    "examName": "Child Development Project Officer (CDPO) - November-2025",
+    "post": "Child Development Project Officer (CDPO) - November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Social Work Technical Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/cdpo-2025-social-work-p3.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Food & Drugs) - November-2025",
+    "post": "Assistant Director (Food & Drugs) - November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Technical Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/adfd-2025-technical-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Food & Drugs) - November-2025",
+    "post": "Assistant Director (Food & Drugs) - November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Technical Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/adfd-2025-technical-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3",
+    "examType": "Direct_NG",
+    "examName": "Assistant Director (Food & Drugs) - November-2025",
+    "post": "Assistant Director (Food & Drugs) - November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Technical Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/adfd-2025-technical-p3.pdf"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "examType": "Direct_NG",
     "examName": "Sub-Inspector FCS&CA / Receptionist H&FW",
@@ -129374,6 +129474,18844 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf#page=12"
   },
   {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q1",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When was the Bairabi-Sairang rail corridor link inaugurated?",
+    "options": [
+      "August 13, 2025",
+      "August 21, 2025",
+      "September 13, 2025",
+      "September 21, 2025"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “September 13, 2025”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q2",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The major health initiative which is being set up in Mizoram with JICA funding is:",
+    "options": [
+      "Biarabi-Sairang rail link",
+      "Tut river hydropower plant",
+      "Airport at Lunglei",
+      "Super Speciality Cancer & Research Centre"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Super Speciality Cancer & Research Centre”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q3",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "According to the NIRF 2025 rankings, the top college in India is",
+    "options": [
+      "Miranda House",
+      "Hans Raj",
+      "St. Stephen’s College",
+      "Hindu College"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hindu College”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q4",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Maria Corina Machado is the winner of Nobel Prize 2025 in the category of",
+    "options": [
+      "Economics",
+      "Medicine",
+      "Literature",
+      "Peace"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Peace”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q5",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The new GST rate structure in India after September 2025 is:",
+    "options": [
+      "5%, 12% and 18%",
+      "5%, 18% and 40%",
+      "5%, 12% and 40 %",
+      "5%, 12%, 18% and 40 %"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5%, 18% and 40%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q6",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "India’s most valuable company by market capitalization as of September 2025 is:",
+    "options": [
+      "Airtel",
+      "HDFC",
+      "Reliance Industries",
+      "Tata Consultancy Services"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reliance Industries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q7",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Mizo chiefs helped the missionaries with translations of the New Testament while still holding onto his traditional beliefs?",
+    "options": [
+      "Lallula",
+      "Lalthangliana",
+      "Lalphunga",
+      "Suaka"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Suaka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q8",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Battle of Plassey (1757) marked the beginning of:",
+    "options": [
+      "Mughal rule in India",
+      "Maratha expansion",
+      "British political control in India",
+      "French supremacy in India"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “British political control in India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q9",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Non-Cooperation Movement was launched in:",
+    "options": [
+      "1915",
+      "1918",
+      "1920",
+      "1922"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1920”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q10",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following was associated with the ‘Young Bengal Movement’?",
+    "options": [
+      "Henry Louis Vivian Derozio",
+      "Raja Ram Mohan Roy",
+      "Ishwar Chandra Vidyasagar",
+      "Keshab Chandra Sen"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Henry Louis Vivian Derozio”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q11",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Poona Pact (1932) was signed between:",
+    "options": [
+      "R. Ambedkar and Mahatma Gandhi",
+      "Jawaharlal Nehru and Jinnah",
+      "Tilak and Annie Besant",
+      "Lajpat Rai and Motilal Nehru"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “R. Ambedkar and Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q12",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who was the founder of the Servants of India Society?",
+    "options": [
+      "Gopal Krishna Gokhale",
+      "Dadabhai Naoroji",
+      "Mahatma Gandhi",
+      "Lala Lajpat Rai"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gopal Krishna Gokhale”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q13",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The largest river island in the world, Majuli, is located in which river?",
+    "options": [
+      "Ganga",
+      "Yamuna",
+      "Brahmaputra",
+      "Godavari"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Brahmaputra”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q14",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Great Rift Valley is located in:",
+    "options": [
+      "South America",
+      "Eastern Africa",
+      "Central Asia",
+      "North America"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Eastern Africa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q15",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The state with the largest forest cover in India is:",
+    "options": [
+      "Chhattisgarh",
+      "Madhya Pradesh",
+      "Arunachal Pradesh",
+      "Odisha"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Madhya Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q16",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The planet known as the Red Planet is:",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Venus",
+      "Saturn"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mars”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q17",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Tropic of Cancer passes through which of the following Indian states?",
+    "options": [
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Jammu & Kashmir"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rajasthan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q18",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The largest exporter of rice in the world is:",
+    "options": [
+      "India",
+      "Indonesia",
+      "China",
+      "Bangladesh"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q19",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which article of the Indian Constitution mandates a census?",
+    "options": [
+      "Article 246",
+      "Article 224",
+      "Article 380",
+      "Article 324"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Article 246”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q20",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first law officer of the Government of India is:",
+    "options": [
+      "Solicitor General",
+      "Law Minister",
+      "Chief Justice of India",
+      "Attorney General of India"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Attorney General of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q21",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Fundamental Right prohibits human trafficking and forced labour?",
+    "options": [
+      "Article 19",
+      "Article 23",
+      "Article 24",
+      "Article 21"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 23”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q22",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who presides over the joint sitting of both Houses of Parliament?",
+    "options": [
+      "Speaker of Rajya Sabha",
+      "Speaker of Lok Sabha",
+      "Vice President",
+      "Prime Minister"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Speaker of Lok Sabha”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q23",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Right to Property is now a:",
+    "options": [
+      "Fundamental Right",
+      "Legal Right",
+      "Natural Right",
+      "Moral Right"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Legal Right”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q24",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The 74th Constitutional Amendment deals with:",
+    "options": [
+      "Panchayati Raj",
+      "Urban Local Bodies (Municipalities)",
+      "Cooperative Societies",
+      "Fundamental Duties"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Urban Local Bodies (Municipalities)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q25",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Human Development Index (HDI) was developed by:",
+    "options": [
+      "Mahbub ul Haq",
+      "Prof. Amartya Sen",
+      "Gunnar Myrdal",
+      "Paul Krugman"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mahbub ul Haq”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q26",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of “Invisible Hand” was introduced by:",
+    "options": [
+      "Karl Marx",
+      "John Maynard Keynes",
+      "Adam Smith",
+      "David Ricardo"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adam Smith”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q27",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Demographic Dividend refers to:",
+    "options": [
+      "Population decline",
+      "Growth due to a higher proportion of working-age population",
+      "Aging population",
+      "Migration benefits"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Growth due to a higher proportion of working-age population”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q28",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Blue Economy focuses on:",
+    "options": [
+      "Oil exploration",
+      "Increase in fruit production",
+      "Water transport",
+      "Sustainable use of ocean resources"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sustainable use of ocean resources”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q29",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Saubhagya Scheme relates to:",
+    "options": [
+      "Drinking water supply",
+      "Education",
+      "Housing",
+      "Rural electrification"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Rural electrification”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q30",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of “trickle-down effect” in economic development refers to:",
+    "options": [
+      "Redistribution of income through taxation",
+      "Growth of informal sector",
+      "Benefits of economic growth gradually reaching the poor",
+      "Government subsidies to small enterprises"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Benefits of economic growth gradually reaching the poor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q31",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term Biodiversity Hotspot was coined by:",
+    "options": [
+      "Norman Myers",
+      "E.O. Wilson",
+      "Charles Darwin",
+      "Aldo Leopold"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Norman Myers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q32",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The headquarters of the United Nations Environment Programme (UNEP) is located in:",
+    "options": [
+      "New York",
+      "Paris",
+      "Geneva",
+      "Nairobi"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nairobi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q33",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When do we celebrate World Environment Day?",
+    "options": [
+      "April 5",
+      "May 5",
+      "June 5",
+      "November 4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “June 5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q34",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is an endangered species in India?",
+    "options": [
+      "Cow",
+      "Camel",
+      "Snow Leopard",
+      "Deer"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Snow Leopard”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q35",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following regions has the highest biodiversity?",
+    "options": [
+      "Desert",
+      "Tropical Rainforest",
+      "Tundra",
+      "Grassland"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tropical Rainforest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q36",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Earth Hour is observed to:",
+    "options": [
+      "Celebrate Earth Day",
+      "Reduce carbon tax",
+      "Plant trees",
+      "Encourage energy conservation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Encourage energy conservation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q37",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The gas used by plants during photosynthesis is:",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Carbon dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q38",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The main constituent of natural gas is:",
+    "options": [
+      "Ethane",
+      "Propane",
+      "Methane",
+      "Butane"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Methane”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q39",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The speed of light is approximately:",
+    "options": [
+      "3,000 km/s",
+      "3 × 10⁸ m/s",
+      "3 × 10⁶ m/s",
+      "3 × 10⁵ m/s"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “3 × 10⁸ m/s”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q40",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which blood cells help in clotting?",
+    "options": [
+      "RBCs",
+      "WBCs",
+      "Platelets",
+      "Plasma"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Platelets”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q41",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The phenomenon of splitting white light into seven colors is called:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Dispersion",
+      "Diffraction"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dispersion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q42",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The main function of red blood cells is:",
+    "options": [
+      "Transport oxygen",
+      "Fight infection",
+      "Produce hormones",
+      "Clot blood"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Transport oxygen”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q43",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which new monument site in Mizoram was declared a Monument of National Importance in July 2025?",
+    "options": [
+      "Kawtchhuah Ropui",
+      "Murlen kham",
+      "Lungphun Ropui (Lianpui Menhirs)",
+      "The great cliff at Ngentiang Village."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lungphun Ropui (Lianpui Menhirs)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q44",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The “Chheihlam” dance is usually performed:",
+    "options": [
+      "Before harvest",
+      "After drinking rice beer in celebration",
+      "During marriage",
+      "During mourning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “After drinking rice beer in celebration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q45",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following festivals is known as the “Festival of Weeping” (Tahna Kut)?",
+    "options": [
+      "Mim Kut",
+      "Chapchar Kut",
+      "Pawl Kut",
+      "Thalfavang Kut"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mim Kut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q46",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among these dances is a welcome dance in Mizo culture?",
+    "options": [
+      "Cheraw",
+      "Chheihlam",
+      "Khuallam",
+      "Rallu Lam"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Khuallam”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q47",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The second day of Chapchar Kut is called:",
+    "options": [
+      "Ralte vawktalh ni",
+      "Zu pui ni",
+      "Zu thing chawi ni",
+      "Lusei vawk talh ni"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ralte vawktalh ni”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q48",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among these is a war chant song in traditional Mizo folk music?",
+    "options": [
+      "Nauawih hla",
+      "Dar hla",
+      "Bawh hla",
+      "Love song"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bawh hla”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q49",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "When was Mizo Union, the first political party in Mizoram established?",
+    "options": [
+      "25th April 1946",
+      "25th April 1949",
+      "25th April 1950",
+      "25th April 1956"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “25th April 1946”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q50",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first Mizo pastor who was ordained on October 1913 was:",
+    "options": [
+      "Suaka",
+      "Hlawncheuva",
+      "Chhuahkhama",
+      "Khuma"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chhuahkhama”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q51",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which state has become the first state in India to implement the Uniform Civil Code?",
+    "options": [
+      "Himachal Pradesh",
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Maharashtra"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Uttarakhand”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q52",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Indian Cyber Crime Coordination Centre (I4C) has been established under which Ministry?",
+    "options": [
+      "Ministry of Home Affairs",
+      "Ministry of Defence",
+      "Ministry of Science and Technology",
+      "Ministry of Electronics and Information Technology"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ministry of Home Affairs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q53",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The length of the railway line from Bairabi to Sairang is:",
+    "options": [
+      "51.18 kilometres",
+      "51.28 kilometres",
+      "51.38 kilometres",
+      "51.48 kilometres"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “51.38 kilometres”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q54",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not a cryptocurrency?",
+    "options": [
+      "Ethereum",
+      "Bitcoin",
+      "Tether",
+      "Drachma"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Drachma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q55",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the name of the U.S. military operation that targeted Iran’s underground nuclear facilities?",
+    "options": [
+      "Operation Iron Shield",
+      "Operation Desert Thunder",
+      "Operation Midnight Hammer",
+      "Operation Silent Storm"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Operation Midnight Hammer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q56",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Where is the headquarters of United Nations Office on Drugs and Crime (UNODC) located?",
+    "options": [
+      "Geneva, Switzerland",
+      "New York, USA",
+      "Paris, France",
+      "Vienna, Austria"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vienna, Austria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q57",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country recently passed the “Online Safety Amendment (Social Media Minimum Age) Bill 2024”?",
+    "options": [
+      "Australia",
+      "India",
+      "France",
+      "Bangladesh"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Australia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q58",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Sittwe port being developed as a part of the Kaladan Multi Modal Project is located in which state/region of Myanmar?",
+    "options": [
+      "Chin",
+      "Rakhine",
+      "Bago",
+      "Ayeyarwady"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rakhine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q59",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "How many members must be present (including the presiding officer) in the Rajya Sabha in order to fulfil the quorum?",
+    "options": [
+      "25",
+      "50",
+      "55",
+      "75"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “25”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q60",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which Constitutional Amendment introduced compulsory education to children between the age group of 6 to 14?",
+    "options": [
+      "82nd",
+      "83rd",
+      "85th",
+      "86th"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “86th”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q61",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The correct nomenclature of India according to the Preamble is:",
+    "options": [
+      "Sovereign, Secular, Democratic Republic",
+      "Sovereign, Democratic Republic",
+      "Sovereign, Socialist, Secular, Democratic Republic",
+      "Sovereign, Secular, Socialist Democracy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sovereign, Socialist, Secular, Democratic Republic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q62",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following statement is/are not indicative of the difference between Fundamental Rights and Directive Principles? I.Directive Principles are aimed at promoting social welfare, while Fundamental Rights are for protecting individuals from State encroachment. II.Fundamental Rights are limitations on State action, while Directive Principles are positive instructions for the Government to work towards a just socioeconomic order. III.Fundamental Rights were included in the original Constitution, but Directive Principles were added by the first Amendment. IV.Fundamental Rights are amendable, but Directive Principles cannot be amended.",
+    "options": [
+      "I and II",
+      "II and III",
+      "III and IV",
+      "I, II and III"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “III and IV”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q63",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "During a proclamation of emergency due to the breakdown of constitutional machinery in a State the President can: I.assume all powers vested in and exercisable by the Governor II.declare that the powers of the State Legislature shall be exercised by Parliament III.assume certain powers of the High Courts IV.suspend by order any or all Fundamental Rights except those under Articles 20 and 21",
+    "options": [
+      "I and II",
+      "I and III",
+      "II, III and IV",
+      "II and IV"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q64",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Identify the correct sequence of passing a Budget in the Parliament.",
+    "options": [
+      "Vote on Account-Finance Bill-Appropriation Bill-Discussion on Budget",
+      "Finance Bill- Appropriation. Bill Discussion on Budget-Vote on Accounts",
+      "Discussion on Budget-Vote on Account-Finance Bill-Appropriation Bill",
+      "Discussion on Budget-Appropriation Bill-Finance Bill-Vote on Account"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Discussion on Budget-Appropriation Bill-Finance Bill-Vote on Account”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q65",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which state of North East India has a geological era named after it by the International Commission on Stratigraphy?",
+    "options": [
+      "Sikkim",
+      "Arunachal Pradesh",
+      "Meghalaya",
+      "Assam"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Meghalaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q66",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The lower Gangetic plain is characterized by humid climate with high temperature throughout the year. Which one among the following pairs of crops is most suitable for this region?",
+    "options": [
+      "Paddy and cotton",
+      "Wheat and Jute",
+      "Paddy and Jute",
+      "Wheat and cotton"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Paddy and Jute”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q67",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to ‘palm oil’, consider the following statements: I.The palm oil tree is native to Southeast Asia. II.The palm oil is a raw material for some industries producing lipstick and perfumes. III.The palm oil can be used to produce biodiesel. Which of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “II and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q68",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following ports is located on the eastern coast of India?",
+    "options": [
+      "Kandla",
+      "Kochi",
+      "Mormugoa",
+      "Paradeep"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Paradeep”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q69",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "A narrow strip of land that connects two larger land masses is called:",
+    "options": [
+      "Strait",
+      "Cape",
+      "Peninsula",
+      "Isthumus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Isthumus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q70",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The major objectives of NITI Aayog are to-",
+    "options": [
+      "provide technical advice to the Centre and State",
+      "design strategic and long-term policies/ programmes for Govt.",
+      "Both (a) & (b)",
+      "None"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both (a) & (b)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q71",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Where will you find the most disguised unemployment? Select the correct option from those given below:",
+    "options": [
+      "In most of the government offices.",
+      "In big private companies.",
+      "Among agricultural workers working for small farmlands.",
+      "Among part-time industrial workers."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Among agricultural workers working for small farmlands.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q72",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following best explains the theoretical foundation of the design of the Mahatma Gandhi Rural Employment Guarantee Act (MNREGA)?",
+    "options": [
+      "Supply-side skilling and productivity targeting",
+      "Structural adjustment for agriculture surplus",
+      "Keynesian demand-side rural stimulus model",
+      "Monetarist principle of wage flexibility"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Keynesian demand-side rural stimulus model”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q73",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following measures is commonly used to measure poverty levels?",
+    "options": [
+      "Gross Domestic Product",
+      "Consumer Price Index",
+      "Poverty Line",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Poverty Line”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q74",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements in respect of RTGS and NEFT: I.In RTGS, the settlement time is instantaneous while in case of NEFT, it takes some time to settle payments. II.In RTGS, the customer is charged for inward transactions while that is not the case for NEFT. III.Operating hours for RTGS are restricted on certain days while this is not true for NEFT. Which of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II",
+      "I and III",
+      "III only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q75",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about microplastics. I.Microplastics are small pieces of plastic, less than 50 mm in length, that occur in the environment as a consequence of plastic pollution. II.Microplastics are present in cosmetics, synthetic clothing, plastic bags and plastic bottles. III.Normal plastics are microplastics are biodegradable. Which of the above statements is/are correct?",
+    "options": [
+      "I and II",
+      "I only",
+      "II only",
+      "I, II and III"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q76",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The scientific view is that increase in global temperature should not exceed 2° C above pre industrial level. If the global temperature increases beyond 3° C above the pre industrial level, what can be its possible impact/impacts on the world? I.Terrestrial biosphere reserve tends towards a net carbon source. II.Widespread coral mortality will occur. III.All the global wetlands will permanently disappear IV.Cultivation of cereals will not be possible anywhere in the world. Select the correct answer from below:",
+    "options": [
+      "I only",
+      "II only",
+      "I, II and III",
+      "I, II, III and IV"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “I, II, III and IV”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q77",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which activity can tend to lower the water table?",
+    "options": [
+      "Overgrazing",
+      "Human population growth",
+      "Soil erosion",
+      "Over extraction of groundwater"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Over extraction of groundwater”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q78",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of following radiations of the sun do greenhouse gases trap?",
+    "options": [
+      "Ultraviolet radiation",
+      "Visible radiation",
+      "Infrared radiation",
+      "All the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Infrared radiation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q79",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statement(s) related to the similarity of El Nino and La Nina. I.They are part of a larger cycle called ENSO or El Nino Southern Oscillation II.They are known to alter climate across more than half the planet and dramatically affect weather patterns. Select the correct answer:",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both I and II”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q80",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following chemical is illegally used to preserve the shelf life of fish?",
+    "options": [
+      "Acetaldehyde",
+      "Formaldehyde",
+      "Ethanol",
+      "Acetic acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Formaldehyde”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q81",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "A passenger in a moving bus is thrown forward when the bus suddenly stops. This is explained by:",
+    "options": [
+      "Newton’s First Law",
+      "Newton’s Second Law",
+      "Newton’s Third Law",
+      "Principle of Conservation of Momentum"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Newton’s First Law”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q82",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The acid used in lead storage cells is:",
+    "options": [
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Phosphoric acid",
+      "Sulphuric acid"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sulphuric acid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q83",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Non-metals are generally bad conductors of electricity. However, graphite is a good conductor of electricity because it:",
+    "options": [
+      "forms basic oxide",
+      "is an allotrope of carbon",
+      "is brittle",
+      "has free electrons"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “has free electrons”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q84",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The tiny air sacs present in the human lungs are called:",
+    "options": [
+      "Alveoli",
+      "Bronchus",
+      "Bronchioles",
+      "Nephrons"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Alveoli”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q85",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "How many different Mizo puan have been given Geographical Indication tag?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q86",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The scientific name of the state tree of Mizoram ‘Herhse’ is:",
+    "options": [
+      "Phoebe hainesiana",
+      "Aquilaria malaccensis",
+      "Mesua ferrea",
+      "Dipterocarpus retusus"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mesua ferrea”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q87",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Mizo warriors use to store gun powder in:",
+    "options": [
+      "Fungki",
+      "Kingkawt",
+      "Paikung",
+      "Sahmim"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Fungki”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q88",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year was the North Lushai Hills and South Lushai Hills amalgamated to form the Lushai Hills District?",
+    "options": [
+      "1892",
+      "1895",
+      "1897",
+      "1898"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1898”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q89",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following Mizo myth is associated with the dancing of the dung (vawk ek) and the worm (changpat)?",
+    "options": [
+      "Thim zin",
+      "Thlanrawkpa Khuangchawi",
+      "Sabereka Khuangkaih",
+      "Ngaitei"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Thlanrawkpa Khuangchawi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q90",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Sarlamkai dance was performed to celebrate the occasion of:",
+    "options": [
+      "harvest",
+      "war",
+      "famine",
+      "birth of a child"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “war”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q91",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following was not a part of the tools of weaving by Mizo women?",
+    "options": [
+      "Suvel",
+      "Themtang",
+      "Hnahchawi",
+      "Khuhhriang"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Khuhhriang”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q92",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In the Mizo marriage ceremony, if a Pawndum is included in the bride’s possession it is known as:",
+    "options": [
+      "Puanrin",
+      "Mangpuan",
+      "Puanhlap",
+      "Zawlpuan"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zawlpuan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q93",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "One of the earliest books on Mizo customs and ceremonies ‘A Monograph on Lushai Customs and Ceremonies’ was written by:",
+    "options": [
+      "J. Shakespeare",
+      "T. H. Lewin",
+      "N. E. Parry",
+      "A. G. McCall"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “N. E. Parry”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q94",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In the Mizo traditional jhumming practice, Pawhchhiat refered to:",
+    "options": [
+      "clearing of the land",
+      "sowing of seeds",
+      "burning of the vegetation",
+      "final clearing of weeds"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “final clearing of weeds”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q95",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following institutions was not founded by Gandhiji?",
+    "options": [
+      "Sabarmati Ashram",
+      "Sevagram Asharam",
+      "Phoenix Ashram",
+      "Vishwa Bharati"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vishwa Bharati”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q96",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following events of the Freedom Struggle : 1.Chauri Chaura Outrage 2.Morley Minto Reforms 3.Dandi March 4.Montague Chelmsford Reforms Which one of the following is the correct chronological order of the events given above?",
+    "options": [
+      "1-3-2-4",
+      "2-4-1-3",
+      "1-4-2-3",
+      "2-3-1-4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2-4-1-3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q97",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which year was Bengal partitioned?",
+    "options": [
+      "1904",
+      "1906",
+      "1905",
+      "1907"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1905”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q98",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "By the Act of 1858, India was to be governed under whom?",
+    "options": [
+      "By the Company",
+      "In the name of the Crown",
+      "By a Board of Directors",
+      "In the name of Governor-General of India"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “In the name of the Crown”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q99",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Chinese traveller Hiuen Tsang came to India during the reign of which king?",
+    "options": [
+      "Harshavardhana",
+      "Chandragupta Maurya",
+      "Samudragupta",
+      "Kaniskha"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Harshavardhana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-gs-Q100",
+    "paperId": "mpsc-group-b-cdpo-2025-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first woman to sit on the throne of Delhi Razia Sultan was the daughter of:",
+    "options": [
+      "Illtutmish",
+      "Qutbuddin Aibak",
+      "Mohammad Ghori",
+      "Aram Shah"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Illtutmish”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) & Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The term ‘development’ means a progressive series of changes that occurs as a result of maturation and-",
+    "options": [
+      "Learning",
+      "Experience",
+      "Working",
+      "Maturity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Learning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The infant’s head compared to the body length is:",
+    "options": [
+      "One-third",
+      "Two-third",
+      "One-fourth",
+      "One-fifth"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “One-fourth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Beginning of the second stage of labour.",
+    "options": [
+      "The onset of true labour pain",
+      "Complete dilation of the cervix",
+      "The delivery of the placenta",
+      "The rupture of membranes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Complete dilation of the cervix”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Correct term for when the baby’s head becomes visible at the vaginal opening.",
+    "options": [
+      "Lightening",
+      "Quickening",
+      "Crowning",
+      "Flexion"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Crowning”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "An incision made through the skin and muscles in the perineum to enlarge the vaginal opening is called:",
+    "options": [
+      "Caesarean section",
+      "Forceps delivery",
+      "Episiotomy",
+      "Ventouse"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Episiotomy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The surgical delivery of a baby through an incision in the mother’s abdomen and uterus.",
+    "options": [
+      "Forceps delivery",
+      "Vaginal birth",
+      "Caesarean section",
+      "Ventouse delivery"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Caesarean section”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Cephalocaudal law maintains that development spreads over the body from:",
+    "options": [
+      "Head to foot",
+      "Inner to outer",
+      "Toe to tip",
+      "Foot to Head"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Head to foot”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Hormone used to induce labour.",
+    "options": [
+      "Prolactin",
+      "Estrogen",
+      "Oxytocin",
+      "Progesterone"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Oxytocin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Ossification takes place in the:",
+    "options": [
+      "Brain",
+      "Bones",
+      "Reflexes",
+      "Muscles and Fats"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bones”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Heredity provides the raw material from which a person is made. How the material is moulded, and what becomes depend chiefly on:",
+    "options": [
+      "Society",
+      "Family",
+      "Peers",
+      "Environment"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Environment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Make- believe play age:",
+    "options": [
+      "Infancy",
+      "Early Childhood",
+      "Middle childhood",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Early Childhood”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Emotional developmental challenges in children may lead to:",
+    "options": [
+      "Anxiety and depression",
+      "Enhanced skill development",
+      "Development of Autism",
+      "Retarded physical development"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Anxiety and depression”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Preschool age is also known as the:",
+    "options": [
+      "Gang age",
+      "Preparatory age",
+      "Pregang age",
+      "Preliminary age"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Preparatory age”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Implementation of national ECCE.",
+    "options": [
+      "1975",
+      "2000",
+      "2013",
+      "2020"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2013”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Play where enjoyment is derived from watching the activities of others is known as:",
+    "options": [
+      "Parallel play",
+      "Solitary play",
+      "Group play",
+      "Amusements"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Parallel play”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Activities requiring running, jumping, balancing, and cycling should be provided for:",
+    "options": [
+      "Fine Muscle Development",
+      "Eye-hand coordination",
+      "Large muscle development",
+      "Stability"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Large muscle development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Early years are critical in any child’s life span since the_______ is more rapid than at any other stage of development.",
+    "options": [
+      "rate of development.",
+      "rate of life.",
+      "rate of speed.",
+      "rate of growth"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “rate of development.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Maturation refers to:",
+    "options": [
+      "Reaching full and advanced development",
+      "Learning from experiences",
+      "Physical development",
+      "Motor development"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reaching full and advanced development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Timeline for universal provisioning of quality early childhood development, care, and education proposed by NEP.",
+    "options": [
+      "2020",
+      "2030",
+      "2040",
+      "2050"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2030”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Activities like cutting, pasting, tearing, stringing the beads, fixing the puzzles, playing with blocks, and playing with clay, sand, and water lead to:",
+    "options": [
+      "Fine Muscle Development",
+      "Eye-hand coordination",
+      "Large muscle development",
+      "Stability"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Fine Muscle Development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Changes in sexual functioning during adolescence can be traced to:",
+    "options": [
+      "Hormonal activity",
+      "Growth hormones",
+      "Gonads",
+      "Pituitary glands"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gonads”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The reproductive phase in women is from _____ to menopause.",
+    "options": [
+      "menstruation",
+      "menarche",
+      "ovulation",
+      "none of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “menarche”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "One of the most difficult developmental tasks of adolescence relates to:",
+    "options": [
+      "Social adjustment",
+      "School life",
+      "Emotional adjustment",
+      "Romance"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Emotional adjustment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which slogan is associated with the Beti Bachao Beti Padhao campaign.",
+    "options": [
+      "“Save the Girl Child, Educate the Girl Child”",
+      "“Empower Women, Empower the Nation”",
+      "“Health for Her, Education Forever”",
+      "“Educate All, Save All”"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: ““Save the Girl Child, Educate the Girl Child””. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "This hormone is responsible for secondary sexual characteristics in males.",
+    "options": [
+      "Testosterone",
+      "Progesterone",
+      "Estrogen",
+      "Melatonin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Testosterone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The condition in which the bones become thin and brittle as a result of rapid calcium depletion is:",
+    "options": [
+      "Osteopathy",
+      "Osteoarthritis",
+      "Osteomyelitis",
+      "Osteoporosis"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Osteoporosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The progressive, irreversible degenerative neurological disorder, characterized by tremor, stiffness, slowed movement and unstable posture is termed as:",
+    "options": [
+      "Alzheimer’s disease",
+      "Parkinson’s disease",
+      "Dementia",
+      "Multiple sclerosis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Parkinson’s disease”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following changes do not occur in females during puberty.",
+    "options": [
+      "Deepening of voice",
+      "Enlargement of breasts",
+      "Growth of hair at armpit",
+      "Menstruation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Deepening of voice”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Primary objective of the Beti Bachao Beti Padhao initiative.",
+    "options": [
+      "Promoting women’s sports",
+      "Encouraging entrepreneurship among women",
+      "Combating female foeticide and promoting the education of the girl child",
+      "Enhancing healthcare for women"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Combating female foeticide and promoting the education of the girl child”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Disorders affecting the joints, causing pain and loss of movement is:",
+    "options": [
+      "Arthritis",
+      "Aphasia",
+      "Gout",
+      "Scoliosis"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Arthritis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What does child welfare primarily focus on:",
+    "options": [
+      "Providing financial aid to all families",
+      "Supporting only orphans and abandoned children",
+      "Encouraging child labour for economic growth",
+      "Ensuring the well-being and protection of children"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ensuring the well-being and protection of children”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The initial objective of Family Welfare Programmes was:",
+    "options": [
+      "Health of the mother",
+      "Clinical",
+      "Health of the child",
+      "Immunization"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Clinical”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The common cause for low birth weight of babies is:",
+    "options": [
+      "Maternal under-nutrition",
+      "Age of the mothers",
+      "Health of the mothers",
+      "Weight of the mothers"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Maternal under-nutrition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The Anganwadi worker or preschool teacher must ensure that the outdoor space for the children must be:",
+    "options": [
+      "Adventurous",
+      "Stimulating",
+      "Daring",
+      "Challenging"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Stimulating”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Family counseling provides services to:",
+    "options": [
+      "Settle family dispute",
+      "Train the youth",
+      "Educate women",
+      "Manage older person"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Settle family dispute”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Sensory handicapped refers to:",
+    "options": [
+      "Orthopaedically handicapped",
+      "Social handicapped",
+      "Visually handicapped",
+      "Difficulty in body movement"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Visually handicapped”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The nature of the Juvenile Justice Act, 2000 is:",
+    "options": [
+      "Rehabilitative",
+      "Reformative",
+      "Counselling",
+      "Retribution"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rehabilitative”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "UNICEF was created in the year:",
+    "options": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1946”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Domestic Violence Act was enacted in the year:",
+    "options": [
+      "2000",
+      "2005",
+      "2010",
+      "2020"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2005”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Intentional psychological and physical injuries caused to a child is known as:",
+    "options": [
+      "Child abuse",
+      "Child life",
+      "Child’s rights",
+      "Child care"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Child abuse”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Primary objective of the ICDS program:",
+    "options": [
+      "Poverty Alleviation",
+      "Women Empowerment",
+      "Child Development and Nutrition",
+      "Environmental Conservation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Child Development and Nutrition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The purpose of Anganwadi Centers under ICDS:",
+    "options": [
+      "To provide healthcare services",
+      "To offer vocational training",
+      "To promote early childhood care and development",
+      "To facilitate adult education"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To promote early childhood care and development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the other name of the manipulative area in preschool or Aganwadi?",
+    "options": [
+      "Mathematics area",
+      "Block building area",
+      "Circle time area",
+      "Reading area"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mathematics area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Braille is used by person having:",
+    "options": [
+      "Hearing impairement",
+      "Visual impairment",
+      "Speech difficulty",
+      "All the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Visual impairment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which approach is suitable for the education of mentally retarded children:",
+    "options": [
+      "Enrich environment",
+      "Low level Curriculum",
+      "Individualized instructions",
+      "Play methods"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Individualized instructions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘Pradhan Mantri Matru Vandana Yojana’ was launched to provide financial assistance to:",
+    "options": [
+      "All women",
+      "Pregnant women and lactating mothers",
+      "Working mothers with newborns",
+      "Women who are the sole breadwinners of the family"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pregnant women and lactating mothers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Component of the ICDS program:",
+    "options": [
+      "Midday Meal Scheme",
+      "Swachh Bharat Abhiyan",
+      "National Rural Employment Guarantee Scheme",
+      "Pradhan Mantri Awas Yojana"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Midday Meal Scheme”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Orthopaedically handicapped children are those who have:",
+    "options": [
+      "Difficulty in communication",
+      "Visual problem",
+      "Deaf",
+      "Difficulty in body part movement"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Difficulty in body part movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Chart which is commonly based to  measure visual acuity:",
+    "options": [
+      "Snellen Chart",
+      "Histogram",
+      "Pie Chart",
+      "Bar graph"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Snellen Chart”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Factor which is not responsible to educational backwardness of the child:",
+    "options": [
+      "Chronic medical illness",
+      "Mental retardation",
+      "Occupation of the family",
+      "Poor emotional climate of the family"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Occupation of the family”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define human development. What are the principles of human development.(2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the stages of prenatal development and conditions affecting prenatal development. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is creativity? How would you foster creativity in a child?(2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the primary mission and the reasons for introduction of Beti Bachao, Beti Padhao scheme? (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the procedure of JJ Act, 2000.\na. When a child comes in conflict with the law?(5)\nb. A child in need of care and protection.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Who are the physically disabled? Explain the different kinds of disabilities and their management. (2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Why is early years education important? Expand on this topic  by discussing the holistic development (cognitive, physical, social-emotional) that Early Childhood Care and Education (ECCE) supports. (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss any five problems faced by an adolescent and suggest measures to solve these problems. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)Analyse the primary psychological and social challenges of establishing independence in early\na. Analyse the primary psychological and social challenges of establishing independence in early adulthood such as career development, forming intimate relationships, and creating a stable life.(5)\nb. Evaluate the impact of the Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA) in reducing maternal and neo-natal mortality in India.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p1-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p1",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Analyse the effectiveness of the Integrated Child Development Scheme (ICDS)  in improving the health and nutrition of children and mothers.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Definition of nutrition is:",
+    "options": [
+      "The process of cooking nutritious food",
+      "The process by which the body uses nutrients from food for growth and maintenance",
+      "The amount of food consumed in a day for good health",
+      "The food which provides materials for tissue building"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The process by which the body uses nutrients from food for growth and maintenance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Vitamin A,D,E,K are known as:",
+    "options": [
+      "Water soluble",
+      "Lipids",
+      "Fat soluble",
+      "Minerals"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fat soluble”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Deficiency of which nutrient can lead to anaemia?",
+    "options": [
+      "Calcium",
+      "Iron",
+      "Vitamin A",
+      "Sodium"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Iron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Moist-heat cooking method is:",
+    "options": [
+      "Roasting",
+      "Boiling",
+      "Grilling",
+      "Baking"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Boiling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Salt is supplemented by:",
+    "options": [
+      "Magnesium glycinate",
+      "Lithium iodide",
+      "Potassium iodide",
+      "Sodium bicarbonate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Potassium iodide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Kneaded dough left in the refrigerator show gray or black specks due to the activity of:",
+    "options": [
+      "Psychrophilic bacteria",
+      "Mesophilic bacteria",
+      "Thermophilic bacteria",
+      "Thermophiles"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Psychrophilic bacteria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Yeast fermentation produces chemical changes in which enzymes produced by the yeast cells converts:",
+    "options": [
+      "Alcohol to sugar",
+      "Sugar into alcohol",
+      "Proteins into amino acids",
+      "Fats into fatty acids"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sugar into alcohol”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Egg whites coagulate at:",
+    "options": [
+      "40-42ºC",
+      "50-52ºC",
+      "60-62ºC",
+      "70-72ºC"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “60-62ºC”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Sodium nitrite is used for curing and pickling:",
+    "options": [
+      "Green leafy vegetables",
+      "Root vegetables",
+      "Fruits",
+      "Meat"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Meat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Pancakes are prepared by:",
+    "options": [
+      "Sauteing",
+      "Deep frying",
+      "Shallow frying",
+      "Stir frying"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Shallow frying”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "It is also known as the ‘appetite vitamin’:",
+    "options": [
+      "Riboflavin",
+      "Vitamin C",
+      "Thiamine",
+      "Niacin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Thiamine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Haemoglobin is a:",
+    "options": [
+      "Simple protein",
+      "Derived protein",
+      "Conjugated protein",
+      "Hydrolyzed protein"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Conjugated protein”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "An example of an essential fatty acid is:",
+    "options": [
+      "Linoleic acid",
+      "Oleic acid",
+      "Palmitic acid",
+      "Lauric acid"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Linoleic acid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Angular stomatitis occurs due to deficiency of:",
+    "options": [
+      "Riboflavin",
+      "Calcium",
+      "Proteins",
+      "Iodine"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Riboflavin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Hypercalcemia means:",
+    "options": [
+      "Excess of phosphorus and vitamin A",
+      "Excess of calcium and Vitamin C",
+      "Excess of calcium and Vitamin D",
+      "Excess of magnesium only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Excess of calcium and Vitamin D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Nutrients which  are essential for bone growth in children:",
+    "options": [
+      "Vitamin D and calcium",
+      "Iron and folic acid",
+      "Vitamin C and protein",
+      "Fat and sugar"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Vitamin D and calcium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The main source of energy for infants is:",
+    "options": [
+      "Carbohydrates and fruits",
+      "Breast milk and infant formula",
+      "Cereals and pulses",
+      "Sugar-rich snacks"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Breast milk and infant formula”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "An essential amino acid and a precursor of niacin is:",
+    "options": [
+      "Lysine",
+      "Histidine",
+      "Tryptophan",
+      "Threonine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tryptophan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "It combines with calcium to form an insoluble complex of calcium oxalate which cannot be absorbed:",
+    "options": [
+      "Oxalic acid",
+      "Malic acid",
+      "Oleic acid",
+      "Oxaloacetic acid"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Oxalic acid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "It is considered to be the best source of iron:",
+    "options": [
+      "Red meat",
+      "Chicken",
+      "Liver",
+      "Green leafy vegetables"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Liver”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Indicator of BMI :",
+    "options": [
+      "Body fat based on height and weight",
+      "Muscle mass only",
+      "Bone density",
+      "Bone mineral density"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Body fat based on height and weight”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "BMR depends upon:",
+    "options": [
+      "Weight",
+      "Height",
+      "Body surface area",
+      "Height and weight"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Body surface area”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Primary function of water in the body:",
+    "options": [
+      "Provides energy",
+      "Acts as a solvent and maintains fluid balance",
+      "Builds muscles",
+      "Provides vitamins"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Acts as a solvent and maintains fluid balance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Electrolytes help in:",
+    "options": [
+      "Regulating fluid balance and nerve-muscle function",
+      "Storing energy",
+      "Producing enzymes",
+      "Building bones only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Regulating fluid balance and nerve-muscle function”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Delayed closing of the fontanelle in infants can occur due to the deficiency of:",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vitamin D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In the last trimester of pregnancy BMR increases by:",
+    "options": [
+      "8%",
+      "10%",
+      "12 %",
+      "15%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “12 %”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Factor to be considered while planning a therapeutic diet:",
+    "options": [
+      "Patient’s age, disease condition, and activity level",
+      "Patient’s taste preference",
+      "Patient’s selection of food",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Patient’s age, disease condition, and activity level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Mustard seeds are commonly adulterated with:",
+    "options": [
+      "Poppy seeds",
+      "Chia seeds",
+      "Argemone seeds",
+      "Sesame seeds"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Argemone seeds”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Food Safety and Standards Authority of India (FSSAI) was established on:",
+    "options": [
+      "5th August 2008",
+      "5th August 2007",
+      "5th August 2006",
+      "5th August 2005"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “5th August 2008”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "This diet should not be continued for more than 24 to 48 hours:",
+    "options": [
+      "Clear fluid diet",
+      "Soft diet",
+      "Full fluid diet",
+      "Semi-fluid diet"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Clear fluid diet”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In India, a person is considered overweight if their Body Mass Index (BMI) is between:",
+    "options": [
+      "18-22.9 kg/m2",
+      "23-24.9 kg/m2",
+      "25-26.9 kg/m2",
+      "27-28.9 kg/m2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “23-24.9 kg/m2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Protein intake of healthy infants is about:",
+    "options": [
+      "1.16g/kg body weight",
+      "1.5gm/kg body weight",
+      "1gm/kg body weight",
+      "2gm/kg body weight"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1.16g/kg body weight”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "RDA for protein for 8-month-old infant is:",
+    "options": [
+      "8gm",
+      "8.5gm",
+      "10.5gm",
+      "12.5gm"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “10.5gm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The chief carbohydrate in milk is:",
+    "options": [
+      "Lactose",
+      "Galactose",
+      "Glucose",
+      "Maltose"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lactose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Low birth weight babies are born with birth weight less than:",
+    "options": [
+      "2000g",
+      "2200g",
+      "2500g",
+      "2600g"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2500g”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "For an infant, the ideal first food is:",
+    "options": [
+      "Cow’s milk",
+      "Breast milk",
+      "Rice cereal",
+      "Fruit juice"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Breast milk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Energy requirements for adolescent males are:",
+    "options": [
+      "2500 to 3000 calories",
+      "1500 to 2000 calories",
+      "1000 to 1500 calories",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “2500 to 3000 calories”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Protein-Energy Malnutrition (PEM) primarily results from:",
+    "options": [
+      "Lack of micronutrients",
+      "Deficiency of proteins and calories",
+      "Excess vitamin intake",
+      "Overhydration"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Deficiency of proteins and calories”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Kwashiorkor is a type of PEM characterized by:",
+    "options": [
+      "Edema, fatty liver, and growth retardation",
+      "Marasmus-like severe wasting only",
+      "Severe anemia",
+      "Excess weight gain"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Edema, fatty liver, and growth retardation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Optimal weight gain during pregnancy is about:",
+    "options": [
+      "6-8 kg",
+      "8-10 kg",
+      "11-13 kg",
+      "14-16 kg"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “11-13 kg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Number of deaths of infants under 1 week and still-births per 1000 total births is known as:",
+    "options": [
+      "Infant mortality rate",
+      "Post natal mortality rate",
+      "Perinatal mortality rate",
+      "Neo natal mortality rate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Perinatal mortality rate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Congenital iodine deficiency syndrome is also known as:",
+    "options": [
+      "Goitre",
+      "Hyperthyroidism",
+      "Cretinism",
+      "Myxedema"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cretinism”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "ICDS stand for:",
+    "options": [
+      "International Child Development Society",
+      "Indian Child Development Scheme",
+      "Infant Care and Development Services",
+      "Integrated Child Development Services"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Integrated Child Development Services”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Mid-Day Meal Scheme aims to:",
+    "options": [
+      "Provide free textbooks to school students",
+      "Improve nutritional status of school children and combat malnutrition",
+      "Offer scholarships to school students",
+      "Provide school uniform for free"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Improve nutritional status of school children and combat malnutrition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "FAO is a specialized agency of:",
+    "options": [
+      "United Nations",
+      "World Bank",
+      "UNESCO",
+      "WHO"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “United Nations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": ".POSHAN Abhiyaan was launched in the year:",
+    "options": [
+      "2014",
+      "2016",
+      "2018",
+      "2020"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2018”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "PMMVY provides cash incentives to:",
+    "options": [
+      "Pregnant and lactating women for first living child",
+      "All married women irrespective of pregnancy",
+      "Only adolescent girls",
+      "All children under 5 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pregnant and lactating women for first living child”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "It encompasses all ocular manifestations of vitamin A deficiency:",
+    "options": [
+      "Keratomalacia",
+      "Conjunctival xerosis",
+      "Corneal xerosis",
+      "Xeropthalmia"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Xeropthalmia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The accumulation of fluid in the abdomen is known as:",
+    "options": [
+      "Oedema",
+      "Lymphedema",
+      "Ascites",
+      "Hydrocephalus"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ascites”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Pregnancy induced hypertension is also known as:",
+    "options": [
+      "Primary hypertension",
+      "secondary hypertension",
+      "Gestational hypertension",
+      "Isolated systolic hypertension"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gestational hypertension”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What do you mean by meal planning? Explain the principles of meal planning. What are the steps involved in planning a balanced diet?(2+4+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the advantages of cooking food and how different cooking methods affect its nutritional quality. Differentiate between natural and artificial methods of food preservation with examples. (3+4+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What do you mean by the term ‘carbohydrates?’ Explain in detail how carbohydrates are classified. (2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the causes and clinical features of vitamin-A deficiency. What are the good food sources of Vitamin-A?(4+4+2=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the factors affecting BMR? Discuss the role of sodium and potassium in maintaining electrolyte and water balance. How can diet therapy help in the prevention of malnutrition and deficiency diseases? (4+3+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the factors to be considered in planning therapeutic diets? Write on tube feeding and intravenous feeding.(4+3+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the objectives of ICDS program. Mention the National and International agencies working towards foods and nutrition. What are the various schemes relating to maternal nutrition and health? (4+3+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the reasons for increased nutrient requirement during pregnancy. Discuss the general dietary problems of pregnancy.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the objectives and functions of National Institute of Public Cooperation and Child Development? (NIPCCD)(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p2-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p2",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the strategies implemented by the Government for the prevention of nutritional anaemia. (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Extension Education uses ____________ methods to educate the rural people.",
+    "options": [
+      "formal",
+      "democratic",
+      "disciplined",
+      "professional"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “democratic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Ultimate objective of Community Development programmes are:",
+    "options": [
+      "skills",
+      "satisfaction",
+      "participation",
+      "attention"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “satisfaction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A balanced Extension programme is one which considers:",
+    "options": [
+      "Needs and desires of people",
+      "Location specific recommendations",
+      "Proper consideration of facts, resources and time",
+      "Broad based programme"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Proper consideration of facts, resources and time”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Extension workers transfer information from__________ to the rural communities.",
+    "options": [
+      "research",
+      "text books",
+      "village heads",
+      "rural offices"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “research”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A good extension service is a process of",
+    "options": [
+      "Giving a self-made solution of problems",
+      "Working for the people",
+      "Helping the people to help themselves",
+      "All the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Helping the people to help themselves”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "‘Extension is defined as an educational process to provide knowledge to rural people’ this is a definition by:",
+    "options": [
+      "O.P. Dahama",
+      "Ensminger D",
+      "Kelsey and Hearne",
+      "Mildred Horton"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “O.P. Dahama”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The first principle of Community Development is based on the_______ of the people.",
+    "options": [
+      "goals",
+      "motivation",
+      "interest",
+      "needs"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “needs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The Institute of Home Science gives guidance in the management of the homes in budgeting, time management and________.",
+    "options": [
+      "energy management",
+      "knowledge in poultry",
+      "new technology",
+      "banking"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “energy management”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Extension Education mainly brings desirable ______ in human behaviour.",
+    "options": [
+      "skills",
+      "changes",
+      "attitudes",
+      "behaviour"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “changes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A message is stale or historical and has no importance if it is:",
+    "options": [
+      "short",
+      "unclear",
+      "delayed",
+      "prompt"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “delayed”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A person who actually initiates the action in the community is:",
+    "options": [
+      "Professional leader",
+      "Assured leader",
+      "Operational leader",
+      "Popular leader"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Operational leader”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Folkways have:",
+    "options": [
+      "Moral validity",
+      "Conventional validity",
+      "Legal validity",
+      "All the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Conventional validity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "When using farm and home visits as extension teaching methods the most important point to be maintained is:",
+    "options": [
+      "familiarity",
+      "regularity",
+      "formality",
+      "rigidity"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “regularity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In India indigenous media is overlooked due to lack of:",
+    "options": [
+      "audience",
+      "media",
+      "channels",
+      "trained personnel"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “trained personnel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Radio Rural Forum was started in India in:",
+    "options": [
+      "1986",
+      "1956",
+      "1958",
+      "1966"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1956”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Indian Society of Extension Education (ISEE) has its headquarters at:",
+    "options": [
+      "New Delhi",
+      "Telangana",
+      "Udaipur",
+      "Mumbai"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “New Delhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "This is basically the simplest form of teleconferencing:",
+    "options": [
+      "Computer conferencing",
+      "Video conferencing",
+      "Audio conferencing",
+      "Web conferencing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Audio conferencing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Indigenous communication channels are a precious source of________ wisdom.",
+    "options": [
+      "intellectual",
+      "scientific",
+      "popular",
+      "traditional"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “traditional”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Communication is a social science as it focusses on:",
+    "options": [
+      "human behaviour",
+      "mass media",
+      "personality",
+      "analysis of minds"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “human behaviour”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Every set of Flash Cards should have:",
+    "options": [
+      "a project",
+      "a title",
+      "a story",
+      "a simple word"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “a title”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The central element in an effective learning situation is:",
+    "options": [
+      "Teacher",
+      "Learner",
+      "Subject matter",
+      "Teaching aids"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Learner”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "While planning for use of any teaching aids we have to first focus on our",
+    "options": [
+      "technique",
+      "media",
+      "objectives",
+      "resources"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “resources”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "“Philosophy of Extension is to teach people how to think, not what to think”. Who said this statement?",
+    "options": [
+      "Reddy",
+      "Leagans",
+      "Rudramurty",
+      "Kelsey and Hearne"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Kelsey and Hearne”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A puppet show is considered an effective method of teaching because it:",
+    "options": [
+      "Is spontaneous act and requires no preparation",
+      "Is meant only for children’s entertainment",
+      "Attracts attention through storytelling",
+      "Avoids interaction with the audience"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Attracts attention through storytelling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A leader with _______ can recognise the feelings of others and will understand their perspective.",
+    "options": [
+      "patience",
+      "communication",
+      "integrity",
+      "empathy"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “empathy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The sum of first five prime numbers is",
+    "options": [
+      "18",
+      "26",
+      "28",
+      "39"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “28”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four circles having equal radii are drawn with centres at the four corners of a square. Each circle touches the other two adjacent circles. If the remaining area of the square is , what is the size of the radius of the circle (in cm).",
+    "options": [
+      "14",
+      "22",
+      "18",
+      "44"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “14”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "How many seconds will a 500m long train travelling from Sairang to Guwahati take to cross a man walking with a speed of 3km/hr in the direction of the moving train if the speed of train is 63km/hr?",
+    "options": [
+      "15 sec",
+      "30 sec",
+      "45 sec",
+      "10 sec"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “30 sec”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find out the odd number in the following set: 8, 27, 64, 100, 125, 216.",
+    "options": [
+      "8",
+      "64",
+      "100",
+      "216"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "There are 60 people in a room. Each of them drinks either tea or coffee. If 75% drink tea and 45% drink coffee, how many drink tea only?",
+    "options": [
+      "33",
+      "20",
+      "15",
+      "12"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “33”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the third proportional between 9 and 27.",
+    "options": [
+      "81",
+      "54",
+      "36",
+      "27"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “81”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Eggs are bought at 5 for Rs 10 and sold at 6 for Rs 15. The gain percent is",
+    "options": [
+      "35%",
+      "70%",
+      "25%",
+      "50%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “25%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is 45 minutes expressed as a decimal of an hour?",
+    "options": [
+      "0.5",
+      "0.75",
+      "0.45",
+      "0.85"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.75”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The statistical study of elections and voting is called",
+    "options": [
+      "Psephology",
+      "Sociology",
+      "Epidemiology",
+      "Ethnography"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Psephology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out.",
+    "options": [
+      "Crater",
+      "Epicentre",
+      "Seismology",
+      "Focus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Crater”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "How many such pairs of letters are there in the word ‘KINDNESS’ each of which have as many letters between them in word as in the English alphabet?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Two”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the correctly punctuated sentence:",
+    "options": [
+      "She said, “I am tired.”",
+      "She said “I am tired.”",
+      "She said, “I am tired”.",
+      "She said “I am tired”."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “She said, “I am tired.””. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Going 40 m to the south of my house, I turned left and go another 10 m. Then turning to the North, I go 20 m and then starts walking to my house. In which direction am I walking now?",
+    "options": [
+      "North-east",
+      "North-west",
+      "South-east",
+      "South-west"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “North-west”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If 1st half of the English alphabet is written in backward order, then what will be the 7th letter to the left of the 10th letter from your right?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "River : Ocean",
+    "options": [
+      "Child : School",
+      "Book : Library",
+      "Lane : Road",
+      "Cloth : Body"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lane : Road”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Directions (Question No. 40): Select the pair of words/numbers that has the same analogous",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which figure is a rotation of the object?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Select three out of the five alternative figures which when fitted into each other would form a complete square.",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 4",
+      "3, 4, 1",
+      "2, 1, 5"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2, 3, 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four different positions of dice are as shown below. What number is opposite to face 5?",
+    "options": [
+      "6",
+      "4",
+      "2",
+      "3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the missing character.",
+    "options": [
+      "H",
+      "A",
+      "P",
+      "X"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “H”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the number of triangles in the given figure.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In a code, CAT = DBU, then DOG = ?",
+    "options": [
+      "EPH",
+      "EOF",
+      "EOH",
+      "EPG"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “EPH”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find out from the answer figures the right figure to be placed in the gap containing the ‘?’ mark.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four standard dice are thrown on the ground. The total of numbers on the top faces of these four dice is 15 as the top faces showed 4, 3, 2 and 6 respectively. What is the total of the faces touching the ground?",
+    "options": [
+      "14",
+      "11",
+      "13",
+      "None"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “13”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Home Science Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In the following alphabet series, which letter is eighth to the left of sixteenth letter from the right end? A   B   C  D  E   F  G  H   I   J    K  L  M N   O  P  Q   R  S  T   U  V  W  X  Y   Z",
+    "options": [
+      "B",
+      "S",
+      "C",
+      "H"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Extension education is the ‘education for the betterment of the people’. Discuss this statement in light of the fundamental objectives and principles underlying the philosophy of extension.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write down any three (3) definitions of Extension Education. What is the role of Extension Education in community development?(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the channels of Communication? Write down and explain the different essential points of communication.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain how extension teaching methods are effective tools of communication in the hands of an extension worker. Discuss in detail the process of selecting extension teaching methods and factors to consider to ensure effectiveness of these methods in rural settings. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe in detail Folk Media and Drama as an Indigenous communication channel.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define communication. Elucidate three indigenous channels of communication and describe its relevance in the context of extension work.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What points would you consider while planning for use of Audio-visual aids? Explain Communication as a social science.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe non-projected visual aids, their uses and how they differ from projected visual aids. Explain their role in creating effective teaching learning experience in extension. Provide examples. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the role of local leaders in guiding people in extension work. Describe the process of identifying and training leaders in rural area and how this process help in rural development.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-home-science-p3-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-home-science-p3",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define leadership. Discuss the need and importance of leadership in extension education. How does effective leadership contribute to the success of community development?(2+3+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-home-science-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is a fundamental value in the field of social work?",
+    "options": [
+      "Profit maximization",
+      "Social justice",
+      "Individualism",
+      "Counselling"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Social justice”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which code of ethics serves as a guide for ethical practice in social work?",
+    "options": [
+      "The Corporate Code of Ethics",
+      "The NASW Code of Ethics",
+      "The Legal Code of Ethics",
+      "The Medical Code of Ethics"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The NASW Code of Ethics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In social work, the principle of self-determination means:",
+    "options": [
+      "Clients have no say in their treatment.",
+      "Social workers make all decisions for clients.",
+      "Clients have the right to make choices about their own lives.",
+      "Clients must follow the recommendations of the social worker."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Clients have the right to make choices about their own lives.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The person-in-environment perspective in social work emphasizes:",
+    "options": [
+      "The individual’s internal struggles",
+      "Considering the influence of individuals on their environment",
+      "Considering the interaction between individuals and their environment",
+      "The environmental influence on individuals"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Considering the interaction between individuals and their environment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Groups where members are brought together to accomplish tasks within a specified time period, are known as:",
+    "options": [
+      "Primary Groups",
+      "Treatment Groups",
+      "Task Groups",
+      "Recreational Groups"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Task Groups”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Equifinality is a concept used in:",
+    "options": [
+      "International social work practice",
+      "Integrated social work practice",
+      "Specialized social work practice",
+      "Case Intake"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Integrated social work practice”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of social work research?",
+    "options": [
+      "To prove the superiority of one social work approach over others.",
+      "To enhance the academic credentials of social workers.",
+      "To justify the actions of social workers.",
+      "To inform evidence-based practice and policy."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To inform evidence-based practice and policy.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The principle of confidentiality in social work means that:",
+    "options": [
+      "Social workers should protect the privacy of client information.",
+      "Social workers should share client information without consent.",
+      "Social workers should disclose all client information to the public.",
+      "Social workers should use client information for personal gain."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Social workers should protect the privacy of client information.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not a value commonly associated with social work?",
+    "options": [
+      "Respect for diversity",
+      "Social justice",
+      "Autonomy of the social worker",
+      "Human dignity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Autonomy of the social worker”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘triad’ is associated with:",
+    "options": [
+      "Social Casework",
+      "Community Organization",
+      "PRA",
+      "Social Group Work"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Social Group Work”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What was the first settlement house in the United States?",
+    "options": [
+      "Hull House",
+      "Toynbee Hall",
+      "The Chicago Commons",
+      "The Henry Street Settlement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hull House”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which emerging trend in social work emphasizes the importance of addressing the social determinants of health?",
+    "options": [
+      "Medical model of social work",
+      "Charity-based approach",
+      "Public health social work",
+      "Traditional counseling"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Public health social work”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘community organizing’ in social work involves:",
+    "options": [
+      "Providing individual therapy in a community setting",
+      "Empowering communities to advocate for change and address social issues",
+      "Imposing solutions on communities without their input",
+      "Avoiding community involvement in social work practice"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Empowering communities to advocate for change and address social issues”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The first settlement house was known as:",
+    "options": [
+      "Charity organisation society",
+      "Neighbourhood guild",
+      "Toynbee Hall",
+      "Hull house"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Toynbee Hall”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Social learning theory is associated with:",
+    "options": [
+      "Albert Bandura",
+      "Thorndike",
+      "Ivan Pavlov",
+      "Eric Berne"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Albert Bandura”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Someone who is frustrated by his superiors may go home and abuse his wife. This is an example of:",
+    "options": [
+      "Sublimation",
+      "Displacement",
+      "Regression",
+      "Denial"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Displacement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The two main forms of social stratification are:",
+    "options": [
+      "Class and Estate",
+      "Society and Community",
+      "Caste and Class",
+      "Family and Kinship"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Caste and Class”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The book, ‘Social Diagnosis’ was written by:",
+    "options": [
+      "H.H. Perlman",
+      "Mary Richmond",
+      "Trecker",
+      "Herbert Bisno"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mary Richmond”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Classical conditioning was propagated by:",
+    "options": [
+      "Ivan Pavlov",
+      "Sigmund Freud",
+      "Abraham Maslow",
+      "Thorndike"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ivan Pavlov”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which one of the following is not a part of social case work process?",
+    "options": [
+      "Treatment",
+      "Assessment",
+      "Study",
+      "Content Analysis"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Content Analysis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not a principle of group work?",
+    "options": [
+      "Progressive programme experience",
+      "Specific objectives",
+      "Group experiments",
+      "Continuous evaluation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Group experiments”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Working memory involves which of the following:",
+    "options": [
+      "Storage capacity and Biographical information",
+      "Semantic information and Processing capacity",
+      "Storage capacity and Processing capacity",
+      "Biographical information and Semantic information"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Storage capacity and Processing capacity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following dimensions is not included in the definition of ‘Health’ by the World Health Organization (WHO)?",
+    "options": [
+      "Physical",
+      "Occupational",
+      "Mental",
+      "Social"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Occupational”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which technique of qualitative data collection is followed by researcher to understand people and their behaviour through direct, focused and non-verbal interaction in their natural setting?",
+    "options": [
+      "Interview",
+      "Observation",
+      "Case study",
+      "Participatory Rural Appraisal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Observation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In Social Group Work, what does the term ‘norms’ refer to?",
+    "options": [
+      "Confidential information",
+      "Individual therapy goals",
+      "Behavioral expectations within the group",
+      "Legal requirements for the group"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Behavioral expectations within the group”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The process of assessment in social case work involves:",
+    "options": [
+      "Collecting and analyzing information about the client’s situation and needs",
+      "Implementing interventions",
+      "Terminating the relationship with the client",
+      "Ignoring the client’s perspective"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Collecting and analyzing information about the client’s situation and needs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In social case work, the termination phase is essential because:",
+    "options": [
+      "It allows for more assessment time",
+      "It assesses the client’s issues in depth",
+      "It prolongs the intervention",
+      "It provides closure and summarizes progress made"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It provides closure and summarizes progress made”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the primary goal of the engagement phase in social case work?",
+    "options": [
+      "Building a working relationship with the client",
+      "Solving the client’s problems immediately",
+      "Assessing the client’s problems thoroughly",
+      "Setting long-term goals for the client"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Building a working relationship with the client”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What does the acronym ‘SMART’ stand for in the context of setting goals?",
+    "options": [
+      "Supportive, Meaningful, Analytical, Realistic, Targeted",
+      "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "Structured, Manageable, Appropriate, Resourceful, Timely",
+      "Strategic, Motivational, Actionable, Result-oriented, Task-oriented"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Specific, Measurable, Achievable, Relevant, Time-bound”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A community assessment in social work involves:",
+    "options": [
+      "Dictating community policies",
+      "Imposing decisions on the community",
+      "Ignoring community input",
+      "Evaluating the strengths and needs of a community"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Evaluating the strengths and needs of a community”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Social Workers were initially called:",
+    "options": [
+      "Friendly Almoners",
+      "Friendly Visitors",
+      "Friendly Workers",
+      "Friendly Helpers"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Friendly Visitors”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which concept in community work refers to the active involvement and participation of community members in decision-making processes?",
+    "options": [
+      "Community engagement",
+      "Community exclusion",
+      "Community isolation",
+      "Community control"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Community engagement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘social capital’ in community work refers to:",
+    "options": [
+      "The financial resources within a community",
+      "The networks, relationships, and connections within a community that can be valuable resources",
+      "The community members",
+      "The natural and spatial resources of the community"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The networks, relationships, and connections within a community that can be valuable resources”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which ethical consideration is vital in community work?",
+    "options": [
+      "Ensuring community participation and inclusivity",
+      "Community leaders’ experiences",
+      "Consulting Community Experts",
+      "Decision of the majority"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ensuring community participation and inclusivity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘community cohesion’ refers to:",
+    "options": [
+      "The imposition of decisions on the community",
+      "Conflict among certain community groups",
+      "The degree of social control in a community",
+      "The degree of unity and connectedness among community members"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The degree of unity and connectedness among community members”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is a significant challenge in community work?",
+    "options": [
+      "Resistance to change within the community",
+      "Enforcing decisions on the community",
+      "Ignoring community needs",
+      "Imposing a single perspective on the community"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Resistance to change within the community”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘social inclusion’ emphasizes:",
+    "options": [
+      "Charitable actions for the poor",
+      "Including women",
+      "Ensuring that all community members are involved and have access to resources and opportunities",
+      "Research based Community development"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ensuring that all community members are involved and have access to resources and opportunities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which approach in community work focuses on changing social policies and systems to address community needs?",
+    "options": [
+      "Policy advocacy",
+      "Social service provision",
+      "Discrimination",
+      "Segregation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Policy advocacy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which theorist is known for the ecological systems perspective?",
+    "options": [
+      "Erik Erikson",
+      "Abraham Maslow",
+      "Urie Bronfenbrenner",
+      "Sigmund Freud"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Urie Bronfenbrenner”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The Constitution of India under Article 23 (1) prohibits:",
+    "options": [
+      "Beggary",
+      "White collar crimes",
+      "Trafficking in Human Beings or Persons",
+      "Sexual offenses against children"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Trafficking in Human Beings or Persons”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The term ‘micro-macro-mezzo’ framework is often used in social work. What does ‘mezzo’ refer to in this context?",
+    "options": [
+      "Individual level",
+      "Community and organizational level",
+      "Family level",
+      "International level"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Community and organizational level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which influential social worker and sociologist was known for her work in urban planning and community organization?",
+    "options": [
+      "Mary Ellen Richmond",
+      "Frances Perkins",
+      "Charlotte Perkins Gilman",
+      "Jane Addams"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Jane Addams”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The term ‘de-institutionalization’ in social work history refers to:",
+    "options": [
+      "The closure of orphanages and asylums in favor of community-based care",
+      "The expansion of institutional care for vulnerable populations",
+      "The promotion of large-scale, centralized institutions",
+      "The emergence of private philanthropic organizations"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The closure of orphanages and asylums in favor of community-based care”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "One of the factors responsible for the early social reforms in India were:",
+    "options": [
+      "East India Company",
+      "Muslim League",
+      "Raja Ram Mohan Roy",
+      "Christian Missionaries"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Christian Missionaries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘empowerment’ in social work emphasizes:",
+    "options": [
+      "Disempowering clients to protect them from harm",
+      "Equitable distribution of resources",
+      "The exclusion of marginalized groups",
+      "Motivating individuals"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Equitable distribution of resources”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of ‘intersectionality’ in social work recognizes that individuals may face multiple forms of:",
+    "options": [
+      "Equality",
+      "Oppression and discrimination",
+      "Privilege",
+      "Cultural assimilation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Oppression and discrimination”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘social model of disability’ in social work highlights that disability is primarily a result of:",
+    "options": [
+      "Individual medical conditions",
+      "Genetic factors",
+      "Environmental and social barriers",
+      "Lack of access to healthcare"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Environmental and social barriers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The concept of “dharma” in ancient Indian culture relates to which aspect of social work?",
+    "options": [
+      "Social justice",
+      "Advocacy and rights",
+      "Rehabilitation and recovery",
+      "Duty and moral obligation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Duty and moral obligation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The first professional school of social work in India was established in which year?",
+    "options": [
+      "1905",
+      "1913",
+      "1920",
+      "1936"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1936”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-I",
+    "difficulty": "medium",
+    "question": "________ is the founder of the Brahmo Samaj.",
+    "options": [
+      "Keshab Chandra Sen",
+      "Raja Ram Mohan Roy",
+      "Dwarknath Tagore",
+      "Sasipada Banerjee"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Raja Ram Mohan Roy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the impact of Gandhian Philosophy on Professional Social Work.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Critically examine the Strengths perspective in Social Work.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Examine the core values of Social Work.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the purpose of working with groups? Examine the techniques of Social Group Work. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the principles of Social Casework with suitable examples.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Social Welfare Administration. Explain the principles of social welfare administration with examples.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write short notes on any two the following:(5+5=10)\na. Substance Use Disorder\nb. Sexual Offenses\nc. Gender Inequality",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Distinguish between community work and community organisation in social work.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss any one type of research design with examples.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Differentiate between direct and indirect practice in Social Work.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following  describes child development?",
+    "options": [
+      "Growth in height and weight",
+      "Progressive changes in abilities and behavior",
+      "Only intellectual growth",
+      "Only Emotional growth"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Progressive changes in abilities and behavior”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The largest child population in the world is:",
+    "options": [
+      "India",
+      "China",
+      "Japan",
+      "USA"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to The National Policy for Children, 2013 a child is:",
+    "options": [
+      "Below 14 years",
+      "Below 18 years",
+      "Below 12 years",
+      "Below 21 Years"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Below 18 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a factor influencing child development?",
+    "options": [
+      "Heredity",
+      "Environment",
+      "Practice",
+      "Astrology"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Astrology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Learning by imitation and modeling is explained by:",
+    "options": [
+      "Classical Conditioning",
+      "Operant Conditioning",
+      "Social Learning Theory",
+      "Cognitive Theory"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Social Learning Theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "One among the following is not listed as undeniable rights of every child:",
+    "options": [
+      "Survival",
+      "Health",
+      "Entertainment",
+      "Nutrition"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Entertainment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "ECCE stands for:",
+    "options": [
+      "Early Childhood Care and Education",
+      "Extension of Children Care and Education",
+      "Excessive Childhood Care and Education",
+      "Early Childhood Care and Entertainment"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Early Childhood Care and Education”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "National Early Childhood Care and Education (ECCE) Policy adopted in the year:",
+    "options": [
+      "2015",
+      "2010",
+      "2023",
+      "2013"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2013”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Indian Constitution empower the state to make special provision for children in:",
+    "options": [
+      "Article 26(4)",
+      "Article 15(3)",
+      "Article 21(a)",
+      "Article 12(b)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 15(3)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "One is a non-institutional care for children:",
+    "options": [
+      "Special Home",
+      "Observation Home",
+      "Adoption",
+      "Shelter Home"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adoption”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Toll free number of a ‘Childline’ is:",
+    "options": [
+      "1198",
+      "1098",
+      "1298",
+      "1398"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1098”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a principle of child development?",
+    "options": [
+      "Development is predictable and sequential",
+      "Development proceeds from head to toe",
+      "Development occurs at the same rate for all children",
+      "Development is influenced by both heredity and environment"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Development occurs at the same rate for all children”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "India ratified the United Nations Convention on the Rights of a Child in the year:",
+    "options": [
+      "1962",
+      "1972",
+      "1982",
+      "1992"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1992”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Period of Child development from conception to birth is:",
+    "options": [
+      "Prenatal",
+      "Infancy",
+      "Toddlerhood",
+      "Early Childhood"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Prenatal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Oral stage according to Sigmund Freud’s Psychosexual Theory is:",
+    "options": [
+      "Birth to 4 Years",
+      "Birth to 3 Years",
+      "Birth to 2 Years",
+      "Birth to 1 Year"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Birth to 1 Year”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "One of the following is NOT in the stage of Erik Erikson’s Psychosocial Theory.",
+    "options": [
+      "Trust vs. mistrust",
+      "Autonomy vs. shame and doubt",
+      "Intimacy vs. Isolation",
+      "Integration vs. Mobilization"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Integration vs. Mobilization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Conditioned stimulus in Pavlov Classical Conditioning is:",
+    "options": [
+      "Natural",
+      "Learned",
+      "Neither Natural nor Learned",
+      "Both Natural and Learned"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Learned”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "George Herbert Mead discussed the connection between:",
+    "options": [
+      "Self, mind and society",
+      "Self, identity and society",
+      "Self, mind and continuity",
+      "Individual, mind and society"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Self, mind and society”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The correct sequence of Jean Piaget’s theory of cognitive development is:",
+    "options": [
+      "Preoperational stage, Sensorimotor stage, Concrete operational stage, Formal operational stage",
+      "Sensorimotor stage, Preoperational stage, Concrete operational stage, Formal operational stage",
+      "Sensorimotor stage, Preoperational stage, Formal operational stage, Concrete operational stage.",
+      "Sensorimotor stage, Concrete operational stage, Preoperational stage, Formal operational stage"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sensorimotor stage, Preoperational stage, Concrete operational stage, Formal operational stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The first stage of Prenatal Development of a child is:",
+    "options": [
+      "The Germinal Period",
+      "The Embryonic Period",
+      "The Fetal Period",
+      "The Neonatal Period"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The Germinal Period”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A book titled ‘Child Growth and Development’ is written by:",
+    "options": [
+      "Sigmund Freud",
+      "Eric Erickson",
+      "Elizabeth B Hurlock",
+      "BF Skinner"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Elizabeth B Hurlock”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The ability of a child to use symbols and language develops during which of Piaget’s stages?",
+    "options": [
+      "Sensorimotor stage",
+      "Pre-operational stage",
+      "Concrete operational stage",
+      "Formal operational stage"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pre-operational stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "According to Erikson, the conflict faced during adolescence is:",
+    "options": [
+      "Trust vs. mistrust",
+      "Autonomy vs. shame",
+      "Identity vs. role confusion",
+      "Industry vs. inferiority"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Identity vs. role confusion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Freud’s stage from 1 to 3 years, where toilet training is crucial, is called?",
+    "options": [
+      "Oral Stage",
+      "Anal Stage",
+      "Phallic Stage",
+      "Latency Stage"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Anal Stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of social development?",
+    "options": [
+      "Learning to crawl",
+      "Learning to cooperate with classmates",
+      "Learning to solve puzzles",
+      "Learning to draw"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Learning to cooperate with classmates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Maternal malnutrition during pregnancy may lead to:",
+    "options": [
+      "Low weight during birth",
+      "Developed intelligence",
+      "Early puberty",
+      "Strong immunity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Low weight during birth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Iron and folic acid supplementation during pregnancy helps to prevent:",
+    "options": [
+      "Rickets",
+      "Anemia and birth defects",
+      "Goiter",
+      "Obesity"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Anemia and birth defects”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Smoking during pregnancy can lead to:",
+    "options": [
+      "Stronger lungs in babies",
+      "Low birth weight and respiratory issues",
+      "High IQ in babies",
+      "Faster growth"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Low birth weight and respiratory issues”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Most important care during pregnancy to monitor mother and child health is:",
+    "options": [
+      "Health care at schools",
+      "Antenatal care",
+      "Postnatal care",
+      "Emergency care"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Antenatal care”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following statement highlights the impact of maternal mental health during pregnancy?",
+    "options": [
+      "Has no influence on fetal outcomes.",
+      "Stress and depression may affect fetal brain development.",
+      "Nutrition can solve the issue",
+      "Affects only the mothers physical health"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Stress and depression may affect fetal brain development.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which condition can occur in newborns if the mother has severe anemia during pregnancy?",
+    "options": [
+      "Hypertension",
+      "Overweight",
+      "Premature birth and low birth weight",
+      "Obesity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Premature birth and low birth weight”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Prenatal care refers to care given:",
+    "options": [
+      "Before and during pregnancy",
+      "After childbirth",
+      "After 6 months of delivery",
+      "During breastfeeding"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Before and during pregnancy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Exclusive breastfeeding is recommended for:",
+    "options": [
+      "2 months",
+      "4 months",
+      "6 months",
+      "12 months"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The ICDS (Integrated Child Development Services) Scheme was launched in:",
+    "options": [
+      "1975",
+      "1985",
+      "1995",
+      "2005"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1975”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Mid-Day Meal Scheme was officially launched in India in:",
+    "options": [
+      "1975",
+      "1985",
+      "1995",
+      "2005"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1995”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "POSHAN Abhiyaan (National Nutrition Mission) was launched in:",
+    "options": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2018”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Juvenile Justice (Care and Protection of Children) Act deals with:",
+    "options": [
+      "Nutrition",
+      "Education",
+      "Rehabilitation",
+      "Immunization"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rehabilitation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Choose the correct option from the statements relating to POCSO Act. (i)POCSO Act was enacted in 2011. (ii)Any child committing offence under this Act will be dealt with under the provision of the Juvenille Justice Act 2015. (iii)Under POCSO Act, a child is defined as any person under 14 years. (iv)Under this Act, victim  and perpetrator can be of any gender.",
+    "options": [
+      "(i) and (iii) only",
+      "(ii) and (iv) only",
+      "(i), (ii) and (iii) only",
+      "(iv) only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(ii) and (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which programme under the Five-Year Plans aimed at improving adolescent girls’ nutrition?",
+    "options": [
+      "ICDS",
+      "Kishori Shakti Yojana",
+      "Mid-Day Meal Scheme",
+      "POSHAN Abhiyaan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kishori Shakti Yojana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which Five-Year Plan emphasized universal primary education for children?",
+    "options": [
+      "Seventh",
+      "Eight",
+      "Nineth",
+      "Tenth"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tenth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The National Policy for Children was lastly revised in:",
+    "options": [
+      "1993",
+      "2003",
+      "2013",
+      "2023"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2013”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The primary focus of the National Policy for Children (2003) is:",
+    "options": [
+      "Protection, survival, development, and participation of children",
+      "Economic growth",
+      "Urban development",
+      "Industrialization"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Protection, survival, development, and participation of children”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Sarva Shiksha Abhiyan (SSA) was launched in:",
+    "options": [
+      "1991",
+      "2001",
+      "2011",
+      "2021"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2001”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "SSA aims to provide free and compulsory education for children aged:",
+    "options": [
+      "6 to 14 years",
+      "3 to 8 years",
+      "10 to 18 years",
+      "6 to 18 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “6 to 14 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "NRHM was merged into a broader programme called:",
+    "options": [
+      "Janani Suraksha Yojana",
+      "POSHAN Abhiyaan",
+      "National Health Mission (NHM)",
+      "ICDS"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “National Health Mission (NHM)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "ICPS is implemented under ministry of:",
+    "options": [
+      "Ministry of Education",
+      "Ministry of Women and Child Development",
+      "Ministry of Health and Family Welfare",
+      "Ministry of Labour"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ministry of Women and Child Development”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "ICPS aligns with which international convention for child rights:",
+    "options": [
+      "UNCRC (United Nations Convention on the Rights of the Child)",
+      "CEDAW",
+      "Universal Declaration of Human Rights",
+      "Geneva Convention"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “UNCRC (United Nations Convention on the Rights of the Child)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "POCSO Act protects children from:",
+    "options": [
+      "Physical abuse",
+      "Sexual offenses",
+      "Neglect",
+      "Emotional Abuse"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sexual offenses”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Juvenile Justice Boards (JJBs) deal with:",
+    "options": [
+      "Children in conflict with law",
+      "Children in need of care and protection",
+      "Children who are victim of Sexual Abuse",
+      "Disabled Children"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Children in conflict with law”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The main objective of ICPS is:",
+    "options": [
+      "Promote industrial growth",
+      "Ensure safety, protection, and rehabilitation of children in need of care and protection",
+      "Provide children literacy programs",
+      "Develop urban infrastructure"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ensure safety, protection, and rehabilitation of children in need of care and protection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the various institutional care and services for child development and highlight their functions. (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Critically examine the key components of early childhood care and education.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the importance of research, documentation and capacity building in child development.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the differences between nature and nurture for psychological development of children.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Elaborate the stages of psychosocial development according to Erik Erikson’s Psychosocial Theory. Highlight its relevance with suitable examples.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Highlight the importance of Pre-natal Care for child development.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the nature and importance of Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (SABLA, 2010).(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Critically examine the implementation of Integrated Child Development Programme (ICDS) in Mizoram.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Highlight the salient feature of National Policy for Children (2013).(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p2-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the roles and functions of Juvenile Justice Board as a mechanism for child protection.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Saksham Anganwadi and POSHAN 2.0. comprises of:",
+    "options": [
+      "ICDS, POSHAN Abhiyaan, Scheme for Adolescent Girls, and National Crèche Scheme",
+      "ICDS, POSHAN Abhiyaan, and Scheme for Adolescent Girls",
+      "POSHAN Abhiyaan, Scheme for Adolescent Girls, and National Crèche Scheme",
+      "ICDS and National Crèche Scheme"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “ICDS, POSHAN Abhiyaan, Scheme for Adolescent Girls, and National Crèche Scheme”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The constitutional provision on the rights of Children in India is provided in:",
+    "options": [
+      "Article 21, Article 24 and Article 39 (e & f)",
+      "Article 21 A, Article 24 and Article 39",
+      "Article 21 A, Article 24 and Article 39 (e & f)",
+      "Article 21, Article 24 and Article 39"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Article 21 A, Article 24 and Article 39 (e & f)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The main reason for introducing ICDS in India was due to:",
+    "options": [
+      "High levels of child malnutrition",
+      "Low school readiness",
+      "Poor immunization coverage",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not the role and responsibility of CDPO?",
+    "options": [
+      "Provide overall guidance to Supervisors and AWWs for implementation of the Scheme in the",
+      "Chalk out plan to generate awareness among the community about SAG.",
+      "Plan convergence at field level with other Departments.",
+      "Facilitate training of Sakhi/Saheli and supervise the peer training activities conducted at village"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Facilitate training of Sakhi/Saheli and supervise the peer training activities conducted at village”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "As per the revised population norms, a Mini-Anganwadi Centre can be opened in Tribal Project with a population of:",
+    "options": [
+      "100-250",
+      "100-300",
+      "150-250",
+      "150-300"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “150-300”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Pradhan Mantri Matru Vandana Yojana (PMMVY) is a maternity benefit program introduced by Ministry of Women and Child Development in the year:",
+    "options": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2017”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Any child deprived of family care, basic rights, or living in unsafe/abusive conditions falls under the category of:",
+    "options": [
+      "Children in need of care and protection",
+      "Children in need of care",
+      "Vulnerable children",
+      "Children in need of protection"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Children in need of care and protection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The child protection theory that is suggesting for the need of secure emotional bond with caregivers for healthy development is:",
+    "options": [
+      "Ecological system theory",
+      "Social cognitive theory",
+      "Attachment theory",
+      "Social learning theory"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Attachment theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The United Nations Convention on the Rights of the Child (UNCRC), 1989 recognizes children as:",
+    "options": [
+      "Rights-holders",
+      "Dependents to parents",
+      "Dependents to society",
+      "Dependents to government"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rights-holders”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "To ensure the children’s rights to survival, protection, development, and participation are the functions of the:",
+    "options": [
+      "National Commission for Protection of Child Rights",
+      "State Commission for Protection of Child Rights",
+      "State Child Welfare Committee",
+      "Both (a) & (b)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Both (a) & (b)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B11",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The major areas of work of the National Institute of Public Cooperation and Child development does not include:",
+    "options": [
+      "Mental health promotion",
+      "Monitoring the ICDS",
+      "Women development and gender studies",
+      "Child rights advocacy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mental health promotion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B12",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Emotional neglect in children result in:",
+    "options": [
+      "Physical injuries",
+      "Poor emotional development and low self esteem",
+      "Improved academic performance",
+      "Strong social skills"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Poor emotional development and low self esteem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B13",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The Integrated Child Protection Scheme (ICPS) in the state supervises",
+    "options": [
+      "Child protection services",
+      "Non-institutional care (foster care, adoption, after-care)",
+      "Institutions for children in need of care & protection (CNCP)",
+      "All the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B14",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If more malnourished children are found in Village 1 than in Village 2, but both villages had received the same nutrition supply, what could be the reason?",
+    "options": [
+      "Distribution gap",
+      "Poor awareness among parents",
+      "Health issues in children",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B15",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "During Poshan Abhiyaan event, only few communality members are participating. What would be an ideal action?",
+    "options": [
+      "Cancel event",
+      "Use cultural methods (songs, drama, folk media) to spread awareness",
+      "Blame mothers",
+      "Ask for more funds"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Use cultural methods (songs, drama, folk media) to spread awareness”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B16",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Anganwadi worker reports that community mothers do not attend nutrition counseling sessions. In this case, what would be the action taken by CDPO?",
+    "options": [
+      "Remove worker",
+      "Understand barriers (timing, workload, awareness)",
+      "Ignore",
+      "Provide counseling only to those who come"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Understand barriers (timing, workload, awareness)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B17",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "At a community meeting, only men are speaking, and women remain silent. What should you do?",
+    "options": [
+      "Ignore women’s silence",
+      "Directly ask women simple, friendly questions",
+      "End the meeting quickly",
+      "Let men dominate discussion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Directly ask women simple, friendly questions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B18",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to the passage, child development programs succeed mainly due to:",
+    "options": [
+      "More funds",
+      "Community participation",
+      "Government officers",
+      "Infrastructure"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Community participation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 18 & 19): Answer the following questions based on the given passage:"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B19",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What happens if there is no awareness?",
+    "options": [
+      "Programs stop",
+      "Services are underutilized",
+      "Services fail permanently",
+      "Children don’t go to school"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Services are underutilized”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B20",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What does child protection mainly focus on?",
+    "options": [
+      "Providing food to children",
+      "Protecting children from abuse and neglect",
+      "Teaching children in schools",
+      "Building playgrounds"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Protecting children from abuse and neglect”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 20 & 21): Answer the following questions based on the given passage:"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B21",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Why do many cases of child abuse remain unreported?",
+    "options": [
+      "Lack of government officers",
+      "Fear, stigma, and lack of knowledge",
+      "Too many children in villages",
+      "Because parents do not care"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Fear, stigma, and lack of knowledge”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B22",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Child resilience refers to:",
+    "options": [
+      "Avoid all stressful situations",
+      "Recover and adapt positively facing adversity",
+      "Level of obedience to parents and teachers",
+      "The absence of emotional reactions during challenges"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Recover and adapt positively facing adversity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B23",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Coping strategies in children are:",
+    "options": [
+      "Ways children use to manage stress and solve problems",
+      "Techniques to avoid responsibility",
+      "Methods to control other people’s behaviour",
+      "A sign of emotional weakness"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ways children use to manage stress and solve problems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B24",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Early prevention of behavioural problems in children mainly focuses on:",
+    "options": [
+      "Identifying and addressing problems before they become serious",
+      "Waiting until the child grows older to act",
+      "Blaming parents for the child’s behaviour",
+      "Removing the child from all social situations"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Identifying and addressing problems before they become serious”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B25",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is the most effective way to prevent behavioural problems in children?",
+    "options": [
+      "Using strict punishment for every mistakes",
+      "Providing consistent discipline and positive reinforcement",
+      "Ignoring minor misbehaviour",
+      "Comparing the child with others"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Providing consistent discipline and positive reinforcement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B26",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The sum of first five prime numbers is",
+    "options": [
+      "18",
+      "26",
+      "28",
+      "39"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “28”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B27",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four circles having equal radii are drawn with centres at the four corners of a square. Each circle touches the other two adjacent circles. If the remaining area of the square is , what is the size of the radius of the circle (in cm).",
+    "options": [
+      "14",
+      "22",
+      "18",
+      "44"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B28",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "How many seconds will a 500m long train travelling from Sairang to Guwahati take to cross a man walking with a speed of 3km/hr in the direction of the moving train if the speed of train is 63km/hr?",
+    "options": [
+      "15 sec",
+      "30 sec",
+      "45 sec",
+      "10 sec"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B29",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find out the odd number in the following set: 8, 27, 64, 100, 125, 216.",
+    "options": [
+      "8",
+      "64",
+      "100",
+      "216"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “100”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B30",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "There are 60 people in a room. Each of them drinks either tea or coffee. If 75% drink tea and 45% drink coffee, how many drink tea only?",
+    "options": [
+      "33",
+      "20",
+      "15",
+      "12"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B31",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the third proportional between 9 and 27.",
+    "options": [
+      "81",
+      "54",
+      "36",
+      "27"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B32",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Eggs are bought at 5 for Rs 10 and sold at 6 for Rs 15. The gain percent is",
+    "options": [
+      "35%",
+      "70%",
+      "25%",
+      "50%"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B33",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is 45 minutes expressed as a decimal of an hour?",
+    "options": [
+      "0.5",
+      "0.75",
+      "0.45",
+      "0.85"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.75”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B34",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The statistical study of elections and voting is called",
+    "options": [
+      "Psephology",
+      "Sociology",
+      "Epidemiology",
+      "Ethnography"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Psephology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B35",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out.",
+    "options": [
+      "Crater",
+      "Epicentre",
+      "Seismology",
+      "Focus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Crater”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B36",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "How many such pairs of letters are there in the word ‘KINDNESS’ each of which have as many letters between them in word as in the English alphabet?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Two”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B37",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the correctly punctuated sentence:",
+    "options": [
+      "She said, “I am tired.”",
+      "She said “I am tired.”",
+      "She said, “I am tired”.",
+      "She said “I am tired”."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “She said, “I am tired.””. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B38",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Going 40 m to the south of my house, I turned left and go another 10 m. Then turning to the North, I go 20 m and then starts walking to my house. In which direction am I walking now?",
+    "options": [
+      "North-east",
+      "North-west",
+      "South-east",
+      "South-west"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “North-west”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B39",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "If 1st half of the English alphabet is written in backward order, then what will be the 7th letter to the left of the 10th letter from your right?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “D”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B40",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "River : Ocean",
+    "options": [
+      "Child : School",
+      "Book : Library",
+      "Lane : Road",
+      "Cloth : Body"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lane : Road”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Directions (Question No. 40): Select the pair of words/numbers that has the same analogous",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B41",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which figure is a rotation of the object?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B42",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Select three out of the five alternative figures which when fitted into each other would form a complete square.",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 4",
+      "3, 4, 1",
+      "2, 1, 5"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2, 3, 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B43",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four different positions of dice are as shown below. What number is opposite to face 5?",
+    "options": [
+      "6",
+      "4",
+      "2",
+      "3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B44",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the missing character.",
+    "options": [
+      "H",
+      "A",
+      "P",
+      "X"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B45",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the number of triangles in the given figure.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B46",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B47",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In a code, CAT = DBU, then DOG = ?",
+    "options": [
+      "EPH",
+      "EOF",
+      "EOH",
+      "EPG"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “EPH”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B48",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Find out from the answer figures the right figure to be placed in the gap containing the ‘?’ mark.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B49",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Four standard dice are thrown on the ground. The total of numbers on the top faces of these four dice is 15 as the top faces showed 4, 3, 2 and 6 respectively. What is the total of the faces touching the ground?",
+    "options": [
+      "14",
+      "11",
+      "13",
+      "None"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “13”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-B50",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Social Work Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In the following alphabet series, which letter is eighth to the left of sixteenth letter from the right end? A   B   C  D  E   F  G  H   I   J    K  L  M N   O  P  Q   R  S  T   U  V  W  X  Y   Z",
+    "options": [
+      "B",
+      "S",
+      "C",
+      "H"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-1",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the Integrated Child Development Scheme? Discuss the role of NIPCCD in ensuring the effective implementation of ICDS in Mizoram.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-2",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the common behavioural problems among children. Suggest a proposal outlining the role of the Child Development Project Officer (CDPO) in tackling these challenges.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-3",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the concept of Child Protection and discuss the major legal frameworks in India that ensure the protection and welfare of children.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-4",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Identify the key challenges related to child rights violations in India. Examine the various child welfare schemes and programmes aimed at promoting child development.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-5",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "A 16-year-old boy is reported for cyberbullying and online financial fraud. Explain the role of a CDPO in ensuring his rehabilitation and reintegration rather than punishment. Discuss.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-6",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the objectives and functioning of the One Stop Centre (OSC) scheme and its relevance for women in distress.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-7",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the salient features of the Beti Bachao Beti Padhao (BBBP) Programme and explain how this initiative contributes to the safety, security and empowerment of women in India.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-8",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Critically examine the convention on the Rights of child and its relevance for children in the context of North East India.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-9",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Examine the role of National Commission for Protection of Child Rights in India and its role in the promotion of child protection.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cdpo-2025-social-work-p3-written-10",
+    "paperId": "mpsc-group-b-cdpo-2025-social-work-p3",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the child-centric approach and differentiate between institutional and non-institutional services for children.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/cdpo-2025-social-work-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not an important parameter of plasma level time studies?",
+    "options": [
+      "Cmax",
+      "Tmax",
+      "The area under the plasma level-time curve",
+      "Steady state level"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Steady state level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A drug with poor stability means higher bioavailability.",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “False”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "When rate is independent of the reactant concentration, it is called:",
+    "options": [
+      "Zero order reaction.",
+      "Pseudo zero order reaction",
+      "First order reaction",
+      "Second order reaction"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zero order reaction.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is the half life of first order reaction?",
+    "options": [
+      "t1/2 = A0/2k",
+      "t1/2 = 0.693/2k",
+      "t1/2 = 2k",
+      "t1/2 = 0.693/k"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “t1/2 = 0.693/k”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "On a product, the label states ‘protect from light’. What type of decomposition does the product undergo?",
+    "options": [
+      "Carboxylation",
+      "Decarboxylation",
+      "Hydrolysis",
+      "Oxidation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Oxidation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Aspirin undergoes decomposition in a formulation. It can be prevented by:",
+    "options": [
+      "adding a chelating agent",
+      "adding an antioxidant",
+      "protecting it from light",
+      "suppressing its solubility"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “suppressing its solubility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The storage directions of  parenteral solution specify ‘store in a cool place’. This may be stored in:",
+    "options": [
+      "an air-conditioned area at 10°C",
+      "a refrigerator at 15°C",
+      "a place whose temperature is set at 5°C",
+      "room temperature at 25°C"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “a refrigerator at 15°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which term describes the closeness of two or more measurements to each other, regardless of accuracy?",
+    "options": [
+      "Accuracy",
+      "Precision",
+      "Span",
+      "Drift"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Precision”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The indicator used in the Mohr method is–",
+    "options": [
+      "Fe3+",
+      "Fluorescein",
+      "Potassium chromate",
+      "Eosin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Potassium chromate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is the function of the Flame or Emission system in Atomic Absorption Spectroscopy?",
+    "options": [
+      "To split the beam into two",
+      "To break the steady light into pulsating light",
+      "To filter unwanted components",
+      "To reduce the sample into atomic state"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To reduce the sample into atomic state”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B11",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which type of filtration is preferred in gravimetric analysis?",
+    "options": [
+      "Cold filtration",
+      "Hot filtration",
+      "Vacuum filtration",
+      "Centrifugation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Vacuum filtration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B12",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What does the term ‘retention time’ refer to in the context of HPLC analysis?",
+    "options": [
+      "Time taken for sample injection",
+      "Time taken for a compound to travel through the column",
+      "Time taken for column equilibration",
+      "Time taken for detector response"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Time taken for a compound to travel through the column”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B13",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "G proteins are made up of:",
+    "options": [
+      "alpha, beta and gamma subunits",
+      "alpha and beta subunits",
+      "alpha subunits only",
+      "alpha, beta, gamma and delta subunits"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “alpha, beta and gamma subunits”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B14",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Idiosyncratic reaction of a drug is:",
+    "options": [
+      "A type of hypersensitivity reaction",
+      "A type of drug antagonism",
+      "Unpredictable, inherent, qualitatively abnormal reaction to a drug",
+      "Quantitatively exaggerated response"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Unpredictable, inherent, qualitatively abnormal reaction to a drug”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B15",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Anaphylaxis is a severe, life-threatening allergic reaction that is classified as a:",
+    "options": [
+      "Type A ADR",
+      "Type B ADR",
+      "Type C ADR",
+      "Type D ADR"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Type B ADR”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B16",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The absorption of tetracycline is significantly reduced when co-administered with antacids or dairy products due to:",
+    "options": [
+      "Increased gastric motility",
+      "Formation of insoluble chelates",
+      "Alteration of gut flora",
+      "Inhibition of P-glycoprotein"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Formation of insoluble chelates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B17",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Allopurinol increases the activity and toxicity of azathioprine and 6-mercaptopurine by inhibiting which enzyme?",
+    "options": [
+      "CYP2C9",
+      "Thiopurine methyltransferase (TPMT)",
+      "Xanthine oxidase",
+      "Aldehyde dehydrogenase"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Xanthine oxidase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B18",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "What is the initial step in drug discovery?",
+    "options": [
+      "Filing a new drug application",
+      "Identifying disease symptoms",
+      "Target identification and validation",
+      "Drug formulation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Target identification and validation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B19",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Vanishing creams are ________ emulsions.",
+    "options": [
+      "W/O emulsions",
+      "Multiple emulsions",
+      "Not emulsions",
+      "O/W emulsions"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “O/W emulsions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B20",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Endotoxins are a subset of pyrogens that come from ________.",
+    "options": [
+      "Gram-negative bacteria",
+      "Gram-positive bacteria",
+      "Coronavirus",
+      "Mycotoxins"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gram-negative bacteria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B21",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Treated soda lime glass for parenteral packaging is classified as a ________.",
+    "options": [
+      "Type I glass",
+      "Type II glass",
+      "Type III glass",
+      "Type IV glass"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Type II glass”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B22",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "When a small amount of a potent substance is to be mixed with a large amount of diluent, the ________ method is used to ensure the uniform distribution of the potent drug.",
+    "options": [
+      "Levigation",
+      "Trituration",
+      "Spatulation",
+      "Geometric dilution"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Geometric dilution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B23",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A pH of 1 is ________ times more acidic than a pH of 2.",
+    "options": [
+      "2",
+      "100",
+      "10",
+      "4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “10”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B24",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is a type of process validation?",
+    "options": [
+      "Design Qualification (DQ)",
+      "Operational Qualification (OQ)",
+      "Installation Qualification (IQ)",
+      "Prospective validation"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Prospective validation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B25",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Non-polar solvents dissolve non-polar solutes through ________.",
+    "options": [
+      "induced dipole interactions",
+      "their high dielectric constants",
+      "acid-base reactions",
+      "hydrogen-bond formations"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “induced dipole interactions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B26",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Drugs having ester and amide labile groups in their molecular structure degraded through ________.",
+    "options": [
+      "oxidation in the presence of air",
+      "hydrolysis in the presence of water",
+      "photolysis in the presence of visible light",
+      "general acid-base catalysis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “hydrolysis in the presence of water”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B27",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "For pharmaceuticals, Shelf-life (Expiry date) is usually calculated as the time to reduce to ________ of the initial amount.",
+    "options": [
+      "80%",
+      "90%",
+      "50%",
+      "60%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “90%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B28",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "BCS Class II drugs are:",
+    "options": [
+      "highly soluble, highly permeable",
+      "poorly soluble, poorly permeable",
+      "highly soluble, poorly permeable",
+      "poorly soluble, highly permeable"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “poorly soluble, highly permeable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B29",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The AUC of a diclofenac sodium from a 37.5 mg IV dose was 150 mcg.ml⁻¹.hr. When the same dose was given orally, the AUC was found to be 75 mcg.ml⁻¹.hr. The absolute bioavailability will be ________.",
+    "options": [
+      "50%",
+      "2%",
+      "75%",
+      "18.75%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “50%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B30",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The wash out period during cross-over bioequivalence study design is usually about ________ times the half-life of the drug.",
+    "options": [
+      "three",
+      "five",
+      "ten",
+      "twelve"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ten”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B31",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A solid dispersion technique is used to ________ of poorly soluble drugs.",
+    "options": [
+      "reduce the particle size",
+      "increase the contact angle",
+      "reduce the bioavailability",
+      "improve the dissolution rates"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “improve the dissolution rates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B32",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "A clear, sweetened hydroalcoholic solution intended for oral use and is usually flavoured to enhance its palatability is called ________.",
+    "options": [
+      "Syrup",
+      "Elixir",
+      "Liniment",
+      "Tincture"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Elixir”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B33",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Consider the following statements on Water for Injection (WFI): I.The total solid contents of WFI should not be more than 1mg/100 mL of WFI. II.Although water for injection is not required to be sterile, it must be pyrogen-free.",
+    "options": [
+      "Only I is true",
+      "Only II is true",
+      "Both I and II are false",
+      "Both I and II are true"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Both I and II are true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B34",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In parallel line bioassay, the minimal design is the 2+2 assay, in which ________.",
+    "options": [
+      "two doses of standard and two doses of unknown are used",
+      "two standards and two unknowns are used",
+      "two animals are used for standards and unknowns",
+      "only four responses are recorded"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “two doses of standard and two doses of unknown are used”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B35",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The appropriate statistical test for analysing quantal bioassay data would be ________.",
+    "options": [
+      "probit analysis",
+      "student t-test",
+      "linear regression analysis",
+      "ANOVA test"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “probit analysis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B36",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The most abundant and extensively studied phase I drug-metabolizing enzymes are _",
+    "options": [
+      "Cytochrome P-450 isozymes",
+      "Dihydropyrimidine dehydrogenases",
+      "Thiopurine S-methyltransferases",
+      "N-Acetyltransferases"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cytochrome P-450 isozymes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B37",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "An appropriate term conventionally used to describe a more gradual decrease in responsiveness of a receptor to a drug, taking days or weeks to develop is ________.",
+    "options": [
+      "Tachyphylaxis",
+      "Drug resistance",
+      "Tolerance",
+      "Antagonism"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tolerance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B38",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Therapeutic index is calculated as:",
+    "options": [
+      "ED/LD",
+      "E/ED 5050max50",
+      "LD/ED",
+      "E/LD 5050max50"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “LD/ED”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B39",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which one of the following examples is not a pharmacodynamic interaction?",
+    "options": [
+      "-Adrenoceptor antagonists diminish the effectiveness of -adrenoceptor agonists such as salbutamol",
+      "Warfarin competes with vitamin K, preventing hepatic synthesis of various coagulation factors",
+      "Monoamine oxidase inhibitors increase the amount of noradrenaline stored in noradrenergic nerve terminals and interact dangerously with drugs, such as ephedrine",
+      "Gastrointestinal absorption is slowed by drugs that inhibit gastric emptying, such as atropine or opiates"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Gastrointestinal absorption is slowed by drugs that inhibit gastric emptying, such as atropine or opiates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B40",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Toxicity testing, pharmacokinetic analysis and formulation are performed during ________.",
+    "options": [
+      "Drug discovery stage",
+      "Preclinical development stage",
+      "Clinical development stage",
+      "Post-marketing surveillance stage"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Preclinical development stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B41",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The most widely used in vitro tests for mutagenicity is ________.",
+    "options": [
+      "GFR test",
+      "Gastruloids test",
+      "Comet Assay",
+      "Ames test"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ames test”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B42",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "According to ICH Guideline on impurities (Q3C), Class 1 solvents are:",
+    "options": [
+      "Solvents with low toxic potential",
+      "Solvents to be limited",
+      "Solvents to be avoided",
+      "Solvents with strong odour"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Solvents to be avoided”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B43",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The most commonly used chelating agent in complexometric titrations, EDTA is a ________.",
+    "options": [
+      "bidentate ligand",
+      "tridentate ligand",
+      "hexadentate ligand",
+      "tetradentate ligand"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “hexadentate ligand”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B44",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "The purpose of digestion in gravimetry is ________.",
+    "options": [
+      "adjustment of the pH of the solution",
+      "to make larger crystals",
+      "to remove the moisture",
+      "to remove the impurities"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “to make larger crystals”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B45",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "According to the Beer-Lambert’s law, absorbance is directly proportional to the ________.",
+    "options": [
+      "concentration only",
+      "path length only",
+      "concentration and path length",
+      "wavelength only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “concentration and path length”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B46",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "In gas chromatography, ________  remains the most commonly used carrier gas in about 90% of instruments.",
+    "options": [
+      "Helium",
+      "Argon",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Helium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B47",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "This GC detector is also known as Katharometer.",
+    "options": [
+      "Flame Ionization Detector",
+      "Thermal Conductivity Detector",
+      "Electron Capture Detector",
+      "Flame Photometric Detector"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Thermal Conductivity Detector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B48",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "Which HPLC detector is used in the analysis of carbohydrates?",
+    "options": [
+      "UV-Vis detector",
+      "Light scattering detector",
+      "Refractive index detector",
+      "Fluorescence detector"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Refractive index detector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B49",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "For normal phase HPLC, the mobile phase is ________.",
+    "options": [
+      "non-polar",
+      "polar",
+      "ionic",
+      "surfactants"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “non-polar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-B50",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-I",
+    "difficulty": "medium",
+    "question": "To determine the Limit of Detection (LOD), the signal-to-noise ratio of the peak of analyte of interest in the sample should be at ________.",
+    "options": [
+      "10:1",
+      "3:1",
+      "1:10",
+      "1:3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “3:1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the relationship between a drug’s pKa and its pH-dependent solubility. Describe the methods used for measuring tonicity.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the types of excipients used in tablet formulation, including diluents, binders, disintegrants, and lubricants. Also discuss the importance of content uniformity and weight variation tests for tablets. (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the main components of a UV visible spectrophotometer? What is the effect of solvent on the absorption of UV visible spectroscopy?(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the various sources of impurities in pharmaceutical substances? How can impurities be minimized in pharmaceutical production? Why is it important to control impurities in pharmaceuticals? (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the G- Protein – coupled receptors and transmembrane enzyme link receptors in detail with examples.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain in detail the different phases for clinical evaluation of new drug molecules.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the principle of Bioassay? What are the different types of bioassay with their specific applications?(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain NDA and ANDA in drug approval process. Explain and differentiate adverse drug events (ADEs) and adverse drug reactions (ADRs).(6+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the pharmacopoeial tests for quality control of tablet dosage form.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p1-written-10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p1",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "How will you differentiate calibration from validation? Explain chromophores and auxochromes in the context of UV-Vis spectroscopy, providing suitable examples.(6+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p1.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Schedule X drugs are:",
+    "options": [
+      "Cosmetics",
+      "Homeopathic drugs",
+      "Narcotic and psychotropic drugs",
+      "Ayurvedic drugs"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Narcotic and psychotropic drugs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following conditions does not make a drug misbranded?",
+    "options": [
+      "False or misleading claims on the label",
+      "Concealment of damage through coating",
+      "Incorrect strength or composition",
+      "Improper labelling"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Incorrect strength or composition”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The formula for calculating the ceiling price (Pc) is:",
+    "options": [
+      "Pc = Ps × (1 + M/100)",
+      "Pc = Ps × (1 - M/100)",
+      "Pc = Ps + M",
+      "Pc = M × 100 / Ps"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pc = Ps × (1 + M/100)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Under the Schedule of Medicinal & Toilet Preparations (Excise Duties) Act, 1955, toilet preparations containing alcohol or narcotic drug attract a rate of duty—",
+    "options": [
+      "20% ad valorem",
+      "4% ad valorem",
+      "50% ad valorem",
+      "10% ad valorem"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “50% ad valorem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Drugs (Prices Control) Order, 2013 was issued under which Act?",
+    "options": [
+      "Drugs and Cosmetics Act, 1940",
+      "Essential Commodities Act, 1955",
+      "Pharmacy Act, 1948",
+      "Drug Price Regulation Act, 1970"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Essential Commodities Act, 1955”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Hydrogen bonding in a drug molecule primarily influences:",
+    "options": [
+      "Drug metabolism through Phase II reactions",
+      "Partition coefficient in non-polar solvents",
+      "Binding affinity to biological targets such as enzymes and receptors",
+      "The rate of ionization in aqueous solution"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Binding affinity to biological targets such as enzymes and receptors”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In QSAR, the Hammett constant () describes:",
+    "options": [
+      "Lipophilicity",
+      "Steric hindrance",
+      "Electronic effects of substituents",
+      "Hydrogen bonding capacity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Electronic effects of substituents”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "A pharmacophore model includes:",
+    "options": [
+      "Only the structure of the enzyme",
+      "The essential features responsible for biological activity",
+      "The full 3D structure of the drug molecule",
+      "Only hydrogen bonding acceptor groups"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The essential features responsible for biological activity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In molecular docking, the scoring function is used to:",
+    "options": [
+      "Identify the enzyme classification",
+      "Rank the protein structures",
+      "Estimate the binding affinity between ligand and target",
+      "Modify the drug’s solubility"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Estimate the binding affinity between ligand and target”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following changes would most likely reduce protein binding of a drug?",
+    "options": [
+      "Increasing lipophilicity",
+      "Adding a hydrophilic functional group",
+      "Enhancing aromaticity",
+      "Introducing a halogen substituent"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adding a hydrophilic functional group”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B11",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Taft steric parameter (Es) quantifies:",
+    "options": [
+      "Lipophilic contribution to activity",
+      "Electronic influence of substituents",
+      "Spatial or bulk effects of substituents",
+      "Hydrogen bonding capability"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Spatial or bulk effects of substituents”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B12",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The pharmacological activity of enantiomers can differ because:",
+    "options": [
+      "Only one enantiomer binds to plasma proteins",
+      "Enzymes and receptors are chiral",
+      "They have different chemical formulas",
+      "They are always metabolized at the same rate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Enzymes and receptors are chiral”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B13",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The primary goal of Phase II metabolism is to:",
+    "options": [
+      "Decrease the molecular weight of the drug",
+      "Inactivate the drug completely",
+      "Convert drugs into more lipophilic forms",
+      "Increase water solubility for excretion"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Increase water solubility for excretion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B14",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Papaver somniferum yields alkaloids belonging to which class?",
+    "options": [
+      "Indole alkaloids",
+      "Pyrrolidine alkaloids",
+      "Quinoline alkaloids",
+      "Benzylisoquinoline alkaloids"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Benzylisoquinoline alkaloids”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B15",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Lycopene, a carotenoid found in tomatoes, is beneficial in—",
+    "options": [
+      "Alzheimer’s disease",
+      "Prostate cancer prevention",
+      "Diabetes",
+      "Asthma"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Prostate cancer prevention”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B16",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Hypericum perforatum (St. John’s Wort) induces—",
+    "options": [
+      "CYP3A4 enzymes",
+      "CYP2C19 inhibition",
+      "MAO inhibition",
+      "CYP2D6 inhibition"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “CYP3A4 enzymes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B17",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Ephedra use with caffeine may cause—",
+    "options": [
+      "CNS depression",
+      "Hypotension",
+      "Drowsiness",
+      "Hypertensive crisis"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hypertensive crisis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B18",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Isoprene Rule states that:",
+    "options": [
+      "Terpenes are made up of linked glucose units",
+      "Terpenes are composed of C5 units arranged head-to-tail",
+      "Alkaloids are derived from amino acids",
+      "Flavonoids are formed by C6-C3-C6 unit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Terpenes are composed of C5 units arranged head-to-tail”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B19",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is not  WHO-recommended method for evaluation of herbal drugs?",
+    "options": [
+      "Macroscopic and microscopic evaluation",
+      "Chromatographic fingerprinting",
+      "Radiographic imaging",
+      "Assay of marker compounds"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Radiographic imaging”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B20",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "ICH guidelines recommend testing herbal drug stability under accelerated conditions for:",
+    "options": [
+      "6 months",
+      "1 month",
+      "1 year",
+      "2 months"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “6 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B21",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which nutraceutical is most commonly used for lowering cholesterol and improving heart health?",
+    "options": [
+      "Omega-3 fatty acids",
+      "Beta-carotene",
+      "Probiotics",
+      "Coenzyme Q10"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Omega-3 fatty acids”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B22",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Iridoids are classified chemically as:",
+    "options": [
+      "Monoterpenoids",
+      "Sesquiterpenoids",
+      "Diterpenoids",
+      "Triterpenoids"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Monoterpenoids”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B23",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The primary mechanism of action of cardiac glycosides is:",
+    "options": [
+      "Activation of beta-adrenergic receptors",
+      "Calcium channel blockade",
+      "Angiotensin II inhibition",
+      "Inhibition of Na⁺ /K⁺ -ATPase pump"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Inhibition of Na⁺ /K⁺ -ATPase pump”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B24",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Shade drying is preferred over sun drying because it:",
+    "options": [
+      "Preserves color and active constituents",
+      "Reduces moisture more rapidly",
+      "Kills microbes effectively",
+      "Increases aroma"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Preserves color and active constituents”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B25",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Drugs covered under this schedule are not permitted for repacking license. Identify the correct schedule.",
+    "options": [
+      "Schedule H",
+      "Schedule G",
+      "Schedule O",
+      "Schedule C and C1"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Schedule C and C1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B26",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Chose the CORRECT statement with respect to ‘The Pharmacy Act, 1948’:",
+    "options": [
+      "Education regulation 1991 does not prescribe the minimum qualification for the registration as",
+      "Section 12 of the Act deals with the approval of course of study under Chapter 2 there of",
+      "Section 12 of the Act deals with the approval of course of study and examination under Chapter",
+      "State government is authorized to make any rules with respect to course of study"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Section 12 of the Act deals with the approval of course of study and examination under Chapter”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B27",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Penalty for the cultivation of any cannabis plant to produce, sell, purchase transport in contravention of Narcotic Drugs and Psychotropic Substances Act and Rules on first conviction is:",
+    "options": [
+      "Rigorous imprisonment up to 10 years or fine up to Rs. 10 Lakhs",
+      "Rigorous imprisonment up to 10 years or fine up to Rs. 1 Lakh",
+      "Rigorous imprisonment up to 6 months",
+      "Fine up to Rs. 10 Lakhs"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rigorous imprisonment up to 10 years or fine up to Rs. 1 Lakh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B28",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the effect of ionization on drug absorption?",
+    "options": [
+      "Increases absorption",
+      "Decreases absorption",
+      "No effect on absorption",
+      "Depends on the pH"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Decreases absorption”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B29",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following proteins is primarily involved in drug binding?",
+    "options": [
+      "Albumin",
+      "Globulin",
+      "Fibrinogen",
+      "Hemoglobin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Albumin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B30",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the effect of a fat-free diet on cytochrome P450 levels?",
+    "options": [
+      "Increases cytochrome P450 levels",
+      "Variable effect on cytochrome P450 levels",
+      "No effect on cytochrome P450 levels",
+      "Decreases cytochrome P450 levels"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Decreases cytochrome P450 levels”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B31",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The most common pharmacological effect of tobacco smoking on drug metabolism is:",
+    "options": [
+      "Enzyme inhibition",
+      "Enzyme induction",
+      "Enzyme saturation",
+      "No effect"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Enzyme induction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B32",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The most favorable bonding between ligand and protein is:",
+    "options": [
+      "Covalent bonding",
+      "Metal Binding",
+      "Vander Waals Bonding",
+      "Hydrogen bonding"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hydrogen bonding”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B33",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is the purpose of the Hansch equation?",
+    "options": [
+      "To predict the color of a compound",
+      "To predict the biological activity of a compound based on its structure",
+      "To predict the solubility of a compound in water",
+      "To predict the melting point of a compound"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To predict the biological activity of a compound based on its structure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B34",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a hydrophobic parameter?",
+    "options": [
+      "Partition coefficient (P)",
+      "Molecular connectivity",
+      "Pi Substituent constant",
+      "Log P"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Molecular connectivity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B35",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Hypericum is known to interact with certain medications because it can:",
+    "options": [
+      "Increase the activity of liver enzymes",
+      "Decrease the activity of liver enzymes",
+      "Have no effect on liver enzymes",
+      "Only interact with herbal supplements"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Increase the activity of liver enzymes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B36",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Ginkgo biloba is used for its:",
+    "options": [
+      "Expectorant activity",
+      "Lipid lowering activity",
+      "PAF antagonistic activity",
+      "Antidepressant activity"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “PAF antagonistic activity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B37",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "What is polyploidy?",
+    "options": [
+      "A condition where an organism has two sets of chromosomes",
+      "A condition where an organism has more than two sets of chromosomes",
+      "A condition where an organism has one set of chromosomes",
+      "A condition where an organism has no chromosomes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A condition where an organism has more than two sets of chromosomes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B38",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The drug used for irritable bowel syndrome is:",
+    "options": [
+      "Ispaghula",
+      "Strophanthus",
+      "Nux vomica",
+      "Ephedra"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ispaghula”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B39",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "In the Drugs and Cosmetic Act and Rules, the Schedule relating to GMP is:",
+    "options": [
+      "Schedule M",
+      "Schedule C",
+      "Schedule Y",
+      "Schedule H"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Schedule M”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B40",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Two ex-officio members of the Drugs Technical Advisory Board under Drugs and Cosmetics Act are: (P)The Drugs Controller General of India (Q)The President, Medical Council of India (R)The Secretary, Pharmacy Council of India (S)The Director, National Institute of Pharmaceutical Education and Research, India",
+    "options": [
+      "P, Q",
+      "P, R",
+      "R, S",
+      "P, S"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “P, Q”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B41",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The Drug Price Control Order (DPCO) is an order issued by the Government under the ______ which enables it to fix the prices of some essential bulk and their formulations",
+    "options": [
+      "Essential Commodities Act",
+      "Essential Commodities Amendment",
+      "Essential Commodities Accessories",
+      "Ethical Commodities Act"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Essential Commodities Act”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B42",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "As per the Medical Termination of Pregnancy Act and Rules, the safe custody of ‘Forms’ is with:",
+    "options": [
+      "Standing committee",
+      "Registered Medical Practitioner",
+      "Owner of the approved place",
+      "Chief Medical Officer"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Owner of the approved place”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B43",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Who has the power to fix the ceiling price of scheduled formulations?",
+    "options": [
+      "National Pharmaceutical Pricing Authority",
+      "Director General Health Services",
+      "National Medical Commission",
+      "Pharmacy Council of India"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “National Pharmaceutical Pricing Authority”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B44",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Medical devices are classified into how many classes under the Rules?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Four”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B45",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "As per Medical Termination of Pregnancy Act, 1971; the term abortion indicates:",
+    "options": [
+      "Termination of pregnancy after foetus is viable",
+      "Termination of pregnancy of less than 12 weeks",
+      "Termination of pregnancy before foetus is viable",
+      "Termination of pregnancy of more than 12 weeks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Termination of pregnancy before foetus is viable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B46",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The objective of Drug and Remedies Act is:",
+    "options": [
+      "To promote certain types of advertisements related to drugs which mislead public",
+      "To prohibit advertisements related to magic remedies with false claims",
+      "To provide uniform education and training to pharmacists",
+      "To regulate profession of pharmacy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To prohibit advertisements related to magic remedies with false claims”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B47",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Which section of the Pharmacy Act, 1948 empowers the PCI to prescribe minimum standards of education required for qualification as a pharmacist?",
+    "options": [
+      "Section 10",
+      "Section 11",
+      "Section 12",
+      "Section 16"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Section 10”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B48",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The term ‘psychotropic substance’ is defined in section:",
+    "options": [
+      "2(xxiii)",
+      "2(ix)",
+      "2(xi)",
+      "2(viii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “2(xxiii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B49",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "Diseases prohibited from advertisement under Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 are listed in:",
+    "options": [
+      "Schedule A",
+      "Schedule J",
+      "Schedule H",
+      "Schedule K"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Schedule J”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-B50",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-II",
+    "difficulty": "medium",
+    "question": "The application for import licence for a medical device is made in —",
+    "options": [
+      "Form MD-10",
+      "Form MD-14",
+      "Form MD-25",
+      "Form MD-26"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Form MD-14”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the primary objective of Narcotic Drugs and Psychotropic Substances (NDPS) Act? Explain the procedures for cultivation, manufacture, possession, and transportation of narcotic drugs under the NDPS Act.(2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the objectives and classification of medical devices under the Medical Devices Rules, 2017. Discuss the categories of diseases and conditions for which advertisements are prohibited under Drugs and Magic Remedies (Objectionable Advertisements) Act.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the principles of drug metabolism. Describe Phase I and Phase II reactions with examples of each category.(4+6=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain classical and non-classical bioisosterism with appropriate examples. Discuss how bioisosterism is applied in drug design to improve pharmacodynamic and pharmacokinetic properties of drugs. (5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Differentiate between rigid and flexible docking. Discuss the concept of pharmacophore mapping and pharmacophore based screening of small molecules.(2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the need and importance of quality control in drugs of natural origin. Describe the chemical classes, sources, and therapeutic uses of flavonoids with examples.(4+6=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the role of WHO guidelines in maintaining the quality and purity of herbal drugs. Explain the ICH guidelines for stability testing of herbal formulations.(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write about the salient features of Drugs and Magic Remedies Act and its Rules. Describe the general requirements of labeling under Drugs and Cosmetics Act, 1940.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define nutraceutical. Explain the health benefits and role of nutraceutical in cardiovascular diseases. Write the possible side effects and interactions of garlic.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p2-written-10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p2",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define and differentiate between adulterated, misbranded and spurious drugs as per the D&C Act. Explain the correponding penalties for these offences.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p2.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which element is essential for implementing successful standard operating procedures?",
+    "options": [
+      "Making SOPs accessible only to management",
+      "Elimination of all previous protocol immediately",
+      "Regular training for staff",
+      "Frequent revisions of SOPs"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Regular training for staff”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Master formula record is prepared and endorsed by the competent technical staff like manufacturing chemist and ____chemist.",
+    "options": [
+      "Quality control",
+      "Analytical",
+      "Production",
+      "Formulation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Analytical”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Quality audit may include questionnaires on Good Manufacturing process (GMP) requirements covering",
+    "options": [
+      "Personnel",
+      "Documentation",
+      "Recall procedures",
+      "Finished products"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Documentation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Regulatory audit is also known as __________.",
+    "options": [
+      "First party audit",
+      "Second party audit",
+      "Third party audit",
+      "Fourth party audit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Third party audit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In technology transfer, the Sending Unit (SU) should provide:",
+    "options": [
+      "Its support function",
+      "The necessary validation documentation for the process",
+      "Criteria and information on hazards and critical steps associated with the products, process or",
+      "To serves as a basis for Quality Risk Management (QRM) exercise at Receiving Unit (RU)"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a phase of technology transfer process considered as the last phase?",
+    "options": [
+      "Development Phase",
+      "Production Phase",
+      "Research Phase",
+      "Quality testing Phase"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Production Phase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which Government has authorized NABL as the sole accreditation body for testing and calibrations Laboratory?",
+    "options": [
+      "US",
+      "Japan",
+      "India",
+      "All of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which standard is commonly used as a basis for NABL accreditation of testing and calibration laboratories?",
+    "options": [
+      "ISO/IEC 17025",
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 45001"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “ISO/IEC 17025”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following clean rooms grade is used for aseptic filling operation?",
+    "options": [
+      "GRADE A",
+      "GRADE B",
+      "GRADE C",
+      "GRADE D"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “GRADE A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is the most accurate method for microbial assay of antibiotics?",
+    "options": [
+      "Physical assay",
+      "Chemical assay",
+      "Biological assay",
+      "Chemical and biological assay"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chemical assay”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B11",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is true for a transducer in biosensor?",
+    "options": [
+      "It displays the signal",
+      "It converts the interaction between the analytes and the immobilized enzymes into a measurable signal",
+      "It is used as bioreceptors",
+      "It is an optional part which is rarely used"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It converts the interaction between the analytes and the immobilized enzymes into a measurable signal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B12",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following does not produce ‘Proteases’?",
+    "options": [
+      "Bacillus",
+      "Rhizopus",
+      "Mucor",
+      "Bacillus coagulans"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bacillus coagulans”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B13",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which type of immunoglobulin provides local immunity?",
+    "options": [
+      "IgA",
+      "IgG",
+      "IgD",
+      "IgM"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “IgA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B14",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Once blood is collected, the constituents should be separated within:",
+    "options": [
+      "3-5 hours",
+      "5-8 hours",
+      "7-9 hours",
+      "10-13 hours"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5-8 hours”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B15",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The shelf life of dried human plasma is:",
+    "options": [
+      "1 year",
+      "2 years",
+      "5 years",
+      "10 years"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “5 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B16",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following vaccine is an example of live attenuated bacterial vaccine?",
+    "options": [
+      "Cholera",
+      "Anthrax",
+      "Plague",
+      "Typhoid"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Typhoid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B17",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The amount of a drug product that should be kept in the pharmacy shelf is called:",
+    "options": [
+      "Standing Order",
+      "Basic Stock",
+      "PAR or Maximum stock level",
+      "Restricted distribution"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “PAR or Maximum stock level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B18",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A form that tracks the medications administered to a patient is called:",
+    "options": [
+      "Open Formulary",
+      "Patient wrist band",
+      "Closed Formulary",
+      "Medical administration record"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Medical administration record”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B19",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The basic principle of therapeutic drug monitoring is:",
+    "options": [
+      "To measure patient’s drug blood concentration",
+      "To measure patient urine drug concentration",
+      "Limited role in toxicology",
+      "To study adverse effect of drugs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To measure patient’s drug blood concentration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B20",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The therapeutic index is defined as:",
+    "options": [
+      "The concentration of drug in plasma which optimizes therapy",
+      "The amount of reduction of pathologic symptoms obtained by use of a specific drug",
+      "The ranking of the effect of the drug versus other drugs for the same disease",
+      "The ratio between the average toxic dose and the average therapeutic dose"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The ratio between the average toxic dose and the average therapeutic dose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B21",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "In India, therapeutic drug monitoring was introduced in the year:",
+    "options": [
+      "1980",
+      "1985",
+      "1986",
+      "1990"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1980”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B22",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "What is the primary method recommended by World Health Organization to prevent dengue infection?",
+    "options": [
+      "Taking an over-the-counter pain reliever when symptoms appear",
+      "Drinking lots of fluids",
+      "Protecting yourself from mosquito bites",
+      "Avoiding travel to endemic areas"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Protecting yourself from mosquito bites”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B23",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The physiological significance of blood glucose monitoring in diabetic patient is:",
+    "options": [
+      "Confirm medication adherence",
+      "Monitor the efficacy of hypoglycaemic agent",
+      "Track potential ADRs of Antibiotics",
+      "Ensure liver function is not compromised"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Monitor the efficacy of hypoglycaemic agent”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B24",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of these is the goal of cancer screening?",
+    "options": [
+      "To treat cancer once it is diagnosed",
+      "To detect cancer at an early stage",
+      "To prevent the development of cancer cells",
+      "To manage the side effects of chemotherapy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To detect cancer at an early stage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B25",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "__________ is the addition of a known amount of a compound to a standard, sample or placebo, typically for the purpose of confirming the performance of an analytical procedure.",
+    "options": [
+      "Validation",
+      "Enriching",
+      "Leaching",
+      "Spiking"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Spiking”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B26",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Consider these statements on the generic drug approval process under USFDA: I.Clinical trials are not mandatory. II.They may submit a marketing authorization application to the FDA in the form of an Abbreviated New Drug Application (ANDA).",
+    "options": [
+      "Only I is true",
+      "Only II is true",
+      "Both I and II are false",
+      "Both I and II are true"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Both I and II are true”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B27",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Certificate of Pharmaceutical Products (CoPP ) is issued by _______.",
+    "options": [
+      "The regulatory authority of the exporting country to the importing country",
+      "The regulatory authority of the importing country to the exporting country",
+      "WHO only",
+      "USFDA only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The regulatory authority of the exporting country to the importing country”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B28",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Within the classical drug development, compliance with GLP is required in _______.",
+    "options": [
+      "Stage 1 (Discovery stage)",
+      "Stage 2 (Non-clinical stage)",
+      "Stage 3 (Clinical stage)",
+      "Stage 4 (Post-approval stage)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Stage 2 (Non-clinical stage)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B29",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "This individual will have to assume full responsibility for the GLP compliance of all activities within the study and is the single most important individual in GLP study.",
+    "options": [
+      "Principal Investigator",
+      "Research Scientist",
+      "Volunteer",
+      "Study Director"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Study Director”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B30",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "According to WHO GLP guidelines, ‘dirty corridors’ in animal facilities means _______.",
+    "options": [
+      "A corridor for the movement of used supplies",
+      "A corridor for the movement of new supplies",
+      "A corridor for the movement of dead animals only",
+      "A corridor for the movement of laboratory staff"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “A corridor for the movement of used supplies”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B31",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Restriction enzymes are called as",
+    "options": [
+      "Molecular scissor",
+      "Molecular glue",
+      "Ligase enzyme",
+      "Polymerase enzyme"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Molecular scissor”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B32",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "For a pharmaceutical product on the market, the generally accepted retention period of the records containing all original observations, including calculations and derived data, calibration, validation and verification etc. is _______.",
+    "options": [
+      "Shelf-life plus 25 years",
+      "Shelf-life plus 50 years",
+      "Shelf-life plus 10 years",
+      "Shelf-life plus 1 year"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Shelf-life plus 1 year”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B33",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "HEPA filters remove particles as small as:",
+    "options": [
+      "0.1 µm",
+      "0.3 µm",
+      "1.0 µm",
+      "5.0 µm"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.3 µm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B34",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Enzyme immobilization increases:",
+    "options": [
+      "Enzyme solubility",
+      "Enzyme activity in solution",
+      "Enzyme reusability and stability",
+      "Reaction rate always"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Enzyme reusability and stability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B35",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A glucose biosensor uses which enzyme?",
+    "options": [
+      "Urease",
+      "Glucose oxidase",
+      "Peroxidase",
+      "Catalase"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Glucose oxidase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B36",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Vaccines should generally be stored at:",
+    "options": [
+      "0°C",
+      "2–8°C",
+      "10–15°C",
+      "Room temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2–8°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B37",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A commonly used preservative in vaccines is:",
+    "options": [
+      "Benzalkonium chloride",
+      "Alcohol",
+      "Formaldehyde",
+      "Thiomersal"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Thiomersal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B38",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The most common microbial source for industrial production of amylase is:",
+    "options": [
+      "Escherichia coli",
+      "Aspergillus oryzae",
+      "Penicillium chrysogenum",
+      "Saccharomyces cerevisiae"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Aspergillus oryzae”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B39",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "During the preparation of bacterial vaccines, the inactivation of bacteria is commonly achieved using:",
+    "options": [
+      "Phenol or formaldehyde at controlled temperature",
+      "UV radiation alone",
+      "High-pressure homogenization",
+      "Freezing and thawing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Phenol or formaldehyde at controlled temperature”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B40",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Ideal characteristics of a plasma substitute include all except:",
+    "options": [
+      "Non-toxic and non-pyrogenic",
+      "Osmotically active",
+      "Readily metabolized to water and CO₂",
+      "Antigenic with long half-life"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Antigenic with long half-life”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B41",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Lipase production is enhanced when the medium contains:",
+    "options": [
+      "Carbohydrates only",
+      "Inducers like olive oil or triglycerides",
+      "Ammonium salts only",
+      "Alcohols"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Inducers like olive oil or triglycerides”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B42",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The unit dose drug distribution system primarily aims to:",
+    "options": [
+      "Reduce nursing workload",
+      "Minimize medication errors and wastage",
+      "Store large quantities of drugs in wards",
+      "Replace pharmacy staff"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Minimize medication errors and wastage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B43",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a controlled drug?",
+    "options": [
+      "Paracetamol",
+      "Morphine",
+      "Amoxicillin",
+      "Metformin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Morphine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B44",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following drugs commonly require TDM?",
+    "options": [
+      "Digoxin, Vancomycin, Phenytoin",
+      "Paracetamol, Ibuprofen, Aspirin",
+      "Omeprazole, Pantoprazole",
+      "Vitamin D, Calcium"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Digoxin, Vancomycin, Phenytoin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B45",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "The most common cause of medication non-adherence is:",
+    "options": [
+      "Poor drug stability",
+      "Complex drug regimens and side effects",
+      "Pharmacy location",
+      "Nurse unavailability"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Complex drug regimens and side effects”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B46",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Pharmacists can improve medication adherence by:",
+    "options": [
+      "Reducing consultation time",
+      "Changing drug brand only",
+      "Patient education, regimen simplification, reminder systems",
+      "Avoiding follow-ups"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Patient education, regimen simplification, reminder systems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B47",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "A major challenge in treating drug addiction pharmacologically is:",
+    "options": [
+      "Enhancing drug metabolism",
+      "Preventing relapse due to craving triggered by environmental cues",
+      "Administering vaccines",
+      "Improving kidney clearance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Preventing relapse due to craving triggered by environmental cues”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B48",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Which population is most at risk of non-adherence due to cognitive impairment?",
+    "options": [
+      "Young adults",
+      "Geriatric patients",
+      "Healthy children",
+      "Healthcare professionals"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Geriatric patients”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B49",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Directly Observed Therapy (DOT) is an effective strategy for improving adherence in:",
+    "options": [
+      "Hypertension",
+      "Congestive Heart Failure",
+      "Tuberculosis",
+      "Vitamin supplementation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tuberculosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-B50",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "questionNumber": "B50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Technical Paper-III",
+    "difficulty": "medium",
+    "question": "Good Laboratory practice comes under which schedule?",
+    "options": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “L1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-1",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define enzyme immobilization. Elaborate various methods for enzyme immobilization and its application. (2+8=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-2",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the general procedure for preparation of bacterial vaccines. Write a note on processing of Whole Human Blood.(6+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-3",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the types of documents maintained in a pharmaceutical industry with special reference to Master Formula Record, Batch Formula Record, and Standard Operating Procedures (SOPs). (4+3+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-4",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the concept of technology transfer, as per WHO Guidelines. What are the principles and steps to be taken for NABL accreditation?(5+5=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-5",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the design and layout of an aseptic area with appropriate labelled diagram. Explain the importance of laminar airflow equipment and discuss the various sources of contamination. (4+3+3=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-6",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the general methods for the preparation of bacterial and viral vaccines, including toxoids and antitoxins.5+5=10",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-7",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Therapeutic Drug Monitoring (TDM). Explain the need and importance of TDM in clinical practice. Discuss the factors to be considered during TDM considering the Indian scenario. (2+4+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-8",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define patient counselling. Explain in detail the steps involved in effective patient counselling and describe the special situations where pharmacist’s intervention and counselling are crucial. (2+4+4=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-9",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a note on preventive medicine and its importance in public health. Discuss the general principles of prevention and control of communicable and non-communicable diseases.(4+6=10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-adfd-2025-technical-p3-written-10",
+    "paperId": "mpsc-group-b-adfd-2025-technical-p3",
+    "type": "descriptive",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the WHO guidelines of documentation commonly required for technology transfer of Pharmaceutical Manufacturing.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1-B1",
     "paperId": "mpsc-group-b-si-fcs-2025-p1",
     "questionNumber": "B1",
@@ -132432,7 +151370,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q50",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -133516,9 +152456,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 89-91) : There is certain relation between two given words on one side"
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q90",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -140459,7 +159397,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q73",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -141551,9 +160491,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 11 - 15): Choose the correct Preposition to fill in the blanks:"
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p1-A13",
     "paperId": "mpsc-group-b-hfw-2026-p1",
@@ -149034,7 +167972,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q54",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -150264,9 +169204,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q94",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -158080,7 +177018,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 72 – 76) : Choose the word which has the similar meaning to the one"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B76",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -159229,9 +178169,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33-38): Identify the correct form of prepositions from the alternatives given"
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-B35",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -166310,7 +185248,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Convert the given sentences as directed in the brackets:"
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q52",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -167350,9 +186290,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices"
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q92",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -174196,7 +193134,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "source": "Assistant Conservator of Forest (ACF)-2009 · 2009",
     "year": 2009,
     "sourceHref": "/papers/group-b/archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6.pdf#page=5"
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6-written-8",
     "paperId": "mpsc-group-b-archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6",
@@ -175228,9 +194168,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 39-44) : Identify the parts of speech of each underlined words:"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B40",
     "paperId": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
@@ -182351,7 +201289,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 30 - 35): Analyse the given sentences and choose the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B32",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -183407,9 +202347,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 – 30):  Choose the correct preposition to complete the sentences:"
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709-Q29",
     "paperId": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -190048,7 +208986,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 1 - 10) : Identify the parts of speech of the underlined words :"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q7",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -191088,9 +210028,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 41 - 50) : Analyze the sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q47",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -198201,7 +217139,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 91 to 100): Choose the correct word substitute of the following underlined"
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q96",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -199338,9 +218278,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 31 – 40) : Choose the correct prepositions from the given options :"
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q33",
     "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -206670,7 +225608,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 71 - 80) : Fill in the blanks with the most appropriate word."
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q80",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -207716,9 +226656,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd-Q19",
     "paperId": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd",
@@ -214902,7 +233840,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q45",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -216102,9 +235042,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281-B26",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
@@ -223095,7 +242033,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q48",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -224127,9 +243067,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 91 - 100) : Choose the correct one-word substitute from the choices"
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q92",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -231184,7 +250122,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B50",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -232195,9 +251135,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 16 - 22) : Choose the correctf orm of the verb as provided at the end of each."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924-Q19",
     "paperId": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -238931,7 +257869,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q86",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -239970,9 +258910,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 35) : Change the following sentences as directed."
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f-B32",
     "paperId": "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f",
@@ -246597,7 +265535,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 26-28): Out of the four alternatives choose the one which can be substituted"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B27",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -247605,9 +266545,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions Nos. 1-12): Identify the correct part of speech of the underlined word/words in"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495-B3",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
@@ -254144,7 +273082,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B7",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -255262,9 +274202,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct meaning of the idioms underlined:"
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B47",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -263301,7 +282239,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q25",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -264601,9 +283541,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q65",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -272804,7 +291742,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q49",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -273869,9 +292809,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B12",
     "paperId": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -281014,7 +299952,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B31",
     "paperId": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
@@ -282055,9 +300995,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B22",
     "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p1-B23",
     "questionNumber": "B23",
@@ -288849,7 +307787,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B48",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q49",
     "questionNumber": "B49",
@@ -289891,9 +308831,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B88",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q89",
     "questionNumber": "B89",
@@ -296696,7 +315634,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B23",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B24",
     "questionNumber": "B24",
@@ -297747,9 +316687,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B63",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B64",
     "questionNumber": "B64",
@@ -304684,7 +323622,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q62",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -305703,9 +324643,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q2",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -313168,7 +332106,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 73 - 80) : Identify the most suitable meaning of the underline words in the"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-written-1",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -314245,9 +333185,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-gs1-Q40",
     "paperId": "mpsc-group-b-si-fcs-2018-gs1",
@@ -321131,7 +340069,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q25",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -322137,9 +341077,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q65",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -328855,7 +347793,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q10",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -329970,9 +348910,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41 - 50) : Analyze the sentences and choose the correct option."
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q50",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -337343,7 +356281,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 46 - 54) : Choose the most suitable alternative to make the sentence meaningful:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B48",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -338492,9 +357432,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 16) : Each of the following idioms is followed by four meanings."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-election-2019-english-B7",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -345801,7 +364739,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q30",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -346876,9 +365816,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question 68 - 70) : Read the following passage carefully and choose the best answer to"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q71",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -353695,7 +372633,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-english-B29",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -354823,9 +373763,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 65- 70): Choose the word nearest in meaning to the underlined words:"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-english-B69",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -361822,7 +380760,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 87 - 94) : Select word which is opposite in meaning to the underlined word or"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -362855,9 +381795,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q32",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -369846,7 +388784,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q92",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -370888,9 +389828,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 21 - 30) : Choose the most suitable determiner to fill the blanks"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q26",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -378034,7 +396972,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q86",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -379151,9 +398091,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q26",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -385931,7 +404869,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q52",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -386980,9 +405920,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -394030,7 +412968,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q54",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -395055,9 +413995,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q94",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -402168,7 +421106,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q53",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -403282,9 +422222,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q93",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -410476,7 +429414,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate prepositions:"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-la-2019-english-B23",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -411529,9 +430469,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 58 - 66) : Analyse the following sentences and pick out the correct answer from"
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-la-2019-english-B63",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -418759,7 +437697,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "source": "Sub-Divisional Librarian under Art & Culture Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/sub-div-lib-2019-english.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-sub-div-lib-2019-english-written-10",
     "paperId": "mpsc-group-b-sub-div-lib-2019-english",
@@ -419872,9 +438812,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-surveyor-2019-english-B37",
     "paperId": "mpsc-group-b-surveyor-2019-english",
@@ -427009,7 +445947,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "source": "Tutor under Mizoram College of Nursing, Health & Family Welfare Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/tutor-mcon-2019-english.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-tutor-mcon-2019-english-written-4",
     "paperId": "mpsc-group-b-tutor-mcon-2019-english",
@@ -427729,9 +446669,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "source": "Tutor under Mizoram College of Nursing, Health & Family Welfare Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/tutor-mcon-2019-english.pdf#page=5"
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-tutor-mcon-2019-english-written-44",
     "paperId": "mpsc-group-b-tutor-mcon-2019-english",
@@ -435001,7 +453939,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A5",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -436079,9 +455019,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A45",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -443259,7 +462197,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 8) : Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B3",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -444419,9 +463359,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 41 - 48) : Choose the word or phrase which is closest to the opposite in"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B43",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -451651,7 +470589,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A50",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -452753,9 +471693,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A90",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -459802,7 +478740,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 40 - 49) : Fill in the blanks with the correct word/phrases."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B48",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -460891,9 +479831,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A11",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -468084,7 +487022,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-B94",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -469186,9 +488126,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 33 - 41) : Fill in the blanks with the appropriate prepositions."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p1-B34",
     "paperId": "mpsc-group-b-udc-rd-2019-p1",
@@ -476063,7 +495001,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-A40",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -477090,9 +496030,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-B80",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -483832,7 +502770,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q34",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -484943,9 +503883,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q74",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -492007,7 +510945,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 13 - 28): From the four alternatives given below, choose the correct"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-chemist2-2020-english-B28",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -493158,9 +512098,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 65 - 72): Choose the correct answer from the four alternatives given in"
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-chemist2-2020-english-B68",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -500397,7 +519335,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 44 to 51): Give one word for the following expressions."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B47",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -501517,9 +520457,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A10",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -508557,7 +527495,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 51 - 60) : Read the following sentences carefully and choose the best"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q54",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -509708,9 +528648,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions No. 91 - 100) : Read the following passage carefully and choose the best"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q94",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -516678,7 +535616,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q48",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -517783,9 +536723,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q88",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -524867,7 +543805,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q53",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -525969,9 +544909,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q93",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -532947,7 +551885,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 31 - 40) :  Name the Tense of the Verb of the following."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q35",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -533987,9 +552927,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 71 - 80) : Choose the correct meaning of the following idioms and phrases."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q75",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -541131,7 +560069,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q35",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -542206,9 +561146,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q75",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -549963,7 +568901,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q66",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -551162,9 +570102,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q15",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -558977,7 +577915,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q12",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -560176,9 +579116,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q52",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -567974,7 +586912,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025-Q52",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
@@ -569175,9 +588115,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q31",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -576993,7 +595931,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q44",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -578200,9 +597140,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q85",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -585404,7 +604342,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q59",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -586515,9 +605455,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 96 – 100) : Find out the correct answer out of the four answer figures, if the"
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q99",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -594343,7 +613281,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q63",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -595591,9 +614531,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q3",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -603013,7 +621951,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q97",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -604021,9 +622961,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q45",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -610685,7 +629623,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024-Q28",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024",
@@ -611888,9 +630828,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q19",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -619692,7 +638630,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q84",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -620717,9 +639657,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q25",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -627759,7 +646697,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p2-q037",
     "paperId": "mpsc-group-b-si-excise-2014-p2",
@@ -628762,9 +647702,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low"
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q011",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -629684,7 +648622,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -629933,6 +648871,66 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-inspector-excise-2025-gs3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-home-science-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-home-science-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-home-science-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-social-work-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-social-work-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-cdpo-2025-social-work-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adfd-2025-technical-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adfd-2025-technical-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-adfd-2025-technical-p3": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
     "negativeMarking": false,
@@ -631069,6 +650067,16 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-inspector-excise-2025-gs1": 50,
   "mpsc-group-b-inspector-excise-2025-gs2": 50,
   "mpsc-group-b-inspector-excise-2025-gs3": 50,
+  "mpsc-group-b-cdpo-2025-gs": 100,
+  "mpsc-group-b-cdpo-2025-home-science-p1": 50,
+  "mpsc-group-b-cdpo-2025-home-science-p2": 50,
+  "mpsc-group-b-cdpo-2025-home-science-p3": 50,
+  "mpsc-group-b-cdpo-2025-social-work-p1": 50,
+  "mpsc-group-b-cdpo-2025-social-work-p2": 50,
+  "mpsc-group-b-cdpo-2025-social-work-p3": 50,
+  "mpsc-group-b-adfd-2025-technical-p1": 50,
+  "mpsc-group-b-adfd-2025-technical-p2": 50,
+  "mpsc-group-b-adfd-2025-technical-p3": 50,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-aao-2025-p1": 60,

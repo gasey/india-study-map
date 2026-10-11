@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import type { AttemptInput } from '@/lib/learning/types';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
@@ -35,6 +36,7 @@ import { QuestionImage } from './QuestionImage';
 interface Props {
   papers: ExamPaper[];
   questions: BankQuestion[];
+  onRecordAttempts?: (attempts: AttemptInput[]) => Promise<void>;
 }
 
 function paperMeta(paper: ExamPaper): UdcLdcPaperMeta {
@@ -64,8 +66,8 @@ function fmt(sec: number) {
  * instead of working around it.
  */
 function ExamSitting({
-  paper, questions, onExit,
-}: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void }) {
+  paper, questions, onExit, onRecordAttempts,
+}: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void; onRecordAttempts?: Props['onRecordAttempts'] }) {
   const paperId = paper.id;
   const [submitted, setSubmitted] = useState(false);
   /**
@@ -78,7 +80,7 @@ function ExamSitting({
    * you are doing. Locked once the paper starts, because switching it halfway
    * makes the score mean neither thing.
    */
-  const [instant, setInstant] = useState(false);
+  const finishing = useRef(false);
   const [now, setNow] = useState(() => Date.now());
 
   const meta = paperMeta(paper);
@@ -97,12 +99,13 @@ function ExamSitting({
     `udc-ldc.exam.${paperId}`, signature, true,
   );
   const answers = state.answers as Answers;
+  const instant = state.feedbackMode === 'instant';
   // Locked once the first answer is in: switching the marking mode halfway
   // makes the resulting score mean neither thing.
   const started = Object.keys(answers).length > 0;
   /** Questions that can be scored — a figure-only item has no answer to mark. */
   const scorable = useMemo(
-    () => paperQs.filter((q) => isMcqQuestion(q) && q.answerIndex >= 0 && !q.figureBased && q.options.length > 0),
+    () => paperQs.filter(isAnswerable),
     [paperQs],
   );
 
@@ -118,14 +121,24 @@ function ExamSitting({
     0, meta.durationMinutes * 60 - Math.floor((now - state.startedAt) / 1000),
   );
 
-  useEffect(() => {
-    if (!submitted && left <= 0) setSubmitted(true);
-  }, [left, submitted]);
-
-  const finish = () => {
+  const finish = useCallback(() => {
+    if (finishing.current) return;
+    finishing.current = true;
     setSubmitted(true);
-    clear();          // a finished sitting must not be resumed on refresh
-  };
+    const attempts: AttemptInput[] = scorable.flatMap(q => {
+      const choice = answers[q.id];
+      if (!isMcqQuestion(q) || !Number.isInteger(choice) || choice < 0 || choice >= q.options.length) return [];
+      return [{ questionId: q.id, correct: choice === q.answerIndex, selectedIndex: choice,
+        source: 'exam' as const, eventId: `exam:${state.startedAt}:${q.id}` }];
+    });
+    // The same IDs are used for instant feedback and final submission. Skips
+    // create no wrong answers; refresh/auto-submit cannot double-count a sitting.
+    void Promise.resolve(onRecordAttempts?.(attempts)).then(clear);
+  }, [scorable, answers, paperId, state.startedAt, onRecordAttempts, clear]);
+
+  useEffect(() => {
+    if (!submitted && left <= 0) finish();
+  }, [left, submitted, finish]);
 
   const result = useMemo(() => {
     if (!submitted || !meta) return null;
@@ -182,7 +195,7 @@ function ExamSitting({
           {!submitted && (
             <button
               type="button"
-              onClick={() => !started && setInstant((v) => !v)}
+              onClick={() => !started && patch({ feedbackMode: instant ? 'submit' : 'instant' })}
               disabled={started}
               title={started
                 ? 'Locked once the paper has started — switching midway would make the score mean neither thing'
@@ -341,8 +354,12 @@ function ExamSitting({
                               name={q.id}
                               checked={picked === oi}
                               disabled={submitted || (instant && picked !== undefined)}
-                              onChange={() =>
-                                patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }))}
+                              onChange={() => {
+                                patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }));
+                                if (instant) void onRecordAttempts?.([{ questionId: q.id,
+                                  correct: oi === q.answerIndex, selectedIndex: oi, source: 'exam',
+                                  eventId: `exam:${state.startedAt}:${q.id}` }]);
+                              }}
                             />
                             <span className={`udc-option-label ${mode.option}`}>{optionLetter(oi)}) <QuestionText text={o} plain={mode.plain} /></span>
                           </label>
@@ -364,7 +381,7 @@ function ExamSitting({
 }
 
 
-export function ExamView({ papers, questions }: Props) {
+export function ExamView({ papers, questions, onRecordAttempts }: Props) {
   const [paperId, setPaperId] = useState<string | null>(null);
   const paper = papers.find((p) => p.id === paperId);
 
@@ -375,6 +392,7 @@ export function ExamView({ papers, questions }: Props) {
         key={paper.id}
         paper={paper}
         questions={questions}
+        onRecordAttempts={onRecordAttempts}
         onExit={() => setPaperId(null)}
       />
     );

@@ -42,6 +42,8 @@ export interface AttemptState {
    * silently wrong in the one place being wrong is unacceptable.
    */
   signature: string;
+  /** Optional persisted feedback mode for modules with instant marking. */
+  feedbackMode?: 'instant' | 'submit';
 }
 
 function emptyState(signature: string): AttemptState {
@@ -66,6 +68,7 @@ function load(key: string, signature: string): AttemptState | null {
       idx: typeof parsed.idx === 'number' ? parsed.idx : 0,
       startedAt: parsed.startedAt,
       signature: parsed.signature,
+      ...(parsed.feedbackMode === 'instant' || parsed.feedbackMode === 'submit' ? { feedbackMode: parsed.feedbackMode } : {}),
     };
   } catch {
     return null;

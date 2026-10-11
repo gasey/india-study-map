@@ -1,3 +1,11 @@
+## Personal learning tracker — 11 October 2026
+
+The module now has a browser-stored **My learning** section. Continue from
+[HANDOFF-LEARNING-TRACKER.md](HANDOFF-LEARNING-TRACKER.md) for tracking/scoring
+integration, migration, review intervals, future settings and website expansion.
+Source/import coverage remains separate. Preserve stable question IDs and scoring
+gates when importing or correcting content.
+
 ## Continuation guide — 11 October 2026
 
 Start with [HANDOFF-REVIEW-GUIDE.md](HANDOFF-REVIEW-GUIDE.md) for source inspection,

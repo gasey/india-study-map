@@ -11,6 +11,14 @@ import { groupBGeneralPapers } from '@/data/banks/mpsc-group-b-general';
 import { AnswerSources } from './AnswerSources';
 import { useFlags } from './useFlags';
 
+export interface PracticeAnswerMeta {
+  eventId: string;
+  selectedIndex: number;
+  durationMs: number;
+  confidence?: 'sure' | 'unsure' | 'guess';
+  source: 'practice' | 'review';
+}
+
 // ============================================
 // Practice drill — answer, get told, move on.
 //
@@ -30,24 +38,37 @@ import { useFlags } from './useFlags';
 interface Props {
   questions: BankQuestion[];
   progress: ProgressMap;
-  onAnswer: (questionId: string, correct: boolean) => void;
+  onAnswer: (questionId: string, correct: boolean, meta?: PracticeAnswerMeta) => void;
+  onMistakeReason?: (eventId: string, reason: string) => void;
+  onFinish?: () => void;
 }
 
-export function PracticeView({ questions, progress, onAnswer }: Props) {
+export function PracticeView({ questions, progress, onAnswer, onMistakeReason, onFinish }: Props) {
   const pool = useMemo(() => questions.filter(isAnswerable), [questions]);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
+  const [heldQuestion, setHeldQuestion] = useState<BankQuestion | null>(null);
+  const [confidence, setConfidence] = useState<'sure' | 'unsure' | 'guess' | ''>('');
+  const [mistakeReason, setMistakeReason] = useState('');
+  const answerEvent = useRef<string | null>(null);
+  const activeSince = useRef(Date.now());
+  const visibleMs = useRef(0);
   const questionCardRef = useRef<HTMLDivElement>(null);
   const { flags } = useFlags();
 
-  // Filters changing under the drill would otherwise leave `i` past the end.
+  // Count foreground time only. Background tabs should not imply slow recall.
   useEffect(() => {
-    setI(0);
-    setPicked(null);
-  }, [pool.length]);
+    const visibility = () => {
+      if (document.hidden) {
+        visibleMs.current += Date.now() - activeSince.current;
+      } else activeSince.current = Date.now();
+    };
+    document.addEventListener('visibilitychange', visibility);
+    return () => document.removeEventListener('visibilitychange', visibility);
+  }, []);
 
-  if (!pool.length) {
+  if (!pool.length && !heldQuestion) {
     const unmarkable = questions.length;
     // Distinguish "we could not establish an answer" from "this question has
     // no answer to establish". A written prompt is not a gap in the data, and
@@ -79,7 +100,9 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
     );
   }
 
-  const q = pool[Math.min(i, pool.length - 1)];
+  // Retain feedback even when recording removes this item from a Never/Wrong
+  // filter. The parent remounts the drill when the learner changes filters.
+  const q = heldQuestion ?? pool[Math.min(i, pool.length - 1)];
   if (!isMcqQuestion(q)) return null;
   const accent = SECTION_COLOUR[sectionOf(q)];
   const mode = textMode(q);
@@ -89,20 +112,31 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
   const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
   const choose = (idx: number) => {
-    if (answered) return;
+    if (answered || answerEvent.current) return;
+    const eventId = `practice:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`;
+    answerEvent.current = eventId;
+    setHeldQuestion(q);
     setPicked(idx);
     const ok = idx === q.answerIndex;
     setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
+    onAnswer(q.id, ok, {
+      eventId, selectedIndex: idx,
+      durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
+      ...(confidence ? { confidence } : {}), source: onFinish ? 'review' : 'practice',
+    });
   };
 
   const next = () => {
-    // Record only when the learner explicitly moves on. This keeps the active
-    // question in the filtered pool long enough for its answer and explanation
-    // to be read; recording on selection would immediately remove it when the
-    // active filter is "unanswered".
-    if (picked !== null) onAnswer(q.id, picked === q.answerIndex);
+    if (onFinish && i >= pool.length - 1) { onFinish(); return; }
+    const currentIndex = pool.findIndex(item => item.id === q.id);
     setPicked(null);
-    setI((v) => (v + 1) % pool.length);
+    setHeldQuestion(null);
+    answerEvent.current = null;
+    setConfidence('');
+    setMistakeReason('');
+    visibleMs.current = 0;
+    activeSince.current = Date.now();
+    setI(currentIndex >= 0 ? (currentIndex + 1) % Math.max(1, pool.length) : Math.min(i, Math.max(0, pool.length - 1)));
     // The progress update can re-render the surrounding page and otherwise
     // reset the nested scroll panel to its top. Keep the next question in the
     // reading position on desktop, phones, and tablets alike.
@@ -120,7 +154,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         }}
       >
         <span style={{ opacity: 0.75 }}>
-          Question {Math.min(i, pool.length - 1) + 1} of {pool.length}
+          Question {Math.min(i, Math.max(0, pool.length - 1)) + 1} of {Math.max(1, pool.length)}
           {prior && (
             <span style={{ marginLeft: 8, opacity: 0.8 }}>
               · seen {prior.n}×, last time {prior.lastCorrect ? 'right' : 'wrong'}
@@ -176,6 +210,16 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
         <QuestionContext direction={q.direction} passage={q.passage} plain={mode.plain} />
         <div className={`udc-question-stem ${mode.stem}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={mode.plain} /></div>
         <QuestionImage path={q.imagePath} />
+
+        {!answered && <label className="udc-recall-confidence">
+          How confident are you? <span>(optional)</span>{' '}
+          <select value={confidence} onChange={e => setConfidence(e.target.value as typeof confidence)}>
+            <option value="">Choose confidence</option>
+            <option value="sure">I know this</option>
+            <option value="unsure">Not quite sure</option>
+            <option value="guess">Guessing</option>
+          </select>
+        </label>}
 
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {
@@ -244,6 +288,21 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 {q.explanation}
               </p>
             )}
+            {!correct && onMistakeReason && <label className="udc-mistake-reason">
+              What caught you out? <span>(optional)</span>{' '}
+              <select value={mistakeReason} onChange={e => {
+                const value = e.target.value;
+                setMistakeReason(value);
+                if (answerEvent.current) onMistakeReason(answerEvent.current, value);
+              }}>
+                <option value="">Choose a reason</option>
+                <option value="concept">Need to learn the concept</option>
+                <option value="recall">Could not recall it</option>
+                <option value="misread">Misread the question</option>
+                <option value="calculation">Calculation slip</option>
+                <option value="guess">Guessed</option>
+              </select>
+            </label>}
             {q.answerAsOf && (
               /* Current affairs. The answer was right at the SITTING and may be
                  wrong today — an office-holder, an award, an index ranking. Sits
@@ -309,7 +368,7 @@ export function PracticeView({ questions, progress, onAnswer }: Props) {
                 border: 0, background: 'var(--info, #3b7dd8)', color: '#fff',
               }}
             >
-              Next question
+              {onFinish && i >= pool.length - 1 ? 'Finish session' : 'Next question'}
             </button>
           </div>
         )}

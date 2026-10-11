@@ -340,13 +340,13 @@ export function FilterRail({
             <button
               type="button"
               onClick={() => {
-                if (confirm('Clear your attempt history for this bank? This cannot be undone.')) {
+                if (confirm('Clear all learning history for UDC/LDC/Group B, including answers, studied items and review schedules? Export a backup from My learning first if you want to keep it.')) {
                   onResetProgress();
                 }
               }}
               style={{ font: 'inherit', fontSize: 12.5, background: 'none', border: 0, cursor: 'pointer', textDecoration: 'underline', color: 'var(--bad, #c4462f)', padding: 0 }}
             >
-              reset {Object.keys(progress).length} attempt{Object.keys(progress).length === 1 ? '' : 's'}
+              reset learning history
             </button>
           )}
         </span>

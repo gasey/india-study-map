@@ -1,3 +1,24 @@
+## 11 October 2026 — Personal learning dashboard and short review cycle
+
+Added **My learning** as the UDC/LDC/Group B starting view, with subject/topic
+weakness signals, manageable review sessions, mistake recovery, explicit reading
+progress, confidence/mistake reasons and browser backup controls. Renamed the
+existing import progress tab **Bank coverage** to distinguish it from personal
+learning. Practice and Browse now save marked choices immediately; submitted and
+expired exams feed the same history, with idempotent instant-feedback recording.
+
+Astra built the reusable learning engine and transactional IndexedDB persistence;
+Luna built the dashboard. Legacy attempt totals are migrated without fabricating
+missing accuracy. Reviews stay short, and repeated immediate answers cannot earn
+spaced mastery. Per-module types/policy and an adapter boundary support future
+site-wide use and configurable timing. Details: [HANDOFF-LEARNING-TRACKER.md](HANDOFF-LEARNING-TRACKER.md).
+
+Verified deterministic engine/storage checks and React component flows, including
+concurrent tabs, corruption/quota recovery, 20,000-question backups and exam
+expiry/resume. Browser visual verification remains outstanding under the existing
+access restriction. Future work includes user settings, cross-device sync and
+historical-key reconciliation; none is implied by local progress.
+
 ## 11 October 2026 — Agriculture & Allied Services (Combined Technical) Nov-2025: +596
 
 Imported the November-2025 combined-technical exam for **Agriculture & Allied

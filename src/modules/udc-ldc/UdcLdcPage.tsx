@@ -8,6 +8,7 @@ import { QuestionImage } from './QuestionImage';
 import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
+import type { AttemptMetadata, LearningState } from '@/lib/learning/types';
 import {
   BANK_ID, EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
   optionLetter, sectionOf, textMode,
@@ -24,6 +25,8 @@ import { ExamView } from './ExamView';
 import { GroupBPaperLibrary } from './GroupBPaperLibrary';
 import { AnswerSources } from './AnswerSources';
 import { SubjectStudyView } from './SubjectStudyView';
+import { LearningDashboard } from './LearningDashboard';
+import { buildLearningDashboard } from './learningModel';
 import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import './udc-ldc.css';
 
@@ -44,7 +47,7 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'browse' | 'practice' | 'exam';
+type Tab = 'learning' | 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'browse' | 'practice' | 'exam';
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -489,12 +492,21 @@ const toolBtnOn: React.CSSProperties = {
 };
 
 function BrowseView({
-  rows, questions, progress, flags,
+  rows, questions, progress, flags, onAnswer, onStudied, studyProgress,
 }: {
   rows: PaperStats[]; questions: BankQuestion[]; progress: ProgressMap;
   flags: Record<string, FlagInfo>;
+  onAnswer?: (id: string, correct: boolean, meta?: AttemptMetadata) => void;
+  onStudied?: (id: string) => void;
+  studyProgress?: LearningState['questions'];
 }) {
-  const keep = useMemo(() => new Set(questions.map((q) => q.id)), [questions]);
+  const [retained, setRetained] = useState<Record<string, BankQuestion>>({});
+  const selectionLocks = useRef(new Set<string>());
+  const displayQuestions = useMemo(() => {
+    const ids = new Set(questions.map(q => q.id));
+    return [...questions, ...Object.values(retained).filter(q => !ids.has(q.id))];
+  }, [questions, retained]);
+  const keep = useMemo(() => new Set(displayQuestions.map((q) => q.id)), [displayQuestions]);
   // Answers HIDDEN by default, which is the whole point of reading past papers
   // rather than a worked solution set: a visible answer cannot be recalled,
   // only recognised. `shown` holds the ids deliberately revealed.
@@ -508,7 +520,9 @@ function BrowseView({
   const setShown = (fn: (prev: Set<string>) => Set<string>) => {
     setPicked((prev) => {
       const next: Record<string, number | null> = {};
-      fn(new Set(Object.keys(prev))).forEach((id) => { next[id] = prev[id] ?? null; });
+      const nextIds = fn(new Set(Object.keys(prev)));
+      nextIds.forEach((id) => { next[id] = prev[id] ?? null; });
+      selectionLocks.current.forEach(id => { if (!nextIds.has(id)) selectionLocks.current.delete(id); });
       return next;
     });
   };
@@ -532,7 +546,7 @@ function BrowseView({
     if (panel) pendingScroll.current = { element: panel, top: panel.scrollTop };
   };
   const visible = useMemo(() => {
-    const currentById = new Map(questions.map((q) => [q.id, q]));
+    const currentById = new Map(displayQuestions.map((q) => [q.id, q]));
     const grouped = rows
       .map((r) => ({
         ...r,
@@ -572,7 +586,7 @@ function BrowseView({
       }
       return { ...r, questions: qs };
     });
-  }, [rows, questions, keep, shuffle, seed, flat]);
+  }, [rows, displayQuestions, keep, shuffle, seed, flat]);
 
   const [open, setOpen] = useState<string | null>(null);
   useLayoutEffect(() => {
@@ -793,8 +807,16 @@ function BrowseView({
                                     type="button"
                                     // Picking IS the reveal. Only meaningful
                                     // while there is an answer to check against.
-                                    onClick={() => markable && !open
-                                      && setPicked((p) => ({ ...p, [q.id]: oi }))}
+                                    onClick={() => {
+                                      if (!markable || open || selectionLocks.current.has(q.id)) return;
+                                      selectionLocks.current.add(q.id);
+                                      setRetained(prev => ({ ...prev, [q.id]: q }));
+                                      setPicked(p => ({ ...p, [q.id]: oi }));
+                                      onAnswer?.(q.id, oi === q.answerIndex, {
+                                        selectedIndex: oi, source: 'browse',
+                                        eventId: `browse:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`,
+                                      });
+                                    }}
                                     disabled={!markable || open}
                                     style={{
                                       display: 'flex', gap: 10, alignItems: 'flex-start',
@@ -873,6 +895,12 @@ function BrowseView({
                           )}
                         </div>
                         {q.paperId?.startsWith('mpsc-group-b-') && (shown.has(q.id) || q.sourceReview) && <AnswerSources q={q} />}
+                        {onStudied && <div className="udc-study-action">
+                          <button type="button" onClick={() => onStudied(q.id)} style={{ ...toolBtn, padding: '5px 10px', fontSize: 12 }}>
+                            {studyProgress?.[q.id]?.studiedAt ? 'Studied · mark another reading' : 'Mark studied'}
+                          </button>
+                          <span>Records reading separately from answered questions.</span>
+                        </div>}
                         {q.sourceNote && (shown.has(q.id) || q.sourceReview) && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '7px 0' }}>{q.sourceNote}</p>}
                         {!isMcqQuestion(q) && q.explanation && (
                           <div style={{ marginTop: 6 }}>
@@ -949,13 +977,24 @@ function BrowseView({
 export default function UdcLdcPage() {
   const data = useStats();
   const [corrections, setCorrections] = useState<Record<string, Correction>>({});
-  const [tab, setTab] = useState<Tab>('progress');
+  const [tab, setTab] = useState<Tab>('learning');
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   // Open on first visit so the rail is discoverable; the reader collapses it
   // once they know what is in there.
   const [filtersOpen, setFiltersOpen] = useState(true);
   const { flags, signedIn } = useFlags();
-  const { progress, record, reset } = useProgress();
+  const tracker = useProgress();
+  const { progress, record, reset } = tracker;
+  const [learningClock, setLearningClock] = useState(Date.now());
+  const [learningSession, setLearningSession] = useState<{ id: string; ids: string[]; label: string; mode: 'practice' | 'read' } | null>(null);
+  const [learningMessage, setLearningMessage] = useState('');
+
+  useEffect(() => {
+    const timer = window.setInterval(() => setLearningClock(Date.now()), 30_000);
+    const refresh = () => { if (!document.hidden) setLearningClock(Date.now()); };
+    document.addEventListener('visibilitychange', refresh);
+    return () => { window.clearInterval(timer); document.removeEventListener('visibilitychange', refresh); };
+  }, []);
 
   useEffect(() => {
     const refresh = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => setCorrections({}));
@@ -989,9 +1028,43 @@ export default function UdcLdcPage() {
     return applyFilters(correctedQuestions, data.bank.papers ?? [], filters, progress, flags);
   }, [data, correctedQuestions, filters, progress, flags]);
 
+  const learningModel = useMemo(() => buildLearningDashboard(correctedQuestions, tracker.learning, learningClock),
+    [correctedQuestions, tracker.learning, learningClock]);
+  const learningQuestions = useMemo(() => {
+    if (!learningSession) return [];
+    const byId = new Map(correctedQuestions.map(q => [q.id, q]));
+    return learningSession.ids.map(id => byId.get(id)).filter((q): q is BankQuestion => !!q
+      && (learningSession.mode === 'read' || isAnswerable(q)));
+  }, [correctedQuestions, learningSession]);
+  const openLearning = (ids: string[], label: string, mode: 'practice' | 'read') => {
+    const eligible = new Set(correctedQuestions.filter(q => mode === 'read' || isAnswerable(q)).map(q => q.id));
+    const selected = [...new Set(ids)].filter(id => eligible.has(id)).slice(0, 20);
+    if (!selected.length) { setLearningMessage('No available questions in this selection yet.'); return; }
+    setLearningMessage('');
+    setLearningSession({ id: `${Date.now()}:${Math.random()}`, ids: selected, label, mode });
+    setTab('learning');
+  };
+  const exportLearning = () => {
+    const url = URL.createObjectURL(new Blob([tracker.exportProgress()], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `udc-ldc-learning-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  const importLearning = async (file: File) => {
+    if (file.size > 100_000_000) throw new Error('This backup is too large. Choose a learning backup smaller than 100 MB.');
+    return tracker.importProgress(await file.text());
+  };
+  const tagMistake = (eventId: string, reason: string) => { void tracker.annotateAttempt(eventId, { mistakeReason: reason }); };
+
   if (!data) {
     return <div style={{ padding: 24 }}>Bank <code>{BANK_ID}</code> is not registered.</div>;
   }
+
+  if (!tracker.ready) return <div role="status" style={{ padding: 24 }}>Loading your learning history…</div>;
 
   return (
     // AppShell renders <main class="flex-1 min-w-0 overflow-hidden">, so every
@@ -1014,10 +1087,12 @@ export default function UdcLdcPage() {
       </div>
 
       <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
-        {(['progress', 'papers', 'maths', 'english', 'computer', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+        {(['learning', 'progress', 'papers', 'maths', 'english', 'computer', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
+            type="button"
+            aria-pressed={tab === t}
             onClick={() => setTab(t)}
             style={{
               padding: '6px 14px', borderRadius: 999, cursor: 'pointer', font: 'inherit',
@@ -1027,10 +1102,32 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t}
+            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t}
           </button>
         ))}
       </div>
+
+      {tracker.storageStatus.kind !== 'ready' && <p className="udc-learning-storage-notice" role="status">
+        {tracker.storageStatus.message || 'Your progress is available in this session. Export a backup from My learning.'}
+      </p>}
+
+      {tab === 'learning' && <>
+        {learningMessage && <p className="udc-learning-session-note" role="status">{learningMessage}</p>}
+        {learningSession ? <section className="udc-learning-session" aria-label={learningSession.label}>
+          <div className="udc-learning-session-heading">
+            <div><p>Focused session</p><h2>{learningSession.label}</h2><span>{learningQuestions.length} questions · your answers save as you go</span></div>
+            <button type="button" style={toolBtn} onClick={() => setLearningSession(null)}>Back to my learning</button>
+          </div>
+          {learningSession.mode === 'practice' ? <PracticeView key={learningSession.id}
+            questions={learningQuestions} progress={progress} onAnswer={record} onMistakeReason={tagMistake}
+            onFinish={() => { setLearningSession(null); setLearningMessage('Session complete. Your learning progress and review queue are updated.'); }} />
+            : <BrowseView key={learningSession.id} rows={data.rows} questions={learningQuestions} progress={progress} flags={flags}
+              onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
+        </section> : <LearningDashboard model={learningModel} storageStatus={tracker.storageStatus}
+          onStart={(ids, label) => openLearning(ids, label, 'practice')}
+          onRead={(ids, label) => openLearning(ids, label, 'read')}
+          onExport={exportLearning} onImport={importLearning} />}
+      </>}
 
       {tab === 'progress' && <ProgressView rows={data.rows} />}
       {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
@@ -1039,7 +1136,9 @@ export default function UdcLdcPage() {
         questions={correctedQuestions}
         progress={progress}
         onAnswer={record}
-        renderBrowse={(questions) => <BrowseView rows={data.rows} questions={questions} progress={progress} flags={flags} />}
+        onMistakeReason={tagMistake}
+        renderBrowse={(questions) => <BrowseView rows={data.rows} questions={questions} progress={progress} flags={flags}
+          onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       />}
       {tab === 'papers' && <GroupBPaperLibrary questions={correctedQuestions} onBrowse={(id) => {
         setFilters({ ...EMPTY_FILTERS, paperIds: [id] });
@@ -1102,14 +1201,15 @@ export default function UdcLdcPage() {
         />
       )}
 
-      {tab === 'browse' && <BrowseView rows={data.rows} questions={filtered} progress={progress} flags={flags} />}
+      {tab === 'browse' && <BrowseView key={JSON.stringify(filters)} rows={data.rows} questions={filtered} progress={progress} flags={flags}
+        onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       {tab === 'practice' && (
-        <PracticeView questions={filtered} progress={progress} onAnswer={record} />
+        <PracticeView key={JSON.stringify(filters)} questions={filtered} progress={progress} onAnswer={record} onMistakeReason={tagMistake} />
       )}
       {/* The exam view deliberately ignores the filter rail: you sit the whole
           paper as printed, or it is not an exam. */}
       {tab === 'exam' && (
-        <ExamView papers={(data.bank.papers ?? []).filter((paper) => correctedQuestions.some((q) => q.paperId === paper.id && isAnswerable(q) && !q.paperExamExcluded))} questions={correctedQuestions} />
+        <ExamView papers={(data.bank.papers ?? []).filter((paper) => correctedQuestions.some((q) => q.paperId === paper.id && isAnswerable(q) && !q.paperExamExcluded))} questions={correctedQuestions} onRecordAttempts={tracker.recordMany} />
       )}
       </div>
     </div>

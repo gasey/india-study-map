@@ -9,7 +9,7 @@
   --udc-gold: var(--gold, #d59b20);
   --udc-gold-soft: color-mix(in srgb, var(--udc-gold) 16%, transparent);
   --udc-panel: var(--bg-panel, #fff);
-  --udc-border: color-mix(in srgb, var(--udc-primary) 22%, var(--border, #dcdce3));
+  --udc-border: color-mix(in srgb, var(--udc-primary) 22%, var(--line, #dcdce3));
   --udc-page: #f6f5ef;
   --info: var(--udc-primary);
   --border: var(--udc-border);
@@ -266,4 +266,31 @@ html.dark .udc-ldc-page {
   .udc-topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .udc-topic-card { padding: 12px 10px; }
   .udc-subject-search { width: 100%; }
+}
+
+/* Learning controls shared by drills and inline reading. */
+.udc-recall-confidence, .udc-mistake-reason {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 7px;
+  margin: 12px 0; font-size: 12.5px; line-height: 1.5;
+}
+.udc-recall-confidence > span, .udc-mistake-reason > span { color: var(--text-secondary); }
+.udc-recall-confidence select, .udc-mistake-reason select {
+  max-width: 100%; padding: 7px 9px; border-radius: 7px;
+  background: var(--udc-panel); color: inherit; border: 1px solid var(--udc-border);
+}
+.udc-study-action { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0; }
+.udc-study-action > span { font-size: 11px; color: var(--text-secondary); }
+.udc-learning-session-heading {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 17px 0; margin-bottom: 15px; border-bottom: 1px solid var(--udc-border);
+}
+.udc-learning-session-heading p { margin: 0 0 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--udc-primary); }
+.udc-learning-session-heading h2 { margin: 0 0 6px; font-size: 23px; }
+.udc-learning-session-heading span { color: var(--text-secondary); font-size: 12px; }
+.udc-learning-storage-notice, .udc-learning-session-note {
+  padding: 12px 15px; border-radius: 9px; background: var(--bg-panel-elev);
+  border: 1px solid var(--udc-border); font-size: 13px; line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .udc-learning-session-heading { flex-direction: column; align-items: flex-start; }
 }

@@ -1,74 +1,29 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useMemo, useSyncExternalStore } from 'react';
+import { LearningStore } from '@/lib/learning/storage';
+export { createAttemptId } from '@/lib/learning/engine';
+export type { AttemptInput, AttemptMetadata, LearningState, StorageStatus } from '@/lib/learning/types';
 
-// ============================================
-// Lifetime per-question progress for the clerical bank.
-//
-// Distinct from modules/mpsc/useAttemptState.ts, which persists ONE in-progress
-// sitting so a refresh doesn't lose it. This is the other axis: across all
-// sittings, have I ever attempted this question, and did I get it right? That
-// is what "never attempted" filtering needs, and an in-progress attempt record
-// cannot answer it.
-//
-// localStorage, because it is per-person revision history with no reason to
-// leave the device, and because losing it to a sync failure would be worse
-// than not having it.
-// ============================================
-
-const KEY = 'jabreeze.udcldc.progress.v1';
-
-export interface QuestionProgress {
-  /** How many times this question has been answered. */
-  n: number;
-  /** Whether the MOST RECENT attempt was correct. */
-  lastCorrect: boolean;
-  /** ms epoch of the most recent attempt. */
-  at: number;
-}
-
+/** Compatibility view used by existing bank filters. Explicit reading is not an attempt. */
+export interface QuestionProgress { n: number; lastCorrect: boolean; at: number }
 export type ProgressMap = Record<string, QuestionProgress>;
-
-function read(): ProgressMap {
-  try {
-    const raw = localStorage.getItem(KEY);
-    return raw ? (JSON.parse(raw) as ProgressMap) : {};
-  } catch {
-    return {};
-  }
+let store: LearningStore | undefined;
+function getStore(): LearningStore {
+  return store ??= new LearningStore({ moduleId: 'udc-ldc', legacyKey: 'jabreeze.udcldc.progress.v1' });
 }
-
 export function useProgress() {
-  const [map, setMap] = useState<ProgressMap>({});
-
-  useEffect(() => setMap(read()), []);
-
-  const record = useCallback((questionId: string, correct: boolean) => {
-    setMap((prev) => {
-      const cur = prev[questionId];
-      const next: ProgressMap = {
-        ...prev,
-        [questionId]: {
-          n: (cur?.n ?? 0) + 1,
-          lastCorrect: correct,
-          at: Date.now(),
-        },
-      };
-      try {
-        localStorage.setItem(KEY, JSON.stringify(next));
-      } catch {
-        /* quota or private mode — the drill still works, history just won't persist */
-      }
-      return next;
-    });
-  }, []);
-
-  const reset = useCallback(() => {
-    try {
-      localStorage.removeItem(KEY);
-    } catch {
-      /* ignore */
+  const active = getStore();
+  const snapshot = useSyncExternalStore(active.subscribe, active.getSnapshot, active.getSnapshot);
+  const progress = useMemo<ProgressMap>(() => {
+    const result: ProgressMap = Object.create(null) as ProgressMap;
+    for (const [id, q] of Object.entries(snapshot.learning.questions)) {
+      if (q.attempts > 0 && q.lastCorrect !== undefined) result[id] = { n: q.attempts, lastCorrect: q.lastCorrect, at: q.lastAttemptAt ?? 0 };
     }
-    setMap({});
-  }, []);
-
-  return { progress: map, record, reset };
+    return result;
+  }, [snapshot.learning]);
+  return {
+    ...snapshot, progress,
+    record: active.record, recordMany: active.recordMany, reset: active.reset,
+    markStudied: active.markStudied, annotateAttempt: active.annotateAttempt,
+    exportProgress: active.exportProgress, importProgress: active.importProgress,
+  };
 }

@@ -1,0 +1,2317 @@
+{
+  "slug": "agri-2025-gs",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "General Studies",
+  "source": "Agri&Allied General Studies 2025..pdf",
+  "sourceSha256": "0b5a756f2dce18cd082362024bfeedfdb41073fa6b361d31cae226acfcdff646",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MiG - 21",
+        "b": "MiG - 25",
+        "c": "Sukhoi - 21",
+        "d": "Sukhoi – 25"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian Air Force has retired which of the following fighter jets in September 2025?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hyderabad",
+        "b": "New Delhi",
+        "c": "Mumbai",
+        "d": "Gurugram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city is India’s first dedicated Tesla Centre scheduled to open on 26th November, 2025?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA, Mexico and Paraguay",
+        "b": "USA, Canada and Mexico",
+        "c": "UAE",
+        "d": "Brazil"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The FIFA 2026 World Cup will be held in which of the following country/countries?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grand Vitara",
+        "b": "Tata Acti.EV",
+        "c": "e-Vitara",
+        "d": "Mahindra XEV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the Made in India global strategic Battery Electric Vehicle recently flagged off by Prime Minister Modi?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agni Express",
+        "b": "Bharat Shakti",
+        "c": "Rudrastra",
+        "d": "Gangotri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of Asia’s largest freight train whose trial run was recently conducted by Indian Railways?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arunachal Pradesh",
+        "b": "Mizoram",
+        "c": "Nagaland",
+        "d": "Sikkim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which Indian state was the orchid Chamaegastrodia reikensis discovered?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Singapore",
+        "b": "Sri Lanka",
+        "c": "Australia",
+        "d": "Bangladesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SLINEX is a bilateral naval exercise between India and which country?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "28%",
+        "c": "32%",
+        "d": "40%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The new GST rate for luxury items and ‘sin’ goods is:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "i only",
+        "b": "iii only",
+        "c": "ii & iii only",
+        "d": "ii only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian Navy is set to commission a new ship/craft at the Naval Dockyard in Mumbai on 24.11.2025. Consider the following statements: (i)This vessel is of Arnala-class. (ii)This vessel is an initiative under Atmanirbhar Bharat. (iii)This vessel is the first of the Mahe-Class Indian Navy’s Anti-Submarine Warfare Shallow Water Craft (ASW-SWC). Which of the statements given above is/are true?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture Department",
+        "b": "General Administration Department",
+        "c": "Planning & Programme Implementation Department",
+        "d": "Commerce and Industries Department"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Nodal Department for the Mizoram Bana Kaih (Handholding) Scheme, 2024 is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Battlefield Surveillance System",
+        "b": "Light Weight Battle Tank",
+        "c": "Drone",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is SANJAY, launched by the Union Defence Minister in January, 2025?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canada",
+        "b": "United States",
+        "c": "Brazil",
+        "d": "Mexico"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country launched Operation SOUTHERN SPEAR to target narco-terrorists?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the ‘Quit India Movement’, consider the following statements: I.It was launched in response to the failure of the Cripps Mission. II.Parallel governments were established in Ballia, Tamluk, and Satara during the movement. III.The Communist Party of India (CPI) supported the movement officially. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abolition of Sati",
+        "b": "Abolition of Provincial Courts of Appeal",
+        "c": "Suppression of Thugs",
+        "d": "Abolition of Slavery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Regulation XVII, passed by the British Government was related to which among the following?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "Only I"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the administration of the Mizo Hills under the British: I.The Mizo Hills were designated as ‘Excluded Areas’ under the Government of India Act, 1935. II.The Superintendents of the then Lushai Hills District recognised the rights of the chiefs under the policy of minimum interference. III.The Inner Line Regulation was abolished immediately after British annexation. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Paris",
+        "b": "Pondicherry",
+        "c": "Aix-La-Chapelle",
+        "d": "London"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Carnatic War was ended by signing the treaty of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "I and II only",
+        "c": "II and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following pairs is/are correctly matched? I.Bardoli Satyagraha:Sardar Vallabhbhai Patel II.Champaran Satyagraha:Raj Kumar Shukla III.Vaikom Satyagraha:K. Kelappan",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hunter Commission",
+        "b": "Simon Commission",
+        "c": "Welby Commission",
+        "d": "Butler Committee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following commissions was appointed by the British Government to investigate into the massacre in Jallianwala Bagh?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Subsidiary Alliance’ system introduced by Lord Wellesley entailed: I.The British would be responsible for protecting the ally from external and internal threats. II.The ally had to maintain a British contingent at their own expense. III.The ally was free to enter into agreements with other rulers without British permission. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agitation against the Partition of Bengal",
+        "b": "Home Rule Movement",
+        "c": "Non-Cooperation Movement",
+        "d": "Visit of the Simon Commission to India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Swadeshi’ and ‘Boycott’ were adopted as methods of struggle of the masses for the first time during the:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Survey the mineral resources of the region.",
+        "b": "Rescue Mary Winchester and punish the raiding tribes.",
+        "c": "Establish a trade route to Burma.",
+        "d": "Introduce Christianity to the region."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Lushai Expedition of 1871-72’ was undertaken by the British primarily to:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Social reforms",
+        "b": "Educational reforms",
+        "c": "Reforms in police administration",
+        "d": "Constitutional reforms"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Montague-Chelmsford Proposals were related to:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following regarding the ‘Indian National Army (INA)’: I.The idea of the INA was first conceived by Subhas Chandra Bose in Berlin. II.The Rani of Jhansi Regiment was an all-women combat regiment. III.The INA trials at Red Fort led to a massive upsurge of nationalist sentiment. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solve the problem of minorities in India",
+        "b": "Give effect to the Independence Bill",
+        "c": "Delimit the boundaries between India and Pakistan",
+        "d": "Enquire into the riots in East Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Radcliffe Committee was appointed to:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the physiography of Mizoram: I.The terrain is characterized by longitudinal valleys and parallel mountain ranges running north- south. II.The highest peak, Phawngpui (Blue Mountain), is located in Siaha district. III.The rivers in the northern part of the state generally flow northwards into the Barak valley. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hurricanes",
+        "b": "Tornado",
+        "c": "Typhoon",
+        "d": "Twister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the name of the tropical cyclones in the China Sea?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to ‘Soil Types in India’, consider the following: I.Alluvial soil covers the largest land area in India. II.Laterite soil is rich in organic matter and highly suitable for growing pulses. III.Black soil (Regur) is also known as a self-ploughing soil. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indonesia",
+        "b": "Malaysia",
+        "c": "Singapore",
+        "d": "Vietnam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With which of the following countries of South East Asia does India share a maritime boundary?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 4 only",
+        "b": "2, 3 and 4 only",
+        "c": "1 and 2 only",
+        "d": "1, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Tropic of Cancer’ passes through which of the following Indian states? 1.Mizoram2.Tripura 3.Manipur4.Jharkhand Select the correct option:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Backswamp",
+        "b": "Delta",
+        "c": "Moraine",
+        "d": "Mesa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the landform where deposits of fine silts and clay deposit after a flood called?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlawng",
+        "b": "Chhimtuipui",
+        "c": "Tut",
+        "d": "Khawthlang Tuipui"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of ‘River Systems in Mizoram’, which river is known as the ‘Kaladan’ in Myanmar?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is an intermediate layer beyond the ozone layer",
+        "b": "The temperature decreases with increase in height",
+        "c": "This layer is ideal for flying aeroplanes",
+        "d": "It lies upto an altitude of around 80-85 km from the earth’s surface."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following statements is not correct about the Mesosphere?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Eurasian Plate and the African Plate.",
+        "b": "The Indo-Australian Plate and the Eurasian Plate.",
+        "c": "The Indo-Australian Plate and the Pacific Plate.",
+        "d": "The Eurasian Plate and the North American Plate."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding ‘Plate Tectonics’, the Himalayas are formed due to the collision between:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Loktak- Manipur",
+        "b": "Lonar- Maharashtra",
+        "c": "Chilika-Andhra Pradesh",
+        "d": "Roopkund- Uttarakhand"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following lakes and their locations is incorrectly matched?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Ring of Fire’ is associated with: I.Global mid-oceanic ridges. II.Concentration of volcanoes and earthquakes around the Pacific Ocean. III.The convergence of tectonic plates. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Wind vane",
+        "b": "Barometer",
+        "c": "Hygrometer",
+        "d": "Anemometer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which instrument is used to measure the wind speed?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to ‘Article 371G’ of the Indian Constitution relating to Mizoram: I.Acts of Parliament concerning Mizo customary law do not apply to Mizoram unless the State Legislative Assembly so decides. II.It provides for the ownership and transfer of land to be decided by the State Assembly. III.It was inserted into the Constitution by the 53rd Amendment Act, 1986. Which of the statements given above is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2/3",
+        "b": "1/3",
+        "c": "1/2",
+        "d": "1/6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What fraction of Rajya Sabha members retire after every two years?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Manipur, Mizoram, Tripura and Nagaland",
+        "b": "Assam, Meghalaya, Tripura and Mizoram",
+        "c": "Assam, Meghalaya, Arunachal Pradesh and Nagaland",
+        "d": "Assam, Meghalaya, Mizoram and Nagaland"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Sixth Schedule of the Indian Constitution deals with the administration and control of Scheduled Areas and Scheduled Tribes in the four states of:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the ‘Election Commission of India’: I.It is a constitutional body under Article 324. II.The Chief Election Commissioner can be removed from office only in like manner and on the like grounds as a Judge of the Supreme Court. III.It conducts elections to the Parliament, State Legislatures, and Panchayats. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 year",
+        "b": "9 months",
+        "c": "6 months",
+        "d": "3 months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For how long can the Vice President of India act as the President when the President is not able to perform his duties due to resignation, removal, death or otherwise?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Finance Minister",
+        "b": "The Reserve Bank of India Governor",
+        "c": "The President of India",
+        "d": "The Prime Minister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following has the power to declare a ‘Financial Emergency’ in India?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding the ‘Directive Principles of State Policy (DPSP)’: I.They are non-justiciable in nature. II.They supersede Fundamental Rights in all circumstances. III.They encompass the Gandhian, Socialist, and Liberal-Intellectual principles. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "II only",
+        "c": "Both I and II",
+        "d": "Neither I nor II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the ‘President of India’: I.He is elected by the members of an electoral college consisting of elected members of both Houses of Parliament and the Legislative Assemblies of the States. II.Impeachment can be initiated by either House of the Parliament. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Four months and six weeks",
+        "b": "Six months and six weeks",
+        "c": "Three months and three weeks",
+        "d": "One month and three weeks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the maximum life of an ordinance?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ninth Schedule",
+        "b": "Tenth Schedule",
+        "c": "Eleventh Schedule",
+        "d": "Twelfth Schedule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Anti-Defection Law’ is contained in which Schedule of the Constitution?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10% of total strength",
+        "b": "15% of total strength",
+        "c": "20% of total strength",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum percentage of strength of opposition required in a State legislature for the appointment of an opposition leader?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Part I",
+        "b": "Part II",
+        "c": "Part III",
+        "d": "Part IV A"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fundamental Duties are given in which part of Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An increase in the population of the elderly.",
+        "b": "A rise in economic growth potential resulting from a changing age structure of the population (more working-age people).",
+        "c": "A decline in the total population due to migration.",
+        "d": "Equal distribution of wealth among the population."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Demographic Dividend’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "National Banks",
+        "b": "Foreign Banks",
+        "c": "Scheduled Cooperative Banks",
+        "d": "Private Banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following groups of Banks in India was previously referred as ‘Other Scheduled Commercial Banks’?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding ‘Goods and Services Tax (GST)’: I.It is a destination-based tax. II.It has subsumed all indirect taxes including Basic Customs Duty. III.The GST Council is a constitutional body chaired by the Union Finance Minister. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agricultural sector",
+        "b": "Manufacturing sector",
+        "c": "Steel sector",
+        "d": "Petroleum sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following sectors doesn’t feature in Index of Industrial Production (IIP) calculation?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 3 only",
+        "b": "2, 3 and 4 only",
+        "c": "1 and 3 only",
+        "d": "1, 2, 3 and 4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Human Development Index (HDI)’ comprises which of the following dimensions? 1.Long and healthy life2.Access to knowledge 3.Decent standard of living4.Political freedom Select the correct option:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PMEGP",
+        "b": "UNNATI",
+        "c": "Svanidhi",
+        "d": "PM DAJGUA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following schemes focuses on industrial development in North-East India?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Financial Inclusion’ aims to: I.Provide banking services to the unbanked population. II.Promote literacy in the stock market only. III.Ensure access to affordable financial products like insurance and credit. Select the correct answer:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "China",
+        "c": "Russia",
+        "d": "Japan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which country is India’s largest trading partner?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "I, II and III"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘New Economic Policy of 1991’ in India was characterized by: I.Liberalization II.Privatization III.Globalization Select the correct option:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Managing rail transport logistics",
+        "b": "Offering electronic services for customs-related activities",
+        "c": "Regulating air traffic",
+        "d": "None of the Above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary objective of ICEGATE portal that was seen in news?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zambia",
+        "b": "Chile",
+        "c": "Peru",
+        "d": "China"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India has secured a 9,000-sq-km exploration block to explore copper and cobalt in which country?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To provide housing for the urban poor.",
+        "b": "To fund unfunded micro-enterprises and small businesses.",
+        "c": "To provide crop insurance to farmers.",
+        "d": "To support large scale infrastructure projects."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary objective of the ‘MUDRA Yojana’?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Biodiversity Hotspots’ are characterized by: I.High species richness. II.High degree of endemism. III.Low threat from human activities. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon monoxide",
+        "b": "Carbon dioxide",
+        "c": "Nitrogen dioxide",
+        "d": "Oxygen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the major cause of acid rain?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Depletion of Ozone Layer.",
+        "b": "Conservation of Biodiversity.",
+        "c": "Reduction of Greenhouse Gas emissions.",
+        "d": "Transboundary movement of hazardous wastes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Kyoto Protocol’ primarily deals with:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Odisha",
+        "b": "Sikkim",
+        "c": "Karnataka",
+        "d": "Arunachal Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bannerghatta National Park is located in which state?",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "I and III only",
+        "c": "II and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following regarding ‘Dampa Tiger Reserve’: I.It is the largest wildlife sanctuary in Mizoram. II.It is located in the Kolasib district. III.It is part of Project Tiger. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Natality",
+        "b": "Carrying capacity",
+        "c": "Biotic potential",
+        "d": "Absolute natality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ability of a population to increase under ideal environmental conditions is called:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Botanical Gardens",
+        "b": "Zoological Parks",
+        "c": "Biosphere Reserves",
+        "d": "Seed Banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is an ‘In-situ’ conservation method?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biomagnification",
+        "b": "Bioremediation",
+        "c": "Biomethanation",
+        "d": "Bioreduction"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The use of microorganism metabolism to remove pollutants such as oil spills in the water bodies is known as:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The total amount of greenhouse gases produced to directly and indirectly support human activities.",
+        "b": "The amount of carbon found in the earth’s crust.",
+        "c": "The carbon emissions absorbed by the oceans.",
+        "d": "The radioactive dating of carbon isotopes."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘Carbon Footprint’ refers to:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sulphur Dioxide",
+        "b": "Carbon Dioxide",
+        "c": "Nitric Oxide",
+        "d": "Ozone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ocean acidification is caused by which of the following gases?",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Global Hectare",
+        "b": "Gallon Per Capita",
+        "c": "Cubic meter",
+        "d": "Man Hour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the following is the unit of measurement of the ‘Ecological Footprint’?",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbon dioxide",
+        "b": "Methane",
+        "c": "Water vapour",
+        "d": "Nitrogen oxides (NOx)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a primary greenhouse gas found in earth’s atmosphere?",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "I and II only",
+        "b": "II and III only",
+        "c": "I and III only",
+        "d": "All are correct"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding ‘Vaccines’, consider the following statements: I.Vaccines work by training the immune system to recognize and combat pathogens. II.mRNA vaccines (like some COVID-19 vaccines) use a piece of genetic code to instruct cells to make a protein that triggers an immune response. III.Herd immunity can only be achieved through vaccination, not natural infection. Which of the statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Heart",
+        "b": "Bone marrow",
+        "c": "Liver",
+        "d": "Kidney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Red blood corpuscles are formed in the:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reflection of sunlight by the ocean.",
+        "b": "Refraction of sunlight by water droplets (Mie Scattering).",
+        "c": "Scattering of shorter wavelengths of sunlight by atmospheric particles (Rayleigh scattering).",
+        "d": "Absorption of blue light by the atmosphere."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Blue colour of the sky’ is due to:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Golgi Apparatus",
+        "b": "Mitochondria",
+        "c": "Cytoplasm",
+        "d": "Ribosome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following cell organelle contains DNA apart from nucleus?",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Total Internal Reflection.",
+        "b": "Refraction.",
+        "c": "Dispersion.",
+        "d": "Interference."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Optical Fiber’ works on the principle of:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Work",
+        "b": "Power",
+        "c": "Force",
+        "d": "Motion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The physical quantity of which of the following is measured in Kg m/s²?",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Oxygen",
+        "b": "Nitrogen",
+        "c": "Carbon Dioxide",
+        "d": "Argon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which gas is primarily responsible for the ‘Greenhouse Effect’ on Earth?",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Phosgene gas",
+        "b": "Carbon monoxide",
+        "c": "Methyl isocyanate",
+        "d": "Chlorine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Bhopal Gas Tragedy was caused by the release of which gas?",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0",
+        "b": "7",
+        "c": "14",
+        "d": "less than 7"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘pH value’ of pure water at 25°C is:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spleen",
+        "b": "Tailbone",
+        "c": "Thyroid",
+        "d": "Gall bladder"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a vestigial organ in human body?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An object at rest stays at rest unless acted upon by a force.",
+        "b": "Force equals mass times acceleration (F=ma).",
+        "c": "For every action, there is an equal and opposite reaction.",
+        "d": "Energy cannot be created or destroyed."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Newton’s Third Law of Motion’ states that:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Solid water",
+        "b": "Solid Nitrogen dioxide",
+        "c": "Solid Sulphur dioxide",
+        "d": "Solid Carbon dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is dry ice?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalbura",
+        "b": "Kalkhama",
+        "c": "Vanhnuailiana",
+        "d": "Suakpuilala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Mizo chief to officially sign an agreement with the British?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thangthleng",
+        "b": "Beai",
+        "c": "Buhchuk",
+        "d": "Hnawhtawt"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a trap used by the Mizos for catching birds?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khiangte Zawngzim",
+        "b": "Dingdi Puantah",
+        "c": "Khawnthiang",
+        "d": "Zangkhua"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the odd-one out:",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AS Reid",
+        "b": "AO Chamber",
+        "c": "HR Browne",
+        "d": "J. Shakespeare"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The book ‘The Lushei Kuki Clans’ was written by:",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cheraw",
+        "b": "Chai",
+        "c": "Khuallam",
+        "d": "Solakia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The traditional dance exclusively performed during Chapchar Kut festival is:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Derhken",
+        "b": "Hnahsin",
+        "c": "Zamzo",
+        "d": "Chuailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The flower that was believed to protect against evil spirits was:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bamboo",
+        "b": "Leather",
+        "c": "Gourd",
+        "d": "Water resistant leaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tuithawl, used for storing and carrying water is made of:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Amber",
+        "b": "Ivory",
+        "c": "Pearls",
+        "d": "Limestone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The highly prized necklace ‘Thihna’ of the Mizos was made from:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digging in the ground",
+        "b": "Carving wood into various shapes",
+        "c": "Cutting bamboo shoots",
+        "d": "Weeding"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tuthulh is a Mizo tool used for:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tlingi and Ngambawma",
+        "b": "Zawlpala and Tualvungi",
+        "c": "Hrangchhuana and Chawngmawii",
+        "d": "Darpuii and Thangliana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The legend of Mim Kut is about the love story of a couple named:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pialraltlang",
+        "b": "Hringlangtlang",
+        "c": "Lungngaihtlang",
+        "d": "Hawilopartlang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per Mizo belief regarding the afterlife, after crossing Rih Dil, the departing soul reaches a mystical mountain from where it gazes back to earth. This mountain is called:",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "accidents during clearing for forests for cultivation",
+        "b": "accidents during hunting at night",
+        "c": "evil spirits when there is death in the village (sarthi)",
+        "d": "bad weather (thlipui, intense cyclonic winds)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ritual ‘ramar thih’ is mainly to seek protection from:",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ii & iii only",
+        "b": "i only",
+        "c": "ii & iv only",
+        "d": "i, ii & iv only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements about Rimenhawihi: (i)A good-looking woman known for her long hair. (ii)She was the wife of Zawlthlia. (iii)She lived in a house made of stone. (iv)Zawlthlia rescued Rimenhawihi from her captors. Which of the statements are correct?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1866-1867",
+        "b": "1877-1878",
+        "c": "1889-1890",
+        "d": "1900-1901"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Vai Len vawi hnihna took place during:",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1949",
+        "b": "1959",
+        "c": "1969",
+        "d": "1979"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the following years did Mautam took place?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rolura",
+        "b": "Vuttaia",
+        "c": "Lallula",
+        "d": "Vanhnuailiana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following chiefs was associated with ‘Thlanrawn rawt’?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

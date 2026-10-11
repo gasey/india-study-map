@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 72,
+  "registered_keys": 83,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 381,
-  "held_mcq": 15398,
-  "tier1_key_scorable": 663,
+  "papers": 391,
+  "held_mcq": 15349,
+  "tier1_key_scorable": 664,
   "tier2_solid_importable": 62,
-  "tier2_candidate_needs_verify": 7971,
-  "tier3_needs_derivation": 6702
+  "tier2_candidate_needs_verify": 7940,
+  "tier3_needs_derivation": 6683
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2011,
-   "disagree": 297
+   "agree": 2352,
+   "disagree": 347
   },
   "key": {
    "agree": 67,
@@ -56,7 +56,7 @@
    },
    {
     "key_file": "Final Answer Key of Agri & Allied Services, 2025..pdf",
-    "candidate_paper": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
+    "candidate_paper": "mpsc-group-b-agri-2025-gs",
     "matched_on": [
      "allied"
     ]
@@ -175,7 +175,7 @@
    },
    {
     "key_file": "Provisional Answer Key of Agri & Allied Services Examination, 2025..pdf",
-    "candidate_paper": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
+    "candidate_paper": "mpsc-group-b-agri-2025-gs",
     "matched_on": [
      "allied"
     ]
@@ -225,7 +225,7 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 7971,
+  "bank_v2:inferred": 7940,
   "bank_v2:derived": 60,
   "bank_v2:key": 2
  },
@@ -1986,21 +1986,6 @@
    "tier2_candidate": 32
   },
   {
-   "paper_id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
-   "exam": "Agriculture & Allied Services November - 2025",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 50,
-   "tier1": 0,
-   "tier2": 31,
-   "tier3": 19,
-   "tier2_bank": 31,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 31
-  },
-  {
    "paper_id": "mpsc-group-b-programmer-phe-2018-english-p1",
    "exam": "Programmer under PHE Department",
    "subject": "General English Paper-I",
@@ -3460,7 +3445,7 @@
    "exam": "Agriculture & Allied Service ( Combined Technical)-2024",
    "subject": "General Studies",
    "key_status": "registered",
-   "key_file": "Corrigendum of Final Answer Key for Agriculture and Allied Services-2025..pdf",
+   "key_file": null,
    "held": 1,
    "tier1": 1,
    "tier2": 0,
@@ -3548,6 +3533,21 @@
   {
    "paper_id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
    "exam": "Jr. Accounts Officer",
+   "subject": "General English",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
+   "exam": "Agriculture & Allied Services November - 2025",
    "subject": "General English",
    "key_status": "registered",
    "key_file": null,
@@ -4974,6 +4974,156 @@
    "paper_id": "mpsc-group-b-adfd-2025-technical-p2",
    "exam": "Assistant Director (Food & Drugs) - November-2025",
    "subject": "Technical Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-gs",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "General Studies",
+   "key_status": "registered",
+   "key_file": "Corrigendum of Final Answer Key for Agriculture and Allied Services-2025..pdf",
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-agri-science-p1",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Agriculture Science Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-agri-science-p2",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Agriculture Science Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-agri-science-p3",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Agriculture Science Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-ah-vety-p1",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "AH & Vety Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-ah-vety-p2",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "AH & Vety Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-ah-vety-p3",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "AH & Vety Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-horticulture-p1",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Horticulture Science Paper-I",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-horticulture-p2",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Horticulture Science Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-agri-2025-horticulture-p3",
+   "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+   "subject": "Horticulture Science Paper-III",
    "key_status": "registered",
    "key_file": null,
    "held": 0,

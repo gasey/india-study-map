@@ -1,0 +1,1253 @@
+{
+  "slug": "agri-2025-ah-vety-p2",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "AH & Vety Paper-II",
+  "source": "Agri&Allied AH & Vety Paper-II 2025..pdf",
+  "sourceSha256": "ff214c1404fd523a824b052b1d6fbbf8796b03551ab761ed62744d3834b714af",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scrub typhus",
+        "b": "Q-fever",
+        "c": "Black death",
+        "d": "Black leg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Eschar is developed in the skin of human which is the hallmark lesion of:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MHC-I, humoral mediated immune",
+        "b": "MHC-I, CMI",
+        "c": "MHC-II, humoral",
+        "d": "MHC-II, CMI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The presentation of endogenous antigen by APC takes place through _______ activating _______ response.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram positive, can grow in 4°C",
+        "b": "Gram positive, cannot grow in 4°C",
+        "c": "Gram negative, can grow in 4°C",
+        "d": "Gram positive, cannot grow in 4°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One among the listed is true for Listeria.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Papillomavirus (HPV), Hepatitis B and Bovine Ephemeral Fever Virus",
+        "b": "Papillomavirus (HPV), Hepatitis B (HBV) and Retrovirus",
+        "c": "Papillomavirus (HPV), Epstein-Barr Virus, Asfaviridae",
+        "d": "Papillomavirus (HPV), Hepatitis B, C & Bornaviridae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cancer causing virus are:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It is caused by avian herpesvirus (MDV) which induce B-cell lymphomas and",
+        "b": "It is caused by avian adenovirus serotype 4 (FAdV) which induce B-cell lymphomas and",
+        "c": "It is caused by avian herpesvirus (MDV) which induce T-cell lymphomas and",
+        "d": "It is caused by avian adenovirus serotype 4 (FAdV) which induce T-cell lymphomas and"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The following statement about Marek’s disease is true:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gram positive, contains high lipid layer in the cell wall, spore forming",
+        "b": "Gram positive, contains high lipid layer in the cell wall, non-spore forming",
+        "c": "Gram negative, contains low lipid layer in the cell wall, spore forming",
+        "d": "Gram positive, contains low lipid layer in the cell wall, non-spore forming"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mycobacterium bovis is:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Live virus attenuated vaccine- La Sota strain",
+        "b": "Killed virus vaccine- La Sota strain",
+        "c": "Live virus attenuated vaccine- S19 strain",
+        "d": "Killed virus vaccine- S19 strain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The component of vaccine against Newcastle in poultry is:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sodium hypochloride, Caustic Soda, Potassium Permanganate",
+        "b": "Sodium hypochloride and Caustic Soda",
+        "c": "Sodium hydroxide and Potassium Permanganate",
+        "d": "Sodium hypochloride and Potassium Permanganate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The choice of disinfectant during the outbreak of CSF are:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brooders pneumonia (Aspergillus), Ephemeral fever (Rhabdoviridae), Infectious coryza",
+        "b": "Brooders pneumonia (Histoplasma), Ephemeral fever (Rhabdoviridae), Infectious coryza",
+        "c": "Brooders pneumonia (Aspergillus) Ephemeral fever (Rhabdoviridae), Infectious coryza",
+        "d": "Brooders pneumonia (Aspergillus), Ephemeral fever (Flavivirus), Infectious coryza (Retrovirus),"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select the most correlating pathogens and the disease they cause:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Th1 type of immune response",
+        "b": "Th2 type of immune response",
+        "c": "Cytotoxic type of immune response",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Humoral type of immunity is stimulated when the antigen induced:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Primary infection or initial stage of infection",
+        "b": "Secondary infection or chronic stage of infection",
+        "c": "Tumor formation",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "High titre of IgM is seen during serological examination that indicates:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Giemsa’s stain",
+        "b": "Lactophonol",
+        "c": "Lactophenol cotton blue",
+        "d": "Zeihl-Nelson stain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The stain generally used for identifying fungus is:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The small intestine does not produce enough lactase",
+        "b": "The liver does not produce enough lactase",
+        "c": "The small intestine does not produce enough lactocase",
+        "d": "The liver does not enough lactocase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lactose intolerance happen where:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Double stranded which multiply in the cytoplasm of the infected cell",
+        "b": "Single stranded which multiply in the cytoplasm of the infected cell",
+        "c": "Retro virus which multiply in the cytoplasm of the infected cell",
+        "d": "It can transform in any form which makes the virus extremely lethal for pigs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The nature of ASF virus is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Theileriosis",
+        "b": "Lympy Skin Disease",
+        "c": "Bovine Ephemeral fever",
+        "d": "Foot and Mouth Disease"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cattle suffers from pyrexia, enlarge lymph nodes and nodules in the skin, (2-5 cm in diameter), nodules in mucous membrane, nasal and ocular discharges is indicative of:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aerosol, milk, semen",
+        "b": "Aerosol and fomites",
+        "c": "Aerosol, feed and water",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The transmission of FMD virus may be completed through:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CSF",
+        "b": "ASF",
+        "c": "PRRS",
+        "d": "Swine Influenza"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Reproductive problems is the most obvious clinical signs in the infection of pigs among the disease listed below:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Erysipelothrix rhusiopathiae",
+        "b": "Staphylococcus hyicus",
+        "c": "Streptococcus suis",
+        "d": "Clostridium perfingens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The causative agent of greasy pig disease is:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Erythropoiesis",
+        "b": "Hyperthyroidism",
+        "c": "Acute viral disease condition",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under microscopic examination of stained blood smear, various sizes of RBCs are seen which is indicative of:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acidity",
+        "b": "Kidney stone",
+        "c": "Liver disease",
+        "d": "UTI"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During urine analysis, the level of bilirubin is quantified for:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "4.6",
+        "b": "5.6",
+        "c": "6.6",
+        "d": "7.6"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The normal pH of milk is _______.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lactic acid",
+        "b": "Bacillus lactis",
+        "c": "Coliform",
+        "d": "Streptococcus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Souring & gassiness of milk is caused by _______ group, which indicates the contamination of milk and its products.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Metazoonosis subtype II",
+        "b": "Metazoonosis subtype III",
+        "c": "Metazoonosis subtype IV",
+        "d": "Cyclozoonosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Clonorchiosis is an example of :",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "on top of head",
+        "b": "middle of forehead",
+        "c": "2.5 centimeters above eye level",
+        "d": "13 mm running down the centre of forehead"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During slaughtering of pig, the captive bolt should be placed _______.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ring vaccination",
+        "b": "Strategic vaccination",
+        "c": "Barrier vaccination",
+        "d": "Suppressive vaccination"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is the type of vaccination that is practiced both within and around the region where an outbreak had occurred.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Analytical epidemiology",
+        "b": "Horizontal epidemiology",
+        "c": "Descriptive epidemiology",
+        "d": "Predictive epidemiology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first step in disease investigation:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ebola",
+        "b": "Mastitis",
+        "c": "Collibacillosis",
+        "d": "Salmonellosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Koch’s postulate is not applicable to which of the following:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "dog",
+        "b": "horse",
+        "c": "cattle",
+        "d": "sheep"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The animal species which is most susceptible for tetanus is _______.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Scrub typhus",
+        "b": "Actinomycosis",
+        "c": "Fascioliasis",
+        "d": "Protothecosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Example of algal zoonosis:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prospective survey",
+        "b": "Retrospective survey",
+        "c": "Cross-sectional survey",
+        "d": "Longitudinal survey"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recording of events occurring in a particular point of time is called _______.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FSH & LH",
+        "b": "FSH, LH & Progesterone",
+        "c": "FSH & Testosterone",
+        "d": "FSH, LH & TSH"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Relate the following hormone in direct connection to GnRH:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NADH",
+        "b": "ATP",
+        "c": "FADH2",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The final product of oxidative phosphorylation is:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "release, kidney",
+        "b": "release, liver",
+        "c": "uptake, liver",
+        "d": "uptake, kidney"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Deamination is the_______of amino group from/to amino acid which occurs in _______.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Inefficient glycolysis",
+        "b": "Inefficient TCA cycle",
+        "c": "Insufficient colostrum and milk intake",
+        "d": "Inefficient gluconeogenesis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hypoglycemia in piglets is due to:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0-14",
+        "b": "1-12",
+        "c": "1-10",
+        "d": "2-10"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In nature pH level ranges from:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "calcium",
+        "b": "magnesium",
+        "c": "sodium",
+        "d": "potassium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "During skeletal muscle contraction, _______ binds to troponin.",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2-Haemoxyglobin",
+        "b": "Oxyhaemoglobin",
+        "c": "Beta-haemoxyglobin",
+        "d": "Oxyglobinogen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the blood, oxygen binds to hemoglobin of the red blood cells (RBCs) to form _______ and is carried to the body’s tissues.",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surge of LH level",
+        "b": "Dip in the LH level",
+        "c": "Surge in the FSH",
+        "d": "Dip in the FSH"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The release of egg from ovary during oestrus/menstrual is stimulated by_______.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2'-hydroxyl group (2'-OH) on its ribose sugar in RNA",
+        "b": "2'-hydroxyl group (2'-OH) on its fructose sugar in RNA",
+        "c": "5'-hydroxyl group (2'-OH) on its ribose sugar in RNA",
+        "d": "5'-hydroxyl group (2'-OH) on its fructose sugar in RNA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "RNA is more labile to hydrolysis than DNA because of the presence of _______.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "goat",
+        "b": "dog",
+        "c": "camel",
+        "d": "pig"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The RBC of _______ is biconcave in nature.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cysticercosis",
+        "b": "Taeniasis",
+        "c": "Hydatidosis",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consumption of measly pork leads to an infection known as:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absence of somatic migration of the larvae",
+        "b": "Presence of somatic migration",
+        "c": "The large size stage two larva",
+        "d": "Thick albuminous covering of the egg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "McLean County system is applicable only in Ascaris suum infection among the ascarid worm due to:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Neospora caninum, Imidocarb",
+        "b": "Trypanosoma evansi, Diaminazine aceturate",
+        "c": "Babesia gibsoni, Imidocarb",
+        "d": "Hepatozoon canis, Diaminazine aceturate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A dog suffering from high fever, anaemia/pale mucous membrane, ascites with tick infestation is indicative of _______ and treatment may be given with _______.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Strongyloides stercoralis, Harada Mori technique",
+        "b": "Ancylostoma duodenale, Formol-ether technique",
+        "c": "Schistosoma mansoni, Mac Master Technique",
+        "d": "Ascaris lumbricoides, Salt floatation Technique"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Examination of the stool of immunocompromised person contains a short tail parasitic larva is an indicative of _______ and the confirmation is done by_______.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Presence of delta-6-desaturase",
+        "b": "Absence of delta-6-desaturase",
+        "c": "Presence of alpha-6-desaturase",
+        "d": "Absence of alpha-6-desaturase"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cat is the only definitive infection for Toxoplasma gondii which is due to:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The female parasite lay up to 3000 eggs (approx.) in a burrow and dies at the end of a tunnel",
+        "b": "The female parasite lay up to 30 eggs (approx.) in a burrow and dies at the end of a tunnel",
+        "c": "The female parasite lay up to 3000 eggs (approx.) in a burrow dig another tunnel",
+        "d": "The female parasite lay up to 30 eggs (approx.) in a burrow and dig another tunnel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which among the statements is true for Sarcoptes?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adult, sporocyst, miracidium, redia, cercaria, metacercaria",
+        "b": "Adult, miracidium, redia, sporocyst, cercaria, metacercaria",
+        "c": "Adult, miracidium, sporocyst, redia, cercaria, metacercaria",
+        "d": "Adult, redia, sporocyst, miracidium, cercaria, metacercaria"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arrange the following in the chronological order:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Land snail, Angiostrongylus cantonensis",
+        "b": "Mosquito, Spirocerca lupi",
+        "c": "Water snail, Dicrocoelium dentriticum",
+        "d": "Fresh water fish, Paragonimus westermani"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most appropriate relationship of the following intermediate host and a parasite is:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Conoid, microneme",
+        "b": "Dense granule, rhoptry",
+        "c": "Sub-pellicular microtubule, conoid",
+        "d": "Microneme, Conoid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In apicomplexan parasite, recognition and penetration of a target cell is taken by the following organelles such as _______ & _______, respectively.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Echinococcus granulosus",
+        "b": "Echinococcus multilocularis",
+        "c": "Echinococcus vogeli",
+        "d": "E. oligarthrus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The etiology of alveolar hydatidosis is_______.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "Describe various stages of estrus cycle; ovulation; fertilization and pregnancy in farm animals. (10)",
+        "b": "What is recombinant DNA? How is recombinant DNA construct generated? Mention the utility of recombinant DNA.(10)"
+      }
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 7,
+      "text": "Enlist Eimeria of chicken, write the pathogenesis of hemorrhagic and non-hemorrhagic coccidiosis in chicken, their clinical manifestation, post-mortem lesions and their control strategies.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "What is cell injury? Write different types of cell injury.(10)",
+        "b": "Write different types of skin diseases in animals due to various atiological agents.(10)"
+      }
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 7,
+      "text": "What is rabies? What is the etiology, transmission pattern, pathogenesis, clinical manifestation in man and in animals and control strategies of rabies?(20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "What is myasis in animal?(5)",
+        "b": "Write various generations of vaccines with example.(5)",
+        "c": "Differentiate Mareks’ disease and Lymphoid Leukosis.(5)",
+        "d": "Write the protocol and reagents of PCR reaction.(5)"
+      }
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "Write the hormones of various endocrine organs, their mode of actions, and the manifestation of imbalance, if any.(10)",
+        "b": "Write the mechanism of urine formation mentioning the significance of each of the structure nephron.(10)"
+      }
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "Scabies in pigs, aetiology, the pathogenesis, clinical manifestation and diagnosis.(10)",
+        "b": "Parvo virus infection in dogs, the pathogenesis, clinical manifestation and treatment and control (10)"
+      }
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following:",
+      "subparts": {
+        "a": "What is clean milk? How can clean milk production be achieved?(10)",
+        "b": "Define HAACP and explain the principles of HAACP.(10)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q2 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q4 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 2 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

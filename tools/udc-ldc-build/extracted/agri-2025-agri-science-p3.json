@@ -1,0 +1,1273 @@
+{
+  "slug": "agri-2025-agri-science-p3",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "Agriculture Science Paper-III",
+  "source": "Agri&Allied Agriculture Science Paper-III 2025..pdf",
+  "sourceSha256": "9564f52b8e6243e8bf90078b1551a34a84d2ce203ed0225351942d6d7fabfb5a",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monitoring",
+        "b": "Planning",
+        "c": "Controlling",
+        "d": "Directing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________ is the systematic process of collecting, analyzing and using information to track a programme’s progress toward reaching its objectives and to guide management decisions.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chronemics",
+        "b": "Haptics",
+        "c": "Proxemics",
+        "d": "Kinesics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Use of physical space in communication process is called:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "equi-marginal returns",
+        "b": "factor substitution",
+        "c": "product substitution",
+        "d": "returns to scale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The economic principle of ________ solves the problem of ‘how to produce’.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Identifies and evaluates the hazards",
+        "b": "Identifies and controls hazards",
+        "c": "Identifies, evaluates and controls hazards",
+        "d": "Identifies and controls hazards after verification"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HACCP defined as codex.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anima power",
+        "b": "Human power",
+        "c": "Machine power",
+        "d": "Wind power"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The inanimate source of power utilized for doing agricultural operation is:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shannon and Weaver",
+        "b": "Berlo",
+        "c": "Schramm",
+        "d": "Leagans"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which model of communication is called the ‘Mathematical Theory’?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1000 Joule",
+        "b": "10000 Joule",
+        "c": "5000 Joule",
+        "d": "100 Joule"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The energy spent in applying 100 Newton force to a body with its linear displacement of 100 meters is:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FPO",
+        "b": "FSSAI",
+        "c": "PFEPC",
+        "d": "FAA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "APEDA replaced:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Net Present Value",
+        "b": "Internal Rate of Return",
+        "c": "Pay Back Period",
+        "d": "Benefit Cost Ratio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mark the undiscounted technique to calculate feasibility of the investment.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shannon and Weaver",
+        "b": "Wilbur Schramm",
+        "c": "Alder and Towne",
+        "d": "Barnlund"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of ‘transactional model of communication’ was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Serrated sickle",
+        "b": "Smooth sickle",
+        "c": "Rotary sickle",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Improved sickle used in hills is:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Process of reusing waste material",
+        "b": "Process of recycling and composting waste material",
+        "c": "Process of reusing and composting waste material",
+        "d": "Process of reusing, recycling and composting waste material"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Valorization of waste is a:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Traditional",
+        "b": "Skeptical",
+        "c": "Deliberate",
+        "d": "Venturesome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which describes the characteristics of ‘Early Majority’ the best?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marginal product cost",
+        "b": "Marginal revenue",
+        "c": "Average cost",
+        "d": "Marginal factor cost"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The additional cost associated with the use of an additional unit of input is:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3 C’s",
+        "b": "7 C’s",
+        "c": "4 P’s",
+        "d": "3 R’s"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Marketing mix is defined in terms of the following:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Synecology",
+        "b": "Autecology",
+        "c": "Habitat ecology",
+        "d": "Ecosystem ecology"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The study of individual organisms in relation to their environment is called:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10",
+        "b": "20",
+        "c": "25",
+        "d": "35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How many bio-geographical zones are in India?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Field capacity",
+        "b": "Hp",
+        "c": "Cut off",
+        "d": "Power"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the term is used for implement/ tools efficiency?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Low cost",
+        "b": "High participation",
+        "c": "Rapid dissemination",
+        "d": "Individual focus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main advantage of Farmer Field School (FFS) approach in agriculture extension is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "UV-C",
+        "b": "UV-B",
+        "c": "UV-A",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most harmful ultraviolet radiations are:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tryptophane",
+        "b": "Methionine",
+        "c": "ABA",
+        "d": "IAA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Precursor of ethylene is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Price spread",
+        "b": "Market margin",
+        "c": "Marketing cost",
+        "d": "Consumer surplus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The difference between the price paid and received by a specific marketing agency is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Edge species",
+        "b": "Keystone species",
+        "c": "Endemic species",
+        "d": "Foster species"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In an ecotone, the species which become abundant are called:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Random sampling",
+        "b": "PRA",
+        "c": "Case studies",
+        "d": "Focus group discussion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most commonly used method for needs assessment in rural communities is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Transplanting",
+        "b": "Seed dropping behind the plough",
+        "c": "Check row planting",
+        "d": "Hill dropping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which seeding method uses Malobansa?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bulletin board",
+        "b": "Handouts",
+        "c": "Wall chart",
+        "d": "Mobile units"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A visual which contains graphically certain process, like the life cycle of pests and pest control techniques is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3rd January",
+        "b": "16th September",
+        "c": "10th November",
+        "d": "26th March"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "International Day for the Prevention of the Ozone Layer is observed on:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Standard of Organization",
+        "b": "Indian Standard of Organization",
+        "c": "International Organization for Standard",
+        "d": "Indian Organization of Standard"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "ISO stands for:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Power train",
+        "b": "Power wheel",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In tractor engine, the complete path of power from the engine to the wheel is called:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tractor mounted",
+        "b": "Power tiller mounted",
+        "c": "Manual",
+        "d": "Animal drawn"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rotavator for hill agriculture is usually:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The taste of the consumer does not change",
+        "b": "The income of the consumer does not change",
+        "c": "The price of the consumer does not change",
+        "d": "The price of the substitute does not change"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘ceteris paribus’ clause in the law of demand does not mean that:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Systems of farming",
+        "b": "Types of farming",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dairy farming, poultry farming, crop farming and pig farming are:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Behaviourism",
+        "b": "Constructivism",
+        "c": "Andragogy",
+        "d": "Cognitivism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which theory emphasizes that adults are motivated to learn when they perceive the relevance of the content?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Direct current",
+        "b": "Alternating current",
+        "c": "Pulsating current",
+        "d": "Continuous current"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An AC motor is an electric motor powered by ________ type of current.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "open sun drying",
+        "b": "Cold storage",
+        "c": "Hermetic storage",
+        "d": "Hydroponics"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most commonly used for grain storage to prevent pest infestation is:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "100-1200°C",
+        "b": "60-750°C",
+        "c": "-18 to -230°C",
+        "d": "200-2200°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the temperature range typically used in pasteurization?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Engler",
+        "b": "Sunderlal Bahuguna",
+        "c": "Medha Padkar",
+        "d": "None of these"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Chipko movement is started by:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mass per unit volume including pores",
+        "b": "Mass per unit volume excluding pores",
+        "c": "Weight of 1000 kernels",
+        "d": "Porosity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bulk density of food grains is defined as:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Yield",
+        "b": "Cost of production",
+        "c": "Cost of cultivation",
+        "d": "Total cost"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The cost incurred by the farmer for cultivation of a crop per unit of output is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iso-cost line",
+        "b": "PPC",
+        "c": "Expansion path",
+        "d": "Isoclines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "________  is the locus of points of different isoquants at which MRS of factors is constant.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Consumer food chain",
+        "b": "Predator food chain",
+        "c": "Parasitic food chain",
+        "d": "Detritus food chain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The food chain in which micro-organisms breakdown dead producers is called:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "rotary action",
+        "b": "push and pull action",
+        "c": "sliding action",
+        "d": "vibratory action"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Wheel hoe type weeder works on ________  of the operator.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Freezing",
+        "b": "Dry storage",
+        "c": "Refrigeration",
+        "d": "Hot storage"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which storage method is commonly used to prevent rancidity in stored oils?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gearbox",
+        "b": "Final drive",
+        "c": "Clutch",
+        "d": "Transmission shaft"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The name of the component placed in between driver wheels and differential of a tractor is:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Management",
+        "b": "Employee",
+        "c": "Management and employee",
+        "d": "Lead auditor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The efficacy of HACCP system relies on:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Autocratic",
+        "b": "Democratic",
+        "c": "Laissez-faire",
+        "d": "Transactional"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which leadership style is most effective in agricultural extension?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Agriculture",
+        "b": "Chamber of Commerce",
+        "c": "Commission of Agricultural Costs and Prices",
+        "d": "Food and Agriculture Organization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minimum Support Price (MSP) is announced on the basis of the recommendation given by the:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Biomagnification",
+        "b": "Biorythm",
+        "c": "Bioremediation",
+        "d": "Biopiracy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tendency of pollutants to become concentrated in successive trophic levels is known as:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sulphur dioxide",
+        "b": "Nitrogen",
+        "c": "Carbon dioxide",
+        "d": "Carbon monoxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main source of acid rain is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charles Christopher Adam",
+        "b": "Norman Myers",
+        "c": "Aziz Absaber",
+        "d": "Warder Clyde Allee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who introduced the term Hot-spots as biodiversity?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "(a)Justify the statement ‘Communication is a two way and dynamic process’. Elaborate any three",
+      "subparts": {
+        "a": "Justify the statement ‘Communication is a two way and dynamic process’. Elaborate any three",
+        "b": "Defined farm management. Explain various types of farm management decisions.(1+3=4)",
+        "c": "Evaluate the impact of transgenic crops and animals on biodiversity and the environment.(4)",
+        "d": "Compare chemical and biological preservation methods used in food processing.(4)"
+      }
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "(a)What is the importance of PRA in extension? Explain three commonly used PRA tools.",
+      "subparts": {
+        "a": "What is the importance of PRA in extension? Explain three commonly used PRA tools. (2+4=6)",
+        "b": "Discuss the concept of crop insurance and its importance in mitigating risks in Indian agriculture. (2+2=4)",
+        "c": "What is greenhouse effect and how is it related to global warming?(1+3=4)",
+        "d": "What is the purpose of cushioning materials? How do you work out the static area load? (2+2=4)"
+      }
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "(a)What is extension education? Discuss the contribution of agricultural extension research in",
+      "subparts": {
+        "a": "What is extension education? Discuss the contribution of agricultural extension research in",
+        "b": "Define production function. Explain the three regions of production with the help of a graph. (1+3=4)",
+        "c": "What is carbon sequestration? Discuss its role in mitigating climate change.(1+3=4)",
+        "d": "Explain the various pre-harvest factors which affect the post-harvest life of a produce.(4)"
+      }
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "(a)What are the perceived attributes of innovation? Classify the members of a social system on the",
+      "subparts": {
+        "a": "What are the perceived attributes of innovation? Classify the members of a social system on the",
+        "b": "Explain the concept of Time Value of Money. Differentiate between compounding and",
+        "c": "Define Hot-Spots of Biodiversity. Explain their significance in India.(1+3=4)",
+        "d": "What is precooling? Explain the different types of precooling.(1+3=4)"
+      }
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "(a)Define teaching and learning. What are the principles of extension teaching?(2+4=6)",
+      "subparts": {
+        "a": "Define teaching and learning. What are the principles of extension teaching?(2+4=6)",
+        "b": "What do you understand by NABARD? Discuss in detail the role of NABARD in agriculture. (1+3=4)",
+        "c": "Define the term Biodiversity. What are the various threats to biodiversity?(1+3=4)",
+        "d": "Explain the importance of food safety standards in ensuring the safety of processed agricultural products.(4)"
+      }
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "(a)Highlight the challenges faced by rural women in agriculture and the role of extension services",
+      "subparts": {
+        "a": "Highlight the challenges faced by rural women in agriculture and the role of extension services in addressing them.(6)",
+        "b": "What is a farming system? Explain the concept and components of different farming systems with examples.(1+3=4)",
+        "c": "Why is ‘Environmental Impact Assessment (EIA)’ important?(4)",
+        "d": "Explain cold storage. Write down the basic principle of storage.(1+3=4)"
+      }
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "(a)What is capacity building in the context of extension? How does it improve agricultural",
+      "subparts": {
+        "a": "What is capacity building in the context of extension? How does it improve agricultural productivity?(2+4=6)",
+        "b": "Discuss the types and importance of farm planning and budgeting in efficient farm management. (4)",
+        "c": "Examine the role of agriculture in both contributing to and combating climate change.(4)",
+        "d": "Discuss the principles of hygienic design in a food processing plant layout.(4)"
+      }
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "(a)Explain extension teaching methods according to its form. Explain Audio visual aids as an",
+      "subparts": {
+        "a": "Explain extension teaching methods according to its form. Explain Audio visual aids as an extension teaching methods.(3+3=6)",
+        "b": "Note down the impact of World Trade Organization (WTO) on Indian agriculture. (4)",
+        "c": "Write down the effect of modern agricultural practices on soil pollution.(4)",
+        "d": "Discuss the role of post-harvest technology in doubling farmers’ income.(4)"
+      }
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

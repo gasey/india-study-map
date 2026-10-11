@@ -1,0 +1,1253 @@
+{
+  "slug": "agri-2025-horticulture-p2",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "Horticulture Science Paper-II",
+  "source": "Agri&Allied Horticulture Science Paper-II 2025..pdf",
+  "sourceSha256": "1cd91d500e1b19624e21cde2420c09e7a0689f6605fa89676be8d19ff6bef0af",
+  "ocr": false,
+  "count": 49,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banana",
+        "b": "Guava",
+        "c": "Litchi",
+        "d": "Citrus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Parthenocarpy is a characteristic feature of:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mughal gardens",
+        "b": "Italian Gardens",
+        "c": "French gardens",
+        "d": "Japanese gardens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Informal style of gardening is found in:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Berry",
+        "b": "Single Seeded Nut",
+        "c": "None",
+        "d": "Etaerio of achens"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fruit type of Litchi is:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Willow leaf ×  King",
+        "b": "King × Willow leaf",
+        "c": "Mandarin × grapefruit",
+        "d": "Mandarin × pummelo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Kinnow is a cross between:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Orange",
+        "b": "Mango",
+        "c": "Banana",
+        "d": "Fig"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the non climacteric fruit?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zn deficiency",
+        "b": "Iron deficiency",
+        "c": "Calcium deficiency",
+        "d": "Mo Toxicity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Little leaf mango is due to:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ber",
+        "b": "Jamun and Citrus",
+        "c": "Grape",
+        "d": "Guava"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Polyembyony is seen in:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "24",
+        "b": "34",
+        "c": "56",
+        "d": "26"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Strawberry is octaploid having 2n=8X=",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Papaya",
+        "b": "Date",
+        "c": "Avocado",
+        "d": "Aonla"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Metaxia is commonly observed:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fungus",
+        "b": "Bacteria",
+        "c": "Virus",
+        "d": "physiological factor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bunchy top of banana is caused by:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thrips",
+        "b": "White fly",
+        "c": "Aphids",
+        "d": "fruit fly"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tomato leaf curl virus is transmitted by:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brinjal",
+        "b": "Tomato",
+        "c": "French bean",
+        "d": "Cow pea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arka Abhed is a hybrid variety of:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kufri Jyoti",
+        "b": "Kufri Karan",
+        "c": "Kufri Chandramukhi",
+        "d": "Kufri Frysona"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which potato variety is known for early maturity?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18",
+        "b": "45",
+        "c": "10",
+        "d": "22"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chromosome number of French bean is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brinjal",
+        "b": "Onion",
+        "c": "Okra",
+        "d": "Tomato"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arka Nikita is the variety of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Garlic",
+        "b": "Onion",
+        "c": "Radish",
+        "d": "Cauliflower"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Buttoning is a physiological disorder in:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Onion",
+        "b": "Chilli",
+        "c": "Tomato",
+        "d": "Okra"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arka Khyati is avariety of:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agrifound Parvati",
+        "b": "Yamuna Safed",
+        "c": "G 282",
+        "d": "Agrifound white"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Long day type of Garlic is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brinjal",
+        "b": "Tomato",
+        "c": "Cucumber",
+        "d": "Cow pea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arka Veera is the variety of:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mughal",
+        "b": "French",
+        "c": "Chinese",
+        "d": "English"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Baradari is an important feature of which garden?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ikebana",
+        "b": "Tatabana",
+        "c": "Suchigama",
+        "d": "A bouquet"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A popular Japanese arrangement of flowers is known as:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Petunia",
+        "b": "Primula",
+        "c": "Gerbera",
+        "d": "Ageratum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heterostily is a common feature in:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Corm",
+        "b": "Bulb",
+        "c": "Rhizome",
+        "d": "Tuber"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Gladiolus is propagated by:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rose",
+        "b": "Anthurium",
+        "c": "Chrysanthemum",
+        "d": "Bougainvillea"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bent neck is a common physiological disorder of:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Aster",
+        "b": "Cosmos",
+        "c": "salvia",
+        "d": "Kochia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is foliage annual?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hibiscus",
+        "b": "Aster",
+        "c": "Lily",
+        "d": "Tulip"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Arka Archana is a variety of:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fungus",
+        "b": "Bacteria",
+        "c": "Insect",
+        "d": "Nematode"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fairy rings of lawn is due to:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "USA",
+        "b": "Israel",
+        "c": "India",
+        "d": "The Netherlands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Largest in producing and trading of cut flower in the world is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Polyvinyl chloride film",
+        "b": "Acrylic",
+        "c": "Glass",
+        "d": "Polycarbonate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following greenhouse glazing materials may be considered most suitable for long term use?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Male",
+        "b": "Female",
+        "c": "Hermaphrodite",
+        "d": "Male and Female both"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among honey bees, workers are:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "500",
+        "b": "1000",
+        "c": "1500",
+        "d": "2000"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Upto how many eggs can a queen bee  lay in one day?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Workers",
+        "b": "Drones",
+        "c": "Queen",
+        "d": "Nymphs"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The male bees in a honey bee colony are known as:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Worker",
+        "b": "Drones",
+        "c": "Queen",
+        "d": "Both the worker and queen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following bee is developed from unfertilized eggs?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Digoxin",
+        "b": "Cravone",
+        "c": "Diosgenin",
+        "d": "Solasodine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is contained  in medicinal yam?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lemongrass",
+        "b": "Jasmine",
+        "c": "Basil",
+        "d": "Celery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Methyl chavicol is present in significant amount in which of the following aromatic plants?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "quinine",
+        "b": "nicotine",
+        "c": "ephedrine",
+        "d": "cocaine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cinchona bark contains which important compound?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.25m × 1.25m",
+        "b": "1.50m × 1.50m",
+        "c": "1.75m × 1.75m",
+        "d": "2.0 m × 2.0 m"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Recommended spacing for dwarf variety of papaya ‘Pusa Nanha’ in high density planting is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pleurotus florida",
+        "b": "Lentinula edodes",
+        "c": "Colocybe indica",
+        "d": "Auricoloria polytricha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the scientific name of Shiitake mushroom?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Compost",
+        "b": "Sand",
+        "c": "Straw",
+        "d": "Clay"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which substrate is commonly used for oyster mushroom cultivation?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Coconut",
+        "b": "Cashewnut",
+        "c": "Cocoa",
+        "d": "Coffee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cherelle wilt is a physiological disorder affecting:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "50 cm girth and 125-150 cm height",
+        "b": "35 cm girth and 90-100 cm height",
+        "c": "90 cm girth and 180-250 cm height",
+        "d": "75 cm girth and 160-180 cm height"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Budded Rubber plants ideal height for tapping(from the bud union) is:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamil Nadu",
+        "b": "Kerala",
+        "c": "Assam",
+        "d": "Andhra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "State known to be as Spice Garden:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Exobasidium vexans",
+        "b": "Hemileia vestatrix",
+        "c": "Fomes noxius",
+        "d": "Ganoderma lucidum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The causal organism of leaf rust in coffee is:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To enhance the visual appeal of agricultural fields",
+        "b": "To control the microclimate surrounding plants for optimal growth",
+        "c": "To minimize the use of agricultural machinery",
+        "d": "To increase the dependency on natural weather"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary goal of protected cultivation?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Saffron",
+        "b": "Sweet Flag",
+        "c": "Dill",
+        "d": "Clove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Picrocrocin is present in:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cumin",
+        "b": "Fennel",
+        "c": "Coriander",
+        "d": "Clove"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Linalool is important chemical content of:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dill",
+        "b": "Aniseed",
+        "c": "Fenugreek",
+        "d": "Sweet flag"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Acorus calamus is the botanical name of :",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fruits",
+        "b": "Seeds",
+        "c": "Stigma",
+        "d": "leaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Plant part used in saffron is:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fruit",
+        "b": "Seed",
+        "c": "Unopened flower bud",
+        "d": "Leaves"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Commercial part of clove is:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Describe the cultivation and production technology of grape under the following heads.(5×4=20)",
+      "subparts": {
+        "a": "Climate and soil",
+        "b": "Varieties",
+        "c": "Training and pruning",
+        "d": "Physiological disorder"
+      }
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "Discuss the cultivation of Ginger under the following heads. (5×4=20)",
+      "subparts": {
+        "a": "Propagation",
+        "b": "Varieties",
+        "c": "Major pest and their management",
+        "d": "Major diseases and their management"
+      }
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Write notes on any four of the following:(4×5=20)",
+      "subparts": {
+        "a": "Flowers and sex expression in Papaya.",
+        "b": "Planting, Training and Pruning in Kiwi.",
+        "c": "Planting, Training and Propagation in Strawberry.",
+        "d": "Explain varieties, use of growth regulators and planting methods in Pineapple."
+      }
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "Write notes on any four for the following:(4×5=20)",
+      "subparts": {
+        "a": "Physiological disorder, pest and diseases management in Tomato.",
+        "b": "Role of plant growth regulator in vegetable crops.",
+        "c": "Define bolting. What are the causes and means of control of bolting in onion?",
+        "d": "Discuss cultivation of cabbage under the following heads : soil and climate, seed rate and"
+      }
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "Answer the following questions in detail:(4×5=20)",
+      "subparts": {
+        "a": "Propagation, harvesting and post harvest management in rubber.",
+        "b": "Post harvest management and processing of tea.",
+        "c": "What are important elements of landscaping? Give main features of Mughal garden, Japanese",
+        "d": "Use of greenhouse technology in boosting crop productivity."
+      }
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following questions in detail:(4×5=20)",
+      "subparts": {
+        "a": "What do you understand by maturity indices? Give maturity indices for musk melon, water melon, onion and garlic.",
+        "b": "Define unfruitfulness. Differentiate between gametophytic and sporophytic self-incompatibility along with examples. Describe  Monoecious, Dioecious and Hermaphrodite fruit plants.",
+        "c": "Cultivation of Broccoli on the following points: seed rate, sowing time, spacing, harvesting and yield.",
+        "d": "Discuss the origin, cultivation practices and pests and diseases of potato."
+      }
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "Provide detailed answers to the following questions:(4×5=20)",
+      "subparts": {
+        "a": "What is bonsai? How is watering done in Bonsai? Write five plants suitable for making Bonsai. What is the ideal time of planting Bonsai?",
+        "b": "Discuss the harvesting, grading, packaging and storage techniques followed in anthurium.",
+        "c": "How can dormancy be checked in Gladiolus? What are important diseases in Gladiolus?",
+        "d": "How are Carnation propagated? How is disbudding done in carnation and what is the optimum stage of harvesting in carnation?"
+      }
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "Answer the following questions:(4×5=20)",
+      "subparts": {
+        "a": "Sex expression and sex ratio in Cucurbits.",
+        "b": "Discuss the role of growth regulators in fruit set, ripening and sex expression in vegetable crops.",
+        "c": "Discuss cultivation of cabbage under the following heads : soil and climate, seed rate and spacing, manures and fertilizers.",
+        "d": "Protected Cultivation: importance, scope and status."
+      }
+    }
+  ],
+  "notes": [
+    "Q15 (p2, part A): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q1 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 4 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": [
+      15
+    ]
+  }
+}

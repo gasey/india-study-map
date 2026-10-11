@@ -1,0 +1,1233 @@
+{
+  "slug": "agri-2025-horticulture-p3",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "Horticulture Science Paper-III",
+  "source": "Agri&Allied Horticulture Science Paper-III 2025..pdf",
+  "sourceSha256": "00b10471ddfda8caea5ff5b8b83c17c037605919676faf21682c6cc43d8ce42c",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both nucleus and cytoplasm are fused",
+        "b": "Two haploid plants fuse naturally",
+        "c": "Only cytoplasm from one parent is combined with nucleus of another",
+        "d": "Mutation is induced by chemicals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cybrid plant is formed when:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Water moved into the potato cells by osmosis.",
+        "b": "Water moved out of the potato cells by osmosis.",
+        "c": "Sugar moved into the potato cells by diffusion.",
+        "d": "Sugar moved out of the potato cells by diffusion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A piece of potato is placed in a concentrated sugar solution for 30 minutes. After this, the potato becomes flaccid and shrinks. What is the reason?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Determine crop yield only",
+        "b": "Identify the level of production where total cost equals total revenue",
+        "c": "Calculate soil fertility",
+        "d": "Estimate labour requirement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Break-even analysis in farm management is used to:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Resist herbicides",
+        "b": "Produce an insecticidal protein from Bacillus thuringiensis",
+        "c": "Tolerate drought conditions",
+        "d": "Increase seed oil content"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bt cotton is genetically engineered to:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fixed prices for inputs only",
+        "b": "Elimination of all production risks",
+        "c": "Free labour supply",
+        "d": "Guaranteed market and price for farm produce"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Contract farming in horticulture primarily ensures:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0–4°C",
+        "b": "–20°C",
+        "c": "–80°C",
+        "d": "–196°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cryopreservation in plant biotechnology is usually performed at which of the following temperatures?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen",
+        "b": "Iron",
+        "c": "Magnesium",
+        "d": "Manganese"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Deficiency of which nutrient causes interveinal chlorosis in young leaves?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Introduce a new trait from a different species",
+        "b": "Remove undesirable traits from a variety",
+        "c": "Increase the yield potential of a variety",
+        "d": "Develop prolific varieties"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In plant breeding, backcrossing is used to:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hybrid vigour leading to superior performance",
+        "b": "The process of self-pollination",
+        "c": "Genetic uniformity in a population",
+        "d": "The ability of a plant to adapt to various environmental conditions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In plant breeding, the term heterosis refers to:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Farmers prefer government-centric planning",
+        "b": "The region has diverse tribal knowledge and agro-ecological conditions",
+        "c": "Technology adoption is uniform across the region",
+        "d": "There is no need for local participation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of NE India, Participatory Rural Appraisal (PRA) is particularly important because:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Induce shoot formation",
+        "b": "Promote root initiation and callus formation",
+        "c": "Prevent microbial contamination",
+        "d": "Maintain osmotic balance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In tissue culture media, the primary role of auxins is to:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Village level",
+        "b": "Block level",
+        "c": "District level",
+        "d": "State level"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "KVKs are established at the:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lack of proven technologies",
+        "b": "Difficult terrain and dispersed villages",
+        "c": "Farmers unwillingness to learn",
+        "d": "Excessive financial resources"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "One of the major challenges in implementing the T&V (Training and Visit) system in hill regions of NE India is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "With intact cell wall",
+        "b": "Without cell wall",
+        "c": "Only from roots",
+        "d": "Only from meristematic tissue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Protoplasts are plant cells:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Genetic variation arising from the sexual reproduction of cultured cells",
+        "b": "Genetic variation arising from the asexual reproduction of cultured cells",
+        "c": "Variation in the physical appearance of somatic cells",
+        "d": "Variation in the nutrient requirements of cultured cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Somaclonal variation in plant tissue culture refers to:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Developing pure lines",
+        "b": "Releasing new hybrid varieties",
+        "c": "Increasing the frequency of desirable alleles in a population",
+        "d": "Producing genetically identical clones"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The bulk method in plant breeding is primarily used for:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reducing cost of farming inputs to make high income for input providers",
+        "b": "Bridging the gap between agricultural research and field application",
+        "c": "Increasing the number of scientists interacting with farmers",
+        "d": "Focusing on Kharif season crops"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The core objectives of Viksit Krishi Sankalp Abhiyan (VKSA) 2025 is:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sterilization",
+        "b": "Pasteurization",
+        "c": "Freezing",
+        "d": "Filtration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most common method for preservation of fruit juices, RTS and nectars, is:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rice",
+        "b": "Maize",
+        "c": "Pea",
+        "d": "French Bean"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The father of modern genetics, Gregor Mendel, worked primarily on:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ludhiana",
+        "b": "Pondicherry",
+        "c": "Pune",
+        "d": "Hyderabad"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Krishi Vigyan Kendra (KVK) in India was established in 1974 at:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Intensive Agricultural District Programme (IADP)",
+        "b": "Community Development Programme (CDP)",
+        "c": "Grow More Food Campaign",
+        "d": "National Extension Service (NES)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first organized agricultural extension work in India before Independence began with which program?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Improving food quality for export",
+        "b": "Raising awareness about healthy food choices",
+        "c": "Increasing the production of traditional foods",
+        "d": "Lowering food prices for consumers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The FSSAI ‘Eat Right India’ movement aims at:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enhance the flavour and colour of the product",
+        "b": "Increase the pH of the fruit product",
+        "c": "Inhibit microbial growth and preserve the product",
+        "d": "Reduce the acidity of the fruit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The high osmotic pressure created by sugar in jam, jelly, and marmalade primarily helps to:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gibberellin",
+        "b": "Cytokinin",
+        "c": "Abscisic acid",
+        "d": "Ethylene"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The hormone primarily responsible for stomatal closure during water stress is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Requires no fuel",
+        "b": "Provides uniform ploughing and saves labour",
+        "c": "Can only be used in flat lands",
+        "d": "Does not require maintenance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main advantage of a power tiller over manual tillage is:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Root pressure",
+        "b": "Capillarity",
+        "c": "Cohesion-tension theory",
+        "d": "Active transport"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The mechanism responsible for the ascent of sap in plants is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Selecting plants based on their physical appearance",
+        "b": "Keeping detailed records of the ancestry of selected plants",
+        "c": "Allowing random mating among plants",
+        "d": "Using molecular markers to select plants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The pedigree method of selection involves:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demonstrations",
+        "b": "Farm journalism",
+        "c": "Rural sociology",
+        "d": "Farm mechanization"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The principle of Learning by Doing in agricultural extension is most closely associated with:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pre-cooling",
+        "b": "Curing",
+        "c": "Ripening",
+        "d": "Fermentation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of removing field heat from harvested produce is known as:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hydrogen peroxide",
+        "b": "Salicylic acid",
+        "c": "Benzoic acid",
+        "d": "Sulphur dioxide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A common food preservative, potassium metabisulphite is commonly used as a stable source of:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Diesel",
+        "b": "Petrol",
+        "c": "Kerosene",
+        "d": "Biogas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The spark ignition (SI) engine is commonly associated with which type of fuel?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chlorophyll degradation",
+        "b": "Breakdown of carbohydrates",
+        "c": "Synthesis of carotenoids",
+        "d": "Synthesis of anthocyanin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not responsible for colour change in fruits during ripening?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Provide agricultural skills and entrepreneurship",
+        "b": "Promote only traditional farming techniques",
+        "c": "Conduct purely laboratory-based research",
+        "d": "Import modern machinery"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Training of rural youth in NE India through Krishi Vigyan Kendras (KVKs) primarily aims to",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen",
+        "b": "Phosphorus",
+        "c": "Potassium",
+        "d": "Sulphur"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which nutrient plays a key role in ATP formation and energy transfer in plants?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Written reports and pamphlets",
+        "b": "Online webinars only",
+        "c": "Scientific journals",
+        "d": "Audio-visual aids and participatory demonstrations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following communication methods is most effective for women farmers in remote villages of Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Newton (N)",
+        "b": "Joule (J)",
+        "c": "Watt (W)",
+        "d": "Pascal (Pa)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following correctly defines the unit of power in SI system?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High heterozygosity",
+        "b": "Uniformity in traits across generations",
+        "c": "High genetic diversity",
+        "d": "Ability to adapt to various environments"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a characteristic of a genetically pure line?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Risk avoidance",
+        "b": "Proactive decision making and innovation",
+        "c": "Dependence on government subsidies only",
+        "d": "Resistance to change"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a characteristic of a successful entrepreneur in horticulture?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hot water treatment",
+        "b": "Waxing",
+        "c": "Shrink wrapping",
+        "d": "Precooling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a common method for controlling post-harvest diseases in fruits?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Freely permeable",
+        "b": "Semi permeable",
+        "c": "Non permeable",
+        "d": "Rigid plastic with air vents"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In order to create modified atmosphere around fresh fruits and vegetables in modified atmosphere packaging, the type of packaging material used is:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Disc harrow",
+        "b": "Hoe",
+        "c": "Seed drill",
+        "d": "Tractor-mounted plough"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a commonly used interculture implement?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protogyny",
+        "b": "Protandry",
+        "c": "Male sterility",
+        "d": "Cleistogamy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a method of pollination control in hybrid seed production?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mango",
+        "b": "Banana",
+        "c": "Pineapple",
+        "d": "Papaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a non-climacteric fruit?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cultivator",
+        "b": "Harrow",
+        "c": "Plough",
+        "d": "Seed drill"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a primary tillage implement?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "R-134a (Tetrafluoroethane)",
+        "b": "Ammonia (NH₃ )",
+        "c": "Carbon dioxide (CO₂ )",
+        "d": "Water (H₂O)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is commonly used as a refrigerant in cold storage in India?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agrobacterium-mediated transformation",
+        "b": "Particle bombardment (biolistics)",
+        "c": "Electroporation",
+        "d": "Grafting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a method of gene transfer in plants?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Murashige and Skoog (MS) medium",
+        "b": "Gamborg B5 medium",
+        "c": "Whites medium",
+        "d": "Hoagland solution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the most commonly used basal medium for plant tissue culture?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To induce somatic embryogenesis",
+        "b": "To produce haploid plants for breeding purposes",
+        "c": "To regenerate plants from leaf explants",
+        "d": "To study the effects of mutagens on plant cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the primary purpose of anther culture in plant tissue culture?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glucose",
+        "b": "Fructose",
+        "c": "Sucrose",
+        "d": "Lactose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which sugar is most commonly added to tissue culture media as a carbon source?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chitosan",
+        "b": "Carnauba wax",
+        "c": "Shellac",
+        "d": "Alginates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following surface coating material for fruits & vegetables is obtained from shells of crustaceans like crabs, shrimps, etc?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 7,
+      "text": "What are the factors leading to post harvest loss of fruits and vegetables? Discuss the principles and methods of food preservation with special reference to fruits and vegetables.(8+6+6=20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 7,
+      "text": "Discuss the genetic basis of qualitative and quantitative traits in plants. Explain the role of mutation and heterosis in crop improvement and illustrate with examples.(4+16=20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 7,
+      "text": "Enlist the government schemes that support horticultural entrepreneurship in Mizoram. Explain how SWOT analysis can be applied to (i) ginger (ii) birds eye chilli (iii) grapes (iv) passion fruit (v) pineapple ventures in Mizoram. Suggest strategies for improving market access, export potential, and income generation.(4+10+6=20)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 7,
+      "text": "Evaluate the significance of Intellectual Property Rights (IPR) in safeguarding the agricultural knowledge and traditional crop varieties of ethnic communities in India. What challenges do these communities face? How can equitable benefit-sharing and conservation be ensured?(8+4+8=20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 7,
+      "text": "Examine the limitations and achievements of plant breeding in North Eastern Hill (NEH) region of India. Discuss how modern molecular tools have enhanced the efficiency of breeding programs, with examples from major horticultural crops.(8+12= 20)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 7,
+      "text": "Explain the concept of Agri Export Zones (AEZs) and their importance in processed food exports. Evaluate the effectiveness of Hazard Analysis and Critical Control Point (HACCP) and Codex Alimentarius standards in improving the global competitiveness of Indian processed foods. (10+10=20)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 7,
+      "text": "How does water scarcity during the dry season impact the cultivation of vegetables in Mizoram? Critically evaluate integrated approaches to enhance horticulture crop resilience. (6+14=20)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 7,
+      "text": "What is the key difference between OFT (On-Farm Testing) and FLD (Front Line Demonstration) in terms of their objectives and application in agricultural technology refinement? How can extension activities improve farm productivity and resilience against climate and socio-economic challenges in North-East India?(10+10=20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p7, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

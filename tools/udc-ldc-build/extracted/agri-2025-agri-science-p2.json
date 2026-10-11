@@ -1,0 +1,1238 @@
+{
+  "slug": "agri-2025-agri-science-p2",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "Agriculture Science Paper-II",
+  "source": "Agri&Allied Agriculture Science Paper-II 2025..pdf",
+  "sourceSha256": "ba2bd171e8cc060662d3043cb1f2c5639f503b96955b29555ffc5e996e93f5cb",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "TJ Burill",
+        "b": "Anton de Bary",
+        "c": "Needham",
+        "d": "EJ Butler"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the father of Plant Pathology?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pythium debaryanam",
+        "b": "Sclerospora sorghi",
+        "c": "Albugo candida",
+        "d": "Plasmopora viticola"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘White blisters of crucifers’ is caused by pathogen.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Physoderma maydis",
+        "b": "Fusarium spp",
+        "c": "Pythium spp",
+        "d": "Colletotrichum lindemuthianum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The disease damping off seedlings during nursery stage is caused by the pathogen",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bordeaux mixture",
+        "b": "Thiram",
+        "c": "Burgundy mixture",
+        "d": "Copper oxychloride"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Damping off and leaf blights are effectively checked by:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitavax",
+        "b": "Carbendazim",
+        "c": "Tricyclazole",
+        "d": "Benlate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The specific fungicide for management of Blast of Rice is:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nematodes",
+        "b": "Whitefly",
+        "c": "Fungi",
+        "d": "Leaf hoppers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bunchy top of Papaya (caused by MLO) is spread by:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kelthane",
+        "b": "Antibiotics",
+        "c": "Fungicide",
+        "d": "Viricides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bacterial diseases are controlled by use of chemicals.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Basidiomycetes",
+        "b": "Zygomycetes",
+        "c": "Oomycetes",
+        "d": "Plasmodiophoromycetes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Fungi which transmit Plant Viruses belong to class.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Conidia",
+        "b": "Uredia",
+        "c": "Telia",
+        "d": "Acecia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Early blight of Potato produces:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitavax",
+        "b": "Dithane M-45",
+        "c": "Plantvax",
+        "d": "Dithane Z-78"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most widely used fungicide for smut fungi is:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitavax",
+        "b": "Benlate",
+        "c": "Thiram",
+        "d": "Topsin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following fungicide is not systemic in nature?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18 - 20°C",
+        "b": "30 - 32°C",
+        "c": "26 - 28°C",
+        "d": "34 - 36°C"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Soil micro-organisms are most active at:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bacteria",
+        "b": "Mycoplasma",
+        "c": "Fungi",
+        "d": "Algae"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the source of Agar Agar?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calaxin",
+        "b": "Sulphur dust",
+        "c": "Dithane M-45",
+        "d": "Apron SD-35"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is the most recent widely used fungicide for the control of Powdery mildew?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rhizobium",
+        "b": "Cercospora",
+        "c": "Mucor",
+        "d": "Aspergillus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The major storage fungi that affects the food grain is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shull – Maize",
+        "b": "Patel – Cotton",
+        "c": "koelreuter -Nicotiana",
+        "d": "Knight – Fruit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Systematic hybridization on a scientific basis began with the work.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Male sterile plants",
+        "b": "Self pollinated plants",
+        "c": "Self incompatible plants",
+        "d": "Dioecious plants"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Emasculation of Flower is necessary for hybridization in:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Proplastids",
+        "b": "Leucoplasts",
+        "c": "chromoplasts",
+        "d": "Chloroplasts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Green plants, photosynthesis takes place in:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Davenport (1908)",
+        "b": "Shull (1914)",
+        "c": "Hull (1945)",
+        "d": "East (1936)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term heterosis was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pure line",
+        "b": "Inbred",
+        "c": "Clone",
+        "d": "Strain"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Progeny of a single plant obtained by asexual reproduction is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protandry",
+        "b": "Self - incompatibility",
+        "c": "Protogyny",
+        "d": "Genetic diversity"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In maize, cross pollination occurs due to:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fruit crops",
+        "b": "Vegetable crops",
+        "c": "Small grain crops",
+        "d": "Flower crops"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bulk population breeding is suitable for:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "In vitro fertilization",
+        "b": "Autogamy",
+        "c": "Xenogamy",
+        "d": "Geitonogamy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of pollen grains transferred from the anthers of a flower to the stigma of the same flower is called:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Test cross",
+        "b": "F1 cross",
+        "c": "Back cross",
+        "d": "Interspecific crossing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The crossing of F1 to either of the parents is known as:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Breeder seed",
+        "b": "Foundation seeds",
+        "c": "Nucleus seed",
+        "d": "Certified seed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Genetically most pure seed is:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pleiotropy",
+        "b": "Heteroploidy",
+        "c": "Polyploidy",
+        "d": "Monoploidy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Multiple effects of a single gene is known as:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Introduction",
+        "b": "Hybridization",
+        "c": "Selection",
+        "d": "Back crossing"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest method of plant breeding is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Harrington",
+        "b": "Stout",
+        "c": "Lewis",
+        "d": "East"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term self - incompatibility was coined by:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jones and davis",
+        "b": "Nilsson and Ehle",
+        "c": "Shull",
+        "d": "Jenson"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of male sterility was given by:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Plant introduction",
+        "b": "Mutation breeding",
+        "c": "Clonal selection",
+        "d": "Pure line selection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following method of plant breeding is not used for asexually propagated crops?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Crops are planted in monoculture",
+        "b": "Natural enemies are imported from abroad",
+        "c": "Farmers switch to new crops",
+        "d": "Mixed cropping"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pests outbreaks tend to occur when:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Long life cycle",
+        "b": "High reproductive rate",
+        "c": "Wide range of preferred hosts",
+        "d": "Short life cycle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Biological control is likely to be most effective when the predator or parasite has a:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemical control",
+        "b": "Cultural control",
+        "c": "Biological control",
+        "d": "Physical control"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which control strategy is likely to have the greatest impact on non-target organisms?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbamates",
+        "b": "Synthetic pyrethroids",
+        "c": "Organophosphates",
+        "d": "Chlorinated hydrocarbons"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which class of chemical insecticides is characterized by a relatively high degree of environmental persistence?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methamidophos",
+        "b": "Cypermethrin",
+        "c": "Imidachloprid",
+        "d": "Deltamethrin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is systemic insecticide?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Temperature",
+        "b": "Light",
+        "c": "Humidity",
+        "d": "Rainfall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most important physical factor which affects the life of an insect is:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methyle eugenol",
+        "b": "Carniform",
+        "c": "Methyl bromide",
+        "d": "Carbofuran"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pheromones used against the fruit fly is:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Carbaryl",
+        "b": "Malathion",
+        "c": "Aldicarb",
+        "d": "Endrin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Following insecticide is safely recommended on vegetables:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absconding",
+        "b": "Supersedure",
+        "c": "Swarming",
+        "d": "Queen excluder"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of leaving off the colony by the queen is known as:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Malathion",
+        "b": "Phorate",
+        "c": "Chlorpyriphos",
+        "d": "Cypermethrin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which pesticide is suitable for controlling the white grub?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Circadian rhythm",
+        "b": "Pressure of gases inside the leaves",
+        "c": "Genetic clock",
+        "d": "Turgor pressure of guard cells"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Stomata open and close due to:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ni",
+        "b": "Fe",
+        "c": "Cu",
+        "d": "Mg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The core metal of chlorophyll is:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zn",
+        "b": "Ca",
+        "c": "Na",
+        "d": "Mo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following element is almost non-essential for plants?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Root cap",
+        "b": "Epidermis",
+        "c": "Root hairs",
+        "d": "Endodermis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which part of root absorb water and minerals?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Auxins",
+        "b": "Ethylene",
+        "c": "Cytokinins",
+        "d": "GA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Apical dominance is the result of:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "February - March",
+        "b": "May – June",
+        "c": "November- December",
+        "d": "July – August"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ideal time for air layering is:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High photosynthetic efficiency",
+        "b": "High Oxygen",
+        "c": "High temperature",
+        "d": "Less CO₂ concentration"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "High production in protected cultivation is due to:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "N. Delhi",
+        "b": "Hyderabad",
+        "c": "Bengaluru (Bangalore)",
+        "d": "Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Institute of Horticultural Research (IIHR) is located at:",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chillies",
+        "b": "Onion",
+        "c": "Tomato",
+        "d": "brinjal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which crop is most susceptible to viral infection?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sorosis",
+        "b": "Berry",
+        "c": "Balusta",
+        "d": "pome"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Botanically pineapple fruit is:",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "What are the differences between Prokaryotic and Eukaryotic organisms? Explain Prokaryotic Bacterial Cell structure and functions with diagram indicating different types of structure.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "What are the principles of plant disease management? Elaborate different components of Integrated Disease Management (IDM) in plants with one example from each component.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Answer any four (4) of the following in brief:(4×5=20)",
+      "subparts": {
+        "a": "What is plant breeding and why it is important for crop improvements?",
+        "b": "Differences between cross-pollinated and self-pollinated crops.",
+        "c": "Differences between Hybridization and Selection procedures in plant breeding.",
+        "d": "Concept and importance of heterosis in crop production."
+      }
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "What are pests? Mention five (5) common insect pests of rice and explain the nature of damage, management strategies adopted for yellow stem borer infestation in rice.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "What are plant parasitic Nematodes? Describe the symptoms of Root-knot Nematodes in the infected plants and management practices for controlling their population in soil.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "Define Kitchen Gardening and describe the concept and importance of Kitchen Gardening for upliftment of rural economy.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "Explain the diagnostic symptoms of Fusarium wilt of Tomato, Late blight of Potato, Rhizome rot of Ginger and what are the practices adopted for effective management of soil borne disease incidence. (20)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "Define Phytohormones and explain different types of phytohormones with their functions and its Agricultural applications.(20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

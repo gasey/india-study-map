@@ -1,0 +1,1233 @@
+{
+  "slug": "agri-2025-ah-vety-p1",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "AH & Vety Paper-I",
+  "source": "Agri&Allied AH & Vety Paper-I 2025..pdf",
+  "sourceSha256": "f567f00690e91d0e8539fe547f9952f9cc96e5fbe05590cbf5ce445853cf9ad6",
+  "ocr": false,
+  "count": 50,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Summer",
+        "b": "Winter",
+        "c": "Spring",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The silent heat in buffalo is very common during:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Surti",
+        "b": "Jamunapari",
+        "c": "Sirohi",
+        "d": "Chegu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Roman nose is a characteristic feature of:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 months",
+        "b": "12 months",
+        "c": "20 months",
+        "d": "36 months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Bull nose ring should be applied at the age of:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5 minutes",
+        "b": "7 minutes",
+        "c": "10 minutes",
+        "d": "15 minutes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The milking of a dairy cow should be completed within:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calves less than 5% and adults less than 5%",
+        "b": "Calves less than 5% and adults less than 10%",
+        "c": "Calves less than 10% and adults less than 10%",
+        "d": "Calves less than 10% and adults less than 5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following gives the calf mortality and adult mortality at a well-managed dairy farm?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "windward",
+        "b": "leeward",
+        "c": "upward",
+        "d": "downward"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The homestead should be located on the _______ side of the farm buildings, considering the direction of winds.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Service period",
+        "b": "Calving index",
+        "c": "Dry period",
+        "d": "Gestation period"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The time between successful conception to parturition is known as:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bolus",
+        "b": "Drenching",
+        "c": "Enema",
+        "d": "Electuaries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fluid preparations given or introduced through the rectum are known as:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kicking",
+        "b": "Wind suckling",
+        "c": "Eye rolling",
+        "d": "Self suckling"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cradle is a device to prevent:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "500°F",
+        "b": "700°F",
+        "c": "1000°F",
+        "d": "2000°F"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the electrical method of disbudding, the temperature of the instrument should be:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Penetrance",
+        "b": "Expressivity",
+        "c": "Pleiotropism",
+        "d": "Prepotency"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ability of a given gene or gene combination to be expressed phenotypically to any degree:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mitosis",
+        "b": "Meiosis I",
+        "c": "Meiosis II",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crossing over takes place at:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "38",
+        "b": "54",
+        "c": "62",
+        "d": "78"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The chromosome number of the domestic pig is:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "K.F. Wolf",
+        "b": "Charles Darwin",
+        "c": "Swammerdam",
+        "d": "Kollikerasas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The theory of epigenesis was proposed by:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "9",
+        "b": "16",
+        "c": "12",
+        "d": "15"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the number of multiple alleles for a trait is 5, then the total number of genotypes is:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "VA/VP",
+        "b": "VE/VP",
+        "c": "VG/VP",
+        "d": "VA+VG/VP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heritability in the narrow sense is:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Out-crossing",
+        "b": "Cross-breeding",
+        "c": "Grading-up",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A new breed can be evolved by:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Genetic sterility",
+        "b": "Genetic linkage",
+        "c": "Genetic load",
+        "d": "Genetic drift"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The proportion of the population that shows genetic death is:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mass selection",
+        "b": "Pedigree selection",
+        "c": "Progeny testing",
+        "d": "Selection index"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most effective method of selection is:",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "0.25",
+        "c": "0.75",
+        "d": "0.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If the coefficient of selection is 0.25, then the fitness is:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcium",
+        "b": "Phosphorus",
+        "c": "Potassium",
+        "d": "Magnesium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among the following, the most abundant mineral in plants is:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3-5 % DCP",
+        "b": "Below 3 % DCP",
+        "c": "Above 5 % DCP",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The DCP% (DM basis) in non-maintenance type of roughage is:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cowpea",
+        "b": "Oat",
+        "c": "Maize",
+        "d": "Napier"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fodder best suited for making hay with high-energy content among the following is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1.0",
+        "b": "0.7-1.0",
+        "c": "0.7",
+        "d": "1.5"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Respiratory quotient (RQ) of fat is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sesame cake",
+        "b": "Soybean meal",
+        "c": "Sorghum meal",
+        "d": "Wheat meal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In poultry feed, methionine is the only limiting amino acid in:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "7–16 mg",
+        "b": "17-26 mg",
+        "c": "27-39",
+        "d": "40-44 mg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The requirement of iron for a rapidly growing young piglet per day is around:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Magnesium",
+        "b": "Potassium",
+        "c": "Calcium",
+        "d": "Sodium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Penguin-like squat’ in hens is due to a deficiency of:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rabbit",
+        "b": "Cattle",
+        "c": "Horse",
+        "d": "Swine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The species that is most susceptible to salt poisoning is:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Superoxide dismutase",
+        "b": "L-gulonolactone oxidase",
+        "c": "Catalase",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The enzyme required for the synthesis of Vitamin C within the body of an animal is:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "18%",
+        "b": "20 %",
+        "c": "23%",
+        "d": "25%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As per BIS-2007, a broiler finisher diet should contain a minimum CP of:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tractability",
+        "b": "Worthiness",
+        "c": "Credibility",
+        "d": "Reliability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The objective and subjective components of the believability of a source or message is termed as:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Adoption",
+        "b": "Social system",
+        "c": "Communication channels",
+        "d": "Over time"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not an element of diffusion?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Average Cost",
+        "b": "Cost function",
+        "c": "Fixed Cost",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The functional relationship between output and total cost is:",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Demand curve",
+        "b": "Demand Schedule",
+        "c": "Demand function",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The graphical representation of the demand schedule is:",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Formal relationship",
+        "b": "Face-to-face interaction",
+        "c": "High-density population",
+        "d": "Dynamic lifestyle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The feature of rural society is:",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "PAN",
+        "b": "WAN",
+        "c": "LAN",
+        "d": "MAN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A network that extends over a large geographical area, such as states or countries:",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Innovative",
+        "b": "Fabian",
+        "c": "Drone",
+        "d": "Influencer"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is not a type of Entrepreneur?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public Limited Company",
+        "b": "Private Company",
+        "c": "Corporation",
+        "d": "Cooperatives"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A business that is chartered or registered by the state and that operates separately from the owner or owners is termed as:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Breed Development of Livestock and Poultry",
+        "b": "Feed and Fodder Development",
+        "c": "Innovation and Extension",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The sub-mission of the National Livestock Mission includes:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1968",
+        "b": "1974",
+        "c": "1970",
+        "d": "1978"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Operation flood was launched in:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Niacin",
+        "b": "Folic acid",
+        "c": "Riboflavin",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The greenish-yellow color of whey is due to:",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "72°C for 10 seconds",
+        "b": "72°C for 15 seconds",
+        "c": "72°C for 20 seconds",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "HTST pasteurization heats milk to about:",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Insulin",
+        "b": "Prolactin",
+        "c": "Cortisol",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The primary hormone that stimulates the synthesis of casein is:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Threonine",
+        "b": "Lysine",
+        "c": "Alanine",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Blood meal is rich in the amino acid:",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Calcium",
+        "b": "Potassium",
+        "c": "Sodium",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Troponin C has affinity for:",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8.50 million tonnes",
+        "b": "10.25 million tonnes",
+        "c": "13.75 million tonnes",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s meat production for the 2023-24 fiscal year was:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Halal",
+        "b": "Kosher",
+        "c": "Jhatka",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ritual method of slaughter in the Hindu religion is:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Incineration",
+        "b": "Burial",
+        "c": "Rendering",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is not a method for the treatment of condemned meat and carcasses?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Centrifugation",
+        "b": "Microfiltration",
+        "c": "Homogenization",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The process of breaking milk fat globules is termed:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Food Safety and Standards Authority of India",
+        "b": "Meat Food Products Order, 1973",
+        "c": "Food Safety and Standards Act, 2006",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following governs the safety and quality of processed meat products in India?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Define a vice. Describe the common vices and their preventive measures in horses and cattle. (2+8+10=20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "What do you mean by animal restraining? Describe the different physical restraining methods in farm animals.(4+16=20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "What is inbreeding? Write the genetic and phenotypic consequences of inbreeding. Enumerate the applications of inbreeding.(2+10+8=20)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "What is a feed additive? Classify the feed additives, providing at least three examples for each group. Enumerate the advantages and disadvantages of antibiotics as feed additives in the ration of poultry and swine.(2+10+8=20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "What is meant by feeding standard? Describe different feeding standards for livestock.(4+16=20)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "Enumerate different types of communication. Describe the elements and barriers of communication. (6+6+8=20)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "What do you mean by meat processing? Describe modern processing techniques in the comminution of meat.(4+16=20)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "Describe the common defects of milk products and their remedial measures.(8+12=20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": []
+  }
+}

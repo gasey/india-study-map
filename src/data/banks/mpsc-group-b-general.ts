@@ -785,6 +785,106 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/adfd-2025-technical-p3.pdf"
   },
   {
+    "id": "mpsc-group-b-agri-2025-gs",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "General Studies",
+    "paperSubject": "General Studies",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-gs.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Agriculture Science Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-agri-science-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Agriculture Science Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-agri-science-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Agriculture Science Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-agri-science-p3.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "AH & Vety Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-ah-vety-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "AH & Vety Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-ah-vety-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "AH & Vety Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-ah-vety-p3.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-I",
+    "paperSubject": "Horticulture Science Paper-I",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-horticulture-p1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-II",
+    "paperSubject": "Horticulture Science Paper-II",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-horticulture-p2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3",
+    "examType": "Direct_NG",
+    "examName": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "post": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "paperNumber": "Paper-III",
+    "paperSubject": "Horticulture Science Paper-III",
+    "year": 2025,
+    "sourceFile": "/papers/group-b/agri-2025-horticulture-p3.pdf"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "examType": "Direct_NG",
     "examName": "Sub-Inspector FCS&CA / Receptionist H&FW",
@@ -148312,6 +148412,18010 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
   },
   {
+    "id": "mpsc-group-b-agri-2025-gs-Q1",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Indian Air Force has retired which of the following fighter jets in September 2025?",
+    "options": [
+      "MiG - 21",
+      "MiG - 25",
+      "Sukhoi - 21",
+      "Sukhoi – 25"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “MiG - 21”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q2",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which city is India’s first dedicated Tesla Centre scheduled to open on 26th November, 2025?",
+    "options": [
+      "Hyderabad",
+      "New Delhi",
+      "Mumbai",
+      "Gurugram"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Gurugram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q3",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The FIFA 2026 World Cup will be held in which of the following country/countries?",
+    "options": [
+      "USA, Mexico and Paraguay",
+      "USA, Canada and Mexico",
+      "UAE",
+      "Brazil"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “USA, Canada and Mexico”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q4",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the name of the Made in India global strategic Battery Electric Vehicle recently flagged off by Prime Minister Modi?",
+    "options": [
+      "Grand Vitara",
+      "Tata Acti.EV",
+      "e-Vitara",
+      "Mahindra XEV"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “e-Vitara”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q5",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the name of Asia’s largest freight train whose trial run was recently conducted by Indian Railways?",
+    "options": [
+      "Agni Express",
+      "Bharat Shakti",
+      "Rudrastra",
+      "Gangotri"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Rudrastra”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=1",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q6",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which Indian state was the orchid Chamaegastrodia reikensis discovered?",
+    "options": [
+      "Arunachal Pradesh",
+      "Mizoram",
+      "Nagaland",
+      "Sikkim"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mizoram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q7",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "SLINEX is a bilateral naval exercise between India and which country?",
+    "options": [
+      "Singapore",
+      "Sri Lanka",
+      "Australia",
+      "Bangladesh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sri Lanka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q8",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The new GST rate for luxury items and ‘sin’ goods is:",
+    "options": [
+      "18%",
+      "28%",
+      "32%",
+      "40%"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “40%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q9",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Indian Navy is set to commission a new ship/craft at the Naval Dockyard in Mumbai on 24.11.2025. Consider the following statements: (i)This vessel is of Arnala-class. (ii)This vessel is an initiative under Atmanirbhar Bharat. (iii)This vessel is the first of the Mahe-Class Indian Navy’s Anti-Submarine Warfare Shallow Water Craft (ASW-SWC). Which of the statements given above is/are true?",
+    "options": [
+      "i only",
+      "iii only",
+      "ii & iii only",
+      "ii only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ii & iii only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q10",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Nodal Department for the Mizoram Bana Kaih (Handholding) Scheme, 2024 is:",
+    "options": [
+      "Agriculture Department",
+      "General Administration Department",
+      "Planning & Programme Implementation Department",
+      "Commerce and Industries Department"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Planning & Programme Implementation Department”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q11",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is SANJAY, launched by the Union Defence Minister in January, 2025?",
+    "options": [
+      "Battlefield Surveillance System",
+      "Light Weight Battle Tank",
+      "Drone",
+      "None of these"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Battlefield Surveillance System”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q12",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country launched Operation SOUTHERN SPEAR to target narco-terrorists?",
+    "options": [
+      "Canada",
+      "United States",
+      "Brazil",
+      "Mexico"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “United States”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q13",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the ‘Quit India Movement’, consider the following statements: I.It was launched in response to the failure of the Cripps Mission. II.Parallel governments were established in Ballia, Tamluk, and Satara during the movement. III.The Communist Party of India (CPI) supported the movement officially. Which of the statements given above is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q14",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Regulation XVII, passed by the British Government was related to which among the following?",
+    "options": [
+      "Abolition of Sati",
+      "Abolition of Provincial Courts of Appeal",
+      "Suppression of Thugs",
+      "Abolition of Slavery"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Abolition of Sati”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q15",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Regarding the administration of the Mizo Hills under the British: I.The Mizo Hills were designated as ‘Excluded Areas’ under the Government of India Act, 1935. II.The Superintendents of the then Lushai Hills District recognised the rights of the chiefs under the policy of minimum interference. III.The Inner Line Regulation was abolished immediately after British annexation. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "Only I"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q16",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The first Carnatic War was ended by signing the treaty of:",
+    "options": [
+      "Paris",
+      "Pondicherry",
+      "Aix-La-Chapelle",
+      "London"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Aix-La-Chapelle”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q17",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following pairs is/are correctly matched? I.Bardoli Satyagraha:Sardar Vallabhbhai Patel II.Champaran Satyagraha:Raj Kumar Shukla III.Vaikom Satyagraha:K. Kelappan",
+    "options": [
+      "I only",
+      "I and II only",
+      "II and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “I, II and III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q18",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following commissions was appointed by the British Government to investigate into the massacre in Jallianwala Bagh?",
+    "options": [
+      "Hunter Commission",
+      "Simon Commission",
+      "Welby Commission",
+      "Butler Committee"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hunter Commission”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q19",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Subsidiary Alliance’ system introduced by Lord Wellesley entailed: I.The British would be responsible for protecting the ally from external and internal threats. II.The ally had to maintain a British contingent at their own expense. III.The ally was free to enter into agreements with other rulers without British permission. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "All are correct"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q20",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Swadeshi’ and ‘Boycott’ were adopted as methods of struggle of the masses for the first time during the:",
+    "options": [
+      "Agitation against the Partition of Bengal",
+      "Home Rule Movement",
+      "Non-Cooperation Movement",
+      "Visit of the Simon Commission to India"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Agitation against the Partition of Bengal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q21",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Lushai Expedition of 1871-72’ was undertaken by the British primarily to:",
+    "options": [
+      "Survey the mineral resources of the region.",
+      "Rescue Mary Winchester and punish the raiding tribes.",
+      "Establish a trade route to Burma.",
+      "Introduce Christianity to the region."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rescue Mary Winchester and punish the raiding tribes.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q22",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Montague-Chelmsford Proposals were related to:",
+    "options": [
+      "Social reforms",
+      "Educational reforms",
+      "Reforms in police administration",
+      "Constitutional reforms"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Constitutional reforms”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q23",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following regarding the ‘Indian National Army (INA)’: I.The idea of the INA was first conceived by Subhas Chandra Bose in Berlin. II.The Rani of Jhansi Regiment was an all-women combat regiment. III.The INA trials at Red Fort led to a massive upsurge of nationalist sentiment. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “II and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q24",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Radcliffe Committee was appointed to:",
+    "options": [
+      "Solve the problem of minorities in India",
+      "Give effect to the Independence Bill",
+      "Delimit the boundaries between India and Pakistan",
+      "Enquire into the riots in East Bengal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Delimit the boundaries between India and Pakistan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q25",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the physiography of Mizoram: I.The terrain is characterized by longitudinal valleys and parallel mountain ranges running north- south. II.The highest peak, Phawngpui (Blue Mountain), is located in Siaha district. III.The rivers in the northern part of the state generally flow northwards into the Barak valley. Which of the statements given above is/are correct?",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q26",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the name of the tropical cyclones in the China Sea?",
+    "options": [
+      "Hurricanes",
+      "Tornado",
+      "Typhoon",
+      "Twister"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Typhoon”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q27",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to ‘Soil Types in India’, consider the following: I.Alluvial soil covers the largest land area in India. II.Laterite soil is rich in organic matter and highly suitable for growing pulses. III.Black soil (Regur) is also known as a self-ploughing soil. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q28",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With which of the following countries of South East Asia does India share a maritime boundary?",
+    "options": [
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "Vietnam"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Indonesia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q29",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Tropic of Cancer’ passes through which of the following Indian states? 1.Mizoram2.Tripura 3.Manipur4.Jharkhand Select the correct option:",
+    "options": [
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1 and 2 only",
+      "1, 3 and 4 only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1, 2 and 4 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q30",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the landform where deposits of fine silts and clay deposit after a flood called?",
+    "options": [
+      "Backswamp",
+      "Delta",
+      "Moraine",
+      "Mesa"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Backswamp”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q31",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In the context of ‘River Systems in Mizoram’, which river is known as the ‘Kaladan’ in Myanmar?",
+    "options": [
+      "Tlawng",
+      "Chhimtuipui",
+      "Tut",
+      "Khawthlang Tuipui"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chhimtuipui”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q32",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following statements is not correct about the Mesosphere?",
+    "options": [
+      "It is an intermediate layer beyond the ozone layer",
+      "The temperature decreases with increase in height",
+      "This layer is ideal for flying aeroplanes",
+      "It lies upto an altitude of around 80-85 km from the earth’s surface."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “This layer is ideal for flying aeroplanes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q33",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Regarding ‘Plate Tectonics’, the Himalayas are formed due to the collision between:",
+    "options": [
+      "The Eurasian Plate and the African Plate.",
+      "The Indo-Australian Plate and the Eurasian Plate.",
+      "The Indo-Australian Plate and the Pacific Plate.",
+      "The Eurasian Plate and the North American Plate."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Indo-Australian Plate and the Eurasian Plate.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q34",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which one of the following lakes and their locations is incorrectly matched?",
+    "options": [
+      "Loktak- Manipur",
+      "Lonar- Maharashtra",
+      "Chilika-Andhra Pradesh",
+      "Roopkund- Uttarakhand"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chilika-Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q35",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Ring of Fire’ is associated with: I.Global mid-oceanic ridges. II.Concentration of volcanoes and earthquakes around the Pacific Ocean. III.The convergence of tectonic plates. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “II and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q36",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which instrument is used to measure the wind speed?",
+    "options": [
+      "Wind vane",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Anemometer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q37",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to ‘Article 371G’ of the Indian Constitution relating to Mizoram: I.Acts of Parliament concerning Mizo customary law do not apply to Mizoram unless the State Legislative Assembly so decides. II.It provides for the ownership and transfer of land to be decided by the State Assembly. III.It was inserted into the Constitution by the 53rd Amendment Act, 1986. Which of the statements given above is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “I, II and III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q38",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What fraction of Rajya Sabha members retire after every two years?",
+    "options": [
+      "2/3",
+      "1/3",
+      "1/2",
+      "1/6"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1/3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q39",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Sixth Schedule of the Indian Constitution deals with the administration and control of Scheduled Areas and Scheduled Tribes in the four states of:",
+    "options": [
+      "Manipur, Mizoram, Tripura and Nagaland",
+      "Assam, Meghalaya, Tripura and Mizoram",
+      "Assam, Meghalaya, Arunachal Pradesh and Nagaland",
+      "Assam, Meghalaya, Mizoram and Nagaland"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Assam, Meghalaya, Tripura and Mizoram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q40",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Regarding the ‘Election Commission of India’: I.It is a constitutional body under Article 324. II.The Chief Election Commissioner can be removed from office only in like manner and on the like grounds as a Judge of the Supreme Court. III.It conducts elections to the Parliament, State Legislatures, and Panchayats. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q41",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "For how long can the Vice President of India act as the President when the President is not able to perform his duties due to resignation, removal, death or otherwise?",
+    "options": [
+      "1 year",
+      "9 months",
+      "6 months",
+      "3 months"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q42",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following has the power to declare a ‘Financial Emergency’ in India?",
+    "options": [
+      "The Finance Minister",
+      "The Reserve Bank of India Governor",
+      "The President of India",
+      "The Prime Minister"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The President of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q43",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the ‘Directive Principles of State Policy (DPSP)’: I.They are non-justiciable in nature. II.They supersede Fundamental Rights in all circumstances. III.They encompass the Gandhian, Socialist, and Liberal-Intellectual principles. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q44",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "With reference to the ‘President of India’: I.He is elected by the members of an electoral college consisting of elected members of both Houses of Parliament and the Legislative Assemblies of the States. II.Impeachment can be initiated by either House of the Parliament. Which of the statements is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Both I and II”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q45",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the maximum life of an ordinance?",
+    "options": [
+      "Four months and six weeks",
+      "Six months and six weeks",
+      "Three months and three weeks",
+      "One month and three weeks"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Six months and six weeks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q46",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Anti-Defection Law’ is contained in which Schedule of the Constitution?",
+    "options": [
+      "Ninth Schedule",
+      "Tenth Schedule",
+      "Eleventh Schedule",
+      "Twelfth Schedule"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tenth Schedule”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q47",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the minimum percentage of strength of opposition required in a State legislature for the appointment of an opposition leader?",
+    "options": [
+      "10% of total strength",
+      "15% of total strength",
+      "20% of total strength",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “10% of total strength”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q48",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Fundamental Duties are given in which part of Indian Constitution?",
+    "options": [
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV A"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Part IV A”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q49",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The term ‘Demographic Dividend’ refers to:",
+    "options": [
+      "An increase in the population of the elderly.",
+      "A rise in economic growth potential resulting from a changing age structure of the population (more working-age people).",
+      "A decline in the total population due to migration.",
+      "Equal distribution of wealth among the population."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A rise in economic growth potential resulting from a changing age structure of the population (more working-age people).”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q50",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following groups of Banks in India was previously referred as ‘Other Scheduled Commercial Banks’?",
+    "options": [
+      "National Banks",
+      "Foreign Banks",
+      "Scheduled Cooperative Banks",
+      "Private Banks"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Private Banks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q51",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Regarding ‘Goods and Services Tax (GST)’: I.It is a destination-based tax. II.It has subsumed all indirect taxes including Basic Customs Duty. III.The GST Council is a constitutional body chaired by the Union Finance Minister. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q52",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following sectors doesn’t feature in Index of Industrial Production (IIP) calculation?",
+    "options": [
+      "Agricultural sector",
+      "Manufacturing sector",
+      "Steel sector",
+      "Petroleum sector"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Agricultural sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q53",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Human Development Index (HDI)’ comprises which of the following dimensions? 1.Long and healthy life2.Access to knowledge 3.Decent standard of living4.Political freedom Select the correct option:",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1 and 3 only",
+      "1, 2, 3 and 4"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1, 2 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q54",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following schemes focuses on industrial development in North-East India?",
+    "options": [
+      "PMEGP",
+      "UNNATI",
+      "Svanidhi",
+      "PM DAJGUA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “UNNATI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q55",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Financial Inclusion’ aims to: I.Provide banking services to the unbanked population. II.Promote literacy in the stock market only. III.Ensure access to affordable financial products like insurance and credit. Select the correct answer:",
+    "options": [
+      "I only",
+      "I and III only",
+      "II and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q56",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which country is India’s largest trading partner?",
+    "options": [
+      "USA",
+      "China",
+      "Russia",
+      "Japan"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “USA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q57",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘New Economic Policy of 1991’ in India was characterized by: I.Liberalization II.Privatization III.Globalization Select the correct option:",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “I, II and III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q58",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the primary objective of ICEGATE portal that was seen in news?",
+    "options": [
+      "Managing rail transport logistics",
+      "Offering electronic services for customs-related activities",
+      "Regulating air traffic",
+      "None of the Above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Offering electronic services for customs-related activities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q59",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "India has secured a 9,000-sq-km exploration block to explore copper and cobalt in which country?",
+    "options": [
+      "Zambia",
+      "Chile",
+      "Peru",
+      "China"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zambia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q60",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "What is the primary objective of the ‘MUDRA Yojana’?",
+    "options": [
+      "To provide housing for the urban poor.",
+      "To fund unfunded micro-enterprises and small businesses.",
+      "To provide crop insurance to farmers.",
+      "To support large scale infrastructure projects."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To fund unfunded micro-enterprises and small businesses.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q61",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Biodiversity Hotspots’ are characterized by: I.High species richness. II.High degree of endemism. III.Low threat from human activities. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "All are correct"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q62",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following is the major cause of acid rain?",
+    "options": [
+      "Carbon monoxide",
+      "Carbon dioxide",
+      "Nitrogen dioxide",
+      "Oxygen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nitrogen dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q63",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Kyoto Protocol’ primarily deals with:",
+    "options": [
+      "Depletion of Ozone Layer.",
+      "Conservation of Biodiversity.",
+      "Reduction of Greenhouse Gas emissions.",
+      "Transboundary movement of hazardous wastes."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduction of Greenhouse Gas emissions.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q64",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Bannerghatta National Park is located in which state?",
+    "options": [
+      "Odisha",
+      "Sikkim",
+      "Karnataka",
+      "Arunachal Pradesh"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Karnataka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q65",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following regarding ‘Dampa Tiger Reserve’: I.It is the largest wildlife sanctuary in Mizoram. II.It is located in the Kolasib district. III.It is part of Project Tiger. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "All are correct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “I and III only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q66",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ability of a population to increase under ideal environmental conditions is called:",
+    "options": [
+      "Natality",
+      "Carrying capacity",
+      "Biotic potential",
+      "Absolute natality"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Biotic potential”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q67",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is an ‘In-situ’ conservation method?",
+    "options": [
+      "Botanical Gardens",
+      "Zoological Parks",
+      "Biosphere Reserves",
+      "Seed Banks"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Biosphere Reserves”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q68",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The use of microorganism metabolism to remove pollutants such as oil spills in the water bodies is known as:",
+    "options": [
+      "Biomagnification",
+      "Bioremediation",
+      "Biomethanation",
+      "Bioreduction"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bioremediation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q69",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The concept of ‘Carbon Footprint’ refers to:",
+    "options": [
+      "The total amount of greenhouse gases produced to directly and indirectly support human activities.",
+      "The amount of carbon found in the earth’s crust.",
+      "The carbon emissions absorbed by the oceans.",
+      "The radioactive dating of carbon isotopes."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The total amount of greenhouse gases produced to directly and indirectly support human activities.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q70",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Ocean acidification is caused by which of the following gases?",
+    "options": [
+      "Sulphur Dioxide",
+      "Carbon Dioxide",
+      "Nitric Oxide",
+      "Ozone"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Carbon Dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q71",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which among the following is the unit of measurement of the ‘Ecological Footprint’?",
+    "options": [
+      "Global Hectare",
+      "Gallon Per Capita",
+      "Cubic meter",
+      "Man Hour"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Global Hectare”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q72",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not a primary greenhouse gas found in earth’s atmosphere?",
+    "options": [
+      "Carbon dioxide",
+      "Methane",
+      "Water vapour",
+      "Nitrogen oxides (NOx)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nitrogen oxides (NOx)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q73",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Regarding ‘Vaccines’, consider the following statements: I.Vaccines work by training the immune system to recognize and combat pathogens. II.mRNA vaccines (like some COVID-19 vaccines) use a piece of genetic code to instruct cells to make a protein that triggers an immune response. III.Herd immunity can only be achieved through vaccination, not natural infection. Which of the statements is/are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "All are correct"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “I and II only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q74",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Red blood corpuscles are formed in the:",
+    "options": [
+      "Heart",
+      "Bone marrow",
+      "Liver",
+      "Kidney"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bone marrow”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q75",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘Blue colour of the sky’ is due to:",
+    "options": [
+      "Reflection of sunlight by the ocean.",
+      "Refraction of sunlight by water droplets (Mie Scattering).",
+      "Scattering of shorter wavelengths of sunlight by atmospheric particles (Rayleigh scattering).",
+      "Absorption of blue light by the atmosphere."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Scattering of shorter wavelengths of sunlight by atmospheric particles (Rayleigh scattering).”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q76",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following cell organelle contains DNA apart from nucleus?",
+    "options": [
+      "Golgi Apparatus",
+      "Mitochondria",
+      "Cytoplasm",
+      "Ribosome"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mitochondria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q77",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Optical Fiber’ works on the principle of:",
+    "options": [
+      "Total Internal Reflection.",
+      "Refraction.",
+      "Dispersion.",
+      "Interference."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Total Internal Reflection.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q78",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The physical quantity of which of the following is measured in Kg m/s²?",
+    "options": [
+      "Work",
+      "Power",
+      "Force",
+      "Motion"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Force”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q79",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which gas is primarily responsible for the ‘Greenhouse Effect’ on Earth?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Argon"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Carbon Dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q80",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The Bhopal Gas Tragedy was caused by the release of which gas?",
+    "options": [
+      "Phosgene gas",
+      "Carbon monoxide",
+      "Methyl isocyanate",
+      "Chlorine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Methyl isocyanate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q81",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ‘pH value’ of pure water at 25°C is:",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "less than 7"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “7”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q82",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is a vestigial organ in human body?",
+    "options": [
+      "Spleen",
+      "Tailbone",
+      "Thyroid",
+      "Gall bladder"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tailbone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q83",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "‘Newton’s Third Law of Motion’ states that:",
+    "options": [
+      "An object at rest stays at rest unless acted upon by a force.",
+      "Force equals mass times acceleration (F=ma).",
+      "For every action, there is an equal and opposite reaction.",
+      "Energy cannot be created or destroyed."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “For every action, there is an equal and opposite reaction.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q84",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is dry ice?",
+    "options": [
+      "Solid water",
+      "Solid Nitrogen dioxide",
+      "Solid Sulphur dioxide",
+      "Solid Carbon dioxide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Solid Carbon dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q85",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who was the first Mizo chief to officially sign an agreement with the British?",
+    "options": [
+      "Lalbura",
+      "Kalkhama",
+      "Vanhnuailiana",
+      "Suakpuilala"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Suakpuilala”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q86",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which of the following is not a trap used by the Mizos for catching birds?",
+    "options": [
+      "Thangthleng",
+      "Beai",
+      "Buhchuk",
+      "Hnawhtawt"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Hnawhtawt”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q87",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Choose the odd-one out:",
+    "options": [
+      "Khiangte Zawngzim",
+      "Dingdi Puantah",
+      "Khawnthiang",
+      "Zangkhua"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Khawnthiang”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q88",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The book ‘The Lushei Kuki Clans’ was written by:",
+    "options": [
+      "AS Reid",
+      "AO Chamber",
+      "HR Browne",
+      "J. Shakespeare"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “J. Shakespeare”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q89",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The traditional dance exclusively performed during Chapchar Kut festival is:",
+    "options": [
+      "Cheraw",
+      "Chai",
+      "Khuallam",
+      "Solakia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q90",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The flower that was believed to protect against evil spirits was:",
+    "options": [
+      "Derhken",
+      "Hnahsin",
+      "Zamzo",
+      "Chuailo"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Zamzo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q91",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Tuithawl, used for storing and carrying water is made of:",
+    "options": [
+      "Bamboo",
+      "Leather",
+      "Gourd",
+      "Water resistant leaves"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gourd”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q92",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The highly prized necklace ‘Thihna’ of the Mizos was made from:",
+    "options": [
+      "Amber",
+      "Ivory",
+      "Pearls",
+      "Limestone"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Amber”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q93",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Tuthulh is a Mizo tool used for:",
+    "options": [
+      "Digging in the ground",
+      "Carving wood into various shapes",
+      "Cutting bamboo shoots",
+      "Weeding"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Digging in the ground”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q94",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The legend of Mim Kut is about the love story of a couple named:",
+    "options": [
+      "Tlingi and Ngambawma",
+      "Zawlpala and Tualvungi",
+      "Hrangchhuana and Chawngmawii",
+      "Darpuii and Thangliana"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tlingi and Ngambawma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q95",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "As per Mizo belief regarding the afterlife, after crossing Rih Dil, the departing soul reaches a mystical mountain from where it gazes back to earth. This mountain is called:",
+    "options": [
+      "Pialraltlang",
+      "Hringlangtlang",
+      "Lungngaihtlang",
+      "Hawilopartlang"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hringlangtlang”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q96",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The ritual ‘ramar thih’ is mainly to seek protection from:",
+    "options": [
+      "accidents during clearing for forests for cultivation",
+      "accidents during hunting at night",
+      "evil spirits when there is death in the village (sarthi)",
+      "bad weather (thlipui, intense cyclonic winds)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “accidents during clearing for forests for cultivation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q97",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Consider the following statements about Rimenhawihi: (i)A good-looking woman known for her long hair. (ii)She was the wife of Zawlthlia. (iii)She lived in a house made of stone. (iv)Zawlthlia rescued Rimenhawihi from her captors. Which of the statements are correct?",
+    "options": [
+      "ii & iii only",
+      "i only",
+      "ii & iv only",
+      "i, ii & iv only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “i, ii & iv only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q98",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Vai Len vawi hnihna took place during:",
+    "options": [
+      "1866-1867",
+      "1877-1878",
+      "1889-1890",
+      "1900-1901"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1889-1890”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q99",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In which of the following years did Mautam took place?",
+    "options": [
+      "1949",
+      "1959",
+      "1969",
+      "1979"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1959”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-gs-Q100",
+    "paperId": "mpsc-group-b-agri-2025-gs",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who among the following chiefs was associated with ‘Thlanrawn rawt’?",
+    "options": [
+      "Rolura",
+      "Vuttaia",
+      "Lallula",
+      "Vanhnuailiana"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lallula”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "India is situated in the:",
+    "options": [
+      "South-west trade wind zone",
+      "North-east trade wind zone",
+      "East-west trade wind zone",
+      "Easterly trade wind zone"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “North-east trade wind zone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "India’s food grain production (2024-25) is estimated to be___________ million metric tonnes.",
+    "options": [
+      "375",
+      "410",
+      "330",
+      "354"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “354”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Pearl millet belongs to ___________  plant.",
+    "options": [
+      "C₄",
+      "C₃",
+      "CAM",
+      "Both C₃ and C₄"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “C₄”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "International Potato Centre is located at:",
+    "options": [
+      "Nairobi, Kenya",
+      "Lima, Peru",
+      "California, USA",
+      "Hyderabad, India"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lima, Peru”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Tillage or ploughing 25-30 cm deep is:",
+    "options": [
+      "Medium deep ploughing",
+      "Medium ploughing",
+      "Deep ploughing",
+      "Shallow ploughing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Deep ploughing”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Sunflower is a native of:",
+    "options": [
+      "USA",
+      "Spain",
+      "India",
+      "Africa"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “USA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The earth is atmosphere roughly contain at present ___________ % CO₂.",
+    "options": [
+      "0.04",
+      "0.3",
+      "0.4",
+      "0.03"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “0.04”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Mouldboard plough is a___________  implement.",
+    "options": [
+      "seed drill",
+      "planking",
+      "primary tillage",
+      "secondary tillage"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “primary tillage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A9",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "North eastern states comes under ___________  agro climatic zone.",
+    "options": [
+      "Eastern plateau and hill region",
+      "Eastern Himalayan region",
+      "North eastern Region",
+      "Western Himalayan region"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Eastern Himalayan region”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A10",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Insect Dactylopius tomentosus is used as biological control of weeds for eradication of:",
+    "options": [
+      "Johnson grass",
+      "Congress grass",
+      "Prickly pear",
+      "Lantana camara"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Prickly pear”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A11",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Soybean seed contain ___________  % protein.",
+    "options": [
+      "15",
+      "30",
+      "20",
+      "40"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “40”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A12",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The relative land area under sole crops that is required to produce the yields achieved in intercropping:",
+    "options": [
+      "Land equivalent ratio",
+      "Crop equivalent yields",
+      "Relative yield total",
+      "Multiple cropping index"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Land equivalent ratio”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A13",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Low pressure area near the equator are called:",
+    "options": [
+      "Equinox",
+      "Polar calms",
+      "Burst",
+      "Doldrums"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Doldrums”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A14",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Most common weed in rice.",
+    "options": [
+      "Cyperus spp",
+      "Vicoa spp",
+      "Echinochloa spp",
+      "Celosia spp"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Echinochloa spp”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A15",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "ICAR Research Complex for Easter Region is located at:",
+    "options": [
+      "Barapani",
+      "Orissa",
+      "Patna",
+      "Ranchi"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Patna”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A16",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Pendimethalin is a common pre emergence herbicide used in:",
+    "options": [
+      "Rice",
+      "Wheat",
+      "Maize",
+      "Mustard"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rice”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A17",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Orobanche is a:",
+    "options": [
+      "Shoot parasite",
+      "Root parasite",
+      "Stem parasite",
+      "Flower parasite"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Root parasite”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A18",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Bajra (Pearl millet) generally contain ___________ protein.",
+    "options": [
+      "20%",
+      "10.5%",
+      "12.5%",
+      "11.6%"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “11.6%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A19",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Zea mays saccharata belongs to:",
+    "options": [
+      "Sweet corn",
+      "Flint corn",
+      "Pop corn",
+      "Dent corn"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sweet corn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A20",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Echinochloa crusgalli is a common weed of:",
+    "options": [
+      "Soybean",
+      "Rice",
+      "Mustard",
+      "Maize"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rice”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A21",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Acidic soils are generally deficient in:",
+    "options": [
+      "P",
+      "Fe",
+      "Cu",
+      "Al"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “P”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A22",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Frankia is a __________N fixer.",
+    "options": [
+      "Free living",
+      "Associative",
+      "Symbiotic",
+      "Non symbiotic"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Symbiotic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A23",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Leaf color chart is used as a diagnostic tool for:",
+    "options": [
+      "K",
+      "N",
+      "S",
+      "P"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “N”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A24",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Micro nutrient elements are:",
+    "options": [
+      "Ni and K",
+      "N and Cu",
+      "Zn and S",
+      "Ni and Zn"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ni and Zn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A25",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Kaolinite is a  ___________ secondary mineral.",
+    "options": [
+      "2:2",
+      "3:1",
+      "1:1",
+      "2:1"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1:1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A26",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "In India, Nitrogen is considered deficient, if soil contain less than ___________  kg per ha.",
+    "options": [
+      "180",
+      "200",
+      "280",
+      "560"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “280”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A27",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "___________  fertilizer is given as top dressing",
+    "options": [
+      "P",
+      "N",
+      "S",
+      "K"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “N”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A28",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "According to USDA soil texture classification, silt is ___________ mm.",
+    "options": [
+      "0.05 to 0.1",
+      "0.002 to 0.02",
+      "< 0.002",
+      "0.002 to 0.05"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “0.002 to 0.05”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A29",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "A silicate clay enriched horizon formed by illuviation of clay.",
+    "options": [
+      "Umbric horizon",
+      "Argillic horizon",
+      "Oxic horizon",
+      "Agric horizon"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Argillic horizon”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A30",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Alfisol have more than ___________  % base saturation.",
+    "options": [
+      "10",
+      "50",
+      "35",
+      "40"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “35”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A31",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Nitrogen deficiency in plant leads to:",
+    "options": [
+      "Yellowing of older leaves",
+      "Browning of tender leaves",
+      "Purple colour of older leaves",
+      "Yellowing of tender elaves"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Yellowing of older leaves”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A32",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Beer lambart law is applied in the analysis of:",
+    "options": [
+      "P",
+      "N",
+      "Ca",
+      "pH"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “P”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A33",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The final product of nitrification.",
+    "options": [
+      "NO₂",
+      "NO₃",
+      "NH",
+      "Elemental N"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “NO₃”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A34",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The diameter of potassium is ___________ Å.",
+    "options": [
+      "1.6",
+      "2.86",
+      "2.66",
+      "2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2.66”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A35",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Example of straight fertilizer.",
+    "options": [
+      "Single super phosphate",
+      "Diammonium phosphate",
+      "Ammonium potassium phosphate",
+      "Soluble NPK"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Single super phosphate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A36",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Largest area under organic farming in India.",
+    "options": [
+      "Madhya Pradesh",
+      "Assam",
+      "Sikkim",
+      "Uttarakhand"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Madhya Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A37",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "___________  is allowed to be used in organic farming.",
+    "options": [
+      "Urea",
+      "Rock phosphate",
+      "NPK",
+      "DAP"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rock phosphate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A38",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The Mizoram Organic Farming Bill/Act was passed in the year.",
+    "options": [
+      "2004",
+      "2000",
+      "2015",
+      "2010"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “2004”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A39",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The first Indian state to become fully organic state in 2016.",
+    "options": [
+      "Meghalaya",
+      "Goa",
+      "Nagaland",
+      "Sikkim"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sikkim”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A40",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Organic farming certification in India is governed by:",
+    "options": [
+      "RKVY (Rashtriya Krishi Vikas Yojana)",
+      "NCIG (National Certification for Organic Product in India)",
+      "NPOP (National Programme for Organic Production)",
+      "SCAOF (Seed Certification Agency for Organic Farming)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “NPOP (National Programme for Organic Production)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A41",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Foundation seed is labelled in ___________  colour.",
+    "options": [
+      "White",
+      "Blue",
+      "Green",
+      "Golden yellow"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “White”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A42",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "___________  is used to increase panicle exertion of CMS lines in hybrid rice.",
+    "options": [
+      "Nitrogen",
+      "Gibberellic acid",
+      "Cytokinin",
+      "Ethylene"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gibberellic acid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A43",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Seed ___________ is a pre sowing hydration treatment of seeds for rapid and uniform emergence, germination and growth.",
+    "options": [
+      "prinching",
+      "blending",
+      "vigour test",
+      "priming"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “priming”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A44",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "___________  makes the seed more uniform in size, weight and shape.",
+    "options": [
+      "Pelleting",
+      "Priming",
+      "Roughing",
+      "Blenching"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pelleting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A45",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The Seed Act was enacted by the parliament on:",
+    "options": [
+      "29 December, 1986",
+      "29 December, 1996",
+      "29 December, 1966",
+      "29 December, 1976"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “29 December, 1966”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A46",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "In the universal soil loss equation, the K factor is :",
+    "options": [
+      "Crop management",
+      "Slope",
+      "ratio of soil loss with a specific erosion control",
+      "Soil erodibility index"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Soil erodibility index”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A47",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "___________  is the practice of growing protective crops and row crops in alternative strips on the contours.",
+    "options": [
+      "Strip cropping",
+      "Contour cropping",
+      "Selective cropping",
+      "Relay cropping"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Strip cropping”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A48",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Under the land capability classes, Class II is denoted by:",
+    "options": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Yellow”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A49",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The design discharge through the drainage channel is computed from the formula. Q = _____CIA",
+    "options": [
+      "0.02",
+      "0.0028",
+      "0.028",
+      "0.035"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.0028”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-A50",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Maximum (about 90% of soil movement) in wind erosion is below the height of:",
+    "options": [
+      "30 cm",
+      "10 cm",
+      "20 cm",
+      "15 cm"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “30 cm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the origin, botanical description, seed rate, spacing, method & time of sowing, cropping sequence, manure and fertilizers, common herbicides, harvesting, threshing and yield of Rice or Maize. Write the origin, botanical description, seed rate, spacing, method & time, cropping sequence, manure and fertilizers, harvesting and yield of Soybean or Rape Seed.(12 + 8=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write notes on any four (4) of the following:(5+5+5+5=20)\na. Cropping systems and types\nb. Conservation agriculture\nc. Secondary tillage and implements\nd. Integrated farming system (IFS)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the principles of integrated weed management, herbicide selectivity with examples and herbicide formulations. Classify herbicides based on mode of action.(6+5+6+3=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe any four (4) of the following: (5+5+5+5=20)\na. Integrated nutrient management\nb. Stokes law\nc. Types of soil structure\nd. C:N ratio and its significance to soil health",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the function of Nitrogen as an essential element and describe its deficiency symptoms? Describe N mineralization and factors affecting mineralization. How N can be organically managed in soils of Mizoram?(6+9+5=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the principles, key practice, benefits and challenges of organic farming. Describe in brief pest, disease and weed management in organic farming. Name and discuss any default organic traditional farming system practiced in Mizoram and how the P deficiency can be managed in the acidic soils. (10+6+4=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define seed and discuss the different classes of seed. What is seed enhancement and what are the methods? Describe in brief Intellectual Property Rights.(8+8+4=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1-written-8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define soil erosion and factors affecting soil erosion. Describe the different measures of soil conservation. What water conservation measures can be adopted in Mizoram to increase cropping intensity during rabi season?(5+12+3=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Who is the father of Plant Pathology?",
+    "options": [
+      "TJ Burill",
+      "Anton de Bary",
+      "Needham",
+      "EJ Butler"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Anton de Bary”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "‘White blisters of crucifers’ is caused by pathogen.",
+    "options": [
+      "Pythium debaryanam",
+      "Sclerospora sorghi",
+      "Albugo candida",
+      "Plasmopora viticola"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Albugo candida”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The disease damping off seedlings during nursery stage is caused by the pathogen",
+    "options": [
+      "Physoderma maydis",
+      "Fusarium spp",
+      "Pythium spp",
+      "Colletotrichum lindemuthianum"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pythium spp”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Damping off and leaf blights are effectively checked by:",
+    "options": [
+      "Bordeaux mixture",
+      "Thiram",
+      "Burgundy mixture",
+      "Copper oxychloride"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Copper oxychloride”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The specific fungicide for management of Blast of Rice is:",
+    "options": [
+      "Vitavax",
+      "Carbendazim",
+      "Tricyclazole",
+      "Benlate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tricyclazole”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Bunchy top of Papaya (caused by MLO) is spread by:",
+    "options": [
+      "Nematodes",
+      "Whitefly",
+      "Fungi",
+      "Leaf hoppers"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Leaf hoppers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Bacterial diseases are controlled by use of chemicals.",
+    "options": [
+      "Kelthane",
+      "Antibiotics",
+      "Fungicide",
+      "Viricides"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Antibiotics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The Fungi which transmit Plant Viruses belong to class.",
+    "options": [
+      "Basidiomycetes",
+      "Zygomycetes",
+      "Oomycetes",
+      "Plasmodiophoromycetes"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Plasmodiophoromycetes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A9",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Early blight of Potato produces:",
+    "options": [
+      "Conidia",
+      "Uredia",
+      "Telia",
+      "Acecia"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Conidia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A10",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Most widely used fungicide for smut fungi is:",
+    "options": [
+      "Vitavax",
+      "Dithane M-45",
+      "Plantvax",
+      "Dithane Z-78"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Vitavax”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A11",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following fungicide is not systemic in nature?",
+    "options": [
+      "Vitavax",
+      "Benlate",
+      "Thiram",
+      "Topsin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Thiram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A12",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Soil micro-organisms are most active at:",
+    "options": [
+      "18 - 20°C",
+      "30 - 32°C",
+      "26 - 28°C",
+      "34 - 36°C"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “34 - 36°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A13",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "What is the source of Agar Agar?",
+    "options": [
+      "Bacteria",
+      "Mycoplasma",
+      "Fungi",
+      "Algae"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Algae”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A14",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which is the most recent widely used fungicide for the control of Powdery mildew?",
+    "options": [
+      "Calaxin",
+      "Sulphur dust",
+      "Dithane M-45",
+      "Apron SD-35"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Calaxin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A15",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The major storage fungi that affects the food grain is:",
+    "options": [
+      "Rhizobium",
+      "Cercospora",
+      "Mucor",
+      "Aspergillus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Aspergillus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A16",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Systematic hybridization on a scientific basis began with the work.",
+    "options": [
+      "Shull – Maize",
+      "Patel – Cotton",
+      "koelreuter -Nicotiana",
+      "Knight – Fruit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “koelreuter -Nicotiana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A17",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Emasculation of Flower is necessary for hybridization in:",
+    "options": [
+      "Male sterile plants",
+      "Self pollinated plants",
+      "Self incompatible plants",
+      "Dioecious plants"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Self pollinated plants”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A18",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "In Green plants, photosynthesis takes place in:",
+    "options": [
+      "Proplastids",
+      "Leucoplasts",
+      "chromoplasts",
+      "Chloroplasts"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Proplastids”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A19",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The term heterosis was introduced by:",
+    "options": [
+      "Davenport (1908)",
+      "Shull (1914)",
+      "Hull (1945)",
+      "East (1936)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Shull (1914)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A20",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Progeny of a single plant obtained by asexual reproduction is:",
+    "options": [
+      "Pure line",
+      "Inbred",
+      "Clone",
+      "Strain"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Clone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A21",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "In maize, cross pollination occurs due to:",
+    "options": [
+      "Protandry",
+      "Self - incompatibility",
+      "Protogyny",
+      "Genetic diversity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Protandry”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A22",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Bulk population breeding is suitable for:",
+    "options": [
+      "Fruit crops",
+      "Vegetable crops",
+      "Small grain crops",
+      "Flower crops"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Small grain crops”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A23",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The process of pollen grains transferred from the anthers of a flower to the stigma of the same flower is called:",
+    "options": [
+      "In vitro fertilization",
+      "Autogamy",
+      "Xenogamy",
+      "Geitonogamy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Autogamy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A24",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The crossing of F1 to either of the parents is known as:",
+    "options": [
+      "Test cross",
+      "F1 cross",
+      "Back cross",
+      "Interspecific crossing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Back cross”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A25",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Genetically most pure seed is:",
+    "options": [
+      "Breeder seed",
+      "Foundation seeds",
+      "Nucleus seed",
+      "Certified seed"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nucleus seed”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A26",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Multiple effects of a single gene is known as:",
+    "options": [
+      "Pleiotropy",
+      "Heteroploidy",
+      "Polyploidy",
+      "Monoploidy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pleiotropy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A27",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The oldest method of plant breeding is:",
+    "options": [
+      "Introduction",
+      "Hybridization",
+      "Selection",
+      "Back crossing"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Selection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A28",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The term self - incompatibility was coined by:",
+    "options": [
+      "Harrington",
+      "Stout",
+      "Lewis",
+      "East"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Stout”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A29",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The concept of male sterility was given by:",
+    "options": [
+      "Jones and davis",
+      "Nilsson and Ehle",
+      "Shull",
+      "Jenson"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jones and davis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A30",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following method of plant breeding is not used for asexually propagated crops?",
+    "options": [
+      "Plant introduction",
+      "Mutation breeding",
+      "Clonal selection",
+      "Pure line selection"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pure line selection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A31",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Pests outbreaks tend to occur when:",
+    "options": [
+      "Crops are planted in monoculture",
+      "Natural enemies are imported from abroad",
+      "Farmers switch to new crops",
+      "Mixed cropping"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Crops are planted in monoculture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A32",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Biological control is likely to be most effective when the predator or parasite has a:",
+    "options": [
+      "Long life cycle",
+      "High reproductive rate",
+      "Wide range of preferred hosts",
+      "Short life cycle"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “High reproductive rate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A33",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which control strategy is likely to have the greatest impact on non-target organisms?",
+    "options": [
+      "Chemical control",
+      "Cultural control",
+      "Biological control",
+      "Physical control"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chemical control”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A34",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which class of chemical insecticides is characterized by a relatively high degree of environmental persistence?",
+    "options": [
+      "Carbamates",
+      "Synthetic pyrethroids",
+      "Organophosphates",
+      "Chlorinated hydrocarbons"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Chlorinated hydrocarbons”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A35",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is systemic insecticide?",
+    "options": [
+      "Methamidophos",
+      "Cypermethrin",
+      "Imidachloprid",
+      "Deltamethrin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Imidachloprid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A36",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The most important physical factor which affects the life of an insect is:",
+    "options": [
+      "Temperature",
+      "Light",
+      "Humidity",
+      "Rainfall"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Temperature”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A37",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Pheromones used against the fruit fly is:",
+    "options": [
+      "Methyle eugenol",
+      "Carniform",
+      "Methyl bromide",
+      "Carbofuran"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Methyle eugenol”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A38",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Following insecticide is safely recommended on vegetables:",
+    "options": [
+      "Carbaryl",
+      "Malathion",
+      "Aldicarb",
+      "Endrin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Malathion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A39",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The process of leaving off the colony by the queen is known as:",
+    "options": [
+      "Absconding",
+      "Supersedure",
+      "Swarming",
+      "Queen excluder"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Swarming”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A40",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which pesticide is suitable for controlling the white grub?",
+    "options": [
+      "Malathion",
+      "Phorate",
+      "Chlorpyriphos",
+      "Cypermethrin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Phorate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A41",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Stomata open and close due to:",
+    "options": [
+      "Circadian rhythm",
+      "Pressure of gases inside the leaves",
+      "Genetic clock",
+      "Turgor pressure of guard cells"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Turgor pressure of guard cells”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A42",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The core metal of chlorophyll is:",
+    "options": [
+      "Ni",
+      "Fe",
+      "Cu",
+      "Mg"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Mg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A43",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following element is almost non-essential for plants?",
+    "options": [
+      "Zn",
+      "Ca",
+      "Na",
+      "Mo"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Na”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A44",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which part of root absorb water and minerals?",
+    "options": [
+      "Root cap",
+      "Epidermis",
+      "Root hairs",
+      "Endodermis"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Root hairs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A45",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Apical dominance is the result of:",
+    "options": [
+      "Auxins",
+      "Ethylene",
+      "Cytokinins",
+      "GA"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Auxins”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A46",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The ideal time for air layering is:",
+    "options": [
+      "February - March",
+      "May – June",
+      "November- December",
+      "July – August"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “February - March”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A47",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "High production in protected cultivation is due to:",
+    "options": [
+      "High photosynthetic efficiency",
+      "High Oxygen",
+      "High temperature",
+      "Less CO₂ concentration"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “High photosynthetic efficiency”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A48",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Indian Institute of Horticultural Research (IIHR) is located at:",
+    "options": [
+      "N. Delhi",
+      "Hyderabad",
+      "Bengaluru (Bangalore)",
+      "Kolkata"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bengaluru (Bangalore)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A49",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which crop is most susceptible to viral infection?",
+    "options": [
+      "Chillies",
+      "Onion",
+      "Tomato",
+      "brinjal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tomato”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-A50",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Botanically pineapple fruit is:",
+    "options": [
+      "Sorosis",
+      "Berry",
+      "Balusta",
+      "pome"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sorosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the differences between Prokaryotic and Eukaryotic organisms? Explain Prokaryotic Bacterial Cell structure and functions with diagram indicating different types of structure.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the principles of plant disease management? Elaborate different components of Integrated Disease Management (IDM) in plants with one example from each component.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer any four (4) of the following in brief:(4×5=20)\na. What is plant breeding and why it is important for crop improvements?\nb. Differences between cross-pollinated and self-pollinated crops.\nc. Differences between Hybridization and Selection procedures in plant breeding.\nd. Concept and importance of heterosis in crop production.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are pests? Mention five (5) common insect pests of rice and explain the nature of damage, management strategies adopted for yellow stem borer infestation in rice.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are plant parasitic Nematodes? Describe the symptoms of Root-knot Nematodes in the infected plants and management practices for controlling their population in soil.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Kitchen Gardening and describe the concept and importance of Kitchen Gardening for upliftment of rural economy.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the diagnostic symptoms of Fusarium wilt of Tomato, Late blight of Potato, Rhizome rot of Ginger and what are the practices adopted for effective management of soil borne disease incidence. (20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2-written-8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Phytohormones and explain different types of phytohormones with their functions and its Agricultural applications.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "________ is the systematic process of collecting, analyzing and using information to track a programme’s progress toward reaching its objectives and to guide management decisions.",
+    "options": [
+      "Monitoring",
+      "Planning",
+      "Controlling",
+      "Directing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Monitoring”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Use of physical space in communication process is called:",
+    "options": [
+      "Chronemics",
+      "Haptics",
+      "Proxemics",
+      "Kinesics"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Proxemics”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The economic principle of ________ solves the problem of ‘how to produce’.",
+    "options": [
+      "equi-marginal returns",
+      "factor substitution",
+      "product substitution",
+      "returns to scale"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “factor substitution”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "HACCP defined as codex.",
+    "options": [
+      "Identifies and evaluates the hazards",
+      "Identifies and controls hazards",
+      "Identifies, evaluates and controls hazards",
+      "Identifies and controls hazards after verification"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Identifies, evaluates and controls hazards”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The inanimate source of power utilized for doing agricultural operation is:",
+    "options": [
+      "Anima power",
+      "Human power",
+      "Machine power",
+      "Wind power"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Machine power”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which model of communication is called the ‘Mathematical Theory’?",
+    "options": [
+      "Shannon and Weaver",
+      "Berlo",
+      "Schramm",
+      "Leagans"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Shannon and Weaver”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The energy spent in applying 100 Newton force to a body with its linear displacement of 100 meters is:",
+    "options": [
+      "1000 Joule",
+      "10000 Joule",
+      "5000 Joule",
+      "100 Joule"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “10000 Joule”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "APEDA replaced:",
+    "options": [
+      "FPO",
+      "FSSAI",
+      "PFEPC",
+      "FAA"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “PFEPC”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A9",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Mark the undiscounted technique to calculate feasibility of the investment.",
+    "options": [
+      "Net Present Value",
+      "Internal Rate of Return",
+      "Pay Back Period",
+      "Benefit Cost Ratio"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pay Back Period”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A10",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The concept of ‘transactional model of communication’ was introduced by:",
+    "options": [
+      "Shannon and Weaver",
+      "Wilbur Schramm",
+      "Alder and Towne",
+      "Barnlund"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Barnlund”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A11",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Improved sickle used in hills is:",
+    "options": [
+      "Serrated sickle",
+      "Smooth sickle",
+      "Rotary sickle",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Serrated sickle”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A12",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Valorization of waste is a:",
+    "options": [
+      "Process of reusing waste material",
+      "Process of recycling and composting waste material",
+      "Process of reusing and composting waste material",
+      "Process of reusing, recycling and composting waste material"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Process of reusing, recycling and composting waste material”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A13",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which describes the characteristics of ‘Early Majority’ the best?",
+    "options": [
+      "Traditional",
+      "Skeptical",
+      "Deliberate",
+      "Venturesome"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Deliberate”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A14",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The additional cost associated with the use of an additional unit of input is:",
+    "options": [
+      "Marginal product cost",
+      "Marginal revenue",
+      "Average cost",
+      "Marginal factor cost"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Marginal factor cost”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A15",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Marketing mix is defined in terms of the following:",
+    "options": [
+      "3 C’s",
+      "7 C’s",
+      "4 P’s",
+      "3 R’s"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “4 P’s”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A16",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The study of individual organisms in relation to their environment is called:",
+    "options": [
+      "Synecology",
+      "Autecology",
+      "Habitat ecology",
+      "Ecosystem ecology"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Autecology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A17",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "How many bio-geographical zones are in India?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "35"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “10”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A18",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the term is used for implement/ tools efficiency?",
+    "options": [
+      "Field capacity",
+      "Hp",
+      "Cut off",
+      "Power"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Field capacity”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A19",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The main advantage of Farmer Field School (FFS) approach in agriculture extension is:",
+    "options": [
+      "Low cost",
+      "High participation",
+      "Rapid dissemination",
+      "Individual focus"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “High participation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A20",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The most harmful ultraviolet radiations are:",
+    "options": [
+      "UV-C",
+      "UV-B",
+      "UV-A",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “UV-C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A21",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Precursor of ethylene is:",
+    "options": [
+      "Tryptophane",
+      "Methionine",
+      "ABA",
+      "IAA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Methionine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A22",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The difference between the price paid and received by a specific marketing agency is:",
+    "options": [
+      "Price spread",
+      "Market margin",
+      "Marketing cost",
+      "Consumer surplus"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Market margin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A23",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In an ecotone, the species which become abundant are called:",
+    "options": [
+      "Edge species",
+      "Keystone species",
+      "Endemic species",
+      "Foster species"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Edge species”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A24",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The most commonly used method for needs assessment in rural communities is:",
+    "options": [
+      "Random sampling",
+      "PRA",
+      "Case studies",
+      "Focus group discussion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “PRA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A25",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which seeding method uses Malobansa?",
+    "options": [
+      "Transplanting",
+      "Seed dropping behind the plough",
+      "Check row planting",
+      "Hill dropping"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Seed dropping behind the plough”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A26",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "A visual which contains graphically certain process, like the life cycle of pests and pest control techniques is:",
+    "options": [
+      "Bulletin board",
+      "Handouts",
+      "Wall chart",
+      "Mobile units"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Wall chart”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A27",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "International Day for the Prevention of the Ozone Layer is observed on:",
+    "options": [
+      "3rd January",
+      "16th September",
+      "10th November",
+      "26th March"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “16th September”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A28",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "ISO stands for:",
+    "options": [
+      "International Standard of Organization",
+      "Indian Standard of Organization",
+      "International Organization for Standard",
+      "Indian Organization of Standard"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “International Organization for Standard”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A29",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In tractor engine, the complete path of power from the engine to the wheel is called:",
+    "options": [
+      "Power train",
+      "Power wheel",
+      "Both (a) and (b)",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Power train”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A30",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Rotavator for hill agriculture is usually:",
+    "options": [
+      "Tractor mounted",
+      "Power tiller mounted",
+      "Manual",
+      "Animal drawn"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Power tiller mounted”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A31",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘ceteris paribus’ clause in the law of demand does not mean that:",
+    "options": [
+      "The taste of the consumer does not change",
+      "The income of the consumer does not change",
+      "The price of the consumer does not change",
+      "The price of the substitute does not change"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The price of the consumer does not change”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A32",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Dairy farming, poultry farming, crop farming and pig farming are:",
+    "options": [
+      "Systems of farming",
+      "Types of farming",
+      "Both (a) and (b)",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Types of farming”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A33",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which theory emphasizes that adults are motivated to learn when they perceive the relevance of the content?",
+    "options": [
+      "Behaviourism",
+      "Constructivism",
+      "Andragogy",
+      "Cognitivism"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Andragogy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A34",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "An AC motor is an electric motor powered by ________ type of current.",
+    "options": [
+      "Direct current",
+      "Alternating current",
+      "Pulsating current",
+      "Continuous current"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Alternating current”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A35",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The most commonly used for grain storage to prevent pest infestation is:",
+    "options": [
+      "open sun drying",
+      "Cold storage",
+      "Hermetic storage",
+      "Hydroponics"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Hermetic storage”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A36",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "What is the temperature range typically used in pasteurization?",
+    "options": [
+      "100-1200°C",
+      "60-750°C",
+      "-18 to -230°C",
+      "200-2200°C"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “60-750°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A37",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The Chipko movement is started by:",
+    "options": [
+      "Engler",
+      "Sunderlal Bahuguna",
+      "Medha Padkar",
+      "None of these"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sunderlal Bahuguna”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A38",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Bulk density of food grains is defined as:",
+    "options": [
+      "Mass per unit volume including pores",
+      "Mass per unit volume excluding pores",
+      "Weight of 1000 kernels",
+      "Porosity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mass per unit volume including pores”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A39",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The cost incurred by the farmer for cultivation of a crop per unit of output is:",
+    "options": [
+      "Yield",
+      "Cost of production",
+      "Cost of cultivation",
+      "Total cost"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cost of production”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A40",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "________  is the locus of points of different isoquants at which MRS of factors is constant.",
+    "options": [
+      "Iso-cost line",
+      "PPC",
+      "Expansion path",
+      "Isoclines"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Isoclines”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A41",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The food chain in which micro-organisms breakdown dead producers is called:",
+    "options": [
+      "Consumer food chain",
+      "Predator food chain",
+      "Parasitic food chain",
+      "Detritus food chain"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Detritus food chain”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A42",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Wheel hoe type weeder works on ________  of the operator.",
+    "options": [
+      "rotary action",
+      "push and pull action",
+      "sliding action",
+      "vibratory action"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “push and pull action”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A43",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which storage method is commonly used to prevent rancidity in stored oils?",
+    "options": [
+      "Freezing",
+      "Dry storage",
+      "Refrigeration",
+      "Hot storage"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Refrigeration”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A44",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The name of the component placed in between driver wheels and differential of a tractor is:",
+    "options": [
+      "Gearbox",
+      "Final drive",
+      "Clutch",
+      "Transmission shaft"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Final drive”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A45",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The efficacy of HACCP system relies on:",
+    "options": [
+      "Management",
+      "Employee",
+      "Management and employee",
+      "Lead auditor"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Management and employee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A46",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which leadership style is most effective in agricultural extension?",
+    "options": [
+      "Autocratic",
+      "Democratic",
+      "Laissez-faire",
+      "Transactional"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Democratic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A47",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Minimum Support Price (MSP) is announced on the basis of the recommendation given by the:",
+    "options": [
+      "Ministry of Agriculture",
+      "Chamber of Commerce",
+      "Commission of Agricultural Costs and Prices",
+      "Food and Agriculture Organization"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Commission of Agricultural Costs and Prices”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A48",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Tendency of pollutants to become concentrated in successive trophic levels is known as:",
+    "options": [
+      "Biomagnification",
+      "Biorythm",
+      "Bioremediation",
+      "Biopiracy"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Biomagnification”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A49",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The main source of acid rain is:",
+    "options": [
+      "Sulphur dioxide",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Carbon monoxide"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sulphur dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-A50",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Agriculture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Who introduced the term Hot-spots as biodiversity?",
+    "options": [
+      "Charles Christopher Adam",
+      "Norman Myers",
+      "Aziz Absaber",
+      "Warder Clyde Allee"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Norman Myers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-1",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)Justify the statement ‘Communication is a two way and dynamic process’. Elaborate any three\na. Justify the statement ‘Communication is a two way and dynamic process’. Elaborate any three\nb. Defined farm management. Explain various types of farm management decisions.(1+3=4)\nc. Evaluate the impact of transgenic crops and animals on biodiversity and the environment.(4)\nd. Compare chemical and biological preservation methods used in food processing.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-2",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)What is the importance of PRA in extension? Explain three commonly used PRA tools.\na. What is the importance of PRA in extension? Explain three commonly used PRA tools. (2+4=6)\nb. Discuss the concept of crop insurance and its importance in mitigating risks in Indian agriculture. (2+2=4)\nc. What is greenhouse effect and how is it related to global warming?(1+3=4)\nd. What is the purpose of cushioning materials? How do you work out the static area load? (2+2=4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-3",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)What is extension education? Discuss the contribution of agricultural extension research in\na. What is extension education? Discuss the contribution of agricultural extension research in\nb. Define production function. Explain the three regions of production with the help of a graph. (1+3=4)\nc. What is carbon sequestration? Discuss its role in mitigating climate change.(1+3=4)\nd. Explain the various pre-harvest factors which affect the post-harvest life of a produce.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-4",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)What are the perceived attributes of innovation? Classify the members of a social system on the\na. What are the perceived attributes of innovation? Classify the members of a social system on the\nb. Explain the concept of Time Value of Money. Differentiate between compounding and\nc. Define Hot-Spots of Biodiversity. Explain their significance in India.(1+3=4)\nd. What is precooling? Explain the different types of precooling.(1+3=4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-5",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)Define teaching and learning. What are the principles of extension teaching?(2+4=6)\na. Define teaching and learning. What are the principles of extension teaching?(2+4=6)\nb. What do you understand by NABARD? Discuss in detail the role of NABARD in agriculture. (1+3=4)\nc. Define the term Biodiversity. What are the various threats to biodiversity?(1+3=4)\nd. Explain the importance of food safety standards in ensuring the safety of processed agricultural products.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-6",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)Highlight the challenges faced by rural women in agriculture and the role of extension services\na. Highlight the challenges faced by rural women in agriculture and the role of extension services in addressing them.(6)\nb. What is a farming system? Explain the concept and components of different farming systems with examples.(1+3=4)\nc. Why is ‘Environmental Impact Assessment (EIA)’ important?(4)\nd. Explain cold storage. Write down the basic principle of storage.(1+3=4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-7",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)What is capacity building in the context of extension? How does it improve agricultural\na. What is capacity building in the context of extension? How does it improve agricultural productivity?(2+4=6)\nb. Discuss the types and importance of farm planning and budgeting in efficient farm management. (4)\nc. Examine the role of agriculture in both contributing to and combating climate change.(4)\nd. Discuss the principles of hygienic design in a food processing plant layout.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3-written-8",
+    "paperId": "mpsc-group-b-agri-2025-agri-science-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "(a)Explain extension teaching methods according to its form. Explain Audio visual aids as an\na. Explain extension teaching methods according to its form. Explain Audio visual aids as an extension teaching methods.(3+3=6)\nb. Note down the impact of World Trade Organization (WTO) on Indian agriculture. (4)\nc. Write down the effect of modern agricultural practices on soil pollution.(4)\nd. Discuss the role of post-harvest technology in doubling farmers’ income.(4)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The silent heat in buffalo is very common during:",
+    "options": [
+      "Summer",
+      "Winter",
+      "Spring",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Summer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Roman nose is a characteristic feature of:",
+    "options": [
+      "Surti",
+      "Jamunapari",
+      "Sirohi",
+      "Chegu"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jamunapari”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Bull nose ring should be applied at the age of:",
+    "options": [
+      "5 months",
+      "12 months",
+      "20 months",
+      "36 months"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “12 months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The milking of a dairy cow should be completed within:",
+    "options": [
+      "5 minutes",
+      "7 minutes",
+      "10 minutes",
+      "15 minutes"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “7 minutes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Which one of the following gives the calf mortality and adult mortality at a well-managed dairy farm?",
+    "options": [
+      "Calves less than 5% and adults less than 5%",
+      "Calves less than 5% and adults less than 10%",
+      "Calves less than 10% and adults less than 10%",
+      "Calves less than 10% and adults less than 5%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Calves less than 5% and adults less than 5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The homestead should be located on the _______ side of the farm buildings, considering the direction of winds.",
+    "options": [
+      "windward",
+      "leeward",
+      "upward",
+      "downward"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “windward”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The time between successful conception to parturition is known as:",
+    "options": [
+      "Service period",
+      "Calving index",
+      "Dry period",
+      "Gestation period"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Gestation period”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Fluid preparations given or introduced through the rectum are known as:",
+    "options": [
+      "Bolus",
+      "Drenching",
+      "Enema",
+      "Electuaries"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Enema”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A9",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "A cradle is a device to prevent:",
+    "options": [
+      "Kicking",
+      "Wind suckling",
+      "Eye rolling",
+      "Self suckling"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Self suckling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A10",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "In the electrical method of disbudding, the temperature of the instrument should be:",
+    "options": [
+      "500°F",
+      "700°F",
+      "1000°F",
+      "2000°F"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1000°F”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A11",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The ability of a given gene or gene combination to be expressed phenotypically to any degree:",
+    "options": [
+      "Penetrance",
+      "Expressivity",
+      "Pleiotropism",
+      "Prepotency"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Penetrance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A12",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Crossing over takes place at:",
+    "options": [
+      "Mitosis",
+      "Meiosis I",
+      "Meiosis II",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Meiosis I”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A13",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The chromosome number of the domestic pig is:",
+    "options": [
+      "38",
+      "54",
+      "62",
+      "78"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “38”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A14",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The theory of epigenesis was proposed by:",
+    "options": [
+      "K.F. Wolf",
+      "Charles Darwin",
+      "Swammerdam",
+      "Kollikerasas"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “K.F. Wolf”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A15",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "If the number of multiple alleles for a trait is 5, then the total number of genotypes is:",
+    "options": [
+      "9",
+      "16",
+      "12",
+      "15"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “15”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A16",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Heritability in the narrow sense is:",
+    "options": [
+      "VA/VP",
+      "VE/VP",
+      "VG/VP",
+      "VA+VG/VP"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “VA/VP”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A17",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "A new breed can be evolved by:",
+    "options": [
+      "Out-crossing",
+      "Cross-breeding",
+      "Grading-up",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cross-breeding”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A18",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The proportion of the population that shows genetic death is:",
+    "options": [
+      "Genetic sterility",
+      "Genetic linkage",
+      "Genetic load",
+      "Genetic drift"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Genetic load”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A19",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The most effective method of selection is:",
+    "options": [
+      "Mass selection",
+      "Pedigree selection",
+      "Progeny testing",
+      "Selection index"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Selection index”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A20",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "If the coefficient of selection is 0.25, then the fitness is:",
+    "options": [
+      "1",
+      "0.25",
+      "0.75",
+      "0.5"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “0.75”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A21",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Among the following, the most abundant mineral in plants is:",
+    "options": [
+      "Calcium",
+      "Phosphorus",
+      "Potassium",
+      "Magnesium"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Potassium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A22",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The DCP% (DM basis) in non-maintenance type of roughage is:",
+    "options": [
+      "3-5 % DCP",
+      "Below 3 % DCP",
+      "Above 5 % DCP",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Below 3 % DCP”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A23",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The fodder best suited for making hay with high-energy content among the following is:",
+    "options": [
+      "Cowpea",
+      "Oat",
+      "Maize",
+      "Napier"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Oat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A24",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Respiratory quotient (RQ) of fat is:",
+    "options": [
+      "1.0",
+      "0.7-1.0",
+      "0.7",
+      "1.5"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “0.7”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A25",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "In poultry feed, methionine is the only limiting amino acid in:",
+    "options": [
+      "Sesame cake",
+      "Soybean meal",
+      "Sorghum meal",
+      "Wheat meal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Soybean meal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A26",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The requirement of iron for a rapidly growing young piglet per day is around:",
+    "options": [
+      "7–16 mg",
+      "17-26 mg",
+      "27-39",
+      "40-44 mg"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “7–16 mg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A27",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "‘Penguin-like squat’ in hens is due to a deficiency of:",
+    "options": [
+      "Magnesium",
+      "Potassium",
+      "Calcium",
+      "Sodium"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Calcium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A28",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The species that is most susceptible to salt poisoning is:",
+    "options": [
+      "Rabbit",
+      "Cattle",
+      "Horse",
+      "Swine"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Swine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A29",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The enzyme required for the synthesis of Vitamin C within the body of an animal is:",
+    "options": [
+      "Superoxide dismutase",
+      "L-gulonolactone oxidase",
+      "Catalase",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “L-gulonolactone oxidase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A30",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "As per BIS-2007, a broiler finisher diet should contain a minimum CP of:",
+    "options": [
+      "18%",
+      "20 %",
+      "23%",
+      "25%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “20 %”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A31",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The objective and subjective components of the believability of a source or message is termed as:",
+    "options": [
+      "Tractability",
+      "Worthiness",
+      "Credibility",
+      "Reliability"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Credibility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A32",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not an element of diffusion?",
+    "options": [
+      "Adoption",
+      "Social system",
+      "Communication channels",
+      "Over time"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adoption”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A33",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The functional relationship between output and total cost is:",
+    "options": [
+      "Average Cost",
+      "Cost function",
+      "Fixed Cost",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Cost function”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A34",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The graphical representation of the demand schedule is:",
+    "options": [
+      "Demand curve",
+      "Demand Schedule",
+      "Demand function",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Demand curve”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A35",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The feature of rural society is:",
+    "options": [
+      "Formal relationship",
+      "Face-to-face interaction",
+      "High-density population",
+      "Dynamic lifestyle"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Face-to-face interaction”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A36",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "A network that extends over a large geographical area, such as states or countries:",
+    "options": [
+      "PAN",
+      "WAN",
+      "LAN",
+      "MAN"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “WAN”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A37",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Which is not a type of Entrepreneur?",
+    "options": [
+      "Innovative",
+      "Fabian",
+      "Drone",
+      "Influencer"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Influencer”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A38",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "A business that is chartered or registered by the state and that operates separately from the owner or owners is termed as:",
+    "options": [
+      "Public Limited Company",
+      "Private Company",
+      "Corporation",
+      "Cooperatives"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Corporation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A39",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The sub-mission of the National Livestock Mission includes:",
+    "options": [
+      "Breed Development of Livestock and Poultry",
+      "Feed and Fodder Development",
+      "Innovation and Extension",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A40",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Operation flood was launched in:",
+    "options": [
+      "1968",
+      "1974",
+      "1970",
+      "1978"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1970”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A41",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The greenish-yellow color of whey is due to:",
+    "options": [
+      "Niacin",
+      "Folic acid",
+      "Riboflavin",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Riboflavin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A42",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "HTST pasteurization heats milk to about:",
+    "options": [
+      "72°C for 10 seconds",
+      "72°C for 15 seconds",
+      "72°C for 20 seconds",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “72°C for 15 seconds”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A43",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The primary hormone that stimulates the synthesis of casein is:",
+    "options": [
+      "Insulin",
+      "Prolactin",
+      "Cortisol",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Prolactin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A44",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Blood meal is rich in the amino acid:",
+    "options": [
+      "Threonine",
+      "Lysine",
+      "Alanine",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lysine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A45",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Troponin C has affinity for:",
+    "options": [
+      "Calcium",
+      "Potassium",
+      "Sodium",
+      "None of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Calcium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A46",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "India’s meat production for the 2023-24 fiscal year was:",
+    "options": [
+      "8.50 million tonnes",
+      "10.25 million tonnes",
+      "13.75 million tonnes",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “10.25 million tonnes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A47",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The ritual method of slaughter in the Hindu religion is:",
+    "options": [
+      "Halal",
+      "Kosher",
+      "Jhatka",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Jhatka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A48",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Which is not a method for the treatment of condemned meat and carcasses?",
+    "options": [
+      "Incineration",
+      "Burial",
+      "Rendering",
+      "None of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “None of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A49",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "The process of breaking milk fat globules is termed:",
+    "options": [
+      "Centrifugation",
+      "Microfiltration",
+      "Homogenization",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Homogenization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-A50",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following governs the safety and quality of processed meat products in India?",
+    "options": [
+      "Food Safety and Standards Authority of India",
+      "Meat Food Products Order, 1973",
+      "Food Safety and Standards Act, 2006",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Food Safety and Standards Act, 2006”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define a vice. Describe the common vices and their preventive measures in horses and cattle. (2+8+10=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What do you mean by animal restraining? Describe the different physical restraining methods in farm animals.(4+16=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is inbreeding? Write the genetic and phenotypic consequences of inbreeding. Enumerate the applications of inbreeding.(2+10+8=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is a feed additive? Classify the feed additives, providing at least three examples for each group. Enumerate the advantages and disadvantages of antibiotics as feed additives in the ration of poultry and swine.(2+10+8=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is meant by feeding standard? Describe different feeding standards for livestock.(4+16=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Enumerate different types of communication. Describe the elements and barriers of communication. (6+6+8=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What do you mean by meat processing? Describe modern processing techniques in the comminution of meat.(4+16=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1-written-8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the common defects of milk products and their remedial measures.(8+12=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Eschar is developed in the skin of human which is the hallmark lesion of:",
+    "options": [
+      "Scrub typhus",
+      "Q-fever",
+      "Black death",
+      "Black leg"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Scrub typhus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The presentation of endogenous antigen by APC takes place through _______ activating _______ response.",
+    "options": [
+      "MHC-I, humoral mediated immune",
+      "MHC-I, CMI",
+      "MHC-II, humoral",
+      "MHC-II, CMI"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “MHC-I, CMI”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "One among the listed is true for Listeria.",
+    "options": [
+      "Gram positive, can grow in 4°C",
+      "Gram positive, cannot grow in 4°C",
+      "Gram negative, can grow in 4°C",
+      "Gram positive, cannot grow in 4°C"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Gram positive, can grow in 4°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Cancer causing virus are:",
+    "options": [
+      "Papillomavirus (HPV), Hepatitis B and Bovine Ephemeral Fever Virus",
+      "Papillomavirus (HPV), Hepatitis B (HBV) and Retrovirus",
+      "Papillomavirus (HPV), Epstein-Barr Virus, Asfaviridae",
+      "Papillomavirus (HPV), Hepatitis B, C & Bornaviridae"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Papillomavirus (HPV), Hepatitis B (HBV) and Retrovirus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The following statement about Marek’s disease is true:",
+    "options": [
+      "It is caused by avian herpesvirus (MDV) which induce B-cell lymphomas and",
+      "It is caused by avian adenovirus serotype 4 (FAdV) which induce B-cell lymphomas and",
+      "It is caused by avian herpesvirus (MDV) which induce T-cell lymphomas and",
+      "It is caused by avian adenovirus serotype 4 (FAdV) which induce T-cell lymphomas and"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “It is caused by avian herpesvirus (MDV) which induce T-cell lymphomas and”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Mycobacterium bovis is:",
+    "options": [
+      "Gram positive, contains high lipid layer in the cell wall, spore forming",
+      "Gram positive, contains high lipid layer in the cell wall, non-spore forming",
+      "Gram negative, contains low lipid layer in the cell wall, spore forming",
+      "Gram positive, contains low lipid layer in the cell wall, non-spore forming"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Gram positive, contains high lipid layer in the cell wall, non-spore forming”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The component of vaccine against Newcastle in poultry is:",
+    "options": [
+      "Live virus attenuated vaccine- La Sota strain",
+      "Killed virus vaccine- La Sota strain",
+      "Live virus attenuated vaccine- S19 strain",
+      "Killed virus vaccine- S19 strain"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Live virus attenuated vaccine- La Sota strain”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The choice of disinfectant during the outbreak of CSF are:",
+    "options": [
+      "Sodium hypochloride, Caustic Soda, Potassium Permanganate",
+      "Sodium hypochloride and Caustic Soda",
+      "Sodium hydroxide and Potassium Permanganate",
+      "Sodium hypochloride and Potassium Permanganate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sodium hypochloride and Caustic Soda”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A9",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Select the most correlating pathogens and the disease they cause:",
+    "options": [
+      "Brooders pneumonia (Aspergillus), Ephemeral fever (Rhabdoviridae), Infectious coryza",
+      "Brooders pneumonia (Histoplasma), Ephemeral fever (Rhabdoviridae), Infectious coryza",
+      "Brooders pneumonia (Aspergillus) Ephemeral fever (Rhabdoviridae), Infectious coryza",
+      "Brooders pneumonia (Aspergillus), Ephemeral fever (Flavivirus), Infectious coryza (Retrovirus),"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Brooders pneumonia (Aspergillus), Ephemeral fever (Rhabdoviridae), Infectious coryza”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A10",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Humoral type of immunity is stimulated when the antigen induced:",
+    "options": [
+      "Th1 type of immune response",
+      "Th2 type of immune response",
+      "Cytotoxic type of immune response",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Th2 type of immune response”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A11",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "High titre of IgM is seen during serological examination that indicates:",
+    "options": [
+      "Primary infection or initial stage of infection",
+      "Secondary infection or chronic stage of infection",
+      "Tumor formation",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Primary infection or initial stage of infection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A12",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The stain generally used for identifying fungus is:",
+    "options": [
+      "Giemsa’s stain",
+      "Lactophonol",
+      "Lactophenol cotton blue",
+      "Zeihl-Nelson stain"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lactophenol cotton blue”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A13",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Lactose intolerance happen where:",
+    "options": [
+      "The small intestine does not produce enough lactase",
+      "The liver does not produce enough lactase",
+      "The small intestine does not produce enough lactocase",
+      "The liver does not enough lactocase"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The small intestine does not produce enough lactase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A14",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The nature of ASF virus is:",
+    "options": [
+      "Double stranded which multiply in the cytoplasm of the infected cell",
+      "Single stranded which multiply in the cytoplasm of the infected cell",
+      "Retro virus which multiply in the cytoplasm of the infected cell",
+      "It can transform in any form which makes the virus extremely lethal for pigs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Double stranded which multiply in the cytoplasm of the infected cell”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A15",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "A cattle suffers from pyrexia, enlarge lymph nodes and nodules in the skin, (2-5 cm in diameter), nodules in mucous membrane, nasal and ocular discharges is indicative of:",
+    "options": [
+      "Theileriosis",
+      "Lympy Skin Disease",
+      "Bovine Ephemeral fever",
+      "Foot and Mouth Disease"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lympy Skin Disease”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A16",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The transmission of FMD virus may be completed through:",
+    "options": [
+      "Aerosol, milk, semen",
+      "Aerosol and fomites",
+      "Aerosol, feed and water",
+      "All of the above"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A17",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Reproductive problems is the most obvious clinical signs in the infection of pigs among the disease listed below:",
+    "options": [
+      "CSF",
+      "ASF",
+      "PRRS",
+      "Swine Influenza"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “PRRS”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A18",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The causative agent of greasy pig disease is:",
+    "options": [
+      "Erysipelothrix rhusiopathiae",
+      "Staphylococcus hyicus",
+      "Streptococcus suis",
+      "Clostridium perfingens"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Staphylococcus hyicus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A19",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Under microscopic examination of stained blood smear, various sizes of RBCs are seen which is indicative of:",
+    "options": [
+      "Erythropoiesis",
+      "Hyperthyroidism",
+      "Acute viral disease condition",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Erythropoiesis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A20",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "During urine analysis, the level of bilirubin is quantified for:",
+    "options": [
+      "Acidity",
+      "Kidney stone",
+      "Liver disease",
+      "UTI"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Liver disease”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A21",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The normal pH of milk is _______.",
+    "options": [
+      "4.6",
+      "5.6",
+      "6.6",
+      "7.6"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “6.6”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A22",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Souring & gassiness of milk is caused by _______ group, which indicates the contamination of milk and its products.",
+    "options": [
+      "Lactic acid",
+      "Bacillus lactis",
+      "Coliform",
+      "Streptococcus"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Coliform”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A23",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Clonorchiosis is an example of :",
+    "options": [
+      "Metazoonosis subtype II",
+      "Metazoonosis subtype III",
+      "Metazoonosis subtype IV",
+      "Cyclozoonosis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Metazoonosis subtype III”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A24",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "During slaughtering of pig, the captive bolt should be placed _______.",
+    "options": [
+      "on top of head",
+      "middle of forehead",
+      "2.5 centimeters above eye level",
+      "13 mm running down the centre of forehead"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “2.5 centimeters above eye level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A25",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "_______ is the type of vaccination that is practiced both within and around the region where an outbreak had occurred.",
+    "options": [
+      "Ring vaccination",
+      "Strategic vaccination",
+      "Barrier vaccination",
+      "Suppressive vaccination"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Suppressive vaccination”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A26",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The first step in disease investigation:",
+    "options": [
+      "Analytical epidemiology",
+      "Horizontal epidemiology",
+      "Descriptive epidemiology",
+      "Predictive epidemiology"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Descriptive epidemiology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A27",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Koch’s postulate is not applicable to which of the following:",
+    "options": [
+      "Ebola",
+      "Mastitis",
+      "Collibacillosis",
+      "Salmonellosis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mastitis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A28",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The animal species which is most susceptible for tetanus is _______.",
+    "options": [
+      "dog",
+      "horse",
+      "cattle",
+      "sheep"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “horse”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A29",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Example of algal zoonosis:",
+    "options": [
+      "Scrub typhus",
+      "Actinomycosis",
+      "Fascioliasis",
+      "Protothecosis"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Protothecosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A30",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Recording of events occurring in a particular point of time is called _______.",
+    "options": [
+      "Prospective survey",
+      "Retrospective survey",
+      "Cross-sectional survey",
+      "Longitudinal survey"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cross-sectional survey”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A31",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Relate the following hormone in direct connection to GnRH:",
+    "options": [
+      "FSH & LH",
+      "FSH, LH & Progesterone",
+      "FSH & Testosterone",
+      "FSH, LH & TSH"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “FSH & LH”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A32",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The final product of oxidative phosphorylation is:",
+    "options": [
+      "NADH",
+      "ATP",
+      "FADH2",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ATP”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A33",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Deamination is the_______of amino group from/to amino acid which occurs in _______.",
+    "options": [
+      "release, kidney",
+      "release, liver",
+      "uptake, liver",
+      "uptake, kidney"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “release, liver”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A34",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Hypoglycemia in piglets is due to:",
+    "options": [
+      "Inefficient glycolysis",
+      "Inefficient TCA cycle",
+      "Insufficient colostrum and milk intake",
+      "Inefficient gluconeogenesis"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Insufficient colostrum and milk intake”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A35",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "In nature pH level ranges from:",
+    "options": [
+      "0-14",
+      "1-12",
+      "1-10",
+      "2-10"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “0-14”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A36",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "During skeletal muscle contraction, _______ binds to troponin.",
+    "options": [
+      "calcium",
+      "magnesium",
+      "sodium",
+      "potassium"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “calcium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A37",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "In the blood, oxygen binds to hemoglobin of the red blood cells (RBCs) to form _______ and is carried to the body’s tissues.",
+    "options": [
+      "2-Haemoxyglobin",
+      "Oxyhaemoglobin",
+      "Beta-haemoxyglobin",
+      "Oxyglobinogen"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Oxyhaemoglobin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A38",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The release of egg from ovary during oestrus/menstrual is stimulated by_______.",
+    "options": [
+      "Surge of LH level",
+      "Dip in the LH level",
+      "Surge in the FSH",
+      "Dip in the FSH"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Surge of LH level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A39",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "RNA is more labile to hydrolysis than DNA because of the presence of _______.",
+    "options": [
+      "2'-hydroxyl group (2'-OH) on its ribose sugar in RNA",
+      "2'-hydroxyl group (2'-OH) on its fructose sugar in RNA",
+      "5'-hydroxyl group (2'-OH) on its ribose sugar in RNA",
+      "5'-hydroxyl group (2'-OH) on its fructose sugar in RNA"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “2'-hydroxyl group (2'-OH) on its ribose sugar in RNA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A40",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The RBC of _______ is biconcave in nature.",
+    "options": [
+      "goat",
+      "dog",
+      "camel",
+      "pig"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “dog”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A41",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Consumption of measly pork leads to an infection known as:",
+    "options": [
+      "Cysticercosis",
+      "Taeniasis",
+      "Hydatidosis",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Taeniasis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A42",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "McLean County system is applicable only in Ascaris suum infection among the ascarid worm due to:",
+    "options": [
+      "Absence of somatic migration of the larvae",
+      "Presence of somatic migration",
+      "The large size stage two larva",
+      "Thick albuminous covering of the egg"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Absence of somatic migration of the larvae”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A43",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "A dog suffering from high fever, anaemia/pale mucous membrane, ascites with tick infestation is indicative of _______ and treatment may be given with _______.",
+    "options": [
+      "Neospora caninum, Imidocarb",
+      "Trypanosoma evansi, Diaminazine aceturate",
+      "Babesia gibsoni, Imidocarb",
+      "Hepatozoon canis, Diaminazine aceturate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Babesia gibsoni, Imidocarb”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A44",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Examination of the stool of immunocompromised person contains a short tail parasitic larva is an indicative of _______ and the confirmation is done by_______.",
+    "options": [
+      "Strongyloides stercoralis, Harada Mori technique",
+      "Ancylostoma duodenale, Formol-ether technique",
+      "Schistosoma mansoni, Mac Master Technique",
+      "Ascaris lumbricoides, Salt floatation Technique"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Strongyloides stercoralis, Harada Mori technique”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A45",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Cat is the only definitive infection for Toxoplasma gondii which is due to:",
+    "options": [
+      "Presence of delta-6-desaturase",
+      "Absence of delta-6-desaturase",
+      "Presence of alpha-6-desaturase",
+      "Absence of alpha-6-desaturase"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Absence of delta-6-desaturase”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A46",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Which among the statements is true for Sarcoptes?",
+    "options": [
+      "The female parasite lay up to 3000 eggs (approx.) in a burrow and dies at the end of a tunnel",
+      "The female parasite lay up to 30 eggs (approx.) in a burrow and dies at the end of a tunnel",
+      "The female parasite lay up to 3000 eggs (approx.) in a burrow dig another tunnel",
+      "The female parasite lay up to 30 eggs (approx.) in a burrow and dig another tunnel"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The female parasite lay up to 30 eggs (approx.) in a burrow and dies at the end of a tunnel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A47",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "Arrange the following in the chronological order:",
+    "options": [
+      "Adult, sporocyst, miracidium, redia, cercaria, metacercaria",
+      "Adult, miracidium, redia, sporocyst, cercaria, metacercaria",
+      "Adult, miracidium, sporocyst, redia, cercaria, metacercaria",
+      "Adult, redia, sporocyst, miracidium, cercaria, metacercaria"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adult, miracidium, sporocyst, redia, cercaria, metacercaria”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A48",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The most appropriate relationship of the following intermediate host and a parasite is:",
+    "options": [
+      "Land snail, Angiostrongylus cantonensis",
+      "Mosquito, Spirocerca lupi",
+      "Water snail, Dicrocoelium dentriticum",
+      "Fresh water fish, Paragonimus westermani"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Land snail, Angiostrongylus cantonensis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A49",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "In apicomplexan parasite, recognition and penetration of a target cell is taken by the following organelles such as _______ & _______, respectively.",
+    "options": [
+      "Conoid, microneme",
+      "Dense granule, rhoptry",
+      "Sub-pellicular microtubule, conoid",
+      "Microneme, Conoid"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Microneme, Conoid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-A50",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-II",
+    "difficulty": "medium",
+    "question": "The etiology of alveolar hydatidosis is_______.",
+    "options": [
+      "Echinococcus granulosus",
+      "Echinococcus multilocularis",
+      "Echinococcus vogeli",
+      "E. oligarthrus"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Echinococcus multilocularis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. Describe various stages of estrus cycle; ovulation; fertilization and pregnancy in farm animals. (10)\nb. What is recombinant DNA? How is recombinant DNA construct generated? Mention the utility of recombinant DNA.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Enlist Eimeria of chicken, write the pathogenesis of hemorrhagic and non-hemorrhagic coccidiosis in chicken, their clinical manifestation, post-mortem lesions and their control strategies.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. What is cell injury? Write different types of cell injury.(10)\nb. Write different types of skin diseases in animals due to various atiological agents.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is rabies? What is the etiology, transmission pattern, pathogenesis, clinical manifestation in man and in animals and control strategies of rabies?(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. What is myasis in animal?(5)\nb. Write various generations of vaccines with example.(5)\nc. Differentiate Mareks’ disease and Lymphoid Leukosis.(5)\nd. Write the protocol and reagents of PCR reaction.(5)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. Write the hormones of various endocrine organs, their mode of actions, and the manifestation of imbalance, if any.(10)\nb. Write the mechanism of urine formation mentioning the significance of each of the structure nephron.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. Scabies in pigs, aetiology, the pathogenesis, clinical manifestation and diagnosis.(10)\nb. Parvo virus infection in dogs, the pathogenesis, clinical manifestation and treatment and control (10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2-written-8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following:\na. What is clean milk? How can clean milk production be achieved?(10)\nb. Define HAACP and explain the principles of HAACP.(10)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Largest sinus in the head of horse is _______.",
+    "options": [
+      "Sphenoid sinus",
+      "Palantine sinus",
+      "Frontal sinus",
+      "Maxillary sinus"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Maxillary sinus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Cyanide poisoning in animals results in _______ type of anoxia.",
+    "options": [
+      "anoxic",
+      "cytotoxic",
+      "anaemic",
+      "circulatory"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “cytotoxic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Castration cells are present in _______.",
+    "options": [
+      "testes",
+      "anterior pituitary",
+      "hypothalamus",
+      "uterus"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “anterior pituitary”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Weaver finch feather test is done for _______.",
+    "options": [
+      "luteinizing hormone",
+      "progesterone",
+      "follicle stimulating hormone",
+      "prolactin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “luteinizing hormone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The most potent local anaesthetic among the following is _______.",
+    "options": [
+      "lidocaine",
+      "procaine",
+      "bupivacaine",
+      "prilocaine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “bupivacaine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Lumpy skin disease in cattle is caused by _______.",
+    "options": [
+      "Parapox virus",
+      "Capripox virus",
+      "Herpes virus",
+      "Vaccinia virus"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Capripox virus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "FAMACHA score card is used for the management of _______ infection in sheep and goats.",
+    "options": [
+      "Haemonchus",
+      "Capillaria",
+      "Ostertagia",
+      "Trichostrongylus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Haemonchus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The major vector for African swine fever in pigs is _______.",
+    "options": [
+      "Culex",
+      "Stomoxys",
+      "Culicoides",
+      "Ornithodorous"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ornithodorous”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A9",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "A non-selective H1 anti-histamine among the following is _______.",
+    "options": [
+      "Chlorpheniramine",
+      "Promethazine",
+      "Cetirizine",
+      "Diphenhydramine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cetirizine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A10",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Bull Nose’in pigs is caused by _______ spp.",
+    "options": [
+      "Haemophilus",
+      "Clostridium",
+      "Fusobacterium",
+      "Bacillus"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Fusobacterium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A11",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Brainstem auditory evoked response (BAER) test is done for _______ nerve.",
+    "options": [
+      "trochlear",
+      "vestibulocochlear",
+      "facial",
+      "occulomotor"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “vestibulocochlear”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A12",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Papple shaped abdomen’ in bovines is a characteristic of _______.",
+    "options": [
+      "abomasal displacement",
+      "vagus indigestion",
+      "ruminal impaction",
+      "tympany"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “vagus indigestion”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A13",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Traumatic suture needles are used for suturing _______.",
+    "options": [
+      "oesophagus",
+      "rumen",
+      "peritoneum",
+      "skin and fascia"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “skin and fascia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A14",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Arthropathy’ is one of the side effects of _______.",
+    "options": [
+      "fluroquinolones",
+      "aminoglycosides",
+      "cephalosporins",
+      "sulfonamides"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “fluroquinolones”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A15",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Histologic classification of placenta of pig is _______.",
+    "options": [
+      "haemochorial",
+      "syndesmochorial",
+      "haemoendothelial",
+      "epitheliochorial"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “epitheliochorial”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A16",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Foetal membrane in which the earliest blood forming cells appear is _______.",
+    "options": [
+      "amnion",
+      "yolk sac",
+      "chorion",
+      "allantois"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “yolk sac”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A17",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "A cholinergic drug that is used for the management of ruminal atony is _______.",
+    "options": [
+      "Methacholine",
+      "Acetylcholine",
+      "Carbachol",
+      "Nor-adrenaline"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Carbachol”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A18",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Hypotonic dehydration occurs in _______.",
+    "options": [
+      "copious sweating",
+      "nephrosis",
+      "enterotoxigenic collibacilllosis",
+      "water deprivation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “enterotoxigenic collibacilllosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A19",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Blue eye’ condition in dogs is associated with _______.",
+    "options": [
+      "Rubarth disease",
+      "Carre’s disease",
+      "Canine leptospirosis",
+      "Canine babesiosis"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rubarth disease”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A20",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Enzootic ataxia in sheep is mainly noticed in _______.",
+    "options": [
+      "Weaned lambs",
+      "Unweaned lambs",
+      "Adult animals",
+      "Pregnant animals"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Unweaned lambs”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A21",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Punishment for false evidence’ comes under Section _______of the Indian Penal Code.",
+    "options": [
+      "377",
+      "428",
+      "272",
+      "193"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “193”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A22",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Crazy chick disease in poultry is caused due to the deficiency of _______.",
+    "options": [
+      "Vitamin D",
+      "Vitamin A",
+      "Thiamine",
+      "Vitamin E"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Vitamin E”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A23",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Tapetum lucidum of eye is associated with _______.",
+    "options": [
+      "cornea",
+      "scelera",
+      "iris",
+      "choroid"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “choroid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A24",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ is an example for potassium sparing diuretic.",
+    "options": [
+      "Spiranalactone",
+      "Frusemide",
+      "Torsemide",
+      "Mannitol"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Spiranalactone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A25",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The dose rate of vincristine for the management of canine transmissible veneral tumor is _______.",
+    "options": [
+      "0.25 mg/kg",
+      "0.025 mg/kg",
+      "2.5 mg/kg",
+      "25 mg/kg"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “0.025 mg/kg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A26",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Scythe-shaped spleen is present in _______.",
+    "options": [
+      "dog",
+      "pig",
+      "horse",
+      "ox"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “horse”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A27",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ is an example of lipotropic factor.",
+    "options": [
+      "Cysteine",
+      "Choline",
+      "Riboflavin",
+      "alpha-glycerophosphate"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Choline”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A28",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "‘Colopexy’ surgical technique is used for the management of _______.",
+    "options": [
+      "inflammatory bowel disease",
+      "recurrent rectal prolapse",
+      "constipation",
+      "colon tumours"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “recurrent rectal prolapse”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A29",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Incompatible blood transfusion is an example for _______  of hypersensitivity reaction.",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Type II”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A30",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Damage to _______ nerve causes roaring in equines.",
+    "options": [
+      "recurrent laryngeal",
+      "glossopharyngeal",
+      "vagus",
+      "accessory"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “recurrent laryngeal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A31",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Mucosa of urinary bladder is lined by _______ epithelium.",
+    "options": [
+      "simple squamous",
+      "stratified",
+      "transitional",
+      "simple cuboidal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “transitional”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A32",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The foramen magnum is present in _______ bone.",
+    "options": [
+      "occipital",
+      "parietal",
+      "temporal",
+      "frontal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “occipital”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A33",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Ovulation in cattle occurs during _______.",
+    "options": [
+      "proestrus",
+      "estrus",
+      "metestrus",
+      "diestrus"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “metestrus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A34",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "An induced ovulator among the following is _______.",
+    "options": [
+      "bovine",
+      "canine",
+      "ovine",
+      "feline"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “feline”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A35",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ is considered as gold standard treatment for urethral obstruction in Veterinary case.",
+    "options": [
+      "Perineal urethrostomy",
+      "Tube cystotomy",
+      "Urethrotomy",
+      "Urinary bladder marsupialisation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tube cystotomy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A36",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Hard Pad disease is also known as:",
+    "options": [
+      "Canine Distemper",
+      "Blue ear disease",
+      "Parvoviral Infection",
+      "Swine fever"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Canine Distemper”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A38",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ is a nuclear sperm defect.",
+    "options": [
+      "Distal droplet",
+      "Cork screw sperm",
+      "Diadem sperm",
+      "Dag’s defect"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Diadem sperm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A39",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Testicular descent occurs at last quarter of foetal life in _______.",
+    "options": [
+      "boar",
+      "ram",
+      "buck",
+      "stallion"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “boar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A40",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Fredet Ramstedt operation is performed for _______.",
+    "options": [
+      "gastric dilatation and volvulus",
+      "gastric ulcer",
+      "pyloric stenosis",
+      "gastric tumour"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “pyloric stenosis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A41",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ (species) is the most sensitive to xylazine.",
+    "options": [
+      "Dog",
+      "Cat",
+      "Cattle",
+      "Horse"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cattle”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A42",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ is the best incision site for removing foetus from uterus during caesarean section in dogs.",
+    "options": [
+      "Body of uterus",
+      "Tip of uterine horn",
+      "Centre of uterine horn",
+      "Cervix"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Body of uterus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A43",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "_______ pin is used most frequently in veterinary orthopaedics.",
+    "options": [
+      "Sherman",
+      "Threaded",
+      "Steinman",
+      "Rush"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Steinman”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A44",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Radiographic confirmation of pregnancy in bitch is possible as early as _______.",
+    "options": [
+      "20-25 days of gestation",
+      "55-60 days of gestation",
+      "42-45 days of gestation",
+      "10-20 days of gestation"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “42-45 days of gestation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A45",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The highest concentration of inositol is found in the semen of _______.",
+    "options": [
+      "bull",
+      "boar",
+      "ram",
+      "buck"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “boar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A46",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Tarsorrhaphy refers to suturing of _______.",
+    "options": [
+      "eye ball",
+      "tarsal gland",
+      "eyelid",
+      "tendon"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “eyelid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A47",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "N-acetylcysteine is an anti-dote for _______ toxicity.",
+    "options": [
+      "Acetaminophen",
+      "Ivermectin",
+      "Xylazine",
+      "Warfarin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Acetaminophen”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A48",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Phalangeal exostosis is known as _______.",
+    "options": [
+      "splint bone",
+      "spavin",
+      "ring bone",
+      "side bone"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ring bone”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A49",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "Intussusception occurs most commonly in _______.",
+    "options": [
+      "duodenum",
+      "rectum",
+      "colon",
+      "ileum"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “ileum”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-A50",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "AH & Vety Paper-III",
+    "difficulty": "medium",
+    "question": "The rate of fluid administration of isotonic crystalloid fluids during hypovolemic shock in dogs is _______.",
+    "options": [
+      "10-20 mL/kg/hr",
+      "40 mL/kg/hr",
+      "90 mL/kg/hr",
+      "60 mL/kg/hr"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “90 mL/kg/hr”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-1",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the etio-pathogenesis, clinical manifestations, diagnosis, differential diagnosis, treatment and prevention of porcine reproductive and respiratory syndrome (PRRS) in pigs.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-2",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write the etiology, pathophysiology and management of acute kidney injury (AKI) and chronic kidney disease (CKD) in dogs.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-3",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Mention the principles of treatment in cases of poisoning. Describe the management of cyanide and ivermectin toxicity in animals.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-4",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe etiology and classification of fracture along with fracture healing process and various methods of immobilization.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-5",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define wound and give its classification, and describe process, factors affecting, and complications of wound healing.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-6",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define brachial plexus. Enlist various branches of brachial plexus with their innervation. Describe the course of radial and ulnar nerves with their clinical significance.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-7",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define dystocia. Classify the causes of dystocia in domestic animals. Write in detail about mutation techniques.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3-written-8",
+    "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define infertility. Classify different forms of infertility. Write in detail about non-infectious causes of infertility in domestic animals.(20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which plants hormone plays an important role in apical dominance?",
+    "options": [
+      "Gibberellins",
+      "Auxin",
+      "ABA",
+      "Cytokinins"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Auxin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Abundant flowering and fruiting with lessened vegetative growth can result in which condition?",
+    "options": [
+      "High ‘C’ and relatively lower ‘N’ content",
+      "High ‘N’ and relatively lower ‘C’ content",
+      "Low ‘N’ and low ‘C’ content",
+      "High ‘C’ and high ‘N’ content"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “High ‘C’ and relatively lower ‘N’ content”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=1",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Dioecious form of sex is found in:",
+    "options": [
+      "Citrus",
+      "Aonla",
+      "Papaya",
+      "Litchi"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Papaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which is a climacteric type of fruit?",
+    "options": [
+      "Grape",
+      "Orange",
+      "Litchi",
+      "Papaya"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Papaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=1",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Study for production and cultivation of grapes is known as:",
+    "options": [
+      "Floriculture",
+      "Arboriculture",
+      "Viticulture",
+      "Olericulture"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Viticulture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Herbaceous stem cutting is popularly done in:",
+    "options": [
+      "Chrysanthemum",
+      "Nerium",
+      "Emblica",
+      "Lotus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chrysanthemum”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Heterostyly condition is observed in:",
+    "options": [
+      "Tomato",
+      "Brinjal",
+      "Potato",
+      "Onions"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Brinjal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "In-situ grafting is practiced in:",
+    "options": [
+      "Laboratory",
+      "Planting site",
+      "Test tube",
+      "Aerial parts"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Planting site”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A9",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Mevalonic acid is a precursor of:",
+    "options": [
+      "IAA",
+      "NAA",
+      "ABA",
+      "BAP"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ABA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A10",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Rossette formation is seen due to deficiency of:",
+    "options": [
+      "Mn",
+      "Zn",
+      "Cu",
+      "Mo"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Zn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A11",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Epigeal germination is seen in:",
+    "options": [
+      "Cashew",
+      "Coconut",
+      "Mango",
+      "Citrus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cashew”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A12",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The ratio of NPK in starter solution should be:",
+    "options": [
+      "2:1:1",
+      "2:2:1",
+      "1:2:1",
+      "1:2:2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1:2:1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A13",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which crop is the most susceptible to water logging:",
+    "options": [
+      "Banana",
+      "Pomegranate",
+      "Papaya",
+      "Jack fruit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Papaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A14",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "‘Breeder seed’ is the source of :",
+    "options": [
+      "Certified seeds",
+      "Nucleus seeds",
+      "Foundation seeds",
+      "Registered seeds"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Foundation seeds”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A15",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "For breaking bud dormancy, suitable chemical is-",
+    "options": [
+      "Abscisic acid",
+      "NAA",
+      "Ethylene",
+      "IBA"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ethylene”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A16",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is free-living nitrogen fixing biofertilizer?",
+    "options": [
+      "Rhizobium",
+      "Azotobacter",
+      "Pseudomonas",
+      "Penicillium"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Azotobacter”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A17",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which PGR is used to induce femaleness in fruit?",
+    "options": [
+      "GA",
+      "ABA",
+      "2,4-D",
+      "Maleic Hydrazide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Maleic Hydrazide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A18",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "In biodynamic farming, known formulation BD-501 is made with:",
+    "options": [
+      "Cow horn silica",
+      "Chamomile in cow intestine",
+      "Himalayan stinging nettle",
+      "Himalayan oak bark"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Cow horn silica”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A19",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which method of grafting is most used in temperate fruit propagation?",
+    "options": [
+      "Epicotyl grafting",
+      "Wedge grafting",
+      "Tongue grafting",
+      "Approach grafting"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tongue grafting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A20",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Most commonly used training system in Kiwi fruit production:",
+    "options": [
+      "Espalier",
+      "Spindle bush",
+      "Modified Central Leader",
+      "T-bar"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “T-bar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A21",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which micronutrients are commonly used for controlling mango fruit drop?",
+    "options": [
+      "Co &Ni",
+      "B &Zn",
+      "Ca &Fe",
+      "S &Mg"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “B &Zn”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A22",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "As the soil pH increases, the relative proportion of which ion decreases?",
+    "options": [
+      "H₂PO₄ ⁻",
+      "HPO₄²⁻",
+      "PO43-",
+      "HPO₄⁻"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “H₂PO₄ ⁻”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A23",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "At field capacity the value of pF is:",
+    "options": [
+      "0.0",
+      "2.5",
+      "4.2",
+      "6.0"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2.5”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A24",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The critical stage for irrigation in garden pea is:",
+    "options": [
+      "Sowing",
+      "Leaf initiation",
+      "Pod setting",
+      "Harvesting"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pod setting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A25",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Botanical fruit type of pomegranate is:",
+    "options": [
+      "Drupe",
+      "Berry",
+      "Sorosis",
+      "Balausta"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Balausta”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A26",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Chemical formula of ‘Dolomite’, commonly used chemical in correction of soil pH is:",
+    "options": [
+      "CaCO₃",
+      "MgSO₄",
+      "Ca(OH)₂",
+      "CaMg(CO₃)₂"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “CaMg(CO₃)₂”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A27",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Per cent content of sulphur in single super phosphate is:",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “12”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A28",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is not a type of greenhouse design?",
+    "options": [
+      "Quonset",
+      "Gothic arch",
+      "Saw-tooth",
+      "K-frame"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “K-frame”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A29",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is salt resistant rootstock of grapes?",
+    "options": [
+      "St. George",
+      "River Bank",
+      "Dogridge",
+      "Saltdot"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Dogridge”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A30",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "The effect of ‘Vernalization’ on flower induction can be reversed by treatment with:",
+    "options": [
+      "light exposure",
+      "blocking lights",
+      "low temperature",
+      "high temperature"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “high temperature”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A31",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "In Hasth Bahar, fruit ripening of guava occurs in-",
+    "options": [
+      "February-April",
+      "October-November",
+      "July-September",
+      "November-January"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “February-April”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A32",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "‘Cauliflory’ is a specialized bearing habit observed in which fruit crop?",
+    "options": [
+      "Mango",
+      "Ber",
+      "Sapota",
+      "Jackfruit"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Jackfruit”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A34",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is a non-selective herbicide?",
+    "options": [
+      "Atrazine",
+      "Fluchloralin",
+      "Paraquat",
+      "Butachlor"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Paraquat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A35",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which endogenous hormone is responsible for seed dormancy?",
+    "options": [
+      "IAA",
+      "ABA",
+      "Ethylene",
+      "IBA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ABA”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A36",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is a polyembryonic mango variety?",
+    "options": [
+      "Tomy Atkins",
+      "Mehmood Behar",
+      "Olour",
+      "Lakhsman Bhog"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Olour”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A37",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is an important trap crop for nematode?",
+    "options": [
+      "Marigold",
+      "Chrysanthemum",
+      "Hibiscus",
+      "Aster"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Marigold”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A38",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Full form of IFOAM is:",
+    "options": [
+      "International Foundation of Organic Agriculture Movements",
+      "International Federation of Organic Agriculture Movements",
+      "Indian Federation of Organic Agriculture Movements",
+      "International Foundation of Organic Agriculture Measures"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “International Federation of Organic Agriculture Movements”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A39",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is not used as glazing material in green house construction?",
+    "options": [
+      "Glass",
+      "Rubber wood",
+      "Fibre glass reinforced plastic (FRP)",
+      "UV stabilized low density polyethylene (LDPE)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Rubber wood”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A40",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Trichogramma brasiliensis work as egg parasite to control which pest?",
+    "options": [
+      "Fruit borer in tomato",
+      "Epilachna beetle on potatoes",
+      "Chilli thrips",
+      "Nematode in brinjal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Fruit borer in tomato”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A41",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which fruit does not have double sigmoid growth curve?",
+    "options": [
+      "Grape",
+      "Mango",
+      "Peach",
+      "Persimmon"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mango”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A42",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Multi-tier cropping is commonly practiced in which horticulture crop?",
+    "options": [
+      "Grape",
+      "Fig",
+      "Guava",
+      "Coconut"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Coconut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A43",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which method of grafting is followed for topworking while rejuvenating old mango orchard?",
+    "options": [
+      "Tongue grafting",
+      "Whip grafting",
+      "Cleft grafting",
+      "Epicotyl grafting"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cleft grafting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A44",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is most potent ethylene inhibitor?",
+    "options": [
+      "ABA",
+      "1-MCP",
+      "GA",
+      "Brassinolide"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1-MCP”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A45",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Among these, which micro-irrigation method is generally having highest discharge rate?",
+    "options": [
+      "Drip",
+      "Sprinkler",
+      "Bubbler",
+      "Pitcher"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sprinkler”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A46",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Whiptail of cauliflower is due to which deficiency?",
+    "options": [
+      "B",
+      "K",
+      "Mo",
+      "Ca"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Mo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A47",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Lycopene is found in high quantity in which vegetable crop?",
+    "options": [
+      "Radish",
+      "Parsley",
+      "Tomato",
+      "Pumpkin"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tomato”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A48",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Panicle (Spadix) type inflorescence found in which crop?",
+    "options": [
+      "Tamarind",
+      "Coconut",
+      "Cocoa",
+      "Sapota"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Coconut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A49",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which one is not animal based concentrated organic manure?",
+    "options": [
+      "FYM",
+      "Bone Meal",
+      "Horn Meal",
+      "Hoof meal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “FYM”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-A50",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-I",
+    "difficulty": "medium",
+    "question": "Which method of irrigation is mostly followed in fruit tree cultivation?",
+    "options": [
+      "Furrow",
+      "Check basin",
+      "Ring Basin",
+      "Flood"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ring Basin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe briefly the factors responsible for fruit drop. How do you control fruit drop problem? Explain the objectives and methods for fruit thinning.(6+4+5+5=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are plant bio-regulations? Briefly describe their functions. What are the different types of auxins? Briefly write about their functions and applications.(2+8+3+7=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Give short note on any four:(4×5=20)\na. Vermicompost\nb. Crop rotation\nc. Biofertilizer\nd. Green manure",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is budding? Describe briefly about different techniques of budding with suitable diagram. Describe how rootstock can influence the performance of scion cultivar in a stock-scion relationship. (2+8+10=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe with layout diagram different surface irrigation systems. What are the advantages of  micro- irrigation over conventional irrigation? Give a brief description of different micro-irrigation methods. (10+4+6=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the essential nutrients for plants? Make a list of it and explain the difference between macronutrients and micro nutrients. Give example of two macro and two micronutrients with their role and deficiency symptoms. (2+6+12=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Define Integrated Nutrient Management. What are the prime objectives of INM? Briefly write about the methods of INM. Write in short about advantages and limitations of INM.(2+4+8+6=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1-written-8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What do you understant by weed? Explain the concept of Integrated Weed Management (IWM). What is the need for IWM? Give a brief account of different methods for weed control. (2+4+4+10=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Parthenocarpy is a characteristic feature of:",
+    "options": [
+      "Banana",
+      "Guava",
+      "Litchi",
+      "Citrus"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Banana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Informal style of gardening is found in:",
+    "options": [
+      "Mughal gardens",
+      "Italian Gardens",
+      "French gardens",
+      "Japanese gardens"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Japanese gardens”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Fruit type of Litchi is:",
+    "options": [
+      "Berry",
+      "Single Seeded Nut",
+      "None",
+      "Etaerio of achens"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Single Seeded Nut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Kinnow is a cross between:",
+    "options": [
+      "Willow leaf ×  King",
+      "King × Willow leaf",
+      "Mandarin × grapefruit",
+      "Mandarin × pummelo"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “King × Willow leaf”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which is the non climacteric fruit?",
+    "options": [
+      "Orange",
+      "Mango",
+      "Banana",
+      "Fig"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Orange”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=1",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Little leaf mango is due to:",
+    "options": [
+      "Zn deficiency",
+      "Iron deficiency",
+      "Calcium deficiency",
+      "Mo Toxicity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zn deficiency”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Polyembyony is seen in:",
+    "options": [
+      "Ber",
+      "Jamun and Citrus",
+      "Grape",
+      "Guava"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Jamun and Citrus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Strawberry is octaploid having 2n=8X=",
+    "options": [
+      "24",
+      "34",
+      "56",
+      "26"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “56”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A9",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Metaxia is commonly observed:",
+    "options": [
+      "Papaya",
+      "Date",
+      "Avocado",
+      "Aonla"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Date”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A10",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Bunchy top of banana is caused by:",
+    "options": [
+      "Fungus",
+      "Bacteria",
+      "Virus",
+      "physiological factor"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Virus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A11",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Tomato leaf curl virus is transmitted by:",
+    "options": [
+      "Thrips",
+      "White fly",
+      "Aphids",
+      "fruit fly"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “White fly”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A12",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Arka Abhed is a hybrid variety of:",
+    "options": [
+      "Brinjal",
+      "Tomato",
+      "French bean",
+      "Cow pea"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tomato”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A13",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which potato variety is known for early maturity?",
+    "options": [
+      "Kufri Jyoti",
+      "Kufri Karan",
+      "Kufri Chandramukhi",
+      "Kufri Frysona"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kufri Chandramukhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A14",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Chromosome number of French bean is:",
+    "options": [
+      "18",
+      "45",
+      "10",
+      "22"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “10”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A16",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Arka Nikita is the variety of:",
+    "options": [
+      "Brinjal",
+      "Onion",
+      "Okra",
+      "Tomato"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Okra”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A17",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Buttoning is a physiological disorder in:",
+    "options": [
+      "Garlic",
+      "Onion",
+      "Radish",
+      "Cauliflower"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Cauliflower”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=2",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A18",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Arka Khyati is avariety of:",
+    "options": [
+      "Onion",
+      "Chilli",
+      "Tomato",
+      "Okra"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chilli”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A19",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Long day type of Garlic is:",
+    "options": [
+      "Agrifound Parvati",
+      "Yamuna Safed",
+      "G 282",
+      "Agrifound white"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Agrifound Parvati”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A20",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Arka Veera is the variety of:",
+    "options": [
+      "Brinjal",
+      "Tomato",
+      "Cucumber",
+      "Cow pea"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cucumber”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A21",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Baradari is an important feature of which garden?",
+    "options": [
+      "Mughal",
+      "French",
+      "Chinese",
+      "English"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Mughal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A22",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "A popular Japanese arrangement of flowers is known as:",
+    "options": [
+      "Ikebana",
+      "Tatabana",
+      "Suchigama",
+      "A bouquet"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Ikebana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A23",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Heterostily is a common feature in:",
+    "options": [
+      "Petunia",
+      "Primula",
+      "Gerbera",
+      "Ageratum"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Primula”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A24",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Gladiolus is propagated by:",
+    "options": [
+      "Corm",
+      "Bulb",
+      "Rhizome",
+      "Tuber"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Corm”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A25",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Bent neck is a common physiological disorder of:",
+    "options": [
+      "Rose",
+      "Anthurium",
+      "Chrysanthemum",
+      "Bougainvillea"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Rose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A26",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is foliage annual?",
+    "options": [
+      "Aster",
+      "Cosmos",
+      "salvia",
+      "Kochia"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Kochia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A27",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Arka Archana is a variety of:",
+    "options": [
+      "Hibiscus",
+      "Aster",
+      "Lily",
+      "Tulip"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Aster”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A28",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Fairy rings of lawn is due to:",
+    "options": [
+      "Fungus",
+      "Bacteria",
+      "Insect",
+      "Nematode"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Fungus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A29",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Largest in producing and trading of cut flower in the world is:",
+    "options": [
+      "USA",
+      "Israel",
+      "India",
+      "The Netherlands"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The Netherlands”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=3",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A30",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following greenhouse glazing materials may be considered most suitable for long term use?",
+    "options": [
+      "Polyvinyl chloride film",
+      "Acrylic",
+      "Glass",
+      "Polycarbonate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Glass”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A31",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Among honey bees, workers are:",
+    "options": [
+      "Male",
+      "Female",
+      "Hermaphrodite",
+      "Male and Female both"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Female”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A32",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Upto how many eggs can a queen bee  lay in one day?",
+    "options": [
+      "500",
+      "1000",
+      "1500",
+      "2000"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2000”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A33",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The male bees in a honey bee colony are known as:",
+    "options": [
+      "Workers",
+      "Drones",
+      "Queen",
+      "Nymphs"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Drones”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A34",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following bee is developed from unfertilized eggs?",
+    "options": [
+      "Worker",
+      "Drones",
+      "Queen",
+      "Both the worker and queen"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Drones”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A35",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is contained  in medicinal yam?",
+    "options": [
+      "Digoxin",
+      "Cravone",
+      "Diosgenin",
+      "Solasodine"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Diosgenin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A36",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Methyl chavicol is present in significant amount in which of the following aromatic plants?",
+    "options": [
+      "Lemongrass",
+      "Jasmine",
+      "Basil",
+      "Celery"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Basil”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A37",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Cinchona bark contains which important compound?",
+    "options": [
+      "quinine",
+      "nicotine",
+      "ephedrine",
+      "cocaine"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “quinine”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A38",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Recommended spacing for dwarf variety of papaya ‘Pusa Nanha’ in high density planting is:",
+    "options": [
+      "1.25m × 1.25m",
+      "1.50m × 1.50m",
+      "1.75m × 1.75m",
+      "2.0 m × 2.0 m"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1.25m × 1.25m”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A39",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "What is the scientific name of Shiitake mushroom?",
+    "options": [
+      "Pleurotus florida",
+      "Lentinula edodes",
+      "Colocybe indica",
+      "Auricoloria polytricha"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lentinula edodes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A40",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Which substrate is commonly used for oyster mushroom cultivation?",
+    "options": [
+      "Compost",
+      "Sand",
+      "Straw",
+      "Clay"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Straw”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A41",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Cherelle wilt is a physiological disorder affecting:",
+    "options": [
+      "Coconut",
+      "Cashewnut",
+      "Cocoa",
+      "Coffee"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cocoa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A42",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Budded Rubber plants ideal height for tapping(from the bud union) is:",
+    "options": [
+      "50 cm girth and 125-150 cm height",
+      "35 cm girth and 90-100 cm height",
+      "90 cm girth and 180-250 cm height",
+      "75 cm girth and 160-180 cm height"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “50 cm girth and 125-150 cm height”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A43",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "State known to be as Spice Garden:",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Assam",
+      "Andhra Pradesh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kerala”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A44",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "The causal organism of leaf rust in coffee is:",
+    "options": [
+      "Exobasidium vexans",
+      "Hemileia vestatrix",
+      "Fomes noxius",
+      "Ganoderma lucidum"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hemileia vestatrix”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A45",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "What is the primary goal of protected cultivation?",
+    "options": [
+      "To enhance the visual appeal of agricultural fields",
+      "To control the microclimate surrounding plants for optimal growth",
+      "To minimize the use of agricultural machinery",
+      "To increase the dependency on natural weather"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To control the microclimate surrounding plants for optimal growth”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A46",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Picrocrocin is present in:",
+    "options": [
+      "Saffron",
+      "Sweet Flag",
+      "Dill",
+      "Clove"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Saffron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A47",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Linalool is important chemical content of:",
+    "options": [
+      "Cumin",
+      "Fennel",
+      "Coriander",
+      "Clove"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Coriander”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A48",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Acorus calamus is the botanical name of :",
+    "options": [
+      "Dill",
+      "Aniseed",
+      "Fenugreek",
+      "Sweet flag"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sweet flag”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A49",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Plant part used in saffron is:",
+    "options": [
+      "Fruits",
+      "Seeds",
+      "Stigma",
+      "leaves"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Stigma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-A50",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-II",
+    "difficulty": "medium",
+    "question": "Commercial part of clove is:",
+    "options": [
+      "Fruit",
+      "Seed",
+      "Unopened flower bud",
+      "Leaves"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Unopened flower bud”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Describe the cultivation and production technology of grape under the following heads.(5×4=20)\na. Climate and soil\nb. Varieties\nc. Training and pruning\nd. Physiological disorder",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the cultivation of Ginger under the following heads. (5×4=20)\na. Propagation\nb. Varieties\nc. Major pest and their management\nd. Major diseases and their management",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write notes on any four of the following:(4×5=20)\na. Flowers and sex expression in Papaya.\nb. Planting, Training and Pruning in Kiwi.\nc. Planting, Training and Propagation in Strawberry.\nd. Explain varieties, use of growth regulators and planting methods in Pineapple.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write notes on any four for the following:(4×5=20)\na. Physiological disorder, pest and diseases management in Tomato.\nb. Role of plant growth regulator in vegetable crops.\nc. Define bolting. What are the causes and means of control of bolting in onion?\nd. Discuss cultivation of cabbage under the following heads : soil and climate, seed rate and",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following questions in detail:(4×5=20)\na. Propagation, harvesting and post harvest management in rubber.\nb. Post harvest management and processing of tea.\nc. What are important elements of landscaping? Give main features of Mughal garden, Japanese\nd. Use of greenhouse technology in boosting crop productivity.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=6"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following questions in detail:(4×5=20)\na. What do you understand by maturity indices? Give maturity indices for musk melon, water melon, onion and garlic.\nb. Define unfruitfulness. Differentiate between gametophytic and sporophytic self-incompatibility along with examples. Describe  Monoecious, Dioecious and Hermaphrodite fruit plants.\nc. Cultivation of Broccoli on the following points: seed rate, sowing time, spacing, harvesting and yield.\nd. Discuss the origin, cultivation practices and pests and diseases of potato.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Provide detailed answers to the following questions:(4×5=20)\na. What is bonsai? How is watering done in Bonsai? Write five plants suitable for making Bonsai. What is the ideal time of planting Bonsai?\nb. Discuss the harvesting, grading, packaging and storage techniques followed in anthurium.\nc. How can dormancy be checked in Gladiolus? What are important diseases in Gladiolus?\nd. How are Carnation propagated? How is disbudding done in carnation and what is the optimum stage of harvesting in carnation?",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2-written-8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p2",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Answer the following questions:(4×5=20)\na. Sex expression and sex ratio in Cucurbits.\nb. Discuss the role of growth regulators in fruit set, ripening and sex expression in vegetable crops.\nc. Discuss cultivation of cabbage under the following heads : soil and climate, seed rate and spacing, manures and fertilizers.\nd. Protected Cultivation: importance, scope and status.",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "A cybrid plant is formed when:",
+    "options": [
+      "Both nucleus and cytoplasm are fused",
+      "Two haploid plants fuse naturally",
+      "Only cytoplasm from one parent is combined with nucleus of another",
+      "Mutation is induced by chemicals"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Only cytoplasm from one parent is combined with nucleus of another”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=1",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "A piece of potato is placed in a concentrated sugar solution for 30 minutes. After this, the potato becomes flaccid and shrinks. What is the reason?",
+    "options": [
+      "Water moved into the potato cells by osmosis.",
+      "Water moved out of the potato cells by osmosis.",
+      "Sugar moved into the potato cells by diffusion.",
+      "Sugar moved out of the potato cells by diffusion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Water moved out of the potato cells by osmosis.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=1",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Break-even analysis in farm management is used to:",
+    "options": [
+      "Determine crop yield only",
+      "Identify the level of production where total cost equals total revenue",
+      "Calculate soil fertility",
+      "Estimate labour requirement"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Identify the level of production where total cost equals total revenue”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Bt cotton is genetically engineered to:",
+    "options": [
+      "Resist herbicides",
+      "Produce an insecticidal protein from Bacillus thuringiensis",
+      "Tolerate drought conditions",
+      "Increase seed oil content"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Produce an insecticidal protein from Bacillus thuringiensis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Contract farming in horticulture primarily ensures:",
+    "options": [
+      "Fixed prices for inputs only",
+      "Elimination of all production risks",
+      "Free labour supply",
+      "Guaranteed market and price for farm produce"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Guaranteed market and price for farm produce”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Cryopreservation in plant biotechnology is usually performed at which of the following temperatures?",
+    "options": [
+      "0–4°C",
+      "–20°C",
+      "–80°C",
+      "–196°C"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “–196°C”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Deficiency of which nutrient causes interveinal chlorosis in young leaves?",
+    "options": [
+      "Nitrogen",
+      "Iron",
+      "Magnesium",
+      "Manganese"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Iron”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In plant breeding, backcrossing is used to:",
+    "options": [
+      "Introduce a new trait from a different species",
+      "Remove undesirable traits from a variety",
+      "Increase the yield potential of a variety",
+      "Develop prolific varieties"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Remove undesirable traits from a variety”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A9",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In plant breeding, the term heterosis refers to:",
+    "options": [
+      "Hybrid vigour leading to superior performance",
+      "The process of self-pollination",
+      "Genetic uniformity in a population",
+      "The ability of a plant to adapt to various environmental conditions"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hybrid vigour leading to superior performance”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A10",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In the context of NE India, Participatory Rural Appraisal (PRA) is particularly important because:",
+    "options": [
+      "Farmers prefer government-centric planning",
+      "The region has diverse tribal knowledge and agro-ecological conditions",
+      "Technology adoption is uniform across the region",
+      "There is no need for local participation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The region has diverse tribal knowledge and agro-ecological conditions”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A11",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In tissue culture media, the primary role of auxins is to:",
+    "options": [
+      "Induce shoot formation",
+      "Promote root initiation and callus formation",
+      "Prevent microbial contamination",
+      "Maintain osmotic balance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Promote root initiation and callus formation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A12",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "KVKs are established at the:",
+    "options": [
+      "Village level",
+      "Block level",
+      "District level",
+      "State level"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “District level”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A13",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "One of the major challenges in implementing the T&V (Training and Visit) system in hill regions of NE India is:",
+    "options": [
+      "Lack of proven technologies",
+      "Difficult terrain and dispersed villages",
+      "Farmers unwillingness to learn",
+      "Excessive financial resources"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Difficult terrain and dispersed villages”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A14",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Protoplasts are plant cells:",
+    "options": [
+      "With intact cell wall",
+      "Without cell wall",
+      "Only from roots",
+      "Only from meristematic tissue"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Without cell wall”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A15",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Somaclonal variation in plant tissue culture refers to:",
+    "options": [
+      "Genetic variation arising from the sexual reproduction of cultured cells",
+      "Genetic variation arising from the asexual reproduction of cultured cells",
+      "Variation in the physical appearance of somatic cells",
+      "Variation in the nutrient requirements of cultured cells"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Genetic variation arising from the asexual reproduction of cultured cells”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A16",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The bulk method in plant breeding is primarily used for:",
+    "options": [
+      "Developing pure lines",
+      "Releasing new hybrid varieties",
+      "Increasing the frequency of desirable alleles in a population",
+      "Producing genetically identical clones"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Increasing the frequency of desirable alleles in a population”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A17",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The core objectives of Viksit Krishi Sankalp Abhiyan (VKSA) 2025 is:",
+    "options": [
+      "Reducing cost of farming inputs to make high income for input providers",
+      "Bridging the gap between agricultural research and field application",
+      "Increasing the number of scientists interacting with farmers",
+      "Focusing on Kharif season crops"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bridging the gap between agricultural research and field application”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A18",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The most common method for preservation of fruit juices, RTS and nectars, is:",
+    "options": [
+      "Sterilization",
+      "Pasteurization",
+      "Freezing",
+      "Filtration"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pasteurization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A19",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The father of modern genetics, Gregor Mendel, worked primarily on:",
+    "options": [
+      "Rice",
+      "Maize",
+      "Pea",
+      "French Bean"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pea”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A20",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The first Krishi Vigyan Kendra (KVK) in India was established in 1974 at:",
+    "options": [
+      "Ludhiana",
+      "Pondicherry",
+      "Pune",
+      "Hyderabad"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pondicherry”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A21",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The first organized agricultural extension work in India before Independence began with which program?",
+    "options": [
+      "Intensive Agricultural District Programme (IADP)",
+      "Community Development Programme (CDP)",
+      "Grow More Food Campaign",
+      "National Extension Service (NES)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Grow More Food Campaign”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A22",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The FSSAI ‘Eat Right India’ movement aims at:",
+    "options": [
+      "Improving food quality for export",
+      "Raising awareness about healthy food choices",
+      "Increasing the production of traditional foods",
+      "Lowering food prices for consumers"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Raising awareness about healthy food choices”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A23",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The high osmotic pressure created by sugar in jam, jelly, and marmalade primarily helps to:",
+    "options": [
+      "Enhance the flavour and colour of the product",
+      "Increase the pH of the fruit product",
+      "Inhibit microbial growth and preserve the product",
+      "Reduce the acidity of the fruit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Inhibit microbial growth and preserve the product”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A24",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The hormone primarily responsible for stomatal closure during water stress is:",
+    "options": [
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Ethylene"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Abscisic acid”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A25",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The main advantage of a power tiller over manual tillage is:",
+    "options": [
+      "Requires no fuel",
+      "Provides uniform ploughing and saves labour",
+      "Can only be used in flat lands",
+      "Does not require maintenance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Provides uniform ploughing and saves labour”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A26",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The mechanism responsible for the ascent of sap in plants is:",
+    "options": [
+      "Root pressure",
+      "Capillarity",
+      "Cohesion-tension theory",
+      "Active transport"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cohesion-tension theory”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A27",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The pedigree method of selection involves:",
+    "options": [
+      "Selecting plants based on their physical appearance",
+      "Keeping detailed records of the ancestry of selected plants",
+      "Allowing random mating among plants",
+      "Using molecular markers to select plants"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Keeping detailed records of the ancestry of selected plants”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A28",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The principle of Learning by Doing in agricultural extension is most closely associated with:",
+    "options": [
+      "Demonstrations",
+      "Farm journalism",
+      "Rural sociology",
+      "Farm mechanization"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Demonstrations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A29",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The process of removing field heat from harvested produce is known as:",
+    "options": [
+      "Pre-cooling",
+      "Curing",
+      "Ripening",
+      "Fermentation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Pre-cooling”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A30",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "A common food preservative, potassium metabisulphite is commonly used as a stable source of:",
+    "options": [
+      "Hydrogen peroxide",
+      "Salicylic acid",
+      "Benzoic acid",
+      "Sulphur dioxide"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sulphur dioxide”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A31",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "The spark ignition (SI) engine is commonly associated with which type of fuel?",
+    "options": [
+      "Diesel",
+      "Petrol",
+      "Kerosene",
+      "Biogas"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Petrol”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A32",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not responsible for colour change in fruits during ripening?",
+    "options": [
+      "Chlorophyll degradation",
+      "Breakdown of carbohydrates",
+      "Synthesis of carotenoids",
+      "Synthesis of anthocyanin"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Breakdown of carbohydrates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A33",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Training of rural youth in NE India through Krishi Vigyan Kendras (KVKs) primarily aims to",
+    "options": [
+      "Provide agricultural skills and entrepreneurship",
+      "Promote only traditional farming techniques",
+      "Conduct purely laboratory-based research",
+      "Import modern machinery"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Provide agricultural skills and entrepreneurship”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A34",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which nutrient plays a key role in ATP formation and energy transfer in plants?",
+    "options": [
+      "Nitrogen",
+      "Phosphorus",
+      "Potassium",
+      "Sulphur"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Phosphorus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A35",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following communication methods is most effective for women farmers in remote villages of Mizoram?",
+    "options": [
+      "Written reports and pamphlets",
+      "Online webinars only",
+      "Scientific journals",
+      "Audio-visual aids and participatory demonstrations"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Audio-visual aids and participatory demonstrations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A36",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following correctly defines the unit of power in SI system?",
+    "options": [
+      "Newton (N)",
+      "Joule (J)",
+      "Watt (W)",
+      "Pascal (Pa)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Joule (J)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A37",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a characteristic of a genetically pure line?",
+    "options": [
+      "High heterozygosity",
+      "Uniformity in traits across generations",
+      "High genetic diversity",
+      "Ability to adapt to various environments"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Uniformity in traits across generations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A38",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a characteristic of a successful entrepreneur in horticulture?",
+    "options": [
+      "Risk avoidance",
+      "Proactive decision making and innovation",
+      "Dependence on government subsidies only",
+      "Resistance to change"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Proactive decision making and innovation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A39",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a common method for controlling post-harvest diseases in fruits?",
+    "options": [
+      "Hot water treatment",
+      "Waxing",
+      "Shrink wrapping",
+      "Precooling"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Hot water treatment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A40",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "In order to create modified atmosphere around fresh fruits and vegetables in modified atmosphere packaging, the type of packaging material used is:",
+    "options": [
+      "Freely permeable",
+      "Semi permeable",
+      "Non permeable",
+      "Rigid plastic with air vents"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Semi permeable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A41",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a commonly used interculture implement?",
+    "options": [
+      "Disc harrow",
+      "Hoe",
+      "Seed drill",
+      "Tractor-mounted plough"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Hoe”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A42",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a method of pollination control in hybrid seed production?",
+    "options": [
+      "Protogyny",
+      "Protandry",
+      "Male sterility",
+      "Cleistogamy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Male sterility”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A43",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a non-climacteric fruit?",
+    "options": [
+      "Mango",
+      "Banana",
+      "Pineapple",
+      "Papaya"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pineapple”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A44",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is a primary tillage implement?",
+    "options": [
+      "Cultivator",
+      "Harrow",
+      "Plough",
+      "Seed drill"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Plough”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A45",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is commonly used as a refrigerant in cold storage in India?",
+    "options": [
+      "R-134a (Tetrafluoroethane)",
+      "Ammonia (NH₃ )",
+      "Carbon dioxide (CO₂ )",
+      "Water (H₂O)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ammonia (NH₃ )”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A46",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a method of gene transfer in plants?",
+    "options": [
+      "Agrobacterium-mediated transformation",
+      "Particle bombardment (biolistics)",
+      "Electroporation",
+      "Grafting"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Grafting”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A47",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is the most commonly used basal medium for plant tissue culture?",
+    "options": [
+      "Murashige and Skoog (MS) medium",
+      "Gamborg B5 medium",
+      "Whites medium",
+      "Hoagland solution"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Murashige and Skoog (MS) medium”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A48",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is the primary purpose of anther culture in plant tissue culture?",
+    "options": [
+      "To induce somatic embryogenesis",
+      "To produce haploid plants for breeding purposes",
+      "To regenerate plants from leaf explants",
+      "To study the effects of mutagens on plant cells"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To produce haploid plants for breeding purposes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A49",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which sugar is most commonly added to tissue culture media as a carbon source?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Lactose"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sucrose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-A50",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "questionNumber": "A50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "Horticulture Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following surface coating material for fruits & vegetables is obtained from shells of crustaceans like crabs, shrimps, etc?",
+    "options": [
+      "Chitosan",
+      "Carnauba wax",
+      "Shellac",
+      "Alginates"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chitosan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "paperExamExcluded": true,
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-1",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What are the factors leading to post harvest loss of fruits and vegetables? Discuss the principles and methods of food preservation with special reference to fruits and vegetables.(8+6+6=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-2",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Discuss the genetic basis of qualitative and quantitative traits in plants. Explain the role of mutation and heterosis in crop improvement and illustrate with examples.(4+16=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-3",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Enlist the government schemes that support horticultural entrepreneurship in Mizoram. Explain how SWOT analysis can be applied to (i) ginger (ii) birds eye chilli (iii) grapes (iv) passion fruit (v) pineapple ventures in Mizoram. Suggest strategies for improving market access, export potential, and income generation.(4+10+6=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-4",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Evaluate the significance of Intellectual Property Rights (IPR) in safeguarding the agricultural knowledge and traditional crop varieties of ethnic communities in India. What challenges do these communities face? How can equitable benefit-sharing and conservation be ensured?(8+4+8=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-5",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "5",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Examine the limitations and achievements of plant breeding in North Eastern Hill (NEH) region of India. Discuss how modern molecular tools have enhanced the efficiency of breeding programs, with examples from major horticultural crops.(8+12= 20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-6",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Explain the concept of Agri Export Zones (AEZs) and their importance in processed food exports. Evaluate the effectiveness of Hazard Analysis and Critical Control Point (HACCP) and Codex Alimentarius standards in improving the global competitiveness of Indian processed foods. (10+10=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-7",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "How does water scarcity during the dry season impact the cultivation of vegetables in Mizoram? Critically evaluate integrated approaches to enhance horticulture crop resilience. (6+14=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3-written-8",
+    "paperId": "mpsc-group-b-agri-2025-horticulture-p3",
+    "type": "descriptive",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "What is the key difference between OFT (On-Farm Testing) and FLD (Front Line Demonstration) in terms of their objectives and application in agricultural technology refinement? How can extension activities improve farm productivity and resilience against climate and socio-economic challenges in North-East India?(10+10=20)",
+    "explanation": "",
+    "sourceReview": true,
+    "sourceNote": "Written response and transcription awaiting source review.",
+    "source": "Agriculture & Allied Services (Combined Technical)-November-2025 · November 2025",
+    "year": 2025,
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf#page=7"
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1-B1",
     "paperId": "mpsc-group-b-si-fcs-2025-p1",
     "questionNumber": "B1",
@@ -150857,7 +168961,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Duplicate equivalent options"
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q31",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -151370,9 +169476,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2025-p2-Q50",
     "paperId": "mpsc-group-b-si-fcs-2025-p2",
@@ -158884,7 +176988,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q54",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -159397,9 +177503,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mvi-2025-p2-Q73",
     "paperId": "mpsc-group-b-mvi-2025-p2",
@@ -167382,7 +185486,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-radio-2026-p2-Q35",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -167972,9 +186078,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-radio-2026-p2-Q54",
     "paperId": "mpsc-group-b-radio-2026-p2",
@@ -176467,7 +194571,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions : (Questions 49 -56) :Analyse the sentences below and choose the correct answer:-"
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B57",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -177018,9 +195124,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 72 – 76) : Choose the word which has the similar meaning to the one"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B76",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -184751,7 +202855,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 31 – 35): Name the Tense of the Verb of the following."
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q33",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -185248,9 +203354,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Convert the given sentences as directed in the brackets:"
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q52",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -192740,7 +210844,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 73-80): Identify the word that gives the nearest meaning of the underlined"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B78",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -193134,9 +211240,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "source": "Assistant Conservator of Forest (ACF)-2009 · 2009",
     "year": 2009,
     "sourceHref": "/papers/group-b/archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6.pdf#page=5"
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6-written-8",
     "paperId": "mpsc-group-b-archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6",
@@ -200740,7 +218844,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 9 - 14):  Read the following passage carefully and choose the best answer to"
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B13",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -201289,9 +219395,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 30 - 35): Analyse the given sentences and choose the correct option:"
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B32",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -208541,7 +226645,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 76 – 80 ) : Fill in the blanks with the appropriate form of the words given"
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-written-1",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -208986,9 +227092,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 1 - 10) : Identify the parts of speech of the underlined words :"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q7",
     "paperId": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -216591,7 +234695,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 71 to 80): Choose the correct meanings of the following underlined"
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q77",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -217139,9 +235245,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 91 to 100): Choose the correct word substitute of the following underlined"
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q96",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -225057,7 +243161,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 51 - 60) : Transform the following sentences as directed, without changing"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q61",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -225608,9 +243714,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 71 - 80) : Fill in the blanks with the most appropriate word."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q80",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -233270,7 +251374,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q25",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -233840,9 +251946,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q45",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -241541,7 +259645,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q28",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -242033,9 +260139,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 50) : Identify the type of sentences and choose the correct answer"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q48",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -249625,7 +267729,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided."
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B21",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -250122,9 +268228,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 47 - 53) : Identify and choose the forms of tenses for the following sentences:"
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B50",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -257372,7 +275476,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 61 - 70) : Synthesize the following sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q67",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -257869,9 +275975,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 81 - 87) : Give the Antonyms of the following words."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q86",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -265042,7 +283146,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1-8): The following sentences has a word or phrase underlined. Read the"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B8",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -265535,9 +283641,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 26-28): Out of the four alternatives choose the one which can be substituted"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48-B27",
     "paperId": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
@@ -272674,7 +290778,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-57",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -273082,9 +291188,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 10): Read the following passage and answer the questions that follow:"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d-B7",
     "paperId": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
@@ -281611,7 +299715,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q6",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -282239,9 +300345,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237-Q25",
     "paperId": "mpsc-group-b-archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237",
@@ -291172,7 +309276,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q30",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -291742,9 +309848,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q49",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -292534,14 +310638,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Conjunction",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292560,14 +310667,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Preposition",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292586,14 +310696,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Noun",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292612,14 +310725,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Relative Pronoun",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292638,17 +310754,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Preposition",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292667,14 +310787,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292693,14 +310816,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adverb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292719,14 +310845,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adverb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292745,14 +310874,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292771,14 +310903,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Demonstrative Pronoun",
       "Reflexive pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Demonstrative Pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10):Identify the Parts of speech of the underlined words in the"
   },
   {
@@ -292805,10 +310940,16 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
+    "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B12",
@@ -292826,18 +310967,23 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Homograph",
       "Heteronym"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Heteronym”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B13",
@@ -292855,17 +311001,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "A cheap thing",
       "A costly and useless thing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A costly and useless thing”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -292884,17 +311034,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "To be enlightened",
       "To be dumbfounded"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To be unintelligible”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -292913,17 +311067,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "He had a horde of comic books in his library.",
       "Ants are known to horde sweets like sugar and honey."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The picnic was interrupted by a horde of ants attracted to the sweet treats.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -292942,17 +311100,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "sympathy",
       "mercy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “sympathy”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -292971,17 +311133,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "custom",
       "vice"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “vice”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -293000,17 +311166,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "contrast",
       "add"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “complement”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -293029,17 +311199,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "accelerated",
       "rushed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “crept”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -293058,17 +311232,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "dismissed",
       "dissuaded"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “dismayed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20): Correct usage & Vocabularies:"
   },
   {
@@ -293087,17 +311265,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "with",
       "than"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “to”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 25): Choose the most suitable connector to complete the sentences:"
   },
   {
@@ -293116,17 +311298,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "However",
       "In addition to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “In addition to”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 25): Choose the most suitable connector to complete the sentences:"
   },
   {
@@ -293145,17 +311331,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "after",
       "before"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “while”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 25): Choose the most suitable connector to complete the sentences:"
   },
   {
@@ -293174,17 +311364,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Despite",
       "Nevertheless"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “As a result of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 25): Choose the most suitable connector to complete the sentences:"
   },
   {
@@ -293203,17 +311397,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "must",
       "The comma (,)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “or else”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 21 - 25): Choose the most suitable connector to complete the sentences:"
   },
   {
@@ -293232,17 +311430,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "into",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “into”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 30): Choose the appropriate prepositions:"
   },
   {
@@ -293261,17 +311463,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "in",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 30): Choose the appropriate prepositions:"
   },
   {
@@ -293290,17 +311496,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Instead of",
       "Over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Besides”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 30): Choose the appropriate prepositions:"
   },
   {
@@ -293319,17 +311529,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "in",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “over”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 30): Choose the appropriate prepositions:"
   },
   {
@@ -293348,17 +311562,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "of",
       "over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “of”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 26 - 30): Choose the appropriate prepositions:"
   },
   {
@@ -293377,17 +311595,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "more charming",
       "as charming as"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “the most charming”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
   },
   {
@@ -293406,18 +311628,23 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "sufficient",
       "many"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “sufficient”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B33",
@@ -293435,17 +311662,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Little",
       "Most"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The little”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
   },
   {
@@ -293464,18 +311695,23 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "a madman",
       "the maddest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “the maddest”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B35",
@@ -293493,17 +311729,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adjective of Number",
       "Demonstrative Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adjective of Quantity”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 31 - 35): Choose the appropriate adjectives to complete the sentences:"
   },
   {
@@ -293522,18 +311762,23 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "its",
       "her"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “its”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487-B37",
@@ -293551,17 +311796,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "a",
       "the"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “many”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:"
   },
   {
@@ -293580,17 +311829,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "every",
       "each"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “the”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:"
   },
   {
@@ -293609,17 +311862,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Enough",
       "The"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Enough”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:"
   },
   {
@@ -293638,17 +311895,21 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Much",
       "Enough"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Each”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 36 - 40): Choose the correct determiner:"
   },
   {
@@ -293667,14 +311928,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "He showed much patience.",
       "He showed any patience."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “He showed much patience.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=7",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41 - 45): Choose the correct sentence structure from the given options:"
   },
   {
@@ -293693,14 +311957,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "You are paying less attention to your studies than you use to do.",
       "You pay less attention to your studies than you use to do."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “You are paying less attention to your studies than you used to do.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41 - 45): Choose the correct sentence structure from the given options:"
   },
   {
@@ -293719,14 +311986,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "EM Forster wrote ‘A Passage to India’.",
       "EM Forster wrote in ‘A Passage to India’."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “EM Forster wrote ‘A Passage to India’.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41 - 45): Choose the correct sentence structure from the given options:"
   },
   {
@@ -293745,14 +312015,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "My birthday will fall on a Sunday next year.",
       "My birthday falls on a Sunday next year."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “My birthday will fall on a Sunday next year.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41 - 45): Choose the correct sentence structure from the given options:"
   },
   {
@@ -293771,14 +312044,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Everyone should respect his superior.",
       "Each one should respect his superior."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Everyone should respect their superiors.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41 - 45): Choose the correct sentence structure from the given options:"
   },
   {
@@ -293797,14 +312073,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Noun clause",
       "Adverb clause of time"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adverb clause of reason”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50):Choose the correct type of clause for the words underlined in"
   },
   {
@@ -293823,14 +312102,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adverb clause of time",
       "Adverb clause of reason"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50):Choose the correct type of clause for the words underlined in"
   },
   {
@@ -293849,14 +312131,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adverb clause of manner",
       "Adverb clause of reason"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adverb clause of place”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50):Choose the correct type of clause for the words underlined in"
   },
   {
@@ -293875,14 +312160,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Adverb clause of time",
       "Adjective clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50):Choose the correct type of clause for the words underlined in"
   },
   {
@@ -293901,14 +312189,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "Noun clause",
       "Adverb clause of time"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Agriculture & Allied Services November - 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf#page=8",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 46 - 50):Choose the correct type of clause for the words underlined in"
   },
   {
@@ -299324,7 +317615,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
     "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B12",
     "paperId": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
@@ -299952,9 +318245,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B31",
     "paperId": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
@@ -307292,7 +325583,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B29",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p2-Q30",
     "questionNumber": "B30",
@@ -307787,9 +326080,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B48",
     "sourceHref": "/papers/group-b/co-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p2-Q49",
     "questionNumber": "B49",
@@ -315137,7 +333428,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B4",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p2-B5",
     "questionNumber": "B5",
@@ -315634,9 +333927,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B23",
     "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p2-B24",
     "questionNumber": "B24",
@@ -323147,7 +341438,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q43",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -323622,9 +341915,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-gk-Q62",
     "paperId": "mpsc-group-b-si-police-ub-2018-gk",
@@ -331547,7 +349838,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 60 - 64) : Identify the correct notion expressed by each of the following"
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B62",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -332106,9 +350399,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 73 - 80) : Identify the most suitable meaning of the underline words in the"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-written-1",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -339591,7 +357882,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q6",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -340069,9 +358362,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q25",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-gk",
@@ -347373,7 +365664,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "source": "Circle Education Officer under School Education Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ceo-2019-english-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ceo-2019-english-p1-written-4",
     "paperId": "mpsc-group-b-ceo-2019-english-p1",
@@ -347793,9 +366086,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ceo-2019-english-p2-Q10",
     "paperId": "mpsc-group-b-ceo-2019-english-p2",
@@ -355787,7 +374078,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 28 - 36) : Analyze the given sentences and pick out the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B29",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -356281,9 +374574,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 46 - 54) : Choose the most suitable alternative to make the sentence meaningful:"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-ahvety-2019-english-B48",
     "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -364207,7 +382498,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q11",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -364739,9 +383032,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs2-Q30",
     "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -372082,7 +390373,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 1-16): Read the following passage carefully and choose the appropriate answer"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-english-B10",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -372633,9 +390926,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Q. 17- 32): Choose the correct meaning of the underlined idioms and phrases from the"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-english-B29",
     "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -380263,7 +398554,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 71 – 80) : Choose the correct meaning of idioms and phrases given in bold"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q73",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -380760,9 +399053,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 87 - 94) : Select word which is opposite in meaning to the underlined word or"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q92",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -388264,7 +406555,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q73",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -388784,9 +407077,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q92",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -396440,7 +414731,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q67",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -396972,9 +415265,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q86",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -404348,7 +422639,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q33",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -404869,9 +423162,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q52",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p2",
@@ -412493,7 +430784,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q35",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -412968,9 +431261,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q54",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -420574,7 +438865,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q34",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -421106,9 +439399,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-phe-2019-gs-Q53",
     "paperId": "mpsc-group-b-mes-phe-2019-gs",
@@ -428920,7 +447211,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-la-2019-english-B4",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -429414,9 +447707,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate prepositions:"
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-la-2019-english-B23",
     "paperId": "mpsc-group-b-la-2019-english",
@@ -437267,7 +455558,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 57 - 60) : Choose the correct punctuation:"
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B61",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -437697,9 +455990,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "source": "Sub-Divisional Librarian under Art & Culture Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/sub-div-lib-2019-english.pdf#page=3"
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-sub-div-lib-2019-english-written-10",
     "paperId": "mpsc-group-b-sub-div-lib-2019-english",
@@ -445456,7 +463747,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q60",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -445947,9 +464240,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "source": "Tutor under Mizoram College of Nursing, Health & Family Welfare Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/tutor-mcon-2019-english.pdf#page=1"
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-tutor-mcon-2019-english-written-4",
     "paperId": "mpsc-group-b-tutor-mcon-2019-english",
@@ -453426,7 +471717,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 60 - 67): Pick out the correct clause of the words underlined in the given"
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B63",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -453939,9 +472232,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A5",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -461676,7 +479967,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-B84",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -462197,9 +480490,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 8) : Identify the parts of speech of the underlined words."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p1-B3",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p1",
@@ -470075,7 +488366,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A31",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -470589,9 +488882,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p2-A50",
     "paperId": "mpsc-group-b-udc-forensic-2019-p2",
@@ -478192,7 +496483,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions 20 - 29) : Identify the parts of speech of the underlined words."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B29",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -478740,9 +497033,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 40 - 49) : Fill in the blanks with the correct word/phrases."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B48",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
@@ -486496,7 +504787,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A75",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -487022,9 +505315,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-B94",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -494523,7 +512814,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-A21",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -495001,9 +513294,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p2-A40",
     "paperId": "mpsc-group-b-udc-transport-2019-p2",
@@ -502238,7 +520529,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q15",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -502770,9 +521063,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs2-Q34",
     "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -510394,7 +528685,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 1 - 12): Read the following passage carefully and answer the questions"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-chemist2-2020-english-B9",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -510945,9 +529238,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 13 - 28): From the four alternatives given below, choose the correct"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-chemist2-2020-english-B28",
     "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -518784,7 +537075,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 19 to 27): Analyze the given sentences and choose the correct option."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B28",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -519335,9 +537628,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 44 to 51): Give one word for the following expressions."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-arc-2020-p1-B47",
     "paperId": "mpsc-group-b-udc-arc-2020-p1",
@@ -526944,7 +545235,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 31 - 40) : Read the following sentences carefully and choose the best"
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q35",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -527495,9 +545788,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 51 - 60) : Read the following sentences carefully and choose the best"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q54",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p2",
@@ -535084,7 +553375,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q29",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -535616,9 +553909,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q48",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
@@ -543273,7 +561564,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q34",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -543805,9 +562098,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk-Q53",
     "paperId": "mpsc-group-b-mpe-ss-2020-gk",
@@ -551356,7 +569647,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11-20): Fill in the blanks with the correct form of the verbs:"
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q16",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -551885,9 +570178,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 31 - 40) :  Name the Tense of the Verb of the following."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-english-p2-Q35",
     "paperId": "mpsc-group-b-inspector-fcs-2019-english-p2",
@@ -559537,7 +577828,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q16",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -560069,9 +578362,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q35",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs3",
@@ -568323,7 +586614,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -568901,9 +587194,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025-Q66",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
@@ -577346,7 +595637,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q85",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -577915,9 +596208,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q12",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -586345,7 +604636,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025-Q32",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
@@ -586912,9 +605205,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025-Q52",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
@@ -595352,7 +613643,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q24",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -595931,9 +614224,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q44",
     "paperId": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024",
@@ -603822,7 +622113,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q40",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -604342,9 +622635,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q59",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -612696,7 +630987,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q43",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -613281,9 +631574,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q63",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i",
@@ -621475,7 +639766,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q76",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -621951,9 +640244,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q97",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -629053,7 +647344,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024-Q9",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024",
@@ -629623,9 +647916,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024-Q28",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024",
@@ -638104,7 +656395,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q65",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -638630,9 +656923,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q84",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -646222,7 +664513,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p2-q018",
     "paperId": "mpsc-group-b-si-excise-2014-p2",
@@ -646697,9 +664990,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2014-p2-q037",
     "paperId": "mpsc-group-b-si-excise-2014-p2",
@@ -648622,7 +666913,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -648935,6 +667226,66 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "durationMinutes": 180,
     "negativeMarking": false,
     "penaltyFraction": 0
+  },
+  "mpsc-group-b-agri-2025-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-agri-science-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-agri-science-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-agri-science-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-ah-vety-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-ah-vety-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-ah-vety-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-horticulture-p1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-horticulture-p2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-agri-2025-horticulture-p3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
   },
   "mpsc-group-b-si-fcs-2025-p1": {
     "marksPerQuestion": 1,
@@ -649914,6 +668265,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
   "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -650077,6 +668434,16 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-adfd-2025-technical-p1": 50,
   "mpsc-group-b-adfd-2025-technical-p2": 50,
   "mpsc-group-b-adfd-2025-technical-p3": 50,
+  "mpsc-group-b-agri-2025-gs": 100,
+  "mpsc-group-b-agri-2025-agri-science-p1": 50,
+  "mpsc-group-b-agri-2025-agri-science-p2": 50,
+  "mpsc-group-b-agri-2025-agri-science-p3": 50,
+  "mpsc-group-b-agri-2025-ah-vety-p1": 50,
+  "mpsc-group-b-agri-2025-ah-vety-p2": 50,
+  "mpsc-group-b-agri-2025-ah-vety-p3": 50,
+  "mpsc-group-b-agri-2025-horticulture-p1": 50,
+  "mpsc-group-b-agri-2025-horticulture-p2": 50,
+  "mpsc-group-b-agri-2025-horticulture-p3": 50,
   "mpsc-group-b-si-fcs-2025-p1": 60,
   "mpsc-group-b-si-fcs-2025-p2": 100,
   "mpsc-group-b-aao-2025-p1": 60,

@@ -1,0 +1,1213 @@
+{
+  "slug": "agri-2025-ah-vety-p3",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "AH & Vety Paper-III",
+  "source": "Agri&Allied AH & Vety Paper-III 2025..pdf",
+  "sourceSha256": "1a1585c8da75a9f46ed5e838f6daf068d840b952458dd329458f63049a03af31",
+  "ocr": false,
+  "count": 49,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sphenoid sinus",
+        "b": "Palantine sinus",
+        "c": "Frontal sinus",
+        "d": "Maxillary sinus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Largest sinus in the head of horse is _______.",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "anoxic",
+        "b": "cytotoxic",
+        "c": "anaemic",
+        "d": "circulatory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Cyanide poisoning in animals results in _______ type of anoxia.",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "testes",
+        "b": "anterior pituitary",
+        "c": "hypothalamus",
+        "d": "uterus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Castration cells are present in _______.",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "luteinizing hormone",
+        "b": "progesterone",
+        "c": "follicle stimulating hormone",
+        "d": "prolactin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Weaver finch feather test is done for _______.",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "lidocaine",
+        "b": "procaine",
+        "c": "bupivacaine",
+        "d": "prilocaine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most potent local anaesthetic among the following is _______.",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parapox virus",
+        "b": "Capripox virus",
+        "c": "Herpes virus",
+        "d": "Vaccinia virus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lumpy skin disease in cattle is caused by _______.",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haemonchus",
+        "b": "Capillaria",
+        "c": "Ostertagia",
+        "d": "Trichostrongylus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "FAMACHA score card is used for the management of _______ infection in sheep and goats.",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Culex",
+        "b": "Stomoxys",
+        "c": "Culicoides",
+        "d": "Ornithodorous"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The major vector for African swine fever in pigs is _______.",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chlorpheniramine",
+        "b": "Promethazine",
+        "c": "Cetirizine",
+        "d": "Diphenhydramine"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A non-selective H1 anti-histamine among the following is _______.",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Haemophilus",
+        "b": "Clostridium",
+        "c": "Fusobacterium",
+        "d": "Bacillus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Bull Nose’in pigs is caused by _______ spp.",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "trochlear",
+        "b": "vestibulocochlear",
+        "c": "facial",
+        "d": "occulomotor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Brainstem auditory evoked response (BAER) test is done for _______ nerve.",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "abomasal displacement",
+        "b": "vagus indigestion",
+        "c": "ruminal impaction",
+        "d": "tympany"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Papple shaped abdomen’ in bovines is a characteristic of _______.",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "oesophagus",
+        "b": "rumen",
+        "c": "peritoneum",
+        "d": "skin and fascia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Traumatic suture needles are used for suturing _______.",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "fluroquinolones",
+        "b": "aminoglycosides",
+        "c": "cephalosporins",
+        "d": "sulfonamides"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Arthropathy’ is one of the side effects of _______.",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "haemochorial",
+        "b": "syndesmochorial",
+        "c": "haemoendothelial",
+        "d": "epitheliochorial"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Histologic classification of placenta of pig is _______.",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "amnion",
+        "b": "yolk sac",
+        "c": "chorion",
+        "d": "allantois"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Foetal membrane in which the earliest blood forming cells appear is _______.",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Methacholine",
+        "b": "Acetylcholine",
+        "c": "Carbachol",
+        "d": "Nor-adrenaline"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A cholinergic drug that is used for the management of ruminal atony is _______.",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "copious sweating",
+        "b": "nephrosis",
+        "c": "enterotoxigenic collibacilllosis",
+        "d": "water deprivation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hypotonic dehydration occurs in _______.",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rubarth disease",
+        "b": "Carre’s disease",
+        "c": "Canine leptospirosis",
+        "d": "Canine babesiosis"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Blue eye’ condition in dogs is associated with _______.",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Weaned lambs",
+        "b": "Unweaned lambs",
+        "c": "Adult animals",
+        "d": "Pregnant animals"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Enzootic ataxia in sheep is mainly noticed in _______.",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "377",
+        "b": "428",
+        "c": "272",
+        "d": "193"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Punishment for false evidence’ comes under Section _______of the Indian Penal Code.",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vitamin D",
+        "b": "Vitamin A",
+        "c": "Thiamine",
+        "d": "Vitamin E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Crazy chick disease in poultry is caused due to the deficiency of _______.",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "cornea",
+        "b": "scelera",
+        "c": "iris",
+        "d": "choroid"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tapetum lucidum of eye is associated with _______.",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Spiranalactone",
+        "b": "Frusemide",
+        "c": "Torsemide",
+        "d": "Mannitol"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is an example for potassium sparing diuretic.",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.25 mg/kg",
+        "b": "0.025 mg/kg",
+        "c": "2.5 mg/kg",
+        "d": "25 mg/kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The dose rate of vincristine for the management of canine transmissible veneral tumor is _______.",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "dog",
+        "b": "pig",
+        "c": "horse",
+        "d": "ox"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Scythe-shaped spleen is present in _______.",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cysteine",
+        "b": "Choline",
+        "c": "Riboflavin",
+        "d": "alpha-glycerophosphate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is an example of lipotropic factor.",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "inflammatory bowel disease",
+        "b": "recurrent rectal prolapse",
+        "c": "constipation",
+        "d": "colon tumours"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Colopexy’ surgical technique is used for the management of _______.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Type I",
+        "b": "Type II",
+        "c": "Type III",
+        "d": "Type IV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Incompatible blood transfusion is an example for _______  of hypersensitivity reaction.",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "recurrent laryngeal",
+        "b": "glossopharyngeal",
+        "c": "vagus",
+        "d": "accessory"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Damage to _______ nerve causes roaring in equines.",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "simple squamous",
+        "b": "stratified",
+        "c": "transitional",
+        "d": "simple cuboidal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mucosa of urinary bladder is lined by _______ epithelium.",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "occipital",
+        "b": "parietal",
+        "c": "temporal",
+        "d": "frontal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The foramen magnum is present in _______ bone.",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "proestrus",
+        "b": "estrus",
+        "c": "metestrus",
+        "d": "diestrus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Ovulation in cattle occurs during _______.",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bovine",
+        "b": "canine",
+        "c": "ovine",
+        "d": "feline"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An induced ovulator among the following is _______.",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Perineal urethrostomy",
+        "b": "Tube cystotomy",
+        "c": "Urethrotomy",
+        "d": "Urinary bladder marsupialisation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is considered as gold standard treatment for urethral obstruction in Veterinary case.",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Canine Distemper",
+        "b": "Blue ear disease",
+        "c": "Parvoviral Infection",
+        "d": "Swine fever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Hard Pad disease is also known as:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Distal droplet",
+        "b": "Cork screw sperm",
+        "c": "Diadem sperm",
+        "d": "Dag’s defect"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is a nuclear sperm defect.",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "boar",
+        "b": "ram",
+        "c": "buck",
+        "d": "stallion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Testicular descent occurs at last quarter of foetal life in _______.",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "gastric dilatation and volvulus",
+        "b": "gastric ulcer",
+        "c": "pyloric stenosis",
+        "d": "gastric tumour"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fredet Ramstedt operation is performed for _______.",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dog",
+        "b": "Cat",
+        "c": "Cattle",
+        "d": "Horse"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ (species) is the most sensitive to xylazine.",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Body of uterus",
+        "b": "Tip of uterine horn",
+        "c": "Centre of uterine horn",
+        "d": "Cervix"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ is the best incision site for removing foetus from uterus during caesarean section in dogs.",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sherman",
+        "b": "Threaded",
+        "c": "Steinman",
+        "d": "Rush"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "_______ pin is used most frequently in veterinary orthopaedics.",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "20-25 days of gestation",
+        "b": "55-60 days of gestation",
+        "c": "42-45 days of gestation",
+        "d": "10-20 days of gestation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Radiographic confirmation of pregnancy in bitch is possible as early as _______.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "bull",
+        "b": "boar",
+        "c": "ram",
+        "d": "buck"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The highest concentration of inositol is found in the semen of _______.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "eye ball",
+        "b": "tarsal gland",
+        "c": "eyelid",
+        "d": "tendon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tarsorrhaphy refers to suturing of _______.",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Acetaminophen",
+        "b": "Ivermectin",
+        "c": "Xylazine",
+        "d": "Warfarin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "N-acetylcysteine is an anti-dote for _______ toxicity.",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "splint bone",
+        "b": "spavin",
+        "c": "ring bone",
+        "d": "side bone"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Phalangeal exostosis is known as _______.",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "duodenum",
+        "b": "rectum",
+        "c": "colon",
+        "d": "ileum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Intussusception occurs most commonly in _______.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10-20 mL/kg/hr",
+        "b": "40 mL/kg/hr",
+        "c": "90 mL/kg/hr",
+        "d": "60 mL/kg/hr"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The rate of fluid administration of isotonic crystalloid fluids during hypovolemic shock in dogs is _______.",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Write the etio-pathogenesis, clinical manifestations, diagnosis, differential diagnosis, treatment and prevention of porcine reproductive and respiratory syndrome (PRRS) in pigs.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "Write the etiology, pathophysiology and management of acute kidney injury (AKI) and chronic kidney disease (CKD) in dogs.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Mention the principles of treatment in cases of poisoning. Describe the management of cyanide and ivermectin toxicity in animals.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "Describe etiology and classification of fracture along with fracture healing process and various methods of immobilization.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "Define wound and give its classification, and describe process, factors affecting, and complications of wound healing.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "Define brachial plexus. Enlist various branches of brachial plexus with their innervation. Describe the course of radial and ulnar nerves with their clinical significance.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "Define dystocia. Classify the causes of dystocia in domestic animals. Write in detail about mutation techniques.(20)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "Define infertility. Classify different forms of infertility. Write in detail about non-infectious causes of infertility in domestic animals.(20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q37 (p4, part A): only 1 option(s) ['a'] - not emitted",
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": [
+      37
+    ]
+  }
+}

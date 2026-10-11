@@ -985,6 +985,116 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-agri-2025-gs",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "General Studies",
+    "sourceHref": "/papers/group-b/agri-2025-gs.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=2",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p1",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Agriculture Science Paper-I",
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p1.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p2",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Agriculture Science Paper-II",
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p2.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-agri-science-p3",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Agriculture Science Paper-III",
+    "sourceHref": "/papers/group-b/agri-2025-agri-science-p3.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p1",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "AH & Vety Paper-I",
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p1.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=6",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p2",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "AH & Vety Paper-II",
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p2.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=7",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-ah-vety-p3",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "AH & Vety Paper-III",
+    "sourceHref": "/papers/group-b/agri-2025-ah-vety-p3.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p1",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Horticulture Science Paper-I",
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p1.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p2",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Horticulture Science Paper-II",
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p2.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=10",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-agri-2025-horticulture-p3",
+    "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+    "sitting": "November 2025",
+    "subject": "Horticulture Science Paper-III",
+    "sourceHref": "/papers/group-b/agri-2025-horticulture-p3.pdf",
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=11",
+    "imported": true,
+    "expectedMcq": 50,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-si-fcs-2025-p1",
     "exam": "Sub-Inspector FCS&CA / Receptionist H&FW",
     "sitting": "May 2025",
@@ -3903,10 +4013,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/agri-2025-final-key.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 50
+    "expectedMcq": 50,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",

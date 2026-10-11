@@ -1,3 +1,29 @@
+## 11 October 2026 — Agriculture & Allied Services (Combined Technical) Nov-2025: +596
+
+Imported the November-2025 combined-technical exam for **Agriculture & Allied
+Services**: the shared General Studies paper (100) plus nine technical papers
+(Agriculture Science I/II/III, AH & Vety I/II/III, Horticulture Science I/II/III,
+50 each). The General English paper was already in the library but unkeyed; its
+Section-B key is now registered too, so its 50 MCQs score (one is held).
+
+Key: the official **Final Answer Key of Agri & Allied Services, 2025**
+(Notification No. Agri & Allied (C)/24/2025-MPSC (Exam), dated December 2025),
+which carries the General English (Section-B), General Studies and all nine
+"Science/AH & Vety/Horticulture ... (Section-A)" sections. Each section was read
+cell-by-cell with tesseract at 300 dpi, re-read at 600 dpi for every disputed
+cell, and cross-checked against the key's own OCR text layer and the provisional
+November-2025 key. One genuine correction came out of this: Agriculture Science
+Paper-III Q9 is C. Covers print a 1/3 negative-marking penalty.
+
+Three Section-A questions are absent from the source PDF text layers (their
+option lists are malformed): AH & Vety Paper-III Q37, Horticulture Paper-I Q33
+and Horticulture Paper-II Q15. Their numbers are left out of the key so the other
+49 questions in each paper score, and `expectedMcq` stays at the printed 50.
+
+Session delta: bank 7,226 → 7,822 practice-ready (+596; 5,816 official-backed);
+records 23,473 → 24,092. 83 registered keys. Tests (25) pass, `tsc --noEmit` and
+`git diff --check` clean.
+
 ## 11 October 2026 — CDPO / Assistant Director (Food & Drugs) Nov-2025: +538
 
 Imported the combined November-2025 exam for **Child Development Project Officer

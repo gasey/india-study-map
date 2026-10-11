@@ -1,16 +1,16 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (72 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (83 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **15,398**
-- Tier 1 — official key available (scorable mechanically): **663**
+- Held MCQs: **15,349**
+- Tier 1 — official key available (scorable mechanically): **664**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **62**
-- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **7,971**
-- Tier 3 — needs fresh derivation: **6,702**
+- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **7,940**
+- Tier 3 — needs fresh derivation: **6,683**
 
 ## Validation — how trustworthy is the upstream corpus?
 
@@ -19,19 +19,19 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 3 | 2 | 1 | 66.7% |
-| inferred | 2308 | 2011 | 297 | 87.1% |
+| inferred | 2699 | 2352 | 347 | 87.1% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
 
-- bank_v2:inferred: 7,971
+- bank_v2:inferred: 7,940
 - bank_v2:derived: 60
 - bank_v2:key: 2
 
 ## Key attribution
 
-- 120 key PDFs on disk; 72 already registered.
-- High-confidence auto-attributions: **30** (~663 held questions). Confirm each by eye before registering.
+- 120 key PDFs on disk; 83 already registered.
+- High-confidence auto-attributions: **30** (~664 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **26**
 - Unattributed key files: **5**
 
@@ -42,7 +42,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | Assistant Architect (Contract) under PWD Final Answer Key..pdf | mpsc-group-b-je-2016-english | pwd |
 | CDPO Provisional Answer Key, 2025..pdf | mpsc-group-b-cdpo-2025-gs | cdpo |
 | English Paper (Section-B) Final.pdf | mpsc-group-b-ng-technical-2024-gk | b |
-| Final Answer Key of Agri & Allied Services, 2025..pdf | mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | allied |
+| Final Answer Key of Agri & Allied Services, 2025..pdf | mpsc-group-b-agri-2025-gs | allied |
 | Final Answer Key of Informatics Officer under ICT Department..pdf | mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad | informatics |
 | Final Answer Key of Jr. Grade of MHS,2025..pdf | mpsc-group-b-archive2325-grade-iii-of-mhs-2023-general-studies | mhs |
 | Final Answer Key of MES (Combined) under Various Department-2024..pdf | mpsc-group-b-mes-pwd-2018-english | mes |
@@ -59,7 +59,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | Provisional Answer Key for Jr. Grade of MES (Combined)-2025 under Various Departments..pdf | mpsc-group-b-mes-pwd-2018-english | mes |
 | Provisional Answer Key for Jr. Grade of MHS (Combined),Sept- 2025..pdf | mpsc-group-b-archive2325-grade-iii-of-mhs-2023-general-studies | mhs |
 | Provisional Answer Key for Mizoram Health Services (Combined) Exam. 2024..pdf | mpsc-group-b-labtech-hfw-2017-english | health |
-| Provisional Answer Key of Agri & Allied Services Examination, 2025..pdf | mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024 | allied |
+| Provisional Answer Key of Agri & Allied Services Examination, 2025..pdf | mpsc-group-b-agri-2025-gs | allied |
 | Provisional Answer Key of Assistant LESO under LESDE Deptt.pdf | mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies | leso |
 | Provisional Answer Key of Informatics Officer under ICT Department.pdf | mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad | informatics |
 | Provisional Answer Key of MES (Combined) under Various Department-2024..pdf | mpsc-group-b-mes-pwd-2018-english | mes |
@@ -189,7 +189,6 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82 | General English | none | 37 | 0 | 0 | 36 | 1 |
 | mpsc-group-b-inspector-excise-2019-english-p2 | General English Paper-II | none | 100 | 0 | 0 | 35 | 65 |
 | mpsc-group-b-si-excise-2014-p3 | General Studies Paper-II | none | 34 | 0 | 0 | 32 | 2 |
-| mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487 | General English | none | 50 | 0 | 0 | 31 | 19 |
 | mpsc-group-b-programmer-phe-2018-english-p1 | General English Paper-I | none | 80 | 0 | 0 | 29 | 51 |
 | mpsc-group-b-ada-aa-ata-2019-arithmetic | Arithmetic | none | 50 | 0 | 0 | 27 | 23 |
 | mpsc-group-b-ada-aa-ata-2019-gk | General Knowledge | none | 100 | 0 | 0 | 26 | 74 |
@@ -294,4 +293,5 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-ng-april-2026-assistant-leso-general-english | General English | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6 | General English | on_disk | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a | General English | registered | 1 | 1 | 0 | 0 | 0 |
+| mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487 | General English | registered | 1 | 1 | 0 | 0 | 0 |
 

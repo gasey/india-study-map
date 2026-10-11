@@ -1,0 +1,1218 @@
+{
+  "slug": "agri-2025-horticulture-p1",
+  "exam": "Agriculture & Allied Services (Combined Technical)-November-2025",
+  "sitting": "November 2025",
+  "subject": "Horticulture Science Paper-I",
+  "source": "Agri&Allied Horticulture Science Paper-I 2025..pdf",
+  "sourceSha256": "544c6894258c84e2f848f308f872a918316216a03d52a7de8bdc35b3c7a4e371",
+  "ocr": false,
+  "count": 49,
+  "questions": [
+    {
+      "n": 1,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gibberellins",
+        "b": "Auxin",
+        "c": "ABA",
+        "d": "Cytokinins"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which plants hormone plays an important role in apical dominance?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High ‘C’ and relatively lower ‘N’ content",
+        "b": "High ‘N’ and relatively lower ‘C’ content",
+        "c": "Low ‘N’ and low ‘C’ content",
+        "d": "High ‘C’ and high ‘N’ content"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Abundant flowering and fruiting with lessened vegetative growth can result in which condition?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Citrus",
+        "b": "Aonla",
+        "c": "Papaya",
+        "d": "Litchi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Dioecious form of sex is found in:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grape",
+        "b": "Orange",
+        "c": "Litchi",
+        "d": "Papaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is a climacteric type of fruit?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 1,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Floriculture",
+        "b": "Arboriculture",
+        "c": "Viticulture",
+        "d": "Olericulture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Study for production and cultivation of grapes is known as:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chrysanthemum",
+        "b": "Nerium",
+        "c": "Emblica",
+        "d": "Lotus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Herbaceous stem cutting is popularly done in:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tomato",
+        "b": "Brinjal",
+        "c": "Potato",
+        "d": "Onions"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Heterostyly condition is observed in:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Laboratory",
+        "b": "Planting site",
+        "c": "Test tube",
+        "d": "Aerial parts"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In-situ grafting is practiced in:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IAA",
+        "b": "NAA",
+        "c": "ABA",
+        "d": "BAP"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mevalonic acid is a precursor of:",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mn",
+        "b": "Zn",
+        "c": "Cu",
+        "d": "Mo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Rossette formation is seen due to deficiency of:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cashew",
+        "b": "Coconut",
+        "c": "Mango",
+        "d": "Citrus"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Epigeal germination is seen in:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2:1:1",
+        "b": "2:2:1",
+        "c": "1:2:1",
+        "d": "1:2:2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ratio of NPK in starter solution should be:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banana",
+        "b": "Pomegranate",
+        "c": "Papaya",
+        "d": "Jack fruit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which crop is the most susceptible to water logging:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Certified seeds",
+        "b": "Nucleus seeds",
+        "c": "Foundation seeds",
+        "d": "Registered seeds"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Breeder seed’ is the source of :",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Abscisic acid",
+        "b": "NAA",
+        "c": "Ethylene",
+        "d": "IBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "For breaking bud dormancy, suitable chemical is-",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rhizobium",
+        "b": "Azotobacter",
+        "c": "Pseudomonas",
+        "d": "Penicillium"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is free-living nitrogen fixing biofertilizer?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 2,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "GA",
+        "b": "ABA",
+        "c": "2,4-D",
+        "d": "Maleic Hydrazide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which PGR is used to induce femaleness in fruit?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cow horn silica",
+        "b": "Chamomile in cow intestine",
+        "c": "Himalayan stinging nettle",
+        "d": "Himalayan oak bark"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In biodynamic farming, known formulation BD-501 is made with:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Epicotyl grafting",
+        "b": "Wedge grafting",
+        "c": "Tongue grafting",
+        "d": "Approach grafting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method of grafting is most used in temperate fruit propagation?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Espalier",
+        "b": "Spindle bush",
+        "c": "Modified Central Leader",
+        "d": "T-bar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Most commonly used training system in Kiwi fruit production:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Co &Ni",
+        "b": "B &Zn",
+        "c": "Ca &Fe",
+        "d": "S &Mg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which micronutrients are commonly used for controlling mango fruit drop?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "H₂PO₄ ⁻",
+        "b": "HPO₄²⁻",
+        "c": "PO43-",
+        "d": "HPO₄⁻"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As the soil pH increases, the relative proportion of which ion decreases?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "0.0",
+        "b": "2.5",
+        "c": "4.2",
+        "d": "6.0"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At field capacity the value of pF is:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sowing",
+        "b": "Leaf initiation",
+        "c": "Pod setting",
+        "d": "Harvesting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The critical stage for irrigation in garden pea is:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drupe",
+        "b": "Berry",
+        "c": "Sorosis",
+        "d": "Balausta"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Botanical fruit type of pomegranate is:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CaCO₃",
+        "b": "MgSO₄",
+        "c": "Ca(OH)₂",
+        "d": "CaMg(CO₃)₂"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Chemical formula of ‘Dolomite’, commonly used chemical in correction of soil pH is:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8",
+        "b": "12",
+        "c": "16",
+        "d": "20"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Per cent content of sulphur in single super phosphate is:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Quonset",
+        "b": "Gothic arch",
+        "c": "Saw-tooth",
+        "d": "K-frame"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not a type of greenhouse design?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 3,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "St. George",
+        "b": "River Bank",
+        "c": "Dogridge",
+        "d": "Saltdot"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is salt resistant rootstock of grapes?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "light exposure",
+        "b": "blocking lights",
+        "c": "low temperature",
+        "d": "high temperature"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The effect of ‘Vernalization’ on flower induction can be reversed by treatment with:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "February-April",
+        "b": "October-November",
+        "c": "July-September",
+        "d": "November-January"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Hasth Bahar, fruit ripening of guava occurs in-",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mango",
+        "b": "Ber",
+        "c": "Sapota",
+        "d": "Jackfruit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Cauliflory’ is a specialized bearing habit observed in which fruit crop?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Atrazine",
+        "b": "Fluchloralin",
+        "c": "Paraquat",
+        "d": "Butachlor"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is a non-selective herbicide?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "IAA",
+        "b": "ABA",
+        "c": "Ethylene",
+        "d": "IBA"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which endogenous hormone is responsible for seed dormancy?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tomy Atkins",
+        "b": "Mehmood Behar",
+        "c": "Olour",
+        "d": "Lakhsman Bhog"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is a polyembryonic mango variety?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Marigold",
+        "b": "Chrysanthemum",
+        "c": "Hibiscus",
+        "d": "Aster"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is an important trap crop for nematode?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "International Foundation of Organic Agriculture Movements",
+        "b": "International Federation of Organic Agriculture Movements",
+        "c": "Indian Federation of Organic Agriculture Movements",
+        "d": "International Foundation of Organic Agriculture Measures"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Full form of IFOAM is:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Glass",
+        "b": "Rubber wood",
+        "c": "Fibre glass reinforced plastic (FRP)",
+        "d": "UV stabilized low density polyethylene (LDPE)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not used as glazing material in green house construction?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 4,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fruit borer in tomato",
+        "b": "Epilachna beetle on potatoes",
+        "c": "Chilli thrips",
+        "d": "Nematode in brinjal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Trichogramma brasiliensis work as egg parasite to control which pest?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grape",
+        "b": "Mango",
+        "c": "Peach",
+        "d": "Persimmon"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which fruit does not have double sigmoid growth curve?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Grape",
+        "b": "Fig",
+        "c": "Guava",
+        "d": "Coconut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Multi-tier cropping is commonly practiced in which horticulture crop?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tongue grafting",
+        "b": "Whip grafting",
+        "c": "Cleft grafting",
+        "d": "Epicotyl grafting"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method of grafting is followed for topworking while rejuvenating old mango orchard?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ABA",
+        "b": "1-MCP",
+        "c": "GA",
+        "d": "Brassinolide"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is most potent ethylene inhibitor?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Drip",
+        "b": "Sprinkler",
+        "c": "Bubbler",
+        "d": "Pitcher"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Among these, which micro-irrigation method is generally having highest discharge rate?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B",
+        "b": "K",
+        "c": "Mo",
+        "d": "Ca"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whiptail of cauliflower is due to which deficiency?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Radish",
+        "b": "Parsley",
+        "c": "Tomato",
+        "d": "Pumpkin"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lycopene is found in high quantity in which vegetable crop?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tamarind",
+        "b": "Coconut",
+        "c": "Cocoa",
+        "d": "Sapota"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Panicle (Spadix) type inflorescence found in which crop?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FYM",
+        "b": "Bone Meal",
+        "c": "Horn Meal",
+        "d": "Hoof meal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is not animal based concentrated organic manure?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 5,
+      "part": "A",
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Furrow",
+        "b": "Check basin",
+        "c": "Ring Basin",
+        "d": "Flood"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which method of irrigation is mostly followed in fruit tree cultivation?",
+      "multi": false
+    }
+  ],
+  "written": [
+    {
+      "n": 1,
+      "part": "B",
+      "page": 6,
+      "text": "Describe briefly the factors responsible for fruit drop. How do you control fruit drop problem? Explain the objectives and methods for fruit thinning.(6+4+5+5=20)",
+      "subparts": {}
+    },
+    {
+      "n": 2,
+      "part": "B",
+      "page": 6,
+      "text": "What are plant bio-regulations? Briefly describe their functions. What are the different types of auxins? Briefly write about their functions and applications.(2+8+3+7=20)",
+      "subparts": {}
+    },
+    {
+      "n": 3,
+      "part": "B",
+      "page": 6,
+      "text": "Give short note on any four:(4×5=20)",
+      "subparts": {
+        "a": "Vermicompost",
+        "b": "Crop rotation",
+        "c": "Biofertilizer",
+        "d": "Green manure"
+      }
+    },
+    {
+      "n": 4,
+      "part": "B",
+      "page": 6,
+      "text": "What is budding? Describe briefly about different techniques of budding with suitable diagram. Describe how rootstock can influence the performance of scion cultivar in a stock-scion relationship. (2+8+10=20)",
+      "subparts": {}
+    },
+    {
+      "n": 5,
+      "part": "B",
+      "page": 6,
+      "text": "Describe with layout diagram different surface irrigation systems. What are the advantages of  micro- irrigation over conventional irrigation? Give a brief description of different micro-irrigation methods. (10+4+6=20)",
+      "subparts": {}
+    },
+    {
+      "n": 6,
+      "part": "B",
+      "page": 6,
+      "text": "What are the essential nutrients for plants? Make a list of it and explain the difference between macronutrients and micro nutrients. Give example of two macro and two micronutrients with their role and deficiency symptoms. (2+6+12=20)",
+      "subparts": {}
+    },
+    {
+      "n": 7,
+      "part": "B",
+      "page": 6,
+      "text": "Define Integrated Nutrient Management. What are the prime objectives of INM? Briefly write about the methods of INM. Write in short about advantages and limitations of INM.(2+4+8+6=20)",
+      "subparts": {}
+    },
+    {
+      "n": 8,
+      "part": "B",
+      "page": 6,
+      "text": "What do you understant by weed? Explain the concept of Integrated Weed Management (IWM). What is the need for IWM? Give a brief account of different methods for weed control. (2+4+4+10=20)",
+      "subparts": {}
+    }
+  ],
+  "notes": [
+    "Q33 (p4, part A): only 3 option(s) ['a', 'b', 'c'] - not emitted",
+    "Q1 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q2 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q3 (p6, part B): conventional section, 4 sub-part(s) - not an MCQ",
+    "Q4 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q5 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q6 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q7 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ",
+    "Q8 (p6, part B): conventional section, 0 sub-part(s) - not an MCQ"
+  ],
+  "gaps": {
+    "A": [
+      33
+    ]
+  }
+}

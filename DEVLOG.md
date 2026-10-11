@@ -12292,3 +12292,30 @@ All six papers re-verified against their registered keys: **539 scored, 0 mismat
 (83+98+95+76+94+93). Verified-key registry now 29. Bank **4,566 practice-ready**.
 25 tests + `tsc --noEmit` + `git diff --check` clean. Repairs generated here are
 automated re-OCR transcriptions (provenance recorded in `evidence`), not hand-copied.
+
+## Tier 2a: the "81 solid" is not bulk-safe
+
+Auditing the coverage report's Tier 2a (81 "solid" upstream answers):
+
+- The count is dominated by `bank_v2:derived` (60) — the source only agrees with
+  our official keys 2/3 of the time (validation: derived 2 agree / 1 disagree) —
+  and by `solved-json` matches mapped by paper-label token overlap.
+- The label mapping is unsafe. e.g. the 99 `solved-json:high` answers for the
+  *Jr Grade of MLS (General Knowledge)* paper are labelled **"LDC Paper-I under
+  Law & Judicial Deptt."** — a 2-token overlap on `law`/`judicial`. That is a
+  different exam; importing it would have scored ~99 wrong answers. Requiring a
+  >=3-token label mapping rejects *every* `solved-json` label in the corpus, i.e.
+  none are reliably attributable.
+
+So the only defensible Tier 2a subset is **`bank_v2` with `answerSource:"key"`**,
+matched by **exact normalised stem + >=2 shared options** (22 candidates, 20
+mapped). These are imported as `derived` answers (`answerConfidence:"medium"`,
+source-attributed explanations) on 10 papers, **20 scored**. The upstream `key`
+source agrees with official keys ~92% where both exist.
+
+Takeaway: Tier 2b (`inferred`, 8,206) is *less* trustworthy than this and must
+not be bulk-imported either; the safe path remains official keys + independent
+derivation (as the rest of the repairs already do).
+
+Bank now **4,586 practice-ready** (539 official-key + 20 stem-verified upstream).
+25 tests + `tsc --noEmit` + `git diff --check` clean.

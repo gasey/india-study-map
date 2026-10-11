@@ -53239,6 +53239,436 @@
           }
         }
       }
+    },
+    "udc-combined-2019-p2": {
+      "sourceSha256": "fe800a9fe2052498e84872fc76162ef01323c78d07d69b118340b0aa23a16ba4",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "questions": {
+        "99": {
+          "n": 99,
+          "page": 10,
+          "q": "In a mixture of 120 litres, the ratio of milk and water is 2:1. What amount of water must be added to make the ratio of milk and water as 1:2?",
+          "opts": {
+            "a": "40 litres",
+            "b": "80 litres",
+            "c": "120 litres",
+            "d": "100 litres"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "99": {
+          "answerIndex": 2,
+          "explanation": "Milk=80 L, water=40 L. Adding x litres of water: 80:(40+x)=1:2 gives 160=40+x, so x=120 litres (C).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a": {
+      "sourceSha256": "740a8eb663abd108171f5d480d2af75cf776ec2fc19edb084358b998698f862e",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 60,
+      "partialReview": true,
+      "questions": {
+        "60": {
+          "n": 60,
+          "page": 8,
+          "q": "They arrived soon **after**.",
+          "opts": {
+            "a": "Preposition",
+            "b": "Adjective",
+            "c": "Conjunction",
+            "d": "Adverb"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "60": {
+          "answerIndex": 3,
+          "explanation": "Here 'after' stands alone (no noun following) and modifies the verb phrase 'arrived soon', so it is an adverb (D).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "jics-2019-english": {
+      "sourceSha256": "0bed10fd00d7e2f499b5009267b1cd0624e6c321f412f790279ae1f97bb40071",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 80,
+      "partialReview": true,
+      "questions": {
+        "42": {
+          "n": 42,
+          "page": 6,
+          "q": "The village was destroyed __________ fire.",
+          "opts": {
+            "a": "with",
+            "b": "by",
+            "c": "in",
+            "d": "at"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "42": {
+          "answerIndex": 1,
+          "explanation": "'By' introduces the agent/cause: destroyed by fire (B).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "udc-combined-2019-p1": {
+      "sourceSha256": "3020f5dccc9ea781c3153c933dc2203eab20920529ea07a7667c563a11d514d2",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 75,
+      "partialReview": true,
+      "questions": {
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "A place where birds are kept.",
+          "opts": {
+            "a": "Apiary",
+            "b": "Aviary",
+            "c": "Granary",
+            "d": "Tannery"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "41": {
+          "answerIndex": 1,
+          "explanation": "An aviary is a place where birds are kept (B).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994": {
+      "sourceSha256": "4cfb27b08fcd62e6f37f34c4f1560a182b023880ec3325f790657a920b904776",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 80,
+      "partialReview": true,
+      "questions": {
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "The professional nose and throat specialist asked the author",
+          "opts": {
+            "a": "What his trouble was",
+            "b": "What his name was",
+            "c": "What his business was",
+            "d": "What his intention was"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "The author walked out of the specialist’s office",
+          "opts": {
+            "a": "With respect for his professional competence",
+            "b": "With a feeling of contempt towards the specialist",
+            "c": "With admiration for the professional",
+            "d": "With a feeling of indifference towards the professional"
+          }
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "The chief concern of the specialist lay in:",
+          "opts": {
+            "a": "The nature of the author’s illness",
+            "b": "In how much he could help the author",
+            "c": "In how much he could get out of the author",
+            "d": "In how quickly he could cure the author’s malady"
+          }
+        },
+        "21": {
+          "n": 21,
+          "page": 4,
+          "q": "Owen D. Young said the man who is",
+          "opts": {
+            "a": "Honest always gets success",
+            "b": "Selfless reaches the top of his profession",
+            "c": "Greedy fails miserably in life",
+            "d": "Able to think from the point of view of others need not have any worry"
+          }
+        },
+        "22": {
+          "n": 22,
+          "page": 4,
+          "q": "A professional should be",
+          "opts": {
+            "a": "a sycophant",
+            "b": "solely concerned with profits",
+            "c": "courteous and humble",
+            "d": "competitive"
+          }
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "q": "How many years do clean living and healthy habits add to a life of a woman and man respectively?",
+          "opts": {
+            "a": "10 years for a man and 5 years for a woman",
+            "b": "15 years for a man and 7 years for a woman",
+            "c": "11 years for a man and 5 years for a woman",
+            "d": "None of these"
+          }
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "q": "What does smoking lead to?",
+          "opts": {
+            "a": "Cancer of the throat",
+            "b": "Cancer of the liver",
+            "c": "Cancer of the throat and lungs",
+            "d": "Brain cancer"
+          }
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "q": "Which amongst the below mentioned is not one of the seven golden rules for better health?",
+          "opts": {
+            "a": "Getting eight hours sleep nightly",
+            "b": "Eating regularly and not between meals",
+            "c": "Drinking alcoholic beverages",
+            "d": "Not smoking or drinking"
+          }
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "q": "What does lack of exercise result in?",
+          "opts": {
+            "a": "Blood vessels loose elasticity",
+            "b": "Rigidity",
+            "c": "Suppleness",
+            "d": "Hallucinations"
+          }
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "q": "Eight hours of sleep is good for us as it …………. us.",
+          "opts": {
+            "a": "sensitizes",
+            "b": "enervates",
+            "c": "hallucinates",
+            "d": "energizes"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "17": {
+          "answerIndex": 2,
+          "explanation": "Passage comprehension: the nose-and-throat specialist first asks what the author's business (profession) is (C). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "Passage comprehension: the author leaves the specialist's office contemptuous of him (B). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "Passage comprehension: the specialist's chief concern is how much he can get out of the author (C). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "Owen D. Young's point is that one able to see from another's point of view need not worry (D). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "The passage's ideal professional is courteous and humble (C). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "The passage's stated figure matches none of options A-C, leaving 'None of these' (D). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "Smoking is linked to cancer of the throat and lungs (C). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Drinking alcoholic beverages is not among the seven golden rules for better health (C). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Lack of exercise makes the blood vessels lose elasticity (A). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "Eight hours of sleep energizes us (D). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies": {
+      "sourceSha256": "64517f3b488f90585e2aabef086c8f2845e31a64cf260d74d8f0d4ecddc72d94",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "questions": {
+        "83": {
+          "n": 83,
+          "page": 7,
+          "q": "Find the missing letters in the following series. SCD, TEF, UGH, _____, WKL",
+          "opts": {
+            "a": "CMN",
+            "b": "UJI",
+            "c": "VIJ",
+            "d": "IJT"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "83": {
+          "answerIndex": 2,
+          "explanation": "Series SCD,TEF,UGH,___,WKL: first letters step +1, second and third +2, giving VIJ (C).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "do-mar-2019-english": {
+      "sourceSha256": "bc1610c7b7238f7f185cacaa2d1ada237a04f8361ba54f2f8529761dafc09786",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 80,
+      "partialReview": true,
+      "questions": {
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "In the opinion of the writer, a successful businessman",
+          "opts": {
+            "a": "is more popular if he appears to be doing nothing",
+            "b": "should not bother about his popularity",
+            "c": "must be extravagant before achieving success",
+            "d": "is expected to have expensive tastes"
+          }
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "The phrase ‘lavish with his hospitality’signifies",
+          "opts": {
+            "a": "miserliness in dealing with his friends",
+            "b": "considerateness in spending on guests and strangers",
+            "c": "extravagance in entertaining guests",
+            "d": "indifference in treating his friends and relatives"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "17": {
+          "answerIndex": 3,
+          "explanation": "The writer's portrait of a successful businessman includes his being expected to have expensive tastes (D). Answer imported from an upstream MPSC answer-key corpus.",
+          "answerConfidence": "medium"
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "'Lavish with his hospitality' means extravagant in entertaining guests (C).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8": {
+      "sourceSha256": "3d5a9838a5308cb76ae1b2136ef4a647568025a899236392fd50bf767fc434f2",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 99,
+      "partialReview": true,
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Beauty needs no ornaments at all.",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Verb",
+            "c": "Noun",
+            "d": "Adverb"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "'Beauty' names a thing/quality, so it is a noun (C).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "udc-revenue-2019-p1": {
+      "sourceSha256": "2ad31e4e3c8e1aec6cea6f4c452f8f7886ed106e9f4b1e993c771d83d7de7bab",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 75,
+      "partialReview": true,
+      "questions": {
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "They arrived soon **after**.",
+          "opts": {
+            "a": "Adverb",
+            "b": "Adjective",
+            "c": "Preposition",
+            "d": "Conjunction"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "20": {
+          "answerIndex": 0,
+          "explanation": "'after' here stands alone and modifies the verb phrase 'arrived soon', so it is an adverb (A).",
+          "answerConfidence": "medium"
+        }
+      }
+    },
+    "inspector-excise-2019-gs3": {
+      "sourceSha256": "48edc94c7bbe3bac8ca58c1632d514a9f23f27174be77c981bf3d070cf1b07dd",
+      "evidence": "Answers imported from the stem-verified upstream bank_v2 \"key\" corpus (matched by exact normalised stem + >=2 shared options; the corpus agrees with official MPSC keys ~92% where both exist). Explanation text is source-attributed; no independent solution was published.",
+      "reviewedOn": "2026-10-11",
+      "expectedMcq": 100,
+      "partialReview": true,
+      "questions": {
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "Find the missing letters in the following series. SCD,TEF,UGH,_____,WKL",
+          "opts": {
+            "a": "CMN",
+            "b": "UJI",
+            "c": "VIJ",
+            "d": "IJT"
+          }
+        }
+      },
+      "derivedAnswers": {
+        "84": {
+          "answerIndex": 2,
+          "explanation": "Series SCD,TEF,UGH,___,WKL: first letters step +1 (S,T,U,V,W), second +2 (C,E,G,I,K), third +2 (D,F,H,J,L), giving VIJ (C).",
+          "answerConfidence": "medium"
+        }
+      }
     }
   }
 }

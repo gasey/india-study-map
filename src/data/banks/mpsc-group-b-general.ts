@@ -165257,9 +165257,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "direction": "Directions (Questions 9-16): choose the correct meaning of the idioms and phrases from the options"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B17",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q17",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B17",
+    "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165272,23 +165272,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "What his business was",
       "What his intention was"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Passage comprehension: the nose-and-throat specialist first asks what the author's business (profession) is (C). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B18",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q18",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B18",
+    "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165301,18 +165299,16 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "With admiration for the professional",
       "With a feeling of indifference towards the professional"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Passage comprehension: the author leaves the specialist's office contemptuous of him (B). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B19",
@@ -165344,9 +165340,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B20",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q20",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B20",
+    "questionNumber": "20",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165359,23 +165355,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "In how much he could get out of the author",
       "In how quickly he could cure the author’s malady"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Passage comprehension: the specialist's chief concern is how much he can get out of the author (C). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B21",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q21",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B21",
+    "questionNumber": "21",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165388,23 +165382,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "Greedy fails miserably in life",
       "Able to think from the point of view of others need not have any worry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Owen D. Young's point is that one able to see from another's point of view need not worry (D). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B22",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q22",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B22",
+    "questionNumber": "22",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165417,23 +165409,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "courteous and humble",
       "competitive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage's ideal professional is courteous and humble (C). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B23",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q23",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B23",
+    "questionNumber": "23",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165446,23 +165436,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "11 years for a man and 5 years for a woman",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The passage's stated figure matches none of options A-C, leaving 'None of these' (D). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B24",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q24",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B24",
+    "questionNumber": "24",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165475,23 +165463,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "Cancer of the throat and lungs",
       "Brain cancer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Smoking is linked to cancer of the throat and lungs (C). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B25",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q25",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B25",
+    "questionNumber": "25",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165504,23 +165490,21 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "Drinking alcoholic beverages",
       "Not smoking or drinking"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Drinking alcoholic beverages is not among the seven golden rules for better health (C). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B26",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q26",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B26",
+    "questionNumber": "26",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165533,18 +165517,16 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "Suppleness",
       "Hallucinations"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lack of exercise makes the blood vessels lose elasticity (A). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B27",
@@ -165576,9 +165558,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B28",
+    "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q28",
     "paperId": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-    "questionNumber": "B28",
+    "questionNumber": "28",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -165591,18 +165573,16 @@ const groupBQuestionsPart20: BankQuestion[] = [
       "hallucinates",
       "energizes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Eight hours of sleep energizes us (D). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "JE (Contract) under PHE Department 2016 · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 2 ( two) passages: Read the give passages carefully and answer the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-B29",
@@ -218872,18 +218852,16 @@ const groupBQuestionsPart27: BankQuestion[] = [
       "Noun",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "'Beauty' names a thing/quality, so it is a noun (C).",
     "source": "Vety Assistant Surgeon- Augusr- 2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question Nos. I - 10): Identify the parts of speech of each underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q2",
@@ -252164,9 +252142,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
   },
   {
-    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-B60",
+    "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q60",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
-    "questionNumber": "B60",
+    "questionNumber": "60",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -252179,18 +252157,16 @@ const groupBQuestionsPart31: BankQuestion[] = [
       "Conjunction",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Here 'after' stands alone (no noun following) and modifies the verb phrase 'arrived soon', so it is an adverb (D).",
     "source": "Jr. Accounts Officer · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 51 - 60) : Identify the part of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-written-1",
@@ -339026,9 +339002,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "direction": "Direction for Questions 1 - 16 : Choose the correct meaning of the idioms given in italics."
   },
   {
-    "id": "mpsc-group-b-do-mar-2019-english-B17",
+    "id": "mpsc-group-b-do-mar-2019-english-Q17",
     "paperId": "mpsc-group-b-do-mar-2019-english",
-    "questionNumber": "B17",
+    "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -339041,23 +339017,21 @@ const groupBQuestionsPart42: BankQuestion[] = [
       "must be extravagant before achieving success",
       "is expected to have expensive tastes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The writer's portrait of a successful businessman includes his being expected to have expensive tastes (D). Answer imported from an upstream MPSC answer-key corpus.",
     "source": "District Organiser (Contract) under DM & R Department · March 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/do-mar-2019-english.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for Questions 17 - 23 : Read the given passage carefully and choose the correct answer"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-do-mar-2019-english-B18",
+    "id": "mpsc-group-b-do-mar-2019-english-Q18",
     "paperId": "mpsc-group-b-do-mar-2019-english",
-    "questionNumber": "B18",
+    "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -339070,18 +339044,16 @@ const groupBQuestionsPart42: BankQuestion[] = [
       "extravagance in entertaining guests",
       "indifference in treating his friends and relatives"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "'Lavish with his hospitality' means extravagant in entertaining guests (C).",
     "source": "District Organiser (Contract) under DM & R Department · March 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/do-mar-2019-english.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for Questions 17 - 23 : Read the given passage carefully and choose the correct answer"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-do-mar-2019-english-B19",
@@ -386392,18 +386364,16 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "VIJ",
       "IJT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Series SCD,TEF,UGH,___,WKL: first letters step +1 (S,T,U,V,W), second +2 (C,E,G,I,K), third +2 (D,F,H,J,L), giving VIJ (C).",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q85",
@@ -396277,9 +396247,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "**Directions (Questions 41 - 48) :** Fill in the blanks with correct prepositions :"
   },
   {
-    "id": "mpsc-group-b-jics-2019-english-B42",
+    "id": "mpsc-group-b-jics-2019-english-Q42",
     "paperId": "mpsc-group-b-jics-2019-english",
-    "questionNumber": "B42",
+    "questionNumber": "42",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -396292,18 +396262,16 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "in",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "'By' introduces the agent/cause: destroyed by fire (B).",
     "source": "Junior Inspector of Co-operative Societies under Co-operation Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/jics-2019-english.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "**Directions (Questions 41 - 48) :** Fill in the blanks with correct prepositions :"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-jics-2019-english-B43",
@@ -420512,9 +420480,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "direction": "Directions (Questions 33 - 40) : Fill in the blanks with the correct phrases:"
   },
   {
-    "id": "mpsc-group-b-udc-combined-2019-p1-B41",
+    "id": "mpsc-group-b-udc-combined-2019-p1-Q41",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
-    "questionNumber": "B41",
+    "questionNumber": "41",
     "subject": "gk",
     "studySection": "gk",
     "topic": "general",
@@ -420527,18 +420495,16 @@ const groupBQuestionsPart52: BankQuestion[] = [
       "Granary",
       "Tannery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "An aviary is a place where birds are kept (B).",
     "source": "UDC (Combined) under Various Departments · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/udc-combined-2019-p1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 - 48) : Choose the correct answer from the four alternatives given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-B42",
@@ -424231,9 +424197,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
-    "id": "mpsc-group-b-udc-combined-2019-p2-B99",
+    "id": "mpsc-group-b-udc-combined-2019-p2-Q99",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
-    "questionNumber": "B99",
+    "questionNumber": "99",
     "subject": "gk",
     "studySection": "gk",
     "topic": "general",
@@ -424246,14 +424212,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "120 litres",
       "100 litres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Milk=80 L, water=40 L. Adding x litres of water: 80:(40+x)=1:2 gives 160=40+x, so x=120 litres (C).",
     "source": "UDC (Combined) under Various Departments · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/udc-combined-2019-p2.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B100",
@@ -450597,9 +450565,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "direction": "Direction (Questions 10 - 19) : Fill in the blanks with the correct prepositions."
   },
   {
-    "id": "mpsc-group-b-udc-revenue-2019-p1-B20",
+    "id": "mpsc-group-b-udc-revenue-2019-p1-Q20",
     "paperId": "mpsc-group-b-udc-revenue-2019-p1",
-    "questionNumber": "B20",
+    "questionNumber": "20",
     "subject": "gk",
     "studySection": "gk",
     "topic": "general",
@@ -450612,18 +450580,16 @@ const groupBQuestionsPart56: BankQuestion[] = [
       "Preposition",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "'after' here stands alone and modifies the verb phrase 'arrived soon', so it is an adverb (A).",
     "source": "UDC under Land Revenue & Settlement Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/udc-revenue-2019-p1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Questions 20 - 29) : Identify the parts of speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-udc-revenue-2019-p1-B21",
@@ -569701,17 +569667,16 @@ const groupBQuestionsPart71: BankQuestion[] = [
       "VIJ",
       "IJT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Series SCD,TEF,UGH,___,WKL: first letters step +1, second and third +2, giving VIJ (C).",
     "source": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q84",
@@ -615364,6 +615329,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-archive2325-acf-2023-general-knowledge": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
@@ -615394,6 +615365,18 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440": {
     "marksPerQuestion": 1,
     "durationMinutes": 120,
@@ -615405,6 +615388,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "durationMinutes": 180,
     "negativeMarking": true,
     "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
   },
   "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29": {
     "marksPerQuestion": 2,

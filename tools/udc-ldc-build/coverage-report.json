@@ -10,9 +10,9 @@
  },
  "totals": {
   "papers": 368,
-  "held_mcq": 17295,
-  "tier1_key_scorable": 891,
-  "tier2_solid_importable": 81,
+  "held_mcq": 17275,
+  "tier1_key_scorable": 890,
+  "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 8206,
   "tier3_needs_derivation": 8117
  },
@@ -22,7 +22,7 @@
    "disagree": 185
   },
   "key": {
-   "agree": 47,
+   "agree": 67,
    "disagree": 4
   },
   "derived": {
@@ -234,7 +234,7 @@
  "tier2_sources": {
   "bank_v2:inferred": 8206,
   "bank_v2:derived": 60,
-  "bank_v2:key": 21
+  "bank_v2:key": 2
  },
  "papers": [
   {
@@ -266,21 +266,6 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 100
-  },
-  {
-   "paper_id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
-   "exam": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt",
-   "subject": "General Studies",
-   "key_status": "on_disk",
-   "key_file": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt. Final Answer Key..pdf",
-   "held": 100,
-   "tier1": 100,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge",
@@ -341,6 +326,21 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 99
+  },
+  {
+   "paper_id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
+   "exam": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt",
+   "subject": "General Studies",
+   "key_status": "on_disk",
+   "key_file": "Jr. Grade of MES, P&E Cadre (Electrical Wing) under P&E Deptt. Final Answer Key..pdf",
+   "held": 99,
+   "tier1": 99,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-vo-2019-english-p2",
@@ -883,21 +883,6 @@
    "tier2_candidate": 79
   },
   {
-   "paper_id": "mpsc-group-b-jics-2019-english",
-   "exam": "Junior Inspector of Co-operative Societies under Co-operation Department",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 80,
-   "tier1": 0,
-   "tier2": 79,
-   "tier3": 1,
-   "tier2_bank": 79,
-   "tier2_solved": 0,
-   "tier2_solid": 1,
-   "tier2_candidate": 78
-  },
-  {
    "paper_id": "mpsc-group-b-lib-lunglei-2019-english",
    "exam": "Librarian under Health & Family Welfare Department (Lunglei)",
    "subject": "General English",
@@ -958,19 +943,19 @@
    "tier2_candidate": 78
   },
   {
-   "paper_id": "mpsc-group-b-udc-combined-2019-p2",
-   "exam": "UDC (Combined) under Various Departments",
-   "subject": "Paper-II",
+   "paper_id": "mpsc-group-b-jics-2019-english",
+   "exam": "Junior Inspector of Co-operative Societies under Co-operation Department",
+   "subject": "General English",
    "key_status": "none",
    "key_file": null,
-   "held": 100,
+   "held": 79,
    "tier1": 0,
-   "tier2": 76,
-   "tier3": 24,
-   "tier2_bank": 76,
+   "tier2": 78,
+   "tier3": 1,
+   "tier2_bank": 78,
    "tier2_solved": 0,
-   "tier2_solid": 1,
-   "tier2_candidate": 75
+   "tier2_solid": 0,
+   "tier2_candidate": 78
   },
   {
    "paper_id": "mpsc-group-b-udc-revenue-2019-p2",
@@ -1033,19 +1018,19 @@
    "tier2_candidate": 75
   },
   {
-   "paper_id": "mpsc-group-b-udc-combined-2019-p1",
+   "paper_id": "mpsc-group-b-udc-combined-2019-p2",
    "exam": "UDC (Combined) under Various Departments",
-   "subject": "Paper-I",
+   "subject": "Paper-II",
    "key_status": "none",
    "key_file": null,
-   "held": 75,
+   "held": 99,
    "tier1": 0,
    "tier2": 75,
-   "tier3": 0,
+   "tier3": 24,
    "tier2_bank": 75,
    "tier2_solved": 0,
-   "tier2_solid": 1,
-   "tier2_candidate": 74
+   "tier2_solid": 0,
+   "tier2_candidate": 75
   },
   {
    "paper_id": "mpsc-group-b-udc-agri-2019-p1",
@@ -1181,6 +1166,21 @@
    "tier2_solved": 0,
    "tier2_solid": 2,
    "tier2_candidate": 72
+  },
+  {
+   "paper_id": "mpsc-group-b-udc-combined-2019-p1",
+   "exam": "UDC (Combined) under Various Departments",
+   "subject": "Paper-I",
+   "key_status": "none",
+   "key_file": null,
+   "held": 74,
+   "tier1": 0,
+   "tier2": 74,
+   "tier3": 0,
+   "tier2_bank": 74,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 74
   },
   {
    "paper_id": "mpsc-group-b-udc-forensic-2019-p1",
@@ -1578,13 +1578,13 @@
    "subject": "Paper-I",
    "key_status": "none",
    "key_file": null,
-   "held": 75,
+   "held": 74,
    "tier1": 0,
-   "tier2": 58,
+   "tier2": 57,
    "tier3": 17,
-   "tier2_bank": 58,
+   "tier2_bank": 57,
    "tier2_solved": 0,
-   "tier2_solid": 1,
+   "tier2_solid": 0,
    "tier2_candidate": 57
   },
   {
@@ -1708,21 +1708,6 @@
    "tier2_candidate": 54
   },
   {
-   "paper_id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
-   "exam": "JE (Contract) under PHE Department 2016",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 79,
-   "tier1": 0,
-   "tier2": 54,
-   "tier3": 25,
-   "tier2_bank": 54,
-   "tier2_solved": 0,
-   "tier2_solid": 10,
-   "tier2_candidate": 44
-  },
-  {
    "paper_id": "mpsc-group-b-si-fcs-2018-gs2",
    "exam": "Sub-Inspector under FCS&CA Department",
    "subject": "General Studies Paper-II",
@@ -1843,18 +1828,33 @@
    "tier2_candidate": 46
   },
   {
+   "paper_id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
+   "exam": "JE (Contract) under PHE Department 2016",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 69,
+   "tier1": 0,
+   "tier2": 44,
+   "tier3": 25,
+   "tier2_bank": 44,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 44
+  },
+  {
    "paper_id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
    "exam": "Jr. Accounts Officer",
    "subject": "General English",
    "key_status": "none",
    "key_file": null,
-   "held": 60,
+   "held": 59,
    "tier1": 0,
-   "tier2": 45,
+   "tier2": 44,
    "tier3": 15,
-   "tier2_bank": 45,
+   "tier2_bank": 44,
    "tier2_solved": 0,
-   "tier2_solid": 1,
+   "tier2_solid": 0,
    "tier2_candidate": 44
   },
   {
@@ -1948,21 +1948,6 @@
    "tier2_candidate": 39
   },
   {
-   "paper_id": "mpsc-group-b-do-mar-2019-english",
-   "exam": "District Organiser (Contract) under DM & R Department",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 80,
-   "tier1": 0,
-   "tier2": 38,
-   "tier3": 42,
-   "tier2_bank": 38,
-   "tier2_solved": 0,
-   "tier2_solid": 7,
-   "tier2_candidate": 31
-  },
-  {
    "paper_id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
    "exam": "Tourist Officer",
    "subject": "General English",
@@ -2021,6 +2006,21 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 36
+  },
+  {
+   "paper_id": "mpsc-group-b-do-mar-2019-english",
+   "exam": "District Organiser (Contract) under DM & R Department",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 78,
+   "tier1": 0,
+   "tier2": 36,
+   "tier3": 42,
+   "tier2_bank": 36,
+   "tier2_solved": 0,
+   "tier2_solid": 5,
+   "tier2_candidate": 31
   },
   {
    "paper_id": "mpsc-group-b-acf-2018-english",
@@ -2368,21 +2368,6 @@
    "tier2_candidate": 9
   },
   {
-   "paper_id": "mpsc-group-b-inspector-excise-2019-gs3",
-   "exam": "Inspector under Excise & Narcotics Department",
-   "subject": "General Studies Paper-III",
-   "key_status": "none",
-   "key_file": null,
-   "held": 99,
-   "tier1": 0,
-   "tier2": 9,
-   "tier3": 90,
-   "tier2_bank": 9,
-   "tier2_solved": 0,
-   "tier2_solid": 1,
-   "tier2_candidate": 8
-  },
-  {
    "paper_id": "mpsc-group-b-si-excise-2024-p1",
    "exam": "Sub-Inspector of Excise & Narcotics",
    "subject": "General English",
@@ -2407,6 +2392,21 @@
    "tier1": 0,
    "tier2": 8,
    "tier3": 92,
+   "tier2_bank": 8,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 8
+  },
+  {
+   "paper_id": "mpsc-group-b-inspector-excise-2019-gs3",
+   "exam": "Inspector under Excise & Narcotics Department",
+   "subject": "General Studies Paper-III",
+   "key_status": "none",
+   "key_file": null,
+   "held": 98,
+   "tier1": 0,
+   "tier2": 8,
+   "tier3": 90,
    "tier2_bank": 8,
    "tier2_solved": 0,
    "tier2_solid": 0,
@@ -2668,21 +2668,6 @@
    "tier2_candidate": 0
   },
   {
-   "paper_id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
-   "exam": "Vety Assistant Surgeon- Augusr- 2024",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 97,
-   "tier1": 0,
-   "tier2": 3,
-   "tier3": 94,
-   "tier2_bank": 3,
-   "tier2_solved": 0,
-   "tier2_solid": 2,
-   "tier2_candidate": 1
-  },
-  {
    "paper_id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
    "subject": "General Studies",
@@ -2831,6 +2816,21 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 2
+  },
+  {
+   "paper_id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
+   "exam": "Vety Assistant Surgeon- Augusr- 2024",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 96,
+   "tier1": 0,
+   "tier2": 2,
+   "tier3": 94,
+   "tier2_bank": 2,
+   "tier2_solved": 0,
+   "tier2_solid": 1,
+   "tier2_candidate": 1
   },
   {
    "paper_id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",

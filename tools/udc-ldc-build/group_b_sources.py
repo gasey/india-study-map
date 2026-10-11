@@ -624,6 +624,25 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 1,
                              'durationMinutes': 120 if slug.startswith('archive2325-technical-officer-scert') else 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        # Papers that score only via stem-verified upstream derived answers.
+        # Values read from the printed covers (marks each / time allowed; no
+        # negative marking is printed on these papers).
+        UPSTREAM_SOLID_META = {
+            'archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994': (1, 180),
+            'archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8': (1, 120),
+            'archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a': (1, 180),
+            'do-mar-2019-english': (1, 180),
+            'inspector-excise-2019-gs3': (2, 120),
+            'jics-2019-english': (1, 180),
+            'udc-combined-2019-p1': (1, 180),
+            'udc-combined-2019-p2': (1, 180),
+            'udc-revenue-2019-p1': (1, 180),
+            'archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies': (1, 180),
+        }
+        if slug in UPSTREAM_SOLID_META:
+            marks, minutes = UPSTREAM_SOLID_META[slug]
+            meta[paper_id] = {'marksPerQuestion': marks, 'durationMinutes': minutes,
+                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('archive2325-inpector-of-supplies-2023-general-studies') and key:
             # Covers: 2 hours, FM 200, 2 marks each; no negative marking printed.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,

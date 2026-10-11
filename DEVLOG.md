@@ -1,5 +1,10 @@
 ## 11 October 2026 — Personal learning dashboard and short review cycle
 
+Published content commit `3703c70`; production deployment
+`dpl_GFc5U28N775u45des4gkPsinPAPJ` is READY and aliased to https://map.hawayu.in.
+Local/remote production builds, 26 engine/storage checks and component checks
+passed. Visual browser verification remains outstanding.
+
 Added **My learning** as the UDC/LDC/Group B starting view, with subject/topic
 weakness signals, manageable review sessions, mistake recovery, explicit reading
 progress, confidence/mistake reasons and browser backup controls. Renamed the

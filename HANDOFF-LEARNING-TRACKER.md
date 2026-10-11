@@ -1,5 +1,11 @@
 # My learning — UDC / LDC / Group B
 
+Published content commit `3703c70` on 11 October 2026. Vercel deployment
+`dpl_GFc5U28N775u45des4gkPsinPAPJ` is **READY** and aliased to
+https://map.hawayu.in. Deployment:
+https://india-study-dv6ualuhm-gaseys-projects.vercel.app.
+The production build passed. Browser visual verification remains outstanding.
+
 Implemented 11 October 2026. This is the continuation guide for the learner's
 personal study history. Source/import progress remains under **Bank coverage**
 and the review handoffs. Do not merge those two meanings of progress.
@@ -34,6 +40,9 @@ are preserved.
 GPT-6 Astra implemented the reusable engine, persistence and learning adapter.
 GPT-6 Luna implemented the dashboard and its styling. The parent integrated
 answering paths, completed verification and fixed issues found during checks.
+Use Astra for substantive future scheduler/persistence design changes; Luna is
+suitable for bounded presentation work. The shipped tracker uses local rules
+and makes no model/API calls to calculate learning recommendations.
 
 - `src/lib/learning/types.ts`: generic module-scoped data/policy/selector types.
 - `engine.ts`: pure attempts, reading, scheduling, migration, merge and validation.
@@ -144,6 +153,12 @@ rescored. A future content fingerprint/reconciliation mechanism should identify
 changed questions and request fresh recall without silently rewriting evidence.
 
 ## Verification and publication
+
+Local verification passed: 26 engine/storage checks, the component integration
+suite, TypeScript and the production build. A current-bank smoke check covered
+27,431 records across five subjects and 88 topic groups; an untouched profile
+received 15 questions and no false weak-area labels. These counts are a dated
+verification snapshot, not a permanent bank-size assertion.
 
 Run from the app root:
 

@@ -167,6 +167,19 @@ try {
   try { await tabA.record('second-question', true, { eventId: 'second-2' }); }
   finally { IDBObjectStore.prototype.put = originalPut; }
   check('a normal answer writes only its changed question, not all history', () => assert.equal(questionWrites, 1));
+  IDBObjectStore.prototype.put = function () { throw new DOMException('Storage is full', 'QuotaExceededError'); };
+  try { await tabA.record('database-quota', false, { eventId: 'database-quota' }); }
+  finally { IDBObjectStore.prototype.put = originalPut; }
+  check('IndexedDB write failure preserves unsaved attempts and reports the issue', () => {
+    assert.equal(tabA.getSnapshot().storageStatus.kind, 'memory');
+    assert.equal(e.parseLearningState(tabA.exportProgress(), 'transaction-test').questions['database-quota'].wrong, 1);
+  });
+  await tabA.record('database-retry', true, { eventId: 'database-retry' });
+  persisted = await e.readLearningDatabase(database, 'transaction-test');
+  check('IndexedDB retries save the previous unsaved answer without duplication', () => {
+    assert.equal(persisted.questions['database-quota'].attempts, 1);
+    assert.equal(persisted.questions['database-retry'].attempts, 1);
+  });
   const reloaded = new e.LearningStore({ moduleId: 'transaction-test', storage: shared });
   await reloaded.recordMany([]);
   check('IndexedDB reload restores committed history', () => assert.equal(reloaded.getSnapshot().learning.questions['second-question'].attempts, 2));

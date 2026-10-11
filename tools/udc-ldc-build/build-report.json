@@ -3,13 +3,13 @@
   "items": 22684,
   "mcq": 21929,
   "written": 755,
-  "ready": 6553,
-  "readyOfficial": 4547,
-  "sourceReview": 15993,
-  "unreviewed": 15933,
+  "ready": 6589,
+  "readyOfficial": 4583,
+  "sourceReview": 15957,
+  "unreviewed": 15897,
   "heldReviewed": 60,
   "missingMcq": 810,
-  "keyDisagreements": 84,
+  "keyDisagreements": 86,
   "heldKeyConflicts": 5,
   "compensated": 6
 }

@@ -3841,10 +3841,10 @@
     "sitting": "2025",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 36
+    "expectedMcq": 36,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-jao-2026-p1",

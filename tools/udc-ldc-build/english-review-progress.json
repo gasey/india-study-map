@@ -4,8 +4,8 @@
   "summary": {
     "papers": 236,
     "gazettedArchivePapers": 109,
-    "ready": 2150,
-    "pendingMcq": 7651,
+    "ready": 2186,
+    "pendingMcq": 7615,
     "heldReviewed": 30,
     "pendingWritten": 620
   },
@@ -2361,17 +2361,17 @@
       "archiveBatch": "gazetted-english",
       "status": "needs-review",
       "mcq": 36,
-      "ready": 0,
-      "readyOfficial": 0,
+      "ready": 36,
+      "readyOfficial": 36,
       "sourceReviewedMcq": 0,
-      "pendingMcq": 36,
+      "pendingMcq": 0,
       "heldReviewed": 0,
       "expectedMcq": 36,
       "missingMcq": 0,
       "writtenRecords": 7,
       "writtenGuides": 0,
       "pendingWritten": 7,
-      "keyHref": null,
+      "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
       "heldItems": []
     },
     {

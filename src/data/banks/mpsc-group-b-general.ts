@@ -275444,14 +275444,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Pronoun",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pronoun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275470,14 +275473,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Interjection",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275496,14 +275502,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Noun",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275522,14 +275531,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Interjection”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275548,14 +275560,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Noun",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275574,14 +275589,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Interjection",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275600,14 +275618,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Verb",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275626,14 +275647,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Interjection",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275652,14 +275676,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Interjection",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275678,14 +275705,17 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Pronoun",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=4",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10) : Identify the parts of speech of the underlined words in the given"
   },
   {
@@ -275704,18 +275734,23 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "to",
       "upon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “from”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B12",
@@ -275733,17 +275768,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "to",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “off”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275762,17 +275801,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "by",
       "till"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “till”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275791,17 +275834,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "on",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “by”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275820,17 +275867,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "across",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “across”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275849,17 +275900,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "to",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “under”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275878,17 +275933,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "by",
       "of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “on”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275907,17 +275966,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "with",
       "of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “with”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275936,17 +275999,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "with",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “to”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 0,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275965,17 +276032,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "at",
       "between"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “between”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=5",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 20) : Choose an appropriate Preposition for the following sentences."
   },
   {
@@ -275994,17 +276065,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "hypothetical",
       "flawed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “flawed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276023,17 +276098,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "obscure",
       "deflect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “pacify”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276052,17 +276131,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "truthfully",
       "explicitly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “deliberately”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276081,17 +276164,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "verbal",
       "anecdotal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “empirical”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276110,17 +276197,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "tactful",
       "submissive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “tactful”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276139,17 +276230,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "poor",
       "speculative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “poor”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276168,17 +276263,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "vague",
       "ambiguous"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “ambiguous”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276197,17 +276296,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "formal",
       "condescending"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “condescending”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos 21 - 28) : Choose the Correct Word or Phrase to Complete the Sentence:"
   },
   {
@@ -276226,18 +276329,23 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "dangerous",
       "unstable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “dangerous”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B30",
@@ -276255,17 +276363,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "ease is to burden",
       "inflict is to wound"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “ease is to burden”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=6",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276284,17 +276396,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "She expressed her impartial love for sweets.",
       "The manager showed impartiality by promoting only her relatives."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The referee made an impartial call.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276313,17 +276429,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "The newspaper alleged that corruption had occurred.",
       "He alleged a prize for his honesty."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The newspaper alleged that corruption had occurred.”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 2,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276342,17 +276462,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Accord",
       "Harmony"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Disagreement”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276371,17 +276495,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "mitigated",
       "acclaimed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “acclaimed”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276400,17 +276528,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "Challenge",
       "Protest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Concur”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 1,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -276429,17 +276561,21 @@ const groupBQuestionsPart34: BankQuestion[] = [
       "lenient",
       "judicious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “judicious”. This is the key reference for the answer; it is not a worked derivation.",
     "source": "Inspector of Excise under Excise & Narcotics Dept.-August-2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf#page=7",
     "independentAnswerIndex": 3,
     "independentAnswerSource": "legacy-inferred",
     "answerConfidence": "low",
-    "sourceReview": true,
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 29 - 36) : Choose the correct option in each case:"
   },
   {
@@ -626126,6 +626262,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,

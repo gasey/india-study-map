@@ -674,6 +674,14 @@ def build_additional():
             # Key: official final answer key (exam held 11-13 February 2026).
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == ('archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-'
+                    'general-engl-029fa88a') and key:
+            # Cover: Inspector under Excise & Narcotics Dept., (August-2025),
+            # General English, 3 hours, FM 100; Section-A written (64 marks) +
+            # Section-B 36 MCQs. Key: official final answer key (exam held
+            # 12-14 August 2025).
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208' and key:
             # Cover: (March-2026), General English, 3 hours, FM 100; Part-B (MCQ).
             # Key states the exam was held 10-12 March 2026.

@@ -12452,3 +12452,26 @@ key the item is held rather than scored with a mismatched explanation.
 **Bank 22,684 records / 6,553 practice-ready (+123 vs `5c8d625`: +66 ADTP, +58
 paper-I, -1 paper-II net of the peer-sourced items).** 25 tests + `git diff --check`
 clean.
+
+## Inspector under Excise & Narcotics (Aug-2025) General English (2026-10-11)
+
+The Tier-1 key-attribution audit had classed this as `unverifiable`, but it is a real
+match. The library paper
+`archive-lang-2025-inspector-of-excise-...august-2025-general-engl-029fa88a` is the
+General English paper of the exam **held 12-14 August 2025** (cover: 3 hours, FM 100,
+Section-A written 64 marks + Section-B 36 MCQs). The on-disk 4-page final key
+(`NOTIFICATION No. Inspector(DR)/19/2025`, dated 2 September 2025) is headed
+`General English (Section-'B')` on page 1 with exactly 36 answers.
+
+Parsed the 2-column table (1-18 / 19-36) cell-by-cell; the file's own OCR and a fresh
+`tesseract --psm 4` pass agree 36/36, and Q22/Q23/Q29 were pixel-verified as the
+**final** key differs there from the provisional (final B/B/C vs provisional D/D/D).
+Published as `public/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1`;
+meta 1 mark / 180 min. The paper is a clean native extraction, so it scores **36/36
+official** with no text repair.
+
+The same final key also carries General Studies Paper-I/II/III (Section-I, 50 answers
+each, plus a corrigendum to GS-III Q49 = C), but those source papers are not yet in
+the library, so only the General English paper is registered here.
+
+**Bank 22,684 records / 6,589 practice-ready (+36).**

@@ -1075,6 +1075,36 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "sourceFile": "/papers/group-b/ceo-2025-gk.pdf"
   },
   {
+    "id": "mpsc-group-b-cao-2026-gs1",
+    "examType": "Direct_NG",
+    "examName": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "post": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "paperNumber": "General Studies Paper-I",
+    "paperSubject": "General Studies Paper-I",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/cao-2026-gs1.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2",
+    "examType": "Direct_NG",
+    "examName": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "post": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "paperNumber": "General Studies Paper-II",
+    "paperSubject": "General Studies Paper-II",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/cao-2026-gs2.pdf"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3",
+    "examType": "Direct_NG",
+    "examName": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "post": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "paperNumber": "General Studies Paper-III",
+    "paperSubject": "General Studies Paper-III",
+    "year": 2026,
+    "sourceFile": "/papers/group-b/cao-2026-gs3.pdf"
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "examType": "Direct",
     "examName": "MCS Combined - 2014",
@@ -210979,6 +211009,9021 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
   },
   {
+    "id": "mpsc-group-b-cao-2026-gs1-Q1",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "“A Night of Eternal Gloom for India’’ referred to:",
+    "options": [
+      "Battle of Plassey, 1757",
+      "Battle of Wandiwash, 1760",
+      "The Third Battle of Panipat, 1761",
+      "Battle of Buxar, 1765"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Battle of Plassey, 1757”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q2",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "While fighting against the English, the Indian ruler who was fond of saying that it was “better to live a day as a lion than a lifetime as a sheep” was:",
+    "options": [
+      "Siraj –ud- Daulah",
+      "Haider Ali",
+      "Tipu Sultan",
+      "Mir Qasim"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Tipu Sultan”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q3",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The fourth and final battle between the British and the ruler of Mysore was fought in:",
+    "options": [
+      "1769",
+      "1779",
+      "1789",
+      "1799"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1799”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q4",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The granting of the Diwani of Bengal, Bihar and Orissa in 1765 was the significant outcome of:",
+    "options": [
+      "Battle of Plassey, 1757",
+      "Battle of Wandiwash, 1760",
+      "Third Battle of Panipat, 1761",
+      "Battle of Buxar, 1764"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Battle of Buxar, 1764”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q5",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not correct in regard to ‘Subsidiary Alliance’?",
+    "options": [
+      "The English must pay a subsidy for maintenance of British forces in the territory of the allying",
+      "The Indian ruler must agree to the posting of the British Resident at his Court",
+      "The Indian ruler must not employ any European other than the British in his service",
+      "The English undertook to protect the Indian ruler from his enemies"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “The English must pay a subsidy for maintenance of British forces in the territory of the allying”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q6",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Under Mahalwari settlement, settlement of land revenue was made with:",
+    "options": [
+      "Individual peasants",
+      "Village communities",
+      "Zamindars",
+      "Taluqdars"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Village communities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q7",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Ryotwari settlement was introduced in 1820 by Thomas Munro in:",
+    "options": [
+      "Madras and Bombay presidencies",
+      "Bengal and Bihar",
+      "Bihar and Orissa",
+      "Punjab, North West province and part of central India"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Madras and Bombay presidencies”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q8",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which British land revenue settlement fixed land revenue demand on zamindars in perpetuity, turning them into hereditary landowners?",
+    "options": [
+      "Permanent Settlement",
+      "Ryotwari Settlement",
+      "Mahalwari Settlement",
+      "Malguzari Settlement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Permanent Settlement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q9",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "When did the English East India Company undertook direct administration of Bengal after abolition of the Dual Government?",
+    "options": [
+      "1757",
+      "1765",
+      "1772",
+      "1793"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1772”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q10",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Act of the British Government that established the Board of Control to exercise control over the Company’s affairs and its administration in India was:",
+    "options": [
+      "Regulating Act of 1773",
+      "Pitt’s India Act of 1784",
+      "Charter Act of 1813",
+      "Charter Act of 1833"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Pitt’s India Act of 1784”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q11",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Charter Act of 1813 was a significant milestone for the promotion of education in India as it allocated:",
+    "options": [
+      "₹1 lakh of rupees per year for the promotion of education in India",
+      "₹5 lakh of rupees per year for the promotion of education in India",
+      "₹10 lakh of rupees per year for the promotion of education in India",
+      "₹15 lakh of rupees per year for the promotion of education in India"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “₹1 lakh of rupees per year for the promotion of education in India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q12",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Act of the British government that provided for the establishment of the First Law Commission in India was:",
+    "options": [
+      "Charter Act of 1813",
+      "Charter Act of 1833",
+      "Government of India Act of 1858",
+      "Indian Council Act of 1909"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Charter Act of 1833”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q13",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘Theory of Drain of Wealth’ was first propounded by:",
+    "options": [
+      "WC Banerjee",
+      "Gopal Krishna Gokhale",
+      "Aurobindo Ghose",
+      "Dadabhai Naoroji"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q14",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A famous work Precepts of Jesus was written by:",
+    "options": [
+      "Swami Vivekenanda",
+      "Henry Vivan Derozio",
+      "Iswar Chandra Vidhyasagar",
+      "Raja Ram Mohan Roy"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Raja Ram Mohan Roy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q15",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The legislation of Widow Remarriage Act, 1856 owed a credit to:",
+    "options": [
+      "Iswar Chandra Vidhyasagar",
+      "Sawmi Vevekenanda",
+      "Raja Ram Mohan Roy",
+      "Henry Vivan Derazio"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Iswar Chandra Vidhyasagar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q16",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first railway line in India, running from Bombay to Thana was opened during the tenure of:",
+    "options": [
+      "Lord Dalhausie",
+      "Lord Curson",
+      "Lord Cunning",
+      "Lord Minto"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lord Dalhausie”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q17",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Under the ‘ Old Guarantee System’, the Companies investing in Railway construction in India were assured a guaranteed dividend of:",
+    "options": [
+      "3 %",
+      "5 %",
+      "7 %",
+      "10 %"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “5 %”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q18",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The ‘Downward filtration theory’ referred to the:",
+    "options": [
+      "Arrogant attitude of the British towards Indians",
+      "Expansionist policy of the British in India",
+      "British policy of Education in India",
+      "Lenient attitude of the British towards princely states of India"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “British policy of Education in India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q19",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following proposed the setting up of universities at Culcutta, Bombay and Madras?",
+    "options": [
+      "Decision of the British government in 1835",
+      "Wood’s Despatch, 1854",
+      "Hunter Commission, 1882",
+      "Universities Act, 1904"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Wood’s Despatch, 1854”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q20",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first Indian to have qualified examination for Indian Civil Services was:",
+    "options": [
+      "Satyendranath Tagore",
+      "Debendranath Tagore",
+      "Rabindranath Tagore",
+      "Dwarkanath Tagore"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Satyendranath Tagore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q21",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The founder of an influential nationalist newspaper Vande Mataram was:",
+    "options": [
+      "Lala Lajpat Rai",
+      "Aurobindo Ghose",
+      "Bipin Chandra Pal",
+      "Surendranath Banerjee"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bipin Chandra Pal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q22",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The great upheaval that took place in 1857 in India had been coined by colonial writers as:",
+    "options": [
+      "First War of Indian independence",
+      "Sepoy Mutiny",
+      "Revolt of 1857",
+      "Peasants’ rebellion"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sepoy Mutiny”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q23",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The most significant outcome of the uprising of 1857 was:",
+    "options": [
+      "It united the Indians against the British",
+      "British started adopting a policy of Divide and Rule",
+      "It brought about major transformation in military organisation",
+      "It resulted in the transfer of power to govern India from the East India Company to the British Crown"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It resulted in the transfer of power to govern India from the East India Company to the British Crown”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q24",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first session of Indian National Congress at Bombay in 1885 was attended by:",
+    "options": [
+      "70 delegates",
+      "72 delegates",
+      "75 delegates",
+      "78 delegates"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “72 delegates”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q25",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Indian nationalist who started using the traditional religious Ganpati festival to propagate nationalist ideas was:",
+    "options": [
+      "Lala Lajpat Rai",
+      "Bipan Chandra Pal",
+      "Bal Gangadhar Tilak",
+      "Gopal Krishna Gokhale"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Bal Gangadhar Tilak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q26",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A system of separate electorate, giving separate representation to the Muslim was introduced by:",
+    "options": [
+      "The Indian Council Act of 1892",
+      "The Indian Council Act of 1909",
+      "The Government of India Act of 1919",
+      "The Government of India Act of 1935"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Indian Council Act of 1909”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q27",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "As a result of Chauri Chaura incident, Gandhiji suspended:",
+    "options": [
+      "Champaran Satyagraha",
+      "Ahmedabad Mill Strike",
+      "Non Cooperation Movement",
+      "Civil Disobedience Movement"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Non Cooperation Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q28",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A clarion call “Do or Die” was given by Mahatma Gandhi during:",
+    "options": [
+      "Ahmedabad Mill Strike",
+      "Non Co-operation Movement",
+      "Civil Disobedience Movement",
+      "Quit India Movement"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Quit India Movement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q29",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "An Indian nationalist leader who was known as ‘Iron Man of India’ was:",
+    "options": [
+      "Lala Lajpat Rai",
+      "Subash Chandra Bose",
+      "Sardar Vallabhbhai Patel",
+      "Lokamanya Tilak"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sardar Vallabhbhai Patel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q30",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The slogan ‘Jai Hind’ and ‘Delhi Chalo’ was attributed to:",
+    "options": [
+      "Mahatma Gandhi",
+      "Subash Chandra Bose",
+      "Ananda Mohan Bose",
+      "Sardar Vallabhbhai Patel"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Subash Chandra Bose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q31",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Why was the Battle of Buxar (1764) decisive in consolidating British control in northern India?",
+    "options": [
+      "It ended all resistance from the Marathas",
+      "It gave the Company control over Bombay and Madras",
+      "It led to the annexation of Punjab and the neighbouring areas giving economic power to the",
+      "It defeated a coalition of major Indian powers, giving the Company political supremacy in the"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It defeated a coalition of major Indian powers, giving the Company political supremacy in the”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q32",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first permanent British factory set up by the East India Company in 1613 was located in:",
+    "options": [
+      "Bombay",
+      "Surat",
+      "Calcutta",
+      "Madras"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Surat”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q33",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What was the major administrative consequence of the Regulating Act of 1773 for British rule in India?",
+    "options": [
+      "It granted full independence to the East India Company from British parliamentary control.",
+      "It abolished the East India Company and transferred power directly to the British Crown.",
+      "It introduced universal adult franchise in Company territories.",
+      "It made the Governor of Bengal the Governor-General of Bengal with supervisory authority"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It made the Governor of Bengal the Governor-General of Bengal with supervisory authority”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q34",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which early 19th century social reform is most closely associated with the joint efforts of Raja Ram Mohan Roy and the British administration under Lord William Bentinck?",
+    "options": [
+      "Introduction of widow remarriage",
+      "Abolition of untouchability",
+      "Raising the age of consent for girls",
+      "Abolition of sati"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Abolition of sati”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q35",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In what way did British educational policies unintentionally contribute to the rise of Indian nationalism?",
+    "options": [
+      "By prohibiting any discussion of politics or public affairs in educational settings",
+      "By ensuring that only British citizens could receive higher education in India",
+      "By creating an educated public that used Western ideas of rights and liberty to criticize colonial rule",
+      "By teaching Indian history from a nationalist perspective"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “By creating an educated public that used Western ideas of rights and liberty to criticize colonial rule”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q36",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which, among the following was the first to recommend English as the medium of instruction?",
+    "options": [
+      "Thomas Macaulay’s Minute on Education,1835",
+      "Wood’s Despatch,1854",
+      "Hunter Commission, 1882",
+      "Kothari Commission, 1964-66"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Thomas Macaulay’s Minute on Education,1835”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q37",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who, among the following leaders was the proclaimed (official) leader of the Revolt of 1857?",
+    "options": [
+      "Rani Lakshmi Bai",
+      "Bahadur Shah Zafar",
+      "Tantia Tope",
+      "Kunwar Singh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Bahadur Shah Zafar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q38",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Why did British policies encourage the cultivation of cash crops like indigo, opium, and cotton in many parts of India?",
+    "options": [
+      "To promote small-scale subsistence farming across all regions",
+      "To ensure local food security and reduce dependence on imports",
+      "To reduce India’s participation in international commerce",
+      "To supply raw materials and specific goods required by British industries"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “To supply raw materials and specific goods required by British industries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q39",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "How did the need to pay land revenue in cash contribute to rural indebtedness?",
+    "options": [
+      "It ensured that the colonial state always waived revenue in years of bad harvest",
+      "It allowed peasants to easily save surplus money in banks instead of borrowing",
+      "It completely eliminated the role of moneylenders from rural society",
+      "It forced peasants to borrow from moneylenders when crops failed or prices fell"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “It forced peasants to borrow from moneylenders when crops failed or prices fell”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q40",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The phenomena of “Peasants shifting to producing crops for sale in distant markets, often to meet cash and tax demands” during the British rule in India, is commonly known as:",
+    "options": [
+      "Absentee Landlordism",
+      "Rural Indebtedness",
+      "Commercialisation of Agriculture",
+      "Growth of Commercial Labourers"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Commercialisation of Agriculture”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q41",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Why did the development of modern industry in colonial India tend to be more concentrated in areas such as Bombay and Calcutta?",
+    "options": [
+      "They were completely free from any British commercial influence",
+      "They combined access to ports, railways, and existing commercial communities",
+      "They had lower colonial taxes compared to the rest of India",
+      "These cities were the only places allowed by law to establish factories"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “They combined access to ports, railways, and existing commercial communities”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q42",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In the emergence of an Indian capitalist class, which group most commonly provided the early pool of entrepreneurs who invested in modern industry?",
+    "options": [
+      "British officials who settled in India after retirement",
+      "Large peasant landholders with surplus agricultural income",
+      "Merchants and banking communities such as Marwaris and Parsis",
+      "Colonial missionaries interested in promoting industrial education"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Merchants and banking communities such as Marwaris and Parsis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q43",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which factor most directly encouraged the early growth of modern industries such as jute and cotton textiles in colonial India during the late 19th century?",
+    "options": [
+      "Protective tariffs imposed by the colonial state to shield Indian industries",
+      "The construction and expansion of railway networks linking raw material areas to ports",
+      "A deliberate British policy to reduce imports from Britain and promote Indian manufacturing",
+      "Large-scale state subsidies to Indian industrialists like the Tatas and Birlas"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The construction and expansion of railway networks linking raw material areas to ports”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q44",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which reformer is correctly matched with the socio-religious organisation he led or inspired, and what was one major focus of that organisation?",
+    "options": [
+      "Jyotiba Phule – Satyashodhak Samaj; challenging caste oppression and promoting education",
+      "Swami Vivekananda – Aligarh Movement; advocating Western-style scientific education for",
+      "Sir Syed Ahmad Khan – Ramakrishna Mission; preaching a synthesis of Vedanta and devotion",
+      "Keshab Chandra Sen – Arya Samaj; promoting exclusive Vedic ritualism"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Jyotiba Phule – Satyashodhak Samaj; challenging caste oppression and promoting education”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q45",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which Act, passed in 1878 targeted (curbed) Indian language Newspapers?",
+    "options": [
+      "Indian Newspaper Act",
+      "Vernacular Press Act",
+      "Censorship Press Act",
+      "Licensing Regulations Act"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Vernacular Press Act”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q46",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The system that allowed the British to annex states where the ruler died without a natural heir was:",
+    "options": [
+      "Ring fence Policy",
+      "Doctrine of Lapse",
+      "Subsidiary Alliance",
+      "Rule of Law"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Doctrine of Lapse”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q47",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In which year did the Jallianwala Bagh massacre take place in Amritsar?",
+    "options": [
+      "1930",
+      "1924",
+      "1920",
+      "1919"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1919”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q48",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "“Hind Swaraj” was authored by",
+    "options": [
+      "W C Banerjee",
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "B R Ambedkar"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mahatma Gandhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q49",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In which year did the Lucknow Pact between the Indian National Congress and the Muslim League take place, signifying a moment of Hindu–Muslim unity?",
+    "options": [
+      "1920",
+      "1916",
+      "1906",
+      "1910"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1916”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q50",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "On which date did the Direct Action Day, called by the Muslim League, take place in 1946, leading to widespread communal violence in Bengal?",
+    "options": [
+      "15 August 1947",
+      "16 August 1946",
+      "23 March 1940",
+      "9 August 1942"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “16 August 1946”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q51",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following countries is not a member of BIMSTEC?",
+    "options": [
+      "India",
+      "Thailand",
+      "Bangladesh",
+      "Maldives"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Maldives”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q52",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "India and Taiwan do not have formal diplomatic relations primarily because:-",
+    "options": [
+      "India recognises Taiwan as a sovereign independent country.",
+      "Taiwan has refused diplomatic ties with India.",
+      "India has no economic interests with Taiwan.",
+      "India follows the One China Policy."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “India follows the One China Policy.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q53",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In December 2025, MIZOFED and NCEL signed a three-year Memorandum of Understanding (MoU) mainly to support:",
+    "options": [
+      "Urban infrastructure development in Mizoram.",
+      "Local cooperative societies in marketing and export of products.",
+      "Education and skill development programs in rural areas.",
+      "Healthcare facilities and medical research in Mizoram."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Local cooperative societies in marketing and export of products.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q54",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The tragic deaths of at least 24 children in Madhya Pradesh in 2025 were linked to which type of medicine?",
+    "options": [
+      "Anti-virus",
+      "Antibiotic injection",
+      "Cough syrup",
+      "Pain reliever"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Cough syrup”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q55",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In which city H. Lalthazuala was crowned U-19 Boys’ Singles Champion at the Yonex-Sunrise All India Junior Ranking Badminton Tournament 2025?",
+    "options": [
+      "Panchkula, Haryana",
+      "Guwahati, Assam",
+      "Hyderabad, Telangana",
+      "Indoore, MP."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Panchkula, Haryana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q56",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In 2025, the Supreme Court of India accepted a new criterion for defining the Aravalli Hills. According to this definition, a landform is considered an Aravalli Hill if it has a minimum elevation of:",
+    "options": [
+      "200 metres above sea level .",
+      "150 metres above sea level.",
+      "100 metres above sea level.",
+      "50 metres above sea level."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “100 metres above sea level.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q57",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who won the Red Bull Tlang Ruam 2025 competition?",
+    "options": [
+      "Lalrinawma (India)",
+      "Tenzing Sherpa (Nepal)",
+      "Nirav Shrestha (Nepal)",
+      "Daniel Federspiel (Austria)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nirav Shrestha (Nepal)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q58",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which Bill was passed in 2025 to regulate placement agencies for jobs inside India and abroad?",
+    "options": [
+      "The Mizoram Youth Commission Bill.",
+      "The Mizoram Urban and Regional Development Bill.",
+      "The Mizoram Private Placement Agencies (Regulation) Bill, 2025.",
+      "The Mizoram Private Placement and Other Agencies (Regulation) Bill, 2025."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Mizoram Private Placement Agencies (Regulation) Bill, 2025.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q59",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Supreme Court in 2025 held that the Governor cannot exercise “pocket veto” over state legislation. This ruling is primarily related to which constitutional principle?",
+    "options": [
+      "Parliamentary sovereignty",
+      "Separation of powers",
+      "Cooperative federalism",
+      "Judicial activism"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Separation of powers”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q60",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What is India’s highest civilian honour for children recently received by Esther Hnamte on 26th December 2025 in New Delhi?",
+    "options": [
+      "Eklavya Award",
+      "Bal Kalyan Puraskar",
+      "Pradhan Mantri Rashtriya Bal Puraskar",
+      "Indira Gandhi Bal Puraskar"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pradhan Mantri Rashtriya Bal Puraskar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q61",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which 2025 Bill focused on planning and development of towns and cities in Mizoram?",
+    "options": [
+      "The Mizoram Rural Development Bill.",
+      "The Mizoram Panchayat Regulations Bill,2025.",
+      "The Mizoram Urban and Regional Development Bill, 2025.",
+      "The Mizoram Industrial Growth Bill."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Mizoram Urban and Regional Development Bill, 2025.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q62",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following is not a 5th Generation fighter jet?",
+    "options": [
+      "Tejas Mk1",
+      "Su-57 Felon",
+      "F-22 Raptor",
+      "F-35 Lightning II"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Tejas Mk1”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q63",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who wrote the book ‘ Hun Inher Kara Zofate’?",
+    "options": [
+      "B. Lalthangliana",
+      "Stephen Auhmun",
+      "Lalhruaitluanga Chawngte",
+      "F. Vanlalrochana"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “F. Vanlalrochana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q64",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "At the 2025 Youth Empowerment Summit (YES) jointly organized by Mizoram State Child Protection Society and Medhavi Foundation, Shephard Zomuani was adjudged:",
+    "options": [
+      "Iconic star of Tomorrow",
+      "Young Ambassador",
+      "Star of Tomorrow",
+      "Star Ambassador"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Star of Tomorrow”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q65",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "India has marked a major milestone in public health care with the inauguration of its first government based Artificial Intelligence (AI) clinic at the:",
+    "options": [
+      "Govt. Institute of Medical Sciences (GIMS), Greater Noida",
+      "All India Institute of Medical Sciences (AIMS), New Delhi",
+      "Christian Medical College (CMC), Vellore",
+      "Post-Graduate Institute of Medical Education and Research (PGIMER), Chandigarh"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Govt. Institute of Medical Sciences (GIMS), Greater Noida”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q66",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which city hosted the 18th Urban Mobility India (UMI) conference, where the much lauded Mizoram traffic gets national recognition, held during 7-9 November, 2025?",
+    "options": [
+      "Mumbai",
+      "Shilma",
+      "Gurugram",
+      "Bhopal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gurugram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q67",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who is the recipient of Dr. Bhupen Hazarika National Award, 2025?",
+    "options": [
+      "C. Lalrosanga",
+      "Mangjangam Touthang",
+      "PK Singson",
+      "LR Sailo"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “LR Sailo”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q68",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Indian Women’s Cricket team beat ________ by 52 runs to win their first ever ICC Women’s ODI World Cup on November 2, 2025.",
+    "options": [
+      "South Africa",
+      "Zimbabwe",
+      "New Zealand",
+      "Australia"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “South Africa”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q69",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who of the following was appointed by Venezuela’s Supreme Court on January 3, 2026 to become the country’s interim President, after the United States seized President Nicolas Maduro and whisked him out of the country.",
+    "options": [
+      "Delcy Rodriguez",
+      "Cilia Flores",
+      "Vladimir Padrino Lopez",
+      "Juan Guaido"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Delcy Rodriguez”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q70",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Robert Prevost, who became the Catholic Pope after the death of Pope Francis will be known as ________.",
+    "options": [
+      "Pope Leole XIV",
+      "Pope Loew XIV",
+      "Pope Lowe XIV",
+      "Pope Leo XIV"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pope Leo XIV”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q71",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Despite ongoing reforms, India ranks ________ in Global Innovation Index (2025) published by WIPO.",
+    "options": [
+      "38th",
+      "48th",
+      "34th",
+      "44th"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “38th”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q72",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The recently released ‘Die As a Man’ (factual stories of Mizo struggle for Independence (1966- 1986) is authored by:",
+    "options": [
+      "Major Thankhuma",
+      "Major PC Lianhmingthanga",
+      "C. Zama",
+      "Lt.Ngulkhopao"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “C. Zama”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q73",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Indian Space Research Organisation (ISRO) inaugurated the Himalyan Outpost for Planetary Exploration (HOPE) station on August 1, 2025 in:",
+    "options": [
+      "Leh, Ladakh",
+      "Tso Kar Valley,Ladakh",
+      "Kargil, Ladakh",
+      "Zanskar, Ladakh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Tso Kar Valley,Ladakh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q74",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "What is the theme of National Statistics Day 2025?",
+    "options": [
+      "“Using Data to Inform Decision Making”",
+      "“Using Statistics to Inform Decision Maker”",
+      "“Using Statistics to Inform Decision Making”",
+      "“75 Years of National Sample Surgery”"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q75",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "In a solemn ceremony symbolising unity, patriotism and national pride, Mizoram Governor General (Dr) Vijay Kumar Singh, PVSM, AVSM, YSM (Retd), on 24th December, 2025 unfurled a monumental ________ National Flag - the tallest in the state - at 34 Assam Rifles, Zokhawsang, Aizawl.",
+    "options": [
+      "138-feet-high",
+      "128-feet-high",
+      "118-feet-high",
+      "108-feet-high"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “108-feet-high”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q76",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The 10th privately operated ATM booth in Mizoram was inaugurated in September, 2025 at:",
+    "options": [
+      "Reiek",
+      "Seling",
+      "West Phaileng",
+      "Thenzawl"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Reiek”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q77",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Union Minister of Cooperation, who chaired a “Manthan Baithak”, a meeting with the Ministers of Cooperation of all States and Union Territories in New Delhi on 30.06.2025 to review ongoing schemes to strengthen cooperation movement in the Country was:",
+    "options": [
+      "Narendra Modi",
+      "Amit Shah",
+      "Nirmala Sitharaman",
+      "Raj Nath Singh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Amit Shah”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q78",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "India Maritime Week – 2025, held at the NESCO Exhibition Centre from October 27-31, 2025 in Mumbai, the event focused on the theme:",
+    "options": [
+      "Uniting Oceans, One Maritime Zone",
+      "Single Maritime Zone, Uniting Ocean",
+      "Uniting Oceans, One Maritime Vision",
+      "Uniting Maritime Zone, One Vision"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Uniting Oceans, One Maritime Vision”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q79",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The first State in the Country to rename Raj Bhavan as Lok Bhavan is:",
+    "options": [
+      "West Bengal",
+      "Tamil Nadu",
+      "Kerala",
+      "Mizoram"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “West Bengal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q80",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "“Sardar@150 Unity March,” to commemorate 150th Birth Anniversary of Sardar Vallabhbhai Patel, the Iron Man of India, spanned for:",
+    "options": [
+      "Five months",
+      "Four months",
+      "Three months",
+      "Two months"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Two months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q81",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "The Union Ministry of Home Affairs on 16.12.2025 extended the tenure of the Commission of Inquiry probing the 2023 Manipur violence, allowing it time until May 20, 2026 to submit its report. The Commission is headed by former Gauhati High Court Chief Justice:",
+    "options": [
+      "Vijay Bishnoi",
+      "Sandeep Mehta",
+      "Ajai Lamba",
+      "R. M. Chhaya"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Ajai Lamba”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q82",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Who was/were the chief guest(s) of the 77th Republic Day celebration in Delhi?",
+    "options": [
+      "Prabowo Subianto, President of Indonesia",
+      "Ursula von der Leyen, President of the European Commission and Antonio Costa, President of the European Council",
+      "Antonio Costa, President of the European Council",
+      "Ursula von der Leyen, President of the European Commission and Emmanuel Macron, President of France"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ursula von der Leyen, President of the European Commission and Antonio Costa, President of the European Council”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q83",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A four-month-long special campaign launched on 1st September, 2025 to curb drug flow into the state of Mizoram and to address the growing security concerns posed by drugs addicts in public space was known as:",
+    "options": [
+      "Operation Nehemiah",
+      "Operation Jericho",
+      "Joint (Forces) Operation 24x7",
+      "Zero Tolerance Operation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Operation Jericho”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q84",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Prime Minister Narendra Modi celebrated Diwali 2025 with Navy Personnel onboard on:",
+    "options": [
+      "INS Chennai",
+      "INS Vikramaditya",
+      "INS Vikrant",
+      "INS Kolkata"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “INS Vikrant”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q85",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Government of India has recently taken decision to construct two cross border railway lines with Bhutan connecting:",
+    "options": [
+      "Assam and West Bengal",
+      "Sikkim and Arunachal Pradesh",
+      "Assam and Arunachal Pradesh",
+      "Sikkim and West Bengal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Assam and West Bengal”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q86",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Sushila Karki was named as:",
+    "options": [
+      "Cambodia’s first female Prime Minister",
+      "Nepal’s first female Prime Minister",
+      "Tibet’s first female Prime Minister",
+      "Bhutan’s first female Prime Minister"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Nepal’s first female Prime Minister”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q87",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which city hosted UN Climate Change Conference in November, 2025?",
+    "options": [
+      "Belem",
+      "Johannesburg",
+      "Sydney",
+      "Baku"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Belem”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q88",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "‘One Nation One Subscription’ is sponsored by Government of India, ________.",
+    "options": [
+      "Ministry of Consumer Affairs, Food and Public Distribution (MoCAFP)",
+      "Ministry of Information and Broadcasting (MIB)",
+      "Ministry of Women and Child Development (MoWCD)",
+      "Ministry of Education (MOE)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Ministry of Education (MOE)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q89",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)Pi Famiangi, recognized as possibly one of the oldest individual in India died at the age of 117 in July, 2025 at Lungtian village, Lawngtlai District. (ii)Pi Rita Lalneihpuii, the first woman to earn a Master’s degree, passed away at the age of 100 in September, 2025 Select the correct answer using the code given below:",
+    "options": [
+      "Both (i) and (ii) are correct",
+      "Only (i) is correct",
+      "Only (ii) is correct",
+      "Both (i) and (ii) are wrong"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Only (ii) is correct”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q90",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following statements is/are correct? (i)On June 16, 2025, India officially notified that the country’s 16th National Census — and the 8th after Independence — will be conducted in 2027. (ii)The long-awaited population count will adopt digital methods, include caste data, and conclude by March 2027. (iii)Reference Date for Mainland India is: 00:00 hours, March 1, 2027; while Reference Date for Snow-bound areas is: October 1, 2026. Select the correct answer using the code given below:",
+    "options": [
+      "Only (i) and (ii)",
+      "only (ii) and (iii)",
+      "Only (i) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Only (i) and (ii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q91",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "With reference to the 17th BRICS Summit, 2025, which of the following is not correct?",
+    "options": [
+      "It was held on July 7, 2025 in Rio de Janeiro",
+      "The Summit welcomed India’s candidacy to host COP33 in 2027.",
+      "In a strong show of support, the BRICS leaders reiterated backing for India’s permanent",
+      "India has received unanimous backing from BRICS nations to chair the 18th BRICS Summit in"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Summit welcomed India’s candidacy to host COP33 in 2027.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q92",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "SMART-PDS is an initiative by the Indian government aimed at improving the efficiency, transparency, and accountability of the country’s Targeted Public Distribution System (TPDS). Its full form is:",
+    "options": [
+      "Specific, Measurable, Achievable, Relevant, Time-bound in Public Distribution System.",
+      "Scheme for Manual-less and Record through Technology in Public Distribution System.",
+      "Scheme for Modernisation, Accountability and Regeneration of Transparency in Public Distribution System.",
+      "Scheme for Modernisation and Reforms through Technology in Public Distribution System."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Scheme for Modernisation and Reforms through Technology in Public Distribution System.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q93",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "A Meitei MLA, named Yumnam Khemchand Singh visited a Kuki Relief Camp in Imphal West in early December, 2025 and interacted with the inmates, appealing for peace and co-existence. He belongs to:",
+    "options": [
+      "BJP Legislature Party",
+      "INC Legislature Party",
+      "NPP Legislature Party",
+      "JD(U) Legislature Party"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “BJP Legislature Party”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=11",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q94",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Consider the following statements: (i)President of India has given assent to the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB -G RAM G) Bill, 2025 marking a significant milestone in the transformation of rural employment policy. (ii)The Viksit Bharat - G RAM G Act, 2025 replaces MGNREGA. The Bill was introduced in Lok Sabha on December 16, 2025 and was passed, two days later, on December 18, 2025. In Rajya Sabha, it was passed on December 19, 2025. (iii)The employment guarantee is enhanced to 125 days per rural household, strengthening income security; but not shifted from Demand-Based Model to Normative Allocation Framework. Which of the statements given above is/are wrong?",
+    "options": [
+      "Only (i)",
+      "Only (ii)",
+      "Only (iii)",
+      "None of the above"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Only (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q95",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "With reference to the 2026 Winter Olympics, which of the following statement is correct?",
+    "options": [
+      "An upcoming international multi-sport event is scheduled to take place from 16 to 28 February, 2026.",
+      "2026 Winter Olympics is the XXVI edition of Winter Olympic Games.",
+      "It is commonly known as Milano Cortinha 2026.",
+      "The Games will be the first Olympic Games under the IOC presidency of Kirsty Coventry."
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The Games will be the first Olympic Games under the IOC presidency of Kirsty Coventry.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q96",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding Generation Beta: (i)The year 2025 marks the beginning of a new generation, in Generation Beta. (ii)Simply put, Generation Beta is defined as those born between 2025 and 2039. (iii)By 2035, they will make up 25% of the global population (iv)They will be the children of younger Gen Ys (millennials) and older Gen Zs; and many will live to see the 22nd century. By using the code given below, which of the above statements is/are correct?",
+    "options": [
+      "Only (i) & (ii)",
+      "Only (i), (ii) and (iii)",
+      "Only (i), (ii) & (iv)",
+      "(i), (ii), (iii) & (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Only (i), (ii) & (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q97",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "With reference to Swaraj Kaushal, former Governor of Mizoram who passed away recently at the age of 73, which of the following is correct? (i)He was the youngest-ever Governor of Mizoram (1990-1993) at age 37 (ii)He was also key figure in the 1986 Mizoram Peace Accord. (iii)He served as the first Advocate General of Mizoram. (iv)He was the first official Indian Interlocutor for NSCN talks. Select the correct answer using the code given below:",
+    "options": [
+      "(i), (ii) and (iii) only",
+      "(ii), (iii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(i), (ii), (iii) & (iv)"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q98",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following statement(s) is/are correct? (i)2025 Booker Prize was awarded to David Szalay. (ii)He is an Albanian-British author. (iii)Booker prize was awarded for his novel, ‘Flesh’.",
+    "options": [
+      "(i) & (ii) only",
+      "(i) & (iii) only",
+      "(ii) & (iii) only",
+      "(i), (ii) & (iii)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i) & (iii) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q99",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "Which of the following statement(s) is/are correct? (i)Nobel Peace Prize 2025 was awarded to Maria Corina Machado (ii)She is a Brazillian politician, activist, and prominent leader. (iii)She was previously awarded Vaclav Havel Human Rights Prize (2023); Sakharov Prize (2024) (iv)She was listed among Time Magazine’s 100 most influential people in 2025. By using the code given below, which of the above statements is/are correct?",
+    "options": [
+      "(i), (ii) & (iii) only",
+      "(ii), (iii) & (iv) only",
+      "(i), (ii) & (iv) only",
+      "(i), (iii) & (iv) only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (iii) & (iv) only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs1-Q100",
+    "paperId": "mpsc-group-b-cao-2026-gs1",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-I",
+    "difficulty": "medium",
+    "question": "With reference to Lokmat Parliamentary Awards 2025, which of the following statement is wrong?",
+    "options": [
+      "Lifetime Achievement Award (Lok Sabha) : Digvijay Singh",
+      "Best Parliamentarian Award (Lok Sabha) : Jagdambika Pal",
+      "Best Parliamentarian Award (Rajya Sabha) : Sanjay Singh",
+      "Best Woman Parliamentarian Award (Rajya Sabha) : Dola Sen"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lifetime Achievement Award (Lok Sabha) : Digvijay Singh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf#page=12",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q1",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following Directive Principles is based on Gandhian ideology?",
+    "options": [
+      "Equal pay for equal work for both men and women",
+      "Uniform civil code for all citizens",
+      "Separation of Judiciary from Executive",
+      "Promotion of cottage industries"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Promotion of cottage industries”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q2",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which writ is issued to address unlawful detention?",
+    "options": [
+      "Mandamus",
+      "Quo Warranto",
+      "Habeas Corpus",
+      "Prohibition"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Habeas Corpus”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q3",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following statements is NOT correct regarding the Directive Principles of State Policy (DPSP)?",
+    "options": [
+      "DPSPs cannot be enforced automatically and require legislation for implementation",
+      "DPSPs are non-justiciable in nature",
+      "DPSPs aim to enforce political democracy in the country",
+      "DPSPs are mentioned in part IV of the Constitution"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “DPSPs aim to enforce political democracy in the country”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q4",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What is ‘Zero hour’?",
+    "options": [
+      "When the proposals of the opposition are considered",
+      "When matters of utmost importance are raised",
+      "Interval between the morning and afternoon sessions",
+      "When a Money Bill is introduced in the Lok Sabha"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “When matters of utmost importance are raised”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q5",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The High Court having the jurisdiction in Judicial matters relating to the largest number of States/ Union Territories is:",
+    "options": [
+      "Kolkata High Court",
+      "Kerala High Court",
+      "Mumbai High Court",
+      "Guwahati High Court"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Guwahati High Court”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q6",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Fourth Schedule of Indian Constitution deals with which of the following?",
+    "options": [
+      "Panchayat Raj System",
+      "Schedule Tribes",
+      "Allocation of seats for the Council of States",
+      "Anti-defection Law"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Allocation of seats for the Council of States”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q7",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The members of which of the following can be appointed as ministers in State Government? 1.State Legislative Assembly 2.State Legislative Council 3.Panchayat 4.Municipality Select the correct option from the codes given below:",
+    "options": [
+      "Only 1",
+      "Only 1 & 2",
+      "Only 1, 2 & 3",
+      "All of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Only 1 & 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q8",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The words ‘socialist’ and ‘secular’ were made a part of the Preamble by:",
+    "options": [
+      "Constitution Forty-First Amendment Act, 1976",
+      "Constitution Forty-Fourth Amendment Act, 1978",
+      "Constitution Forty-Sixth Amendment Act, 1982",
+      "Constitution Forty-Second Amendment Act, 1976"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Constitution Forty-Second Amendment Act, 1976”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q9",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who amongst the following issues Writs?",
+    "options": [
+      "Supreme Court of India",
+      "High Court of a State",
+      "President of India",
+      "Both (a) & (b)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Both (a) & (b)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q10",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Match the following: A.Constitution Fifty-Eighth Amendment1.Delhi to be called as National Capital Territory Act, 1991.of Delhi. B.Constitution Sixty-First Amendment2.Reduced voting age from 21 years to 18 years. Act, 1988. C.Constitution Sixty-Ninth Amendment3.An authoritative text of the Constitution in Hindi. Act, 1991. D.Constitution Seventy-First Amendment4.Included Konkani, Manipuri and Nepali Act, 1992.languages in the Eight Schedule. ABCD",
+    "options": [
+      "3214",
+      "3124",
+      "2124",
+      "4213"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “3214”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q11",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Of the following Prime Ministers who did not face the Union Parliament even once?",
+    "options": [
+      "Lal Bahadur Shastri",
+      "Charan Singh",
+      "Morarji Desai",
+      "VP Singh"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Charan Singh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q12",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who among the following is known as the Father of the Constitution of India?",
+    "options": [
+      "BR Ambedkar",
+      "Rajendra Prasad",
+      "Jawahar Lal Nehru",
+      "Subhash Chandra Bose"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “BR Ambedkar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q13",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Judicial review function of the Supreme Court means the power to:",
+    "options": [
+      "Review the functioning of the judiciary in the country",
+      "Undertake periodic review of the Constitution",
+      "Examine the constitutional validity of laws",
+      "Review its own judgement"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Examine the constitutional validity of laws”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q14",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "A person can directly move to the Supreme Court in case of any violation of Fundamental Rights. Which Article allows for this?",
+    "options": [
+      "Article 31",
+      "Article 32",
+      "Article 29",
+      "Article 30"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Article 32”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q15",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who among the following hold office during the pleasure of the President?",
+    "options": [
+      "Governor of a State",
+      "Prime Minister",
+      "Chief Election Commissioner",
+      "Speaker of Lok Sabha"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Governor of a State”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q16",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "According to Official Languages Act (1963) which language should be used for the purpose of communication between the Union and non-Hindi states?",
+    "options": [
+      "Any regional Language of the State",
+      "English",
+      "Any language specified by the Supreme Court",
+      "None of the above"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “English”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q17",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which State enjoys the distinction of being the first linguistic state of India ?",
+    "options": [
+      "West Bengal",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q18",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following Standing Committees of Parliament has no MP from Rajya Sabha?",
+    "options": [
+      "Public Accounts Committee",
+      "Estimates Committee",
+      "Committee on Public Undertakings",
+      "Committee on Government Assurances"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Estimates Committee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q19",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which case is related to Fundamental Rights?",
+    "options": [
+      "Golakhnath vs. State of Punjab (1967)",
+      "West Bengal vs. Union of India (1963)",
+      "Sharma vs. Krishna (1959)",
+      "State of Bombay vs. Balsara (1951)"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Golakhnath vs. State of Punjab (1967)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q20",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The first women Governor of a State in free India was:",
+    "options": [
+      "Sarojini Naidu",
+      "Najma Heptullah",
+      "Sucheta Kripalani",
+      "Vijaya Laxmi Pandit"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sarojini Naidu”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q21",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "A person who is not a member of Parliament can be appointed as a Minister by the President of India for a maximum period of?",
+    "options": [
+      "6 Months",
+      "3 Months",
+      "4 Months",
+      "9 Months"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “6 Months”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q22",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who acts as the President of India, when neither the President nor the Vice President is available?",
+    "options": [
+      "Seniormost Governor of a State",
+      "Chief Justice of India",
+      "Dy Speaker of Rajya Sabha",
+      "CAG of India"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Chief Justice of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q23",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What is contained in the 10th Schedule of the Constitution of India?",
+    "options": [
+      "Forms of Oath or Affirmation",
+      "Languages recognised by the Constitution",
+      "Laws that cannot be challenged in any Court of Law",
+      "Provision regarding disqualification of the grounds of defection"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Provision regarding disqualification of the grounds of defection”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q24",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is not correct about Act East Policy?",
+    "options": [
+      "India’s Act East Policy was unveiled by the Prime Minister of India Narendra Modi at 12th",
+      "Act East Policy is the predecessor of Look East Policy.",
+      "The Act East Policy was originally conceived as an economic initiative.",
+      "The objective of ‘Act East Policy’ is to promote economic cooperation, cultural ties and"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Act East Policy is the predecessor of Look East Policy.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q25",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consider the following statements: 1.The term of office of the Prime Minister of India is fixed at 5 years 2.No one under 30 years can become the Prime Minister. Which of the statements given is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 Nor 2"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Neither 1 Nor 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q26",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who among the following was the President of the Constituent Assembly of India?",
+    "options": [
+      "Dr. Rajendra Prasad",
+      "Jawaharlal Nehru",
+      "M.A. Jinnah",
+      "Lal Bahadur Shastri"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Dr. Rajendra Prasad”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q27",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is not a Constitutional Body?",
+    "options": [
+      "NITI Aayog",
+      "Attorney-General of India",
+      "Comptroller and Auditor-General (CAG)",
+      "Finance Commission"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “NITI Aayog”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q28",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following statements are correct? (i)By-Elections:- An election which is held out of normal schedule is called by-election. (ii)Mid-term Elections:- If the Lok Sabha or any of the state assemblies is dissolved before the expiry of its full term and elections are held to constitute a new house, it is called mid-term elections. (iii)General Elections:- A general election is a political voting election where generally all or most members of a given political body are chosen. (iv)Snap Poll:- A snap poll is an election that is called earlier than the one that has been scheduled. It can happen by dissolution of Lok Sabha before its full tenure.",
+    "options": [
+      "(i) only,",
+      "(i), (ii), (iii)",
+      "All of the above",
+      "(i) & (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “All of the above”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q29",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What is the minimum age to qualify for Lok Sabha elections?",
+    "options": [
+      "25 years",
+      "30 years",
+      "21 years",
+      "18 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “25 years”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q30",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Judge of a High Court can be removed before the expiry of his term by:",
+    "options": [
+      "The President on the recommendation of the Supreme Court",
+      "The Governor on the recommendation of the state legislature",
+      "The President on the recommendation of the state legislature",
+      "The President on the recommendation of the Parliament"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “The President on the recommendation of the Parliament”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q31",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "In India, Right to Property is a:",
+    "options": [
+      "Legal Right",
+      "Fundamental right",
+      "Both a legal and a Fundamental Right",
+      "Neither a legal right nor a Fundamental Right"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Legal Right”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q32",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "When the President of India does not take any action on a bill and keeps it for an indefinite period, it is called:",
+    "options": [
+      "Absolute veto",
+      "Suspensive veto",
+      "Pocket veto",
+      "Qualified veto"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pocket veto”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q33",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is correct about Fundamental Duties?",
+    "options": [
+      "of the Indian Constitution in the Article 51(A).",
+      "(i), (ii), (iii), ( iv)",
+      "(i) & (iii)",
+      "(i) & (iv)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “(i) & (iii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q34",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Choose the correct pair: (i)Right to Equality (Articles 14-18) (ii)Right to Freedom (Articles 29-30) (iii)Right against Exploitation (Articles 23-24) (iv)Right to Freedom of Religion (Articles 25-28)",
+    "options": [
+      "(i), (ii), (iii)",
+      "(ii), (iii), (iv)",
+      "(i), (ii), ( iv)",
+      "(i), (iii), (iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(i), (iii), (iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=5",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q35",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Choose the right answer: (i)The Constitution of India grants and guarantees Fundamental Rights to its citizens. (ii)Part III of the Constitution deals with those rights, which are known as a Fundamental Right. (iii)There are Seven Fundamental Rights",
+    "options": [
+      "(i), (ii), (iii)",
+      "(i), (ii)",
+      "(ii), (iii)",
+      "Neither (a) nor (b) nor (c)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “(i), (ii)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q36",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which is correct about the Government of India Act, 1919? (i)This Act is also known as the Morley-Minto Reforms (ii)A Constituent Assembly would be established consisting of 389 Members (iii)This Act made a provision for the establishment of an All India Federation consisting of provinces and Princely States as units. (iv)This Act introduce the system of Dyarchy which mean double rule in the provinces",
+    "options": [
+      "(i)",
+      "(ii)",
+      "(iii)",
+      "(iv)"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “(iv)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q37",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "States covered by the Sixth Schedule of the Indian Constitution are:",
+    "options": [
+      "Assam, Meghalaya, Tripura, and Mizoram",
+      "Assam, Meghalaya, Manipur, and Mizoram",
+      "Nagaland, Meghalaya, Tripura, and Mizoram",
+      "Assam, Meghalaya, Nagaland, and Mizoram"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Assam, Meghalaya, Tripura, and Mizoram”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q38",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The All-India Services are:",
+    "options": [
+      "Indian Administrative Service, Indian Police Service, Indian Forest Service",
+      "Indian Administrative Service, Indian Police Service, Indian Foreign Service",
+      "Indian Administrative Service, Indian Police Service, Indian Revenue Service",
+      "Indian Administrative Service, Indian Police Service, Indian Foreign Service, Indian Forest"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Indian Administrative Service, Indian Police Service, Indian Forest Service”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q39",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The reservation percentage for Scheduled Tribes (ST) in India’s Central Government jobs and education is:",
+    "options": [
+      "5%",
+      "6%",
+      "6.5%",
+      "7.5%"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “7.5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q40",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Agriculture, police and public health comes under which List of the Indian Constitution?",
+    "options": [
+      "Union List",
+      "State List",
+      "Concurrent List",
+      "Local Government List"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “State List”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q41",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Industrial Policy Resolution (IPR) 1956 classified industries into three categories. Which of the following correctly describes ‘Schedule B’ industries?",
+    "options": [
+      "Industries exclusively owned by the state.",
+      "Industries left entirely to the private sector without government interference.",
+      "Industries which would be progressively state-owned, but private enterprise could supplement",
+      "Industries reserved for the Small Scale Sector (SSI) only."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Industries which would be progressively state-owned, but private enterprise could supplement”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q42",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following best describes the concept of ‘Marketed Surplus’ in the context of Indian Agriculture?",
+    "options": [
+      "The total agricultural produce harvested by a farmer in a given year.",
+      "The portion of produce stored by the government as buffer stock.",
+      "The portion of agricultural produce which is sold in the market by the farmers after retaining a",
+      "The surplus produce exported to foreign nations after meeting domestic demand."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The portion of agricultural produce which is sold in the market by the farmers after retaining a”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=6",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q43",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Match the economic terms in Column I with their correct definitions in Column II: Column I (Economic Column II (Definitions) **Terms)** 1. Short-term measures to control inflation and correct A. Structural Reform **the balance of payments.** 2. Selling off part of the equity of Public Sector B. Stabilisation Measures **Enterprises to the public.** 3. Long-term measures to improve the efficiency of the C. Disinvestment **economy and international competitiveness.** 4. Reduction in the value of domestic currency vis-à-vis D. Devaluation **foreign currency by the government.** Select the correct option from the codes given below:",
+    "options": [
+      "A-1, B-3, C-4, D-2",
+      "A-3, B-1, C-2, D-4",
+      "A-3, B-2, C-1, D-4",
+      "A-4, B-1, C-2, D-3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “A-3, B-1, C-2, D-4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q44",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a feature of the ‘Public Distribution System (PDS)’ mechanism?",
+    "options": [
+      "Procurement of food grains at Minimum Support Price (MSP).",
+      "Storage of food grains as Buffer Stock by FCI.",
+      "Selling food grains at market prices to maximise profits.",
+      "Distribution of food grains through Fair Price Shops at Issue Price."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Selling food grains at market prices to maximise profits.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q45",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Identify the correct chronological order of the following events in the Indian Economy: 1.Establishment of the Planning Commission. 2.Nationalisation of Commercial Banks. 3.Introduction of New Economic Policy (LPG). 4.Setting up of NITI Aayog.",
+    "options": [
+      "1, 3, 2, 4",
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 2, 4, 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1, 2, 3, 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q46",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Disguised Unemployment’ is a characteristic feature of which sector in India?",
+    "options": [
+      "Organized Industrial Sector",
+      "Information Technology Sector",
+      "Agriculture Sector",
+      "Banking and Financial Sector"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Agriculture Sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q47",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "With reference to Poverty Estimation in India, the Planning Commission accepted the calorie norm of:",
+    "options": [
+      "2100 calories for rural and 2400 calories for urban areas.",
+      "2400 calories for rural and 2100 calories for urban areas.",
+      "2200 calories for both rural and urban areas.",
+      "1800 calories for rural and 2200 calories for urban areas."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “2400 calories for rural and 2100 calories for urban areas.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q48",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which institution was established in 1982 as the apex body to coordinate the activities of all institutions involved in the rural financing system?",
+    "options": [
+      "SBI (State Bank of India)",
+      "RRB (Regional Rural Bank)",
+      "NABARD (National Bank for Agriculture and Rural Development)",
+      "RBI (Reserve Bank of India)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “NABARD (National Bank for Agriculture and Rural Development)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=7",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q49",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Casualisation of Workforce’ refers to a situation where:",
+    "options": [
+      "The percentage of self-employed workers increases.",
+      "The percentage of casually hired workers in the total workforce increases over time.",
+      "Workers move from the informal sector to the formal sector.",
+      "The workforce shifts entirely from agriculture to industry."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The percentage of casually hired workers in the total workforce increases over time.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q50",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "With respect to the ‘Demographic Transition’ in India, the year 1921 is regarded as the ‘Year of Great Divide’ because:",
+    "options": [
+      "India’s population started declining after this year.",
+      "Before this year, population growth was stagnant; after 1921, it began to rise consistently.",
+      "The literacy rate crossed 50% for the first time.",
+      "The mortality rate became higher than the birth rate permanently."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Before this year, population growth was stagnant; after 1921, it began to rise consistently.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q51",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Under the ‘Antyodaya Anna Yojana (AAY)’, who are the targeted beneficiaries?",
+    "options": [
+      "All families below the poverty line (BPL).",
+      "The poorest of the poor among the BPL families.",
+      "Only senior citizens.",
+      "Families affected by natural calamities."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The poorest of the poor among the BPL families.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q52",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is a direct tax?",
+    "options": [
+      "Goods and Services Tax (GST)",
+      "Excise Duty",
+      "Customs Duty",
+      "Corporation Tax"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Corporation Tax”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q53",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Deficit Financing’ in the context of the Indian budget implies:",
+    "options": [
+      "The government borrowing from the World Bank to build infrastructure.",
+      "The government borrowing from the Reserve Bank of India to meet the excess of expenditure",
+      "The government selling public sector shares to private entities.",
+      "The government reducing taxes to increase consumption."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The government borrowing from the Reserve Bank of India to meet the excess of expenditure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q54",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following best defines ‘Worker-Population Ratio’?",
+    "options": [
+      "The number of people unemployed divided by total population.",
+      "The number of persons employed per 100 persons in the population.",
+      "The ratio of male workers to female workers.",
+      "The ratio of workers in the industrial sector to those in agriculture."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The number of persons employed per 100 persons in the population.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q55",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Assertion (A ):The service sector in India has grown rapidly in terms of contribution to GDP but",
+    "options": [
+      ":The service sector in India has grown rapidly in terms of contribution to GDP but not proportionately in terms of employment generation. labor-intensive. (a)Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is NOT the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “:The service sector in India has grown rapidly in terms of contribution to GDP but not proportionately in terms of employment generation. labor-intensive. (a)Both A and R are true and R is the correct explanation of A.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q56",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Who among the following is known as the ‘Architect of Indian Planning’ for his contribution to the Second Five Year Plan strategy?",
+    "options": [
+      "V.K.R.V. Rao",
+      "Dadabhai Naoroji",
+      "P.C. Mahalanobis",
+      "Amartya Sen"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “P.C. Mahalanobis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q57",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "In the context of Indian Industry, what does the term ‘Navratna’ refer to?",
+    "options": [
+      "Nine strategic industries reserved for the public sector.",
+      "Public Sector Enterprises (PSEs) given greater managerial and operational autonomy.",
+      "Nine private companies that export the most.",
+      "The nine jewels of Akbar’s court applied to modern banking."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Public Sector Enterprises (PSEs) given greater managerial and operational autonomy.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q58",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "What is the primary function of the ‘Reserve Bank of India (RBI)’?",
+    "options": [
+      "To provide loans directly to farmers and industrialists.",
+      "To issue currency and control money supply.",
+      "To collect taxes on behalf of the government.",
+      "To manage the stock market operations."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To issue currency and control money supply.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q59",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "With reference to the 1991 Economic Reforms, ‘Stabilisation Measures’ refer to:",
+    "options": [
+      "Long-term measures to improve the efficiency of the economy.",
+      "Short-term measures to correct Balance of Payments and control inflation.",
+      "Privatisation of all Public Sector Units.",
+      "Removal of all trade barriers immediately."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Short-term measures to correct Balance of Payments and control inflation.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q60",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following correctly defines ‘Fiscal Policy’?",
+    "options": [
+      "Policy regarding money supply and bank interest rates.",
+      "Policy regarding government taxation and expenditure.",
+      "Policy regarding export and import of goods.",
+      "Policy regarding control of industrial labor."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Policy regarding government taxation and expenditure.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q61",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following is a ‘Non-Tariff Barrier’?",
+    "options": [
+      "Import Duty",
+      "Customs Tax",
+      "Quantitative Restrictions (Quotas)",
+      "Export Subsidy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Quantitative Restrictions (Quotas)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q62",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Structural transformation in India involves:",
+    "options": [
+      "Shift from agriculture to industry and services",
+      "Increase in subsistence farming",
+      "Decline in industrial output",
+      "Shift from services to agriculture"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Shift from agriculture to industry and services”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q63",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Liberalisation policies in India aimed to:",
+    "options": [
+      "Reduce foreign investment",
+      "Expand public sector monopoly",
+      "Control industrial growth",
+      "Increase the role of the private sector"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Increase the role of the private sector”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q64",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The incidence of poverty refers to:",
+    "options": [
+      "Causes of poverty",
+      "Depth of poverty",
+      "Intensity of unemployment",
+      "Proportion of population living below the poverty line"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Proportion of population living below the poverty line”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q65",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Consolidation of land holdings helps to:",
+    "options": [
+      "Increase fragmentation",
+      "Reduce soil fertility",
+      "Improve efficiency and reduce boundary disputes",
+      "Increase tenancy"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Improve efficiency and reduce boundary disputes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q66",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Operation flood’ is related to:",
+    "options": [
+      "Flood control measures",
+      "Milk production",
+      "Fish production",
+      "Shrimp production"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Milk production”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=9",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q67",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The objective of industrial decentralization is to:",
+    "options": [
+      "Increase imports",
+      "Increase monopolies",
+      "Reduce regional imbalances",
+      "Concentrate industries in cities"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Reduce regional imbalances”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q68",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Disinvestment refers to:",
+    "options": [
+      "Increase in subsidies",
+      "Closure of private firms",
+      "Nationalization of industries",
+      "Sale of government equity in public enterprises"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Sale of government equity in public enterprises”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q69",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Competition Act replaced the:",
+    "options": [
+      "FEMA",
+      "FERA",
+      "MRTP Act",
+      "SEBI Act"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “MRTP Act”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q70",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Minimum Support Price (MSP) is announced to:",
+    "options": [
+      "Promote exports",
+      "Protect farmers from price fluctuations",
+      "Control inflation",
+      "Increase tax revenue"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Protect farmers from price fluctuations”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q71",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Capital expenditure mainly leads to:",
+    "options": [
+      "Creation of assets",
+      "Reduction in revenue",
+      "Increase in consumption",
+      "Inflation control only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Creation of assets”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q72",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Expansionary fiscal policy involves:",
+    "options": [
+      "Monetary tightening",
+      "Lower taxes and higher public expenditure",
+      "Reduction in deficit",
+      "Higher taxes and lower spending"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lower taxes and higher public expenditure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q73",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Interest payments on public debt form part of:",
+    "options": [
+      "Revenue expenditure",
+      "Capital expenditure",
+      "Capital receipts",
+      "Development expenditure"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Revenue expenditure”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q74",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The main objective of monetary policy is to:",
+    "options": [
+      "Increase government expenditure",
+      "Reduce fiscal deficit",
+      "Promote exports",
+      "Control inflation and ensure price stability"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Control inflation and ensure price stability”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q75",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Repo rate refers to the rate at which?",
+    "options": [
+      "Banks lend to RBI",
+      "RBI lends short-term funds to banks",
+      "Government borrows",
+      "Public borrows from banks"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “RBI lends short-term funds to banks”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q76",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Priority sector lending aims at providing credit to:",
+    "options": [
+      "Large industries",
+      "Agriculture, MSMEs, and weaker sections",
+      "Stock markets",
+      "Multinational companies"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Agriculture, MSMEs, and weaker sections”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q77",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "SEBI regulates the:",
+    "options": [
+      "Banking system",
+      "Insurance sector",
+      "Cooperative banks",
+      "Capital market"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Capital market”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q78",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Terms of trade measure the relationship between:",
+    "options": [
+      "Imports and GDP",
+      "Export prices and import prices",
+      "Exports and GDP",
+      "Balance of payments and trade"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Export prices and import prices”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q79",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Capital account balance of payment records:",
+    "options": [
+      "Export earnings",
+      "Foreign investment and loans",
+      "Insurance receipts",
+      "Remittances"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Foreign investment and loans”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q80",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Mahalanobis strategy of planning emphasized:",
+    "options": [
+      "Agriculture-led growth",
+      "Heavy industrialization",
+      "Export-led growth",
+      "Service sector dominance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Heavy industrialization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q81",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The oldest fold mountain in India is:",
+    "options": [
+      "Cardamom Hills",
+      "Aravallis",
+      "Nilgiri Hills",
+      "Rajmahal Hills"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Aravallis”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q82",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following seperates the Nilgiri Hills from the Anaimalai Hils?",
+    "options": [
+      "Thal ghat",
+      "Bhor ghat",
+      "Palghat gap",
+      "Haldighati pass"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Palghat gap”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q83",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The Main Boundary Fault separates:",
+    "options": [
+      "The Karakoram from the Greater Himalayas",
+      "The Greater Himalayas from the Himalayas",
+      "The Lesser Himalayas from the Shiwalik",
+      "The Shiwalik from the Great Plains of India"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Lesser Himalayas from the Shiwalik”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q84",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following rivers originates from the Himalayas?",
+    "options": [
+      "Chambal",
+      "Damodar",
+      "Gandak",
+      "Kaveri"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gandak”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q85",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following statements is not correct?",
+    "options": [
+      "Gujarat has the longest coastline in India",
+      "Indira Gandhi Canal is the longest canal in India",
+      "Kovalam is the longest sea-beach in India",
+      "Deccan Plateau is the largest plateau of India"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kovalam is the longest sea-beach in India”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q86",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which state in India has the highest Scheduled Tribe population?",
+    "options": [
+      "Rajasthan",
+      "Orissa",
+      "Jharkhand",
+      "Madhya Pradesh"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Madhya Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q87",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one is the least urbanised among the following states of India?",
+    "options": [
+      "Chhattisgarh",
+      "Jharkhand",
+      "Odisha",
+      "Rajasthan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Odisha”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q88",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which linguistic group has the largest number of speakers in India?",
+    "options": [
+      "The Dravidians",
+      "The Indo-Aryans",
+      "The Austric",
+      "The Sino-Tibetan"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “The Indo-Aryans”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q89",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The net sown area in India is around _________ of the total geographical area.",
+    "options": [
+      "30%",
+      "43%",
+      "53%",
+      "60%"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “43%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q90",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following is known as the Shrimp Capital of India?",
+    "options": [
+      "Chennai",
+      "Machilipatnam",
+      "Nellore",
+      "Nagapattinam"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Nellore”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q91",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Tertiary coal is found in:",
+    "options": [
+      "Western and south-western Tripura",
+      "Senapati and Tamenglong district of Nagaland",
+      "Garo, Khasi and Jaintia hills of Meghalaya",
+      "Kolasib and Mamit district of Mizoram"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Garo, Khasi and Jaintia hills of Meghalaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q92",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following is not correctly matched?",
+    "options": [
+      "Hazaribagh - Mica",
+      "Hutti - Gold",
+      "Jaduguda - Uranium",
+      "Zawar - Copper"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Zawar - Copper”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q93",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Guru Ghasidas is one of the largest National Parks in India and is located in the state of:",
+    "options": [
+      "Gujarat",
+      "Uttarakhand",
+      "Chhattisgarh",
+      "Andhra Pradesh"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chhattisgarh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q94",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Saddle peak’- the highest peak of Andaman and Nicobar island is located in:",
+    "options": [
+      "Great Nicobar",
+      "Middle Andaman",
+      "Little Andaman",
+      "North Andaman"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “North Andaman”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q95",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following is the largest container port in India?",
+    "options": [
+      "Kochi",
+      "Vishakhapatnam",
+      "Mangalore",
+      "Nhava Sheva, Mumbai"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Nhava Sheva, Mumbai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q96",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which region in India is a major hub for the Iron and Steel Industry, benefiting from raw material proximity?",
+    "options": [
+      "Northern Gangetic Plain",
+      "Konkan Plain",
+      "Kerala Plain",
+      "Chotanagpur Plateau"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Chotanagpur Plateau”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q97",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which state in India has the highest percentage of Muslim population?",
+    "options": [
+      "Lakshadweep",
+      "Bihar",
+      "Assam",
+      "Tamil Nadu"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Assam”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q98",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "‘Jog Falls’ is created by which river?",
+    "options": [
+      "Narmada",
+      "Mahanadi",
+      "Sharavathi",
+      "Krishna"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Sharavathi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q99",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which one of the following forests is the most dominant forest in India?",
+    "options": [
+      "Tropical Semi-Evergreen Forest",
+      "Tropical Dry Deciduous Forest",
+      "Tropical Wet Evergreen Forest",
+      "Tropical Deciduous Forest"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Tropical Deciduous Forest”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2-Q100",
+    "paperId": "mpsc-group-b-cao-2026-gs2",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "Which of the following states has the literacy rate lower than the national average as per 2011 Census?",
+    "options": [
+      "Karnataka",
+      "Kerala",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q1",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "1",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "India’s first satellite Aryabhata was launched primarily to:",
+    "options": [
+      "Enable communication services",
+      "Monitor weather patterns",
+      "Demonstrate indigenous satellite technology",
+      "Conduct military reconnaissance"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Demonstrate indigenous satellite technology”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q2",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "2",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The concept of “Atmanirbhar Bharat” in science and technology primarily emphasizes:",
+    "options": [
+      "Protectionism through high tariffs",
+      "Indigenous production with global integration",
+      "Self-reliance through innovation, research, and domestic capability building",
+      "Reduction of foreign collaborations"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Self-reliance through innovation, research, and domestic capability building”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q3",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "3",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which institution played a key role in India’s Green Revolution through scientific research?",
+    "options": [
+      "Indian Council of Agricultural Research (ICAR)",
+      "Council of Scientific & Industrial Research (CSIR)",
+      "Indian Agricultural Research Institute (IARI)",
+      "National Bank for Agriculture and Rural Development (NABARD)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Indian Agricultural Research Institute (IARI)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q4",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "4",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The term ‘Technology Leapfrogging’ in the Indian context refers to:",
+    "options": [
+      "Skipping technological regulation",
+      "Moving directly to advanced technologies without intermediate stages",
+      "Adopting advanced technologies to bypass traditional development paths",
+      "Gradual adoption of imported technologies"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Adopting advanced technologies to bypass traditional development paths”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q5",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "5",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "India’s first indigenously developed COVID-19 vaccine was:",
+    "options": [
+      "Covishield",
+      "Sputnik V",
+      "Covaxin",
+      "ZyCoV-D"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Covaxin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q6",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "6",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘valley of death’ in India’s innovation ecosystem refers to:",
+    "options": [
+      "Brain drain of scientists",
+      "Failure of startups after IPO",
+      "Gap between research output and commercial deployment",
+      "Decline in patent quality"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Gap between research output and commercial deployment”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q7",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "7",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a feature of India’s startup ecosystem?",
+    "options": [
+      "High service-sector dominance",
+      "Public digital platforms",
+      "Strong deep-tech commercialization",
+      "Government incubation support"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Strong deep-tech commercialization”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q8",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "8",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "India’s low GERD-to-GDP ratio persists primarily because:",
+    "options": [
+      "Government spending on R&D is negligible",
+      "Higher education institutions conduct little research",
+      "Private sector contribution to R&D is comparatively low",
+      "India focuses more on basic than applied research"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Private sector contribution to R&D is comparatively low”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q9",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding the Anusandhan National Research Foundation (ANRF), established by the ANRF Act 2023, consider the following statements: 1.It replaces the Science and Engineering Research Board (SERB). 2.The Prime Minister serves as the ex-officio President of the Governing Board. 3.It is mandate is limited solely to funding fundamental research in basic sciences. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2, and 3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=2",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q10",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Under the National Quantum Mission (NQM), India targets intermediate-scale quantum systems by 2031. Which outcome best aligns with these targets for near-term applications?",
+    "options": [
+      "Replacing all classical cryptography in government with quantum key distribution by 2026",
+      "Demonstrating fault-tolerant universal quantum computing for any algorithm",
+      "Establishing quantum simulators with 50–1000 physical qubits for domain-specific problems",
+      "Launching a public blockchain fully secured by quantum-resistant algorithms in all nodes"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Establishing quantum simulators with 50–1000 physical qubits for domain-specific problems”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q11",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "11",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In the context of the ‘Deep Ocean Mission’, what is the primary function of the manned submersible ‘Matsya 6000’?",
+    "options": [
+      "To establish an underwater permanent military base in the Indian Ocean Region.",
+      "To explore polymetallic nodules and hydro-thermal sulfides at depths of 6000 meters.",
+      "To facilitate underwater tourism in the Andaman and Nicobar Islands.",
+      "To monitor the migration patterns of Blue Whales using sonar technology."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To explore polymetallic nodules and hydro-thermal sulfides at depths of 6000 meters.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q12",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "12",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which statement best captures the institutional division of roles between MeitY, DST, and NITI Aayog regarding India’s AI ecosystem as of 2024–2025?",
+    "options": [
+      "MeitY regulates AI ethics while DST drafts the Digital Personal Data Protection Rules.",
+      "MeitY leads compute infrastructure and standards; DST funds foundational research; NITI Aayog focuses on strategy and inter-ministerial coordination.",
+      "NITI Aayog procures GPUs and runs national data centers; MeitY only coordinates state governments.",
+      "DST leads compute infrastructure; MeitY handles basic research grants; NITI Aayog exclusively regulates AI models."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “MeitY leads compute infrastructure and standards; DST funds foundational research; NITI Aayog focuses on strategy and inter-ministerial coordination.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q13",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "13",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to India’s ‘Green Hydrogen Mission’, consider the following statements: 1.Green hydrogen is produced through the electrolysis of water using renewable energy. 2.The mission targets a production capacity of at least 5 MMT (Million Metric Tonne) per annum by 2030. 3.Hydrogen is currently used primarily in the transport sector in India. Which of the statements given above are correct?",
+    "options": [
+      "1, 2, and 3",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1 and 2 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q14",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "14",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding India’s National Hydrogen Mission, which pathway is prioritized to decarbonize hard-to- abate sectors by 2030?",
+    "options": [
+      "Green hydrogen produced via electrolysis powered by renewables",
+      "Blue hydrogen with no carbon capture component",
+      "Nuclear-derived pink hydrogen as the dominant national route immediately",
+      "Grey hydrogen from natural gas without abatement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Green hydrogen produced via electrolysis powered by renewables”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q15",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "15",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What is the primary objective of the ‘IMPRINT’ (IMpacting Research INnovation and Technology) initiative in India?",
+    "options": [
+      "To identify and solve major science and engineering challenges relevant to India through a pan- IIT and IISc joint initiative.",
+      "To provide scholarships for students studying abroad in STEM fields.",
+      "To regulate the ethics of Artificial Intelligence in healthcare.",
+      "To digitize all historical scientific manuscripts available in Indian libraries."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To identify and solve major science and engineering challenges relevant to India through a pan- IIT and IISc joint initiative.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q16",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "16",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The ‘India Semiconductor Mission’ (ISM) is functionally housed under which organization/ministry?",
+    "options": [
+      "NITI Aayog",
+      "Department of Science and Technology (DST)",
+      "Digital India Corporation within the Ministry of Electronics and IT (MeitY).",
+      "Ministry of Commerce and Industry"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Digital India Corporation within the Ministry of Electronics and IT (MeitY).”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=3",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q17",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "17",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In the context of ‘One Health’ approach supported by the Department of Biotechnology (DBT), what is the central philosophy?",
+    "options": [
+      "Focusing solely on the elimination of a single disease, such as Tuberculosis, by 2025.",
+      "Integrating the health of humans, animals, and the environment to tackle zoonotic diseases and",
+      "Providing one universal health insurance card to all Indian citizens.",
+      "A policy of ‘One Hospital’ for every district in India."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Integrating the health of humans, animals, and the environment to tackle zoonotic diseases and”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q18",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "18",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which combination best captures the role of ONDC (Open Network for Digital Commerce) in India’s digital economy?",
+    "options": [
+      "An exclusive platform for large enterprises only",
+      "A payment gateway competing with UPI for transactions",
+      "A centralized marketplace operated by the government with inventory ownership",
+      "A protocol network enabling interoperability among buyer, seller, and logistics apps"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “A protocol network enabling interoperability among buyer, seller, and logistics apps”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q19",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "19",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding ISRO’s ‘Gaganyaan’ mission, what is the primary objective of the mission’s ‘H1’ flight?",
+    "options": [
+      "To test a nuclear-powered propulsion system for deep space travel.",
+      "To establish a permanent space station in the Lagrange point L1.",
+      "To demonstrate human spaceflight capability by sending a crew to an orbit of 400 km for 3",
+      "To land an Indian astronaut on the lunar surface."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To demonstrate human spaceflight capability by sending a crew to an orbit of 400 km for 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q20",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "20",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What is the primary significance of the ‘Bio-RIDE’ scheme recently approved by the Union Cabinet?",
+    "options": [
+      "It merges existing biotechnology schemes into a single umbrella to promote ‘Bio-manufacturing’",
+      "It provides subsidized electric bikes to researchers in biotechnology.",
+      "It mandates the use of 20% biodiesel in all public transport by 2025.",
+      "It focuses exclusively on the genetic mapping of endangered species in the Western Ghats."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “It merges existing biotechnology schemes into a single umbrella to promote ‘Bio-manufacturing’”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q21",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "21",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In the context of India’s ‘National Supercomputing Mission’ (NSM), which organization is the lead agency for designing and developing indigenous supercomputers like ‘PARAM Rudra’?",
+    "options": [
+      "Indian Space Research Organisation (ISRO)",
+      "National Institution for Transforming India (NITI Aayog)",
+      "C-DAC (Centre for Development of Advanced Computing)",
+      "Defence Research and Development Organisation (DRDO)"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “C-DAC (Centre for Development of Advanced Computing)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q22",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "22",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is the primary objective of the ‘FAME-II’ (Faster Adoption and Manufacturing of Hybrid and Electric Vehicles) scheme?",
+    "options": [
+      "To encourage the electrification of public and shared transport through demand incentives.",
+      "To manufacture 100% of EV batteries within India by 2024.",
+      "To mandate that all petrol pumps must convert to EV charging points by 2026.",
+      "To provide free electricity to all EV charging stations."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To encourage the electrification of public and shared transport through demand incentives.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q23",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "23",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to India’s innovation ecosystem, consider the following statements: 1.Private sector accounts for a smaller share of India’s R&D expenditure compared to advanced economies. 2.India has a high number of STEM graduates but relatively low research translation. 3.Most Indian startups are engaged in deep-tech research. Which of the above are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1 and 2 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=4",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q24",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "24",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What is the function of ‘Bhuvan’, the geoportal developed by ISRO?",
+    "options": [
+      "To manage the auction of 5G and 6G spectrum across the country.",
+      "To allow users to explore 2D and 3D representation of the Earth’s surface with a specific focus on India.",
+      "To track the real-time position of all commercial aircraft in Indian airspace.",
+      "To provide high-definition streaming of educational content in rural areas."
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “To allow users to explore 2D and 3D representation of the Earth’s surface with a specific focus on India.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q25",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "25",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding the ‘Genome India Project’, what is the primary goal of the ’10,000 Genome’ phase recently completed?",
+    "options": [
+      "To create a genetic database of all 10,000 known plant species in India.",
+      "To eliminate 10,000 hereditary diseases by the year 2030.",
+      "To sequence the whole genomes of 10,000 Indian citizens to represent the country’s diverse population.",
+      "To genetically engineer 10,000 cows for climate-resilient milk production."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “To sequence the whole genomes of 10,000 Indian citizens to represent the country’s diverse population.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q26",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "26",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which statement best explains the role of the Indian Council of Medical Research (ICMR) in India’s development?",
+    "options": [
+      "It runs all government hospitals in India",
+      "It conducts and coordinates biomedical research to support public health policies and programmes",
+      "It only regulates private hospitals’ pricing policies",
+      "It is responsible only for importing foreign medicines"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “It conducts and coordinates biomedical research to support public health policies and programmes”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q27",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "27",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to India’s Science and Technology governance, consider the following statements: 1.Mission-mode programmes aim at goal-oriented coordination across institutions. 2.Technology development in India is largely driven by market forces alone. 3.Public-funded research institutions play a significant role in early-stage research. Which of the above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q28",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "28",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to ‘Ethanol Blending’ in India, what is the target percentage of ethanol to be blended in petrol by the year 2025-26?",
+    "options": [
+      "10%",
+      "50%",
+      "20%",
+      "100%"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “20%”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q29",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "29",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to ‘Liquid Nano Urea’, which organization developed the world’s first commercial version of this fertilizer in India?",
+    "options": [
+      "FCI (Food Corporation of India)",
+      "IFFCO (Indian Farmers Fertiliser Cooperative Limited)",
+      "(NFL) National Fertilizers Limited",
+      "ICAR (Indian Council of Agricultural Research)"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “IFFCO (Indian Farmers Fertiliser Cooperative Limited)”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q30",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "With reference to India’s space sector reforms, consider the following statements: 1.IN-SPACe functions as a single-window facilitator for private space activities. 2.NSIL is responsible for regulating private space launch activities. 3.The reforms aim to decouple regulatory and operational functions of ISRO. Which of the above are correct?",
+    "options": [
+      "1 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “1 and 3 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=5",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q31",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "31",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following best illustrates the interlinkage between environment policy and science & technology in India?",
+    "options": [
+      "Using satellite-based remote sensing and GIS to monitor forest cover and plan conservation",
+      "Formulating laws without any technical inputs",
+      "Relying only on traditional practices for all environmental decisions",
+      "Ignoring scientific data while framing pollution control rules"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Using satellite-based remote sensing and GIS to monitor forest cover and plan conservation”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q32",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "32",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Regarding ‘White Goods’, which sectors are covered under the PLI (Production Linked Incentive) scheme to boost domestic manufacturing?",
+    "options": [
+      "Air Conditioners and LED Lights.",
+      "Automobiles and Auto Components.",
+      "Solar PV Modules.",
+      "Textiles and Apparel."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Air Conditioners and LED Lights.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q33",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "33",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Long term exposure to which of the following element can cause cancer?",
+    "options": [
+      "Iron",
+      "Chlorine",
+      "Iodine",
+      "Arsenic"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Arsenic”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q34",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "34",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which one of the following is not a unit for measurement of distance?",
+    "options": [
+      "Knot",
+      "Light year",
+      "Meter",
+      "Astronomical Unit"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Knot”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q35",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "35",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "LIDAR is an acronym for _________ .",
+    "options": [
+      "Light Imaging and Distance Analysis for Robotics.",
+      "Laser Imaging and Detection for Automatic Ranging.",
+      "Light Detection and Ranging.",
+      "Light Imaging and Distance Analysis for Robotics."
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Light Detection and Ranging.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q36",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "36",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which material is used for protection from nuclear radiation?",
+    "options": [
+      "Gold",
+      "Titanium",
+      "Lead",
+      "Platinum"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Lead”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q37",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "37",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The first genetically modified crop approved for commercial cultivation in India was_________ .",
+    "options": [
+      "Bt-brinjal",
+      "GM Mustard",
+      "Bt-Mustard",
+      "Bt-cotton"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Bt-cotton”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q38",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "38",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What is the main source of energy in solar flares?",
+    "options": [
+      "Gravitational energy",
+      "Magnetic energy",
+      "Nuclear energy",
+      "Solar tidal energy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Magnetic energy”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q39",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "39",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which isotope is commonly used for dating archeological samples?",
+    "options": [
+      "Nitrogen-14",
+      "Nitrogen-12",
+      "Carbon-12",
+      "Carbon-14"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Carbon-14”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q40",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "40",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Light Emitting Diodes (LEDs) are generally more energy-efficient compared to incandescent bulbs due to which of the following reasons?",
+    "options": [
+      "They produce less heat and convert electricity to light more effectively.",
+      "They absorb more heat.",
+      "They are made of metallic materials.",
+      "They use alternating current (AC)."
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “They produce less heat and convert electricity to light more effectively.”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q41",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "41",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The months of December-January is associated with which festival?",
+    "options": [
+      "Mim kut",
+      "Chapchar kut",
+      "Pawl kut",
+      "Hnahsin Kut"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Pawl kut”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q42",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "42",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who introduced the practice of burying a deceased person at thlanmual?",
+    "options": [
+      "Zosaphluia",
+      "Zosapthara",
+      "Pu Buanga",
+      "C.G.G. Helm"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Zosaphluia”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=6",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q43",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "43",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who is the pioneer of ‘The Salvation Army’ in Mizoram?",
+    "options": [
+      "Chalchhuna",
+      "Kawlkhuma",
+      "Maj. Connor Richards",
+      "Chhuahkhama"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Kawlkhuma”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q44",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "44",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "On April 17, 1975, _________ led by Brig. T.Sailo became a political entity named ‘People’s Conference’.",
+    "options": [
+      "Human Rights Committee",
+      "Mizo Union",
+      "Human Resources Committee",
+      "Mizo Democratic Front"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Human Rights Committee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q45",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "45",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who was the first Governor of the Union Territory of Mizoram in 1972?",
+    "options": [
+      "Hiteswar Saikia",
+      "S.K. Chibber",
+      "Williamson A. Sangma",
+      "S.P. Mukherjee"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “S.P. Mukherjee”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q46",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "46",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the correct ascending order for the following units of measurement:",
+    "options": [
+      "Hrai, Paiper khat, Dan",
+      "Dan, Hrai, Paiper khat",
+      "Paiper khat, Hrai, Dan",
+      "Paiper khat, Dan, Hrai"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Paiper khat, Dan, Hrai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q47",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "47",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "What was the Mizo name given to Thomas Herbert Lewin (1839-1916)?",
+    "options": [
+      "Thangliana",
+      "Zochhumi Pa",
+      "Hmuihmula",
+      "Dari Pa"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Thangliana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q48",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "48",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which of the following is not a type of mushroom?",
+    "options": [
+      "Pauithin",
+      "Changting",
+      "Changvar",
+      "Pangkhau"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pangkhau”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q49",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "49",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Name the composer of the song ‘He lei hi chatuan ram a tling lo’.",
+    "options": [
+      "Patea",
+      "Saihnuna",
+      "Damhauhva",
+      "R.L. Kamlala"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Saihnuna”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q50",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "50",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Lalvunga Zai belongs to which category?",
+    "options": [
+      "Chai hla",
+      "Chawngchen zai",
+      "Salu lam hla",
+      "Hlado"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chai hla”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q51",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "51",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Pick the odd one out:",
+    "options": [
+      "Suvel",
+      "Paiper",
+      "Dawrawn",
+      "Favah"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Suvel”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q52",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "52",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who was the officer in charge of forming ‘The Lushai Scout’ on February, 1944?",
+    "options": [
+      "Major Mac donald",
+      "W.W. Daly",
+      "General Sir William Slim",
+      "Colonel Vincent Tregear"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “General Sir William Slim”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q53",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "53",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In 1986, she was crowned as the first ‘Miss Mizo’:",
+    "options": [
+      "Brigitte Zohmingi",
+      "Lalbiakzuali",
+      "Zohlupuii",
+      "Luzy Zorinpuii"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Lalbiakzuali”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q54",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "54",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who was the first to receive Capital Punishment inside Mizoram?",
+    "options": [
+      "Lamsuaka",
+      "Lianphunga",
+      "Khamliana",
+      "Chawia"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lamsuaka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q55",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "55",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Mizo Academy of Letters Book of the Year, 2000 was awarded to:",
+    "options": [
+      "Lalsangzuali Sailo-Tlawm Ve Lo Lalnu Ropuiliani",
+      "Rev. Zairema- Kan Bible Hi",
+      "Dr. Laltluangliana Khiangte- Pasaltha Khuangchera",
+      "R. Rozika- Chawngmawii leh Hrangchhuana"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “R. Rozika- Chawngmawii leh Hrangchhuana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q56",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "56",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In Mizo poetry, Thlang khuandim means:",
+    "options": [
+      "To marry a husband at another village",
+      "To marry a husband at the same village",
+      "To marry a wife",
+      "To marry a wife from another village"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “To marry a husband at another village”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=7",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q57",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "57",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The phrase Hrum sawm is used for addressing:",
+    "options": [
+      "Hmeichhia",
+      "Hmar",
+      "Lal",
+      "Pawi"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “Pawi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q58",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "58",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who was the first person to write Mizo history and the first to translate Mizo folktales into English?",
+    "options": [
+      "Thomas Herbert Lewin",
+      "J.H. Lorrain",
+      "F.W. Savidge",
+      "Edwin Rwolands"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Thomas Herbert Lewin”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q59",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "59",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The first Political Officer of the North Lushai Hills under the British government was:",
+    "options": [
+      "CS Murray",
+      "Captain J Shakespear",
+      "Captain HR Browne",
+      "RB McCabe"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Captain HR Browne”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q60",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "60",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Whose descendant attacked the British forces garrisoned at Changsil fort and Aizawl fort during September to early October 1890?",
+    "options": [
+      "Chief Manga",
+      "Chief Lianlula",
+      "Chief Rolura",
+      "Chief Vuttaia"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chief Manga”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q61",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "61",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Mizoram was declared as a ‘disturbed area’ under the Assam Disturbed Areas Act 1955 in:",
+    "options": [
+      "1966",
+      "1967",
+      "1968",
+      "1969"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “1966”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q62",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "62",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Who was awarded the ‘Kaisar-i-Hind’ medal by the British government among Mizo Chiefs?",
+    "options": [
+      "Chief Rothangpuia",
+      "Chief Lalluauva",
+      "Chief Khamliana",
+      "Chief Darmaka"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Chief Khamliana”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q63",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "63",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "‘Buanhmun pai ang pawm tawh hnu, Chêngtêah lâm ang lêt e, Lalpuithang lêm a.’ This sarcastic rhyme was related to:",
+    "options": [
+      "North and South War",
+      "East and West War",
+      "Sailo and Fanai War",
+      "Lusei and Sukte War"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “North and South War”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q64",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Lushai Hills District was declared as ‘Excluded Area’ under:",
+    "options": [
+      "The Government of India Act 1909",
+      "The Government of India Act 1919",
+      "The Government of India Act 1935",
+      "The Government of India Act 1948"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “The Government of India Act 1935”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q65",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "65",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Superintendent of Lushai Hills who officially abolished the traditional Zawlbuk during the colonial rule in Mizoram was:",
+    "options": [
+      "SN Mackenzie",
+      "NE Parry",
+      "CGG Helme",
+      "AG McCall"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “AG McCall”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q66",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "66",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "‘Sikin Manding sap i lungmawl e, German ral lian tawnin tir suh ka lung di; Ka suihlungleng tur i dawn lo ve.’ This traditional Mizo melody is known as:",
+    "options": [
+      "Darpawngi Zai",
+      "Darmani Zai",
+      "Domangi Zai",
+      "Hrangchhawni Zai"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Domangi Zai”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q67",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "67",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which village in Lushai Hills was known as Kristian khua or Pathian thuawih khua at the beginning of the spread of Christianity in Mizoram?",
+    "options": [
+      "Durtlang",
+      "Sethlun",
+      "Pukpui",
+      "Chaltlang"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Sethlun”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q68",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "68",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The commander of the initially called the 27th Lushai Labour Corps serving in France during World War I was:",
+    "options": [
+      "Lieutenant Colonel A Playfair",
+      "Major GH Loch",
+      "J Hezlett",
+      "HAC Colouhoun"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Lieutenant Colonel A Playfair”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=8",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q69",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "69",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The Mizo chief who vehemently attacked the British force led by Captain John Shakespear at Chhipphir in 1892 was:",
+    "options": [
+      "Vansanga",
+      "Dokhuma",
+      "Lalburha",
+      "Liankhama"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Vansanga”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q70",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "70",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The first Mizos who were able to read and write the Mizo alphabet introduced by JH Lorrain and FW Savidge were:",
+    "options": [
+      "Khamliana and Lalluaia",
+      "Thangphunga and M Suaka",
+      "Khuma and Khara",
+      "RD Leta and R Dala"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Thangphunga and M Suaka”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q71",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "71",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A long railing of bamboo or saplings and creepers fixed up supporting billets of firewood exposed to dry for cooking meat for public feast was known as:",
+    "options": [
+      "Sathingzar",
+      "Thinghawngthlun",
+      "Thingman",
+      "Bahzar"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sathingzar”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q72",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "72",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "When a man finds a girl he prefers to his wife and divorces his wife on the same day or the next day and marries the girl, the divorce is known as:",
+    "options": [
+      "Nupui tlansan",
+      "Peksachang",
+      "Kawngkasula mâk",
+      "Sumlaitan"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kawngkasula mâk”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q73",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "73",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Consider the following statements. (1)Chapchar Kût is held soon after the jhums have been cut which lasts about a week or more. (2)Mim Kût is held in honour of those persons who have died in the past, it takes place when Maize is harvested. It lasts at a most two days. (3)Pawl Kût is held immediately after the harvest is gathered which may last a week. Select the correct answer from the codes given below:",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1, 2 and 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q74",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "74",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which ceremony was supposed to make successful hunting probably; foretold the result and performed before a large hunting party started?",
+    "options": [
+      "Fano dawi",
+      "Nau lai hrilh",
+      "Kawngpui siam",
+      "Vanchung khal"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “Kawngpui siam”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q75",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "75",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A sacrifice to the guardian spirit of the clan or family was known as:",
+    "options": [
+      "Sakhua",
+      "Khal",
+      "Serh",
+      "Hrilh"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Sakhua”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q76",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "76",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A person whose spirit takes possession of another’s body, the spirit of such a person was called",
+    "options": [
+      "Khuavang",
+      "Khawhring",
+      "Huai",
+      "Sakhua"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Khawhring”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q77",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "77",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A criminal who took refuge to the Chief’s house to escape from the consequences of his evil deeds was known as:",
+    "options": [
+      "Chemsen Bawi",
+      "Tukluh Bawi",
+      "Inhrang Bawi",
+      "Inpuichhung Bawi"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “Chemsen Bawi”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q78",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "78",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Consider the following statement. (1)Murlen National Park is located in Khawzawl District. (2)Lengteng Wildlife Sanctuary is located in Champhai District. (3)Ngengpui Wildlife Sanctuary is located in Lawngtlai District. (4)Dampa Tiger Reserve is located in Mamit District. Select the correct answer from the codes given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 2 and 4 only",
+      "1, 3 and 4 only",
+      "2, 3 and 4 only"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2, 3 and 4 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=9",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q79",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "79",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Consider the names of the following rivers as given by Mizo and non Mizo. (1)Khawthlangtuipui - Karnaphuli (2)Tlawng - Dhaleswari (3)Tuirial - Rukni (4)Langkaih - Longai Select the correct matched pairs from the codes given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2 and 4 only",
+      "1, 3 and 4 only"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “1, 2 and 4 only”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q80",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "80",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The population of Lushai Hills as per the first census of 1901 conducted in Mizoram was:",
+    "options": [
+      "78,856",
+      "82,434",
+      "96,645",
+      "1,00,237"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “82,434”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q81",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "81",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "A, B and C are sitting in a circle facing centre. L, M and N are also sitting in the same circle but two of them are facing in the opposite direction of the centre. A is second to the left of N. B is second to the right of L. M is third to the left of C. N is second to the right of C and L is seated next to A. Then, which of the following pairs are not facing the centre?",
+    "options": [
+      "AL",
+      "AN",
+      "ML",
+      "MN"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “MN”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q82",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In a row of children, Alice is sixth from the left and Zoa is fifth form the right. When they interchange their positions, Alice becomes fifteenth from the left, then what will be the position of Zoa from the right?",
+    "options": [
+      "10th",
+      "12th",
+      "14th",
+      "16th"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “14th”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q83",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "83",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In which of the following will the expressions 'H<F' as well as 'J>H' be definitely true",
+    "options": [
+      "F>G>H≥I=J",
+      "F≥G=H≤I<J",
+      "F=G>H>I=J",
+      "F<G≤H<I<J"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “F≥G=H≤I<J”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q84",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "84",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "If APRIL is codded as ZNOEG, the how will you encode AUGUST?",
+    "options": [
+      "ZDSQNN",
+      "ZSDQNN",
+      "DQNNZS",
+      "DQNZSN"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “ZSDQNN”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q85",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "85",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The letters of the name of a fruit are U, A, L, E, N, C, P, T, A, O. If the letters are rearranged correctly, then what is the last letter of the word formed?",
+    "options": [
+      "N",
+      "C",
+      "A",
+      "E"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “E”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=10",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives B; the final key gives D. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q86",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "86",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Select a suitable figure from the four alternatives that would complete the figure matrix:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=11",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q87",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "87",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Find the odd one out",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=11",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q88",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "88",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Find out the alternative figure which contains figure (X) as its part.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=11",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q89",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "89",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Find the wrong number in the given series: 10, 41, 94, 1624, 2516, 3625",
+    "options": [
+      "94",
+      "2516",
+      "10",
+      "1624"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “1624”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=11",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q90",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which number will come next in the given series? 2, 8, 18, 32, 50, …",
+    "options": [
+      "78",
+      "68",
+      "72",
+      "70"
+    ],
+    "answerIndex": 2,
+    "explanation": "The official final key marks option C: “72”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q91",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "91",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In a 60-litre solution of sugar and water, there is 15% sugar. How much sugar (in kg/litres) should be added to make the sugar content 25% of the total solution?",
+    "options": [
+      "8 Litre",
+      "10 Litre",
+      "12 Litre",
+      "20 Litre"
+    ],
+    "answerIndex": 0,
+    "explanation": "The official final key marks option A: “8 Litre”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q92",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which letter is exactly midway between the seventh letter from the left and the fifteenth letter from the left?",
+    "options": [
+      "J",
+      "K",
+      "L",
+      "I"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “K”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q93",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "93",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The production of ginger by Biate village in year 2024 is 8000 kg which is 28% less than that in year 2025. Find the production of ginger in year 2025.",
+    "options": [
+      "10500 kg",
+      "11111 kg",
+      "12222 kg",
+      "15050 kg"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “11111 kg”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q94",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "94",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "The curved surface area of a cylinder is thrice the area of its base. If r is the radius of the base and h is its height, then r : h is equal to",
+    "options": [
+      "2 : 5",
+      "3 : 5",
+      "3 : 2",
+      "2 : 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "The official final key marks option D: “2 : 3”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5"
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q95",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "If ‘Rat is called Dog’, ‘Dog is called Mongoose’, ‘Mongoose is called Lion’, ‘Lion is called Snake’ and ‘Snake is called Elephant’, which animal is reared as pet?",
+    "options": [
+      "Dog",
+      "Mongoose",
+      "Lion",
+      "Rat"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Mongoose”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q96",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Choose the word that most accurately replaces the underlined word: “The decision was based on a **plausible** explanation.”",
+    "options": [
+      "Prompt",
+      "Reasonable",
+      "Certain",
+      "False"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Reasonable”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q97",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "STEERING WHEEL : CAR :: RUDDER : ?",
+    "options": [
+      "Airplane",
+      "Ship",
+      "Bicycle",
+      "Train"
+    ],
+    "answerIndex": 1,
+    "explanation": "The official final key marks option B: “Ship”. This is the key reference for the answer; it is not a worked derivation.",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q98",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which figure completes the series?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q99",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "99",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "In a sequence of shapes, if a square becomes a triangle, and a pentagon becomes a square, what would a circle most likely become in a logic of decreasing side counts?",
+    "options": [
+      "A straight line",
+      "A dot",
+      "An oval",
+      "A Semi-circle"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "compensated": true,
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3-Q100",
+    "paperId": "mpsc-group-b-cao-2026-gs3",
+    "questionNumber": "100",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Which figure comes next in the sequence: - Circle with 1 line, Semicircle with 2 lines, Triangle with 3 lines, ...?",
+    "options": [
+      "Square with 4 lines",
+      "Pentagon with 5 lines",
+      "Circle with 4 lines",
+      "Triangle with 4 lines"
+    ],
+    "answerIndex": -1,
+    "explanation": "",
+    "source": "Cooperative Audit Officer under Cooperation Department - March-2026 · March 2026",
+    "year": 2026,
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf#page=12",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "answerSource": "official",
+    "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-1",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
     "type": "descriptive",
@@ -212387,7 +221432,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "direction": "Directions (Questions 38 -42) Put in the correct form of the verbs from the alternatives given:"
   }
 ];
-const groupBQuestionsPart26: BankQuestion[] = [
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B40",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -220714,7 +229759,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "direction": "Directions (Questions 11 – 20): Fill in the blanks with the correct form of the verbs from those given"
   }
 ];
-const groupBQuestionsPart27: BankQuestion[] = [
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q16",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -228667,7 +237712,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "direction": "Directions (Questions 59 – 64): Identify the correct notion expressed by each of the following"
   }
 ];
-const groupBQuestionsPart28: BankQuestion[] = [
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B61",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -236693,7 +245738,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683.pdf#page=3"
   }
 ];
-const groupBQuestionsPart29: BankQuestion[] = [
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683-written-6",
     "paperId": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -244505,7 +253550,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "direction": "Directions ( Questions 59 -64 ) : Analyse the given sentences and choose the correct options :"
   }
 ];
-const groupBQuestionsPart30: BankQuestion[] = [
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B64",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -252506,7 +261551,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "direction": "Direction (Questions No. 51 to 60): Transform the following sentences as directed without losing"
   }
 ];
-const groupBQuestionsPart31: BankQuestion[] = [
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q60",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -260990,7 +270035,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "direction": "Directions (Question No. 41 -50) : Analyse the following sentences by finding out the clause mentioned"
   }
 ];
-const groupBQuestionsPart32: BankQuestion[] = [
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q44",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -269165,7 +278210,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart33: BankQuestion[] = [
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-B8",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -277504,7 +286549,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words"
   }
 ];
-const groupBQuestionsPart34: BankQuestion[] = [
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q10",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -285585,7 +294630,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in"
   }
 ];
-const groupBQuestionsPart35: BankQuestion[] = [
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B4",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -293335,7 +302380,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
   }
 ];
-const groupBQuestionsPart36: BankQuestion[] = [
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q50",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -301029,7 +310074,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "direction": "Direction (Question Nos. 57 - 66): Choose the correct form of the verb that agrees with the subject of"
   }
 ];
-const groupBQuestionsPart37: BankQuestion[] = [
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B60",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -308773,7 +317818,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=4"
   }
 ];
-const groupBQuestionsPart38: BankQuestion[] = [
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-40",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -317547,7 +326592,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the"
   }
 ];
-const groupBQuestionsPart39: BankQuestion[] = [
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B23",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -327067,7 +336112,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart40: BankQuestion[] = [
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q13",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -335852,7 +344897,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "direction": "Directions (Question Nos. 26 - 30) : Read each sentence to find out whether there is any grammatical"
   }
 ];
-const groupBQuestionsPart41: BankQuestion[] = [
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B27",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -343792,7 +352837,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
   }
 ];
-const groupBQuestionsPart42: BankQuestion[] = [
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B51",
     "questionNumber": "B51",
@@ -351635,7 +360680,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
   }
 ];
-const groupBQuestionsPart43: BankQuestion[] = [
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B27",
     "questionNumber": "B27",
@@ -359662,7 +368707,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "direction": "Direction (Questions No. 76 - 80) : Select the word which is opposite in meaning to the underlined"
   }
 ];
-const groupBQuestionsPart44: BankQuestion[] = [
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B78",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -367917,7 +376962,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
   }
 ];
-const groupBQuestionsPart45: BankQuestion[] = [
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B16",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -376074,7 +385119,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "direction": "Directions (Questions 21-27): Fill in the blanks with appropriate prepositions:"
   }
 ];
-const groupBQuestionsPart46: BankQuestion[] = [
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B22",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -383836,7 +392881,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart47: BankQuestion[] = [
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B83",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -392162,7 +401207,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
   }
 ];
-const groupBQuestionsPart48: BankQuestion[] = [
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach3-2019-english-B64",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -400607,7 +409652,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart49: BankQuestion[] = [
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q40",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -408558,7 +417603,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart50: BankQuestion[] = [
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q37",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -416714,7 +425759,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate forms of Verbs from the four"
   }
 ];
-const groupBQuestionsPart51: BankQuestion[] = [
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q27",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -424691,7 +433736,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart52: BankQuestion[] = [
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q27",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -432831,7 +441876,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart53: BankQuestion[] = [
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q21",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -440862,7 +449907,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceHref": "/papers/group-b/inspector-excise-2019-english-p1.pdf#page=1"
   }
 ];
-const groupBQuestionsPart54: BankQuestion[] = [
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p1-written-6",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p1",
@@ -448972,7 +458017,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart55: BankQuestion[] = [
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q87",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -457053,7 +466098,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option."
   }
 ];
-const groupBQuestionsPart56: BankQuestion[] = [
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q95",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -465375,7 +474420,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart57: BankQuestion[] = [
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q32",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -473612,7 +482657,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
   }
 ];
-const groupBQuestionsPart58: BankQuestion[] = [
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B15",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -481878,7 +490923,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart59: BankQuestion[] = [
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q14",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -489760,7 +498805,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "direction": "Directions (Questions 9 - 17): Fill in the blanks with the appropriate prepositions."
   }
 ];
-const groupBQuestionsPart60: BankQuestion[] = [
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B17",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -498076,7 +507121,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart61: BankQuestion[] = [
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A38",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -506487,7 +515532,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "direction": "Directions (Questions 60 - 67) Analyze the given sentences and choose the correct option."
   }
 ];
-const groupBQuestionsPart62: BankQuestion[] = [
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B61",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -514617,7 +523662,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart63: BankQuestion[] = [
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-B83",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -522893,7 +531938,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart64: BankQuestion[] = [
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A29",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -530959,7 +540004,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "direction": "Directions (Questions 49 - 57) : Fill in the blanks with appropriate prepositions."
   }
 ];
-const groupBQuestionsPart65: BankQuestion[] = [
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B52",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -538722,7 +547767,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart66: BankQuestion[] = [
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q69",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -546771,7 +555816,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart67: BankQuestion[] = [
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q63",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -555156,7 +564201,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart68: BankQuestion[] = [
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q57",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -563358,7 +572403,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart69: BankQuestion[] = [
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q95",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -571481,7 +580526,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "direction": "Directions (Questions Nos. 77 - 86) : Choose the correct antonyms of the following words."
   }
 ];
-const groupBQuestionsPart70: BankQuestion[] = [
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q83",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -579737,7 +588782,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart71: BankQuestion[] = [
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q95",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -587788,7 +596833,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following  underlined idioms"
   }
 ];
-const groupBQuestionsPart72: BankQuestion[] = [
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q76",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -595919,7 +604964,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart73: BankQuestion[] = [
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q70",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -604612,7 +613657,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart74: BankQuestion[] = [
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q86",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -613627,7 +622672,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart75: BankQuestion[] = [
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q37",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -622635,7 +631680,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart76: BankQuestion[] = [
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q73",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -631632,7 +640677,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart77: BankQuestion[] = [
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q66",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -640218,7 +649263,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart78: BankQuestion[] = [
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q94",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -648980,7 +658025,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   }
 ];
-const groupBQuestionsPart79: BankQuestion[] = [
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q97",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -657977,7 +667022,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart80: BankQuestion[] = [
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q25",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -665521,7 +674566,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   }
 ];
-const groupBQuestionsPart81: BankQuestion[] = [
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q60",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -674516,7 +683561,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
   }
 ];
-const groupBQuestionsPart82: BankQuestion[] = [
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q19",
     "paperId": "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies",
@@ -682778,7 +691823,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "paperExamExcluded": true
   }
 ];
-const groupBQuestionsPart83: BankQuestion[] = [
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q56",
     "questionNumber": "56",
@@ -686287,7 +695332,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "answerConfidence": "low"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -686768,6 +695813,24 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "durationMinutes": 120,
     "negativeMarking": false,
     "penaltyFraction": 0
+  },
+  "mpsc-group-b-cao-2026-gs1": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-cao-2026-gs2": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
+  },
+  "mpsc-group-b-cao-2026-gs3": {
+    "marksPerQuestion": 2,
+    "durationMinutes": 120,
+    "negativeMarking": true,
+    "penaltyFraction": 0.3333333333333333
   },
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": {
     "negativeMarking": false,
@@ -687883,6 +696946,9 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-acm-2026-tech-p2": 50,
   "mpsc-group-b-acm-2026-tech-p3": 63,
   "mpsc-group-b-ceo-2025-gk": 100,
+  "mpsc-group-b-cao-2026-gs1": 100,
+  "mpsc-group-b-cao-2026-gs2": 100,
+  "mpsc-group-b-cao-2026-gs3": 100,
   "mpsc-group-b-ada-aa-ata-2019-arithmetic": 50,
   "mpsc-group-b-ada-aa-ata-2019-english": 60,
   "mpsc-group-b-ada-aa-ata-2019-gk": 100,

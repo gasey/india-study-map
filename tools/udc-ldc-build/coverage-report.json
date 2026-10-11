@@ -3,23 +3,23 @@
   "site_bank": "/home/hruaia/workspace/projects/personal/india-study-map/src/data/banks/mpsc-group-b-general.ts",
   "upstream": "/home/hruaia/workspace/projects/personal/mpsc-question-bank",
   "key_pdfs_found": 120,
-  "registered_keys": 91,
+  "registered_keys": 94,
   "upstream_bank_answered_stems": 53668,
   "solved_labels_mapped": 9,
   "solved_labels_total": 35
  },
  "totals": {
-  "papers": 398,
-  "held_mcq": 15327,
-  "tier1_key_scorable": 679,
+  "papers": 401,
+  "held_mcq": 15334,
+  "tier1_key_scorable": 686,
   "tier2_solid_importable": 62,
   "tier2_candidate_needs_verify": 7904,
   "tier3_needs_derivation": 6682
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 2778,
-   "disagree": 446
+   "agree": 2964,
+   "disagree": 488
   },
   "key": {
    "agree": 67,
@@ -2594,6 +2594,21 @@
    "tier2_candidate": 3
   },
   {
+   "paper_id": "mpsc-group-b-cao-2026-gs3",
+   "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+   "subject": "General Studies Paper-III",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 5,
+   "tier1": 5,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025",
    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
    "subject": "General Studies",
@@ -2989,6 +3004,21 @@
    "subject": "Paper-I (General Studies)",
    "key_status": "registered",
    "key_file": "Final Answer Key of Preliminary Examn. of Grade-III of MJS (Civil Judge)..pdf",
+   "held": 2,
+   "tier1": 2,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-cao-2026-gs1",
+   "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+   "subject": "General Studies Paper-I",
+   "key_status": "registered",
+   "key_file": "Final Answer Key of Grade V of MSCS (Cooperative Audit Officer) under Cooperation Department.pdf",
    "held": 2,
    "tier1": 2,
    "tier2": 0,
@@ -5324,6 +5354,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-cao-2026-gs2",
+   "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+   "subject": "General Studies Paper-II",
+   "key_status": "registered",
+   "key_file": null,
+   "held": 0,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-ceo-2019-english-p1",
    "exam": "Circle Education Officer under School Education Department",
    "subject": "General English Paper-I",
@@ -5988,7 +6033,7 @@
    "exam": "Cooperative Audit Officer - March, 2026",
    "subject": "General English",
    "key_status": "registered",
-   "key_file": "Final Answer Key of Grade V of MSCS (Cooperative Audit Officer) under Cooperation Department.pdf",
+   "key_file": null,
    "held": 0,
    "tier1": 0,
    "tier2": 0,

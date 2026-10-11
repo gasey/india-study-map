@@ -1302,6 +1302,39 @@
     "reviewRequired": true
   },
   {
+    "id": "mpsc-group-b-cao-2026-gs1",
+    "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "General Studies Paper-I",
+    "sourceHref": "/papers/group-b/cao-2026-gs1.pdf",
+    "keyHref": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs2",
+    "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "General Studies Paper-II",
+    "sourceHref": "/papers/group-b/cao-2026-gs2.pdf",
+    "keyHref": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
+    "id": "mpsc-group-b-cao-2026-gs3",
+    "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+    "sitting": "March 2026",
+    "subject": "General Studies Paper-III",
+    "sourceHref": "/papers/group-b/cao-2026-gs3.pdf",
+    "keyHref": "/papers/group-b/keys/cao-2026-final-key.pdf#page=5",
+    "imported": true,
+    "expectedMcq": 100,
+    "reviewRequired": true
+  },
+  {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
     "exam": "ADA, ATA & Assistant Auditor under Finance Department",
     "sitting": "2019",

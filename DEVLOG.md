@@ -1,3 +1,36 @@
+## 11 October 2026 — Cooperative Audit Officer March-2026 General Studies I–III: +293
+
+Imported the three General Studies papers (Series A) of the Cooperative Audit
+Officer (Cooperation Department) examination held 23–25 March 2026: Papers I, II
+and III, each 2 hours, Maximum 200 marks, 100 questions at 2 marks each, with a
+printed one-third penalty for wrong answers. The General English papers were
+already in the bank.
+
+The official **Final Answer Key** (No. CAO/1/2022-MPSC, dated Aizawl 11 May 2026)
+is an 8-page scan holding both series: GS-I A/B (pages 1–2), GS-II A/B (3–4),
+GS-III A/B (5–6) and General English A/B (7–8). Only the three Series-A pages
+were needed. Each prints four columns of 25 rows (q1-25 / 26-50 / 51-75 /
+76-100).
+
+This key forced a rewrite of the column reader. Its printed question numbers are
+OCR-hostile (the header date "11" and notification "2" sit near real numbers),
+so deriving the row grid from the printed digits shifted columns. The reader now
+builds its row grid from the y positions of the number tokens but keeps only
+rows that also carry an answer letter, so header digits drop out; the row pitch
+is measured *within* a single column (where consecutive numbers are exactly one
+row apart) rather than across the page, because the small baseline jitter
+between columns is larger at 600 dpi than the old merge tolerance allowed. Every
+cell was read by position at 300 dpi and independently at 600 dpi and then
+compared against the key's own text layer: GS-I matched 99/99, GS-II 100/100 and
+GS-III 99/99, the missing cells being the two compensations. GS-I Q74 is printed
+with the answer replaced by a **Compensated** stamp, and GS-III Q99 is printed
+**(A & D)** (both answers accepted); both are registered `null` so those two
+items stay out of the single-answer drill.
+
+Session delta: bank 8,435 → 8,728 practice-ready (+293; 6,429 → 6,722
+official-backed); records 24,738 → 25,038; MCQs 23,765 → 24,065. 94 registered
+keys. Tests (25) pass and `tsc --noEmit` is clean.
+
 ## 11 October 2026 — Circle Education Officer November-2025: +166
 
 Imported the two Circle Education Officer (School Education Department) papers

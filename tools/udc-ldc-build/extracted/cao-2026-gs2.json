@@ -1,0 +1,2317 @@
+{
+  "slug": "cao-2026-gs2",
+  "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "General Studies Paper-II",
+  "source": "CAO March-2026 General Studies -II- Series-A..pdf",
+  "sourceSha256": "9f8d9acce2f993b92303a4f3e9026ab5574e2f5e9046cc1e01c153f1133b9fdf",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Equal pay for equal work for both men and women",
+        "b": "Uniform civil code for all citizens",
+        "c": "Separation of Judiciary from Executive",
+        "d": "Promotion of cottage industries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Directive Principles is based on Gandhian ideology?",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mandamus",
+        "b": "Quo Warranto",
+        "c": "Habeas Corpus",
+        "d": "Prohibition"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which writ is issued to address unlawful detention?",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "DPSPs cannot be enforced automatically and require legislation for implementation",
+        "b": "DPSPs are non-justiciable in nature",
+        "c": "DPSPs aim to enforce political democracy in the country",
+        "d": "DPSPs are mentioned in part IV of the Constitution"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is NOT correct regarding the Directive Principles of State Policy (DPSP)?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "When the proposals of the opposition are considered",
+        "b": "When matters of utmost importance are raised",
+        "c": "Interval between the morning and afternoon sessions",
+        "d": "When a Money Bill is introduced in the Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is ‘Zero hour’?",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kolkata High Court",
+        "b": "Kerala High Court",
+        "c": "Mumbai High Court",
+        "d": "Guwahati High Court"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The High Court having the jurisdiction in Judicial matters relating to the largest number of States/ Union Territories is:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panchayat Raj System",
+        "b": "Schedule Tribes",
+        "c": "Allocation of seats for the Council of States",
+        "d": "Anti-defection Law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Fourth Schedule of Indian Constitution deals with which of the following?",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only 1",
+        "b": "Only 1 & 2",
+        "c": "Only 1, 2 & 3",
+        "d": "All of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The members of which of the following can be appointed as ministers in State Government? 1.State Legislative Assembly 2.State Legislative Council 3.Panchayat 4.Municipality Select the correct option from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Constitution Forty-First Amendment Act, 1976",
+        "b": "Constitution Forty-Fourth Amendment Act, 1978",
+        "c": "Constitution Forty-Sixth Amendment Act, 1982",
+        "d": "Constitution Forty-Second Amendment Act, 1976"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The words ‘socialist’ and ‘secular’ were made a part of the Preamble by:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Supreme Court of India",
+        "b": "High Court of a State",
+        "c": "President of India",
+        "d": "Both (a) & (b)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who amongst the following issues Writs?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3214",
+        "b": "3124",
+        "c": "2124",
+        "d": "4213"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the following: A.Constitution Fifty-Eighth Amendment1.Delhi to be called as National Capital Territory Act, 1991.of Delhi. B.Constitution Sixty-First Amendment2.Reduced voting age from 21 years to 18 years. Act, 1988. C.Constitution Sixty-Ninth Amendment3.An authoritative text of the Constitution in Hindi. Act, 1991. D.Constitution Seventy-First Amendment4.Included Konkani, Manipuri and Nepali Act, 1992.languages in the Eight Schedule. ABCD",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lal Bahadur Shastri",
+        "b": "Charan Singh",
+        "c": "Morarji Desai",
+        "d": "VP Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Of the following Prime Ministers who did not face the Union Parliament even once?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BR Ambedkar",
+        "b": "Rajendra Prasad",
+        "c": "Jawahar Lal Nehru",
+        "d": "Subhash Chandra Bose"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is known as the Father of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Review the functioning of the judiciary in the country",
+        "b": "Undertake periodic review of the Constitution",
+        "c": "Examine the constitutional validity of laws",
+        "d": "Review its own judgement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Judicial review function of the Supreme Court means the power to:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Article 31",
+        "b": "Article 32",
+        "c": "Article 29",
+        "d": "Article 30"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person can directly move to the Supreme Court in case of any violation of Fundamental Rights. Which Article allows for this?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Governor of a State",
+        "b": "Prime Minister",
+        "c": "Chief Election Commissioner",
+        "d": "Speaker of Lok Sabha"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following hold office during the pleasure of the President?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Any regional Language of the State",
+        "b": "English",
+        "c": "Any language specified by the Supreme Court",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "According to Official Languages Act (1963) which language should be used for the purpose of communication between the Union and non-Hindi states?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Bengal",
+        "b": "Andhra Pradesh",
+        "c": "Tamil Nadu",
+        "d": "Kerala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which State enjoys the distinction of being the first linguistic state of India ?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Public Accounts Committee",
+        "b": "Estimates Committee",
+        "c": "Committee on Public Undertakings",
+        "d": "Committee on Government Assurances"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following Standing Committees of Parliament has no MP from Rajya Sabha?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Golakhnath vs. State of Punjab (1967)",
+        "b": "West Bengal vs. Union of India (1963)",
+        "c": "Sharma vs. Krishna (1959)",
+        "d": "State of Bombay vs. Balsara (1951)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which case is related to Fundamental Rights?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sarojini Naidu",
+        "b": "Najma Heptullah",
+        "c": "Sucheta Kripalani",
+        "d": "Vijaya Laxmi Pandit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first women Governor of a State in free India was:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "6 Months",
+        "b": "3 Months",
+        "c": "4 Months",
+        "d": "9 Months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person who is not a member of Parliament can be appointed as a Minister by the President of India for a maximum period of?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Seniormost Governor of a State",
+        "b": "Chief Justice of India",
+        "c": "Dy Speaker of Rajya Sabha",
+        "d": "CAG of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who acts as the President of India, when neither the President nor the Vice President is available?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Forms of Oath or Affirmation",
+        "b": "Languages recognised by the Constitution",
+        "c": "Laws that cannot be challenged in any Court of Law",
+        "d": "Provision regarding disqualification of the grounds of defection"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is contained in the 10th Schedule of the Constitution of India?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India’s Act East Policy was unveiled by the Prime Minister of India Narendra Modi at 12th",
+        "b": "Act East Policy is the predecessor of Look East Policy.",
+        "c": "The Act East Policy was originally conceived as an economic initiative.",
+        "d": "The objective of ‘Act East Policy’ is to promote economic cooperation, cultural ties and"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not correct about Act East Policy?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 Nor 2"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: 1.The term of office of the Prime Minister of India is fixed at 5 years 2.No one under 30 years can become the Prime Minister. Which of the statements given is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dr. Rajendra Prasad",
+        "b": "Jawaharlal Nehru",
+        "c": "M.A. Jinnah",
+        "d": "Lal Bahadur Shastri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following was the President of the Constituent Assembly of India?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NITI Aayog",
+        "b": "Attorney-General of India",
+        "c": "Comptroller and Auditor-General (CAG)",
+        "d": "Finance Commission"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a Constitutional Body?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) only,",
+        "b": "(i), (ii), (iii)",
+        "c": "All of the above",
+        "d": "(i) & (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements are correct? (i)By-Elections:- An election which is held out of normal schedule is called by-election. (ii)Mid-term Elections:- If the Lok Sabha or any of the state assemblies is dissolved before the expiry of its full term and elections are held to constitute a new house, it is called mid-term elections. (iii)General Elections:- A general election is a political voting election where generally all or most members of a given political body are chosen. (iv)Snap Poll:- A snap poll is an election that is called earlier than the one that has been scheduled. It can happen by dissolution of Lok Sabha before its full tenure.",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "25 years",
+        "b": "30 years",
+        "c": "21 years",
+        "d": "18 years"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the minimum age to qualify for Lok Sabha elections?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The President on the recommendation of the Supreme Court",
+        "b": "The Governor on the recommendation of the state legislature",
+        "c": "The President on the recommendation of the state legislature",
+        "d": "The President on the recommendation of the Parliament"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Judge of a High Court can be removed before the expiry of his term by:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Legal Right",
+        "b": "Fundamental right",
+        "c": "Both a legal and a Fundamental Right",
+        "d": "Neither a legal right nor a Fundamental Right"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In India, Right to Property is a:",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absolute veto",
+        "b": "Suspensive veto",
+        "c": "Pocket veto",
+        "d": "Qualified veto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When the President of India does not take any action on a bill and keeps it for an indefinite period, it is called:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "of the Indian Constitution in the Article 51(A).",
+        "b": "(i), (ii), (iii), ( iv)",
+        "c": "(i) & (iii)",
+        "d": "(i) & (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is correct about Fundamental Duties?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii), (iii)",
+        "b": "(ii), (iii), (iv)",
+        "c": "(i), (ii), ( iv)",
+        "d": "(i), (iii), (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct pair: (i)Right to Equality (Articles 14-18) (ii)Right to Freedom (Articles 29-30) (iii)Right against Exploitation (Articles 23-24) (iv)Right to Freedom of Religion (Articles 25-28)",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii), (iii)",
+        "b": "(i), (ii)",
+        "c": "(ii), (iii)",
+        "d": "Neither (a) nor (b) nor (c)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the right answer: (i)The Constitution of India grants and guarantees Fundamental Rights to its citizens. (ii)Part III of the Constitution deals with those rights, which are known as a Fundamental Right. (iii)There are Seven Fundamental Rights",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i)",
+        "b": "(ii)",
+        "c": "(iii)",
+        "d": "(iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which is correct about the Government of India Act, 1919? (i)This Act is also known as the Morley-Minto Reforms (ii)A Constituent Assembly would be established consisting of 389 Members (iii)This Act made a provision for the establishment of an All India Federation consisting of provinces and Princely States as units. (iv)This Act introduce the system of Dyarchy which mean double rule in the provinces",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam, Meghalaya, Tripura, and Mizoram",
+        "b": "Assam, Meghalaya, Manipur, and Mizoram",
+        "c": "Nagaland, Meghalaya, Tripura, and Mizoram",
+        "d": "Assam, Meghalaya, Nagaland, and Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "States covered by the Sixth Schedule of the Indian Constitution are:",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Administrative Service, Indian Police Service, Indian Forest Service",
+        "b": "Indian Administrative Service, Indian Police Service, Indian Foreign Service",
+        "c": "Indian Administrative Service, Indian Police Service, Indian Revenue Service",
+        "d": "Indian Administrative Service, Indian Police Service, Indian Foreign Service, Indian Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The All-India Services are:",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "5%",
+        "b": "6%",
+        "c": "6.5%",
+        "d": "7.5%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The reservation percentage for Scheduled Tribes (ST) in India’s Central Government jobs and education is:",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Union List",
+        "b": "State List",
+        "c": "Concurrent List",
+        "d": "Local Government List"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Agriculture, police and public health comes under which List of the Indian Constitution?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Industries exclusively owned by the state.",
+        "b": "Industries left entirely to the private sector without government interference.",
+        "c": "Industries which would be progressively state-owned, but private enterprise could supplement",
+        "d": "Industries reserved for the Small Scale Sector (SSI) only."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Industrial Policy Resolution (IPR) 1956 classified industries into three categories. Which of the following correctly describes ‘Schedule B’ industries?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The total agricultural produce harvested by a farmer in a given year.",
+        "b": "The portion of produce stored by the government as buffer stock.",
+        "c": "The portion of agricultural produce which is sold in the market by the farmers after retaining a",
+        "d": "The surplus produce exported to foreign nations after meeting domestic demand."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best describes the concept of ‘Marketed Surplus’ in the context of Indian Agriculture?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A-1, B-3, C-4, D-2",
+        "b": "A-3, B-1, C-2, D-4",
+        "c": "A-3, B-2, C-1, D-4",
+        "d": "A-4, B-1, C-2, D-3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Match the economic terms in Column I with their correct definitions in Column II: Column I (Economic Column II (Definitions) **Terms)** 1. Short-term measures to control inflation and correct A. Structural Reform **the balance of payments.** 2. Selling off part of the equity of Public Sector B. Stabilisation Measures **Enterprises to the public.** 3. Long-term measures to improve the efficiency of the C. Disinvestment **economy and international competitiveness.** 4. Reduction in the value of domestic currency vis-à-vis D. Devaluation **foreign currency by the government.** Select the correct option from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Procurement of food grains at Minimum Support Price (MSP).",
+        "b": "Storage of food grains as Buffer Stock by FCI.",
+        "c": "Selling food grains at market prices to maximise profits.",
+        "d": "Distribution of food grains through Fair Price Shops at Issue Price."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a feature of the ‘Public Distribution System (PDS)’ mechanism?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 3, 2, 4",
+        "b": "1, 2, 3, 4",
+        "c": "2, 1, 3, 4",
+        "d": "1, 2, 4, 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Identify the correct chronological order of the following events in the Indian Economy: 1.Establishment of the Planning Commission. 2.Nationalisation of Commercial Banks. 3.Introduction of New Economic Policy (LPG). 4.Setting up of NITI Aayog.",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Organized Industrial Sector",
+        "b": "Information Technology Sector",
+        "c": "Agriculture Sector",
+        "d": "Banking and Financial Sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Disguised Unemployment’ is a characteristic feature of which sector in India?",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2100 calories for rural and 2400 calories for urban areas.",
+        "b": "2400 calories for rural and 2100 calories for urban areas.",
+        "c": "2200 calories for both rural and urban areas.",
+        "d": "1800 calories for rural and 2200 calories for urban areas."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Poverty Estimation in India, the Planning Commission accepted the calorie norm of:",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SBI (State Bank of India)",
+        "b": "RRB (Regional Rural Bank)",
+        "c": "NABARD (National Bank for Agriculture and Rural Development)",
+        "d": "RBI (Reserve Bank of India)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which institution was established in 1982 as the apex body to coordinate the activities of all institutions involved in the rural financing system?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The percentage of self-employed workers increases.",
+        "b": "The percentage of casually hired workers in the total workforce increases over time.",
+        "c": "Workers move from the informal sector to the formal sector.",
+        "d": "The workforce shifts entirely from agriculture to industry."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Casualisation of Workforce’ refers to a situation where:",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India’s population started declining after this year.",
+        "b": "Before this year, population growth was stagnant; after 1921, it began to rise consistently.",
+        "c": "The literacy rate crossed 50% for the first time.",
+        "d": "The mortality rate became higher than the birth rate permanently."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With respect to the ‘Demographic Transition’ in India, the year 1921 is regarded as the ‘Year of Great Divide’ because:",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "All families below the poverty line (BPL).",
+        "b": "The poorest of the poor among the BPL families.",
+        "c": "Only senior citizens.",
+        "d": "Families affected by natural calamities."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the ‘Antyodaya Anna Yojana (AAY)’, who are the targeted beneficiaries?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Goods and Services Tax (GST)",
+        "b": "Excise Duty",
+        "c": "Customs Duty",
+        "d": "Corporation Tax"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a direct tax?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The government borrowing from the World Bank to build infrastructure.",
+        "b": "The government borrowing from the Reserve Bank of India to meet the excess of expenditure",
+        "c": "The government selling public sector shares to private entities.",
+        "d": "The government reducing taxes to increase consumption."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Deficit Financing’ in the context of the Indian budget implies:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The number of people unemployed divided by total population.",
+        "b": "The number of persons employed per 100 persons in the population.",
+        "c": "The ratio of male workers to female workers.",
+        "d": "The ratio of workers in the industrial sector to those in agriculture."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best defines ‘Worker-Population Ratio’?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": ":The service sector in India has grown rapidly in terms of contribution to GDP but not proportionately in terms of employment generation. labor-intensive. (a)Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is NOT the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Assertion (A ):The service sector in India has grown rapidly in terms of contribution to GDP but",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "V.K.R.V. Rao",
+        "b": "Dadabhai Naoroji",
+        "c": "P.C. Mahalanobis",
+        "d": "Amartya Sen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who among the following is known as the ‘Architect of Indian Planning’ for his contribution to the Second Five Year Plan strategy?",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nine strategic industries reserved for the public sector.",
+        "b": "Public Sector Enterprises (PSEs) given greater managerial and operational autonomy.",
+        "c": "Nine private companies that export the most.",
+        "d": "The nine jewels of Akbar’s court applied to modern banking."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of Indian Industry, what does the term ‘Navratna’ refer to?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To provide loans directly to farmers and industrialists.",
+        "b": "To issue currency and control money supply.",
+        "c": "To collect taxes on behalf of the government.",
+        "d": "To manage the stock market operations."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary function of the ‘Reserve Bank of India (RBI)’?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Long-term measures to improve the efficiency of the economy.",
+        "b": "Short-term measures to correct Balance of Payments and control inflation.",
+        "c": "Privatisation of all Public Sector Units.",
+        "d": "Removal of all trade barriers immediately."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the 1991 Economic Reforms, ‘Stabilisation Measures’ refer to:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Policy regarding money supply and bank interest rates.",
+        "b": "Policy regarding government taxation and expenditure.",
+        "c": "Policy regarding export and import of goods.",
+        "d": "Policy regarding control of industrial labor."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following correctly defines ‘Fiscal Policy’?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Import Duty",
+        "b": "Customs Tax",
+        "c": "Quantitative Restrictions (Quotas)",
+        "d": "Export Subsidy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is a ‘Non-Tariff Barrier’?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Shift from agriculture to industry and services",
+        "b": "Increase in subsistence farming",
+        "c": "Decline in industrial output",
+        "d": "Shift from services to agriculture"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Structural transformation in India involves:",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reduce foreign investment",
+        "b": "Expand public sector monopoly",
+        "c": "Control industrial growth",
+        "d": "Increase the role of the private sector"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Liberalisation policies in India aimed to:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Causes of poverty",
+        "b": "Depth of poverty",
+        "c": "Intensity of unemployment",
+        "d": "Proportion of population living below the poverty line"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The incidence of poverty refers to:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase fragmentation",
+        "b": "Reduce soil fertility",
+        "c": "Improve efficiency and reduce boundary disputes",
+        "d": "Increase tenancy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consolidation of land holdings helps to:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Flood control measures",
+        "b": "Milk production",
+        "c": "Fish production",
+        "d": "Shrimp production"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Operation flood’ is related to:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase imports",
+        "b": "Increase monopolies",
+        "c": "Reduce regional imbalances",
+        "d": "Concentrate industries in cities"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The objective of industrial decentralization is to:",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase in subsidies",
+        "b": "Closure of private firms",
+        "c": "Nationalization of industries",
+        "d": "Sale of government equity in public enterprises"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Disinvestment refers to:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FEMA",
+        "b": "FERA",
+        "c": "MRTP Act",
+        "d": "SEBI Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Competition Act replaced the:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Promote exports",
+        "b": "Protect farmers from price fluctuations",
+        "c": "Control inflation",
+        "d": "Increase tax revenue"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Minimum Support Price (MSP) is announced to:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Creation of assets",
+        "b": "Reduction in revenue",
+        "c": "Increase in consumption",
+        "d": "Inflation control only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Capital expenditure mainly leads to:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Monetary tightening",
+        "b": "Lower taxes and higher public expenditure",
+        "c": "Reduction in deficit",
+        "d": "Higher taxes and lower spending"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Expansionary fiscal policy involves:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Revenue expenditure",
+        "b": "Capital expenditure",
+        "c": "Capital receipts",
+        "d": "Development expenditure"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Interest payments on public debt form part of:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Increase government expenditure",
+        "b": "Reduce fiscal deficit",
+        "c": "Promote exports",
+        "d": "Control inflation and ensure price stability"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The main objective of monetary policy is to:",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banks lend to RBI",
+        "b": "RBI lends short-term funds to banks",
+        "c": "Government borrows",
+        "d": "Public borrows from banks"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Repo rate refers to the rate at which?",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Large industries",
+        "b": "Agriculture, MSMEs, and weaker sections",
+        "c": "Stock markets",
+        "d": "Multinational companies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Priority sector lending aims at providing credit to:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Banking system",
+        "b": "Insurance sector",
+        "c": "Cooperative banks",
+        "d": "Capital market"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SEBI regulates the:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Imports and GDP",
+        "b": "Export prices and import prices",
+        "c": "Exports and GDP",
+        "d": "Balance of payments and trade"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Terms of trade measure the relationship between:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Export earnings",
+        "b": "Foreign investment and loans",
+        "c": "Insurance receipts",
+        "d": "Remittances"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Capital account balance of payment records:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Agriculture-led growth",
+        "b": "Heavy industrialization",
+        "c": "Export-led growth",
+        "d": "Service sector dominance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mahalanobis strategy of planning emphasized:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cardamom Hills",
+        "b": "Aravallis",
+        "c": "Nilgiri Hills",
+        "d": "Rajmahal Hills"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The oldest fold mountain in India is:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thal ghat",
+        "b": "Bhor ghat",
+        "c": "Palghat gap",
+        "d": "Haldighati pass"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following seperates the Nilgiri Hills from the Anaimalai Hils?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Karakoram from the Greater Himalayas",
+        "b": "The Greater Himalayas from the Himalayas",
+        "c": "The Lesser Himalayas from the Shiwalik",
+        "d": "The Shiwalik from the Great Plains of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Main Boundary Fault separates:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chambal",
+        "b": "Damodar",
+        "c": "Gandak",
+        "d": "Kaveri"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following rivers originates from the Himalayas?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat has the longest coastline in India",
+        "b": "Indira Gandhi Canal is the longest canal in India",
+        "c": "Kovalam is the longest sea-beach in India",
+        "d": "Deccan Plateau is the largest plateau of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following statements is not correct?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rajasthan",
+        "b": "Orissa",
+        "c": "Jharkhand",
+        "d": "Madhya Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has the highest Scheduled Tribe population?",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chhattisgarh",
+        "b": "Jharkhand",
+        "c": "Odisha",
+        "d": "Rajasthan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one is the least urbanised among the following states of India?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Dravidians",
+        "b": "The Indo-Aryans",
+        "c": "The Austric",
+        "d": "The Sino-Tibetan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which linguistic group has the largest number of speakers in India?",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "30%",
+        "b": "43%",
+        "c": "53%",
+        "d": "60%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The net sown area in India is around _________ of the total geographical area.",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chennai",
+        "b": "Machilipatnam",
+        "c": "Nellore",
+        "d": "Nagapattinam"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is known as the Shrimp Capital of India?",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Western and south-western Tripura",
+        "b": "Senapati and Tamenglong district of Nagaland",
+        "c": "Garo, Khasi and Jaintia hills of Meghalaya",
+        "d": "Kolasib and Mamit district of Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Tertiary coal is found in:",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hazaribagh - Mica",
+        "b": "Hutti - Gold",
+        "c": "Jaduguda - Uranium",
+        "d": "Zawar - Copper"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not correctly matched?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gujarat",
+        "b": "Uttarakhand",
+        "c": "Chhattisgarh",
+        "d": "Andhra Pradesh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Guru Ghasidas is one of the largest National Parks in India and is located in the state of:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Great Nicobar",
+        "b": "Middle Andaman",
+        "c": "Little Andaman",
+        "d": "North Andaman"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Saddle peak’- the highest peak of Andaman and Nicobar island is located in:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Kochi",
+        "b": "Vishakhapatnam",
+        "c": "Mangalore",
+        "d": "Nhava Sheva, Mumbai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is the largest container port in India?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Northern Gangetic Plain",
+        "b": "Konkan Plain",
+        "c": "Kerala Plain",
+        "d": "Chotanagpur Plateau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which region in India is a major hub for the Iron and Steel Industry, benefiting from raw material proximity?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lakshadweep",
+        "b": "Bihar",
+        "c": "Assam",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which state in India has the highest percentage of Muslim population?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narmada",
+        "b": "Mahanadi",
+        "c": "Sharavathi",
+        "d": "Krishna"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Jog Falls’ is created by which river?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tropical Semi-Evergreen Forest",
+        "b": "Tropical Dry Deciduous Forest",
+        "c": "Tropical Wet Evergreen Forest",
+        "d": "Tropical Deciduous Forest"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following forests is the most dominant forest in India?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Karnataka",
+        "b": "Kerala",
+        "c": "Andhra Pradesh",
+        "d": "Tamil Nadu"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following states has the literacy rate lower than the national average as per 2011 Census?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

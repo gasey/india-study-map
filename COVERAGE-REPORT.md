@@ -1,11 +1,11 @@
 # Coverage report — held backlog
 
-Evidence scanned: 120 official key PDFs on disk (91 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
+Evidence scanned: 120 official key PDFs on disk (94 registered), upstream `mpsc_bank_v2.json` (53,668 answered stems), 35 solved-json labels (9 mapped).
 
 ## Totals
 
-- Held MCQs: **15,327**
-- Tier 1 — official key available (scorable mechanically): **679**
+- Held MCQs: **15,334**
+- Tier 1 — official key available (scorable mechanically): **686**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **62**
@@ -19,7 +19,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 3 | 2 | 1 | 66.7% |
-| inferred | 3224 | 2778 | 446 | 86.2% |
+| inferred | 3452 | 2964 | 488 | 85.9% |
 | key | 71 | 67 | 4 | 94.4% |
 
 ### Tier 2 sources
@@ -30,8 +30,8 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 ## Key attribution
 
-- 120 key PDFs on disk; 91 already registered.
-- High-confidence auto-attributions: **32** (~679 held questions). Confirm each by eye before registering.
+- 120 key PDFs on disk; 94 already registered.
+- High-confidence auto-attributions: **32** (~686 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **25**
 - Unattributed key files: **5**
 
@@ -67,7 +67,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key..pdf, Final Answer key - DSWO, 2026..pdf, General Knowledge Final.pdf, Provisional Answer Key for DSWO under SW,W&CD Department..pdf
 
-## Papers with evidence (top 40 of 225)
+## Papers with evidence (top 40 of 227)
 
 | paper | subject | key | held | T1 | T2solid | T2cand | T3 |
 |---|---|---|---|---|---|---|---|
@@ -229,6 +229,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29 | General Knowledge, Arithmetic & Reasoning | registered | 6 | 6 | 0 | 0 | 0 |
 | mpsc-group-b-station-officer-2018-mathematics | Mathematics | none | 100 | 0 | 0 | 5 | 95 |
 | mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734 | General English | none | 63 | 0 | 2 | 3 | 58 |
+| mpsc-group-b-cao-2026-gs3 | General Studies Paper-III | registered | 5 | 5 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-b-2025 | General Studies | registered | 5 | 5 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025 | General Studies | registered | 5 | 5 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025 | General Studies | registered | 5 | 5 | 0 | 0 | 0 |
@@ -256,6 +257,7 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-assistant-jailor-2018-english | General English | none | 69 | 0 | 0 | 2 | 67 |
 | mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c | General English | none | 20 | 0 | 0 | 2 | 18 |
 | mpsc-group-b-mcs-prelim-2025-p1 | Paper-I (General Studies) | registered | 2 | 2 | 0 | 0 | 0 |
+| mpsc-group-b-cao-2026-gs1 | General Studies Paper-I | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |
 | mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025 | General Studies | registered | 2 | 2 | 0 | 0 | 0 |

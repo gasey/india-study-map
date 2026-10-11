@@ -102,7 +102,8 @@ def extract_one(row):
     # Booklets whose cover numbers its INSTRUCTIONS 1..N (the QNUM_RE pattern)
     # would otherwise open those instructions as the first questions and lock
     # the real Q1 out. The cover is page 1; the questions begin on page 2.
-    skip_pages = 1 if slug in ('mcs-prelim-2025-p1', 'mcs-prelim-2025-p2') else 0
+    skip_pages = 1 if slug in ('mcs-prelim-2025-p1', 'mcs-prelim-2025-p2',
+                               'cao-2026-gs1', 'cao-2026-gs2', 'cao-2026-gs3') else 0
     qs, threshold, notes, markers, written = module.extract(str(source), 'blue', allow_number_gaps=ocr, option_counts=option_counts, skip_pages=skip_pages)
     # A parser gap is recorded, not converted to fake questions or answers.
     numbers = {}

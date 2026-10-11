@@ -1,0 +1,2317 @@
+{
+  "slug": "cao-2026-gs1",
+  "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "General Studies Paper-I",
+  "source": "CAO March-2026 General Studies Paper-I (Series A)..pdf",
+  "sourceSha256": "9c5b65f3dc2c6105e14184943e7c9533e071d357f7447b3db8c3b315aab28d54",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Battle of Plassey, 1757",
+        "b": "Battle of Wandiwash, 1760",
+        "c": "The Third Battle of Panipat, 1761",
+        "d": "Battle of Buxar, 1765"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“A Night of Eternal Gloom for India’’ referred to:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Siraj –ud- Daulah",
+        "b": "Haider Ali",
+        "c": "Tipu Sultan",
+        "d": "Mir Qasim"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "While fighting against the English, the Indian ruler who was fond of saying that it was “better to live a day as a lion than a lifetime as a sheep” was:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1769",
+        "b": "1779",
+        "c": "1789",
+        "d": "1799"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The fourth and final battle between the British and the ruler of Mysore was fought in:",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Battle of Plassey, 1757",
+        "b": "Battle of Wandiwash, 1760",
+        "c": "Third Battle of Panipat, 1761",
+        "d": "Battle of Buxar, 1764"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The granting of the Diwani of Bengal, Bihar and Orissa in 1765 was the significant outcome of:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The English must pay a subsidy for maintenance of British forces in the territory of the allying",
+        "b": "The Indian ruler must agree to the posting of the British Resident at his Court",
+        "c": "The Indian ruler must not employ any European other than the British in his service",
+        "d": "The English undertook to protect the Indian ruler from his enemies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not correct in regard to ‘Subsidiary Alliance’?",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Individual peasants",
+        "b": "Village communities",
+        "c": "Zamindars",
+        "d": "Taluqdars"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under Mahalwari settlement, settlement of land revenue was made with:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Madras and Bombay presidencies",
+        "b": "Bengal and Bihar",
+        "c": "Bihar and Orissa",
+        "d": "Punjab, North West province and part of central India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Ryotwari settlement was introduced in 1820 by Thomas Munro in:",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Permanent Settlement",
+        "b": "Ryotwari Settlement",
+        "c": "Mahalwari Settlement",
+        "d": "Malguzari Settlement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which British land revenue settlement fixed land revenue demand on zamindars in perpetuity, turning them into hereditary landowners?",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1757",
+        "b": "1765",
+        "c": "1772",
+        "d": "1793"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When did the English East India Company undertook direct administration of Bengal after abolition of the Dual Government?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Regulating Act of 1773",
+        "b": "Pitt’s India Act of 1784",
+        "c": "Charter Act of 1813",
+        "d": "Charter Act of 1833"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Act of the British Government that established the Board of Control to exercise control over the Company’s affairs and its administration in India was:",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "₹1 lakh of rupees per year for the promotion of education in India",
+        "b": "₹5 lakh of rupees per year for the promotion of education in India",
+        "c": "₹10 lakh of rupees per year for the promotion of education in India",
+        "d": "₹15 lakh of rupees per year for the promotion of education in India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Charter Act of 1813 was a significant milestone for the promotion of education in India as it allocated:",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Charter Act of 1813",
+        "b": "Charter Act of 1833",
+        "c": "Government of India Act of 1858",
+        "d": "Indian Council Act of 1909"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Act of the British government that provided for the establishment of the First Law Commission in India was:",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "WC Banerjee",
+        "b": "Gopal Krishna Gokhale",
+        "c": "Aurobindo Ghose",
+        "d": "Dadabhai Naoroji"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Theory of Drain of Wealth’ was first propounded by:",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Swami Vivekenanda",
+        "b": "Henry Vivan Derozio",
+        "c": "Iswar Chandra Vidhyasagar",
+        "d": "Raja Ram Mohan Roy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A famous work Precepts of Jesus was written by:",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iswar Chandra Vidhyasagar",
+        "b": "Sawmi Vevekenanda",
+        "c": "Raja Ram Mohan Roy",
+        "d": "Henry Vivan Derazio"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The legislation of Widow Remarriage Act, 1856 owed a credit to:",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lord Dalhausie",
+        "b": "Lord Curson",
+        "c": "Lord Cunning",
+        "d": "Lord Minto"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first railway line in India, running from Bombay to Thana was opened during the tenure of:",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "3 %",
+        "b": "5 %",
+        "c": "7 %",
+        "d": "10 %"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the ‘ Old Guarantee System’, the Companies investing in Railway construction in India were assured a guaranteed dividend of:",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Arrogant attitude of the British towards Indians",
+        "b": "Expansionist policy of the British in India",
+        "c": "British policy of Education in India",
+        "d": "Lenient attitude of the British towards princely states of India"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘Downward filtration theory’ referred to the:",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Decision of the British government in 1835",
+        "b": "Wood’s Despatch, 1854",
+        "c": "Hunter Commission, 1882",
+        "d": "Universities Act, 1904"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following proposed the setting up of universities at Culcutta, Bombay and Madras?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Satyendranath Tagore",
+        "b": "Debendranath Tagore",
+        "c": "Rabindranath Tagore",
+        "d": "Dwarkanath Tagore"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Indian to have qualified examination for Indian Civil Services was:",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lala Lajpat Rai",
+        "b": "Aurobindo Ghose",
+        "c": "Bipin Chandra Pal",
+        "d": "Surendranath Banerjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The founder of an influential nationalist newspaper Vande Mataram was:",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "First War of Indian independence",
+        "b": "Sepoy Mutiny",
+        "c": "Revolt of 1857",
+        "d": "Peasants’ rebellion"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The great upheaval that took place in 1857 in India had been coined by colonial writers as:",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It united the Indians against the British",
+        "b": "British started adopting a policy of Divide and Rule",
+        "c": "It brought about major transformation in military organisation",
+        "d": "It resulted in the transfer of power to govern India from the East India Company to the British Crown"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The most significant outcome of the uprising of 1857 was:",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "70 delegates",
+        "b": "72 delegates",
+        "c": "75 delegates",
+        "d": "78 delegates"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first session of Indian National Congress at Bombay in 1885 was attended by:",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lala Lajpat Rai",
+        "b": "Bipan Chandra Pal",
+        "c": "Bal Gangadhar Tilak",
+        "d": "Gopal Krishna Gokhale"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian nationalist who started using the traditional religious Ganpati festival to propagate nationalist ideas was:",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Indian Council Act of 1892",
+        "b": "The Indian Council Act of 1909",
+        "c": "The Government of India Act of 1919",
+        "d": "The Government of India Act of 1935"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A system of separate electorate, giving separate representation to the Muslim was introduced by:",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Champaran Satyagraha",
+        "b": "Ahmedabad Mill Strike",
+        "c": "Non Cooperation Movement",
+        "d": "Civil Disobedience Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "As a result of Chauri Chaura incident, Gandhiji suspended:",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ahmedabad Mill Strike",
+        "b": "Non Co-operation Movement",
+        "c": "Civil Disobedience Movement",
+        "d": "Quit India Movement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A clarion call “Do or Die” was given by Mahatma Gandhi during:",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lala Lajpat Rai",
+        "b": "Subash Chandra Bose",
+        "c": "Sardar Vallabhbhai Patel",
+        "d": "Lokamanya Tilak"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "An Indian nationalist leader who was known as ‘Iron Man of India’ was:",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mahatma Gandhi",
+        "b": "Subash Chandra Bose",
+        "c": "Ananda Mohan Bose",
+        "d": "Sardar Vallabhbhai Patel"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The slogan ‘Jai Hind’ and ‘Delhi Chalo’ was attributed to:",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It ended all resistance from the Marathas",
+        "b": "It gave the Company control over Bombay and Madras",
+        "c": "It led to the annexation of Punjab and the neighbouring areas giving economic power to the",
+        "d": "It defeated a coalition of major Indian powers, giving the Company political supremacy in the"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why was the Battle of Buxar (1764) decisive in consolidating British control in northern India?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bombay",
+        "b": "Surat",
+        "c": "Calcutta",
+        "d": "Madras"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first permanent British factory set up by the East India Company in 1613 was located in:",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It granted full independence to the East India Company from British parliamentary control.",
+        "b": "It abolished the East India Company and transferred power directly to the British Crown.",
+        "c": "It introduced universal adult franchise in Company territories.",
+        "d": "It made the Governor of Bengal the Governor-General of Bengal with supervisory authority"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the major administrative consequence of the Regulating Act of 1773 for British rule in India?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Introduction of widow remarriage",
+        "b": "Abolition of untouchability",
+        "c": "Raising the age of consent for girls",
+        "d": "Abolition of sati"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which early 19th century social reform is most closely associated with the joint efforts of Raja Ram Mohan Roy and the British administration under Lord William Bentinck?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "By prohibiting any discussion of politics or public affairs in educational settings",
+        "b": "By ensuring that only British citizens could receive higher education in India",
+        "c": "By creating an educated public that used Western ideas of rights and liberty to criticize colonial rule",
+        "d": "By teaching Indian history from a nationalist perspective"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In what way did British educational policies unintentionally contribute to the rise of Indian nationalism?",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Macaulay’s Minute on Education,1835",
+        "b": "Wood’s Despatch,1854",
+        "c": "Hunter Commission, 1882",
+        "d": "Kothari Commission, 1964-66"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which, among the following was the first to recommend English as the medium of instruction?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Rani Lakshmi Bai",
+        "b": "Bahadur Shah Zafar",
+        "c": "Tantia Tope",
+        "d": "Kunwar Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who, among the following leaders was the proclaimed (official) leader of the Revolt of 1857?",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To promote small-scale subsistence farming across all regions",
+        "b": "To ensure local food security and reduce dependence on imports",
+        "c": "To reduce India’s participation in international commerce",
+        "d": "To supply raw materials and specific goods required by British industries"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did British policies encourage the cultivation of cash crops like indigo, opium, and cotton in many parts of India?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It ensured that the colonial state always waived revenue in years of bad harvest",
+        "b": "It allowed peasants to easily save surplus money in banks instead of borrowing",
+        "c": "It completely eliminated the role of moneylenders from rural society",
+        "d": "It forced peasants to borrow from moneylenders when crops failed or prices fell"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "How did the need to pay land revenue in cash contribute to rural indebtedness?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Absentee Landlordism",
+        "b": "Rural Indebtedness",
+        "c": "Commercialisation of Agriculture",
+        "d": "Growth of Commercial Labourers"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phenomena of “Peasants shifting to producing crops for sale in distant markets, often to meet cash and tax demands” during the British rule in India, is commonly known as:",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "They were completely free from any British commercial influence",
+        "b": "They combined access to ports, railways, and existing commercial communities",
+        "c": "They had lower colonial taxes compared to the rest of India",
+        "d": "These cities were the only places allowed by law to establish factories"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Why did the development of modern industry in colonial India tend to be more concentrated in areas such as Bombay and Calcutta?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "British officials who settled in India after retirement",
+        "b": "Large peasant landholders with surplus agricultural income",
+        "c": "Merchants and banking communities such as Marwaris and Parsis",
+        "d": "Colonial missionaries interested in promoting industrial education"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the emergence of an Indian capitalist class, which group most commonly provided the early pool of entrepreneurs who invested in modern industry?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protective tariffs imposed by the colonial state to shield Indian industries",
+        "b": "The construction and expansion of railway networks linking raw material areas to ports",
+        "c": "A deliberate British policy to reduce imports from Britain and promote Indian manufacturing",
+        "d": "Large-scale state subsidies to Indian industrialists like the Tatas and Birlas"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which factor most directly encouraged the early growth of modern industries such as jute and cotton textiles in colonial India during the late 19th century?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Jyotiba Phule – Satyashodhak Samaj; challenging caste oppression and promoting education",
+        "b": "Swami Vivekananda – Aligarh Movement; advocating Western-style scientific education for",
+        "c": "Sir Syed Ahmad Khan – Ramakrishna Mission; preaching a synthesis of Vedanta and devotion",
+        "d": "Keshab Chandra Sen – Arya Samaj; promoting exclusive Vedic ritualism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which reformer is correctly matched with the socio-religious organisation he led or inspired, and what was one major focus of that organisation?",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Newspaper Act",
+        "b": "Vernacular Press Act",
+        "c": "Censorship Press Act",
+        "d": "Licensing Regulations Act"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Act, passed in 1878 targeted (curbed) Indian language Newspapers?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ring fence Policy",
+        "b": "Doctrine of Lapse",
+        "c": "Subsidiary Alliance",
+        "d": "Rule of Law"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The system that allowed the British to annex states where the ruler died without a natural heir was:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1930",
+        "b": "1924",
+        "c": "1920",
+        "d": "1919"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did the Jallianwala Bagh massacre take place in Amritsar?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "W C Banerjee",
+        "b": "Mahatma Gandhi",
+        "c": "Jawaharlal Nehru",
+        "d": "B R Ambedkar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Hind Swaraj” was authored by",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1920",
+        "b": "1916",
+        "c": "1906",
+        "d": "1910"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which year did the Lucknow Pact between the Indian National Congress and the Muslim League take place, signifying a moment of Hindu–Muslim unity?",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "15 August 1947",
+        "b": "16 August 1946",
+        "c": "23 March 1940",
+        "d": "9 August 1942"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On which date did the Direct Action Day, called by the Muslim League, take place in 1946, leading to widespread communal violence in Bengal?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India",
+        "b": "Thailand",
+        "c": "Bangladesh",
+        "d": "Maldives"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following countries is not a member of BIMSTEC?",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "India recognises Taiwan as a sovereign independent country.",
+        "b": "Taiwan has refused diplomatic ties with India.",
+        "c": "India has no economic interests with Taiwan.",
+        "d": "India follows the One China Policy."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India and Taiwan do not have formal diplomatic relations primarily because:-",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Urban infrastructure development in Mizoram.",
+        "b": "Local cooperative societies in marketing and export of products.",
+        "c": "Education and skill development programs in rural areas.",
+        "d": "Healthcare facilities and medical research in Mizoram."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In December 2025, MIZOFED and NCEL signed a three-year Memorandum of Understanding (MoU) mainly to support:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Anti-virus",
+        "b": "Antibiotic injection",
+        "c": "Cough syrup",
+        "d": "Pain reliever"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The tragic deaths of at least 24 children in Madhya Pradesh in 2025 were linked to which type of medicine?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Panchkula, Haryana",
+        "b": "Guwahati, Assam",
+        "c": "Hyderabad, Telangana",
+        "d": "Indoore, MP."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which city H. Lalthazuala was crowned U-19 Boys’ Singles Champion at the Yonex-Sunrise All India Junior Ranking Badminton Tournament 2025?",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "200 metres above sea level .",
+        "b": "150 metres above sea level.",
+        "c": "100 metres above sea level.",
+        "d": "50 metres above sea level."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 2025, the Supreme Court of India accepted a new criterion for defining the Aravalli Hills. According to this definition, a landform is considered an Aravalli Hill if it has a minimum elevation of:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalrinawma (India)",
+        "b": "Tenzing Sherpa (Nepal)",
+        "c": "Nirav Shrestha (Nepal)",
+        "d": "Daniel Federspiel (Austria)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who won the Red Bull Tlang Ruam 2025 competition?",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Mizoram Youth Commission Bill.",
+        "b": "The Mizoram Urban and Regional Development Bill.",
+        "c": "The Mizoram Private Placement Agencies (Regulation) Bill, 2025.",
+        "d": "The Mizoram Private Placement and Other Agencies (Regulation) Bill, 2025."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which Bill was passed in 2025 to regulate placement agencies for jobs inside India and abroad?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Parliamentary sovereignty",
+        "b": "Separation of powers",
+        "c": "Cooperative federalism",
+        "d": "Judicial activism"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Supreme Court in 2025 held that the Governor cannot exercise “pocket veto” over state legislation. This ruling is primarily related to which constitutional principle?",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Eklavya Award",
+        "b": "Bal Kalyan Puraskar",
+        "c": "Pradhan Mantri Rashtriya Bal Puraskar",
+        "d": "Indira Gandhi Bal Puraskar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is India’s highest civilian honour for children recently received by Esther Hnamte on 26th December 2025 in New Delhi?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Mizoram Rural Development Bill.",
+        "b": "The Mizoram Panchayat Regulations Bill,2025.",
+        "c": "The Mizoram Urban and Regional Development Bill, 2025.",
+        "d": "The Mizoram Industrial Growth Bill."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which 2025 Bill focused on planning and development of towns and cities in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Tejas Mk1",
+        "b": "Su-57 Felon",
+        "c": "F-22 Raptor",
+        "d": "F-35 Lightning II"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a 5th Generation fighter jet?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "B. Lalthangliana",
+        "b": "Stephen Auhmun",
+        "c": "Lalhruaitluanga Chawngte",
+        "d": "F. Vanlalrochana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who wrote the book ‘ Hun Inher Kara Zofate’?",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iconic star of Tomorrow",
+        "b": "Young Ambassador",
+        "c": "Star of Tomorrow",
+        "d": "Star Ambassador"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "At the 2025 Youth Empowerment Summit (YES) jointly organized by Mizoram State Child Protection Society and Medhavi Foundation, Shephard Zomuani was adjudged:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Govt. Institute of Medical Sciences (GIMS), Greater Noida",
+        "b": "All India Institute of Medical Sciences (AIMS), New Delhi",
+        "c": "Christian Medical College (CMC), Vellore",
+        "d": "Post-Graduate Institute of Medical Education and Research (PGIMER), Chandigarh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India has marked a major milestone in public health care with the inauguration of its first government based Artificial Intelligence (AI) clinic at the:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mumbai",
+        "b": "Shilma",
+        "c": "Gurugram",
+        "d": "Bhopal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city hosted the 18th Urban Mobility India (UMI) conference, where the much lauded Mizoram traffic gets national recognition, held during 7-9 November, 2025?",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "C. Lalrosanga",
+        "b": "Mangjangam Touthang",
+        "c": "PK Singson",
+        "d": "LR Sailo"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the recipient of Dr. Bhupen Hazarika National Award, 2025?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "South Africa",
+        "b": "Zimbabwe",
+        "c": "New Zealand",
+        "d": "Australia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Indian Women’s Cricket team beat ________ by 52 runs to win their first ever ICC Women’s ODI World Cup on November 2, 2025.",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Delcy Rodriguez",
+        "b": "Cilia Flores",
+        "c": "Vladimir Padrino Lopez",
+        "d": "Juan Guaido"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who of the following was appointed by Venezuela’s Supreme Court on January 3, 2026 to become the country’s interim President, after the United States seized President Nicolas Maduro and whisked him out of the country.",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pope Leole XIV",
+        "b": "Pope Loew XIV",
+        "c": "Pope Lowe XIV",
+        "d": "Pope Leo XIV"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Robert Prevost, who became the Catholic Pope after the death of Pope Francis will be known as ________.",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "38th",
+        "b": "48th",
+        "c": "34th",
+        "d": "44th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Despite ongoing reforms, India ranks ________ in Global Innovation Index (2025) published by WIPO.",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Major Thankhuma",
+        "b": "Major PC Lianhmingthanga",
+        "c": "C. Zama",
+        "d": "Lt.Ngulkhopao"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The recently released ‘Die As a Man’ (factual stories of Mizo struggle for Independence (1966- 1986) is authored by:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Leh, Ladakh",
+        "b": "Tso Kar Valley,Ladakh",
+        "c": "Kargil, Ladakh",
+        "d": "Zanskar, Ladakh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Indian Space Research Organisation (ISRO) inaugurated the Himalyan Outpost for Planetary Exploration (HOPE) station on August 1, 2025 in:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "“Using Data to Inform Decision Making”",
+        "b": "“Using Statistics to Inform Decision Maker”",
+        "c": "“Using Statistics to Inform Decision Making”",
+        "d": "“75 Years of National Sample Surgery”"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the theme of National Statistics Day 2025?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "138-feet-high",
+        "b": "128-feet-high",
+        "c": "118-feet-high",
+        "d": "108-feet-high"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a solemn ceremony symbolising unity, patriotism and national pride, Mizoram Governor General (Dr) Vijay Kumar Singh, PVSM, AVSM, YSM (Retd), on 24th December, 2025 unfurled a monumental ________ National Flag - the tallest in the state - at 34 Assam Rifles, Zokhawsang, Aizawl.",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Reiek",
+        "b": "Seling",
+        "c": "West Phaileng",
+        "d": "Thenzawl"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The 10th privately operated ATM booth in Mizoram was inaugurated in September, 2025 at:",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Narendra Modi",
+        "b": "Amit Shah",
+        "c": "Nirmala Sitharaman",
+        "d": "Raj Nath Singh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Union Minister of Cooperation, who chaired a “Manthan Baithak”, a meeting with the Ministers of Cooperation of all States and Union Territories in New Delhi on 30.06.2025 to review ongoing schemes to strengthen cooperation movement in the Country was:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Uniting Oceans, One Maritime Zone",
+        "b": "Single Maritime Zone, Uniting Ocean",
+        "c": "Uniting Oceans, One Maritime Vision",
+        "d": "Uniting Maritime Zone, One Vision"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India Maritime Week – 2025, held at the NESCO Exhibition Centre from October 27-31, 2025 in Mumbai, the event focused on the theme:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "West Bengal",
+        "b": "Tamil Nadu",
+        "c": "Kerala",
+        "d": "Mizoram"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first State in the Country to rename Raj Bhavan as Lok Bhavan is:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Five months",
+        "b": "Four months",
+        "c": "Three months",
+        "d": "Two months"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "“Sardar@150 Unity March,” to commemorate 150th Birth Anniversary of Sardar Vallabhbhai Patel, the Iron Man of India, spanned for:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vijay Bishnoi",
+        "b": "Sandeep Mehta",
+        "c": "Ajai Lamba",
+        "d": "R. M. Chhaya"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Union Ministry of Home Affairs on 16.12.2025 extended the tenure of the Commission of Inquiry probing the 2023 Manipur violence, allowing it time until May 20, 2026 to submit its report. The Commission is headed by former Gauhati High Court Chief Justice:",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prabowo Subianto, President of Indonesia",
+        "b": "Ursula von der Leyen, President of the European Commission and Antonio Costa, President of the European Council",
+        "c": "Antonio Costa, President of the European Council",
+        "d": "Ursula von der Leyen, President of the European Commission and Emmanuel Macron, President of France"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was/were the chief guest(s) of the 77th Republic Day celebration in Delhi?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Operation Nehemiah",
+        "b": "Operation Jericho",
+        "c": "Joint (Forces) Operation 24x7",
+        "d": "Zero Tolerance Operation"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A four-month-long special campaign launched on 1st September, 2025 to curb drug flow into the state of Mizoram and to address the growing security concerns posed by drugs addicts in public space was known as:",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "INS Chennai",
+        "b": "INS Vikramaditya",
+        "c": "INS Vikrant",
+        "d": "INS Kolkata"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Prime Minister Narendra Modi celebrated Diwali 2025 with Navy Personnel onboard on:",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Assam and West Bengal",
+        "b": "Sikkim and Arunachal Pradesh",
+        "c": "Assam and Arunachal Pradesh",
+        "d": "Sikkim and West Bengal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Government of India has recently taken decision to construct two cross border railway lines with Bhutan connecting:",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Cambodia’s first female Prime Minister",
+        "b": "Nepal’s first female Prime Minister",
+        "c": "Tibet’s first female Prime Minister",
+        "d": "Bhutan’s first female Prime Minister"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Sushila Karki was named as:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Belem",
+        "b": "Johannesburg",
+        "c": "Sydney",
+        "d": "Baku"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which city hosted UN Climate Change Conference in November, 2025?",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Ministry of Consumer Affairs, Food and Public Distribution (MoCAFP)",
+        "b": "Ministry of Information and Broadcasting (MIB)",
+        "c": "Ministry of Women and Child Development (MoWCD)",
+        "d": "Ministry of Education (MOE)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘One Nation One Subscription’ is sponsored by Government of India, ________.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Both (i) and (ii) are correct",
+        "b": "Only (i) is correct",
+        "c": "Only (ii) is correct",
+        "d": "Both (i) and (ii) are wrong"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)Pi Famiangi, recognized as possibly one of the oldest individual in India died at the age of 117 in July, 2025 at Lungtian village, Lawngtlai District. (ii)Pi Rita Lalneihpuii, the first woman to earn a Master’s degree, passed away at the age of 100 in September, 2025 Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i) and (ii)",
+        "b": "only (ii) and (iii)",
+        "c": "Only (i) and (iii)",
+        "d": "(i), (ii) and (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statements is/are correct? (i)On June 16, 2025, India officially notified that the country’s 16th National Census — and the 8th after Independence — will be conducted in 2027. (ii)The long-awaited population count will adopt digital methods, include caste data, and conclude by March 2027. (iii)Reference Date for Mainland India is: 00:00 hours, March 1, 2027; while Reference Date for Snow-bound areas is: October 1, 2026. Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It was held on July 7, 2025 in Rio de Janeiro",
+        "b": "The Summit welcomed India’s candidacy to host COP33 in 2027.",
+        "c": "In a strong show of support, the BRICS leaders reiterated backing for India’s permanent",
+        "d": "India has received unanimous backing from BRICS nations to chair the 18th BRICS Summit in"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the 17th BRICS Summit, 2025, which of the following is not correct?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Specific, Measurable, Achievable, Relevant, Time-bound in Public Distribution System.",
+        "b": "Scheme for Manual-less and Record through Technology in Public Distribution System.",
+        "c": "Scheme for Modernisation, Accountability and Regeneration of Transparency in Public Distribution System.",
+        "d": "Scheme for Modernisation and Reforms through Technology in Public Distribution System."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "SMART-PDS is an initiative by the Indian government aimed at improving the efficiency, transparency, and accountability of the country’s Targeted Public Distribution System (TPDS). Its full form is:",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "BJP Legislature Party",
+        "b": "INC Legislature Party",
+        "c": "NPP Legislature Party",
+        "d": "JD(U) Legislature Party"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A Meitei MLA, named Yumnam Khemchand Singh visited a Kuki Relief Camp in Imphal West in early December, 2025 and interacted with the inmates, appealing for peace and co-existence. He belongs to:",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i)",
+        "b": "Only (ii)",
+        "c": "Only (iii)",
+        "d": "None of the above"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements: (i)President of India has given assent to the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB -G RAM G) Bill, 2025 marking a significant milestone in the transformation of rural employment policy. (ii)The Viksit Bharat - G RAM G Act, 2025 replaces MGNREGA. The Bill was introduced in Lok Sabha on December 16, 2025 and was passed, two days later, on December 18, 2025. In Rajya Sabha, it was passed on December 19, 2025. (iii)The employment guarantee is enhanced to 125 days per rural household, strengthening income security; but not shifted from Demand-Based Model to Normative Allocation Framework. Which of the statements given above is/are wrong?",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An upcoming international multi-sport event is scheduled to take place from 16 to 28 February, 2026.",
+        "b": "2026 Winter Olympics is the XXVI edition of Winter Olympic Games.",
+        "c": "It is commonly known as Milano Cortinha 2026.",
+        "d": "The Games will be the first Olympic Games under the IOC presidency of Kirsty Coventry."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to the 2026 Winter Olympics, which of the following statement is correct?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Only (i) & (ii)",
+        "b": "Only (i), (ii) and (iii)",
+        "c": "Only (i), (ii) & (iv)",
+        "d": "(i), (ii), (iii) & (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements regarding Generation Beta: (i)The year 2025 marks the beginning of a new generation, in Generation Beta. (ii)Simply put, Generation Beta is defined as those born between 2025 and 2039. (iii)By 2035, they will make up 25% of the global population (iv)They will be the children of younger Gen Ys (millennials) and older Gen Zs; and many will live to see the 22nd century. By using the code given below, which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) and (iii) only",
+        "b": "(ii), (iii) and (iv) only",
+        "c": "(i), (iii) and (iv) only",
+        "d": "(i), (ii), (iii) & (iv)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Swaraj Kaushal, former Governor of Mizoram who passed away recently at the age of 73, which of the following is correct? (i)He was the youngest-ever Governor of Mizoram (1990-1993) at age 37 (ii)He was also key figure in the 1986 Mizoram Peace Accord. (iii)He served as the first Advocate General of Mizoram. (iv)He was the first official Indian Interlocutor for NSCN talks. Select the correct answer using the code given below:",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i) & (ii) only",
+        "b": "(i) & (iii) only",
+        "c": "(ii) & (iii) only",
+        "d": "(i), (ii) & (iii)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement(s) is/are correct? (i)2025 Booker Prize was awarded to David Szalay. (ii)He is an Albanian-British author. (iii)Booker prize was awarded for his novel, ‘Flesh’.",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "(i), (ii) & (iii) only",
+        "b": "(ii), (iii) & (iv) only",
+        "c": "(i), (ii) & (iv) only",
+        "d": "(i), (iii) & (iv) only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following statement(s) is/are correct? (i)Nobel Peace Prize 2025 was awarded to Maria Corina Machado (ii)She is a Brazillian politician, activist, and prominent leader. (iii)She was previously awarded Vaclav Havel Human Rights Prize (2023); Sakharov Prize (2024) (iv)She was listed among Time Magazine’s 100 most influential people in 2025. By using the code given below, which of the above statements is/are correct?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lifetime Achievement Award (Lok Sabha) : Digvijay Singh",
+        "b": "Best Parliamentarian Award (Lok Sabha) : Jagdambika Pal",
+        "c": "Best Parliamentarian Award (Rajya Sabha) : Sanjay Singh",
+        "d": "Best Woman Parliamentarian Award (Rajya Sabha) : Dola Sen"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to Lokmat Parliamentary Awards 2025, which of the following statement is wrong?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

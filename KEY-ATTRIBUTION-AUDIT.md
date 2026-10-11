@@ -87,6 +87,9 @@ Validation compares the proposed key against the upstream solved corpus by chose
 | archive2325-lecturer-vse-general-studies-paper-iii-c-2025 | 100 | /papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=15 |
 | archive2325-lecturer-vse-general-studies-paper-iii-d-2025 | 100 | /papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=16 |
 | archive2325-technical-officer-scert-general-studies-april-2025 | 100 | /papers/group-b/keys/scert-gs-final-key.pdf |
+| cao-2026-gs1 | 100 | /papers/group-b/keys/cao-2026-final-key.pdf#page=1 |
+| cao-2026-gs2 | 100 | /papers/group-b/keys/cao-2026-final-key.pdf#page=3 |
+| cao-2026-gs3 | 100 | /papers/group-b/keys/cao-2026-final-key.pdf#page=5 |
 | cdpo-2025-gs | 100 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=2 |
 | cdpo-2025-home-science-p1 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=3 |
 | cdpo-2025-home-science-p2 | 50 | /papers/group-b/keys/cdpo-2025-final-key.pdf#page=4 |

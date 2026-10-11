@@ -159,6 +159,9 @@ GENERAL_PAPERS = [
  ('acm-2026-tech-p2', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-II', 'Asst. Controller of Mines Technical Paper-II..pdf'),
  ('acm-2026-tech-p3', 'Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026', 'March 2026', 'Technical Paper-III', 'Asst. Controller of Mines Technical Paper-III..pdf'),
  ('ceo-2025-gk', 'Circle Education Officer under School Education Department - November 2025', 'November 2025', 'General Knowledge', 'CEO General Knowledge - 2025..pdf'),
+ ('cao-2026-gs1', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-I', 'CAO March-2026 General Studies Paper-I (Series A)..pdf'),
+ ('cao-2026-gs2', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-II', 'CAO March-2026 General Studies -II- Series-A..pdf'),
+ ('cao-2026-gs3', 'Cooperative Audit Officer under Cooperation Department - March-2026', 'March 2026', 'General Studies Paper-III', 'CAO March-2026 General Studies- III Series A..pdf'),
 ]
 # Old Questions 2019-2020 (archive folder Direct_2019-2020). This covers the
 # clerical / UDC / Assistant Grade papers in full plus the non-technical
@@ -451,6 +454,7 @@ GENERAL_ARCHIVE_FOLDERS = {
  'mcs-prelim-2025-p1': 'Direct_2025-2027', 'mcs-prelim-2025-p2': 'Direct_2025-2027',
  'acm-2026-gs': 'Direct_2025-2027', 'acm-2026-tech-p1': 'Direct_2025-2027', 'acm-2026-tech-p2': 'Direct_2025-2027', 'acm-2026-tech-p3': 'Direct_2025-2027',
  'ceo-2025-gk': 'Direct_2025-2027',
+ 'cao-2026-gs1': 'Direct_2025-2027', 'cao-2026-gs2': 'Direct_2025-2027', 'cao-2026-gs3': 'Direct_2025-2027',
 }
 
 
@@ -812,6 +816,13 @@ def build_additional():
             # MCQs. No negative-marking rule is printed.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug.startswith(('cao-2026-gs1', 'cao-2026-gs2', 'cao-2026-gs3')) and key:
+            # Covers: Cooperative Audit Officer (March-2026), General Studies
+            # Papers I/II/III, 2 hours, Maximum Marks 200, 100 questions at 2
+            # marks each; printed instructions impose negative marking of one
+            # third for wrong answers.
+            meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
+                             'negativeMarking': True, 'penaltyFraction': 1 / 3}
         if slug == 'archive-lang-2026-lecturer-govt-hr-secondary-school-serchhip-contract-2026-lecturer-govt-h-bbb95237' and key:
             # Cover: (March & April 2026), General English, 3 hours, FM 100;
             # Part-A holds 66 one-mark MCQs. Key: official final answer key.

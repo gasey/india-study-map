@@ -1,0 +1,2317 @@
+{
+  "slug": "cao-2026-gs3",
+  "exam": "Cooperative Audit Officer under Cooperation Department - March-2026",
+  "sitting": "March 2026",
+  "subject": "General Studies Paper-III",
+  "source": "CAO March-2026 General Studies- III Series A..pdf",
+  "sourceSha256": "e28533b6034d502dc5331a49355867a3961539bf109caa70804d016ba7be3331",
+  "ocr": false,
+  "count": 100,
+  "questions": [
+    {
+      "n": 1,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Enable communication services",
+        "b": "Monitor weather patterns",
+        "c": "Demonstrate indigenous satellite technology",
+        "d": "Conduct military reconnaissance"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first satellite Aryabhata was launched primarily to:",
+      "multi": false
+    },
+    {
+      "n": 2,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Protectionism through high tariffs",
+        "b": "Indigenous production with global integration",
+        "c": "Self-reliance through innovation, research, and domestic capability building",
+        "d": "Reduction of foreign collaborations"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The concept of “Atmanirbhar Bharat” in science and technology primarily emphasizes:",
+      "multi": false
+    },
+    {
+      "n": 3,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Council of Agricultural Research (ICAR)",
+        "b": "Council of Scientific & Industrial Research (CSIR)",
+        "c": "Indian Agricultural Research Institute (IARI)",
+        "d": "National Bank for Agriculture and Rural Development (NABARD)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which institution played a key role in India’s Green Revolution through scientific research?",
+      "multi": false
+    },
+    {
+      "n": 4,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Skipping technological regulation",
+        "b": "Moving directly to advanced technologies without intermediate stages",
+        "c": "Adopting advanced technologies to bypass traditional development paths",
+        "d": "Gradual adoption of imported technologies"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The term ‘Technology Leapfrogging’ in the Indian context refers to:",
+      "multi": false
+    },
+    {
+      "n": 5,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Covishield",
+        "b": "Sputnik V",
+        "c": "Covaxin",
+        "d": "ZyCoV-D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s first indigenously developed COVID-19 vaccine was:",
+      "multi": false
+    },
+    {
+      "n": 6,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brain drain of scientists",
+        "b": "Failure of startups after IPO",
+        "c": "Gap between research output and commercial deployment",
+        "d": "Decline in patent quality"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘valley of death’ in India’s innovation ecosystem refers to:",
+      "multi": false
+    },
+    {
+      "n": 7,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "High service-sector dominance",
+        "b": "Public digital platforms",
+        "c": "Strong deep-tech commercialization",
+        "d": "Government incubation support"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is NOT a feature of India’s startup ecosystem?",
+      "multi": false
+    },
+    {
+      "n": 8,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Government spending on R&D is negligible",
+        "b": "Higher education institutions conduct little research",
+        "c": "Private sector contribution to R&D is comparatively low",
+        "d": "India focuses more on basic than applied research"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "India’s low GERD-to-GDP ratio persists primarily because:",
+      "multi": false
+    },
+    {
+      "n": 9,
+      "page": 2,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2, and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the Anusandhan National Research Foundation (ANRF), established by the ANRF Act 2023, consider the following statements: 1.It replaces the Science and Engineering Research Board (SERB). 2.The Prime Minister serves as the ex-officio President of the Governing Board. 3.It is mandate is limited solely to funding fundamental research in basic sciences. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 10,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Replacing all classical cryptography in government with quantum key distribution by 2026",
+        "b": "Demonstrating fault-tolerant universal quantum computing for any algorithm",
+        "c": "Establishing quantum simulators with 50–1000 physical qubits for domain-specific problems",
+        "d": "Launching a public blockchain fully secured by quantum-resistant algorithms in all nodes"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Under the National Quantum Mission (NQM), India targets intermediate-scale quantum systems by 2031. Which outcome best aligns with these targets for near-term applications?",
+      "multi": false
+    },
+    {
+      "n": 11,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To establish an underwater permanent military base in the Indian Ocean Region.",
+        "b": "To explore polymetallic nodules and hydro-thermal sulfides at depths of 6000 meters.",
+        "c": "To facilitate underwater tourism in the Andaman and Nicobar Islands.",
+        "d": "To monitor the migration patterns of Blue Whales using sonar technology."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of the ‘Deep Ocean Mission’, what is the primary function of the manned submersible ‘Matsya 6000’?",
+      "multi": false
+    },
+    {
+      "n": 12,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "MeitY regulates AI ethics while DST drafts the Digital Personal Data Protection Rules.",
+        "b": "MeitY leads compute infrastructure and standards; DST funds foundational research; NITI Aayog focuses on strategy and inter-ministerial coordination.",
+        "c": "NITI Aayog procures GPUs and runs national data centers; MeitY only coordinates state governments.",
+        "d": "DST leads compute infrastructure; MeitY handles basic research grants; NITI Aayog exclusively regulates AI models."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which statement best captures the institutional division of roles between MeitY, DST, and NITI Aayog regarding India’s AI ecosystem as of 2024–2025?",
+      "multi": false
+    },
+    {
+      "n": 13,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2, and 3",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1 and 2 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to India’s ‘Green Hydrogen Mission’, consider the following statements: 1.Green hydrogen is produced through the electrolysis of water using renewable energy. 2.The mission targets a production capacity of at least 5 MMT (Million Metric Tonne) per annum by 2030. 3.Hydrogen is currently used primarily in the transport sector in India. Which of the statements given above are correct?",
+      "multi": false
+    },
+    {
+      "n": 14,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Green hydrogen produced via electrolysis powered by renewables",
+        "b": "Blue hydrogen with no carbon capture component",
+        "c": "Nuclear-derived pink hydrogen as the dominant national route immediately",
+        "d": "Grey hydrogen from natural gas without abatement"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding India’s National Hydrogen Mission, which pathway is prioritized to decarbonize hard-to- abate sectors by 2030?",
+      "multi": false
+    },
+    {
+      "n": 15,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To identify and solve major science and engineering challenges relevant to India through a pan- IIT and IISc joint initiative.",
+        "b": "To provide scholarships for students studying abroad in STEM fields.",
+        "c": "To regulate the ethics of Artificial Intelligence in healthcare.",
+        "d": "To digitize all historical scientific manuscripts available in Indian libraries."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary objective of the ‘IMPRINT’ (IMpacting Research INnovation and Technology) initiative in India?",
+      "multi": false
+    },
+    {
+      "n": 16,
+      "page": 3,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "NITI Aayog",
+        "b": "Department of Science and Technology (DST)",
+        "c": "Digital India Corporation within the Ministry of Electronics and IT (MeitY).",
+        "d": "Ministry of Commerce and Industry"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The ‘India Semiconductor Mission’ (ISM) is functionally housed under which organization/ministry?",
+      "multi": false
+    },
+    {
+      "n": 17,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Focusing solely on the elimination of a single disease, such as Tuberculosis, by 2025.",
+        "b": "Integrating the health of humans, animals, and the environment to tackle zoonotic diseases and",
+        "c": "Providing one universal health insurance card to all Indian citizens.",
+        "d": "A policy of ‘One Hospital’ for every district in India."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of ‘One Health’ approach supported by the Department of Biotechnology (DBT), what is the central philosophy?",
+      "multi": false
+    },
+    {
+      "n": 18,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "An exclusive platform for large enterprises only",
+        "b": "A payment gateway competing with UPI for transactions",
+        "c": "A centralized marketplace operated by the government with inventory ownership",
+        "d": "A protocol network enabling interoperability among buyer, seller, and logistics apps"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which combination best captures the role of ONDC (Open Network for Digital Commerce) in India’s digital economy?",
+      "multi": false
+    },
+    {
+      "n": 19,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To test a nuclear-powered propulsion system for deep space travel.",
+        "b": "To establish a permanent space station in the Lagrange point L1.",
+        "c": "To demonstrate human spaceflight capability by sending a crew to an orbit of 400 km for 3",
+        "d": "To land an Indian astronaut on the lunar surface."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding ISRO’s ‘Gaganyaan’ mission, what is the primary objective of the mission’s ‘H1’ flight?",
+      "multi": false
+    },
+    {
+      "n": 20,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It merges existing biotechnology schemes into a single umbrella to promote ‘Bio-manufacturing’",
+        "b": "It provides subsidized electric bikes to researchers in biotechnology.",
+        "c": "It mandates the use of 20% biodiesel in all public transport by 2025.",
+        "d": "It focuses exclusively on the genetic mapping of endangered species in the Western Ghats."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the primary significance of the ‘Bio-RIDE’ scheme recently approved by the Union Cabinet?",
+      "multi": false
+    },
+    {
+      "n": 21,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Indian Space Research Organisation (ISRO)",
+        "b": "National Institution for Transforming India (NITI Aayog)",
+        "c": "C-DAC (Centre for Development of Advanced Computing)",
+        "d": "Defence Research and Development Organisation (DRDO)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In the context of India’s ‘National Supercomputing Mission’ (NSM), which organization is the lead agency for designing and developing indigenous supercomputers like ‘PARAM Rudra’?",
+      "multi": false
+    },
+    {
+      "n": 22,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To encourage the electrification of public and shared transport through demand incentives.",
+        "b": "To manufacture 100% of EV batteries within India by 2024.",
+        "c": "To mandate that all petrol pumps must convert to EV charging points by 2026.",
+        "d": "To provide free electricity to all EV charging stations."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is the primary objective of the ‘FAME-II’ (Faster Adoption and Manufacturing of Hybrid and Electric Vehicles) scheme?",
+      "multi": false
+    },
+    {
+      "n": 23,
+      "page": 4,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 3 only",
+        "c": "1 and 2 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to India’s innovation ecosystem, consider the following statements: 1.Private sector accounts for a smaller share of India’s R&D expenditure compared to advanced economies. 2.India has a high number of STEM graduates but relatively low research translation. 3.Most Indian startups are engaged in deep-tech research. Which of the above are correct?",
+      "multi": false
+    },
+    {
+      "n": 24,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To manage the auction of 5G and 6G spectrum across the country.",
+        "b": "To allow users to explore 2D and 3D representation of the Earth’s surface with a specific focus on India.",
+        "c": "To track the real-time position of all commercial aircraft in Indian airspace.",
+        "d": "To provide high-definition streaming of educational content in rural areas."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the function of ‘Bhuvan’, the geoportal developed by ISRO?",
+      "multi": false
+    },
+    {
+      "n": 25,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To create a genetic database of all 10,000 known plant species in India.",
+        "b": "To eliminate 10,000 hereditary diseases by the year 2030.",
+        "c": "To sequence the whole genomes of 10,000 Indian citizens to represent the country’s diverse population.",
+        "d": "To genetically engineer 10,000 cows for climate-resilient milk production."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding the ‘Genome India Project’, what is the primary goal of the ’10,000 Genome’ phase recently completed?",
+      "multi": false
+    },
+    {
+      "n": 26,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "It runs all government hospitals in India",
+        "b": "It conducts and coordinates biomedical research to support public health policies and programmes",
+        "c": "It only regulates private hospitals’ pricing policies",
+        "d": "It is responsible only for importing foreign medicines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which statement best explains the role of the Indian Council of Medical Research (ICMR) in India’s development?",
+      "multi": false
+    },
+    {
+      "n": 27,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to India’s Science and Technology governance, consider the following statements: 1.Mission-mode programmes aim at goal-oriented coordination across institutions. 2.Technology development in India is largely driven by market forces alone. 3.Public-funded research institutions play a significant role in early-stage research. Which of the above are correct?",
+      "multi": false
+    },
+    {
+      "n": 28,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10%",
+        "b": "50%",
+        "c": "20%",
+        "d": "100%"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to ‘Ethanol Blending’ in India, what is the target percentage of ethanol to be blended in petrol by the year 2025-26?",
+      "multi": false
+    },
+    {
+      "n": 29,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "FCI (Food Corporation of India)",
+        "b": "IFFCO (Indian Farmers Fertiliser Cooperative Limited)",
+        "c": "(NFL) National Fertilizers Limited",
+        "d": "ICAR (Indian Council of Agricultural Research)"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to ‘Liquid Nano Urea’, which organization developed the world’s first commercial version of this fertilizer in India?",
+      "multi": false
+    },
+    {
+      "n": 30,
+      "page": 5,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 only",
+        "b": "1 and 3 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "With reference to India’s space sector reforms, consider the following statements: 1.IN-SPACe functions as a single-window facilitator for private space activities. 2.NSIL is responsible for regulating private space launch activities. 3.The reforms aim to decouple regulatory and operational functions of ISRO. Which of the above are correct?",
+      "multi": false
+    },
+    {
+      "n": 31,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Using satellite-based remote sensing and GIS to monitor forest cover and plan conservation",
+        "b": "Formulating laws without any technical inputs",
+        "c": "Relying only on traditional practices for all environmental decisions",
+        "d": "Ignoring scientific data while framing pollution control rules"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following best illustrates the interlinkage between environment policy and science & technology in India?",
+      "multi": false
+    },
+    {
+      "n": 32,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Air Conditioners and LED Lights.",
+        "b": "Automobiles and Auto Components.",
+        "c": "Solar PV Modules.",
+        "d": "Textiles and Apparel."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Regarding ‘White Goods’, which sectors are covered under the PLI (Production Linked Incentive) scheme to boost domestic manufacturing?",
+      "multi": false
+    },
+    {
+      "n": 33,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Iron",
+        "b": "Chlorine",
+        "c": "Iodine",
+        "d": "Arsenic"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Long term exposure to which of the following element can cause cancer?",
+      "multi": false
+    },
+    {
+      "n": 34,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Knot",
+        "b": "Light year",
+        "c": "Meter",
+        "d": "Astronomical Unit"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which one of the following is not a unit for measurement of distance?",
+      "multi": false
+    },
+    {
+      "n": 35,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Light Imaging and Distance Analysis for Robotics.",
+        "b": "Laser Imaging and Detection for Automatic Ranging.",
+        "c": "Light Detection and Ranging.",
+        "d": "Light Imaging and Distance Analysis for Robotics."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "LIDAR is an acronym for _________ .",
+      "multi": false
+    },
+    {
+      "n": 36,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gold",
+        "b": "Titanium",
+        "c": "Lead",
+        "d": "Platinum"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which material is used for protection from nuclear radiation?",
+      "multi": false
+    },
+    {
+      "n": 37,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Bt-brinjal",
+        "b": "GM Mustard",
+        "c": "Bt-Mustard",
+        "d": "Bt-cotton"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first genetically modified crop approved for commercial cultivation in India was_________ .",
+      "multi": false
+    },
+    {
+      "n": 38,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Gravitational energy",
+        "b": "Magnetic energy",
+        "c": "Nuclear energy",
+        "d": "Solar tidal energy"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What is the main source of energy in solar flares?",
+      "multi": false
+    },
+    {
+      "n": 39,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nitrogen-14",
+        "b": "Nitrogen-12",
+        "c": "Carbon-12",
+        "d": "Carbon-14"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which isotope is commonly used for dating archeological samples?",
+      "multi": false
+    },
+    {
+      "n": 40,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "They produce less heat and convert electricity to light more effectively.",
+        "b": "They absorb more heat.",
+        "c": "They are made of metallic materials.",
+        "d": "They use alternating current (AC)."
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Light Emitting Diodes (LEDs) are generally more energy-efficient compared to incandescent bulbs due to which of the following reasons?",
+      "multi": false
+    },
+    {
+      "n": 41,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Mim kut",
+        "b": "Chapchar kut",
+        "c": "Pawl kut",
+        "d": "Hnahsin Kut"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The months of December-January is associated with which festival?",
+      "multi": false
+    },
+    {
+      "n": 42,
+      "page": 6,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Zosaphluia",
+        "b": "Zosapthara",
+        "c": "Pu Buanga",
+        "d": "C.G.G. Helm"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who introduced the practice of burying a deceased person at thlanmual?",
+      "multi": false
+    },
+    {
+      "n": 43,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chalchhuna",
+        "b": "Kawlkhuma",
+        "c": "Maj. Connor Richards",
+        "d": "Chhuahkhama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who is the pioneer of ‘The Salvation Army’ in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 44,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Human Rights Committee",
+        "b": "Mizo Union",
+        "c": "Human Resources Committee",
+        "d": "Mizo Democratic Front"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "On April 17, 1975, _________ led by Brig. T.Sailo became a political entity named ‘People’s Conference’.",
+      "multi": false
+    },
+    {
+      "n": 45,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hiteswar Saikia",
+        "b": "S.K. Chibber",
+        "c": "Williamson A. Sangma",
+        "d": "S.P. Mukherjee"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first Governor of the Union Territory of Mizoram in 1972?",
+      "multi": false
+    },
+    {
+      "n": 46,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hrai, Paiper khat, Dan",
+        "b": "Dan, Hrai, Paiper khat",
+        "c": "Paiper khat, Hrai, Dan",
+        "d": "Paiper khat, Dan, Hrai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the correct ascending order for the following units of measurement:",
+      "multi": false
+    },
+    {
+      "n": 47,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thangliana",
+        "b": "Zochhumi Pa",
+        "c": "Hmuihmula",
+        "d": "Dari Pa"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "What was the Mizo name given to Thomas Herbert Lewin (1839-1916)?",
+      "multi": false
+    },
+    {
+      "n": 48,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Pauithin",
+        "b": "Changting",
+        "c": "Changvar",
+        "d": "Pangkhau"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which of the following is not a type of mushroom?",
+      "multi": false
+    },
+    {
+      "n": 49,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Patea",
+        "b": "Saihnuna",
+        "c": "Damhauhva",
+        "d": "R.L. Kamlala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Name the composer of the song ‘He lei hi chatuan ram a tling lo’.",
+      "multi": false
+    },
+    {
+      "n": 50,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chai hla",
+        "b": "Chawngchen zai",
+        "c": "Salu lam hla",
+        "d": "Hlado"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Lalvunga Zai belongs to which category?",
+      "multi": false
+    },
+    {
+      "n": 51,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Suvel",
+        "b": "Paiper",
+        "c": "Dawrawn",
+        "d": "Favah"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Pick the odd one out:",
+      "multi": false
+    },
+    {
+      "n": 52,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Major Mac donald",
+        "b": "W.W. Daly",
+        "c": "General Sir William Slim",
+        "d": "Colonel Vincent Tregear"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the officer in charge of forming ‘The Lushai Scout’ on February, 1944?",
+      "multi": false
+    },
+    {
+      "n": 53,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Brigitte Zohmingi",
+        "b": "Lalbiakzuali",
+        "c": "Zohlupuii",
+        "d": "Luzy Zorinpuii"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In 1986, she was crowned as the first ‘Miss Mizo’:",
+      "multi": false
+    },
+    {
+      "n": 54,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lamsuaka",
+        "b": "Lianphunga",
+        "c": "Khamliana",
+        "d": "Chawia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first to receive Capital Punishment inside Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 55,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lalsangzuali Sailo-Tlawm Ve Lo Lalnu Ropuiliani",
+        "b": "Rev. Zairema- Kan Bible Hi",
+        "c": "Dr. Laltluangliana Khiangte- Pasaltha Khuangchera",
+        "d": "R. Rozika- Chawngmawii leh Hrangchhuana"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizo Academy of Letters Book of the Year, 2000 was awarded to:",
+      "multi": false
+    },
+    {
+      "n": 56,
+      "page": 7,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "To marry a husband at another village",
+        "b": "To marry a husband at the same village",
+        "c": "To marry a wife",
+        "d": "To marry a wife from another village"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In Mizo poetry, Thlang khuandim means:",
+      "multi": false
+    },
+    {
+      "n": 57,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Hmeichhia",
+        "b": "Hmar",
+        "c": "Lal",
+        "d": "Pawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The phrase Hrum sawm is used for addressing:",
+      "multi": false
+    },
+    {
+      "n": 58,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Thomas Herbert Lewin",
+        "b": "J.H. Lorrain",
+        "c": "F.W. Savidge",
+        "d": "Edwin Rwolands"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was the first person to write Mizo history and the first to translate Mizo folktales into English?",
+      "multi": false
+    },
+    {
+      "n": 59,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "CS Murray",
+        "b": "Captain J Shakespear",
+        "c": "Captain HR Browne",
+        "d": "RB McCabe"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Political Officer of the North Lushai Hills under the British government was:",
+      "multi": false
+    },
+    {
+      "n": 60,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chief Manga",
+        "b": "Chief Lianlula",
+        "c": "Chief Rolura",
+        "d": "Chief Vuttaia"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Whose descendant attacked the British forces garrisoned at Changsil fort and Aizawl fort during September to early October 1890?",
+      "multi": false
+    },
+    {
+      "n": 61,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1966",
+        "b": "1967",
+        "c": "1968",
+        "d": "1969"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Mizoram was declared as a ‘disturbed area’ under the Assam Disturbed Areas Act 1955 in:",
+      "multi": false
+    },
+    {
+      "n": 62,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chief Rothangpuia",
+        "b": "Chief Lalluauva",
+        "c": "Chief Khamliana",
+        "d": "Chief Darmaka"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Who was awarded the ‘Kaisar-i-Hind’ medal by the British government among Mizo Chiefs?",
+      "multi": false
+    },
+    {
+      "n": 63,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "North and South War",
+        "b": "East and West War",
+        "c": "Sailo and Fanai War",
+        "d": "Lusei and Sukte War"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Buanhmun pai ang pawm tawh hnu, Chêngtêah lâm ang lêt e, Lalpuithang lêm a.’ This sarcastic rhyme was related to:",
+      "multi": false
+    },
+    {
+      "n": 64,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "The Government of India Act 1909",
+        "b": "The Government of India Act 1919",
+        "c": "The Government of India Act 1935",
+        "d": "The Government of India Act 1948"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Lushai Hills District was declared as ‘Excluded Area’ under:",
+      "multi": false
+    },
+    {
+      "n": 65,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "SN Mackenzie",
+        "b": "NE Parry",
+        "c": "CGG Helme",
+        "d": "AG McCall"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Superintendent of Lushai Hills who officially abolished the traditional Zawlbuk during the colonial rule in Mizoram was:",
+      "multi": false
+    },
+    {
+      "n": 66,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Darpawngi Zai",
+        "b": "Darmani Zai",
+        "c": "Domangi Zai",
+        "d": "Hrangchhawni Zai"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "‘Sikin Manding sap i lungmawl e, German ral lian tawnin tir suh ka lung di; Ka suihlungleng tur i dawn lo ve.’ This traditional Mizo melody is known as:",
+      "multi": false
+    },
+    {
+      "n": 67,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Durtlang",
+        "b": "Sethlun",
+        "c": "Pukpui",
+        "d": "Chaltlang"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which village in Lushai Hills was known as Kristian khua or Pathian thuawih khua at the beginning of the spread of Christianity in Mizoram?",
+      "multi": false
+    },
+    {
+      "n": 68,
+      "page": 8,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Lieutenant Colonel A Playfair",
+        "b": "Major GH Loch",
+        "c": "J Hezlett",
+        "d": "HAC Colouhoun"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The commander of the initially called the 27th Lushai Labour Corps serving in France during World War I was:",
+      "multi": false
+    },
+    {
+      "n": 69,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Vansanga",
+        "b": "Dokhuma",
+        "c": "Lalburha",
+        "d": "Liankhama"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The Mizo chief who vehemently attacked the British force led by Captain John Shakespear at Chhipphir in 1892 was:",
+      "multi": false
+    },
+    {
+      "n": 70,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khamliana and Lalluaia",
+        "b": "Thangphunga and M Suaka",
+        "c": "Khuma and Khara",
+        "d": "RD Leta and R Dala"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The first Mizos who were able to read and write the Mizo alphabet introduced by JH Lorrain and FW Savidge were:",
+      "multi": false
+    },
+    {
+      "n": 71,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sathingzar",
+        "b": "Thinghawngthlun",
+        "c": "Thingman",
+        "d": "Bahzar"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A long railing of bamboo or saplings and creepers fixed up supporting billets of firewood exposed to dry for cooking meat for public feast was known as:",
+      "multi": false
+    },
+    {
+      "n": 72,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Nupui tlansan",
+        "b": "Peksachang",
+        "c": "Kawngkasula mâk",
+        "d": "Sumlaitan"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "When a man finds a girl he prefers to his wife and divorces his wife on the same day or the next day and marries the girl, the divorce is known as:",
+      "multi": false
+    },
+    {
+      "n": 73,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statements. (1)Chapchar Kût is held soon after the jhums have been cut which lasts about a week or more. (2)Mim Kût is held in honour of those persons who have died in the past, it takes place when Maize is harvested. It lasts at a most two days. (3)Pawl Kût is held immediately after the harvest is gathered which may last a week. Select the correct answer from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 74,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Fano dawi",
+        "b": "Nau lai hrilh",
+        "c": "Kawngpui siam",
+        "d": "Vanchung khal"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which ceremony was supposed to make successful hunting probably; foretold the result and performed before a large hunting party started?",
+      "multi": false
+    },
+    {
+      "n": 75,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Sakhua",
+        "b": "Khal",
+        "c": "Serh",
+        "d": "Hrilh"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A sacrifice to the guardian spirit of the clan or family was known as:",
+      "multi": false
+    },
+    {
+      "n": 76,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Khuavang",
+        "b": "Khawhring",
+        "c": "Huai",
+        "d": "Sakhua"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A person whose spirit takes possession of another’s body, the spirit of such a person was called",
+      "multi": false
+    },
+    {
+      "n": 77,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Chemsen Bawi",
+        "b": "Tukluh Bawi",
+        "c": "Inhrang Bawi",
+        "d": "Inpuichhung Bawi"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A criminal who took refuge to the Chief’s house to escape from the consequences of his evil deeds was known as:",
+      "multi": false
+    },
+    {
+      "n": 78,
+      "page": 9,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 3 only",
+        "b": "1, 2 and 4 only",
+        "c": "1, 3 and 4 only",
+        "d": "2, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the following statement. (1)Murlen National Park is located in Khawzawl District. (2)Lengteng Wildlife Sanctuary is located in Champhai District. (3)Ngengpui Wildlife Sanctuary is located in Lawngtlai District. (4)Dampa Tiger Reserve is located in Mamit District. Select the correct answer from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 79,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1, 2 and 3 only",
+        "b": "2, 3 and 4 only",
+        "c": "1, 2 and 4 only",
+        "d": "1, 3 and 4 only"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Consider the names of the following rivers as given by Mizo and non Mizo. (1)Khawthlangtuipui - Karnaphuli (2)Tlawng - Dhaleswari (3)Tuirial - Rukni (4)Langkaih - Longai Select the correct matched pairs from the codes given below:",
+      "multi": false
+    },
+    {
+      "n": 80,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "78,856",
+        "b": "82,434",
+        "c": "96,645",
+        "d": "1,00,237"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The population of Lushai Hills as per the first census of 1901 conducted in Mizoram was:",
+      "multi": false
+    },
+    {
+      "n": 81,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "AL",
+        "b": "AN",
+        "c": "ML",
+        "d": "MN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "A, B and C are sitting in a circle facing centre. L, M and N are also sitting in the same circle but two of them are facing in the opposite direction of the centre. A is second to the left of N. B is second to the right of L. M is third to the left of C. N is second to the right of C and L is seated next to A. Then, which of the following pairs are not facing the centre?",
+      "multi": false
+    },
+    {
+      "n": 82,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10th",
+        "b": "12th",
+        "c": "14th",
+        "d": "16th"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a row of children, Alice is sixth from the left and Zoa is fifth form the right. When they interchange their positions, Alice becomes fifteenth from the left, then what will be the position of Zoa from the right?",
+      "multi": false
+    },
+    {
+      "n": 83,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "F>G>H≥I=J",
+        "b": "F≥G=H≤I<J",
+        "c": "F=G>H>I=J",
+        "d": "F<G≤H<I<J"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In which of the following will the expressions 'H<F' as well as 'J>H' be definitely true",
+      "multi": false
+    },
+    {
+      "n": 84,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "ZDSQNN",
+        "b": "ZSDQNN",
+        "c": "DQNNZS",
+        "d": "DQNZSN"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If APRIL is codded as ZNOEG, the how will you encode AUGUST?",
+      "multi": false
+    },
+    {
+      "n": 85,
+      "page": 10,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "N",
+        "b": "C",
+        "c": "A",
+        "d": "E"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The letters of the name of a fruit are U, A, L, E, N, C, P, T, A, O. If the letters are rearranged correctly, then what is the last letter of the word formed?",
+      "multi": false
+    },
+    {
+      "n": 86,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Select a suitable figure from the four alternatives that would complete the figure matrix:",
+      "multi": false
+    },
+    {
+      "n": 87,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the odd one out",
+      "multi": false
+    },
+    {
+      "n": 88,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find out the alternative figure which contains figure (X) as its part.",
+      "multi": false
+    },
+    {
+      "n": 89,
+      "page": 11,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "94",
+        "b": "2516",
+        "c": "10",
+        "d": "1624"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Find the wrong number in the given series: 10, 41, 94, 1624, 2516, 3625",
+      "multi": false
+    },
+    {
+      "n": 90,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "78",
+        "b": "68",
+        "c": "72",
+        "d": "70"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which number will come next in the given series? 2, 8, 18, 32, 50, …",
+      "multi": false
+    },
+    {
+      "n": 91,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "8 Litre",
+        "b": "10 Litre",
+        "c": "12 Litre",
+        "d": "20 Litre"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a 60-litre solution of sugar and water, there is 15% sugar. How much sugar (in kg/litres) should be added to make the sugar content 25% of the total solution?",
+      "multi": false
+    },
+    {
+      "n": 92,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "J",
+        "b": "K",
+        "c": "L",
+        "d": "I"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which letter is exactly midway between the seventh letter from the left and the fifteenth letter from the left?",
+      "multi": false
+    },
+    {
+      "n": 93,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "10500 kg",
+        "b": "11111 kg",
+        "c": "12222 kg",
+        "d": "15050 kg"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The production of ginger by Biate village in year 2024 is 8000 kg which is 28% less than that in year 2025. Find the production of ginger in year 2025.",
+      "multi": false
+    },
+    {
+      "n": 94,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "2 : 5",
+        "b": "3 : 5",
+        "c": "3 : 2",
+        "d": "2 : 3"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "The curved surface area of a cylinder is thrice the area of its base. If r is the radius of the base and h is its height, then r : h is equal to",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Dog",
+        "b": "Mongoose",
+        "c": "Lion",
+        "d": "Rat"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "If ‘Rat is called Dog’, ‘Dog is called Mongoose’, ‘Mongoose is called Lion’, ‘Lion is called Snake’ and ‘Snake is called Elephant’, which animal is reared as pet?",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Prompt",
+        "b": "Reasonable",
+        "c": "Certain",
+        "d": "False"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Choose the word that most accurately replaces the underlined word: “The decision was based on a **plausible** explanation.”",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Airplane",
+        "b": "Ship",
+        "c": "Bicycle",
+        "d": "Train"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "STEERING WHEEL : CAR :: RUDDER : ?",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which figure completes the series?",
+      "multi": false
+    },
+    {
+      "n": 99,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "A straight line",
+        "b": "A dot",
+        "c": "An oval",
+        "d": "A Semi-circle"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "In a sequence of shapes, if a square becomes a triangle, and a pentagon becomes a square, what would a circle most likely become in a logic of decreasing side counts?",
+      "multi": false
+    },
+    {
+      "n": 100,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": null,
+      "opts": {
+        "a": "Square with 4 lines",
+        "b": "Pentagon with 5 lines",
+        "c": "Circle with 4 lines",
+        "d": "Triangle with 4 lines"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0
+      },
+      "ambiguous": [],
+      "q": "Which figure comes next in the sequence: - Circle with 1 line, Semicircle with 2 lines, Triangle with 3 lines, ...?",
+      "multi": false
+    }
+  ],
+  "written": [],
+  "notes": [],
+  "gaps": {
+    "-": []
+  }
+}

@@ -4,34 +4,34 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26890,
-    "mcq": 25869,
+    "records": 26898,
+    "mcq": 25877,
     "writtenRecords": 1021,
-    "ready": 17768,
-    "readyOfficial": 8321,
-    "pendingMcq": 7538,
-    "heldReviewed": 563,
-    "workedGuidesReviewed": 10815,
-    "pendingMcqGuides": 15054,
+    "ready": 19487,
+    "readyOfficial": 8418,
+    "pendingMcq": 5745,
+    "heldReviewed": 645,
+    "workedGuidesReviewed": 12597,
+    "pendingMcqGuides": 13280,
     "keyOnlyFeedback": 6825,
-    "writtenGuidesReviewed": 118,
-    "pendingWrittenGuides": 903,
-    "missingMcq": 729
+    "writtenGuidesReviewed": 120,
+    "pendingWrittenGuides": 901,
+    "missingMcq": 722
   },
   "sections": {
     "english": {
-      "records": 11003,
-      "mcq": 9982,
+      "records": 11006,
+      "mcq": 9985,
       "writtenRecords": 1021,
-      "ready": 4198,
+      "ready": 5381,
       "readyOfficial": 1682,
-      "pendingMcq": 5633,
-      "heldReviewed": 151,
-      "workedGuidesReviewed": 3206,
-      "pendingMcqGuides": 6776,
+      "pendingMcq": 4385,
+      "heldReviewed": 219,
+      "workedGuidesReviewed": 4438,
+      "pendingMcqGuides": 5547,
       "keyOnlyFeedback": 909,
-      "writtenGuidesReviewed": 118,
-      "pendingWrittenGuides": 903
+      "writtenGuidesReviewed": 120,
+      "pendingWrittenGuides": 901
     },
     "arithmetic": {
       "records": 707,
@@ -64,15 +64,15 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14953,
-      "mcq": 14953,
+      "records": 14958,
+      "mcq": 14958,
       "writtenRecords": 0,
-      "ready": 12712,
-      "readyOfficial": 6199,
-      "pendingMcq": 1838,
-      "heldReviewed": 403,
-      "workedGuidesReviewed": 7096,
-      "pendingMcqGuides": 7857,
+      "ready": 13248,
+      "readyOfficial": 6296,
+      "pendingMcq": 1293,
+      "heldReviewed": 417,
+      "workedGuidesReviewed": 7646,
+      "pendingMcqGuides": 7312,
       "keyOnlyFeedback": 5849,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -2820,32 +2820,57 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 76,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 76,
+      "pendingMcqGuides": 4,
       "keyOnlyFeedback": 0,
-      "writtenGuidesReviewed": 0,
-      "pendingWrittenGuides": 1,
+      "writtenGuidesReviewed": 1,
+      "pendingWrittenGuides": 0,
       "sections": {
         "english": {
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 76,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 76,
+          "pendingMcqGuides": 4,
           "keyOnlyFeedback": 0,
-          "writtenGuidesReviewed": 0,
-          "pendingWrittenGuides": 1
+          "writtenGuidesReviewed": 1,
+          "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q45",
+          "questionNumber": "45",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q50",
+          "questionNumber": "50",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q54",
+          "questionNumber": "54",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -2863,32 +2888,69 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 74,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 6,
+      "workedGuidesReviewed": 74,
+      "pendingMcqGuides": 6,
       "keyOnlyFeedback": 0,
-      "writtenGuidesReviewed": 0,
-      "pendingWrittenGuides": 1,
+      "writtenGuidesReviewed": 1,
+      "pendingWrittenGuides": 0,
       "sections": {
         "english": {
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 74,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 6,
+          "workedGuidesReviewed": 74,
+          "pendingMcqGuides": 6,
           "keyOnlyFeedback": 0,
-          "writtenGuidesReviewed": 0,
-          "pendingWrittenGuides": 1
+          "writtenGuidesReviewed": 1,
+          "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q41",
+          "questionNumber": "41",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q45",
+          "questionNumber": "45",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q48",
+          "questionNumber": "48",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q59",
+          "questionNumber": "59",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q64",
+          "questionNumber": "64",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-district-organiser-contract-2016-under-dm-rd-1-general-english-939fcaba",
@@ -3718,12 +3780,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 100,
       "readyOfficial": 0,
-      "pendingMcq": 100,
+      "pendingMcq": 0,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -3732,12 +3794,12 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 100,
           "readyOfficial": 0,
-          "pendingMcq": 100,
+          "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -3933,12 +3995,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -3947,18 +4009,31 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q85",
+          "questionNumber": "85",
+          "section": "english",
+          "reason": "Held: both “quick decision” and “quick action” are natural, grammatically correct completions in context; the item gives no clue that selects one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q90",
+          "questionNumber": "90",
+          "section": "english",
+          "reason": "Held: both “literal translation” and “verbatim translation” can mean a word-for-word rendering; the options do not distinguish them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2020-junior-grade-of-mls-law-officer-under-law-judicial-department-mls-genera-d05f8c37",
@@ -4019,12 +4094,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 84,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 16,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -4033,18 +4108,115 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 84,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 16,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q51",
+          "questionNumber": "51",
+          "section": "english",
+          "reason": "Held: the source already is a simple sentence and offers several simple alternatives; no distinct transformation target is specified."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "Held: the source is already a simple sentence, and the choices are multiple simple paraphrases with no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q53",
+          "questionNumber": "53",
+          "section": "english",
+          "reason": "Held: both options A and B are grammatical simple-sentence paraphrases preserving the contrast; the prompt does not distinguish them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q54",
+          "questionNumber": "54",
+          "section": "english",
+          "reason": "Held: both “How kind of you to visit us!” and “How kind it is of you to visit us!” are grammatical exclamatory transformations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q61",
+          "questionNumber": "61",
+          "section": "english",
+          "reason": "Held: the source gives three statements to combine but no target structure. Multiple choices are grammatical and preserve a plausible sequence; no unique answer is specified."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q62",
+          "questionNumber": "62",
+          "section": "english",
+          "reason": "Held: no target structure is specified; both “It is too hot to go out” and “One cannot go out as it is very hot” are grammatical equivalent combinations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q63",
+          "questionNumber": "63",
+          "section": "english",
+          "reason": "Held: no target structure is specified; multiple options form grammatical combinations with equivalent meaning."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q64",
+          "questionNumber": "64",
+          "section": "english",
+          "reason": "Held: the task gives no target structure, and multiple choices (A–C) produce grammatical, similar combinations of the two statements."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q65",
+          "questionNumber": "65",
+          "section": "english",
+          "reason": "Held: no target structure is specified; several choices (A–D) are grammatical ways to combine the agreement and decision."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q66",
+          "questionNumber": "66",
+          "section": "english",
+          "reason": "Held: no target structure is specified; choices A, C and D are all grammatical equivalent combinations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q67",
+          "questionNumber": "67",
+          "section": "english",
+          "reason": "Held: no target structure is specified; “otherwise” (C) and “or” (D) both correctly join the warning and its consequence."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q68",
+          "questionNumber": "68",
+          "section": "english",
+          "reason": "Held: no target structure is specified; A and D are both grammatical combinations preserving the statement and its truth."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q69",
+          "questionNumber": "69",
+          "section": "english",
+          "reason": "Held: no target structure is specified; B, C and D are grammatical combinations with slightly different emphasis."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q70",
+          "questionNumber": "70",
+          "section": "english",
+          "reason": "Held: no target structure is specified; A and B are grammatical combinations preserving both facts."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q77",
+          "questionNumber": "77",
+          "section": "english",
+          "reason": "Held: “retribution” can mean punishment for a wrong and vengeance; both “revenge” and “punishment” are defensible from the listed options."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q87",
+          "questionNumber": "87",
+          "section": "english",
+          "reason": "Held: both “avenue” and “boulevard” can denote a broad road bordered or lined with trees; the definition does not distinguish them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-2185593a",
@@ -4234,12 +4406,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -4248,18 +4420,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q24",
+          "questionNumber": "24",
+          "section": "english",
+          "reason": "Held: both “so happy” and “very happy” are grammatical in the sentence; no context distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q28",
+          "questionNumber": "28",
+          "section": "english",
+          "reason": "Held: both “further into the room” and “farther into the room” are accepted for physical distance; the choices do not establish one intended form."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q43",
+          "questionNumber": "43",
+          "section": "english",
+          "reason": "Held: both “Surdas was a poet but blind” and “Surdas was a blind poet” are grammatical simple-sentence transformations preserving the two facts."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2022-grade-iii-of-mhs-dental-surgeon-sub-cadre-under-h-fw-deptt-october-2022-6b687b4f",
@@ -4449,12 +4640,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 90,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 10,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -4463,18 +4654,79 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 90,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 10,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q14",
+          "questionNumber": "14",
+          "section": "english",
+          "reason": "Held: both “finished” and “have finished” are grammatical without a stated past-time context, so the intended tense is not uniquely determined."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q15",
+          "questionNumber": "15",
+          "section": "english",
+          "reason": "Held: “since 1990” with no past reference point normally calls for “has lived/has been living,” neither of which is offered. Past perfect choices require an unstated past reference."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q17",
+          "questionNumber": "17",
+          "section": "english",
+          "reason": "Held: both “Did you take the medicine?” and “Have you taken the medicine?” are grammatical; no time context distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q26",
+          "questionNumber": "26",
+          "section": "english",
+          "reason": "Held: both “so pleased” and “very pleased” are grammatical in this sentence; the options provide no contextual distinction."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q45",
+          "questionNumber": "45",
+          "section": "english",
+          "reason": "Held: the prompt asks for a noun clause, but “whom I shall dance with” is a relative/adjective clause. None of the listed fragments is the requested noun clause."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q46",
+          "questionNumber": "46",
+          "section": "english",
+          "reason": "Held: the source asks for an adverbial clause, but the corresponding option changes the printed pronoun from “she” to “he”; no choice reproduces the printed clause accurately."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q48",
+          "questionNumber": "48",
+          "section": "english",
+          "reason": "Held: the underlined noun clause is “who I want on my team,” but the closest option includes the main verb “is” and no option exactly gives the clause."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q54",
+          "questionNumber": "54",
+          "section": "english",
+          "reason": "Held: both “How kind of you to visit us!” and “How kind it is of you to visit us!” are grammatical exclamatory transformations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q58",
+          "questionNumber": "58",
+          "section": "english",
+          "reason": "Held: the prompt asks for a simple sentence, but the options retain or introduce a finite relative clause; no option is clearly a simple-sentence transformation."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q99",
+          "questionNumber": "99",
+          "section": "english",
+          "reason": "Held: none of the choices is a reliable synonym for “delusional” (having false beliefs or unrealistic perceptions); “fake,” “stupid,” and “unaware” do not mean that."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -5605,37 +5857,92 @@
       "sourceSha256": "3d5a9838a5308cb76ae1b2136ef4a647568025a899236392fd50bf767fc434f2",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
       "imported": true,
-      "expectedMcq": 99,
-      "missingMcq": 2,
-      "records": 97,
-      "mcq": 97,
+      "expectedMcq": 100,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 1,
+      "ready": 91,
       "readyOfficial": 0,
-      "pendingMcq": 96,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 1,
-      "pendingMcqGuides": 96,
+      "pendingMcq": 0,
+      "heldReviewed": 9,
+      "workedGuidesReviewed": 91,
+      "pendingMcqGuides": 9,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "english": {
-          "records": 97,
-          "mcq": 97,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 1,
+          "ready": 91,
           "readyOfficial": 0,
-          "pendingMcq": 96,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 1,
-          "pendingMcqGuides": 96,
+          "pendingMcq": 0,
+          "heldReviewed": 9,
+          "workedGuidesReviewed": 91,
+          "pendingMcqGuides": 9,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q13",
+          "questionNumber": "13",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q14",
+          "questionNumber": "14",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q17",
+          "questionNumber": "17",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q19",
+          "questionNumber": "19",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q21",
+          "questionNumber": "21",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q33",
+          "questionNumber": "33",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q81",
+          "questionNumber": "81",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q89",
+          "questionNumber": "89",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q94",
+          "questionNumber": "94",
+          "section": "english",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -7652,20 +7959,20 @@
       "sitting": "2023",
       "subject": "General Knowledge",
       "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge.pdf",
-      "keyHref": null,
+      "keyHref": "/papers/group-b/keys/mls-2023-general-knowledge-final-answer-key.pdf#page=1",
       "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2023/09/e6b31cddd8351b60ff3477f2ee8a2f03/jr-grade-of-mls-under-law-judicial-deptt-general-knowledge.pdf",
       "imported": true,
-      "expectedMcq": null,
-      "missingMcq": null,
+      "expectedMcq": 100,
+      "missingMcq": 0,
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
-      "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "ready": 97,
+      "readyOfficial": 97,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -7674,18 +7981,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
-          "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "ready": 97,
+          "readyOfficial": 97,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q82",
+          "questionNumber": "82",
+          "section": "gk",
+          "reason": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q92",
+          "questionNumber": "92",
+          "section": "gk",
+          "reason": "MPSC final key marks Q92 compensated. The printed stem asks for the face opposite X, but none of the three printed cube views contains an X; the Commission compensates the item, so no option is scored."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q99",
+          "questionNumber": "99",
+          "section": "gk",
+          "reason": "MPSC final key marks Q99 compensated. The item is a figure-sequence problem and the final key awards compensation rather than selecting an option; preserve the official treatment instead of guessing a scored answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -10477,12 +10803,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -10491,18 +10817,37 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 77,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q14",
+          "questionNumber": "14",
+          "section": "english",
+          "reason": "Sentence contains one shared subject and two coordinated finite predicates; some sentence-type conventions call this a simple sentence with a compound predicate, while this exam may count it as compound. Held because the distinction is not specified."
+        },
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q24",
+          "questionNumber": "24",
+          "section": "english",
+          "reason": "A positive declarative sentence is both affirmative in polarity and assertive in form; both labels are printed options. Held as overlapping classifications."
+        },
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q35",
+          "questionNumber": "35",
+          "section": "english",
+          "reason": "Both “increase” and “expand” can be opposites of “curtail”; held because two options plausibly satisfy the prompt."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-coach3-2019-english",
@@ -10517,12 +10862,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 79,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -10531,18 +10876,25 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 79,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-coach3-2019-english-Q71",
+          "questionNumber": "71",
+          "section": "english",
+          "reason": "“Oral” is the direct contrast to “written,” but “verbal” also means spoken; with no official key, the source offers two defensible answers."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -10557,12 +10909,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 2,
+      "ready": 78,
       "readyOfficial": 0,
-      "pendingMcq": 78,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 2,
-      "pendingMcqGuides": 78,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -10571,18 +10923,31 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 2,
+          "ready": 78,
           "readyOfficial": 0,
-          "pendingMcq": 78,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 2,
-          "pendingMcqGuides": 78,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-mar-2019-english-Q46",
+          "questionNumber": "46",
+          "section": "english",
+          "reason": "Both “enter into” and “enter upon” a new course of life are idiomatic; held without an official key."
+        },
+        {
+          "id": "mpsc-group-b-do-mar-2019-english-Q47",
+          "questionNumber": "47",
+          "section": "english",
+          "reason": "The printed sentence reads “civil lane has been condoned”; the likely intended wording is “Civil Lane has been cordoned off.” The source error makes the answer uncertain."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -10593,36 +10958,43 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 75,
-      "missingMcq": 1,
-      "records": 74,
-      "mcq": 74,
+      "missingMcq": 0,
+      "records": 75,
+      "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 74,
       "readyOfficial": 0,
-      "pendingMcq": 74,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 74,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 74,
-          "mcq": 74,
+          "records": 75,
+          "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 74,
           "readyOfficial": 0,
-          "pendingMcq": 74,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 74,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-mar-2019-gs1-Q23",
+          "questionNumber": "23",
+          "section": "gk",
+          "reason": "The Gandhi–Irwin Pact was signed on 5 March 1931, but the printed options list July 8, June 8, March 8 and January 8. No option is correct."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -10633,36 +11005,43 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 75,
-      "missingMcq": 2,
-      "records": 73,
-      "mcq": 73,
+      "missingMcq": 0,
+      "records": 75,
+      "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 74,
       "readyOfficial": 0,
-      "pendingMcq": 73,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 73,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 73,
-          "mcq": 73,
+          "records": 75,
+          "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 74,
           "readyOfficial": 0,
-          "pendingMcq": 73,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 73,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-mar-2019-gs2-Q46",
+          "questionNumber": "46",
+          "section": "gk",
+          "reason": "The wording asks which item is not a “war weapon,” but both dar phaw (shield) and dar lukhum (helmet) are defensive equipment rather than offensive weapons. There is no uniquely defensible choice from the printed wording."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -10677,12 +11056,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -10691,18 +11070,37 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 77,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q50",
+          "questionNumber": "50",
+          "section": "english",
+          "reason": "The scan prints two complete sentences separated by a full stop (“It is very hot. One cannot go out.”), so they do not form a single compound/complex sentence as the item asks. Held."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q54",
+          "questionNumber": "54",
+          "section": "english",
+          "reason": "Both “in an easy manner” and “with ease” correctly convert the adverb “easily” to a noun construction; held without an official key."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q80",
+          "questionNumber": "80",
+          "section": "english",
+          "reason": "Both “sympathy” and “compassion” are natural in “I have great ___ for your suffering”; held because two options fit."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -10717,12 +11115,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 73,
       "readyOfficial": 0,
-      "pendingMcq": 75,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10731,18 +11129,31 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 73,
           "readyOfficial": 0,
-          "pendingMcq": 75,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-oct-2019-gs1-Q13",
+          "questionNumber": "13",
+          "section": "gk",
+          "reason": "The scan asks which was not a Prarthana Samaj demand, but all listed reforms—female education, widow remarriage, raising marriage ages, and ending untouchability/caste discrimination—are associated with its reform programme. No unique option is defensible."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-gs1-Q36",
+          "questionNumber": "36",
+          "section": "gk",
+          "reason": "More than one printed choice is a feature of the 74th Amendment: reservation for SC/ST populations and constitution of Nagar Panchayats for transitional areas. The question does not specify which feature, so there is no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -10757,12 +11168,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 73,
       "readyOfficial": 0,
-      "pendingMcq": 75,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10771,18 +11182,31 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 73,
           "readyOfficial": 0,
-          "pendingMcq": 75,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-oct-2019-gs2-Q2",
+          "questionNumber": "2",
+          "section": "gk",
+          "reason": "The item asks which country “have not conducted a moon landing mission,” but India and France can both fit depending on whether “conducted” means attempted a landing or achieved a successful landing. India’s Chandrayaan-2 attempted a landing in 2019 but failed; France had not independently achieved a landing. The wording does not define the criterion, so a unique option cannot be defended."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-gs2-Q71",
+          "questionNumber": "71",
+          "section": "gk",
+          "reason": "The five problem figures and four answer figures are visible in the scan, but their tiny rotated letters and line symbols do not yield a sufficiently reliable, unambiguous transformation rule on inspection. Keep this item held until an independent figure-series solution is confirmed."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-dso-2019-english",
@@ -10837,12 +11261,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 74,
       "readyOfficial": 0,
-      "pendingMcq": 75,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10851,18 +11275,25 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 74,
           "readyOfficial": 0,
-          "pendingMcq": 75,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-dso-2019-gs1-Q16",
+          "questionNumber": "16",
+          "section": "gk",
+          "reason": "Ramkrishna Mission was founded in 1897, but none of the four listed years is 1897."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-dso-2019-gs2",
@@ -10873,36 +11304,79 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 75,
-      "missingMcq": 2,
-      "records": 73,
-      "mcq": 73,
+      "missingMcq": 0,
+      "records": 75,
+      "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 68,
       "readyOfficial": 0,
-      "pendingMcq": 73,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 73,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
+      "workedGuidesReviewed": 75,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 73,
-          "mcq": 73,
+          "records": 75,
+          "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 68,
           "readyOfficial": 0,
-          "pendingMcq": 73,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 73,
+          "pendingMcq": 0,
+          "heldReviewed": 7,
+          "workedGuidesReviewed": 75,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q17",
+          "questionNumber": "17",
+          "section": "gk",
+          "reason": "Could not reliably verify Jacob Vanlaltluanga’s sport from a dependable source."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q29",
+          "questionNumber": "29",
+          "section": "gk",
+          "reason": "The item combines multiple STI-policy claims and does not support one independently verified answer."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q39",
+          "questionNumber": "39",
+          "section": "gk",
+          "reason": "The options mix decimal SI and binary computer-storage conventions: 1 TB is 1000 GB in SI, while 1024 is conventionally used for binary units. Held due to ambiguity."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q47",
+          "questionNumber": "47",
+          "section": "gk",
+          "reason": "Mizoram became a Union Territory on 21 January 1972; none of the printed dates is correct."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q54",
+          "questionNumber": "54",
+          "section": "gk",
+          "reason": "Could not reliably verify the traditional Mizo term for the pole/tree in the stem."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q69",
+          "questionNumber": "69",
+          "section": "gk",
+          "reason": "“Species” is not synonymous with any listed taxonomic/ordinary term; no clearly correct option."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-gs2-Q75",
+          "questionNumber": "75",
+          "section": "gk",
+          "reason": "The printed options do not match the sequence: the next pair should have 7 Os and 2 As, but no option shows that pair."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-2019-english-p1",
@@ -10957,12 +11431,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 5,
+      "ready": 95,
       "readyOfficial": 0,
-      "pendingMcq": 95,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 5,
-      "pendingMcqGuides": 95,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10971,18 +11445,49 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 5,
+          "ready": 95,
           "readyOfficial": 0,
-          "pendingMcq": 95,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 5,
-          "pendingMcqGuides": 95,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q31",
+          "questionNumber": "31",
+          "section": "english",
+          "reason": "Held: both “Each” and “Neither” produce grammatical, complete sentences and no context determines whether both or neither sister is married."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q32",
+          "questionNumber": "32",
+          "section": "english",
+          "reason": "Held: both “Everyone” and “each one” are grammatical and fit the sentence; no contextual clue selects one."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q60",
+          "questionNumber": "60",
+          "section": "english",
+          "reason": "Held: “as if he understood” is a finite subordinate adverb clause, but every printed option calls it a phrase. No option accurately classifies the underlined words."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q85",
+          "questionNumber": "85",
+          "section": "english",
+          "reason": "Held: “lurk” means remain concealed or lie in wait. None of the choices (“loiter”, “enjoy”, “deter”, “watch”) is an accurate synonym; choosing one would be a guess."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q97",
+          "questionNumber": "97",
+          "section": "english",
+          "reason": "Held: both “awarded for his bravery” and “rewarded for his bravery” are grammatical and plausible. The source gives no context that distinguishes them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -13870,12 +14375,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 1,
+      "ready": 76,
       "readyOfficial": 0,
-      "pendingMcq": 79,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 1,
-      "pendingMcqGuides": 79,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -13884,18 +14389,43 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 1,
+          "ready": 76,
           "readyOfficial": 0,
-          "pendingMcq": 79,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 1,
-          "pendingMcqGuides": 79,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q30",
+          "questionNumber": "30",
+          "section": "english",
+          "reason": "No grammatically correct printed option. “Birds sings” has subject–verb disagreement; “burst in the trees” does not fit the intended sentence."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q48",
+          "questionNumber": "48",
+          "section": "english",
+          "reason": "Both “confident in securing” and “confident of securing” are grammatical and idiomatic; no key is available to distinguish the expected option."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q56",
+          "questionNumber": "56",
+          "section": "english",
+          "reason": "The “not only … but also” sentence has a single expressed subject and coordinated complements, but some traditional sentence-type conventions treat it as compound; held because the paper gives no classification convention."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q72",
+          "questionNumber": "72",
+          "section": "english",
+          "reason": "“Diligent” means hardworking/careful, but none of the printed options expresses that meaning; “idle” is an antonym, so no option is correct."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -14771,10 +15301,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 95,
+      "ready": 98,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 5,
+      "heldReviewed": 2,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -14785,10 +15315,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 95,
+          "ready": 98,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 5,
+          "heldReviewed": 2,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -14804,28 +15334,10 @@
           "reason": "The Panchsheel principles were articulated in the 1954 India–China Agreement on Tibet; no third country among the choices jointly initiated them. The premise/options are defective."
         },
         {
-          "id": "mpsc-group-b-mes-phe-2019-gs-Q70",
-          "questionNumber": "70",
-          "section": "gk",
-          "reason": "The universities at Calcutta, Bombay and Madras were all established in 1857. Both Madras and Calcutta are offered, so ‘the first’ has no unique answer."
-        },
-        {
-          "id": "mpsc-group-b-mes-phe-2019-gs-Q84",
-          "questionNumber": "84",
-          "section": "gk",
-          "reason": "La Niña is an ocean-atmosphere climate pattern, not a cold ocean current. All four options describe currents, so the question is scientifically defective."
-        },
-        {
           "id": "mpsc-group-b-mes-phe-2019-gs-Q96",
           "questionNumber": "96",
           "section": "gk",
           "reason": "LPG is mainly propane and butane; none of the options states that correctly. Option (d) adds methane, so the item is defective."
-        },
-        {
-          "id": "mpsc-group-b-mes-phe-2019-gs-Q97",
-          "questionNumber": "97",
-          "section": "gk",
-          "reason": "Fish can be a source of protein and fat/lipids; options (a), (c), and (d) can all be true depending on species, so the question has no unique answer."
         }
       ]
     },

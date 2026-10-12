@@ -808,3 +808,14 @@ Source-checked and added 340 worked answers across four large papers:
 - Junior Scientific Officer (Chemistry and Finger Print) 2016: 72 of 80 MCQs answered; eight held for ambiguity or defective choices.
 
 The two 2016 English papers with essays retain their written prompts separately. No MPSC key is available for these sittings; answers are independently worked from the printed scans. The regenerated Group B bank contains 26,890 records from 404 papers, including 17,768 practice-ready items. `npm run build` succeeds; Vite reports the existing large-bundle warning for the main generated data bundle.
+
+## Source-checked follow-up batch — 13 October 2026
+
+Completed another source-checked batch for the previously listed unanswered papers. Every scored MCQ has an explanation; ambiguous or defective items remain unscored with a review note. Newly reviewed papers:
+
+- Inspector under Excise (2020), 98/100 scored; Assistant Labour Officer (2020), 100/100; Labour Officer (2021), 84/100; Sericulture Extension Officer (2022), 90/100.
+- CAO General English (2022), 97/100; Veterinary Assistant Surgeon General English (2024), 91/100.
+- Computer Operator (Contract), Mizoram Information Commission (2016), 76/80; Computer Operator (Contract), SAD (2016), 74/80. Both have a separate 20-mark essay guide and 80 one-mark MCQs; the printed covers specify three hours and no official key was found.
+- MLS General Knowledge (2023) was checked against the MPSC final answer key: 97 scored and 3 held, including two compensated items and one defective printed question.
+
+The local generated bank now contains 404 question-bearing papers and 26,898 records (25,877 MCQs and 1,021 written prompts). It reports 19,487 practice-ready questions (8,418 official-key-backed), 6,616 unreviewed items, 645 reviewed holds, and 722 MCQs still missing from extraction. The public module currently shows the pre-update totals; refresh and deployment verification remain outstanding.

@@ -1,15 +1,15 @@
 {
   "papers": 404,
-  "items": 26890,
-  "mcq": 25869,
+  "items": 26898,
+  "mcq": 25877,
   "written": 1021,
-  "ready": 17768,
-  "readyOfficial": 8321,
-  "sourceReview": 8974,
-  "unreviewed": 8411,
-  "heldReviewed": 563,
-  "missingMcq": 729,
+  "ready": 19487,
+  "readyOfficial": 8418,
+  "sourceReview": 7261,
+  "unreviewed": 6616,
+  "heldReviewed": 645,
+  "missingMcq": 722,
   "keyDisagreements": 387,
   "heldKeyConflicts": 13,
-  "compensated": 124
+  "compensated": 126
 }

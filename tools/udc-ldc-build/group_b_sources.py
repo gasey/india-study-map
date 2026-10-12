@@ -1203,10 +1203,18 @@ def build_additional():
             'feo-2017-english-p2': 120,
             'mhs-grade-v-2017-english-p2': 120,
             'vety-mah-2021-english-p2': 180,
+            'archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1': 120,
+            'archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3': 120,
+            'archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045': 120,
+            'archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc': 120,
+            'archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848': 120,
+            'archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge': 180,
             'archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0': 120,
             'archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32': 180,
             'archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5': 180,
             'archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32': 180,
+            'archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5': 180,
+            'archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca': 180,
         }
         if slug in reviewed_archive_meta and repairs.get(slug, {}).get('derivedAnswers'):
             # Source covers give the time and full marks; the papers contain

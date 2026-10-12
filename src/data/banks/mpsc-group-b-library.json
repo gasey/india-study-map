@@ -2998,8 +2998,9 @@
     "sitting": "2023",
     "subject": "General Knowledge",
     "sourceHref": "/papers/group-b/archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/mls-2023-general-knowledge-final-answer-key.pdf#page=1",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -3927,7 +3928,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 99
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-mcs-combined-main-examination-2023-mcs-main-2023-general-english-6826b265",

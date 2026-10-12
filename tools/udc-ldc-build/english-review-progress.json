@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 4198,
-    "pendingMcq": 5633,
-    "heldReviewed": 151,
-    "pendingWritten": 876
+    "ready": 5381,
+    "pendingMcq": 4385,
+    "heldReviewed": 219,
+    "pendingWritten": 874
   },
   "papers": [
     {
@@ -989,20 +989,41 @@
       "sourceSha256": "1e269ab32908628c1820a1bb0e4404a0e6f7a79ed00d931b68013fb067244cc5",
       "archivePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 80,
-      "ready": 0,
+      "ready": 76,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q45",
+          "questionNumber": "45",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q50",
+          "questionNumber": "50",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q52",
+          "questionNumber": "52",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q54",
+          "questionNumber": "54",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca",
@@ -1014,20 +1035,51 @@
       "sourceSha256": "540c1b17d8472f89a01918504ffae55f7d3d6f254ebe31765fe8f141883438c0",
       "archivePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 80,
-      "ready": 0,
+      "ready": 74,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 6,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q41",
+          "questionNumber": "41",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q45",
+          "questionNumber": "45",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q48",
+          "questionNumber": "48",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q52",
+          "questionNumber": "52",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q59",
+          "questionNumber": "59",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca-Q64",
+          "questionNumber": "64",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-district-organiser-contract-2016-under-dm-rd-1-general-english-939fcaba",
@@ -1532,12 +1584,12 @@
       "sourceSha256": "518ac7a75827f5b66c20a1b66391b49c6cfe0be6a33969bc39215689cc00e0df",
       "archivePage": "https://mpsc.mizoram.gov.in/page/2020-2021",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "content-ready",
       "mcq": 100,
-      "ready": 0,
+      "ready": 100,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
       "heldReviewed": 0,
       "expectedMcq": 100,
       "missingMcq": 0,
@@ -1668,20 +1720,31 @@
       "sourceSha256": "770be2f84dc46f578cb30c5a1ab63be07011812f44433fde603f1bef1614fb93",
       "archivePage": "https://mpsc.mizoram.gov.in/page/2020-2021",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q85",
+          "questionNumber": "85",
+          "reason": "Held: both “quick decision” and “quick action” are natural, grammatically correct completions in context; the item gives no clue that selects one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1-Q90",
+          "questionNumber": "90",
+          "reason": "Held: both “literal translation” and “verbatim translation” can mean a word-for-word rendering; the options do not distinguish them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2020-junior-grade-of-mls-law-officer-under-law-judicial-department-mls-genera-d05f8c37",
@@ -1718,20 +1781,101 @@
       "sourceSha256": "2b107f4e32129ef82051ffa4e4494c18ca5fde237902f4bc1b5c3863b81115d1",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2021-2022",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 84,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 16,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q51",
+          "questionNumber": "51",
+          "reason": "Held: the source already is a simple sentence and offers several simple alternatives; no distinct transformation target is specified."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q52",
+          "questionNumber": "52",
+          "reason": "Held: the source is already a simple sentence, and the choices are multiple simple paraphrases with no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q53",
+          "questionNumber": "53",
+          "reason": "Held: both options A and B are grammatical simple-sentence paraphrases preserving the contrast; the prompt does not distinguish them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q54",
+          "questionNumber": "54",
+          "reason": "Held: both “How kind of you to visit us!” and “How kind it is of you to visit us!” are grammatical exclamatory transformations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q61",
+          "questionNumber": "61",
+          "reason": "Held: the source gives three statements to combine but no target structure. Multiple choices are grammatical and preserve a plausible sequence; no unique answer is specified."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q62",
+          "questionNumber": "62",
+          "reason": "Held: no target structure is specified; both “It is too hot to go out” and “One cannot go out as it is very hot” are grammatical equivalent combinations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q63",
+          "questionNumber": "63",
+          "reason": "Held: no target structure is specified; multiple options form grammatical combinations with equivalent meaning."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q64",
+          "questionNumber": "64",
+          "reason": "Held: the task gives no target structure, and multiple choices (A–C) produce grammatical, similar combinations of the two statements."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q65",
+          "questionNumber": "65",
+          "reason": "Held: no target structure is specified; several choices (A–D) are grammatical ways to combine the agreement and decision."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q66",
+          "questionNumber": "66",
+          "reason": "Held: no target structure is specified; choices A, C and D are all grammatical equivalent combinations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q67",
+          "questionNumber": "67",
+          "reason": "Held: no target structure is specified; “otherwise” (C) and “or” (D) both correctly join the warning and its consequence."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q68",
+          "questionNumber": "68",
+          "reason": "Held: no target structure is specified; A and D are both grammatical combinations preserving the statement and its truth."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q69",
+          "questionNumber": "69",
+          "reason": "Held: no target structure is specified; B, C and D are grammatical combinations with slightly different emphasis."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q70",
+          "questionNumber": "70",
+          "reason": "Held: no target structure is specified; A and B are grammatical combinations preserving both facts."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q77",
+          "questionNumber": "77",
+          "reason": "Held: “retribution” can mean punishment for a wrong and vengeance; both “revenge” and “punishment” are defensible from the listed options."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045-Q87",
+          "questionNumber": "87",
+          "reason": "Held: both “avenue” and “boulevard” can denote a broad road bordered or lined with trees; the definition does not distinguish them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-2185593a",
@@ -1843,20 +1987,36 @@
       "sourceSha256": "1c0b24d38335e26661e24d26af19a2ca1fd1d1cbb47b0e74b459300c71d58a86",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2022-2023",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q24",
+          "questionNumber": "24",
+          "reason": "Held: both “so happy” and “very happy” are grammatical in the sentence; no context distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q28",
+          "questionNumber": "28",
+          "reason": "Held: both “further into the room” and “farther into the room” are accepted for physical distance; the choices do not establish one intended form."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848-Q43",
+          "questionNumber": "43",
+          "reason": "Held: both “Surdas was a poet but blind” and “Surdas was a blind poet” are grammatical simple-sentence transformations preserving the two facts."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2022-grade-iii-of-mhs-dental-surgeon-sub-cadre-under-h-fw-deptt-october-2022-6b687b4f",
@@ -1968,20 +2128,71 @@
       "sourceSha256": "ea6ce846c886893f52655888f5e6a72a6c193d4c7e4ed8e20446e94f82a76474",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2022-2023",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 90,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 10,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q14",
+          "questionNumber": "14",
+          "reason": "Held: both “finished” and “have finished” are grammatical without a stated past-time context, so the intended tense is not uniquely determined."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q15",
+          "questionNumber": "15",
+          "reason": "Held: “since 1990” with no past reference point normally calls for “has lived/has been living,” neither of which is offered. Past perfect choices require an unstated past reference."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q17",
+          "questionNumber": "17",
+          "reason": "Held: both “Did you take the medicine?” and “Have you taken the medicine?” are grammatical; no time context distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q26",
+          "questionNumber": "26",
+          "reason": "Held: both “so pleased” and “very pleased” are grammatical in this sentence; the options provide no contextual distinction."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q45",
+          "questionNumber": "45",
+          "reason": "Held: the prompt asks for a noun clause, but “whom I shall dance with” is a relative/adjective clause. None of the listed fragments is the requested noun clause."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q46",
+          "questionNumber": "46",
+          "reason": "Held: the source asks for an adverbial clause, but the corresponding option changes the printed pronoun from “she” to “he”; no choice reproduces the printed clause accurately."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q48",
+          "questionNumber": "48",
+          "reason": "Held: the underlined noun clause is “who I want on my team,” but the closest option includes the main verb “is” and no option exactly gives the clause."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q54",
+          "questionNumber": "54",
+          "reason": "Held: both “How kind of you to visit us!” and “How kind it is of you to visit us!” are grammatical exclamatory transformations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q58",
+          "questionNumber": "58",
+          "reason": "Held: the prompt asks for a simple sentence, but the options retain or introduce a finite relative clause; no option is clearly a simple-sentence transformation."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q99",
+          "questionNumber": "99",
+          "reason": "Held: none of the choices is a reliable synonym for “delusional” (having false beliefs or unrealistic perceptions); “fake,” “stupid,” and “unaware” do not mean that."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -2643,20 +2854,66 @@
       "sourceSha256": "3d5a9838a5308cb76ae1b2136ef4a647568025a899236392fd50bf767fc434f2",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
-      "mcq": 97,
-      "ready": 1,
+      "status": "ready-with-held-items",
+      "mcq": 100,
+      "ready": 91,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 1,
-      "pendingMcq": 96,
-      "heldReviewed": 0,
-      "expectedMcq": 99,
-      "missingMcq": 2,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 9,
+      "expectedMcq": 100,
+      "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q13",
+          "questionNumber": "13",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q14",
+          "questionNumber": "14",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q17",
+          "questionNumber": "17",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q19",
+          "questionNumber": "19",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q21",
+          "questionNumber": "21",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q33",
+          "questionNumber": "33",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q81",
+          "questionNumber": "81",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q89",
+          "questionNumber": "89",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8-Q94",
+          "questionNumber": "94",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -3890,18 +4147,34 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q14",
+          "questionNumber": "14",
+          "reason": "Sentence contains one shared subject and two coordinated finite predicates; some sentence-type conventions call this a simple sentence with a compound predicate, while this exam may count it as compound. Held because the distinction is not specified."
+        },
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q24",
+          "questionNumber": "24",
+          "reason": "A positive declarative sentence is both affirmative in polarity and assertive in form; both labels are printed options. Held as overlapping classifications."
+        },
+        {
+          "id": "mpsc-group-b-coach1-2019-english-Q35",
+          "questionNumber": "35",
+          "reason": "Both “increase” and “expand” can be opposites of “curtail”; held because two options plausibly satisfy the prompt."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-coach3-2019-english",
@@ -3912,18 +4185,24 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 0,
+      "ready": 79,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-coach3-2019-english-Q71",
+          "questionNumber": "71",
+          "reason": "“Oral” is the direct contrast to “written,” but “verbal” also means spoken; with no official key, the source offers two defensible answers."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -3934,18 +4213,29 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 2,
+      "ready": 78,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 2,
-      "pendingMcq": 78,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-mar-2019-english-Q46",
+          "questionNumber": "46",
+          "reason": "Both “enter into” and “enter upon” a new course of life are idiomatic; held without an official key."
+        },
+        {
+          "id": "mpsc-group-b-do-mar-2019-english-Q47",
+          "questionNumber": "47",
+          "reason": "The printed sentence reads “civil lane has been condoned”; the likely intended wording is “Civil Lane has been cordoned off.” The source error makes the answer uncertain."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-do-oct-2019-english",
@@ -3956,18 +4246,34 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q50",
+          "questionNumber": "50",
+          "reason": "The scan prints two complete sentences separated by a full stop (“It is very hot. One cannot go out.”), so they do not form a single compound/complex sentence as the item asks. Held."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q54",
+          "questionNumber": "54",
+          "reason": "Both “in an easy manner” and “with ease” correctly convert the adverb “easily” to a noun construction; held without an official key."
+        },
+        {
+          "id": "mpsc-group-b-do-oct-2019-english-Q80",
+          "questionNumber": "80",
+          "reason": "Both “sympathy” and “compassion” are natural in “I have great ___ for your suffering”; held because two options fit."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-dso-2019-english",
@@ -4020,20 +4326,46 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/eo-2019-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 5,
+      "ready": 95,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 5,
-      "pendingMcq": 95,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q31",
+          "questionNumber": "31",
+          "reason": "Held: both “Each” and “Neither” produce grammatical, complete sentences and no context determines whether both or neither sister is married."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q32",
+          "questionNumber": "32",
+          "reason": "Held: both “Everyone” and “each one” are grammatical and fit the sentence; no contextual clue selects one."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q60",
+          "questionNumber": "60",
+          "reason": "Held: “as if he understood” is a finite subordinate adverb clause, but every printed option calls it a phrase. No option accurately classifies the underlined words."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q85",
+          "questionNumber": "85",
+          "reason": "Held: “lurk” means remain concealed or lie in wait. None of the choices (“loiter”, “enjoy”, “deter”, “watch”) is an accurate synonym; choosing one would be a guess."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-english-p2-Q97",
+          "questionNumber": "97",
+          "reason": "Held: both “awarded for his bravery” and “rewarded for his bravery” are grammatical and plausible. The source gives no context that distinguishes them."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-leit-2019-english-p1",
@@ -4892,18 +5224,39 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 1,
+      "ready": 76,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 1,
-      "pendingMcq": 79,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q30",
+          "questionNumber": "30",
+          "reason": "No grammatically correct printed option. “Birds sings” has subject–verb disagreement; “burst in the trees” does not fit the intended sentence."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q48",
+          "questionNumber": "48",
+          "reason": "Both “confident in securing” and “confident of securing” are grammatical and idiomatic; no key is available to distinguish the expected option."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q56",
+          "questionNumber": "56",
+          "reason": "The “not only … but also” sentence has a single expressed subject and coordinated complements, but some traditional sentence-type conventions treat it as compound; held because the paper gives no classification convention."
+        },
+        {
+          "id": "mpsc-group-b-jics-2019-english-Q72",
+          "questionNumber": "72",
+          "reason": "“Diligent” means hardworking/careful, but none of the printed options expresses that meaning; “idle” is an antonym, so no option is correct."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-la-2019-english",

@@ -625689,7 +625689,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "25th March 2020"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 24th March 2020.",
+    "explanation": "The state reported its first confirmed COVID-19 case on 24 March 2020.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625716,7 +625716,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "21st August"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 31st October.",
+    "explanation": "National Unity Day, marking Sardar Vallabhbhai Patel’s birth anniversary, is 31 October.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625743,7 +625743,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Singapore"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: China.",
+    "explanation": "China used facial recognition for tax payments.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625770,7 +625770,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Olga Tokarczuk"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Louise Gluck.",
+    "explanation": "Louise Glück received the 2020 Nobel Prize in Literature.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625797,7 +625797,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "UAE and Egypt"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: UAE and Bahrain.",
+    "explanation": "The Abraham Accords initially normalized relations between Israel, the UAE and Bahrain.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625824,7 +625824,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "IIT Delhi"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: IISc Bengaluru.",
+    "explanation": "IISc Bengaluru was the highest-ranked Indian institution in the cited World University Rankings 2021.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625851,7 +625851,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "HCL Technologies"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: HCL Technologies.",
+    "explanation": "Roshni Nadar Malhotra became chairperson of HCL Technologies.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625878,7 +625878,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "MBA"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: M. Phil.",
+    "explanation": "NEP 2020 discontinues the M.Phil. programme.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625905,7 +625905,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Children"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Children.",
+    "explanation": "The IIT Madras COVID game targeted children.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=1",
@@ -625932,7 +625932,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Namaste Corona"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Bye Bye Corona.",
+    "explanation": "The book was Bye Bye Corona.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -625959,7 +625959,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "123rd"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 116th.",
+    "explanation": "India ranked 116th in the 2020 Human Capital Index.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -625986,7 +625986,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Amit Shah"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Sonu Sood.",
+    "explanation": "Sonu Sood received the UNDP Special Humanitarian Action Award in 2020.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626013,7 +626013,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "35.7%"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 23.9 %.",
+    "explanation": "India’s GDP contracted 23.9% in April–June 2020.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626040,7 +626040,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Japan"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Germany.",
+    "explanation": "NATO planned a space-operations centre in Germany.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626059,7 +626059,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Who was reappointed as Attorney General of India for a period of one year?",
+    "question": "Who has been re-appointment as Attorney General of India for a period of one year?",
     "options": [
       "K.K. Venugopal",
       "Tushar Mehta",
@@ -626067,7 +626067,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Mukul Rohatgi"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: K.K. Venugopal.",
+    "explanation": "K. K. Venugopal was reappointed Attorney General.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626086,15 +626086,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "To provide a safe airport amid COVID-19, which city introduced India’s first fully contactless airport car parking with contactless toll transactions for passengers?",
+    "question": "To provide a safe airport amid COVID-19, which of the following cities has introduced India’s first ever fully contactless airport car parking with contact less toll transaction for their passengers?",
     "options": [
       "Delhi",
       "Mumbai",
-      "Kolkata",
+      "Kolkatta",
       "Hyderabad"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Hyderabad.",
+    "explanation": "Hyderabad introduced the contactless airport parking/toll system.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626121,7 +626121,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Nigeria"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: India.",
+    "explanation": "India was the first to use drones to control desert locusts in 2020.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626148,7 +626148,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "All of the above"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: All of the above.",
+    "explanation": "Nauru, Vanuatu and Tuvalu had reported no COVID-19 cases by the stated date.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626175,7 +626175,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Sweden"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Finland.",
+    "explanation": "Finland topped the 2020 World Happiness Report.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626194,15 +626194,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The first seaplane service was launched by Prime Minister Narendra Modi in which state?",
+    "question": "Prime Minister Narendra Modi has recently launched the country’s first seaplane service in the state of",
     "options": [
       "Tamil Nadu",
       "Odisha",
       "Gujarat",
-      "Andhra Pradesh"
+      "Andra Pradesh"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Gujarat.",
+    "explanation": "The first seaplane service launched from Gujarat.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=2",
@@ -626229,7 +626229,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Henry Vivian Derozio"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Henry Vivian Derozio.",
+    "explanation": "Henry Vivian Derozio inspired the Young Bengal movement.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626256,7 +626256,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Boycotting foreign clothes"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Breaking of Salt law.",
+    "explanation": "The movement began with Gandhi’s breaking of the salt law at Dandi.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626283,7 +626283,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Cornwallis"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Warren Hastings.",
+    "explanation": "Warren Hastings was impeached in Britain for conduct during his Indian administration.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626310,7 +626310,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Sher Shah Suri"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Sher Shah Suri.",
+    "explanation": "Sher Shah Suri introduced the rupee as a standard currency.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626333,11 +626333,11 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "options": [
       "Chandragupta I",
       "Chandragupta II",
-      "Vallabhbhai Patel",
+      "Valabbhai Patel",
       "Samudragupta"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Samudragupta.",
+    "explanation": "Samudragupta is called the Napoleon of India.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626364,7 +626364,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "both 1 and 2"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 2 only.",
+    "explanation": "The Cripps proposals offered a constitution-making body, not immediate full independence.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626391,7 +626391,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "1875"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 1853.",
+    "explanation": "India’s first passenger railway opened in 1853.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626418,7 +626418,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Mahatma Gandhi"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Mahatma Gandhi.",
+    "explanation": "The statement is attributed to Mahatma Gandhi.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626437,15 +626437,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The East India Company secured the “Golden Firman” from which ruler?",
+    "question": "The East India Company secured the ‘golden firman’ from which ruler?",
     "options": [
       "Jahangir",
-      "Sultan of Golconda",
+      "Sultan of Golgunda",
       "Ruler of Chandragiri",
-      "Mughal emperor Farrukhsiyar"
+      "Mughal emperor Farukhsiyar"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Sultan of Golconda.",
+    "explanation": "Farrukhsiyar granted the East India Company its 1717 farman.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626464,15 +626464,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which revolt is associated with Sidhu and Kanhu?",
+    "question": "Which of the following revolts is related with ‘ Siddhu’ and ‘Konhu’ ?",
     "options": [
-      "Revolt of Zamindars of Orissa, 1804–1817",
-      "Santhal Rebellion, 1855",
-      "Munda Revolt, 1899–1900",
-      "Kol Uprising, 1820–1837"
+      "Revolt of Zamindars of Orissa,1804-1817",
+      "Santhal Rebellion,1855",
+      "Munda Revolt,1899-1900",
+      "Kol Uprising,1820-37"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Santhal Rebellion, 1855.",
+    "explanation": "Sidhu and Kanhu led the Santhal Rebellion of 1855.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626499,7 +626499,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Cairo conference"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Bandung Conference.",
+    "explanation": "The 1955 Bandung Conference preceded and inspired non-alignment.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626526,7 +626526,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Shah Jahan"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Shah Jahan.",
+    "explanation": "Shah Jahan moved the Mughal capital from Agra to Delhi.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=3",
@@ -626545,22 +626545,23 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Who was the first Indian Governor-General of India?",
+    "question": "Who was the first Governor General of Free India?",
     "options": [
       "Subhash Chandra Bose",
       "Jawaharlal Nehru",
       "C. Rajagopalachari",
       "Rajendra Prasad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "C. Rajagopalachari was the first Indian Governor-General.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q34",
@@ -626579,7 +626580,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Mountain ecosystem"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Marine ecosystem.",
+    "explanation": "Marine ecosystems cover most of Earth’s surface.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626606,7 +626607,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Photosphere"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Stratosphere.",
+    "explanation": "The ozone layer is in the stratosphere.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626632,8 +626633,8 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Sunderbans",
       "None of these"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best answer: Rann of Kutchh.",
+    "answerIndex": 2,
+    "explanation": "Sundarbans has India’s most extensive mangrove vegetation.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626659,8 +626660,8 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "The Vindhiyas",
       "The Aravallis"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best answer: The Vindhiyas.",
+    "answerIndex": 3,
+    "explanation": "The Aravallis are India’s oldest mountain range.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626686,8 +626687,8 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Maize",
       "None of the above"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best answer: None of the above.",
+    "answerIndex": 1,
+    "explanation": "Bajra is called a camel crop because it tolerates arid conditions.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626706,15 +626707,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which one of the following is called the “Coffee Port of the World”?",
+    "question": "Which one of the following is called “Coffee Port of the world”?",
     "options": [
-      "São Paulo",
+      "Sao Paolo",
       "Santos",
       "Rio de Janeiro",
-      "Buenos Aires"
+      "Buenos Aries"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best answer: Rio de Janeiro.",
+    "answerIndex": 1,
+    "explanation": "Santos, Brazil, is known as the Coffee Port of the World.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626735,13 +626736,13 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Among the following boundary lines, which one is not correctly matched with the countries given afterwards?",
     "options": [
-      "Maginot Line — France and Germany",
-      "49th Parallel — USA and Canada",
-      "Siegfried Line — Germany and Poland",
-      "38th Parallel — North and South Korea"
+      "Maginot line – France ang Germany",
+      "49th Parallel line – USA and Canada",
+      "Siegfried line – Germany and Poland",
+      "38th Parallel line – North and South Korea"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best answer: 38th Parallel — North and South Korea.",
+    "answerIndex": 2,
+    "explanation": "The Siegfried Line was a German defensive line facing France, not Poland.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626762,21 +626763,23 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Why is Gujarat the largest producer of salt in India?",
     "options": [
-      "Gujarat possesses the largest dry coastal area",
-      "The sea water here is more saline",
+      "Gujarat Possesses the largest dry coasted area",
+      "The Sea water here is more saline",
       "Gujarat farmers are highly skilled in making salt",
       "Gujarat has large areas of shallow sea"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best answer: The sea water here is more saline.",
+    "answerIndex": -1,
+    "explanation": "The source offers two plausible physical explanations for high salt production—extensive dry coastal area (a) and shallow sea areas (d)—while the “more saline sea” claim is unsupported. No unique answer.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because no unique answer is supported."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q42",
@@ -626794,8 +626797,8 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Indian Ocean and China sea",
       "Atlantic and Pacific Oceans"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best answer: Indian Ocean and China sea.",
+    "answerIndex": 0,
+    "explanation": "The Suez Canal connects the Mediterranean Sea and Red Sea.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626821,8 +626824,8 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Chad",
       "Liechtenstein"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best answer: Uzbekistan.",
+    "answerIndex": 0,
+    "explanation": "Kazakhstan is the largest landlocked country by area.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626849,7 +626852,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "2, 3 and 4"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 1,2 and 3.",
+    "explanation": "Earth’s rotation, winds/pressure and water-density differences drive ocean currents.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=4",
@@ -626868,22 +626871,23 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which continent of Earth has no hot desert?",
+    "question": "Which continent of Earth has no desert?",
     "options": [
       "Australia",
       "Europe",
       "Antarctica",
       "South America"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The printed source asks which continent has no desert; Europe is the intended answer. The extracted stem incorrectly adds “hot”.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q46",
@@ -626902,7 +626906,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Twice each year with no more than three months between sessions"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Twice each year with no more than 6 months between sessions.",
+    "explanation": "The Constitution requires Parliament to meet so that no more than six months elapse between sessions.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -626929,7 +626933,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Quo Warranto"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Quo Warranto.",
+    "explanation": "Quo warranto challenges a person’s legal authority to hold public office.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -626956,7 +626960,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Union Law Secretary"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Attorney General of India.",
+    "explanation": "The Attorney General is India’s first law officer.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -626983,7 +626987,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Article 4"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Article 3.",
+    "explanation": "Article 3 empowers Parliament to form states and alter state boundaries.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -627010,7 +627014,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Article 55"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Article 61.",
+    "explanation": "Article 61 sets out the President’s impeachment procedure.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -627037,7 +627041,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Fakhruddin Ali Ahmed"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Neelam S Reddy.",
+    "explanation": "Neelam Sanjiva Reddy was elected President unopposed.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -627056,22 +627060,23 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The reservation in favour of Scheduled Castes and Scheduled Tribes in government service was made for:",
+    "question": "The reservation in favor of scheduled castes and scheduled tribes in government service was made for?",
     "options": [
       "Ten years initially and extended after every ten year period",
       "Fifty years since the commencement of the constitution and can be extended by Parliament",
       "Forty years since the commencement of the constitution",
       "Unlimited period"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Service reservation has no fixed constitutional sunset; the best listed answer is “unlimited period,” unlike the separate 10-year renewal rule for legislative seats.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q53",
@@ -627090,7 +627095,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Aam Aadmi Party"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Communist Party.",
+    "explanation": "Politburo is associated with communist parties.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -627117,7 +627122,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "USA"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Australia.",
+    "explanation": "India’s Concurrent List was borrowed from Australia.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
@@ -627136,23 +627141,25 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which one of the following does not have reservation in a State Legislature?",
+    "question": "Which one of the following does not have reservation is State Legislature?",
     "options": [
       "Scheduled Castes",
       "Scheduled Tribe",
       "Anglo Indian Community",
       "Backward Classes"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best answer: Backward Classes.",
+    "answerIndex": -1,
+    "explanation": "As worded for November 2020, both Anglo-Indian representation (ended by the 104th Amendment) and backward-class seat reservation are absent from state legislatures; multiple choices can be read as correct.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because no unique answer is supported."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q56",
@@ -627171,7 +627178,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "its high total population"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: its high population in the age group of 15-64 years.",
+    "explanation": "Demographic dividend comes from a large working-age population, conventionally ages 15–64.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627198,7 +627205,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "China"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: China.",
+    "explanation": "China was the largest economy by purchasing-power parity in 2020.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627217,7 +627224,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "National Income in India is estimated by:",
+    "question": "National Income in India is estimated by?",
     "options": [
       "Planning Commission",
       "Finance Commission",
@@ -627225,7 +627232,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Central Statistical Organization"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Central Statistical Organization.",
+    "explanation": "The Central Statistical Organization (now NSO) estimates national income.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627252,7 +627259,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Fifth Plan"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Fifth Plan.",
+    "explanation": "“Garibi Hatao” was associated with the Fifth Five-Year Plan.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627279,7 +627286,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Cash Reserve Ratio"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Repo Rate.",
+    "explanation": "Repo rate is the rate at which RBI lends short-term to banks.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627306,7 +627313,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "September – December"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: January- June.",
+    "explanation": "January–June is commonly described as the slack agricultural/economic season.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627333,7 +627340,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Fish Production"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Fish Production.",
+    "explanation": "The Blue Revolution concerns fish production.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627360,7 +627367,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Co existence of rich and poor"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Co-existence of both public and private sector.",
+    "explanation": "A mixed economy combines public and private sectors.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627379,7 +627386,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The index “RESIDEX” is associated with:",
+    "question": "Index ‘Residex” is associated with",
     "options": [
       "Share Prices",
       "Mutual Fund Prices",
@@ -627387,7 +627394,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Land Prices"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Land Prices.",
+    "explanation": "RESIDEX is the National Housing Bank’s residential property price index.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627406,15 +627413,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Fiscal deficit means:",
+    "question": "Fiscal deficit means",
     "options": [
-      "A measure of borrowing of an economy",
-      "Total expenditure less total receipts excluding borrowings",
-      "A decrease in tax collections of the year",
-      "Lack of liquidity and earnings for the economy"
+      "It is a measure of borrowing of an economy",
+      "It is total expenditure less total receipts excluding borrowings",
+      "It reflects decrease in tax collections of the year",
+      "It means lack of liquidity and earnings for the economy"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Total expenditure less total receipts excluding borrowings.",
+    "explanation": "Fiscal deficit is total expenditure minus receipts excluding borrowings; it indicates borrowing requirement.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627441,14 +627448,14 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Domestic wastes"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Largest contributor of air pollution” is not defined by pollutant, source category or period; the answer varies by metric and geography.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held after source review because no unique answer is supported."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q67",
@@ -627467,7 +627474,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Wildlife Sanctuary"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Botanical Garden.",
+    "explanation": "A botanical garden is ex-situ conservation; the others conserve species in natural habitats.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=6",
@@ -627494,7 +627501,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Lion-tailed Macaque, Blue Bull, Hanuman Langur and Cheetal"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Great Indian Bustard, Musk Deer, Red Panda and Asiatic Wild Ass.",
+    "explanation": "Option (a) lists endangered species, including the Great Indian Bustard, musk deer and red panda.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627521,7 +627528,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "1, 2 and 3"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 2 and 3 only.",
+    "explanation": "Earth Hour is an annual lights-off awareness campaign; statements 2 and 3 are correct, while it is led by WWF, not UNEP/UNESCO.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627540,15 +627547,15 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The international treaty designed to reduce movements of hazardous waste between nations, especially transfers from developed to less developed countries, is called:",
+    "question": "An international treaty that was designed to reduce the movements of hazardous waste between nation specifically to prevent transfer of hazardous waste from developed to less developed countries is called",
     "options": [
       "Stockholm Convention",
       "Basel Convention",
       "Paris Convention",
-      "Geneva Convention"
+      "Genava Convention"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Basel Convention.",
+    "explanation": "The Basel Convention controls transboundary movements of hazardous waste.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627570,12 +627577,12 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "question": "Reducing the amount of future climate change is called:",
     "options": [
       "Mitigation",
-      "Geo-engineering",
+      "Geo- engineering",
       "Adaptation",
-      "Synchronization"
+      "Syncronization"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Mitigation.",
+    "explanation": "Mitigation reduces or limits future climate change.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627602,7 +627609,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
       "Decrease in the ocean water level"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Rapid melting of glacial ice on nearly every continent.",
+    "explanation": "Rapid glacier retreat across continents is a conspicuous global-warming indicator.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627623,7 +627630,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The United Nations Framework Convention on Climate Change (UNFCCC) was adopted at which event?",
+    "question": "The United Nations Framework Convention on Climate Change (UNFCCC or FCCC) is also known as",
     "options": [
       "Kyoto protocol",
       "Vienna convention",
@@ -627631,7 +627638,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Doha Round"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Earth summit.",
+    "explanation": "The UNFCCC was adopted at the 1992 Rio Earth Summit; the wording “also known as” is imprecise.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627658,7 +627665,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Cognitive Environment"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Physical Environment.",
+    "explanation": "Landforms, climate, water, temperature and air are physical environmental components.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627685,7 +627692,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Carbon dioxide"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Ozone.",
+    "explanation": "The ozone layer absorbs much of the Sun’s harmful ultraviolet radiation.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627712,7 +627719,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Kelvin"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Kelvin.",
+    "explanation": "Kelvin is the SI unit of thermodynamic temperature.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=7",
@@ -627739,7 +627746,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Haemoglobin"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: White blood cells.",
+    "explanation": "White blood cells are central to immune defense.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627766,7 +627773,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Land covered with fresh snow"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Land covered with fresh snow.",
+    "explanation": "Fresh snow has the highest albedo among the listed surfaces.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627785,15 +627792,15 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "In photosynthesis,",
+    "question": "In photo –synthesis,",
     "options": [
       "Chemical energy is converted into light energy",
-      "Light energy is converted into chemical energy",
+      "Light energy is converted into chemichal energy",
       "Chemical energy is converted into electrical energy",
       "Light energy is converted into mechanical energy"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Light energy is converted into chemical energy.",
+    "explanation": "Photosynthesis converts light energy into chemical energy.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627820,7 +627827,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Uncontrolled chain reaction"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Controlled chain reaction.",
+    "explanation": "A reactor controls a nuclear fission chain reaction.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627839,7 +627846,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Nitrous oxide (N₂O) is commonly known as:",
+    "question": "Nitrus Oxide,(N₂O) is commonly known as",
     "options": [
       "Marsh Gas",
       "Tear Gas",
@@ -627847,7 +627854,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Gypsum"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Laughing Gas.",
+    "explanation": "N₂O is nitrous oxide, commonly called laughing gas.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627874,7 +627881,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Galvanometer"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Fathometer.",
+    "explanation": "A fathometer measures ocean depth.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627901,7 +627908,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: The moon comes in between the sun and the earth.",
+    "explanation": "A solar eclipse occurs when the Moon passes between the Sun and Earth.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627920,15 +627927,15 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Virtual reality refers to:",
+    "question": "Virtual reality refers to",
     "options": [
-      "A branch of science that helps machines find solutions to complex problems in a more human-like fashion",
-      "Computer-simulated environments that simulate physical presence in real or imaginary worlds",
-      "A specialized form of mobile commerce that uses mobile internet access, GPS, etc.",
-      "A facility that provides computing and storage capacity services to a heterogeneous community of end recipients"
+      "A branch of science which deals with helping machines find solution to complex problems",
+      "Computer stimulated environments that can stimulate physical presence is places in the",
+      "A specialized form of mobile commerce that uses mobile internet access, global positioning",
+      "A facility that provides computing and storage capacity services to heterogeneous community"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Computer-simulated environments that simulate physical presence in real or imaginary worlds.",
+    "explanation": "Virtual reality uses computer-simulated environments that create a sense of physical presence.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627955,7 +627962,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Oxygen"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Hydrogen.",
+    "explanation": "Hydrogen is common to the usual acids listed in basic chemistry.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -627982,7 +627989,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "The Equator"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: The Center of the Earth.",
+    "explanation": "At Earth’s center gravitational weight is zero, so it is minimal.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=8",
@@ -628009,7 +628016,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "82 - 87"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: 72 - 80.",
+    "explanation": "A resting adult heartbeat is commonly around 72–80 beats per minute.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628036,7 +628043,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "B or A"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: AB or B.",
+    "explanation": "Type B blood may be donated to B or AB recipients (for ABO red-cell compatibility).",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628055,7 +628062,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which one of the following is a disease caused by bacteria?",
+    "question": "Which one of the following is disease is caused by bacteria ?",
     "options": [
       "Hepatitis- B",
       "Poliomyelitis",
@@ -628063,7 +628070,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Tuberculosis"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Tuberculosis.",
+    "explanation": "Tuberculosis is caused by Mycobacterium tuberculosis.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628082,7 +628089,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which of the following is not true about the transport system in humans?",
+    "question": "Which of the following is not true about transport system in human?",
     "options": [
       "Lungs have no role in transport",
       "Blood carry the gases to the body parts",
@@ -628090,14 +628097,17 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Right atrium receive blood from lungs"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both (a) “Lungs have no role in transport” and (d) “Right atrium receives blood from lungs” are false; lungs oxygenate blood and pulmonary veins return it to the left atrium.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Held after source review because no unique answer is supported."
   },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q91",
@@ -628116,7 +628126,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Thalfavang Kut"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Thalfavang Kut.",
+    "explanation": "Thalfavang Kut is a harvest festival observed around November.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628143,7 +628153,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Sarlamkai"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Sarlamkai.",
+    "explanation": "Sarlamkai is a traditional victory dance.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628170,7 +628180,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Herhse (Iron wood)"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Herhse (Iron wood).",
+    "explanation": "Herhse (ironwood/Mesua ferrea) is Mizoram’s state tree.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628189,7 +628199,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "When did the first bamboo flowering, also known as “Mau tam,” happen in Mizoram?",
+    "question": "When was the first bamboo flowering, also known as ‘Mau tam’ happened in Mizoram?",
     "options": [
       "1872",
       "1862",
@@ -628197,7 +628207,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "1884"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 1862.",
+    "explanation": "The recorded Mautam bamboo flowering began in 1862.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628224,7 +628234,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Mahni inti na lui"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Mahni hmasial.",
+    "explanation": "The idiom means selfish/self-centered (mahni hmasial).",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628251,7 +628261,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Vaphai"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Mamte.",
+    "explanation": "Milu Puk is in the Vaphai area.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628278,7 +628288,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Bride’s brother"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Bride’s elder sister.",
+    "explanation": "Naupuakpuan is the traditional share given to the bride’s elder sister.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628305,7 +628315,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Hnuhpui, Mangkhawh, Hnuhhram ,a thial,a thual, lo zawh"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Mangkhawh,Hnuhpui, Hnuhhram,a thual, a thial, lo zawh.",
+    "explanation": "The listed sequence begins with clearing, then burning, sowing, and later field operations; option (b) is the recorded order.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=9",
@@ -628324,15 +628334,15 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Winner of the prestigious 2018 Man Booker International Prize for Fiction:",
+    "question": "‘Tuha kuai rual’ in Mizo demographic division refers to which of the following groups?",
     "options": [
-      "Han Kang",
-      "Olga Tokarczuk",
-      "David Grossman",
-      "Hemu Adhikari"
+      "Boys aged between 14-17 yrs",
+      "Girls aged between 14-17 yrs",
+      "Boys aged between 8-12 yrs",
+      "Girls aged between 8-12 yrs"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Olga Tokarczuk.",
+    "explanation": "Olga Tokarczuk won the 2018 Man Booker International Prize for Flights.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=10",
@@ -628359,7 +628369,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
       "Cow"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Cow.",
+    "explanation": "The standard early domesticated animals in the Mizo setting include pigs, dogs and goats; cow is the exception.",
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf#page=10",

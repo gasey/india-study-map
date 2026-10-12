@@ -7,12 +7,12 @@
     "records": 26888,
     "mcq": 25867,
     "writtenRecords": 1021,
-    "ready": 17246,
+    "ready": 17247,
     "readyOfficial": 8322,
     "pendingMcq": 8096,
-    "heldReviewed": 525,
-    "workedGuidesReviewed": 10116,
-    "pendingMcqGuides": 15751,
+    "heldReviewed": 524,
+    "workedGuidesReviewed": 10121,
+    "pendingMcqGuides": 15746,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -67,12 +67,12 @@
       "records": 14956,
       "mcq": 14956,
       "writtenRecords": 0,
-      "ready": 12638,
+      "ready": 12639,
       "readyOfficial": 6205,
       "pendingMcq": 1936,
-      "heldReviewed": 382,
-      "workedGuidesReviewed": 6896,
-      "pendingMcqGuides": 8060,
+      "heldReviewed": 381,
+      "workedGuidesReviewed": 6901,
+      "pendingMcqGuides": 8055,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -409,12 +409,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 95,
+      "ready": 96,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 5,
-      "workedGuidesReviewed": 95,
-      "pendingMcqGuides": 5,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -423,12 +423,12 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 95,
+          "ready": 96,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 5,
-          "workedGuidesReviewed": 95,
-          "pendingMcqGuides": 5,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -436,34 +436,28 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-aap-2020-gs-Q33",
-          "questionNumber": "33",
+          "id": "mpsc-group-b-aap-2020-gs-Q41",
+          "questionNumber": "41",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Held after source review because no unique answer is supported."
         },
         {
-          "id": "mpsc-group-b-aap-2020-gs-Q45",
-          "questionNumber": "45",
+          "id": "mpsc-group-b-aap-2020-gs-Q55",
+          "questionNumber": "55",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-        },
-        {
-          "id": "mpsc-group-b-aap-2020-gs-Q52",
-          "questionNumber": "52",
-          "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Held after source review because no unique answer is supported."
         },
         {
           "id": "mpsc-group-b-aap-2020-gs-Q66",
           "questionNumber": "66",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Held after source review because no unique answer is supported."
         },
         {
           "id": "mpsc-group-b-aap-2020-gs-Q90",
           "questionNumber": "90",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Held after source review because no unique answer is supported."
         }
       ]
     },

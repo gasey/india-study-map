@@ -755,3 +755,9 @@ Three large papers were source-checked and added to the solved bank:
 - Inspector Excise General Studies-III (2019): 97 derived answers; Q83, Q92 and Q93 held. Restored missing Q10 and Q100 and corrected mislabeled/duplicated options.
 
 The build now contains 404 papers / 26,888 records (25,867 MCQs), with 17,246 practice-ready questions and 8,322 official-key-backed. Source review covers 9,494 MCQs; 8,969 remain unreviewed and 525 reviewed items are held. Known missing MCQs: 731.
+
+## Assistant Public Prosecutor General Studies review — 12 October 2026
+
+The 100-question November 2020 paper was checked against its scan. Ninety-six independent answers now include explanations; Q41, Q55, Q66 and Q90 are held for ambiguity/figure quality. Q45 was corrected to match the printed wording (“no desert,” without “hot”). Where the independent answer disagrees with the published key, the module retains the conflict for review instead of silently replacing the key.
+
+Current generated coverage: 404 papers / 26,888 records (25,867 MCQs), with 17,247 practice-ready questions and 8,322 official-key-backed. Source review covers 9,493 MCQs; 8,969 remain unreviewed, 524 reviewed items are held, and 731 known MCQs are still missing from extraction.

@@ -138141,6 +138141,5849 @@
           "answerConfidence": "high"
         }
       }
+    },
+    "inspector-excise-2019-english-p2": {
+      "sourceSha256": "e5b7885881833289bc1dee7c65e44fad9cb032a98fdfcee3397f34da821f9103",
+      "expectedMcq": 100,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 MCQs of the November 2019 Inspector under Excise & Narcotics Department General English Paper-II were read against public/papers/group-b/inspector-excise-2019-english-p2.pdf (10 printed pages; source SHA256 e5b7885881833289bc1dee7c65e44fad9cb032a98fdfcee3397f34da821f9103). The PDF has a text layer; every stem, option and option order was cross-checked character for character against the page. Emphasis was verified from the page itself, not from the OCR text: the ten underlined targets of Q1–10 were located by matching the page's ten thin filled underline rectangles to the exact printed word (few, laughter, Someone, always, within, among, crowd, Though, huge, must) and are stored as __underline__; the bold idioms/target words of Q71–90 were read from the bold font runs and are stored as **bold**. No official key is published for this paper (keyHref null), so all answers are independent solutions checked against the printed wording. 93 items are derived; 7 are held unscored with reasons.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "There are a __few__ boys inside the classroom.",
+          "multi": false
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The sound of __laughter__ fills the air.",
+          "multi": false
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Verb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__Someone__ has broken the window-pane.",
+          "multi": false
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Preposition",
+            "b": "Adjective",
+            "c": "Adverb",
+            "d": "Verb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I __always__ help the weak and needy.",
+          "multi": false
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Preposition",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I shall return __within__ a week.",
+          "multi": false
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Verb",
+            "d": "Preposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The money was divided __among__ the thieves.",
+          "multi": false
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A large __crowd__ had gathered to watch the show.",
+          "multi": false
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Preposition",
+            "b": "Conjunction",
+            "c": "Pronoun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__Though__ he worked hard, he failed.",
+          "multi": false
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Verb",
+            "d": "Preposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I saw a __huge__ caterpillar in the garden.",
+          "multi": false
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 1-10): Identify the parts of speech of each underlined words:",
+          "opts": {
+            "a": "Adverb",
+            "b": "Pronoun",
+            "c": "Verb",
+            "d": "Preposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I __must__ finish this work tonight.",
+          "multi": false
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "between",
+            "b": "with",
+            "c": "among",
+            "d": "alongwith"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Sweets were distributed __________ the children.",
+          "multi": false
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "at",
+            "b": "in",
+            "c": "by",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I was born ______ Thursday, 12th March.",
+          "multi": false
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "above",
+            "b": "over",
+            "c": "under",
+            "d": "next"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He lives in the apartment _________ mine.",
+          "multi": false
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "besides",
+            "b": "aside",
+            "c": "astride",
+            "d": "beside"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was sitting __________ the road.",
+          "multi": false
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "for",
+            "b": "upto",
+            "c": "since",
+            "d": "until"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I have been working  _______ five hours.",
+          "multi": false
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "by",
+            "b": "with",
+            "c": "to",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The thief was beaten ______ a stick.",
+          "multi": false
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "at",
+            "b": "on",
+            "c": "within",
+            "d": "by"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I shall return _______ a week.",
+          "multi": false
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "to",
+            "b": "with",
+            "c": "on",
+            "d": "by"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You must abide _____ the rules of the school.",
+          "multi": false
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "upon",
+            "b": "to",
+            "c": "by",
+            "d": "at"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is a disgrace _____ his family.",
+          "multi": false
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 11-20): Choose the appropriate preposition from the alternatives given under each sentence.",
+          "opts": {
+            "a": "to",
+            "b": "with",
+            "c": "by",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is blind _______ the faults of his lover.",
+          "multi": false
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "lost",
+            "b": "lose",
+            "c": "loose",
+            "d": "loss"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was distressed by the _______ of his watch.",
+          "multi": false
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "have been waiting",
+            "b": "was waiting",
+            "c": "will have been waiting",
+            "d": "waits"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I ____________ for you since this morning.",
+          "multi": false
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "takes",
+            "b": "is taking",
+            "c": "have taken",
+            "d": "had took"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He ________  the local bus daily.",
+          "multi": false
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "does",
+            "b": "had done",
+            "c": "is doing",
+            "d": "will do"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Don’t disturb him while he _________ his homework.",
+          "multi": false
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "finished",
+            "b": "have finished",
+            "c": "had finish",
+            "d": "has finished"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I  _________ the assignment given to me.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“I ___ the assignment given to me”: with no time adverbial, both (a) “finished” (simple past) and (b) “have finished” (present perfect) complete the sentence grammatically and mean the same completed action. (c) “had finish” and (d) “has finished” do not agree with “I”. The printed stem supplies no cue to choose between (a) and (b).",
+          "reviewNote": "Held unscored: no time adverbial or context in the print selects between (a) “finished” (simple past) and (b) “have finished” (present perfect); both are grammatical and equivalent for this isolated sentence. (c) and (d) are wrong for the subject “I”. The legacy inferred candidate says “have finished”, which the print does not establish."
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "already started",
+            "b": "would already started",
+            "c": "had already started",
+            "d": "is already starting"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The service ____________ when we reached the church.",
+          "multi": false
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "steal",
+            "b": "have stolen",
+            "c": "had stolen",
+            "d": "steals"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The thief ________ a rare stamp from the collector.",
+          "multi": false
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "hurted",
+            "b": "hurt",
+            "c": "hurts",
+            "d": "hurten"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I cannot forgive him because he has ________ me deeply.",
+          "multi": false
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "is raining",
+            "b": "rains",
+            "c": "has been raining",
+            "d": "has rained"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It ___________ right now in Aizawl.",
+          "multi": false
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 21-30): Fill in the blanks with appropriate forms of verbs from the four alternatives given below:",
+          "opts": {
+            "a": "sing",
+            "b": "sang",
+            "c": "sung",
+            "d": "singed"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Have you ever _________ in public?",
+          "multi": false
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+          "opts": {
+            "a": "yet",
+            "b": "hence",
+            "c": "but",
+            "d": "still"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He tried his best ______ could not succeed.",
+          "multi": false
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+          "opts": {
+            "a": "and",
+            "b": "but",
+            "c": "lest",
+            "d": "since"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You may go now _________ your teacher has not come.",
+          "multi": false
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+          "opts": {
+            "a": "since",
+            "b": "as",
+            "c": "because",
+            "d": "though"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__________ he ran fast, he missed the bus.",
+          "multi": false
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+          "opts": {
+            "a": "as long as",
+            "b": "lest",
+            "c": "as soon as",
+            "d": "no sooner than"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Please call me _________ you reach home.",
+          "multi": false
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 31-35): Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+          "opts": {
+            "a": "because",
+            "b": "as soon as",
+            "c": "unless",
+            "d": "while"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I shall not pardon you ________ you confess.",
+          "multi": false
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing the correct adjectives and adverbs given:",
+          "opts": {
+            "a": "nearly",
+            "b": "dearly",
+            "c": "mostly",
+            "d": "completely"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I ___________ hit him this morning with my bike.",
+          "multi": false
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing the correct adjectives and adverbs given:",
+          "opts": {
+            "a": "few",
+            "b": "little",
+            "c": "small",
+            "d": "many"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I have a _________ words to say to you.",
+          "multi": false
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing the correct adjectives and adverbs given:",
+          "opts": {
+            "a": "what",
+            "b": "whose",
+            "c": "those",
+            "d": "which"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Can you tell me __________ pen is yours?",
+          "multi": false
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing the correct adjectives and adverbs given:",
+          "opts": {
+            "a": "much",
+            "b": "many",
+            "c": "number of",
+            "d": "any"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Can you tell me how ________ books are inside the cupboard?",
+          "multi": false
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 36 – 40): Fill in the blanks choosing the correct adjectives and adverbs given:",
+          "opts": {
+            "a": "hardly",
+            "b": "hardily",
+            "c": "hard",
+            "d": "hardfully"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He works _______; that is why he succeeded.",
+          "multi": false
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 – 45): Identify the following sentences:",
+          "opts": {
+            "a": "Complex Sentence",
+            "b": "Compound sentence",
+            "c": "Simple sentence",
+            "d": "Adverbial sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Finishing my paper, I gave it to the teacher.",
+          "multi": false
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 – 45): Identify the following sentences:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound sentence",
+            "c": "Simple Sentence",
+            "d": "Noun clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Everyone knows that the earth is round.",
+          "multi": false
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 – 45): Identify the following sentences:",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Adjectival clause",
+            "c": "Complex Sentence",
+            "d": "Adverbial clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I have sold my cow which was black in colour.",
+          "multi": false
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 – 45): Identify the following sentences:",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Adverbial clause",
+            "c": "Noun clause",
+            "d": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "That he cannot stand.",
+          "multi": false
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 – 45): Identify the following sentences:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Adjectival clause",
+            "c": "Adverbial sentence",
+            "d": "Compound sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Either John or Mary has done it.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“Either John or Mary has done it” contains a single independent clause: the correlative “either … or” joins two subjects into one compound subject, and “has done it” is the single predicate. It is therefore a simple sentence, but “Simple sentence” is not among the printed choices; (a) Complex and (b)/(c) are clause/phrase labels, and (d) Compound would require two independent clauses.",
+          "reviewNote": "Held unscored: the printed sentence is a Simple sentence (one clause with a compound subject), but the option “Simple sentence” is absent. The nearest choice (d) Compound sentence is not grammatically accurate, so no printed option is correct."
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 46 – 50): Convert the given sentences as directed in the brackets:",
+          "opts": {
+            "a": "Alongwith being punished, he was also fined.",
+            "b": "He was not only punished but fined also.",
+            "c": "Being punished, he was fined.",
+            "d": "He was also punished and fined."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was punished. He was fined also. (To compound)",
+          "multi": false
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 46 – 50): Convert the given sentences as directed in the brackets:",
+          "opts": {
+            "a": "Being dishonest, nobody likes him.",
+            "b": "Nobody likes him because he is dishonest.",
+            "c": "He is dishonest and not liked by anybody.",
+            "d": "He is dishonest. Nobody likes him."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "As he is dishonest, so nobody likes him. (To Simple)",
+          "multi": false
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 46 – 50): Convert the given sentences as directed in the brackets:",
+          "opts": {
+            "a": "My common sense led me to believe that he was cheating me.",
+            "b": "That he was cheating me was led by my common sense to believe it.",
+            "c": "My common sense led me to believe he was cheating me.",
+            "d": "He was cheating me since my common sense led me to believe it."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My common sense led me to believe it. He was cheating me. (To Complex)",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“To complex” requires a main clause plus a subordinate clause. Both (a) “My common sense led me to believe that he was cheating me” and (c) “My common sense led me to believe he was cheating me” embed the noun clause “he was cheating me” as the object of “believe”; the complementiser “that” is optional after “believe”, so both are complex sentences and the print gives no basis to prefer one.",
+          "reviewNote": "Held unscored: options (a) and (c) are both complex sentences — the noun clause “he was cheating me” is the object of “believe” in each, with optional “that”. The print does not single out one, so no unique answer can be confirmed."
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 46 – 50): Convert the given sentences as directed in the brackets:",
+          "opts": {
+            "a": "Ram is my friend as well as the son of a landlord.",
+            "b": "Ram is my friend who is the son of a landlord.",
+            "c": "Ram, my friend, is the son of a landlord.",
+            "d": "Ram is both my friend as well as the son of a landlord."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ram is my friend. He is the son of a landlord. (To simple)",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“To simple” requires a single clause. Both (a) “Ram is my friend as well as the son of a landlord” (one subject with a compound predicate) and (c) “Ram, my friend, is the son of a landlord” (appositive) are simple sentences that keep both printed facts. (b) is a complex sentence and (d) misuses “both … as well as”.",
+          "reviewNote": "Held unscored: options (a) and (c) are both correct simple-sentence syntheses preserving the two printed facts (Ram is my friend; he is the son of a landlord), so the print determines no unique answer."
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 46 – 50): Convert the given sentences as directed in the brackets:",
+          "opts": {
+            "a": "He worked very hard and his health broke down.",
+            "b": "He worked so hard that his health broke down.",
+            "c": "Having worked very hard, his health broke down.",
+            "d": "His health broke down by dint of hard work."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He worked very hard. His health broke down. (To complex)",
+          "multi": false
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "Since I must be punished, I am at fault.",
+            "b": "I must be punished since I am at fault.",
+            "c": "I must be punished because I am at fault since.",
+            "d": "I am at fault since I must be punished."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I must be punished. I am at fault (Use ‘since’)",
+          "multi": false
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "The woman manager is in green saree",
+            "b": "The woman who is in green saree is the manager of the team",
+            "c": "The manager who is in green saree",
+            "d": "The woman is the manager who is in green saree"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The woman is in a green saree. She is the manager of the team. (Use a relative pronoun)",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“Use a relative pronoun”: both (b) “The woman who is in green saree is the manager of the team” and (d) “The woman is the manager who is in green saree” contain the relative pronoun “who” and keep both printed facts (the woman wears a green saree; she manages the team). (a) has no relative pronoun and (c) is a fragment.",
+          "reviewNote": "Held unscored: options (b) and (d) are both grammatical syntheses using the relative pronoun “who” and preserving both printed facts, so the item has no unique answer from the print."
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "One cannot take a bath since it is very cold.",
+            "b": "It is very cold as I cannot take a bath.",
+            "c": "It is too cold to take a bath.",
+            "d": "Owing to the cold, one cannot take a bath."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It is very cold. One cannot take a bath. (Use an infinitive)",
+          "multi": false
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "John has done it either or Jacob has done it.",
+            "b": "Either one of them has done it or John or Jacob.",
+            "c": "Either John has done it. Or Jacob has done it.",
+            "d": "Either John or Jacob has done it."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "John has done it. Jacob has done it. It must be done by one of them. (Use ‘either..or’)",
+          "multi": false
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "I cannot read his note-book for his hand writing is poor.",
+            "b": "His poor hand writing, for I cannot read his note-book.",
+            "c": "His note-book is poor for his hand writing.",
+            "d": "I cannot read his poor writing for his note-book."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I cannot read his note-book. His hand writing is poor. (Use ‘ for’)",
+          "multi": false
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "He tried to lift the box and he wanted to succeed.",
+            "b": "He successfully tried to lift the box.",
+            "c": "He tried to lift the box with success.",
+            "d": "He tried to lift the box successfully."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He tried to lift the box. He wanted to succeed. (Use adverb or adverbial phrase)",
+          "multi": false,
+          "unscored": true,
+          "explanation": "The direction allows “adverb or adverbial phrase”. (b) “He successfully tried to lift the box” and (d) “He tried to lift the box successfully” use the adverb “successfully”, while (c) “He tried to lift the box with success” uses the adverbial phrase “with success”. All three satisfy the instruction and preserve the two printed facts, so the print gives no unique answer.",
+          "reviewNote": "Held unscored: (b) and (d) use the adverb “successfully” and (c) uses the adverbial phrase “with success”; the direction permits either, so three printed options are acceptable and no unique answer can be confirmed."
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "The movie was over and the audience went out of the theatre.",
+            "b": "The movie being over, the audience went out of the theatre.",
+            "c": "The audience went out of the theatre since the movie was over.",
+            "d": "After the movie was over, the audience went out of the theatre."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The movie was over. The audience went out of the theater. (Use participial phrase)",
+          "multi": false
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "Though he failed, he worked hard.",
+            "b": "he worked hard though he failed.",
+            "c": "He failed to work hard though.",
+            "d": "He failed though he worked hard."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He failed. He worked hard. (Use ‘though’)",
+          "multi": false
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "My father is too overjoyed to hear of my success.",
+            "b": "My father heard of my success to overjoy.",
+            "c": "My father is overjoyed to hear of my success.",
+            "d": "My father heard of my success as he is too overjoyed."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My father heard of my success. He is overjoyed. (Use infinitive)",
+          "multi": false
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 – 60): Synthesise the sentences as directed in the brackets:",
+          "opts": {
+            "a": "Not only she is beautiful but also charming.",
+            "b": "She is not only beautiful, but also charming.",
+            "c": "She is not beautiful, but also charming only.",
+            "d": "She is not only but also beautiful. She is charming."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She is beautiful. She is charming. (Use ‘not only…but also)",
+          "multi": false
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 61-65): Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given:",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Exclamatory",
+            "c": "Interrogative",
+            "d": "Imperative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You are a lazy boy.",
+          "multi": false
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 61-65): Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given:",
+          "opts": {
+            "a": "Interrogative",
+            "b": "Assertive",
+            "c": "Imperative",
+            "d": "Exclamatory"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Can anyone be this stupid?",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“Can anyone be this stupid?” is interrogative in form (it ends with “?”) but rhetorical in force, representing an exclamation rather than a genuine request for information. Both (a) Interrogative and (d) Exclamatory are defensible readings of the “notion expressed”, and the print does not settle which the setter intended.",
+          "reviewNote": "Held unscored: the printed sentence is a rhetorical question — interrogative in form, exclamatory in force — so both (a) Interrogative and (d) Exclamatory are defensible and the print provides no way to choose."
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 61-65): Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given:",
+          "opts": {
+            "a": "Interrogative",
+            "b": "Optative",
+            "c": "Assertive",
+            "d": "Imperative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She visits her grandmother during the holidays.",
+          "multi": false
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 61-65): Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given:",
+          "opts": {
+            "a": "Optative",
+            "b": "Assertive",
+            "c": "Exclamatory",
+            "d": "Imperative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fetch me my slippers at once.",
+          "multi": false
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Question 61-65): Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given:",
+          "opts": {
+            "a": "Imperative",
+            "b": "Affirmative",
+            "c": "Assertive",
+            "d": "Interrogative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Please take me with you.",
+          "multi": false
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 66 – 70): Transform the following sentences as directed:",
+          "opts": {
+            "a": "A dreadful smell indeed.",
+            "b": "It is a dreadful smell.",
+            "c": "May it be a dreadful smell!",
+            "d": "It smells."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What a dreadful smell! (To assertive)",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 66 – 70): Transform the following sentences as directed:",
+          "opts": {
+            "a": "Does every rose have its thorn?",
+            "b": "Does a thorn has every rose?",
+            "c": "Had every rose have its thorn?",
+            "d": "Is every thorn had by a rose?"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Every rose has its thorn. (To interrogative)",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 66 – 70): Transform the following sentences as directed:",
+          "opts": {
+            "a": "Alas! Your homework has not been done.",
+            "b": "May your homework be done!",
+            "c": "You have done your homework.",
+            "d": "Has your homework been done by you?"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Have you done your homework? (Change to assertive)",
+          "multi": false
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 66 – 70): Transform the following sentences as directed:",
+          "opts": {
+            "a": "Did you hurry up?",
+            "b": "You are so slow.",
+            "c": "Can you please hurry up?",
+            "d": "Kindly hurry up."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Hurry up. (Change to interrogative)",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 66 – 70): Transform the following sentences as directed:",
+          "opts": {
+            "a": "Close the door, please.",
+            "b": "You have closed the door.",
+            "c": "Oh! that the door may be closed!",
+            "d": "Would that the door be closed!"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Will you please close the door? (Change to imperative)",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to withdraw",
+            "b": "to approach",
+            "c": "to recover",
+            "d": "to take out a weapon"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "After a long illness, he has **drawn near** to death.",
+          "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "morning",
+            "b": "getting a makeover",
+            "c": "to become richer",
+            "d": "to become known"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "After a thorough investigation, last night’s events have **come to light**",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to talk irrelevantly without coming to a point",
+            "b": "gardening",
+            "c": "to dig a grave",
+            "d": "to live in solitude"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I cannot stand his tendency **to beat about the bush**.",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to be successful",
+            "b": "to destroy",
+            "c": "to live without something",
+            "d": "to depend on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We have learnt **to do without** luxury items.",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to take a bath",
+            "b": "to recover peacefully",
+            "c": "to be in trouble",
+            "d": "to live one’s best life"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is **in hot water** after lying to the police.",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to travel",
+            "b": "to take a breath of fresh air",
+            "c": "to boast",
+            "d": "to break free from a harsh situation"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How dare she **give herself airs** when everyone knows that she is broke.",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "to uphold one’s heritage",
+            "b": "to keep up one’s position",
+            "c": "to safeguard oneself",
+            "d": "to be defeated"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Tom managed **to hold his own** against the nationwide champions.",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "twin",
+            "b": "wife",
+            "c": "strength of character",
+            "d": "faith in God"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He would have been a poor man if not for his **better-half**.",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "a generous man",
+            "b": "a miser",
+            "c": "an introvert",
+            "d": "a violent man"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "John is a **close-fisted man** who would rather starve than give away something for free.",
+          "multi": false
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases given in bold letters from the four alternatives given below:",
+          "opts": {
+            "a": "close neighbours",
+            "b": "having similar backgrounds",
+            "c": "a truce",
+            "d": "bitter enemies"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "India and Pakistan are **at daggers drawn**.",
+          "multi": false
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81- 85): Choose the word nearest in meaning to the words in bold letters:",
+          "opts": {
+            "a": "aware",
+            "b": "oblivious",
+            "c": "suspicious",
+            "d": "ready"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was very **conscious** of the enemy’s approach.",
+          "multi": false
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81- 85): Choose the word nearest in meaning to the words in bold letters:",
+          "opts": {
+            "a": "festive",
+            "b": "poor",
+            "c": "ill",
+            "d": "avoiding society"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She had become **reclusive** after her husband’s death.",
+          "multi": false
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81- 85): Choose the word nearest in meaning to the words in bold letters:",
+          "opts": {
+            "a": "invisible",
+            "b": "near death",
+            "c": "undefeatable",
+            "d": "undetectable"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "After being bitten by a radioactive spider, he had become almost **invincible**.",
+          "multi": false
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81- 85): Choose the word nearest in meaning to the words in bold letters:",
+          "opts": {
+            "a": "prophesied",
+            "b": "unavoidable",
+            "c": "impossible",
+            "d": "amazing"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It was **inevitable** that they should part.",
+          "multi": false
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81- 85): Choose the word nearest in meaning to the words in bold letters:",
+          "opts": {
+            "a": "sympathy",
+            "b": "indifference",
+            "c": "empathy",
+            "d": "amusement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He listened to my tearful story with great **apathy**.",
+          "multi": false
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 86- 90): Choose the word opposite in meaning to the words in bold letters:",
+          "opts": {
+            "a": "frank",
+            "b": "dishonest",
+            "c": "disappointed",
+            "d": "happy"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She was very **candid** about her part in the scandal.",
+          "multi": false
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 86- 90): Choose the word opposite in meaning to the words in bold letters:",
+          "opts": {
+            "a": "proud",
+            "b": "boastful",
+            "c": "generous",
+            "d": "humble"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was a **pompous** man whom everyone hated.",
+          "multi": false
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 86- 90): Choose the word opposite in meaning to the words in bold letters:",
+          "opts": {
+            "a": "unbelievable",
+            "b": "entertaining",
+            "c": "boring",
+            "d": "believable"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We heard this story from a very **credible** source.",
+          "multi": false
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 86- 90): Choose the word opposite in meaning to the words in bold letters:",
+          "opts": {
+            "a": "approachable",
+            "b": "unapproachable",
+            "c": "repairable",
+            "d": "irreparable"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The castle ruins are almost **inaccessible**.",
+          "multi": false
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 86- 90): Choose the word opposite in meaning to the words in bold letters:",
+          "opts": {
+            "a": "real",
+            "b": "truthful",
+            "c": "impolite",
+            "d": "fake"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We were all very surprised by his **genuine** sympathy.",
+          "multi": false
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "an engagement to marry",
+            "b": "practice of spying or using spies",
+            "c": "a newly enlisted soldier",
+            "d": "a short sword fixed on the end of a fire-arm"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Espionage",
+          "multi": false
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "one who collects stamps",
+            "b": "one who blackmails others",
+            "c": "scholar of many languages",
+            "d": "a health professional"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Linguist",
+          "multi": false
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "a man who pursues many women",
+            "b": "one who contributes generously for a cause",
+            "c": "an investigator",
+            "d": "one who copies the writings of other people"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Philanderer",
+          "multi": false
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "an imagined place where everything is perfect",
+            "b": "a practice that has gone out of style",
+            "c": "inability to think logically",
+            "d": "an intoxicated state"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Utopia",
+          "multi": false
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "to happen suddenly",
+            "b": "to copy someone’s work",
+            "c": "to happen at the same time",
+            "d": "to be indifferent to everything"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Simultaneous",
+          "multi": false
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "after one’s death",
+            "b": "inability to pay off one’s debts",
+            "c": "to be unaware of what is happening around one",
+            "d": "to recover from an illness"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Oblivious",
+          "multi": false
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "that which cannot be defeated",
+            "b": "that which cannot be corrupted",
+            "c": "that which cannot be measured",
+            "d": "that which cannot be corrected"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Incorrigible",
+          "multi": false
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "the ruler of a country",
+            "b": "one who abstains from intoxicating drinks",
+            "c": "an earlier event that can be regarded as a guide to subsequent similar events",
+            "d": "property inherited from one’s ancestors"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Precedent",
+          "multi": false
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "someone who does not believe in the concept of God",
+            "b": "someone who is heavy",
+            "c": "a person who is intolerant towards others holding different beliefs",
+            "d": "an extremely extroverted person"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Bigot",
+          "multi": false
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 – 100): Choose the correct word-substitute from the given choices:",
+          "opts": {
+            "a": "an event honouring someone",
+            "b": "the end of an event or process",
+            "c": "something which will never happen again",
+            "d": "to find out something"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Conclusion",
+          "multi": false
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "In “a few boys” the word “few” tells how many boys there are and modifies the noun “boys”; a word that qualifies a noun is an adjective (an adjective of number/quantity), so (c) Adjective.",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "“Laughter” names the thing that “fills the air” and is the object of the preposition “of”; a naming word is a noun, so (a) Noun.",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "“Someone” stands in place of an unspecified person and is the subject of “has broken”; a word used in place of a noun is a pronoun (indefinite pronoun), so (b) Pronoun.",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 2,
+          "explanation": "“Always” answers the question “how often?” about the verb “help” and can be removed without breaking the sentence; a word that modifies a verb is an adverb, so (c) Adverb.",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "“Within” relates the verb “return” to the noun phrase “a week” (within what period), so it is a preposition, (b).",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 3,
+          "explanation": "“Among” relates the passive verb “was divided” to “the thieves” (distribution to more than two), so it is a preposition, (d). “Between” is used for two.",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "“Crowd” is the subject of “had gathered” and names a group of people; it is a noun, (a).",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 1,
+          "explanation": "“Though” joins the subordinate clause “he worked hard” to the main clause “he failed” and expresses concession; a joining word is a conjunction, (b).",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "“Huge” qualifies the noun “caterpillar” (what kind of caterpillar), so it is an adjective, (a).",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "“Must” is a modal auxiliary that combines with the main verb “finish” (“must finish”) to express necessity; it belongs to the verb class, so (c) Verb.",
+          "answerConfidence": "high"
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "“Among” is used when something is distributed to more than two people (“the children”); “between” is for two, so (c) among.",
+          "answerConfidence": "high"
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "A day or date takes “on”: “born on Thursday, 12th March”, so (d) on.",
+          "answerConfidence": "high"
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "One lives “above” someone when the flat is on a higher floor; “above mine” is the usual idiom for the flat directly overhead, so (a) above. “Over” is not used for floors.",
+          "answerConfidence": "high"
+        },
+        "14": {
+          "answerIndex": 3,
+          "explanation": "“Beside” means “at the side of”: “sitting beside the road” (d). “Besides” means “in addition to”, “aside”/“astride” do not fit.",
+          "answerConfidence": "high"
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "“For” is used with a length of time: “working for five hours”; “since” needs a point of time, so (a) for.",
+          "answerConfidence": "high"
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "The instrument of a passive action takes “with”: “beaten with a stick”, so (b) with. “By” would name the agent.",
+          "answerConfidence": "high"
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "“Within a week” means before the week is over, so (c) within.",
+          "answerConfidence": "high"
+        },
+        "18": {
+          "answerIndex": 3,
+          "explanation": "“Abide” takes the fixed preposition “by”: “abide by the rules”, so (d) by.",
+          "answerConfidence": "high"
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "“A disgrace to his family” is the fixed expression, so (b) to.",
+          "answerConfidence": "high"
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "“Blind to” is the fixed expression meaning unable to see/notice: “blind to the faults”, so (a) to.",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "The blank follows “the” and depends on “of his watch”, so a noun is required: “the loss of his watch”. “Lost/lose/loose” are verb/participle/adjective forms, so (d) loss.",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "“Since this morning” marks an action that started in the past and is still going on, which needs the present perfect continuous: “I have been waiting”, so (a).",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "“Daily” signals a habitual present action, and the subject “He” takes the singular present “takes”, so (a).",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "“While” introduces an action going on at the same moment, so the present continuous “is doing” fits: “while he is doing his homework”, so (c).",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "“When we reached the church” fixes a past moment, and the service had already begun before it, so the past perfect “had already started” is required, (c).",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "The sentence reports a single completed theft, not a habit, so the past perfect “had stolen” is the appropriate form, (c). Simple present “steals” would describe a repeated habit.",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "After the auxiliary “has” a past participle is required, and the participle of “hurt” is “hurt”: “has hurt me deeply”, so (b).",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "“Right now” marks an action happening at the moment of speaking, so the present continuous “is raining” is required, (a).",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "“Have you ever …” takes a past participle; the participle of “sing” is “sung”, so (c).",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "The two clauses contrast (“tried his best” / “could not succeed”); the coordinating conjunction “but” joins them, so (c). “Yet”/“still” are possible in other positions but the printed single blank needs “but”.",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "The second clause gives the reason for allowing the person to go (“your teacher has not come”), so the causal conjunction “since” fits, (d). “Lest” would need a subjunctive, and “and/but” do not express the reason.",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "The sentence concedes that he ran fast and still missed the bus; the concessive conjunction is “though”, so (d). “Since/as/because” would reverse the logic.",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "“As soon as you reach home” means at the moment you arrive, so (c) as soon as.",
+          "answerConfidence": "high"
+        },
+        "35": {
+          "answerIndex": 2,
+          "explanation": "“Unless you confess” means if you do not confess; it gives the condition for not pardoning, so (c) unless.",
+          "answerConfidence": "high"
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "“Nearly” means almost; “I nearly hit him” (I almost hit him) is the sense required, so (a). “Completely hit him” would mean he was fully struck, which contradicts “this morning” being an accident.",
+          "answerConfidence": "high"
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "“Words” is a plural countable noun, so “few” is used: “a few words”, (a). “Little” goes with uncountables.",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 3,
+          "explanation": "The sentence asks which one of the pens belongs to the listener: “which pen is yours”, so (d) which. “Whose pen is yours?” is not logical, and “what/those” are ungrammatical here.",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "“Books” is countable plural, so “how many books” is correct, (b). “Much” goes with uncountables.",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "“Hard” is both adjective and adverb meaning “with effort”: “He works hard”, so (c). “Hardly” means scarcely, and the other two are not words.",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "“Finishing my paper” is a participial phrase (not a clause) attached to the single subject “I”, and “I gave it to the teacher” is one independent clause, so the sentence is simple, (c).",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "“Everyone knows” is the main clause and “that the earth is round” is a noun clause acting as its object; a main clause plus a subordinate clause makes a complex sentence, so (a).",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 2,
+          "explanation": "“I have sold my cow” is the main clause and “which was black in colour” is a subordinate relative (adjectival) clause; a main clause with a dependent clause is a complex sentence, so (c). Option (b) names the clause, not the sentence.",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "“That he cannot stand” is a noun clause: “that” introduces a clause that functions as a noun (as the subject or object of an unstated main clause). It is not itself a simple or complex sentence, so (c) Noun clause.",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "“To compound” needs a coordinating link joining the two facts. “He was not only punished but fined also” coordinates the two facts with the correlative “not only … but … also”, so (b). Options (a) and (c) are participial phrases (simple), and (d) merely joins two bare predicates with “and” and does not use the correlative pattern the transform calls for.",
+          "answerConfidence": "high"
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "“To simple” requires one clause. “He is dishonest and not liked by anybody” is a single subject (“He”) with two coordinated predicates, i.e. a simple sentence, so (c). Option (a) “Being dishonest, nobody likes him” is a dangling participle (the participial phrase would have to modify “nobody”, which it cannot), so it is not the correct simple sentence.",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "“To complex” needs a main clause plus a subordinate clause. “He worked so hard that his health broke down” contains the result adverb clause “that his health broke down”, so (b). (a) is compound, and (c)/(d) are simple.",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "With “since” = because, the clause that gives the reason must be “I am at fault”: “I must be punished since I am at fault”, so (b). Options (a) and (d) reverse the cause and (c) is malformed.",
+          "answerConfidence": "high"
+        },
+        "53": {
+          "answerIndex": 2,
+          "explanation": "“To take” is the infinitive, and the “too … to” pattern expresses the result: “It is too cold to take a bath”, so (c). (a), (b) and (d) contain no infinitive construction of the required type.",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 3,
+          "explanation": "“Either … or” joins the two names as the subject: “Either John or Jacob has done it”, so (d). (a) and (c) misplace the correlatives and (b) has no finite verb.",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "“For” here means “because” and must introduce the reason clause: “I cannot read his note-book for his hand writing is poor”, so (a).",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 1,
+          "explanation": "The participial construction is the absolute “The movie being over, …”: “The movie being over, the audience went out of the theatre”, so (b). (a), (c) and (d) use full clauses.",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 3,
+          "explanation": "The facts are that he worked hard and still failed, so the concessive clause must be “he worked hard”: “He failed though he worked hard”, so (d). Options (a) and (b) reverse the concession.",
+          "answerConfidence": "high"
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "The infinitive “to hear” is needed after “overjoyed”: “My father is overjoyed to hear of my success”, so (c). (a) uses “too … to” and changes the sense.",
+          "answerConfidence": "high"
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "“Not only … but also” must join the two complements after the verb: “She is not only beautiful, but also charming”, so (b). (a) has wrong word order and (d) is malformed.",
+          "answerConfidence": "high"
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "“You are a lazy boy.” states a fact in the affirmative, so its notion is affirmative/declarative, (a) Affirmative.",
+          "answerConfidence": "high"
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "“She visits her grandmother during the holidays.” makes a statement, so it is assertive, (c).",
+          "answerConfidence": "high"
+        },
+        "64": {
+          "answerIndex": 3,
+          "explanation": "“Fetch me my slippers at once” gives a command, so it is imperative, (d).",
+          "answerConfidence": "high"
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "“Please take me with you” makes a request/command, so it is imperative, (a).",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The exclamation “What a dreadful smell!” asserts that something is a dreadful smell: “It is a dreadful smell”, so (b). (a) is a fragment and (d) loses the description.",
+          "answerConfidence": "high"
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "To make it interrogative, the auxiliary “does” is used with the subject: “Does every rose have its thorn?”, so (a). (b) keeps the wrong verb form, (c)/(d) are ungrammatical.",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "The question “Have you done your homework?” becomes the statement “You have done your homework”, so (c). (a)/(b) change the mood and (d) remains a question.",
+          "answerConfidence": "high"
+        },
+        "69": {
+          "answerIndex": 2,
+          "explanation": "The imperative “Hurry up.” becomes the polite request-question “Can you please hurry up?”, so (c). (a) shifts to the past and (b)/(d) are not questions.",
+          "answerConfidence": "high"
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "The polite question “Will you please close the door?” becomes the imperative “Close the door, please.”, so (a). (b) is a statement and (c)/(d) are optative.",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "“Drawn near to death” means approaching death, i.e. “to approach”, (b).",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "“Come to light” means to become known/revealed, so (d) to become known.",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "“To beat about the bush” means to talk around the point without coming to it, so (a).",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "“To do without luxury items” means to manage or live without them, so (c) to live without something.",
+          "answerConfidence": "high"
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "“In hot water” means in trouble/difficulty, so (c) to be in trouble.",
+          "answerConfidence": "high"
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "“To give herself airs” means to behave as if she is superior, i.e. to boast, so (c).",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "“To hold his own” means to keep up one’s position / not be defeated, so (b) to keep up one’s position.",
+          "answerConfidence": "high"
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "“Better-half” is a jocular term for one’s wife/husband; in “his better-half” it means his wife, so (b).",
+          "answerConfidence": "high"
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "A “close-fisted man” is one who is unwilling to spend, i.e. a miser, so (b).",
+          "answerConfidence": "high"
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "“At daggers drawn” means in bitter enmity, so (d) bitter enemies.",
+          "answerConfidence": "high"
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "“Conscious of” means aware of, so the synonym is (a) aware. “Oblivious” is the opposite.",
+          "answerConfidence": "high"
+        },
+        "82": {
+          "answerIndex": 3,
+          "explanation": "“Reclusive” means avoiding the company of others, so the nearest meaning is (d) avoiding society.",
+          "answerConfidence": "high"
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "“Invincible” means too strong to be defeated, so the synonym is (c) undefeatable. “Invisible” sounds similar but means unseen.",
+          "answerConfidence": "high"
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "“Inevitable” means that which cannot be avoided, so the synonym is (b) unavoidable.",
+          "answerConfidence": "high"
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "“Apathy” means lack of interest/feeling, so the synonym is (b) indifference. “Sympathy/empathy” are near-opposites.",
+          "answerConfidence": "high"
+        },
+        "86": {
+          "answerIndex": 1,
+          "explanation": "“Candid” means frank/open; its opposite is (b) dishonest (not open). “Frank” is a synonym.",
+          "answerConfidence": "high"
+        },
+        "87": {
+          "answerIndex": 3,
+          "explanation": "“Pompous” means self-important/arrogant; its opposite is (d) humble. “Proud/boastful” are synonyms.",
+          "answerConfidence": "high"
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "“Credible” means believable; its opposite is (a) unbelievable. “Believable” is a synonym.",
+          "answerConfidence": "high"
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "“Inaccessible” means not reachable/approachable; its opposite is (a) approachable. “Unapproachable” is a synonym.",
+          "answerConfidence": "high"
+        },
+        "90": {
+          "answerIndex": 3,
+          "explanation": "“Genuine” means real/sincere; its opposite is (d) fake. “Real/truthful” are synonyms.",
+          "answerConfidence": "high"
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "Espionage is the practice of spying or using spies, so (b).",
+          "answerConfidence": "high"
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "A linguist is a scholar of language(s), so (c) scholar of many languages.",
+          "answerConfidence": "high"
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "A philanderer is a man who pursues many women (a). “Investigator” and “copier” describe other words.",
+          "answerConfidence": "high"
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "Utopia is an imagined place where everything is perfect, so (a).",
+          "answerConfidence": "high"
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "Simultaneous means happening at the same time, so (c).",
+          "answerConfidence": "high"
+        },
+        "96": {
+          "answerIndex": 2,
+          "explanation": "Oblivious means unaware of what is happening around one, so (c).",
+          "answerConfidence": "high"
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Incorrigible means that which cannot be corrected, so (d).",
+          "answerConfidence": "high"
+        },
+        "98": {
+          "answerIndex": 2,
+          "explanation": "A precedent is an earlier event regarded as a guide to subsequent similar events, so (c).",
+          "answerConfidence": "high"
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "A bigot is a person intolerant of others holding different beliefs, so (c).",
+          "answerConfidence": "high"
+        },
+        "100": {
+          "answerIndex": 1,
+          "explanation": "Conclusion is the end of an event or process, so (b).",
+          "answerConfidence": "high"
+        }
+      }
+    },
+    "seo-2020-english-p2": {
+      "sourceSha256": "1e9c74bdf10bd03b7dc250a5aaddbb974291091fd1b92ea763c34ce801ec9a87",
+      "expectedMcq": 100,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 SEO 2020 General English Paper-II MCQs checked against printed paper (8 pages, sha256 confirmed). Derived from printed wording; holds where print text ambiguous or options insufficient.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q1",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb - 'grumpily' modifies 'got'",
+          "reviewNote": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q2",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb - 'hibernated' / 'winter' underlined; (b) Adverb selected",
+          "reviewNote": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q3",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'love' underlined",
+          "reviewNote": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q4",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'culprit' underlined",
+          "reviewNote": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q5",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'personality' underlined",
+          "reviewNote": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q6",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'couch' underlined",
+          "reviewNote": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q7",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'dog' underlined",
+          "reviewNote": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q8",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'items' underlined",
+          "reviewNote": null
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q9",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Underlined word not clearly identifiable from printed text layer alone; held unscored.",
+          "reviewNote": "Held unscored: underlined word identification ambiguous from print text"
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Adverb",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q10",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Underlined word not clearly identifiable from printed text layer alone; held unscored.",
+          "reviewNote": "Held unscored: underlined word identification ambiguous from print text"
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q11",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q12",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q13",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q14",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q15",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q16",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q17",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q18",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q19",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q20",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q21",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"on\" fits \"lying ______ the table\"",
+          "reviewNote": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q22",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"in\" fits \"sat ______ her crush\"",
+          "reviewNote": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q23",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"from\" fits \"can't live ______ his phone\"",
+          "reviewNote": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q24",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"in\" fits \"born in 1992\"",
+          "reviewNote": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q25",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"on\" fits \"do my work ______ night\"",
+          "reviewNote": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q26",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"at\" fits \"at the entrance\"",
+          "reviewNote": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q27",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"during\" fits \"guitar ______ the holidays\"",
+          "reviewNote": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q28",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"through\" fits \"go ______ some of the important stuff\"",
+          "reviewNote": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q29",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"to\" fits \"cruel ______ everyone\"",
+          "reviewNote": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q30",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"before\" fits \"about an hour ______ the marathon\"",
+          "reviewNote": null
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q31",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition understood - \"start at dawn\"",
+          "reviewNote": null
+        },
+        "32": {
+          "n": 32,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q32",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - \"had enough\" describes how",
+          "reviewNote": null
+        },
+        "33": {
+          "n": 33,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q33",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Frequency - \"seldom\"",
+          "reviewNote": null
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q34",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - \"patiently\"",
+          "reviewNote": null
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q35",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Time - \"lately\"",
+          "reviewNote": null
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 32 - 40) : Identify the correct form of adverb of the underlined words.",
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q36",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Adverb type not clearly matching options from print text alone; held unscored.",
+          "reviewNote": "Held unscored: adverb category ambiguous from print text"
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q37",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Frequency - \"always\"",
+          "reviewNote": null
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q38",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Time - \"recently\"",
+          "reviewNote": null
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q39",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - \"neatly\"",
+          "reviewNote": null
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q40",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Frequency - \"normally\"",
+          "reviewNote": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q41",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Simple Sentence - one independent clause",
+          "reviewNote": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q42",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by \"but\"",
+          "reviewNote": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q43",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex Sentence - \"After working out...\" is a dependent clause",
+          "reviewNote": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q44",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound-Complex Sentence",
+          "reviewNote": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q45",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound-Complex Sentence",
+          "reviewNote": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q46",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by \"and\"",
+          "reviewNote": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q47",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex Sentence - \"who taught us Calculus\" is a relative clause",
+          "reviewNote": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q48",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by \"so\"",
+          "reviewNote": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q49",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence",
+          "reviewNote": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q50",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by \"and\"",
+          "reviewNote": null
+        },
+        "51": {
+          "n": 51,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q51",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Negative transformation: \"None but a brave man can do this.\"",
+          "reviewNote": null
+        },
+        "52": {
+          "n": 52,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q52",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Negative transformation: \"None but I need 30 dollars only.\"",
+          "reviewNote": null
+        },
+        "53": {
+          "n": 53,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q53",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Interrogative transformation: \"Is drinking a terrible habit?\"",
+          "reviewNote": null
+        },
+        "54": {
+          "n": 54,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q54",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Interrogative transformation: \"Can anyone deny that he won?\"",
+          "reviewNote": null
+        },
+        "55": {
+          "n": 55,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q55",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Imperative transformation: \"Let the work be done by you.\"",
+          "reviewNote": null
+        },
+        "56": {
+          "n": 56,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q56",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Imperative transformation: \"Let the work be done by her.\"",
+          "reviewNote": null
+        },
+        "57": {
+          "n": 57,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q57",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Simple transformation: \"He ran away when he saw his parents.\"",
+          "reviewNote": null
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q58",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound transformation: \"Work hard and you will succeed.\"",
+          "reviewNote": null
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q59",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Simple transformation: \"Salam is a very intelligent boy.\"",
+          "reviewNote": null
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "Transformed version",
+            "b": "Alternative",
+            "c": "Another",
+            "d": "Yet another"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q60",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound transformation: \"He admitted his guilt and faced the consequences.\"",
+          "reviewNote": null
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q61",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"what they should do\" functions as object of \"need\"",
+          "reviewNote": null
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q62",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb Clause - \"where you are\" tells where",
+          "reviewNote": null
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q63",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adjective Clause - \"whose eyes were green\" modifies \"girlfriend\"",
+          "reviewNote": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q64",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"who laughs last\" is the subject complement",
+          "reviewNote": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q65",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"who he is\" is the object of \"know\"",
+          "reviewNote": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q66",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"What I want for Christmas\" is the subject",
+          "reviewNote": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q67",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb Clause - \"till I come back\" tells when",
+          "reviewNote": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q68",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"what she adds to her stew\" is the object of \"know\"",
+          "reviewNote": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q69",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"what happened\" is the object of \"see\"",
+          "reviewNote": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q70",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause - \"Whether you like it or not\" is the subject",
+          "reviewNote": null
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q71",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Envious - synonymous with jealous",
+          "reviewNote": null
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q72",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Astute - synonymous with smart",
+          "reviewNote": null
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q73",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Essential - synonymous with essential",
+          "reviewNote": null
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q74",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Appropriate synonym for \"irrelevant\"",
+          "reviewNote": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q75",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Terrible - synonymous with \"awful\"",
+          "reviewNote": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q76",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Engaging - synonymous with \"interesting\"",
+          "reviewNote": null
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q77",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Novel - synonymous with \"new\"",
+          "reviewNote": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q78",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Feeble - synonymous with \"weak\"",
+          "reviewNote": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q79",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Enormous - synonymous with \"huge\"",
+          "reviewNote": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q80",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Excessive - synonymous with \"excess\"",
+          "reviewNote": null
+        },
+        "81": {
+          "n": 81,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q81",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Normal people - \"the rank and file\" refers to ordinary members",
+          "reviewNote": null
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q82",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Under someone's control - 'under one's thumb' idiom meaning",
+          "reviewNote": null
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q83",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Raining heavily - \"rain cats and dogs\" idiom",
+          "reviewNote": null
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q84",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Very anxious - \"like a cat on hot bricks\" idiom",
+          "reviewNote": null
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q85",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Cheerful - \"in high spirits\" idiom",
+          "reviewNote": null
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q86",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Reveal - \"bring to light\" idiom",
+          "reviewNote": null
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q87",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Unexpected event - \"a bolt from the blue\" idiom",
+          "reviewNote": null
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q88",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Very expensive - \"cost an arm and a leg\" idiom",
+          "reviewNote": null
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q89",
+          "multi": false,
+          "unscored": false,
+          "explanation": "In strong disagreement - \"at daggers drawn\" idiom",
+          "reviewNote": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q90",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Run away quickly - \"take to one's heels\" idiom",
+          "reviewNote": null
+        },
+        "91": {
+          "n": 91,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q91",
+          "multi": false,
+          "unscored": false,
+          "explanation": "have been - present perfect continuous: \"I have been playing for quite some time\"",
+          "reviewNote": null
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q92",
+          "multi": false,
+          "unscored": false,
+          "explanation": "much - correct for uncountable noun \"tea\"",
+          "reviewNote": null
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q93",
+          "multi": false,
+          "unscored": false,
+          "explanation": "has come - present perfect: \"The time has come for me to leave\"",
+          "reviewNote": null
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q94",
+          "multi": false,
+          "unscored": false,
+          "explanation": "to - \"Would you like to tag along?\"",
+          "reviewNote": null
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q95",
+          "multi": false,
+          "unscored": false,
+          "explanation": "a subject - present continuous study: \"I am currently studying [subject]\"",
+          "reviewNote": null
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q96",
+          "multi": false,
+          "unscored": false,
+          "explanation": "enjoying - present continuous: \"Are you enjoying yourself?\"",
+          "reviewNote": null
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q97",
+          "multi": false,
+          "unscored": false,
+          "explanation": "agree - \"Will you agree to beat him?\"",
+          "reviewNote": null
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q98",
+          "multi": false,
+          "unscored": false,
+          "explanation": "writing - present continuous: \"He is currently writing the letter?\"",
+          "reviewNote": null
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q99",
+          "multi": false,
+          "unscored": false,
+          "explanation": "pray - \"Will you pray for me?\"",
+          "reviewNote": null
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q100",
+          "multi": false,
+          "unscored": false,
+          "explanation": "late - adjective: \"Why are you late?\"",
+          "reviewNote": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "Adverb - 'grumpily' modifies 'got'",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Adverb - 'hibernated' / 'winter' underlined; (b) Adverb selected",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'love' underlined",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'culprit' underlined",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'personality' underlined",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'couch' underlined",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'dog' underlined",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'items' underlined",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"on\" fits \"lying ______ the table\"",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"in\" fits \"sat ______ her crush\"",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"from\" fits \"can't live ______ his phone\"",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"in\" fits \"born in 1992\"",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"on\" fits \"do my work ______ night\"",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"at\" fits \"at the entrance\"",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"during\" fits \"guitar ______ the holidays\"",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"through\" fits \"go ______ some of the important stuff\"",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"to\" fits \"cruel ______ everyone\"",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"before\" fits \"about an hour ______ the marathon\"",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "Preposition understood - \"start at dawn\"",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - \"had enough\" describes how",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Frequency - \"seldom\"",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - \"patiently\"",
+          "answerConfidence": "high"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Time - \"lately\"",
+          "answerConfidence": "high"
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Frequency - \"always\"",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Time - \"recently\"",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - \"neatly\"",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Frequency - \"normally\"",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Simple Sentence - one independent clause",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by \"but\"",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "Complex Sentence - \"After working out...\" is a dependent clause",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "Compound-Complex Sentence",
+          "answerConfidence": "high"
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Compound-Complex Sentence",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by \"and\"",
+          "answerConfidence": "high"
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Complex Sentence - \"who taught us Calculus\" is a relative clause",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by \"so\"",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by \"and\"",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "Negative transformation: \"None but a brave man can do this.\"",
+          "answerConfidence": "high"
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Negative transformation: \"None but I need 30 dollars only.\"",
+          "answerConfidence": "high"
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Interrogative transformation: \"Is drinking a terrible habit?\"",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 0,
+          "explanation": "Interrogative transformation: \"Can anyone deny that he won?\"",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "Imperative transformation: \"Let the work be done by you.\"",
+          "answerConfidence": "high"
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Imperative transformation: \"Let the work be done by her.\"",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "Simple transformation: \"He ran away when he saw his parents.\"",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "Compound transformation: \"Work hard and you will succeed.\"",
+          "answerConfidence": "high"
+        },
+        "59": {
+          "answerIndex": 0,
+          "explanation": "Simple transformation: \"Salam is a very intelligent boy.\"",
+          "answerConfidence": "high"
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "Compound transformation: \"He admitted his guilt and faced the consequences.\"",
+          "answerConfidence": "high"
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"what they should do\" functions as object of \"need\"",
+          "answerConfidence": "high"
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "Adverb Clause - \"where you are\" tells where",
+          "answerConfidence": "high"
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Adjective Clause - \"whose eyes were green\" modifies \"girlfriend\"",
+          "answerConfidence": "high"
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"who laughs last\" is the subject complement",
+          "answerConfidence": "high"
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"who he is\" is the object of \"know\"",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"What I want for Christmas\" is the subject",
+          "answerConfidence": "high"
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "Adverb Clause - \"till I come back\" tells when",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"what she adds to her stew\" is the object of \"know\"",
+          "answerConfidence": "high"
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"what happened\" is the object of \"see\"",
+          "answerConfidence": "high"
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause - \"Whether you like it or not\" is the subject",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Envious - synonymous with jealous",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 0,
+          "explanation": "Astute - synonymous with smart",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "Essential - synonymous with essential",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Appropriate synonym for \"irrelevant\"",
+          "answerConfidence": "high"
+        },
+        "75": {
+          "answerIndex": 0,
+          "explanation": "Terrible - synonymous with \"awful\"",
+          "answerConfidence": "high"
+        },
+        "76": {
+          "answerIndex": 0,
+          "explanation": "Engaging - synonymous with \"interesting\"",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Novel - synonymous with \"new\"",
+          "answerConfidence": "high"
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "Feeble - synonymous with \"weak\"",
+          "answerConfidence": "high"
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "Enormous - synonymous with \"huge\"",
+          "answerConfidence": "high"
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "Excessive - synonymous with \"excess\"",
+          "answerConfidence": "high"
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "Normal people - \"the rank and file\" refers to ordinary members",
+          "answerConfidence": "high"
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "Under someone's control - 'under one's thumb' idiom meaning",
+          "answerConfidence": "high"
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "Raining heavily - \"rain cats and dogs\" idiom",
+          "answerConfidence": "high"
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Very anxious - \"like a cat on hot bricks\" idiom",
+          "answerConfidence": "high"
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "Cheerful - \"in high spirits\" idiom",
+          "answerConfidence": "high"
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "Reveal - \"bring to light\" idiom",
+          "answerConfidence": "high"
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "Unexpected event - \"a bolt from the blue\" idiom",
+          "answerConfidence": "high"
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "Very expensive - \"cost an arm and a leg\" idiom",
+          "answerConfidence": "high"
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "In strong disagreement - \"at daggers drawn\" idiom",
+          "answerConfidence": "high"
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "Run away quickly - \"take to one's heels\" idiom",
+          "answerConfidence": "high"
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "have been - present perfect continuous: \"I have been playing for quite some time\"",
+          "answerConfidence": "high"
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "much - correct for uncountable noun \"tea\"",
+          "answerConfidence": "high"
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "has come - present perfect: \"The time has come for me to leave\"",
+          "answerConfidence": "high"
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "to - \"Would you like to tag along?\"",
+          "answerConfidence": "high"
+        },
+        "95": {
+          "answerIndex": 0,
+          "explanation": "a subject - present continuous study: \"I am currently studying [subject]\"",
+          "answerConfidence": "high"
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "enjoying - present continuous: \"Are you enjoying yourself?\"",
+          "answerConfidence": "high"
+        },
+        "97": {
+          "answerIndex": 0,
+          "explanation": "agree - \"Will you agree to beat him?\"",
+          "answerConfidence": "high"
+        },
+        "98": {
+          "answerIndex": 0,
+          "explanation": "writing - present continuous: \"He is currently writing the letter?\"",
+          "answerConfidence": "high"
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "pray - \"Will you pray for me?\"",
+          "answerConfidence": "high"
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "late - adjective: \"Why are you late?\"",
+          "answerConfidence": "high"
+        }
+      }
     }
   }
 }

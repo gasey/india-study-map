@@ -7,12 +7,12 @@
     "records": 26782,
     "mcq": 25761,
     "writtenRecords": 1021,
-    "ready": 13418,
+    "ready": 13598,
     "readyOfficial": 8315,
-    "pendingMcq": 11990,
-    "heldReviewed": 353,
-    "workedGuidesReviewed": 6120,
-    "pendingMcqGuides": 19641,
+    "pendingMcq": 11790,
+    "heldReviewed": 373,
+    "workedGuidesReviewed": 6320,
+    "pendingMcqGuides": 19441,
     "keyOnlyFeedback": 6958,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -23,12 +23,12 @@
       "records": 10921,
       "mcq": 9900,
       "writtenRecords": 1021,
-      "ready": 2645,
+      "ready": 2825,
       "readyOfficial": 1682,
-      "pendingMcq": 7196,
-      "heldReviewed": 59,
-      "workedGuidesReviewed": 1525,
-      "pendingMcqGuides": 8375,
+      "pendingMcq": 6996,
+      "heldReviewed": 79,
+      "workedGuidesReviewed": 1725,
+      "pendingMcqGuides": 8175,
       "keyOnlyFeedback": 945,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -11640,12 +11640,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 93,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11654,18 +11654,61 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 93,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 7,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q25",
+          "questionNumber": "25",
+          "section": "english",
+          "reason": "Held unscored: no time adverbial or context in the print selects between (a) “finished” (simple past) and (b) “have finished” (present perfect); both are grammatical and equivalent for this isolated sentence. (c) and (d) are wrong for the subject “I”. The legacy inferred candidate says “have finished”, which the print does not establish."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q45",
+          "questionNumber": "45",
+          "section": "english",
+          "reason": "Held unscored: the printed sentence is a Simple sentence (one clause with a compound subject), but the option “Simple sentence” is absent. The nearest choice (d) Compound sentence is not grammatically accurate, so no printed option is correct."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q48",
+          "questionNumber": "48",
+          "section": "english",
+          "reason": "Held unscored: options (a) and (c) are both complex sentences — the noun clause “he was cheating me” is the object of “believe” in each, with optional “that”. The print does not single out one, so no unique answer can be confirmed."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q49",
+          "questionNumber": "49",
+          "section": "english",
+          "reason": "Held unscored: options (a) and (c) are both correct simple-sentence syntheses preserving the two printed facts (Ram is my friend; he is the son of a landlord), so the print determines no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "Held unscored: options (b) and (d) are both grammatical syntheses using the relative pronoun “who” and preserving both printed facts, so the item has no unique answer from the print."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q56",
+          "questionNumber": "56",
+          "section": "english",
+          "reason": "Held unscored: (b) and (d) use the adverb “successfully” and (c) uses the adverbial phrase “with success”; the direction permits either, so three printed options are acceptable and no unique answer can be confirmed."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-english-p2-Q62",
+          "questionNumber": "62",
+          "section": "english",
+          "reason": "Held unscored: the printed sentence is a rhetorical question — interrogative in form, exclamatory in force — so both (a) Interrogative and (d) Exclamatory are defensible and the print provides no way to choose."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -16099,12 +16142,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 87,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 13,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -16113,18 +16156,97 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 87,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 13,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q9",
+          "questionNumber": "9",
+          "section": "english",
+          "reason": "Held unscored: underlined word identification ambiguous from print text"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q10",
+          "questionNumber": "10",
+          "section": "english",
+          "reason": "Held unscored: underlined word identification ambiguous from print text"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q11",
+          "questionNumber": "11",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q12",
+          "questionNumber": "12",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q13",
+          "questionNumber": "13",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q14",
+          "questionNumber": "14",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q15",
+          "questionNumber": "15",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q16",
+          "questionNumber": "16",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q17",
+          "questionNumber": "17",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q18",
+          "questionNumber": "18",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q19",
+          "questionNumber": "19",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q20",
+          "questionNumber": "20",
+          "section": "english",
+          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        {
+          "id": "mpsc-group-b-seo-2020-english-p2-Q36",
+          "questionNumber": "36",
+          "section": "english",
+          "reason": "Held unscored: adverb category ambiguous from print text"
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-sericulture-seo-2018-english-p1",

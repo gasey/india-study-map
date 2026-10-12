@@ -3042,7 +3042,7 @@
     "keyHref": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf",
     "imported": true,
     "expectedMcq": 100,
-    "reviewRequired": true
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",

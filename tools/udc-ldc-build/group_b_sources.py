@@ -349,7 +349,11 @@ GENERAL_PAPERS_NG_2024_2027 = [(r['slug'], r['exam'], r['sitting'], r['subject']
 DIRECT_NG_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_NG_2024_2027}
 GENERAL_PAPERS_2023_2025 = [(r['slug'], r['exam'], r['sitting'], r['subject'], r['filename']) for r in MPSC_ARCHIVE_2023_2025]
 DIRECT_ARCHIVE_SLUGS = {row[0] for row in GENERAL_PAPERS_2023_2025} | DIRECT_NG_ARCHIVE_SLUGS | DIRECT_LANGUAGE_SLUGS
-ALL_GENERAL_PAPERS = GENERAL_PAPERS + GENERAL_PAPERS_2019 + GENERAL_PAPERS_2023_2025 + GENERAL_PAPERS_NG_2024_2027 + GENERAL_PAPERS_LANGUAGE
+_ALL_GENERAL_PAPERS_RAW = GENERAL_PAPERS + GENERAL_PAPERS_2019 + GENERAL_PAPERS_2023_2025 + GENERAL_PAPERS_NG_2024_2027 + GENERAL_PAPERS_LANGUAGE
+# GENERAL_PAPERS contains empty registration placeholders for archive papers
+# whose full metadata is loaded from the archive JSON files below. Keep only
+# rows with a source filename, and collapse repeated slugs to their final row.
+ALL_GENERAL_PAPERS = list({row[0]: row for row in _ALL_GENERAL_PAPERS_RAW if row[4]}.values())
 DIRECT_2019_SLUGS = {row[0] for row in GENERAL_PAPERS_2019}
 
 # Marking scheme read from each 2019-2020 printed cover (marks per question and
@@ -1186,6 +1190,27 @@ def build_additional():
             # Printed cover: 100 two-mark questions in two hours, with negative marking.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
+        reviewed_2018_meta = {
+            'programmer-phe-2018-english-p2': 120,
+            'sericulture-seo-2018-english-p1': 180,
+            'sericulture-seo-2018-english-p2': 120,
+            'station-officer-2018-english': 180,
+            'station-officer-2018-gk': 180,
+            'station-officer-2018-mathematics': 180,
+            'mes-pwd-2018-gs': 180,
+            'mes-power-2018-gs': 180,
+            'veterinary-officer-2018-english-p2': 120,
+            'je-iwr-2018-english': 180,
+            'assistant-jailor-2018-english': 180,
+            'asi-home-2018-english': 180,
+            'asi-home-2018-gk': 180,
+        }
+        if slug in reviewed_2018_meta and repairs.get(slug, {}).get('derivedAnswers'):
+            # Durations and one-mark objective items come from the printed
+            # covers. No negative-marking rule is printed. Answers are
+            # derived from source review, not published MPSC keys.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': reviewed_2018_meta[slug],
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if complete_native and slug.startswith(('radio-', 'si-police-')):
             meta[paper_id] = {'marksPerQuestion': 2 if slug == 'si-police-2026-p2' else 1,
                              'durationMinutes': 180 if 'English' in subject else 120, 'negativeMarking': True, 'penaltyFraction': 1/3}

@@ -4,31 +4,31 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26782,
-    "mcq": 25761,
+    "records": 26864,
+    "mcq": 25843,
     "writtenRecords": 1021,
-    "ready": 13603,
-    "readyOfficial": 8315,
-    "pendingMcq": 11785,
-    "heldReviewed": 373,
-    "workedGuidesReviewed": 6325,
-    "pendingMcqGuides": 19436,
-    "keyOnlyFeedback": 6958,
+    "ready": 14671,
+    "readyOfficial": 8322,
+    "pendingMcq": 10751,
+    "heldReviewed": 421,
+    "workedGuidesReviewed": 7437,
+    "pendingMcqGuides": 18406,
+    "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
-    "missingMcq": 817
+    "missingMcq": 735
   },
   "sections": {
     "english": {
-      "records": 10921,
-      "mcq": 9900,
+      "records": 10991,
+      "mcq": 9970,
       "writtenRecords": 1021,
-      "ready": 2830,
+      "ready": 3497,
       "readyOfficial": 1682,
-      "pendingMcq": 6991,
-      "heldReviewed": 79,
-      "workedGuidesReviewed": 1730,
-      "pendingMcqGuides": 8170,
+      "pendingMcq": 6361,
+      "heldReviewed": 112,
+      "workedGuidesReviewed": 2430,
+      "pendingMcqGuides": 7540,
       "keyOnlyFeedback": 945,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -37,12 +37,12 @@
       "records": 707,
       "mcq": 707,
       "writtenRecords": 0,
-      "ready": 344,
+      "ready": 443,
       "readyOfficial": 293,
-      "pendingMcq": 361,
-      "heldReviewed": 2,
-      "workedGuidesReviewed": 190,
-      "pendingMcqGuides": 517,
+      "pendingMcq": 261,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 290,
+      "pendingMcqGuides": 417,
       "keyOnlyFeedback": 20,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -64,16 +64,16 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14932,
-      "mcq": 14932,
+      "records": 14944,
+      "mcq": 14944,
       "writtenRecords": 0,
-      "ready": 10216,
-      "readyOfficial": 6198,
-      "pendingMcq": 4427,
-      "heldReviewed": 289,
-      "workedGuidesReviewed": 4385,
-      "pendingMcqGuides": 10547,
-      "keyOnlyFeedback": 5946,
+      "ready": 10518,
+      "readyOfficial": 6205,
+      "pendingMcq": 4123,
+      "heldReviewed": 303,
+      "workedGuidesReviewed": 4697,
+      "pendingMcqGuides": 10247,
+      "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
     },
@@ -6894,36 +6894,55 @@
       "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/01/c0ed9084eeba7c22b9df05c6beb6d8d7/agriculture-allied-service-general-studies-december-2024.pdf",
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 6,
-      "records": 94,
-      "mcq": 94,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 93,
-      "readyOfficial": 93,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 94,
-      "keyOnlyFeedback": 94,
+      "ready": 97,
+      "readyOfficial": 97,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 97,
+      "keyOnlyFeedback": 97,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 94,
-          "mcq": 94,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 93,
-          "readyOfficial": 93,
-          "pendingMcq": 1,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 94,
-          "keyOnlyFeedback": 94,
+          "ready": 97,
+          "readyOfficial": 97,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 97,
+          "keyOnlyFeedback": 97,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q42",
+          "questionNumber": "42",
+          "section": "gk",
+          "reason": "Held: wood is a solid, so the choices “solids” and “wood” overlap."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q58",
+          "questionNumber": "58",
+          "section": "gk",
+          "reason": "Held: the expected author Zikpuii Pa is not among the listed choices."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q87",
+          "questionNumber": "87",
+          "section": "gk",
+          "reason": "Held: the stem asks about the greenhouse effect generally, for which water vapour is the largest contributor, but water vapour is not among the choices. Carbon dioxide is likely intended if the question means anthropogenic greenhouse-gas emissions."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -6935,36 +6954,55 @@
       "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/01/bae2e94941c9f47b300e844d9721657f/assist-director-town-planning-general-studies.pdf",
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 12,
-      "records": 88,
-      "mcq": 88,
+      "missingMcq": 11,
+      "records": 89,
+      "mcq": 89,
       "writtenRecords": 0,
-      "ready": 88,
-      "readyOfficial": 88,
+      "ready": 86,
+      "readyOfficial": 86,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 88,
-      "keyOnlyFeedback": 88,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 86,
+      "keyOnlyFeedback": 86,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 88,
-          "mcq": 88,
+          "records": 89,
+          "mcq": 89,
           "writtenRecords": 0,
-          "ready": 88,
-          "readyOfficial": 88,
+          "ready": 86,
+          "readyOfficial": 86,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 88,
-          "keyOnlyFeedback": 88,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 86,
+          "keyOnlyFeedback": 86,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q6",
+          "questionNumber": "6",
+          "section": "gk",
+          "reason": "Held: the listed assembly constituency choices do not match the 2023 election; the item appears to reuse a stale 2018 answer."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q40",
+          "questionNumber": "40",
+          "section": "gk",
+          "reason": "Held: the wording makes both B and C potentially false; C seems intended but is not uniquely supported."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q65",
+          "questionNumber": "65",
+          "section": "gk",
+          "reason": "Held: water vapour is the largest contributor to the natural greenhouse effect and is not listed; CO₂ only fits an anthropogenic-emissions interpretation."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -7222,31 +7260,31 @@
       "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/d9b260bc08da9b871b70b049dcc9f6f4/inpector-of-supplies-2023-general-studies-i.pdf",
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 1,
-      "records": 99,
-      "mcq": 99,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 98,
-      "readyOfficial": 98,
-      "pendingMcq": 1,
+      "ready": 100,
+      "readyOfficial": 100,
+      "pendingMcq": 0,
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 99,
-      "keyOnlyFeedback": 99,
+      "pendingMcqGuides": 100,
+      "keyOnlyFeedback": 100,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 99,
-          "mcq": 99,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 98,
-          "readyOfficial": 98,
-          "pendingMcq": 1,
+          "ready": 100,
+          "readyOfficial": 100,
+          "pendingMcq": 0,
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 99,
-          "keyOnlyFeedback": 99,
+          "pendingMcqGuides": 100,
+          "keyOnlyFeedback": 100,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -8479,36 +8517,55 @@
       "sourceUrl": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/05/fcd719aa0a44ab8d0f4518914e3425dd/technical-officer-scert-general-studies-april-2025.pdf",
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 4,
-      "records": 96,
-      "mcq": 96,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 94,
-      "readyOfficial": 94,
-      "pendingMcq": 2,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 96,
-      "keyOnlyFeedback": 96,
+      "ready": 97,
+      "readyOfficial": 97,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 97,
+      "keyOnlyFeedback": 97,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 96,
-          "mcq": 96,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 94,
-          "readyOfficial": 94,
-          "pendingMcq": 2,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 96,
-          "keyOnlyFeedback": 96,
+          "ready": 97,
+          "readyOfficial": 97,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 97,
+          "keyOnlyFeedback": 97,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q35",
+          "questionNumber": "35",
+          "section": "gk",
+          "reason": "Held: the scan lists ₹2, ₹3, ₹4 and ₹5 lakh; the applicable FY 2025–26 new-regime ₹12 lakh threshold is absent."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q65",
+          "questionNumber": "65",
+          "section": "gk",
+          "reason": "Held: both one billion and one arab equal 100 crore, so two choices are correct."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q73",
+          "questionNumber": "73",
+          "section": "gk",
+          "reason": "Held: Forbes Global 2000 ranking is not market capitalization; the intended company JPMorgan Chase is absent from the choices."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-asce-2021-english-p1",
@@ -8693,36 +8750,79 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 80,
-      "missingMcq": 20,
-      "records": 61,
-      "mcq": 60,
+      "missingMcq": 0,
+      "records": 81,
+      "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 73,
       "readyOfficial": 0,
-      "pendingMcq": 60,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 60,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
       "sections": {
         "english": {
-          "records": 61,
-          "mcq": 60,
+          "records": 81,
+          "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 73,
           "readyOfficial": 0,
-          "pendingMcq": 60,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 60,
+          "pendingMcq": 0,
+          "heldReviewed": 7,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B7",
+          "questionNumber": "B7",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B13",
+          "questionNumber": "B13",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B19",
+          "questionNumber": "B19",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B27",
+          "questionNumber": "B27",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-Q57",
+          "questionNumber": "57",
+          "section": "english",
+          "reason": "Answer-key review hold for overlapping classifications."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-Q61",
+          "questionNumber": "61",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-Q63",
+          "questionNumber": "63",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-asi-home-2018-gk",
@@ -8737,12 +8837,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -8751,18 +8851,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q26",
+          "questionNumber": "26",
+          "section": "gk",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q71",
+          "questionNumber": "71",
+          "section": "gk",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q78",
+          "questionNumber": "78",
+          "section": "gk",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-asi-home-2018-mathematics",
@@ -9150,36 +9269,49 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 80,
-      "missingMcq": 11,
-      "records": 70,
-      "mcq": 69,
+      "missingMcq": 0,
+      "records": 81,
+      "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 78,
       "readyOfficial": 0,
-      "pendingMcq": 69,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 69,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
       "sections": {
         "english": {
-          "records": 70,
-          "mcq": 69,
+          "records": 81,
+          "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 78,
           "readyOfficial": 0,
-          "pendingMcq": 69,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 69,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-assistant-jailor-2018-english-B34",
+          "questionNumber": "B34",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-assistant-jailor-2018-english-B44",
+          "questionNumber": "B44",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-assistant-prof-geography-2017-english",
@@ -12937,36 +13069,61 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 80,
-      "missingMcq": 11,
-      "records": 70,
-      "mcq": 69,
+      "missingMcq": 0,
+      "records": 81,
+      "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 76,
       "readyOfficial": 0,
-      "pendingMcq": 69,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 69,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
       "sections": {
         "english": {
-          "records": 70,
-          "mcq": 69,
+          "records": 81,
+          "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 76,
           "readyOfficial": 0,
-          "pendingMcq": 69,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 69,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-je-iwr-2018-english-B37",
+          "questionNumber": "B37",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-je-iwr-2018-english-B39",
+          "questionNumber": "B39",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-je-iwr-2018-english-Q57",
+          "questionNumber": "57",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-je-iwr-2018-english-B70",
+          "questionNumber": "B70",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -13971,12 +14128,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -13985,18 +14142,25 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mes-power-2018-gs-Q92",
+          "questionNumber": "92",
+          "section": "gk",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mes-pwd-2018-english",
@@ -14051,12 +14215,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -14065,18 +14229,25 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q60",
+          "questionNumber": "60",
+          "section": "gk",
+          "reason": "Answer-key review hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mes-pwd-2020-english",
@@ -15800,12 +15971,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 96,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -15814,18 +15985,43 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 96,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q26",
+          "questionNumber": "26",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q78",
+          "questionNumber": "78",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q92",
+          "questionNumber": "92",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q93",
+          "questionNumber": "93",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-radio-2026-p1",
@@ -16261,12 +16457,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 76,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -16275,18 +16471,43 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 76,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B46",
+          "questionNumber": "B46",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B49",
+          "questionNumber": "B49",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B52",
+          "questionNumber": "B52",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B53",
+          "questionNumber": "B53",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-sericulture-seo-2018-english-p2",
@@ -16301,12 +16522,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 95,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -16315,18 +16536,49 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 95,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q45",
+          "questionNumber": "45",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q47",
+          "questionNumber": "47",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q49",
+          "questionNumber": "49",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q50",
+          "questionNumber": "50",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q80",
+          "questionNumber": "80",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-si-excise-2014-p1",
@@ -17414,12 +17666,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -17428,18 +17680,37 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 77,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-station-officer-2018-english-B6",
+          "questionNumber": "B6",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-station-officer-2018-english-B26",
+          "questionNumber": "B26",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        },
+        {
+          "id": "mpsc-group-b-station-officer-2018-english-B57",
+          "questionNumber": "B57",
+          "section": "english",
+          "reason": "Answer-key review hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-station-officer-2018-gk",
@@ -17458,8 +17729,8 @@
       "readyOfficial": 0,
       "pendingMcq": 0,
       "heldReviewed": 3,
-      "workedGuidesReviewed": 97,
-      "pendingMcqGuides": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -17472,8 +17743,8 @@
           "readyOfficial": 0,
           "pendingMcq": 0,
           "heldReviewed": 3,
-          "workedGuidesReviewed": 97,
-          "pendingMcqGuides": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -17484,19 +17755,19 @@
           "id": "mpsc-group-b-station-officer-2018-gk-Q26",
           "questionNumber": "26",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-        },
-        {
-          "id": "mpsc-group-b-station-officer-2018-gk-Q61",
-          "questionNumber": "61",
-          "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Two options are correct."
         },
         {
           "id": "mpsc-group-b-station-officer-2018-gk-Q71",
           "questionNumber": "71",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "The question does not specify a colour model."
+        },
+        {
+          "id": "mpsc-group-b-station-officer-2018-gk-Q78",
+          "questionNumber": "78",
+          "section": "gk",
+          "reason": "No unique answer without a size criterion."
         }
       ]
     },
@@ -17513,12 +17784,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -17527,19 +17798,26 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
           "mixedTopicRecords": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-station-officer-2018-mathematics-Q18",
+          "questionNumber": "18",
+          "section": "arithmetic",
+          "reason": "Answer-key review hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-steno-2024-english",
@@ -20249,36 +20527,61 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 28,
-      "records": 72,
-      "mcq": 72,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 96,
       "readyOfficial": 0,
-      "pendingMcq": 72,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 72,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "english": {
-          "records": 72,
-          "mcq": 72,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 96,
           "readyOfficial": 0,
-          "pendingMcq": 72,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 72,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q9",
+          "questionNumber": "9",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q61",
+          "questionNumber": "61",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q89",
+          "questionNumber": "89",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        },
+        {
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q98",
+          "questionNumber": "98",
+          "section": "english",
+          "reason": "Source-reviewed answer-key hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-vety-mah-2021-english-p1",

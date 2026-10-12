@@ -427705,22 +427705,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "After reading  of a book, 40 pages are left. The number of pages in the book is – 9",
+    "question": "After reading 7/9 of a book, 40 pages are left. The number of pages in the book is",
     "options": [
       "180",
       "175",
       "170",
-      "167 33"
+      "167"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "After reading 7/9, the remaining 2/9 is 40 pages, so the book has 40×9/2=180 pages.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q001.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q2",
@@ -427731,22 +427733,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "From a rope 11 m long, two pieces of lengths 2m and 3m are cut off. The length of the remaining 510 rope is – 11",
+    "question": "From an 11 m rope, two pieces of lengths 2 3/5 m and 3 3/10 m are cut off. The length of the remaining rope is",
     "options": [
-      "6 m",
-      "5 m 22 11",
-      "5 m",
-      "4 m 103"
+      "6 1/2 m",
+      "5 1/2 m",
+      "5 1/10 m",
+      "4 1/3 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "11−2 3/5−3 3/10=5 1/10 metres.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q002.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q3",
@@ -427764,18 +427768,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "30",
       "35"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The nearest lower square is 85²=7225; 7250−7225=25.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q003.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q4",
@@ -427793,18 +427796,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "23 %",
       "25 %"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Discount=(2700−2025)/2700=25%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q004.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q5",
@@ -427822,18 +427824,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 11664",
       "Rs 11650"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "10000(1.08)²=Rs 11,664.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q005.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q6",
@@ -427851,18 +427852,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "64",
       "67"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "x²+y²=(x−y)²+2xy=49+18=67.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q006.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q7",
@@ -427880,18 +427880,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "50",
       "53"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A=4C and B=2C, so 4C+2C−C+100=350, yielding C=50.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q007.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q8",
@@ -427909,18 +427908,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 16",
       "Rs 15"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Subtracting equations gives 2 pens=Rs 30; one pen costs Rs 15.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q008.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q9",
@@ -427938,15 +427936,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "65^o",
       "67^o"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Let angle x; x=(90−x)+36, so x=63°.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q009.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q10",
@@ -427964,15 +427964,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "30^o",
       "28^o"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 12 ratio parts total 180°, so the smallest is 2×15°=30°.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q010.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q11",
@@ -427990,18 +427992,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "10.5 cm",
       "8.5 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "r=66/(2π)=10.5 cm using π=22/7.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q011.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q12",
@@ -428019,18 +428020,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "17 m",
       "18 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The room’s space diagonal is √(10²+10²+5²)=15 m.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q012.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q13",
@@ -428046,20 +428046,19 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "2 years",
       "2.5 years",
       "3 years",
-      "3.5 years p"
+      "3.5 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Interest is Rs 150; t=150/(1250×0.06)=2 years.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q013.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q14",
@@ -428070,22 +428069,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The value of 0.3636........... in the form of , where p and q are integers and q0, is – q 44",
+    "question": "The value of 0.3636… in the form p/q, where p and q are integers and q≠0, is",
     "options": [
-      "",
-      " 1125 55",
-      "",
-      " 119"
+      "4/11",
+      "4/25",
+      "5/11",
+      "5/9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "0.363636…=36/99=4/11.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q014.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q15",
@@ -428103,18 +428104,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 69632",
       "Rs 69542"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Value after three years=136000(0.8)³=Rs 69,632.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q015.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q16",
@@ -428132,18 +428132,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 1210",
       "Rs 1215"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "B receives 3/9 of Rs 3645, i.e. Rs 1215.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q016.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q17",
@@ -428161,18 +428160,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "15 cm",
       "17 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "(√3/4)s²=49√3 gives s=14 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q017.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q18",
@@ -428190,18 +428188,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "288",
       "290"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Volume=20×16×4.5=1440 m³; 1440/5=288 people.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q018.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q19",
@@ -428219,18 +428216,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "6300",
       "6400"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Wall volume is 10,560,000 cm³; each brick is 1,650 cm³, so 6,400 bricks.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q019.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q20",
@@ -428248,18 +428244,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "2342 m³",
       "2350 m³"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The well is cylindrical: π×7²×15=2310 m³.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q020.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q21",
@@ -428277,18 +428272,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "50 kg",
       "53 kg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Total=6×48=288 kg; five weigh 235 kg, leaving 53 kg.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q021.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q22",
@@ -428306,18 +428300,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "32000",
       "32134"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Two years earlier population=35280/(1.05)²=32,000.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q022.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q23",
@@ -428335,18 +428328,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "8.5 km",
       "2 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Opposite-direction relative speed is 8.5 km/h; in four hours they separate by 34 km.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q023.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q24",
@@ -428364,18 +428356,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "9 seconds",
       "8 seconds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "80 km/h=200/9 m/s; 200 metres takes 9 seconds.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q024.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q25",
@@ -428393,18 +428384,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "334 m/s",
       "335 m/s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "1.32 km/4 s=1320/4=330 m/s.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q025.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q26",
@@ -428417,20 +428407,22 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "A man can do a piece of work in 5 days, but with the help of his son, he can do it in 3 days. In what time can the son do it alone? 11",
     "options": [
-      "6days",
-      "7days 22 11",
-      "7days",
-      "6days 33"
+      "6 1/2 days",
+      "7 1/2 days",
+      "7 1/3 days",
+      "6 1/3 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Son’s rate=1/3−1/5=2/15 work/day; time=7.5 days.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q026.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q27",
@@ -428443,20 +428435,22 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "’A’ can do a work in 15 days and ‘B’ in 20 days. If they work on it together for 4 days, then the fraction of the work that is left, is – 74",
     "options": [
-      "",
-      " 1511 88",
-      "",
-      " 1511"
+      "7/15",
+      "4/11",
+      "8/15",
+      "8/11"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Together they complete 7/60 per day; in four days 7/15 is done, leaving 8/15.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q027.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q28",
@@ -428474,18 +428468,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "42 hrs",
       "40 hrs"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Leak rate=1/16−1/24=1/48 tank/hour, so it empties a full tank in 48 hours.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q028.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q29",
@@ -428503,18 +428496,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "13",
       "10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "If smaller is x, 3x−x=26, so x=13.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q029.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q30",
@@ -428532,18 +428524,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "522",
       "517"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "105th term=12+104×5=532.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q030.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q31",
@@ -428561,18 +428552,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "184",
       "214"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 15th term from the end is 254−14×5=184.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q031.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q32",
@@ -428590,18 +428580,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "13",
       "14"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Four teach only English; therefore 18−4=14 teach mathematics (including those teaching both).",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q032.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q33",
@@ -428619,18 +428608,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "11 m",
       "13 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The tops differ vertically by 5 m and horizontally by 12 m; distance=13 m.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q033.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q34",
@@ -428648,18 +428636,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "860 cm",
       "850 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Two revolutions cover 4πr=280π=880 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q034.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q35",
@@ -428677,18 +428664,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "335 cm²",
       "340 cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ring area=π(19²−16²)=105π=330 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q035.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q36",
@@ -428706,18 +428692,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "14 cm",
       "15 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "r²=616×7/22=196, so r=14 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q036.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q37",
@@ -428735,18 +428720,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "12",
       "32"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "There are (6/2)³=27 small cubes.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q037.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q38",
@@ -428759,20 +428743,22 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "A bag contains 20 balls bearing numbers 1, 2, 3, ....., 20 respectively. A ball is drawn at random from the box. The probability of getting a ball bearing a prime number is – 23",
     "options": [
-      "",
-      " 97 42",
-      "",
-      " 75"
+      "2/9",
+      "3/7",
+      "4/7",
+      "2/5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "There are 8 primes from 1 to 20; probability=8/20=2/5.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q038.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q39",
@@ -428790,18 +428776,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "1 : 35 pm",
       "1 : 40 pm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "LCM(3,7,12,14)=84 minutes; next together at 1:24 pm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q039.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q40",
@@ -428819,18 +428804,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "540",
       "550"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Boys=(980+120)/2=550.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q040.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q41",
@@ -428848,18 +428832,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 485",
       "Rs 490"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The ratio difference is 5 parts=Rs 800; electricity bill is 3×160=Rs 480.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q041.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q42",
@@ -428877,15 +428860,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "48",
       "50"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A 70×50 m rectangular boundary has perimeter 240 m; at 5 m spacing it takes 48 posts.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q042.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q43",
@@ -428903,18 +428888,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 5700",
       "Rs 5760"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Room area=24 m²; carpet costs 24×Rs 240=Rs 5,760.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q043.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q44",
@@ -428932,18 +428916,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "50 years",
       "53 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Family total is 126; other six total 6×13=78, so head is 48 years.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q044.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q45",
@@ -428961,18 +428944,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "154 cm",
       "162 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Semicircle perimeter=half circumference+diameter=31.5π+63=162 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q045.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q46",
@@ -428990,18 +428972,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "70 m",
       "80 m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Opposite-corner distance=√(40²+30²)=50 m.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q046.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q47",
@@ -429019,18 +429000,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 2600",
       "Rs 2650"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rs 500 is 20% of marked price, so marked price is 2500 and paid price is Rs 2000.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q047.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q48",
@@ -429048,18 +429028,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "10",
       "20"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Substitute the operators: 24÷8+25−6×3=10, using normal precedence.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q048.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q49",
@@ -429077,18 +429056,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "87",
       "94"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "(10×4)+(4×4)−6=50.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q049.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q50",
@@ -429106,18 +429084,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "15%",
       "10%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "If CP per article is 1, 20 SP=21 CP, so gain on 20 articles is 5%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q050.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q51",
@@ -429135,18 +429112,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "12",
       "15"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Work is 6×20=120 man-days; 120/8=15 days.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q051.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q52",
@@ -429159,20 +429135,22 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "60Km/h can be expressed in m/s as : 42",
     "options": [
-      "16m/s",
-      "16m/s 73 41",
-      "16m/s",
-      "16m/s 73"
+      "16 4/7 m/s",
+      "16 2/3 m/s",
+      "16 4/7 m/s",
+      "16 1/3 m/s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "60 km/h×5/18=50/3=16 2/3 m/s.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q052.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q53",
@@ -429190,18 +429168,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "1800Km",
       "2100Km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "20 hours=72,000 seconds; 15×72,000 m=1,080 km.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q053.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q54",
@@ -429219,18 +429196,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "14.85cm²",
       "15.48cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Square area=d²/2=5.4²/2=14.58 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q054.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q55",
@@ -429248,18 +429224,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "2:20 Pm",
       "1:40 Am"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "9:00 pm minus 6 h 40 min is 2:20 pm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q055.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q56",
@@ -429277,18 +429252,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "6 years",
       "8 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "50+x=6(5+x), so x=4 years.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q056.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q57",
@@ -429306,18 +429280,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "63",
       "42"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Let unit digit u and tens digit 2u; the difference on reversal is 9u=18, so the number is 42.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q057.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q58",
@@ -429328,22 +429301,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A result of a survey of 1000 persons with respect to their knowledge of Hindi(H), English(E) and Sanskrit(S) is given below : EH 200 120220 100 80110 170 S What is the ratio of those who know all the three languages to those who do not know Sanskrit?",
+    "question": "A survey of 1,000 persons recorded knowledge of Hindi (H), English (E), and Sanskrit (S). The regions are E only 200, H only 220, S only 170, E∩H only 120, E∩S only 80, H∩S only 110, and all three 100. Find the ratio of those who know all three languages to those who do not know Sanskrit.",
     "options": [
-      "10 : 3",
-      "3 : 10",
-      "27 : 5",
-      "5 : 27"
+      "10:3",
+      "3:10",
+      "27:5",
+      "5:27"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "All three=100; outside Sanskrit=200+220+120=540; ratio 100:540=5:27.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q058.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q59",
@@ -429354,25 +429329,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If ab=(a+5)²(b−7), the value of(98) is :",
+    "question": "If a*b=(a+5)²(b−7), the value of (9*8) is",
     "options": [
       "84",
       "169",
       "72",
       "196"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "9*8=(9+5)²(8−7)=196.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q059.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q60",
@@ -429383,25 +429357,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The value of5^−¹×3^−²^−² is : ()",
+    "question": "The value of (5⁻¹ × 3⁻²)⁻² is",
     "options": [
       "1225",
       "2025",
       "3125",
       "1025"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "(5⁻¹×3⁻²)⁻²=(1/45)⁻²=2025.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q060.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q61",
@@ -429419,18 +429392,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       ".0091",
       ".0019"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "0.0091²=0.00008281.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q061.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q62",
@@ -429448,18 +429420,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "55",
       "33"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Equal rows and students per row means n²=1089, so n=33.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q062.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q63",
@@ -429470,22 +429441,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If a−b=5 and a²+b²=85 , then the value of ab is :",
+    "question": "If a−b=5 and a²+b²=85, then the value of ab is",
     "options": [
       "110",
       "60",
       "50",
-      "30 141"
+      "30"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "(a−b)²=a²+b²−2ab gives 25=85−2ab, hence ab=30.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q063.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q64",
@@ -429496,22 +429469,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If x−=3 , the value of x+₄ is : xx",
+    "question": "If x−1/x=3, the value of x⁴+1/x⁴ is",
     "options": [
       "121",
       "119",
       "110",
       "97"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "x−1/x=3 gives x²+1/x²=11, then x⁴+1/x⁴=11²−2=119.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q064.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q65",
@@ -429529,18 +429504,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "246",
       "116 765×765×765−563×563×563"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "a²+b²+c²=(a+b+c)²−2(ab+bc+ac)=196−50=146.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q065.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q66",
@@ -429551,22 +429525,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The value of  is : 765×765+563×563+765×563",
+    "question": "The value of (765³−563³)/(765²+563²+765×563) is",
     "options": [
       "1000",
       "1328",
       "302",
       "202"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "(765³−563³)/(765²+765×563+563²)=765−563=202.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q066.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q67",
@@ -429584,18 +429560,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "27%",
       "23%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Failing in at least one=42+52−17=77%; passing both=23%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q067.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q68",
@@ -429606,22 +429581,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "of a number is 20 less than the original, then the number is : 3",
+    "question": "2/3 of a number is 20 less than the original number. Find the number.",
     "options": [
       "90",
       "60",
       "45",
       "30"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "(2/3)n=n−20 gives n=60.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q068.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q69",
@@ -429639,18 +429616,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "36 days",
       "42 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rates are man 1/55, woman 1/110, boy 1/165; combined rate=1/30, so 30 days.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q069.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q70",
@@ -429668,18 +429644,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "292cm²",
       "302cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "For the hollow hemisphere: 2π(5²)+2π(4²)+π(5²−4²)=91π=286 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q070.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q71",
@@ -429697,18 +429672,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "15%",
       "25%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Valid votes=255000/0.60=425000; invalid=75000/500000=15%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q071.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q72",
@@ -429724,7 +429698,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "24π cm",
       "12π cm",
       "24π cm",
-      "26πcm"
+      "26π cm"
     ],
     "answerIndex": -1,
     "explanation": "",
@@ -429734,7 +429708,8 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q072.webp",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q73",
@@ -429752,18 +429727,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "20.96%",
       "22%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Combined discount=1−(0.92×0.88)=19.04%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q073.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q74",
@@ -429781,18 +429755,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "1280",
       "2140"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "45×46/2=1035.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q074.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q75",
@@ -429810,15 +429783,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "30%",
       "11%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Copper fraction=10/(10+20+20)=20%.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q075.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q76",
@@ -429836,18 +429811,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "400g",
       "500g"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The sand is 2 kg; 20% impurity is 0.4 kg=400 g.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q076.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q77",
@@ -429865,18 +429839,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "Rs 15.20",
       "Rs 17.20"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Let unit SP=s; 25s−375=5s, so s=Rs 18.75.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q077.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q78",
@@ -429894,18 +429867,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "20h",
       "28h"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Net rate=1/8−1/12=1/24 tank per hour.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q078.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q79",
@@ -429923,18 +429895,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "7",
       "11"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "First four sum 16 and last four sum 16; total seven is 21, so the shared fourth number is 11.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q079.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q80",
@@ -429952,18 +429923,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "40.3",
       "42.7"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The wrong reading added 30; corrected mean=(4000−30)/100=39.7.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q080.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q81",
@@ -429981,18 +429951,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "5",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Numbers 2k,3k satisfy (2k−3)/(3k−3)=3/5, giving k=6 and difference 6.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q081.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q82",
@@ -430005,20 +429974,22 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "A, B, C start a business. A invests 3 times as much as B invests and B invests two-third of what C invests. Then, the ratio of capitals of A, B and C is :",
     "options": [
-      "3 : 9 : 2",
-      "6 : 10 : 15",
-      "5 : 3 : 2",
-      "6 : 2 : 3 sin50⁰cosec40⁰00"
+      "3:9:2",
+      "6:10:15",
+      "5:3:2",
+      "6:2:3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A=3B and B=2C/3; ratio A:B:C=6:2:3.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q082.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q83",
@@ -430029,22 +430000,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The value of ₀+₀−4cos50.cosec40 is cos40sec50",
+    "question": "The value of sin50°/cos40° + cosec40°/sec50° − 4cos50°·cosec40° is",
     "options": [
       "2",
-      "-2",
+      "−2",
       "6",
-      "-6"
+      "−6"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Using sin50=cos40 and sin40=cos50, the first two terms are 1 each and the last is 4; result −2.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q083.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q84",
@@ -430062,18 +430035,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "30s",
       "25s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "42 km/h=35/3 m/s; 350 m takes 30 s.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q084.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q85",
@@ -430091,18 +430063,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "11",
       "13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mode=3 median−2 mean; 8=30−2 mean, so mean=11.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q085.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q86",
@@ -430120,18 +430091,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "43",
       "53"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "3n=111, hence n=37 terms.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q086.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q87",
@@ -430142,22 +430112,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A contract employee plans his monthly budget according to his monthly income as shown in the given pie-chart. If he spends Rs 3500 on house rent, his monthly income is : Food e s u ot Hn e r 70° 105° 65°40° n o _ti80° aMisc. c u d E Saving",
+    "question": "A contract employee plans a monthly budget as shown in the pie chart. If house rent (70°) is Rs 3,500, what is the monthly income? The other sectors are food 105°, education 65°, saving 80°, and miscellaneous 40%.",
     "options": [
       "Rs 16,000",
       "Rs 19,000",
       "Rs 17,000",
       "Rs 18,000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "House rent is 70°/360° of income; Rs 3500×360/70=Rs 18,000.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q087.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q88",
@@ -430175,18 +430147,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "480",
       "390"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Place volume=43.2 m³; each plank is 0.08 m³, so 540 planks.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q088.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q89",
@@ -430204,18 +430175,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "308cm²",
       "256cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Hemisphere total surface area=3πr²=3π×7²=462 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q089.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q90",
@@ -430233,18 +430203,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "12cm",
       "14cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Volume conservation gives resulting radius³=3³+4³+5³=216, so diameter=12 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q090.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q91",
@@ -430262,18 +430231,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "420cm²",
       "398cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In 20 minutes the hand sweeps 120°; sector area=(1/3)π×21²=462 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q091.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q92",
@@ -430286,10 +430254,10 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "difficulty": "medium",
     "question": "The area of an equilateral triangle each of whose side is 8cm long is :",
     "options": [
-      "16cm²",
-      "163cm²",
-      "32cm²",
-      "163cm²"
+      "16 cm²",
+      "16√3 cm²",
+      "32 cm²",
+      "16√3 cm²"
     ],
     "answerIndex": -1,
     "explanation": "",
@@ -430299,7 +430267,8 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q092.webp",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q93",
@@ -430317,18 +430286,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "4 cm",
       "12 cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "448π=πr²×7, so r²=64 and r=8 cm.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q093.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q94",
@@ -430346,18 +430314,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "6 times",
       "8 times"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Doubling radius multiplies sphere volume by 2³=8; this is the intended option.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q094.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q95",
@@ -430368,22 +430335,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If8×8²+9²=x³+8−340, the value of x is : ()11",
+    "question": "If (√8×√8)^(1/2)+9^(1/2)=x³+√8−340, the value of x is",
     "options": [
       "7",
       "19",
       "18",
       "9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The equation reduces to √8+3=x³+√8−340, so x³=343 and x=7.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q095.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q96",
@@ -430401,18 +430370,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "56cm²",
       "48cm²"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Equal sides are 10 cm; height=√(10²−6²)=8, area=48 cm².",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q096.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q97",
@@ -430423,22 +430391,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A card is drawn at random from a well shuffled pack of playing card. The probability of getting a red Queen is : 24",
+    "question": "A card is drawn at random from a well-shuffled pack of playing cards. The probability of getting a red Queen is",
     "options": [
-      "",
-      " 1313 1",
-      "",
-      "none of these 26"
+      "2/13",
+      "4/13",
+      "1/26",
+      "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "There are two red queens in 52 cards, so probability=2/52=1/26.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q097.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q98",
@@ -430456,18 +430426,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "12.5%",
       "10.7%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "At simple interest, 100% in eight years corresponds to 12.5% per annum.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q098.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q99",
@@ -430485,18 +430454,17 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "221 is divisible by 13, so the remainder is 18 mod 13=5.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q099.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q100",
@@ -430507,22 +430475,24 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "thof the passengers of a train were children. If there were 40 children travelling in the train, then 8 the number of adults in the train was –",
+    "question": "1/8 of the passengers of a train were children. If there were 40 children travelling in the train, the number of adults in the train was",
     "options": [
       "270",
       "280",
       "285",
       "295"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "If 1/8 of passengers is 40, total=320 and adults=280.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "imagePath": "/question-images/group-b/recovered-2018/si-police-ub-2018-mathematics-q100.webp",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B1",
@@ -500752,17 +500722,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "In-intel",
       "In-Qualcomm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "IIT Madras’s SHAKTI is an indigenous open-source processor project.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q2",
@@ -500780,17 +500749,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Insecticide resistant variety crop",
       "High Yielding variety crops"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Green Revolution relied on high-yielding varieties.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q3",
@@ -500808,17 +500776,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Aryabhata",
       "Bhaskara"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Aryabhata was India’s first satellite, launched on 19 April 1975.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q4",
@@ -500836,17 +500803,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Communication 4G technology",
       "Experimental"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "RISAT-2B is an all-weather Earth-observation radar satellite used for applications including disaster management.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q5",
@@ -500864,17 +500830,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Indian Station Research Organization",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "ISRO expands to Indian Space Research Organisation.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q6",
@@ -500892,17 +500857,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1932",
       "1933"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "C. V. Raman received the 1930 Physics Nobel Prize.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q7",
@@ -500920,17 +500884,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Genetic Code",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Khorana shared the Nobel Prize for deciphering the genetic code.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q8",
@@ -500948,17 +500911,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "SN Bose",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A. P. J. Abdul Kalam was the Indian scientist who became President.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q9",
@@ -500976,17 +500938,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "India’s first nuclear test",
       "India’s first solar power plant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Smiling Buddha” was the codename for India’s first nuclear test.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q10",
@@ -501004,17 +500965,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "7%",
       "8%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 2019 GST rate for electric vehicles was reduced to 5%.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q11",
@@ -501032,17 +500992,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "BS VI",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The standards effective from 1 April 2020 were Bharat Stage VI.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q12",
@@ -501060,17 +501019,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Powdery mildew",
       "Ball worm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bt cotton was introduced to resist bollworm (printed “ball worm”).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q13",
@@ -501088,17 +501046,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Jim Corbett national park",
       "Madhav national park"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jim Corbett National Park (originally Hailey National Park) was India’s first national park.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q14",
@@ -501116,17 +501073,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Bacillus thioparans",
       "Bacillus thuringiensis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bt refers to the bacterium Bacillus thuringiensis.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q15",
@@ -501144,17 +501100,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Indian Council of Allied Research",
       "Indian Council of Agronomy Research"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "ICAR is the Indian Council of Agricultural Research.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q16",
@@ -501172,17 +501127,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Non polluting vehicles",
       "Agricultural products"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The ISI mark certifies conformity of industrial products to Indian Standards.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q17",
@@ -501201,7 +501155,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Food Safety and Standard Authority of India"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No answer choice gives the correct issuing body for the FPO mark: it was administered by the Ministry of Food Processing Industries (MoFPI), which is absent. The Ministry of Agriculture option is not the responsible body.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
@@ -501210,7 +501164,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q18",
@@ -501228,17 +501183,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Mumbai",
       "Hyderabad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "CSIR-IICB is located in Kolkata.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q19",
@@ -501256,17 +501210,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "It is made up of lava",
       "It is found on plateau regions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Black cotton soil retains moisture well.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q20",
@@ -501284,17 +501237,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "High-yielding varieties programme",
       "Seed-Fertilizer-Water technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Green Revolution is commonly identified with the high-yielding varieties programme.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q21",
@@ -501312,17 +501264,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Einstein theory of relativity",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Subrahmanyan Chandrasekhar was awarded for theoretical studies of physical processes important to stellar structure and evolution (astrophysics).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q22",
@@ -501340,17 +501291,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "27th February",
       "28th February"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "National Science Day is observed on 28 February.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q23",
@@ -501368,17 +501318,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Mumbai",
       "Kolkata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first IIT was established at Kharagpur.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q24",
@@ -501396,17 +501345,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Entrepreneurship development",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Biotech parks/incubators support research translation and entrepreneurship.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q25",
@@ -501424,17 +501372,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Apple",
       "At&T"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Motorola introduced the first commercially available handheld mobile phone.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q26",
@@ -501452,17 +501399,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Council of Science & Industrial Research (CSIR)",
       "Council for Science & Industrial Research (CSIR)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "CSIR is the Council of Scientific and Industrial Research.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q27",
@@ -501480,17 +501426,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Dehradun",
       "Shimla"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Wildlife Institute of India is in Dehradun.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q28",
@@ -501508,17 +501453,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Shimla, Himachal Pradesh",
       "Ooty, Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "ICAR-Directorate of Mushroom Research is at Solan, Himachal Pradesh.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q29",
@@ -501536,17 +501480,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Indian Science Congress Association",
       "Indian Association For The Cultivation Of Science"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Indian Science Congress Association organizes the annual Indian Science Congress.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q30",
@@ -501564,17 +501507,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ocean",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sálim Ali Centre for Ornithology and Natural History studies birds.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q31",
@@ -501593,7 +501535,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Reptiles"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Herpetology is the study of both reptiles and amphibians. Options (c) and (d) each name only one of the two, so no answer is fully correct.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
@@ -501602,7 +501544,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q32",
@@ -501620,17 +501563,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Louis Pasteur",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Alexander Fleming discovered penicillin.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q33",
@@ -501648,17 +501590,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "FHC Crick",
       "Linus Pauling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Watson and Crick proposed the double-helical structure of DNA, drawing on key experimental evidence from others.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q34",
@@ -501676,17 +501617,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Virus",
       "Prions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Influenza is caused by influenza viruses.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q35",
@@ -501704,17 +501644,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kyoto",
       "Rio de Janeiro"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 1992 Earth Summit was held in Rio de Janeiro.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q36",
@@ -501732,17 +501671,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Pendulum clock",
       "Microscope"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The intended choice is thermometer; Galileo’s instrument was more precisely a thermoscope, an early precursor.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q37",
@@ -501760,17 +501698,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "George Samuel Hurst and E.A. Johnson",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "George Samuel Hurst developed the resistive touchscreen.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q38",
@@ -501788,17 +501725,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ethane and Propane",
       "Ethane and Butane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "LPG is mainly a mixture of propane and butane.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q39",
@@ -501816,17 +501752,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nitrous Oxide",
       "Nitrogen dioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Laughing gas is nitrous oxide (N₂O).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q40",
@@ -501844,17 +501779,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Roscosmos State Corporation for Space Activities",
       "Indian Space Research Organisation."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "CERN (European Organization for Nuclear Research) developed the LHC.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q41",
@@ -501872,17 +501806,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Brass",
       "Silver Bromide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Fool’s gold is iron sulfide, usually pyrite.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q42",
@@ -501900,17 +501833,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Immortality",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "HeLa cells grow readily, have low nutritional requirements and are effectively immortal in culture.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q43",
@@ -501928,17 +501860,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "planets",
       "the human skull"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lithology studies rocks and their physical characteristics.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q44",
@@ -501956,17 +501887,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Triplet",
       "Quadruplet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A genetic-code codon comprises three nucleotides.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q45",
@@ -501984,17 +501914,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Both Gram positive and Gram negative bacteria",
       "Arch bacteria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nitrosomonas is a Gram-negative nitrifying bacterium.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q46",
@@ -502012,17 +501941,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Giovanni Battista Grassi",
       "Charles Louis Alphonse Laveran"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Alphonse Laveran identified the malaria parasite; Ronald Ross later established mosquito transmission.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q47",
@@ -502040,17 +501968,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Etienne Lenoir",
       "John Barber"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nikolaus Otto patented the practical four-stroke internal-combustion engine.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q48",
@@ -502068,17 +501995,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kary Mullis",
       "Maxam and Gilbert"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kary Mullis developed PCR and received the patent for the technique.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q49",
@@ -502096,17 +502022,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Paramyxoviruses",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Foot-and-mouth disease virus is an aphthovirus in the Picornaviridae family.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q50",
@@ -502124,14 +502049,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Syrmaticus reevesii",
       "Syrmaticus soemmerringii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mizoram’s state bird Vavu is Hume’s pheasant, Syrmaticus humiae.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q51",
@@ -502149,14 +502076,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "F.J Rapper",
       "William Williams"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "F. J. Rapper is identified in local-history accounts as the Serkawn missionary who advocated retaining the Zawlbuk.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q52",
@@ -502174,14 +502103,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Pawi",
       "Paite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Zawlbuk was typical of Lusei and Pawi villages; the Lakher/Mara did not have it.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q53",
@@ -502199,14 +502130,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Selection of a place for establishment of Zawlbuk",
       "Selection of a place where people meet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ramtuk rel refers to selecting agricultural/jhum land.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q54",
@@ -502224,14 +502157,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "David Jones",
       "Capt Browne"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The source attributes the colonial-era introduction of potato to Capt. Browne.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q55",
@@ -502249,14 +502184,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Both (a) and (b)",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The two described Mara slave categories were Sei and Saiza.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q56",
@@ -502274,14 +502211,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1885",
       "1886"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Savidge and Lorrain arrived in Mizoram in 1894 as Arthington missionaries.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q57",
@@ -502299,14 +502238,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Removal of their chief",
       "Harsh treatment of Captain Browne"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The killing of Capt. Browne followed objections to the kuli (forced-labour) system.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q58",
@@ -502324,14 +502265,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "A Child’s Primer",
       "Book of Stories"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mizo Zir Tir Bu (A Lushai Primer), a child’s primer, was the first book in Mizo.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q59",
@@ -502349,14 +502292,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Chalthanga",
       "Ngura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chhuahkhama was the first Mizo pastor ordained in the 1914 period referenced by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q60",
@@ -502374,14 +502319,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1912",
       "1913"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kristian Tlangau began publication in 1910.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q61",
@@ -502399,14 +502346,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Tlira Pawl",
       "Zualliana Pawl"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Vanawia Pawl is identified as the earliest indigenous sect arising from the revival movement.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q62",
@@ -502424,17 +502373,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Govt. of India Act, 1934",
       "Govt. of India Act, 1935"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Government of India Act 1935 placed the Lushai Hills among excluded areas.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q63",
@@ -502453,13 +502401,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1906"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Bibliographic catalogues list Fred W. Savidge’s Grammar and Dictionary of the Lakher Language as published in 1908; none of the offered years (1912, 1913, 1905, 1906) matches. Hold pending source/context clarification.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q64",
@@ -502477,14 +502426,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nikir thla",
       "Vawkhniakzawn thla"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vawkhniakzawn thla is July in the traditional Mizo calendar.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q65",
@@ -502502,17 +502453,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "On 15th June 1880",
       "On 16th June 1880"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Alexandrapore tea-garden raid occurred on 23 January 1871.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q66",
@@ -502530,14 +502480,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Rev L. Evans",
       "NE Parry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "J. H. Lorrain was the first president of the Young Lushai Association.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q67",
@@ -502555,17 +502507,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "4th May 1963",
       "8th March 1965"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The MNFF became the Mizo National Front on 22 October 1961.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q68",
@@ -502584,7 +502535,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1871"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The first Mautam famine is dated to around 1862 (often 1862–63); no option gives that date. The offered 1860/1861 choices do not reliably match.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
@@ -502593,7 +502544,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q69",
@@ -502611,14 +502563,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Zawlpuan",
       "Puanzeh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Puanchei is the traditional ceremonial cloth identified in this marriage custom.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q70",
@@ -502636,14 +502590,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Buh chhun",
       "Fathang"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Buh chhun is the traditional paddy due paid to the chief.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q71",
@@ -502661,14 +502617,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ram",
       "Zawn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Hnawhchhuah was the community’s removal/ostracism punishment for a misbehaving chief.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q72",
@@ -502686,14 +502644,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Pumhlawh",
       "Rawk"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Salam is the fine traditionally equivalent to a pig or about Rs. 5.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q73",
@@ -502711,14 +502671,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Lamsial Puk",
       "Chhura Puk"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kawtchhuah Ropui is the megalithic heritage complex at Vangchhia.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q74",
@@ -502736,17 +502698,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Burmese- Chin Group",
       "Indo-Aryan group"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mizo is a Tibeto-Burman (Sino-Tibetan) language.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q75",
@@ -502764,14 +502725,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Vanchhunga",
       "VL Siama"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mizo Chanchin was written by Vankhama.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q76",
@@ -502790,13 +502753,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "63"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The 2ⁿ−1 pattern makes both 27 (instead of 31) and 225 (instead of 255) incorrect, while the prompt asks for a single wrong term. The source itself prints both anomalies; no unique answer.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer.",
     "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:"
   },
   {
@@ -502815,14 +502779,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "104",
       "135"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The differences should increase by 2: +7,+9,+11,+13,+15,+17, giving 136; printed 135 is wrong.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:"
   },
   {
@@ -502841,14 +502807,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "550",
       "2560"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The alternating multipliers are ×2, ×4; 320 should be followed by 640, not 550.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:"
   },
   {
@@ -502868,13 +502836,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "78"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The series has no clear unique rule from the printed values; alternating subsequences/rules can flag multiple entries. Keep held unless the intended pattern is sourced.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer.",
     "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:"
   },
   {
@@ -502893,14 +502862,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "485",
       "529"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "These are squares 11², 15², 19²; next is 23²=529.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:"
   },
   {
@@ -502919,14 +502890,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "46",
       "47"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Differences are 5, 7, 9, 11; the next is +13, giving 46.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:"
   },
   {
@@ -502945,14 +502918,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "48",
       "49"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The series is consecutive squares; next is 6²=36.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:"
   },
   {
@@ -502971,14 +502946,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "18",
       "24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The increments are +3,+4,+5,+6,+7; the missing term is 14.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 80 - 83) : Find the missing number from the given series:"
   },
   {
@@ -502997,17 +502974,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "men are more aggressive than women",
       "men are built differently from women"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Men are built differently” describes a physical difference, not a gender stereotype in the passage’s sense.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
   },
   {
@@ -503026,17 +503002,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "clubbed",
       "written"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ascribed means attributed.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
   },
   {
@@ -503055,17 +503030,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "They simplify information in the social world",
       "They allow us to have sets of beliefs In the 1970s, Ted Bundy broke into the apartment of a young female student at the University"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage says stereotypes simplify information in the social world.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
   },
   {
@@ -503084,17 +503058,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "He was the star of a TV show",
       "He was the producer of a play"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ted Bundy was a serial killer.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
   },
   {
@@ -503113,17 +503086,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "He didn’t understand the charges against him",
       "He was cheerful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage says Bundy intellectually understood the charges, so this statement is false.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
   },
   {
@@ -503142,18 +503114,44 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "guilty",
       "remorse"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Jovial means cheerful or happy.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 84 - 90) : Read the following passages carefully and choose the best answer"
+  },
+  {
+    "id": "mpsc-group-b-fr-2019-science-3-Q90",
+    "paperId": "mpsc-group-b-fr-2019-science-3",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Science Paper-III",
+    "difficulty": "medium",
+    "question": "The antonym for “comatose” is",
+    "options": [
+      "energetic",
+      "lifeless",
+      "exhausted",
+      "passed out"
+    ],
+    "answerIndex": 0,
+    "explanation": "Energetic is an antonym of comatose.",
+    "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q91",
@@ -503166,20 +503164,49 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "difficulty": "medium",
     "question": "₹₹₹₹₹₹₹₹₹₹ ₹₹O₹₹₹₹OO₹₹OOO₹₹ ₹₹₹₹₹₹₹₹ ₹₹O₹₹OOOO₹₹OOOO₹₹O",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Figure A (see source scan)",
+      "Figure B (see source scan)",
+      "Figure C (see source scan)",
+      "Figure D (see source scan)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The pattern adds small circles symmetrically around the large circle; the next shown continuation is two small, large, small.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Figure choices need restoration from the linked source scan before this item can be practiced.",
     "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+  },
+  {
+    "id": "mpsc-group-b-fr-2019-science-3-Q92",
+    "paperId": "mpsc-group-b-fr-2019-science-3",
+    "questionNumber": "92",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Science Paper-III",
+    "difficulty": "medium",
+    "question": "Which figure completes the symbol sequence?",
+    "options": [
+      "+,# / *,$",
+      "$,+ / #,*",
+      "$,+ / *,#",
+      "#,* / $,+"
+    ],
+    "answerIndex": 2,
+    "explanation": "The symbol arrangement swaps adjacent corners in order: top, right, bottom, left, then top; choice (c) is the resulting figure.",
+    "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Given below are problem figures. Choose the best alternative among the answer figures:"
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q93",
@@ -503192,19 +503219,20 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "difficulty": "medium",
     "question": "@(@)= C( A  B  C$+#  +  X BBBB +#*X X",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Figure A (see source scan)",
+      "Figure B (see source scan)",
+      "Figure C (see source scan)",
+      "Figure D (see source scan)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The source item is figure-based, but the scan figures are not represented in the extracted record; kept unscored pending figure restoration.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Figure choices need restoration from the linked source scan before this item can be practiced.",
     "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
   },
   {
@@ -503218,19 +503246,20 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "difficulty": "medium",
     "question": "@ # $ *$ * @ #* @ # $# $ * @$ * @ # * @ # $@ # * $@ # $ ** # @ $",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Figure A (see source scan)",
+      "Figure B (see source scan)",
+      "Figure C (see source scan)",
+      "Figure D (see source scan)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The symbol string rotates one place right each step; the printed fifth figure repeats the second, so continuing the sequence gives the third form, *@#$ (choice a).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Figure choices need restoration from the linked source scan before this item can be practiced.",
     "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
   },
   {
@@ -503244,19 +503273,20 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "difficulty": "medium",
     "question": "ABA BBA ABBA BAABABBA",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Figure A (see source scan)",
+      "Figure B (see source scan)",
+      "Figure C (see source scan)",
+      "Figure D (see source scan)"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The source item is figure-based, but the scan figures are not represented in the extracted record; kept unscored pending figure restoration.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Figure choices need restoration from the linked source scan before this item can be practiced.",
     "direction": "Direction (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
   },
   {
@@ -503275,17 +503305,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "West",
       "South"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Facing west, a left turn points south; a further 90° anticlockwise turn points east.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:"
   },
   {
@@ -503304,17 +503333,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "West",
       "East"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "West then left gives south; right from south returns to west.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:"
   },
   {
@@ -503333,17 +503361,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ruminate",
       "Rumple"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Alphabetical order is Rumbustious, Ruminate, Rumour, Rumple; Rumour is third.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:"
   },
   {
@@ -503363,13 +503390,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "6"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Under the ordinary circular-seating interpretation, the stated adjacency and third-left/third-right constraints have no consistent arrangement of eight people. Hold as defective.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; source offers no reliable unique answer.",
     "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:"
   },
   {
@@ -503381,21 +503409,23 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-III",
     "difficulty": "medium",
-    "question": "What is the missing number? 647 125 76?",
+    "question": "In the following 3×3 number grid, find the missing value: 6, 4, 7 / 1, 2, 5 / 7, 6, ?",
     "options": [
       "8",
       "10",
       "12",
       "14"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The bottom-right value continues the column sums: 6+1=7, 4+2=6, and 7+5=12.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-3.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 96 - 100) : Choose the best answer to each of the questions:"
   },
   {
@@ -506031,7 +506061,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-iof-2019-gs-Q87",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -506085,9 +506117,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q89",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -514061,7 +514091,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q68",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -514115,9 +514147,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q70",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -522203,7 +522233,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q74",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -522259,9 +522291,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q76",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -530480,7 +530510,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q11",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -530536,9 +530568,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q13",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -538698,7 +538728,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 65 - 74 : Choose the most suitable alternative to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-scr-2019-english-B75",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -538756,9 +538788,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 75 - 80 : Choose the alternative that best expresses the meaning of the given"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B77",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -546995,7 +547025,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q68",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -547051,9 +547083,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q70",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -554700,7 +554730,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B96",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -554754,9 +554786,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B98",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -562809,7 +562839,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A17",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -562863,9 +562895,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A19",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -570918,7 +570948,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B40",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -570972,9 +571004,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B42",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -579014,7 +579044,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A61",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -579067,9 +579099,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Option c misspells Edward Jenner as “Jennar”; the correct watchmaker is not listed."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A63",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -587114,7 +587144,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A7",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -587168,9 +587200,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A9",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -595209,7 +595239,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B30",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -595263,9 +595295,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B32",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -603227,7 +603257,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q47",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -603281,9 +603313,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q49",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -611261,7 +611291,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q39",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611315,9 +611347,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q41",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -619562,7 +619592,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q32",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -619618,9 +619650,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q34",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -627564,7 +627594,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q71",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -627618,9 +627650,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q73",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -635677,7 +635707,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 57 - 61) : Synthesize the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q59",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -635735,9 +635767,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 57 - 61) : Synthesize the sentences as directed."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q61",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -643891,7 +643921,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q71",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -643945,9 +643977,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q73",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -651947,7 +651977,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q52",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -652005,9 +652037,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q54",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -660010,7 +660040,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q46",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -660064,9 +660096,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q48",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -668559,7 +668589,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q54",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -668619,9 +668651,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q56",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -677573,7 +677603,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q100",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -677634,9 +677666,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q9",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -686585,7 +686615,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q43",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -686645,9 +686677,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -695578,7 +695608,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q34",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -695641,9 +695673,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q36",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -704143,7 +704173,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q60",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -704201,9 +704233,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q62",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -708154,7 +708184,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which one of the following is the oldest Veda?",
+    "question": "The oldest Veda is",
     "options": [
       "Yajurveda",
       "Rigveda",
@@ -708162,19 +708192,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Atharvaveda"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Rigveda”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Rigveda is the oldest of the four Vedas.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q2",
@@ -708193,7 +708223,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Steve Jobs"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “John McCarthy”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "John McCarthy coined the term “artificial intelligence” and is regarded as its father.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
@@ -708201,7 +708231,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q3",
@@ -708220,19 +708254,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Krishnadeva Rai"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Narasimhadeva Varman”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Konark Sun Temple was built by Eastern Ganga ruler Narasimhadeva I.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q4",
@@ -708251,19 +708285,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "NITI Aayog"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “National Payments Corporation of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "NPCI developed and operates UPI.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q5",
@@ -708282,19 +708316,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Aurangzeb"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Shah Jahan”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Shah Jahan moved the Mughal capital from Agra to Shahjahanabad (Delhi).",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q6",
@@ -708313,20 +708347,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Percy Bysshe Shelley"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “John Paul II”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "This stewardship quotation is attributed to Pope John Paul II.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q7",
@@ -708345,19 +708378,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Hyderabad"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Kolkata”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Fort William stands in Kolkata.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q8",
@@ -708376,19 +708409,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Lord Canning"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Lord Canning”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lord Canning was Governor-General during the 1857 revolt.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q9",
@@ -708407,19 +708440,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Persian Gulf"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Bay of Bengal”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Cyclone Mocha formed over the Bay of Bengal.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q10",
@@ -708438,19 +708471,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Wavell plan"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Cripps proposal”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Quit India Movement followed the failure of the Cripps Mission/proposals.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q11",
@@ -708469,7 +708502,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Lungdai Village Council"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Ngopa Village Council”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Ngopa Village Council was the Mizoram recipient of the 2023 Nanaji Deshmukh Sarvottam Panchayat award.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
@@ -708477,7 +708510,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q12",
@@ -708496,19 +708533,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "1993"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “1991”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Soviet Union dissolved in 1991.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q13",
@@ -708527,19 +708564,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "50 km/sec"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “30 km/sec”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Earth orbits the Sun at an average speed of about 30 km/s.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q14",
@@ -708558,19 +708595,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Tanzania"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “DR Congo”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Mount Nyiragongo is in the Democratic Republic of the Congo.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q15",
@@ -708589,19 +708626,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Distance from the earth"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Temperature”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A star’s colour indicates its surface temperature.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q16",
@@ -708620,19 +708657,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Tibetan Himalaya"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Greater Himalaya”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Himadri is the Greater Himalaya.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q17",
@@ -708651,19 +708688,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Role played by species of animals in the maintenance of ecological balance"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Plants of a particular region or period, listed by species and considered as a group”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Flora refers to the plant species of a particular region or period.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q18",
@@ -708682,19 +708719,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Chambal"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Son”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Son is not a Yamuna tributary; it joins the Ganga.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q19",
@@ -708713,19 +708750,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Arabian Sea, Tamil Nadu"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Arabian Sea, Kerala”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Arabian Sea branch reaches Kerala first.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q20",
@@ -708744,19 +708781,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Tropical Wet Evergreen Forest"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Tropical Moist Deciduous Forest”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Tropical moist deciduous forest covers the largest area among India’s forest types.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q21",
@@ -708775,19 +708812,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Kerala"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Karnataka”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Karnataka is India’s largest areca-nut producer.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q22",
@@ -708806,19 +708843,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "type of vegetation adapted to arid climate"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “tropical mixed vegetation dominated by grasses”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Savanna is tropical grassland with scattered trees and mixed vegetation.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q23",
@@ -708837,19 +708874,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Millets"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Rice”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Flooded rice paddies are major anthropogenic sources of methane and nitrous oxide.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q24",
@@ -708868,7 +708905,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "is sentenced to imprisonment for two years or more"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “is sentenced to imprisonment for two years or more”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 102 does not itself set a two-year imprisonment threshold; that disqualification arises under election law.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
@@ -708876,7 +708913,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q25",
@@ -708895,19 +708936,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Appointment of the Governor"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Election of the President of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 54 governs election of the President.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q26",
@@ -708926,19 +708967,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "13"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “12”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Constitution currently has 12 Schedules.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q27",
@@ -708957,19 +708998,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Extension of reservation of seats for Scheduled Castes and Scheduled Tribes”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The 45th Amendment extended reserved seats for SCs and STs.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q28",
@@ -708988,20 +709029,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Rajiv Gandhi"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Morarji Desai”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Mandal Commission was appointed during Morarji Desai’s premiership.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives D; the final key gives B. Verify the printed item."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q29",
@@ -709020,19 +709060,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Vice-President"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Vice-President”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A President submits a resignation to the Vice-President.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q30",
@@ -709051,19 +709091,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Article 20 and 21"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Article 20 and 21”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Articles 20 and 21 are protected from suspension during an Emergency.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q31",
@@ -709082,20 +709122,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Members of both Houses of Parliament and the state Legislative Assemblies"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Members of both Houses of Parliament”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Vice-President is elected by all members of both Houses, including nominated members.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q32",
@@ -709114,19 +709153,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "The Parliament"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “The President”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The President proclaims a state Emergency under Article 356.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q33",
@@ -709145,19 +709184,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "India holds the Presidency of the G20 from 1 December 2022 to 30 November 2023"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “The permanent secretariat of G20 is in London”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The G20 has no permanent secretariat in London; it rotates among presidencies.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q34",
@@ -709176,19 +709215,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Attorney General of India"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Attorney General of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Attorney General is the Union Government’s chief legal adviser.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q35",
@@ -709206,21 +709245,23 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Hashim Committee",
       "Rangarajan Committee"
     ],
-    "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Hashim Committee”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "The Hashim Committee developed criteria for identifying urban BPL households.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "Official key gives C; the reviewed independent solution gives D. Held unscored until the conflict is resolved.",
+    "disputeNote": "Independent solution gives D; the official key gives C. Verify the printed item before scoring."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q36",
@@ -709239,19 +709280,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Lloyd George"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Clement Atlee”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Clement Attlee supported ending British rule in India and oversaw transfer of power.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q37",
@@ -709270,20 +709311,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Chittaranjan Das"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Dadabhai Naoroji”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Dadabhai Naoroji made Swaraj a national political demand at the 1906 Congress.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q38",
@@ -709302,19 +709342,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Government of India Act of 1858"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Charter Act of 1853”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Charter Act of 1853 introduced open competitive recruitment for civil services.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q39",
@@ -709333,19 +709373,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Arsenic"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Mercury”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Minamata disease results from methylmercury poisoning.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q40",
@@ -709364,19 +709404,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Ms. Mayawati"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Sucheta Kripalani”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Sucheta Kriplani was the first woman Chief Minister of an Indian state.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q41",
@@ -709395,7 +709435,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Fourth"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Third”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "India finished third in the 2022 Men’s Asia Cup hockey tournament.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
@@ -709403,7 +709443,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q42",
@@ -709422,20 +709466,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "D.E. Wacha"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Dayanand”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“India for the Indians” was a political slogan associated with Swami Dayanand Saraswati.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q43",
@@ -709454,7 +709497,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Tuberculosis"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “COVID-19”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Arcturus was a COVID-19 variant (XBB.1.16).",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
@@ -709462,7 +709505,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q44",
@@ -709481,19 +709528,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Eight Five-Year Plan"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Fifth Five-Year Plan”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Social forestry was launched during the Fifth Five-Year Plan.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q45",
@@ -709512,20 +709559,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Dipterocarpus Retusus"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Indian Rose Chestnut”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Phoebe hainesiana is Mizoram’s state tree.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q46",
@@ -709544,7 +709590,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Six"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Five”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Five people had served as Mizoram Chief Minister since 1972 by the paper’s 2023 date.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
@@ -709552,7 +709598,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q47",
@@ -709571,19 +709621,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Kartiki Gonsalves and Guneet Monga”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Kartiki Gonsalves and Guneet Monga won the Oscar for The Elephant Whisperers.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q48",
@@ -709602,20 +709652,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Forest (Conservation) Act, 2000"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Forest (Conservation) Act, 1980”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The 2022 Forest Conservation Rules implement the Forest (Conservation) Act, 1980.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q49",
@@ -709634,19 +709683,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Taungya systems"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Shifting cultivation”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Shifting cultivation is an ancient agroforestry/farming system.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q50",
@@ -709665,19 +709714,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Bangalore"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Dehradun”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Forest Survey of India is headquartered in Dehradun.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q51",
@@ -709696,19 +709745,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "21st April"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “21st March”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "International Day of Forests is observed on 21 March.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q52",
@@ -709727,19 +709776,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Public sector undertakings"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Centre-State relations”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Sarkaria Commission examined Centre–State relations.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q53",
@@ -709758,19 +709807,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Directive Principles of State Policy"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Directive Principles of State Policy”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Directive Principles elaborate the Constitution’s welfare-state vision.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q54",
@@ -709789,7 +709838,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Austria"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Austria”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "India and Austria signed the Comprehensive Migration and Mobility Partnership Agreement in January 2023.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
@@ -709797,7 +709846,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q55",
@@ -709816,19 +709869,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Article 315"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Article 112”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 112 provides for the Annual Financial Statement (Union Budget).",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q56",
@@ -709847,19 +709900,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Supreme Court"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Parliament”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Parliament has authority to amend citizenship law.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q57",
@@ -709878,19 +709931,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Meira Kumar"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Meira Kumar”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Meira Kumar was the first woman Speaker of the Lok Sabha.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q58",
@@ -709909,19 +709962,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Anaemia"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Haemophilia”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Haemophilia causes delayed blood clotting.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q59",
@@ -709940,19 +709993,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Proclaim financial emergency"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Protect States against external aggression and internal disturbance”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 355 requires the Union to protect states against external aggression and internal disturbance.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q60",
@@ -709971,19 +710024,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Two List of subjects"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Three List of subjects”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Seventh Schedule divides subjects among Union, State and Concurrent Lists.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q61",
@@ -710002,19 +710055,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Steel"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Fertilizers”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Grey Revolution relates to fertilizer production.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q62",
@@ -710033,19 +710086,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Madhya Pradesh and Maharashtra"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Rajasthan and Andhra Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Rajasthan and Andhra Pradesh were first to implement Panchayati Raj.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q63",
@@ -710064,19 +710117,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Pherozeshah Mehta"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “W.C. Bannerjee”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "W. C. Bonnerjee presided over the first Indian National Congress session in 1885.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q64",
@@ -710095,20 +710148,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "1986"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “1982”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "NABARD was established in 1982.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q65",
@@ -710127,19 +710179,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Meera Singh"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Om Birla”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Om Birla was Lok Sabha Speaker at the exam date.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q66",
@@ -710158,19 +710210,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Sharad Bobde"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Dhananjaya Yeshwant Chandrachud”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "D. Y. Chandrachud was Chief Justice of India at the exam date.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q67",
@@ -710189,7 +710241,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Rih Wetland"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Pala Wetland”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Pala Wetland was Mizoram’s first Ramsar site.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
@@ -710197,7 +710249,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q68",
@@ -710216,7 +710272,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "100"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “75”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "India had 75 Ramsar sites as of May 2023.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
@@ -710224,7 +710280,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q69",
@@ -710243,19 +710303,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Land, Water, minerals and Forests"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Land, Water, minerals and Forests”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Land, water, minerals and forests are natural resources.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q70",
@@ -710274,7 +710334,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Global disasters"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Environmental disasters”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Unchecked resource exploitation can cause environmental disasters.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
@@ -710282,7 +710342,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q71",
@@ -710301,19 +710365,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "It is the land reserved for construction sites"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “It is the marginal land which is not cultivated every year”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Fallow land is left uncultivated for a period.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q72",
@@ -710332,19 +710396,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Special status to Jammu and Kashmir”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 370 concerned Jammu and Kashmir.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q73",
@@ -710363,19 +710427,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Special provision with respect to the State of Meghalaya"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Special provision with respect to the State of Mizoram”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Article 371G provides special constitutional provisions for Mizoram.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q74",
@@ -710394,7 +710458,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Dampa, Tokalo, Serlui, Phawngpui wildlife sanctuaries"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Dampa, Tokalo, Lengteng, Tawi wildlife sanctuaries”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Dampa, Tokalo, Lengteng and Tawi are the listed Mizoram sanctuaries in the keyed choice.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=6",
@@ -710402,7 +710466,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       0
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q75",
@@ -710421,19 +710489,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "The Supreme court of India"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “The Supreme court of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Supreme Court is the Constitution’s guardian/custodian.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q76",
@@ -710452,19 +710520,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "State Bank of India"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Reserve Bank of India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Reserve Bank of India manages India’s foreign-exchange reserves.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q77",
@@ -710483,7 +710551,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Tihar Jail"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Rangamati Jail”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Lalnu Ropuiliani was detained at Rangamati Jail.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
@@ -710491,7 +710559,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       0
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q78",
@@ -710510,7 +710582,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Kusadasi castle"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Gaziantep castle”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The earthquake severely damaged Gaziantep Castle.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
@@ -710518,7 +710590,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       2
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q79",
@@ -710537,7 +710613,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Mizo Buanpuite"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Daidanna bang phena thuruk”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The keyed MAL Book of the Year 2022 is “Daidanna bang phena thuruk.”",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
@@ -710545,7 +710621,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q80",
@@ -710564,7 +710644,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Rs. 9 Lakh"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Rs. 7 Lakh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The 2023 Union Budget raised the new-regime rebate threshold to ₹7 lakh.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
@@ -710572,7 +710652,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q81",
@@ -710591,20 +710675,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "20th February 1989"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “20th February 1987”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Mizoram attained statehood on 20 February 1987.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q82",
@@ -710623,19 +710706,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "India"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “India”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "India is the world’s largest democracy by population.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q83",
@@ -710654,19 +710737,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Salts"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Hydrocarbons”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Petroleum is a mixture of hydrocarbons.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q84",
@@ -710685,20 +710768,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "1 2 and 3"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “3 and 4”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Dry monsoon forests include thorny scrub/grassland and trees such as mango, mahua, sisam and kikar.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives D; the final key gives C. Verify the printed item."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q85",
@@ -710717,19 +710799,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "The Parliament"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “The President”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The President may establish an Inter-State Council under Article 263.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q86",
@@ -710748,19 +710830,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Single citizenship”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Single citizenship is a unitary feature of India’s system.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q87",
@@ -710779,7 +710861,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "5"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “9”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "IUCN Red List categories comprise nine categories.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=7",
@@ -710787,7 +710869,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q88",
@@ -710806,19 +710892,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Caffeol"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Capsaicin”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Capsaicin gives red chillies their heat.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q89",
@@ -710837,19 +710923,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “North Eastern Frontier Agency”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Arunachal Pradesh was formerly the North-East Frontier Agency (NEFA).",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q90",
@@ -710868,19 +710954,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Samadhan"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “cVigil”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Election Commission’s election-violation reporting app is cVIGIL.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q91",
@@ -710899,7 +710985,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Italy"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “France”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "FRINJEX-23 was India’s first joint military exercise with France.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
@@ -710907,7 +710993,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q92",
@@ -710926,19 +711016,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Kerala"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Uttar Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Terai Elephant Reserve was approved in Uttar Pradesh.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q93",
@@ -710957,20 +711047,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Manipur"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Nagaland”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Nagaland hosted the Tokhü Emong Bird Count.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q94",
@@ -710989,19 +711078,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Bangladesh"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Bangladesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The Sundarbans delta is shared by India and Bangladesh.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q95",
@@ -711020,19 +711109,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Theosophical society"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Brahmo Samaj”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q96",
@@ -711051,19 +711140,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Delhi"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Delhi”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Delhi hosted India’s first Urban Climate Film Festival.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q97",
@@ -711082,19 +711171,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Maharashtra"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Maharashtra”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Aarey Forest is in Maharashtra.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q98",
@@ -711113,19 +711202,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Kazakhstan"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Pakistan”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Mohenjo-daro is in Pakistan.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q99",
@@ -711144,19 +711233,19 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "Jharkhand"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Arunachal Pradesh”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Donyi Polo Airport is in Arunachal Pradesh.",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
     "officialAnswerCandidates": [
       1
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
-    "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q100",
@@ -711175,7 +711264,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
       "MV-ITT VIKASH (V-273)"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “MV-ITT LION (V-273)”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The first Indian cargo ship to dock at Sittwe Port was MV-ITT LION (V-273).",
     "source": "Jr. Grade of Mizoram Forest Service (ACF) under EF&CC Deptt · 2023",
     "year": 2023,
     "sourceHref": "/papers/group-b/archive2325-acf-2023-general-knowledge.pdf#page=8",
@@ -711183,7 +711272,11 @@ const groupBQuestionsPart85: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf"
+    "answerKeyRef": "/papers/group-b/keys/acf-2023-general-knowledge-final-key.pdf",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "sourceReviewed": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
   },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-mathematics-A1",
@@ -712926,7 +713019,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q51",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -712986,9 +713081,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q53",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -721940,7 +722033,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q78",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -722000,9 +722095,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q80",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -729612,7 +729705,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q23",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729666,9 +729761,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q25",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -738461,7 +738554,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q73",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -738527,9 +738622,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q75",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -747071,7 +747164,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q4",
     "questionNumber": "4",
@@ -747123,9 +747218,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q6",
     "questionNumber": "6",

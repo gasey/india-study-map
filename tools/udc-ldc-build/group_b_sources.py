@@ -790,6 +790,7 @@ def build_additional():
             'inspector-excise-2019-gs3': (2, 120),
             'fr-2019-science-1': (2, 120),
             'fr-2019-science-2': (2, 120),
+            'fr-2019-science-3': (2, 120),
             'jics-2019-english': (1, 180),
             'udc-combined-2019-p1': (1, 180),
             'udc-combined-2019-p2': (1, 180),

@@ -4,19 +4,19 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26888,
-    "mcq": 25867,
+    "records": 26890,
+    "mcq": 25869,
     "writtenRecords": 1021,
-    "ready": 17247,
-    "readyOfficial": 8322,
-    "pendingMcq": 8096,
-    "heldReviewed": 524,
-    "workedGuidesReviewed": 10121,
-    "pendingMcqGuides": 15746,
-    "keyOnlyFeedback": 6961,
+    "ready": 17433,
+    "readyOfficial": 8321,
+    "pendingMcq": 7898,
+    "heldReviewed": 538,
+    "workedGuidesReviewed": 10419,
+    "pendingMcqGuides": 15450,
+    "keyOnlyFeedback": 6861,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
-    "missingMcq": 731
+    "missingMcq": 729
   },
   "sections": {
     "english": {
@@ -37,12 +37,12 @@
       "records": 707,
       "mcq": 707,
       "writtenRecords": 0,
-      "ready": 542,
+      "ready": 640,
       "readyOfficial": 293,
-      "pendingMcq": 161,
-      "heldReviewed": 4,
-      "workedGuidesReviewed": 390,
-      "pendingMcqGuides": 317,
+      "pendingMcq": 61,
+      "heldReviewed": 6,
+      "workedGuidesReviewed": 488,
+      "pendingMcqGuides": 219,
       "keyOnlyFeedback": 20,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -64,16 +64,16 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14956,
-      "mcq": 14956,
+      "records": 14958,
+      "mcq": 14958,
       "writtenRecords": 0,
-      "ready": 12639,
-      "readyOfficial": 6205,
-      "pendingMcq": 1936,
-      "heldReviewed": 381,
-      "workedGuidesReviewed": 6901,
-      "pendingMcqGuides": 8055,
-      "keyOnlyFeedback": 5949,
+      "ready": 12727,
+      "readyOfficial": 6204,
+      "pendingMcq": 1838,
+      "heldReviewed": 393,
+      "workedGuidesReviewed": 7101,
+      "pendingMcqGuides": 7857,
+      "keyOnlyFeedback": 5849,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
     },
@@ -6890,13 +6890,13 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 100,
-      "readyOfficial": 100,
+      "ready": 99,
+      "readyOfficial": 99,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
+      "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -6904,18 +6904,25 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 100,
-          "readyOfficial": 100,
+          "ready": 99,
+          "readyOfficial": 99,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
+          "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q35",
+          "questionNumber": "35",
+          "section": "gk",
+          "reason": "Independent solution gives D; the official key gives C. Verify the printed item before scoring."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-acf-2023-mathematics",
@@ -11671,36 +11678,103 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 2,
-      "records": 98,
-      "mcq": 98,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 89,
       "readyOfficial": 0,
-      "pendingMcq": 98,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 98,
+      "pendingMcq": 0,
+      "heldReviewed": 11,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 98,
-          "mcq": 98,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 89,
           "readyOfficial": 0,
-          "pendingMcq": 98,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 98,
+          "pendingMcq": 0,
+          "heldReviewed": 11,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q17",
+          "questionNumber": "17",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q31",
+          "questionNumber": "31",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q63",
+          "questionNumber": "63",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q68",
+          "questionNumber": "68",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q76",
+          "questionNumber": "76",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q79",
+          "questionNumber": "79",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q91",
+          "questionNumber": "91",
+          "section": "gk",
+          "reason": "Figure choices need restoration from the linked source scan before this item can be practiced."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q93",
+          "questionNumber": "93",
+          "section": "gk",
+          "reason": "Figure choices need restoration from the linked source scan before this item can be practiced."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q94",
+          "questionNumber": "94",
+          "section": "gk",
+          "reason": "Figure choices need restoration from the linked source scan before this item can be practiced."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q95",
+          "questionNumber": "95",
+          "section": "gk",
+          "reason": "Figure choices need restoration from the linked source scan before this item can be practiced."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q99",
+          "questionNumber": "99",
+          "section": "gk",
+          "reason": "Held after scan review; source offers no reliable unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-geologist-jun-2020-english-p1",
@@ -18079,12 +18153,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 98,
+      "pendingMcqGuides": 2,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -18093,19 +18167,32 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 98,
+          "pendingMcqGuides": 2,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
           "mixedTopicRecords": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q72",
+          "questionNumber": "72",
+          "section": "arithmetic",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q92",
+          "questionNumber": "92",
+          "section": "arithmetic",
+          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-si-stats-2026-p1",

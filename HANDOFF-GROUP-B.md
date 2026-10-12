@@ -745,3 +745,13 @@ missing MCQs. Review inputs are under `mes-phe-2014-gs`,
 `inspector-excise-2019-gs2` and
 `archive2325-jrgrade-of-mes-combined-july-2024-general-studies` in
 `tools/udc-ldc-build/group-b-text-repairs.json`.
+
+## Forest Ranger and Inspector Excise review batch — 12 October 2026
+
+Three large papers were source-checked and added to the solved bank:
+
+- Forest Ranger General Science-I (2019): 98 derived answers; Q23 and Q52 held. Restored math notation and options damaged in extraction.
+- Forest Ranger General Science-II (2019): 98 derived answers; Q37 held because the correct tree family is absent, and Q100 held because the choices use the wrong unit.
+- Inspector Excise General Studies-III (2019): 97 derived answers; Q83, Q92 and Q93 held. Restored missing Q10 and Q100 and corrected mislabeled/duplicated options.
+
+The build now contains 404 papers / 26,888 records (25,867 MCQs), with 17,246 practice-ready questions and 8,322 official-key-backed. Source review covers 9,494 MCQs; 8,969 remain unreviewed and 525 reviewed items are held. Known missing MCQs: 731.

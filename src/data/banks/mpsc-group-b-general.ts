@@ -495351,17 +495351,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "A condition in which there is heterozygosity at loci",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Complete homozygosity means homozygous alleles at every locus; option (b) states identity by descent.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q2",
@@ -495379,17 +495378,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Histone",
       "Nucleus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "DNA associated with proteins forms chromatin.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q3",
@@ -495407,17 +495405,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Phosphodiester bond",
       "Van der waal’s force"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The sugar-phosphate backbone is joined by phosphodiester bonds.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q4",
@@ -495435,17 +495432,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Thylakoids",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The internal photosynthetic membrane system comprises thylakoids.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q5",
@@ -495463,17 +495459,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Swollen stem that grows beneath the soil surface bearing buds",
       "Swollen stem base bearing buds in the axils of scale-like remains of leaves from the previous year’s growth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A corm is a swollen underground stem base with buds and scale-leaf scars.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q6",
@@ -495491,17 +495486,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Tertiary treatment",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Biological oxidation of sewage is the secondary treatment stage.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q7",
@@ -495519,17 +495513,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Natural system of classification",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bentham and Hooker proposed a natural system of classification.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q8",
@@ -495547,17 +495540,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "3-point test",
       "Recessive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A recessive character is masked in the F1 when crossed with a dominant allele.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q9",
@@ -495575,17 +495567,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Negative",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The isoelectric point is the pH at which net molecular charge is zero.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q10",
@@ -495603,17 +495594,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Triploid",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The dominant plant body in bryophytes is the haploid gametophyte.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q11",
@@ -495631,17 +495621,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Azolla",
       "Equisetum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Azolla bears a sporocarp.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q12",
@@ -495659,17 +495648,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Fungi",
       "Pteridophytes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Cyanobacteria fix nitrogen in paddy fields.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q13",
@@ -495687,14 +495675,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "NADH₂",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Photosynthetic oxygen is released from water photolysis.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q14",
@@ -495712,17 +495702,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Smut",
       "early blight"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Puccinia graminis causes rust disease.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q15",
@@ -495740,17 +495729,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Thallophytes",
       "Spermatophyte"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Thallophytes lack differentiation into true roots, stems and leaves.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q16",
@@ -495768,17 +495756,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Chlorofluorocarbon",
       "Carbon dioxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chlorofluorocarbons catalytically destroy stratospheric ozone.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q17",
@@ -495796,17 +495783,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "mostly upright",
       "mostly inverted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Energy transfer loses energy at each trophic level, so its pyramid is always upright.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q18",
@@ -495824,17 +495810,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Greenhouse gas",
       "DDT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Kyoto Protocol addresses greenhouse-gas emissions.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q19",
@@ -495852,17 +495837,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Clavicep purpurea",
       "Phytophthora infestan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Irish potato famine was caused by Phytophthora infestans.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q20",
@@ -495880,17 +495864,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Axial elongation, lateral expansion, cellular expansion",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gibberellins promote stem elongation, germination and flowering; the other listed effects chiefly describe other hormones.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q21",
@@ -495908,17 +495891,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Sleeping diseases",
       "Sleeping sickness"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Human African trypanosomiasis is also called African sleeping sickness.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q22",
@@ -495936,17 +495918,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Liver tissue",
       "The salivary gland of mosquito"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Plasmodium’s sexual reproduction occurs in the mosquito gut.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q23",
@@ -495965,7 +495946,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Dermatotomy"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No option states a chordate synapomorphy. The intended characteristic is pharyngeal gill slits, but “pharyngotomy” means a surgical incision into the pharynx; hold rather than treating the misspelled/incorrect term as correct.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
@@ -495974,7 +495955,8 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; no unique reliable option."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q24",
@@ -495992,17 +495974,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Hydrolytic activity",
       "Catalytic activity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lysosomal hydrolytic enzymes can digest cellular material, giving rise to the “suicidal bag” name.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q25",
@@ -496020,17 +496001,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Linkage",
       "Inversion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Exchange between non-sister homologous chromatids is crossing over.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q26",
@@ -496048,17 +496028,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Histone",
       "Amino acids"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A nucleotide is the repeating monomer of DNA.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q27",
@@ -496076,17 +496055,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Allele",
       "Alternative gene"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Alternative forms of a gene are alleles.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q28",
@@ -496104,17 +496082,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "RNA into that of DNA",
       "RNA into that of proteins"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Translation decodes RNA codons into an amino-acid sequence/protein.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q29",
@@ -496132,17 +496109,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Cosmic rays",
       "Alpha rays"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "UV is conventionally classified as non-ionizing in this basic comparison (though the shortest UV wavelengths are an edge case).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q30",
@@ -496160,17 +496136,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Northern blotting",
       "Eastern blotting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "DNA fingerprinting historically uses Southern blotting.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q31",
@@ -496188,17 +496163,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Glycogen",
       "Starch"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Animals store carbohydrate mainly as glycogen.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q32",
@@ -496216,17 +496190,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Interneurons",
       "Rotator neurons"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Interneurons form most CNS neurons in brain and spinal cord.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q33",
@@ -496244,17 +496217,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "A disease that is transmitted from zoo animals",
       "A disease that can be transmitted from animals to humans"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Zoonoses are diseases transmissible from animals to humans.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q34",
@@ -496272,17 +496244,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Aristotle",
       "Vavilox"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lamarck advanced the use-and-disuse theory.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q35",
@@ -496300,17 +496271,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Carbon content",
       "Carbon foot- print"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Standing crop is biomass/organic matter present per unit area at a given time.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q36",
@@ -496328,17 +496298,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Sedimentary cycling",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Biogeochemical cycles circulate materials between organisms and the environment.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q37",
@@ -496356,17 +496325,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Endangered plants and animals",
       "Red eyed birds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Red Data Books document threatened/endangered species.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q38",
@@ -496384,17 +496352,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Invasion",
       "Ecesis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ecesis is successful establishment of a species in a new area.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q39",
@@ -496412,17 +496379,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Phenetics",
       "Chemotaxonomy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Phenetics classifies organisms using numerical similarity measures.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q40",
@@ -496440,17 +496406,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Found in arctic region",
       "Gregarious in habit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Endemic species are restricted to a defined geographic area.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q41",
@@ -496468,17 +496433,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "4l + 2",
       "2l + 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A subshell has 2l+1 orbitals, each holding two electrons, for 2(2l+1)=4l+2.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q42",
@@ -496496,17 +496460,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Introduces the idea of stationary states.",
       "Predicts that probability of electron near nucleus is more."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bohr’s model does not describe an electron’s probability distribution near the nucleus; that is a quantum-mechanical concept.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q43",
@@ -496517,21 +496480,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "Which out of the following is incorrect? 2222022110",
+    "question": "Which out of the following is incorrect?",
     "options": [
-      "1s2s2pₓ2p_y2p_z",
-      "1s2s2pₓ2p_y2p_z 221112262651",
-      "1s2s2pₓ2p_y2p_z",
-      "1s2s2p3s3p3d4s"
+      "1s² 2s² 2pₓ² 2pᵧ² 2p_z⁰",
+      "1s² 2s² 2pₓ¹ 2pᵧ¹ 2p_z⁰",
+      "1s² 2s² 2pₓ¹ 2pᵧ¹ 2p_z¹",
+      "1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 2p⁴ arrangement pairs electrons in one p orbital before singly occupying the others, violating Hund’s rule.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q44",
@@ -496549,14 +496514,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "N Shell",
       "Both M and N Shell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Copper’s valence configuration is 3d¹⁰4s¹, placing valence electrons in M and N shells.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q45",
@@ -496574,17 +496541,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "High charge on ions, small cation, large anion.",
       "High charge on ions, large cation, small anion."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Low charge and a large cation with a small anion minimize polarization and favor ionic character.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q46",
@@ -496602,17 +496568,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Metallic bond",
       "Ionic bond"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sidewise (lateral) overlap forms a pi bond.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q47",
@@ -496630,14 +496595,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "PCl₅",
       "PCl₃"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "PCl₅ has trigonal-bipyramidal geometry and sp³d hybridization.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q48",
@@ -496655,17 +496622,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Rutherford (Rd)",
       "Quantum (qt)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The SI unit of activity is the becquerel (one decay per second).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q49",
@@ -496676,21 +496642,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "Average life period is equal to 11",
+    "question": "Average life period is equal to",
     "options": [
-      "",
-      " t0.5",
-      "(t0.5)2",
-      "0.75t₀_.₅"
+      "1/λ",
+      "1/t₀.₅",
+      "(t₀.₅)²",
+      "0.75t₀.₅"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mean life (average life) is 1/λ.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q50",
@@ -496708,17 +496676,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Nuclear fusion",
       "Combustion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Sun’s energy is produced primarily by nuclear fusion.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q51",
@@ -496736,17 +496703,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Zinc",
       "Bismuth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Cadmium absorbs neutrons and serves as a control material.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q52",
@@ -496765,13 +496731,14 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "< 1"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No single n/p ratio characterizes all stable nuclides: light stable nuclides have ratios near or below 1, while heavier nuclides require >1. The question is overgeneralized; (c) is likely intended for heavier nuclei but is not universally true.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; no unique reliable option."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q53",
@@ -496789,17 +496756,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Gas in solid",
       "Liquid in gas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Fog consists of liquid droplets dispersed in a gas.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q54",
@@ -496817,17 +496783,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Internal energy decreases",
       "Internal energy increases"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "For an ideal gas, enthalpy depends only on temperature; isothermal expansion leaves it constant.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q55",
@@ -496845,17 +496810,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Elements with vacant crystal lattice sites",
       "Perfectly crystalline solids"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The third law assigns zero entropy at 0 K to a perfect crystal.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q56",
@@ -496873,17 +496837,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Wavelength",
       "Energy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The wave function ψ is a probability amplitude; |ψ|² gives probability density.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q57",
@@ -496901,17 +496864,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Carbocations",
       "Free radicals"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The standard chain-polymerization intermediates listed are carbanions, carbocations or radicals, not carbenes.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q58",
@@ -496929,17 +496891,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Cationic polymerisation",
       "Ziegler-Natta polymerisation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Conventional high-pressure LDPE is made by free-radical polymerization.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q59",
@@ -496957,17 +496918,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Atom economy",
       "Prevent waste"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first green-chemistry principle is prevention of waste.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q60",
@@ -496978,20 +496938,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "Which of the following is not an example of bottom - up approach for the preparation of nanomaterials?",
+    "question": "Which of the following is not an example of bottom-up approach for the preparation of nanomaterials?",
     "options": [
       "Gas phase agglomeration",
       "Molecular beam epitaxy",
-      "Mechanical grinding(b)Molecular self-assembly"
+      "Mechanical grinding",
+      "Molecular self-assembly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mechanical grinding is a top-down size-reduction method.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q61",
@@ -497004,19 +496967,21 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Let A and B be any two sets, then (A − B) =",
     "options": [
-      "AB', where' denotes complement of the set",
-      "A'B, where' denotes complement of the set",
-      "A'B', where' denotes complement of the set",
-      "A'B', where' denotes complement of the set"
+      "A ∩ B′, where ′ denotes complement of the set",
+      "A′ ∪ B, where ′ denotes complement of the set",
+      "A′ ∪ B′, where ′ denotes complement of the set",
+      "A′ ∩ B′, where ′ denotes complement of the set"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Set difference A−B equals A∩B′.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q62",
@@ -497029,19 +496994,21 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which of the following is a many-one onto function?",
     "options": [
-      "f:AB,f(x)=x²,A is the set of integers and is the set of real numbers",
-      "f:AB,f(x)=x²+1,Ais the set of integers and is the set of perfect squares",
-      "f:AB,f(x)=x²,A is the set of natural numbers and is the set of perfect squares",
-      "f:AB,f(x)=x²,A is the set of integers and is the set of perfect squares"
+      "f:A→B, f(x)=x², A is the set of integers and B is the set of real numbers",
+      "f:A→B, f(x)=x²+1, A is the set of integers and B is the set of perfect squares",
+      "f:A→B, f(x)=x², A is the set of natural numbers and B is the set of perfect squares",
+      "f:A→B, f(x)=x², A is the set of integers and B is the set of perfect squares"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "On integers to perfect squares, x↦x² is onto and many-to-one (x and −x share an image).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q63",
@@ -497059,17 +497026,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "2",
       "8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "√0.04=0.2, which is rational.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q64",
@@ -497080,21 +497046,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "The value of 1+i3³is ()",
+    "question": "The value of (1 + i√3)³ is",
     "options": [
       "4",
       "−4",
       "8",
       "−8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "1+i√3 has modulus 2 and argument π/3; its cube is 8(cosπ+i sinπ)=−8.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q65",
@@ -497110,16 +497078,18 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "3600",
       "7800",
       "15600",
-      "46800 1−32"
+      "46800"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "There are 26·25 ordered letter pairs and 4·3 ordered number pairs: 7800.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q66",
@@ -497130,21 +497100,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "The co-factor of the (3,2)th element of the determinant4−12is 352",
+    "question": "The co-factor of the (3,2)th element of the determinant |1 −3 2; 4 −1 2; 3 5 2| is",
     "options": [
       "14",
       "−14",
       "−6",
       "6"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The cofactor C₃₂=−det[[1,2],[4,2]]=−(2−8)=6.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q67",
@@ -497155,21 +497127,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "In a circle of radius r, if an arc of length l subtends an angle θ^cat the centre, then θr",
+    "question": "In a circle of radius r, if an arc of length l subtends an angle θᶜ at the centre, then",
     "options": [
-      "r=",
-      "l= lθ l",
-      "r=",
-      "θ=2lr θ"
+      "r=θ/l",
+      "l=r/θ",
+      "r=l/θ",
+      "θ=2lr"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "For θ in radians, arc length l=rθ, hence r=l/θ.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q68",
@@ -497180,21 +497154,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "tan1 + tan2 + tan3 = π",
+    "question": "tan⁻¹1 + tan⁻¹2 + tan⁻¹3 =",
     "options": [
       "0",
-      " 2",
+      "π/2",
       "π",
       "2π"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "arctan1+arctan2+arctan3=π.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q69",
@@ -497205,21 +497181,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "The function f(x)=log(x²+x−12)is discontinuous when",
+    "question": "The function f(x)=log(x²+x−12) is discontinuous when",
     "options": [
       "−4 < x < 3",
       "4 < x < 3",
       "4 < x < −3",
-      "−4 < x < −3 1−1"
+      "−4 < x < −3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The logarithm argument x²+x−12=(x+4)(x−3) is nonpositive for −4≤x≤3; the listed open interval is (a).",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q70",
@@ -497230,21 +497208,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "Iff'(x)=₅,then(f)'(x)= 1+x",
+    "question": "If f′(x)=1/(1+x⁵), then (f⁻¹)′(x)=",
     "options": [
       "f(x)",
-      "{1+f^−¹(x)}⁵ 1",
-      "−15",
-      "does not exist {1+f(x)} π"
+      "{1+f⁻¹(x)}⁵",
+      "1/{1+f⁻¹(x)}⁵",
+      "does not exist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The inverse derivative is 1/f′(f⁻¹(x))=1+(f⁻¹(x))⁵.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q71",
@@ -497255,21 +497235,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "The value of −π²sin²xdx is ₂ π",
+    "question": "The value of ∫ from −π/2 to π/2 sin²x dx is",
     "options": [
       "0",
-      " 4 π",
-      "",
-      "π 2"
+      "π/4",
+      "π/2",
+      "π"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The integral of sin²x from −π/2 to π/2 is π/2.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q72",
@@ -497282,22 +497264,21 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "difficulty": "medium",
     "question": "The equation of the curve whose slope at any point is equal to y + x and which passes through the origin is given by",
     "options": [
-      "y = −x − 1 + Ce^x, where C is the constant of integration −x",
-      "y = −x + 1 + Ce, where C is the constant of integration −x",
-      "y = −x − 1 + Ce, where C is the constant of integration",
-      "y = x + 1 + Ce^x, where C is the constant of integration"
+      "y=−x−1+Ceˣ, where C is the constant of integration",
+      "y=−x+1+Ce⁻ˣ, where C is the constant of integration",
+      "y=−x−1+Ce⁻ˣ, where C is the constant of integration",
+      "y=x+1+Ceˣ, where C is the constant of integration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Solving y′=y+x gives y=−x−1+Ceˣ; passing through the origin sets C=1.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q73",
@@ -497315,17 +497296,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "78 years",
       "78.5 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Seven-member total is 525; the six sum to 447, so the last member is 78.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q74",
@@ -497343,17 +497323,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "is an irregular distribution",
       "tends to the Poisson Distribution when the number of trials is very small"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A binomial random variable takes discrete integer values.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q75",
@@ -497371,17 +497350,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Absolute error",
       "Relative error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Failing to reject a false null hypothesis is a Type II error.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q76",
@@ -497399,17 +497377,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1, 6 and 8",
       "2, 8 and 16"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The first three moments about 4 are means of deviations: 1, 6 and 16.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q77",
@@ -497427,17 +497404,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Socket type",
       "System bus speed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Socket type has little direct effect on processor speed compared with clock, cache and bus.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q78",
@@ -497455,17 +497431,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "PROM",
       "EEPROM"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "RAM is volatile memory.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q79",
@@ -497483,17 +497458,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "MS Office 2010",
       "Linux"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Linux is open-source/non-proprietary software.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q80",
@@ -497511,17 +497485,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "WAN",
       "PAN"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A WAN spans large geographic areas and connects distant sites.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q81",
@@ -497539,17 +497512,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "the same as the hypocenter",
       "the location where energy is released"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The epicenter is the surface point vertically above the hypocenter/focus.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q82",
@@ -497567,14 +497539,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Plunge+Rake",
       "Plunge+Dip"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Hade is the complement of dip: 90°−dip.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q83",
@@ -497592,17 +497566,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Paraconformity",
       "Angular unconformity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A contact between sedimentary rocks and older igneous/metamorphic rocks is a nonconformity.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q84",
@@ -497620,17 +497593,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Pluvial",
       "Alluvial"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Placer gold is commonly concentrated in alluvial sediments.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q85",
@@ -497648,17 +497620,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Igneous Rock",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Coal is an organic sedimentary rock.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q86",
@@ -497676,17 +497647,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Electromagnetic method",
       "Gravity method"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Gravity surveys detect density contrasts, notably salt-dome structures associated with petroleum traps.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q87",
@@ -497704,17 +497674,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Ichthyology",
       "Ichnology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ichnology studies trace fossils.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q88",
@@ -497732,17 +497701,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Entire organism is preserved",
       "Only the hard parts are preserved"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Petrification preserves form and structure through mineral replacement/permineralization.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q89",
@@ -497760,14 +497728,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Shale-Slate-Phyllite-Schist-Gneiss",
       "Slate-Shale-Phyllite-Schist-Gneiss"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Increasing metamorphic grade is shale→slate→phyllite→schist→gneiss.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q90",
@@ -497785,17 +497755,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "5.5",
       "3.0"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Unpolluted rainwater is mildly acidic, about pH 5.6; 5.5 is the closest choice.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q91",
@@ -497813,17 +497782,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Brahmaputra fault",
       "Dauki fault"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Shillong Plateau’s southern boundary is the Dauki Fault.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q92",
@@ -497841,14 +497809,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1984",
       "1995"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 5.8-magnitude Cachar earthquake occurred on 30 December 1984.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q93",
@@ -497866,17 +497836,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Gelifluction",
       "Mass movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Liquefaction is the loss of strength of water-saturated granular sediment, causing fluid-like behavior.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q94",
@@ -497894,17 +497863,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "14.8",
       "15.4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The accepted age in this paper’s context is 13.7 billion years.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q95",
@@ -497922,17 +497890,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Cylinder",
       "Saucer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In the nebular hypothesis attributed to Otto Schmidt, dust and gas formed a disc around the Sun.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q96",
@@ -497950,17 +497917,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Isograd lines",
       "Isopleth lines"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Isograd lines mark boundaries between metamorphic grades.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q97",
@@ -497978,17 +497944,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Banded Hematite Quartzite",
       "Banded Hematite Jasper"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Banded iron formations occur in extensive thick Proterozoic sequences.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q98",
@@ -498006,17 +497971,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "marwar Supergroup of rocks",
       "Gondwana Supergroup of rocks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Most Indian coal reserves occur in Gondwana Supergroup rocks.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q99",
@@ -498034,14 +497998,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "ONGC",
       "Shiv-Vani Oil Exploration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "OIL (Oil India Limited) is the company associated with the Meidum gas discovery.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q100",
@@ -498052,21 +498018,23 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Science Paper-I",
     "difficulty": "medium",
-    "question": "According to Indian Bureau of Mines, Ministry of Mines, Goverment of India report, the value of minor minerals produced by the State of Mizoram during 2015-16 was estimated to be",
+    "question": "According to Indian Bureau of Mines, Ministry of Mines, Government of India report, the value of minor minerals produced by the State of Mizoram during 2015-16 was estimated to be",
     "options": [
       "Rs. 215 Lakh",
       "Rs. 250 Lakh",
       "Rs. 295 Lakh",
       "Rs. 325 Lakh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The cited IBM 2015–16 estimate is Rs. 295 lakh.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q1",
@@ -498084,17 +498052,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Accesories minerlas",
       "Tectosilicates minerals"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Secondary minerals. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q2",
@@ -498112,17 +498079,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Vermiculite",
       "Montmorillonite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Kaolinite. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q3",
@@ -498140,17 +498106,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Lateritic soils",
       "Loess"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Lateritic soils. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart60: BankQuestion[] = [
@@ -498170,17 +498135,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "0.75mm",
       "0.075mm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) 0.075mm. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q5",
@@ -498198,17 +498162,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Reduction",
       "Oxidation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Hydrolysis. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q6",
@@ -498226,17 +498189,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Eolian",
       "Lacustrine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Collivium. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q7",
@@ -498254,14 +498216,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Inceptisols",
       "Alfisols"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Alfisols. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q8",
@@ -498279,17 +498243,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Horizon C",
       "Horizon O"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Horizon C. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q9",
@@ -498307,17 +498270,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Silty",
       "Loamy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Clay particles. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q10",
@@ -498335,17 +498297,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Phosphorus deficiency",
       "Sulphur deficiency"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Nitrogen deficiency. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q11",
@@ -498363,17 +498324,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Six",
       "Five"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Seven. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q12",
@@ -498391,17 +498351,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Eluviation",
       "Illuviation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Pedon. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q13",
@@ -498419,17 +498378,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Micronutrient",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Micronutrient. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q14",
@@ -498447,17 +498405,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Rills",
       "splash"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Rills. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q15",
@@ -498475,17 +498432,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Channel",
       "Sedimentation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Deposition. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q16",
@@ -498503,17 +498459,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "RKPRST",
       "RKCBHP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) RKLSCP. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q17",
@@ -498531,17 +498486,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "M.V. Rao",
       "Norman Borlaug"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) M. S. Swaminathan. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q18",
@@ -498559,17 +498513,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Rajasthan",
       "Madhya Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Rajasthan. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q19",
@@ -498587,17 +498540,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "60 to 70 percent",
       "70 to 80 percent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) 50 to 60 percent. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q20",
@@ -498615,17 +498567,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Diversion",
       "Flying"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Saltation. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q21",
@@ -498643,17 +498594,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Retaining wall",
       "Rip rap"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Rip rap. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q22",
@@ -498671,17 +498621,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Aeolian",
       "Lacustrine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Terresterial. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q23",
@@ -498699,17 +498648,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nematodes",
       "Algae"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Nematodes. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q24",
@@ -498727,17 +498675,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nitrogen dioxide",
       "Sodium nitrate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Ammonia. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q25",
@@ -498755,17 +498702,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Potassium (K)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Phosphorus (P). This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q26",
@@ -498783,17 +498729,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Eight",
       "Sixteen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Sixteen. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q27",
@@ -498811,17 +498756,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Tropical Moist deciduous forest",
       "Tropical dry evergreen forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Tropical dry deciduous forest. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q28",
@@ -498839,17 +498783,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "45% of the country’s geographical area",
       "50% of the country’s geographical area"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) 33% of the country’s geographical area. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q29",
@@ -498867,17 +498810,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Latin",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Latin. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q30",
@@ -498895,17 +498837,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nagaland",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Arunachal Pradesh. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q31",
@@ -498923,17 +498864,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "More than 10% to less than 40%",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) 10% to less than 40%. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q32",
@@ -498951,17 +498891,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "North Eastern Part",
       "South Eastern Part"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Easter part. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q33",
@@ -498979,14 +498918,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "10",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) 10. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q34",
@@ -499004,17 +498945,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "92.37%",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) 88.48%. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q35",
@@ -499032,14 +498972,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "8",
       "10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) 4. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q36",
@@ -499057,17 +498999,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Ex-situ conservation. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q37",
@@ -499086,13 +499027,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Combretaceae"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Mesua ferrea (Nahar) is placed in Clusiaceae (also treated as Calophyllaceae); none of the listed families is correct.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Mesua ferrea (Nahar) is placed in Clusiaceae (also treated as Calophyllaceae); none of the listed families is correct."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q38",
@@ -499110,17 +499052,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Renanthera imschootiana",
       "Vanda coerulea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Renanthera imschootiana. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q39",
@@ -499138,17 +499079,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Seedling establishment",
       "Hardening off"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Hardening off. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q40",
@@ -499166,17 +499106,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Eutectona macheralis",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Hyblaea puera. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q41",
@@ -499194,17 +499133,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Healing",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Beating up. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q42",
@@ -499222,17 +499160,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Natural forest",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) High forest. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q43",
@@ -499250,17 +499187,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "10,000",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) 12,500. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q44",
@@ -499278,17 +499214,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Plantation document",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Plantation record. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q45",
@@ -499306,17 +499241,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Cedrus",
       "Salix"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Cedrus. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q46",
@@ -499334,17 +499268,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "4",
       "5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) 2. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q47",
@@ -499362,17 +499295,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Age gradation",
       "Cutting section"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Felling cycle. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q48",
@@ -499390,17 +499322,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Cleaning",
       "Pruning"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Cleaning. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q49",
@@ -499418,17 +499349,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Coppice system",
       "Accessory system"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) System of diffused regeneration. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q50",
@@ -499446,17 +499376,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Cedrus deodara",
       "Shorea robusta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Pinus roxburghii. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q51",
@@ -499474,17 +499403,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "33%",
       "80%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) 60%. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q52",
@@ -499502,17 +499430,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "National forest policy 1894",
       "Forest Conservation Act, 1980"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Forest Conservation Act, 1980. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q53",
@@ -499530,17 +499457,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "II",
       "VI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) V. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q54",
@@ -499558,17 +499484,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Apiko movement",
       "Narmada Bachao Andolan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Apiko movement. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q55",
@@ -499586,17 +499511,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Recreational Forestry",
       "Protection forestry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Recreational Forestry. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q56",
@@ -499614,17 +499538,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Both (a) & (b). This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q57",
@@ -499642,17 +499565,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Production of timber",
       "Both (a) & (b)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Both (a) & (b). This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q58",
@@ -499670,17 +499592,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "National Forest Policy",
       "Indian Forest Act"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) NCA report. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q59",
@@ -499698,17 +499619,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Tamil Nadu",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) West Bengal. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q60",
@@ -499726,17 +499646,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "25%",
       "15%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) 25%. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q61",
@@ -499754,17 +499673,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Delonix regia",
       "Jacaranda mimosifolia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Tectona grandis. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q62",
@@ -499782,14 +499700,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1999",
       "2000"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) 2000. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q63",
@@ -499807,17 +499727,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Climate factor",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) All of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q64",
@@ -499835,17 +499754,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "> 90 cm",
       "< 7.5cm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) > 90 cm. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q65",
@@ -499863,17 +499781,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Subclass c",
       "Subclass e"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Subclass e. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q66",
@@ -499891,17 +499808,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Before harvesting of the standing crops",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Before harvesting of the standing crops. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q67",
@@ -499919,17 +499835,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Sufficient utilization of resources",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) All of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q68",
@@ -499947,17 +499862,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "filler plants",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) food crop. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q69",
@@ -499975,17 +499889,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "sequence cropping",
       "inter cropping"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) relay cropping. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q70",
@@ -500003,17 +499916,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "higher dose of potassium",
       "none of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) higher dose of nitrogen. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q71",
@@ -500031,17 +499943,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Same",
       "Zero"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) More. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q72",
@@ -500059,17 +499970,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Reduced",
       "Highly increased"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Reduced. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q73",
@@ -500087,17 +499997,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "farm technology",
       "all of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) all of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q74",
@@ -500115,17 +500024,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Soil fertility management is very simple",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) It is possible to practice zero tillage in all sequence cropping systems. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q75",
@@ -500143,17 +500051,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "5 - 10 years",
       "less than 5 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) 5 - 10 years. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q76",
@@ -500171,17 +500078,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "ploughing, burning, weeding, sowing and harvesting",
       "slashing, burning, ploughing, sowing, and harvesting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) slashing, burning, sowing, weeding and harvesting. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q77",
@@ -500199,17 +500105,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Shifting cultivators practice mixed cropping, and traditionally food grains and vegetables",
       "Recent years problem is short cycle due to land use pressure"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) It is labour intensive and economical in production. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q78",
@@ -500227,17 +500132,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Plant permanent crops; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces.",
       "Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Bee keeping; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Make an A-frame; Locate the contour lines; Prepare the contour lines; Plant seeds of nitrogen fixing trees and shrubs; Cultivate alternate strips; Plant permanent crops; Plant short and medium term crops; Trim regularly nitrogen fixing trees/shrubs; Practice crop rotation; Build green terraces.. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q79",
@@ -500255,17 +500159,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "It is ecologically sound",
       "Fruit trees, forest and other crops are the first priority"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Fruit trees, forest and other crops are the first priority. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q80",
@@ -500283,17 +500186,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "high -altitude zone of 1,500 meter to 3,500 m;",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) mid-altitude zone of 500 meter to 1,500 m;. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q81",
@@ -500311,17 +500213,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Easy to propagate and prolific seed producer",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) All of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q82",
@@ -500339,17 +500240,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "an intermediate layer",
       "all of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) all of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q83",
@@ -500367,17 +500267,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Agrisilvopastural system",
       "Aquaforestry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Agrisilvopastural system. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q84",
@@ -500395,17 +500294,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Improvement of soil structure through constant addition of organic matter",
       "Better protection of ecological system"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Increase of pressure on natural forest. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q85",
@@ -500423,17 +500321,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Non harvested species such as soil microorganisms, predators and pollinators",
       "Agricultural, pastoral, forest and aquatic ecosystems"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Farm inputs such as manures, fertilizers and pesticides. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q86",
@@ -500451,17 +500348,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "ICAR 3-tier system",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Slopping Watershed Engineering Technology (SWEET). This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q87",
@@ -500479,17 +500375,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Contribute to increased pest and disease problems",
       "Conserve soil and increase natural soil fertility and health"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) Contribute to increased pest and disease problems. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q88",
@@ -500507,17 +500402,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Carbon dioxide",
       "Oxygen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Oxygen. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q89",
@@ -500535,17 +500429,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Thermal pollution",
       "Agricultural effluents"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Domestic waste and Sewage. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q90",
@@ -500563,17 +500456,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "8",
       "7"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) 5.6. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q91",
@@ -500591,17 +500483,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "The BS VI standards will be implemented in all vehicles manufactured on or after April 1, 2020.",
       "The new emission standard has low sulfur content as compared to the present one."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) India has decided to implement BS VI by 2021.. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q92",
@@ -500619,17 +500510,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Water (Prevention and Control of Pollution) Act, 1974",
       "Air (Prevention and Control of Pollution) Act, 1981"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Environmental (Protection) Act 1986. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q93",
@@ -500647,17 +500537,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Air pollution",
       "Water pollution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) Hazardous Wastes. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q94",
@@ -500675,17 +500564,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1992",
       "1993"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The correct choice is (c) 1992. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q95",
@@ -500703,17 +500591,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "The logo of Indian Ecomark Scheme is earthen pot",
       "Ecomark labelled products are not necessarily more expensive than conventional products"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The correct choice is (b) Ecomark was launched in 2000 for easy identification of environment-friendly products. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q96",
@@ -500731,17 +500618,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "International Systems Organisation",
       "Integrated Systems Operation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) International Organisation for Standardization. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q97",
@@ -500759,17 +500645,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "7.5 and 9.5",
       "7 and 9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct choice is (a) 6.5 and 8.5. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q98",
@@ -500787,17 +500672,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Brutland World Committee on Environment and Development",
       "Brundtland World Commission on Environment and Development"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) Brundtland World Commission on Environment and Development. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q99",
@@ -500815,17 +500699,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Land-use maps",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The correct choice is (d) All of these. This follows from the standard forestry/environmental science fact tested by the item.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q100",
@@ -500844,13 +500727,14 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "90 mg/m³"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "All choices are printed in mg/m³, while the standard is expressed as 80 µg/m³; no option has the correct unit/value.",
     "source": "Forest Ranger under Environment, Forest & Climate Change Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/fr-2019-science-2.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "All choices are printed in mg/m³, while the standard is expressed as 80 µg/m³; no option has the correct unit/value."
   },
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q1",
@@ -515086,14 +514970,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1975",
       "1980"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Department of Science and Technology was established in 1971.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q2",
@@ -515111,14 +514997,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "development of wireless telegraphy",
       "theoretical discoveries of topological phase transitions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "C. V. Raman received the Nobel Prize for discovering the scattering of light (the Raman effect).",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q3",
@@ -515136,14 +515024,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Smiling Buddha",
       "Smiling Krishna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India’s 1974 Pokhran-I nuclear test was code-named Smiling Buddha.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q4",
@@ -515161,14 +515051,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Kiran Bedi",
       "Tessy Thomas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tessy Thomas is widely called the Missile Woman of India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q5",
@@ -515186,14 +515078,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "The Prag",
       "The Chandra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pragyan was the planned rover for Chandrayaan-2.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q6",
@@ -515211,14 +515105,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Aryabhata",
       "Brahmagupta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Brahmagupta formulated arithmetic rules involving zero in the seventh century.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q7",
@@ -515236,14 +515132,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "promoting Indian women researchers for carrying out research in the field of science and technology",
       "promoting eligible Indian researchers for carrying out research abroad(outside India)in the field of science and technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PMRF is intended to attract talented students into PhD research in leading Indian institutions.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q8",
@@ -515261,14 +515159,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "IIT-Roorkela",
       "CSIR-IIIM"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "CSIR-IIIM established the first state-of-the-art cGMP facility for herbal preparations.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q9",
@@ -515286,14 +515186,43 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "to improve farm productivity and ensure better utilization of the resources in the country.",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "PMKSY seeks improved farm productivity and efficient use of water resources.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2019-gs3-Q10",
+    "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
+    "questionNumber": "10",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-III",
+    "difficulty": "medium",
+    "question": "Name of the India’s first manned spacecraft",
+    "options": [
+      "Gaganyaan",
+      "Chandrayaan 1",
+      "Bhaskara-II",
+      "INSAT-1A"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gaganyaan is India’s first planned human spaceflight mission.",
+    "source": "Inspector under Excise & Narcotics Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q11",
@@ -515311,14 +515240,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "the development of nuclear reactors",
       "the development of Brahmos and Nirbhay missiles"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kalam’s work on ballistic missiles and launch-vehicle technology earned the title Missile Man.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q12",
@@ -515336,14 +515267,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Jaipur",
       "Dholpur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "BARC is headquartered at Trombay, Mumbai.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q13",
@@ -515361,14 +515294,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "APJ Kalam",
       "Satish Dhawan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Vikram Sarabhai is regarded as the father of India’s space programme.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q14",
@@ -515386,14 +515321,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "July 2016",
       "July 2017"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Digital India was launched in July 2015.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q15",
@@ -515411,14 +515348,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "DD Kisan",
       "DD-Agri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "DD Kisan is Doordarshan’s agriculture channel.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q16",
@@ -515436,14 +515375,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "To demonstrate the ability to soft-land on the lunar surface.",
       "All these."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The mission included mapping, studying water-ice signatures, and demonstrating a soft landing.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q17",
@@ -515460,14 +515401,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Prabhu Deva",
       "Vinod Kumar(b)Illias Ali"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Assamese inventor Uddhab Bharali received the Padma Shri in 2019.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q18",
@@ -515485,14 +515428,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "June 30th 2000",
       "June 30th , 2010"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The National Action Plan on Climate Change was launched on 30 June 2008.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q19",
@@ -515510,14 +515455,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "The Exellency Award for Science and Technology",
       "Sahitya Akademi Award for Science and Technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "CSIR awards the Shanti Swarup Bhatnagar Prize for outstanding science and technology research.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q20",
@@ -515535,14 +515482,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1980",
       "1969"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Experimental television broadcasting in India began in 1959.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q21",
@@ -515560,14 +515509,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "to upgrade the infrastructures of Internet facilities in India",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NeGP aimed to make government services electronically accessible to citizens.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q22",
@@ -515585,14 +515536,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Azim Hashim Premji",
       "Shantanu Narayen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Vijay P. Bhatkar led development of the PARAM 8000.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q23",
@@ -515610,14 +515563,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Deepak Chopra",
       "A.G.K Gokhale"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Subhash Mukhopadhyay created India’s first IVF baby, Durga.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q24",
@@ -515635,14 +515590,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "computerization of all offices in the district main head quarters",
       "to facilitate disbursements of Government entitlements like NREGA, Social Security pension, Handicapped Old Age Pension etc under such districts"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The e-District project delivers high-volume citizen-centred services at district and sub-district levels.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q25",
@@ -515660,14 +515617,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1978",
       "1980"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The AIR Aizawl Regional News Unit began in 1975.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q26",
@@ -515685,14 +515644,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Aryabhata",
       "1-SATIND"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Aryabhata was India’s first satellite, launched in 1975.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q27",
@@ -515710,14 +515671,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Doordarshan",
       "TV-India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Doordarshan began television broadcasting in India in 1959.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q28",
@@ -515735,17 +515698,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "NetOne",
       "Airtel India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "VSNL launched India’s first publicly available internet service in 1995.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q29",
@@ -515763,14 +515725,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Karbonn Mobiles",
       "VK Munoth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "VK Munoth is identified in the item as India’s first mobile brand.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q30",
@@ -515788,14 +515752,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Tata Docomo’s GSM Nerserve",
       "Hutch’s MobileNet service"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The first cellular call in India used Modi Telstra’s MobileNet service.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q31",
@@ -515813,14 +515779,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "July 22, 2019",
       "Augus 15, 2019"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chandrayaan-2 launched on 22 July 2019.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q32",
@@ -515838,14 +515806,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Reliance Jio",
       "Tata DOCOMO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Airtel was the first operator to launch 4G services in India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q33",
@@ -515863,14 +515833,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Unique Identification Authority of India",
       "Unique Identity Access of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "UIDAI issues Aadhaar numbers.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q34",
@@ -515888,14 +515860,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Graphite",
       "Phosphorus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Graphite is used as a lubricant in heavy machinery.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q35",
@@ -515913,14 +515887,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Beryllium",
       "Tantalum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Silicon is the key semiconductor material used in solar cells.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q36",
@@ -515938,14 +515914,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Study of Colon anatomy",
       "Study of reproductivity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Oncology is the study and treatment of cancer.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q37",
@@ -515963,14 +515941,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Rajeev Motwani",
       "Sundar Pichai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sundar Pichai was Google’s first India-born CEO.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q38",
@@ -515988,14 +515968,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "defraction",
       "total internal reflection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Optical fibres guide light by total internal reflection.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q39",
@@ -516013,14 +515995,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Hmui",
       "Dar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The listed traditional Mizo wealth measures include sial, hmui and dar; silai is the exception.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q40",
@@ -516038,14 +516022,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Fasuar",
       "Bahzar or Dawvan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Awkpaka was the sleeping area within the Zawlbuk.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q41",
@@ -516063,14 +516049,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Size of body",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Tangphel refers to a duration or period of time.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q42",
@@ -516088,14 +516076,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Hnuaipui",
       "Arte hring ban"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bawrhkeu was the sacrifice associated with the third day after a child’s birth.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q43",
@@ -516113,14 +516103,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Chief/Lal",
       "Bawlpu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Khuangur was the prolonged decomposition practice associated with a chief/Lal’s burial.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q44",
@@ -516138,14 +516130,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Pusum",
       "Palal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Manpui was the principal component of traditional Mizo bride price.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q45",
@@ -516163,14 +516157,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Mother of the bride has more than one sister",
       "Mother of the bride was remarried"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Nu man applied in the stated circumstance involving the bride’s mother’s remarriage.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q46",
@@ -516188,14 +516184,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Children",
       "Men and women"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Hnawkhal was traditionally a men’s garment.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q47",
@@ -516213,14 +516211,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "War",
       "Religion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Solakia among the Mara/Lakher was associated with hunting.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q48",
@@ -516238,14 +516238,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Inpui chhung Bawi",
       "Inhrang Bawi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The option identifies the poverty-refugee dependent as a Chemsen Bawi.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q49",
@@ -516263,14 +516265,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Daibawl",
       "Chungpui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Fano Dawi was a ceremony intended to ensure success in hunting.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q50",
@@ -516288,14 +516292,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "On the third day",
       "On the fourth day"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chhawnghnawt was performed on the first day of Chapchar Kut.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q51",
@@ -516313,14 +516319,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Champhai",
       "Tachhip"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sibuta Lung is at Sialsuk.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q52",
@@ -516338,14 +516346,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Chawngtui East",
       "Champhai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Thasiama Seno Neihna is near Vaphai village.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q53",
@@ -516363,14 +516373,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Mitthirawp lam",
       "Khuallam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mitthirawp lam was the feast to honour ancestral spirits.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q54",
@@ -516388,14 +516400,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Thlanrawn rawt",
       "Vailen vawikhatna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Khawnglung Run is associated with the Chhak leh Tlang conflict.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q55",
@@ -516413,14 +516427,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "23rd February 1870",
       "23rd February 1871"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Alexandrapore raid occurred on 23 January 1871.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q56",
@@ -516438,14 +516454,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "J. Shakespear",
       "N.E Parry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tarmita was the name associated with T. H. Lewin.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q57",
@@ -516463,14 +516481,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Vincent Tregear",
       "R.B.Mc Cabe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Charles Stewart Murray was the first Superintendent of the South Lushai Hills.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q58",
@@ -516488,14 +516508,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Zathawma",
       "Ngura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Zathawma is identified as the chief who killed Captain Browne.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q59",
@@ -516513,14 +516535,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Col. F.V.G Tregear",
       "Generals Brownlow and Bourchier"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 1889 expedition was commanded by Generals Brownlow and Bourchier.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q60",
@@ -516538,14 +516562,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Suakpuilal",
       "Kairuma"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ropuiliani is remembered as the last Mizo chief to resist the British.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q61",
@@ -516563,14 +516589,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "T.H. Lewin",
       "A.G. Mc Call"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "N. E. Parry wrote The Lakhers.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q62",
@@ -516588,14 +516616,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "20th March 1891",
       "20th January 1894"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "William Williams arrived on 15 March 1891.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q63",
@@ -516613,14 +516643,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Dr. Peter Fraser",
       "Dr. Gyneth Parul Roberts"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Miss Winfred Margaret Jones was Mizoram’s first medical missionary.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q64",
@@ -516638,14 +516670,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "2500",
       "3100"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The commonly cited Mizo labour contingent for the First World War numbered about 2,100.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q65",
@@ -516663,14 +516697,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Khawchhiar",
       "Upa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Tlangau was the village messenger/official established under British administration.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q66",
@@ -516688,14 +516724,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1909",
       "1913"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first revival wave in Mizoram is dated 1906.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q67",
@@ -516713,14 +516751,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "The Third Wave",
       "The Fourth Wave"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The second wave is commonly described as the greatest and most powerful revival.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q68",
@@ -516738,14 +516778,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Lungleh Association",
       "Mizo Hmeichhe Tangrual Pawl"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Lushai Students’ Association was the earliest Mizo-wide organization.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q69",
@@ -516763,14 +516805,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Liangkhaia",
       "Thangphunga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Liangkhaia is identified as the first editor of Kristian Tlangau.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q70",
@@ -516788,14 +516832,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1871-1872",
       "1889-1890"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The first documented Mautam famine in Mizoram occurred in 1861–62.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q71",
@@ -516813,14 +516859,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1946",
       "1947"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Mizo Union was formed in 1946.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q72",
@@ -516838,14 +516886,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "3 only",
       "3 and 4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lalmawia and Rev. Zairema are the leaders associated with UMFO/Zalen Pawl.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q73",
@@ -516863,14 +516913,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "25th July 1962",
       "6th May 1962."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Mizo District Council was inaugurated on 25 February 1952.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q74",
@@ -516888,14 +516940,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "EITU",
       "None of the Above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "UMFO advocated joining Burma.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q75",
@@ -516913,14 +516967,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1 and 3",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "All three statements describe the MNF’s stated goal and actions in March 1966.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q76",
@@ -516938,14 +516994,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1",
       "9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "20 is not a perfect square; the other terms are squares.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 76 & 77): Find the odd man out in the following series"
   },
   {
@@ -516964,14 +517022,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "225",
       "72"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "72 is the only term that is not a perfect square.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 76 & 77): Find the odd man out in the following series"
   },
   {
@@ -516990,14 +517050,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "57",
       "75"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "35 is the only number whose digits sum to 8; the others sum to 12.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 78 & 79): Find the one which does not belong to the group"
   },
   {
@@ -517016,14 +517078,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "30",
       "54"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "30 is the only number not divisible by 9.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 78 & 79): Find the one which does not belong to the group"
   },
   {
@@ -517042,14 +517106,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "22",
       "10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The two interleaved sequences are +3 (10,13,16,19) and doubling (5,10,20,40).",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 80 & 81): Find the missing number in the following series"
   },
   {
@@ -517068,17 +517134,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "20",
       "22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The odd-position terms rise by 3: 8, 11, 14, 17, 20.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 80 & 81): Find the missing number in the following series"
   },
   {
@@ -517097,17 +517162,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "30",
       "26"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The series decreases by 6 each time, giving 28.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517127,13 +517191,14 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "400"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The source scan’s figure is too low-resolution/ambiguous to identify one uniquely correct option with confidence.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; no unique reliable option.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517153,15 +517218,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "IJT"
     ],
     "answerIndex": 2,
-    "explanation": "Series SCD,TEF,UGH,___,WKL: first letters step +1 (S,T,U,V,W), second +2 (C,E,G,I,K), third +2 (D,F,H,J,L), giving VIJ (C).",
+    "explanation": "Each letter advances one position by column: S/T/U/V/W, C/E/G/I/K, D/F/H/J/L.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
     "answerSource": "derived",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q85",
@@ -517179,14 +517245,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "P S J O U F P",
       "R S J O U F P"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Reverse the word and increment each interior letter by one: PRINTER becomes RFUOJSP.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517205,14 +517273,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Universe",
       "Planets"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Moon, Sun and planets are individual celestial objects; Universe is the collective whole.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517231,14 +517301,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Poverty",
       "Difficulty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ease and difficulty are opposites, so comfort corresponds to hardship.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517257,14 +517329,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Cousin",
       "Father"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Somesh is the only son of his mother, so the boy is Somesh’s son; he is the boy’s father.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 82 & 83): In each series, look for the degree and direction of change"
   },
   {
@@ -517283,14 +517357,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option 1 matches the cube after a rotation: the three marked faces retain their cyclic adjacency.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 89 - 90): Find out how will the key figure (X) look like after rotation."
   },
   {
@@ -517309,14 +517385,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A 180-degree rotation gives the arrangement shown in option 1.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 89 - 90): Find out how will the key figure (X) look like after rotation."
   },
   {
@@ -517335,14 +517413,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option 1 is the composite figure that can be assembled from the pieces in X.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed"
   },
   {
@@ -517362,13 +517442,14 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The source scan’s figure is too low-resolution/ambiguous to identify one uniquely correct option with confidence.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; no unique reliable option.",
     "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed"
   },
   {
@@ -517388,13 +517469,14 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The source scan’s figure is too low-resolution/ambiguous to identify one uniquely correct option with confidence.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; no unique reliable option.",
     "direction": "Directions (Questions 91 - 92): Find out which of the figures (1), (2), (3) and (4) can be formed"
   },
   {
@@ -517413,17 +517495,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "To emphasise",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "To drive a point home means to emphasize it.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 94 & 95): Some proverbs/idioms are given below together with their"
   },
   {
@@ -517442,17 +517523,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "To give false alarm",
       ")None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "To cry wolf means to give a false alarm.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 94 & 95): Some proverbs/idioms are given below together with their"
   },
   {
@@ -517471,17 +517551,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Senility",
       "Imbecility"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dotage means the mental weakness or foolishness associated with old age.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 96 & 97):  In questions given below out of four alternatives, choose the"
   },
   {
@@ -517500,17 +517579,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Ethnology",
       "Archaeology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Archaeology studies ancient societies through their material remains.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 96 & 97):  In questions given below out of four alternatives, choose the"
   },
   {
@@ -517529,14 +517607,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Occasion",
       "Chance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Chance is the natural completion: the earlier train gives time/opportunity for shopping.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 98 & 99):  Pick out the most effective word(s) from the given words to fill"
   },
   {
@@ -517555,17 +517635,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Flock",
       "Swarm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A group of cows is a herd.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 98 & 99):  Pick out the most effective word(s) from the given words to fill"
   },
   {
@@ -517584,14 +517663,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Terminated",
       "Finished"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Terminated is the intended opposite of commissioned in the sense of brought into service/operation.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs3.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question 100): In the following question, choose the word which is the exact opposite"
   },
   {
@@ -522178,7 +522259,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q76",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -522206,9 +522289,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if"
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q77",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -530455,7 +530536,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q13",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -530483,9 +530566,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q14",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -538675,7 +538756,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 75 - 80 : Choose the alternative that best expresses the meaning of the given"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-scr-2019-english-B77",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -538704,9 +538787,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 75 - 80 : Choose the alternative that best expresses the meaning of the given"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B78",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -546970,7 +547051,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q70",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -546998,9 +547081,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q71",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -554673,7 +554754,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B98",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -554700,9 +554783,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B99",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -562782,7 +562863,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A19",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -562809,9 +562892,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A20",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -570891,7 +570972,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B42",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -570918,9 +571001,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B43",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -578986,7 +579067,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Option c misspells Edward Jenner as “Jennar”; the correct watchmaker is not listed."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A63",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -579013,9 +579096,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A64",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -587087,7 +587168,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A9",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -587114,9 +587197,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A10",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -595182,7 +595263,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B32",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -595209,9 +595292,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B33",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -603200,7 +603281,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q49",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -603227,9 +603310,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q50",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -611234,7 +611315,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q41",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611261,9 +611344,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q42",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -619537,7 +619618,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q34",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -619565,9 +619648,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q36",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -627530,7 +627611,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q73",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -627557,9 +627640,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q74",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -635644,7 +635725,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 57 - 61) : Synthesize the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q61",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -635673,9 +635756,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 57 - 61) : Synthesize the sentences as directed."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q62",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -643854,7 +643935,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q73",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -643881,9 +643964,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q74",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -651914,7 +651995,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q54",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -651944,9 +652027,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Held unscored: options (b) and (c) are both correct complex syntheses of the printed sentences, so no unique answer can be derived from the page.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q55",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -659973,7 +660054,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q48",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -660000,9 +660083,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q49",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -668528,7 +668609,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q56",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -668558,9 +668641,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q58",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -677543,7 +677624,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q9",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -677573,9 +677656,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q10",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -686554,7 +686635,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -686584,9 +686667,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q46",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -695550,7 +695631,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q36",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -695580,9 +695663,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q37",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -704110,7 +704191,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q62",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -704141,9 +704224,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q63",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -712895,7 +712976,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q53",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -712925,9 +713008,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q54",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -721909,7 +721990,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q80",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -721939,9 +722022,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q81",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -729575,7 +729656,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q25",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729602,9 +729685,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q26",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -738436,7 +738517,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q75",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -738469,9 +738552,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q76",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -747032,7 +747113,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q6",
     "questionNumber": "6",
@@ -747058,9 +747141,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q7",
     "questionNumber": "7",

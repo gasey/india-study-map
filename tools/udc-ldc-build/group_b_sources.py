@@ -788,6 +788,8 @@ def build_additional():
             'archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a': (1, 180),
             'do-mar-2019-english': (1, 180),
             'inspector-excise-2019-gs3': (2, 120),
+            'fr-2019-science-1': (2, 120),
+            'fr-2019-science-2': (2, 120),
             'jics-2019-english': (1, 180),
             'udc-combined-2019-p1': (1, 180),
             'udc-combined-2019-p2': (1, 180),

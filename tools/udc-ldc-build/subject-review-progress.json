@@ -4,19 +4,19 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26887,
-    "mcq": 25866,
+    "records": 26888,
+    "mcq": 25867,
     "writtenRecords": 1021,
-    "ready": 16954,
+    "ready": 17246,
     "readyOfficial": 8322,
-    "pendingMcq": 8394,
-    "heldReviewed": 518,
-    "workedGuidesReviewed": 9817,
-    "pendingMcqGuides": 16049,
+    "pendingMcq": 8096,
+    "heldReviewed": 525,
+    "workedGuidesReviewed": 10116,
+    "pendingMcqGuides": 15751,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
-    "missingMcq": 732
+    "missingMcq": 731
   },
   "sections": {
     "english": {
@@ -64,15 +64,15 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14955,
-      "mcq": 14955,
+      "records": 14956,
+      "mcq": 14956,
       "writtenRecords": 0,
-      "ready": 12346,
+      "ready": 12638,
       "readyOfficial": 6205,
-      "pendingMcq": 2234,
-      "heldReviewed": 375,
-      "workedGuidesReviewed": 6597,
-      "pendingMcqGuides": 8358,
+      "pendingMcq": 1936,
+      "heldReviewed": 382,
+      "workedGuidesReviewed": 6896,
+      "pendingMcqGuides": 8060,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -11575,12 +11575,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11589,18 +11589,31 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-fr-2019-science-1-Q23",
+          "questionNumber": "23",
+          "section": "gk",
+          "reason": "Held after source review; no unique reliable option."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-1-Q52",
+          "questionNumber": "52",
+          "section": "gk",
+          "reason": "Held after source review; no unique reliable option."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -11615,12 +11628,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11629,18 +11642,31 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-fr-2019-science-2-Q37",
+          "questionNumber": "37",
+          "section": "gk",
+          "reason": "Mesua ferrea (Nahar) is placed in Clusiaceae (also treated as Calophyllaceae); none of the listed families is correct."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-2-Q100",
+          "questionNumber": "100",
+          "section": "gk",
+          "reason": "All choices are printed in mg/m³, while the standard is expressed as 80 µg/m³; no option has the correct unit/value."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -12311,36 +12337,55 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 1,
-      "records": 99,
-      "mcq": 99,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 1,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 98,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 1,
-      "pendingMcqGuides": 98,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 99,
-          "mcq": 99,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 1,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 98,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 1,
-          "pendingMcqGuides": 98,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs3-Q83",
+          "questionNumber": "83",
+          "section": "gk",
+          "reason": "Held after source review; no unique reliable option."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs3-Q92",
+          "questionNumber": "92",
+          "section": "gk",
+          "reason": "Held after source review; no unique reliable option."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs3-Q93",
+          "questionNumber": "93",
+          "section": "gk",
+          "reason": "Held after source review; no unique reliable option."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-excise-2025-gs1",

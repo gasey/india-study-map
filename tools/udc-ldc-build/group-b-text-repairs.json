@@ -195740,6 +195740,4833 @@
           "explanation": "Washington, D.C. lies on the Potomac River."
         }
       }
+    },
+    "mes-phe-2014-gs": {
+      "sourceSha256": "57594ae52a69753e30dfce9163744e980bebffc13ce7e659b0c422b5119dd1c9",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 numbered questions checked against the 12-page MPSC scan. Restored four two-choice English items (Q95–98) omitted by extraction, repaired merged option text at Q63 and Q85, and restored both comprehension passages. No official answer key was used. Q5, Q45, Q54, Q58 and Q59 are held for ambiguous or defective choices.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Public Health Engineering Department of Mizoram was:",
+          "opts": {
+            "a": "Established as a purely new Department",
+            "b": "Separated from PWD",
+            "c": "A part of Health Department",
+            "d": "Under UD&PA before"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "The first among Mizos to have passed Engineering Degree:",
+          "opts": {
+            "a": "Durra Chawngthu",
+            "b": "Lalrengpuia Sailo",
+            "c": "K.Thangzualla",
+            "d": "Robula"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "A two wheeler often slips on an oily road because:",
+          "opts": {
+            "a": "friction between tyres and road surface decreases",
+            "b": "inertia of the two wheeler tyres increases",
+            "c": "friction between tyres and road surface increases",
+            "d": "inertia of two wheeler tyre decreases"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Name of a controversial Minister of Delhi Gov’t. who allegedly barged into a house where some African women were living in January 2014 is:",
+          "opts": {
+            "a": "Manish Sisodia",
+            "b": "Somnath Barti",
+            "c": "Rakhi Birla",
+            "d": "Prashan Bhushan"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "A constitutional body of India headed by an Engineer is:",
+          "opts": {
+            "a": "Election Commission",
+            "b": "Finance Commission",
+            "c": "Comptroller & Auditor General",
+            "d": "Union Public Service Commission"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "The printed question does not identify which constitutional body its author intended. The listed offices have not been shown to have an engineer as their head at the paper’s sitting; retain as defective pending a contemporaneous source.",
+          "reviewNote": "The printed question does not identify which constitutional body its author intended. The listed offices have not been shown to have an engineer as their head at the paper’s sitting; retain as defective pending a contemporaneous source."
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "The only Chief Minister in India who continuously ruled for more than five terms:",
+          "opts": {
+            "a": "Manik Sarkar of Tripura",
+            "b": "Gegong Apang of Arunachal",
+            "c": "Jyoti Basu of West Bengal",
+            "d": "Narendra Modi of Gujarat"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "Which one of the following is the fastest growing sector in India?",
+          "opts": {
+            "a": "Service sector",
+            "b": "Highway sector",
+            "c": "Agriculture sector",
+            "d": "Manufacturing sector"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "Who among these leaders was at one time Prime Minister for 13 days?",
+          "opts": {
+            "a": "Atal Bihari Vajpayee",
+            "b": "Chandra Sekhar",
+            "c": "Morarji Desai",
+            "d": "Viswanath Pratap Singh"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "Email was invented by:",
+          "opts": {
+            "a": "Arthur Wynne",
+            "b": "Charles Strite",
+            "c": "Tim Berners-Lee",
+            "d": "Ray Tomlinson"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "Select the correct statement in respect of central budget:",
+          "opts": {
+            "a": "Plan expenditure is higher than non-plan expenditure",
+            "b": "Non-plan expenditure is normally higher than plan expenditure",
+            "c": "Plan expenditure is always equal to plan expenditure",
+            "d": "Most salaries of employees are paid from plan fund"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Five year Plans are finally approved by the:",
+          "opts": {
+            "a": "President of India",
+            "b": "Union Council of Ministers",
+            "c": "National Development Council",
+            "d": "Planning Commission"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Who is Chairman of Planning Commission?",
+          "opts": {
+            "a": "President",
+            "b": "Finance Minister",
+            "c": "Prime Minister",
+            "d": "Speaker of Lok Sabha"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "In Mizoram, National Highway connecting Aizawl and Lunglei is:",
+          "opts": {
+            "a": "NH-150",
+            "b": "NH-154",
+            "c": "NH-54",
+            "d": "NH-36"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "Which of the following  groups constitutes the largest minority group in India?",
+          "opts": {
+            "a": "Sikh",
+            "b": "Muslim",
+            "c": "Budhist",
+            "d": "Christianity"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "The Governor General of India during Sepoy Mutiny was:",
+          "opts": {
+            "a": "Lord Canning",
+            "b": "Lord Lytton",
+            "c": "Lord Dalhousie",
+            "d": "Lord Hastings"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "What does NLCPR stand for?",
+          "opts": {
+            "a": "National Liability Clearance Permanent Remittance",
+            "b": "Non-Lapsable Central Payment of Resources",
+            "c": "Non-Lapsable Central Pool of Resources",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "The first Indian scholar who treated Mathematics as a distinct subject was:",
+          "opts": {
+            "a": "Dr. Amartya Sen",
+            "b": "Aryabhatta",
+            "c": "Chandra Gupta",
+            "d": "Gautam Roy"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "The first 5-Year Plan in India was launched in the year:",
+          "opts": {
+            "a": "1951",
+            "b": "1950",
+            "c": "1947",
+            "d": "1954"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "The smallest District (area-wise) of Mizoram is:",
+          "opts": {
+            "a": "Saiha District",
+            "b": "Serchhip District",
+            "c": "Kolasib District",
+            "d": "Mamit District"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Who designed the new symbol of Indian Rupee?",
+          "opts": {
+            "a": "Udaya Kumar Dharmalingam",
+            "b": "Subramaniam Mehta",
+            "c": "Vijaya Reddy",
+            "d": "Srikant Bandhyopadhyay"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "PMGSY was launched on December 25, 2000, which is the birthday of:",
+          "opts": {
+            "a": "Manmohan Singh",
+            "b": "Atal Bihari Vajpayee",
+            "c": "Rajiv Gandhi",
+            "d": "Subash Chandra Bose"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Penicillin was invented by:",
+          "opts": {
+            "a": "Dr. Christian Bernard",
+            "b": "Alexander Flemming",
+            "c": "Alfred Nobel",
+            "d": "Dr. George Hume"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The National Rural Employment Guarantee Scheme aims at providing:",
+          "opts": {
+            "a": "100 days of employment to one family",
+            "b": "100 days of employment to any able working person",
+            "c": "100 days of employment to all working members of a family",
+            "d": "100 days of employment to all unemployed members"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Oil was first discovered in India in the year 1867 at:",
+          "opts": {
+            "a": "Kalol in Gujarat",
+            "b": "Duliajan in Assam",
+            "c": "Bankura in West Bengal",
+            "d": "Digboi in Assam"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "The primary and immediate cause of Sepoy Mutiny 1857  was:",
+          "opts": {
+            "a": "Introduction of English in the Army",
+            "b": "Adoption of General Service Enlistment Act",
+            "c": "Use of greased cartridge",
+            "d": "Stoppage of soldiers’ privilege of postage free letters"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Gandhiji evolved ‘non-cooperation and ‘satyagraha’ in:",
+          "opts": {
+            "a": "South Africa",
+            "b": "India",
+            "c": "England",
+            "d": "U.S.A"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "The first and the only politician from north-east elected as Speaker of Lok Sabha:",
+          "opts": {
+            "a": "Prof. G.G.Swel",
+            "b": "Purno Agitok Sangma",
+            "c": "Williamson Sangma",
+            "d": "Hiteshwar Saikia"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Choose the first and the only  Central Minister from Mizoram:",
+          "opts": {
+            "a": "A.Thanglura",
+            "b": "Dr. C.Silvera",
+            "c": "H.T.Sangliana",
+            "d": "Lalbuaia"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "The number of seats in the Legislative Assembly of NCT of Delhi is:",
+          "opts": {
+            "a": "40",
+            "b": "70",
+            "c": "60",
+            "d": "90"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "Another name for Myopia is:",
+          "opts": {
+            "a": "Long-sightedness",
+            "b": "Short-sightedness",
+            "c": "Blindness",
+            "d": "Presbyopia"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "The length of the side of a square field whose area is equal to the sum of the area of two rectangular fields with dimensions 40m×20m and 25m×17m is:",
+          "opts": {
+            "a": "30m",
+            "b": "35m",
+            "c": "32m",
+            "d": "37m"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "The value of x in the series 9, 81, x, 6561 is:",
+          "opts": {
+            "a": "729",
+            "b": "162",
+            "c": "90",
+            "d": "60"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "The lightest gas is:",
+          "opts": {
+            "a": "Xenon",
+            "b": "Helium",
+            "c": "Hydrogen",
+            "d": "Radon"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "Who is the author of the famous novel ‘The DaVinci Code’?",
+          "opts": {
+            "a": "Dan Brown",
+            "b": "Victor Hugo",
+            "c": "D.B.C. Pierre",
+            "d": "Aldour Huxley"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "Who first detected the radio waves?",
+          "opts": {
+            "a": "J.C. Maxell",
+            "b": "G. Marconi",
+            "c": "Rutherford",
+            "d": "Heinrich Hertz"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Which country has the lengthiest Constitution?",
+          "opts": {
+            "a": "U.S.A.",
+            "b": "U.K.",
+            "c": "Canada",
+            "d": "India"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Name the person who treated zero as a number and showed its mathematical operation:",
+          "opts": {
+            "a": "Pythagoras",
+            "b": "Plato",
+            "c": "Aryabhatta",
+            "d": "Brahmagupta"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Which is the longest river of India?",
+          "opts": {
+            "a": "Yamuna",
+            "b": "Godavari",
+            "c": "Brahmaputra",
+            "d": "Ganges"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Karl Marx wrote:",
+          "opts": {
+            "a": "Emma",
+            "b": "Good Earth",
+            "c": "Das Kapital",
+            "d": "Divine Comedy"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "Who became the first Indian to swim across the English Channel?",
+          "opts": {
+            "a": "Aarti Gupta",
+            "b": "Avinash Sarang",
+            "c": "Mihir Sen",
+            "d": "Nisha Miller"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Sri Lanka is separated from India by:",
+          "opts": {
+            "a": "Bay of Bengal",
+            "b": "The Arabian Sea",
+            "c": "The Indian Ocean",
+            "d": "Palk Strait and the Gulf of Mannar"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "How many states are there in India at present?",
+          "opts": {
+            "a": "28",
+            "b": "26",
+            "c": "25",
+            "d": "27"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Which planet has the highest number of satellites?",
+          "opts": {
+            "a": "Neptune",
+            "b": "Mars",
+            "c": "Venus",
+            "d": "Jupiter"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Oscar awards are associated with:",
+          "opts": {
+            "a": "Films",
+            "b": "Science",
+            "c": "Sports",
+            "d": "Literature"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "One nautical mile is equal to:",
+          "opts": {
+            "a": "1.6 km",
+            "b": "2 km",
+            "c": "4.1 km",
+            "d": "12 km"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "One nautical mile is exactly 1.852 km (about 1.85 km), and none of the listed distances is correct.",
+          "reviewNote": "One nautical mile is exactly 1.852 km (about 1.85 km), and none of the listed distances is correct."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Who is called the Father of Economics?",
+          "opts": {
+            "a": "Karl Marx",
+            "b": "David Ricardo",
+            "c": "J.K. Galbraith",
+            "d": "Adam Smith"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "The completion of the building has been held ________ owing to the workers’ strike.",
+          "opts": {
+            "a": "off",
+            "b": "up",
+            "c": "on",
+            "d": "over"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Anand was the sort of person who always looked on the _________ side of life",
+          "opts": {
+            "a": "clear",
+            "b": "bright",
+            "c": "broad",
+            "d": "illuminated"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Rainfall in the desert is not only low but extremely______",
+          "opts": {
+            "a": "intense",
+            "b": "erratic",
+            "c": "meager",
+            "d": "undesirable"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "He is very _________; he believes anything.",
+          "opts": {
+            "a": "fallible",
+            "b": "gullible",
+            "c": "sensible",
+            "d": "credible"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "PROSPERITY",
+          "opts": {
+            "a": "Adversity",
+            "b": "Sickness",
+            "c": "Hardship",
+            "d": "Failure"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "CONCEIT",
+          "opts": {
+            "a": "Humility",
+            "b": "Pride",
+            "c": "Determination",
+            "d": "Arrogance"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "IMPARTIAL",
+          "opts": {
+            "a": "Hostile",
+            "b": "Biased",
+            "c": "Dislike",
+            "d": "Worried"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "ARDENT",
+          "opts": {
+            "a": "Eager",
+            "b": "Devoted",
+            "c": "Zealous",
+            "d": "Sincere"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "“Ardent” means enthusiastic or passionate; “eager,” “devoted” and “zealous” are all defensible near-synonyms, so the options do not identify one uniquely best answer.",
+          "reviewNote": "“Ardent” means enthusiastic or passionate; “eager,” “devoted” and “zealous” are all defensible near-synonyms, so the options do not identify one uniquely best answer."
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "REMOTE",
+          "opts": {
+            "a": "Automatic",
+            "b": "Distant",
+            "c": "Savage",
+            "d": "Mean"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "GRACIOUS",
+          "opts": {
+            "a": "Pretty",
+            "b": "Clever",
+            "c": "Pleasant",
+            "d": "Present"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "KIN",
+          "opts": {
+            "a": "Exult",
+            "b": "Twist",
+            "c": "Friend",
+            "d": "Relative"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "The workers are **hell bent at getting** what is due to them.",
+          "opts": {
+            "a": "hell bent on getting",
+            "b": "hell bent for getting",
+            "c": "hell bent upon getting",
+            "d": "no improvement"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Both “hell-bent on getting” and “hell-bent upon getting” are standard constructions, so options (a) and (c) both improve the sentence.",
+          "reviewNote": "Both “hell-bent on getting” and “hell-bent upon getting” are standard constructions, so options (a) and (c) both improve the sentence."
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "**If the room had been brighter,** I would have been able to read for a while before bed time.",
+          "opts": {
+            "a": "If the room was brighter",
+            "b": "If the room are brighter",
+            "c": "Had the room been brighter",
+            "d": "No improvement"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "The original third conditional is already grammatical, while option (c) is an equally grammatical inversion of the same conditional; the item has two correct choices.",
+          "reviewNote": "The original third conditional is already grammatical, while option (c) is an equally grammatical inversion of the same conditional; the item has two correct choices."
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "**His powerful desire** brought about his downfall.",
+          "opts": {
+            "a": "His intense desire",
+            "b": "His desire for power",
+            "c": "His fatal desire",
+            "d": "No improvement"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "He **sent a word** to me that he would be coming late.",
+          "opts": {
+            "a": "sent word",
+            "b": "had sent a word",
+            "c": "sent words",
+            "d": "no improvement"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "If he **had** time he will call you.",
+          "opts": {
+            "a": "would have",
+            "b": "would have had",
+            "c": "has",
+            "d": "no improvement"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "Will you **lend me few rupees** in this hour of need?",
+          "opts": {
+            "a": "lend me any rupees",
+            "b": "borrow me a few rupees",
+            "c": "lend me a few rupees",
+            "d": "no improvement"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "Based on the information in the passage, which of the following best describes John Billington?",
+          "opts": {
+            "a": "quiet and shy",
+            "b": "angry and rebellious",
+            "c": "clever and amusing",
+            "d": "bold and patriotic"
+          },
+          "part": null,
+          "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Which of the following is NOT true of John Billington, according to the passage?",
+          "opts": {
+            "a": "He had two sons",
+            "b": "He served in the military under Miles Standish",
+            "c": "He tried to lead a mutiny",
+            "d": "He attempted to overthrow the government"
+          },
+          "part": null,
+          "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "Why didn’t the leaders of Plymouth Colony punish Billington for rebelling against their authority?",
+          "opts": {
+            "a": "He was not guilty",
+            "b": "Billington was Miles Standish’s nephew",
+            "c": "He had two sons who needed him",
+            "d": "They didn’t have enough evidence"
+          },
+          "part": null,
+          "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "A good title for this passage would be",
+          "opts": {
+            "a": "A History of Plymouth Colony",
+            "b": "The Injustices of Miles Standish",
+            "c": "America’s First Murderer",
+            "d": "Early American Legal Battles"
+          },
+          "part": null,
+          "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "Consider the following statements: 1. All artists are whimsical. 2.Some artists are drug addicts. 3. Frustrated people are prone to become drug addicts. From the above three statements it may be concluded that",
+          "opts": {
+            "a": "Artists are frustrated",
+            "b": "Some drug addicts are whimsical",
+            "c": "All frustrated people are drug addicts",
+            "d": "Whimsical people are generally frustrated"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 8,
+          "q": "Mr. Kumar drives to work at an average speed of 48 km per hour. The time taken to cover the first 60% of the distance is 10 minutes more than the time taken to cover the remaining distance. How far is his office?",
+          "opts": {
+            "a": "30 km",
+            "b": "40 km",
+            "c": "45 km",
+            "d": "48 km"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 8,
+          "q": "Gita is prettier than Sita but not as pretty as Rita. Then,",
+          "opts": {
+            "a": "Sita is not as pretty as Gita",
+            "b": "Sita is prettier than Rita.",
+            "c": "Rita is not as pretty as Gita",
+            "d": "Gita is prettier than Rita."
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "q": "Four political parties W, X, Y and Z decided to set up a joint candidate for the coming parliamentary elections. The formula agreed by them was the acceptance of a candidate by most of the parties. Four aspiring candidates A, B, C and D approached the parties for their tickets. Awas acceptable to W but not to Z. Bwas acceptable to Y but not to X. Cwas acceptable to W and Y Dwas acceptable to W and X When candidate B was preferred by W and Z, candidate C was preferred by X and Z, and candidate A was acceptable to X but not to Y, who got the ticket?",
+          "opts": {
+            "a": "A",
+            "b": "B",
+            "c": "C",
+            "d": "D"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "q": "In the below figure, circle P represents hardworking people, circle Q represents intelligent people, circle R represents truthful people and circle S represents honest people. P       Q 10      11              1 9              7              2 8          6 4       5      3 R        S Which region represents the people who are intelligent, honest and truthful but not hardworking ?",
+          "opts": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "9"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "q": "Six squares are coloured, front and back, red (R), blue (B), yellow (Y), green (G), white (W) and orange (O) and are hinged together as shown in the figure given below. If they are folded to form a cube, what would be the face opposite the white face? RB GYO W",
+          "opts": {
+            "a": "R",
+            "b": "G",
+            "c": "B",
+            "d": "O"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 9,
+          "q": "Three views of a cube following a particular motion are given below: K              H            B B      K                  H A        M          P What is the letter opposite to A?",
+          "opts": {
+            "a": "H",
+            "b": "P",
+            "c": "B",
+            "d": "M"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 9,
+          "q": "Two glasses of equal volume are respectively half and three-fourths filled with milk. They are then filled to the brim by adding water. Their contents are then poured into another vessel. What will be the ratio of milk to water in this vessel?",
+          "opts": {
+            "a": "1 : 3",
+            "b": "2 : 3",
+            "c": "3 : 2",
+            "d": "5 : 3"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 9,
+          "q": "Examine the following statements: 1.None but the rich can afford air travel. 2.Some of those who travel by air become sick. 3.Some of those who become sick require treatment. Which one of the following conclusions can be drawn from the above statements?",
+          "opts": {
+            "a": "All rich persons travel by air",
+            "b": "Those who travel by air become sick",
+            "c": "All the rich persons become sick",
+            "d": "All those who travel by air are rich"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 9,
+          "q": "Match List-I with List-II and select the correct pair: **List-I (State)List-II (CM)**",
+          "opts": {
+            "a": "Arunachal PradeshNeiphiu Rio",
+            "b": "AssamNabam Tuki",
+            "c": "TripuraManik Sarkar",
+            "d": "NagalandIbobi Singh"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 9,
+          "q": "The primary product of photosynthesis is",
+          "opts": {
+            "a": "Cellulose",
+            "b": "Glucose",
+            "c": "Glycogen",
+            "d": "Sucrose"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 9,
+          "q": "Which of the following can help in reducing the carbon footprint? 1.Using fly-ash based cement in building construction 2.Using LED-based electric lamps instead of incandescent lamps Select the correct answer using the code given below",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 9,
+          "q": "In recent times, Spirulina, an alga is being popularized because it is a rich source of",
+          "opts": {
+            "a": "Carbohydrate",
+            "b": "Folic acid",
+            "c": "Iron",
+            "d": "Protein"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 10,
+          "q": "Which of the following is the chief characteristic of mixed farming?",
+          "opts": {
+            "a": "Cultivation of both cash crops and food crops",
+            "b": "Cultivation of two or more crops in the same field",
+            "c": "Rearing of animals and cultivation of crops together",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 10,
+          "q": "If  –7x + (2x – 5) = 0, then x =",
+          "opts": {
+            "a": "–7",
+            "b": "–5/2",
+            "c": "–1",
+            "d": "1"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 10,
+          "q": "Despite having large reserves of coal, why does India import millions of tonnes of coal? 1.It is the policy of India to save its own coal reserves for future, and import it from other countries for the present use. 2.Most of the power plants in India are coal-based and they are not able to get sufficient supplies of coal from within the country. 3.Steel companies need large quantity of coking coal which has to be imported. Which of the statements given above is/are correct?",
+          "opts": {
+            "a": "1 only",
+            "b": "2 and 3 only",
+            "c": "1  and 3 only",
+            "d": "1, 2 and 3"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 10,
+          "q": "Consider the following statements: 1.The duration of the monsoon decreases from Southern India to Northern India 2.The amount of annual rainfall in northern plains of India decreases from East to West. Which of the statements given above is/are correct?",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 10,
+          "q": "In 2011 census, Mizoram has population of",
+          "opts": {
+            "a": "10, 91,014",
+            "b": "10, 19,014",
+            "c": "10, 88,014",
+            "d": "10, 88,573"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 11,
+          "q": "In line 2, the word “derived” is closest in meaning to",
+          "opts": {
+            "a": "Originated",
+            "b": "Destroyed",
+            "c": "Hallucinated",
+            "d": "Discussed"
+          },
+          "part": null,
+          "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
+        },
+        "87": {
+          "n": 87,
+          "page": 11,
+          "q": "The author states that the Stone Age was so named because",
+          "opts": {
+            "a": "It was very durable like stone",
+            "b": "The tools and weapons were made of stone",
+            "c": "There was little vegetation",
+            "d": "The people lived in stone caves"
+          },
+          "part": null,
+          "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
+        },
+        "88": {
+          "n": 88,
+          "page": 11,
+          "q": "In line 11, “nomadic” is closest in meaning to",
+          "opts": {
+            "a": "Sedentary",
+            "b": "Wandering",
+            "c": "Primitive",
+            "d": "Inquisitive"
+          },
+          "part": null,
+          "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
+        },
+        "89": {
+          "n": 89,
+          "page": 11,
+          "q": "With what subject is the passage mainly concerned?",
+          "opts": {
+            "a": "The Neolithic Age",
+            "b": "The Paleolithic Age",
+            "c": "The Stone Age",
+            "d": "The Ice Age"
+          },
+          "part": null,
+          "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
+        },
+        "90": {
+          "n": 90,
+          "page": 11,
+          "q": "In line 11, the word “eras” is closest in meaning to",
+          "opts": {
+            "a": "families",
+            "b": "periods",
+            "c": "herds",
+            "d": "tools"
+          },
+          "part": null,
+          "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
+        },
+        "91": {
+          "n": 91,
+          "page": 11,
+          "q": "If the volume of cube of side of length 6 is equal to the volume of a rectangle solid with length 12 and width 9, then the height of the rectangular solid is",
+          "opts": {
+            "a": "2",
+            "b": "4",
+            "c": "6",
+            "d": "8"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 11,
+          "q": "Consider the following kinds of organisms: 1.Dragonfly 2.Bee 3.Bird Which of the above is/are pollinating agent?",
+          "opts": {
+            "a": "1, 2 and 3 only",
+            "b": "2 and 3 only",
+            "c": "1 and 3 only",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 12,
+          "q": "If  r = 4s/5, what is the value of 2s/3r",
+          "opts": {
+            "a": "8/15",
+            "b": "3/4",
+            "c": "5/6",
+            "d": "6/5"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 12,
+          "q": "Economic liberalization was initiated during the Prime Ministership of:",
+          "opts": {
+            "a": "P.V.Narashimharao",
+            "b": "Dr.Manmohan Singh",
+            "c": "A.B.Vajpayee",
+            "d": "Rajiv Gandhi"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 12,
+          "q": "After declaring bankruptcy, the company was forced to __________ its assets.",
+          "opts": {
+            "a": "liquefy",
+            "b": "liquidate"
+          },
+          "part": null,
+          "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+        },
+        "96": {
+          "n": 96,
+          "page": 12,
+          "q": "They were __________ to leave when the guide arrived.",
+          "opts": {
+            "a": "already",
+            "b": "all ready"
+          },
+          "part": null,
+          "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+        },
+        "97": {
+          "n": 97,
+          "page": 12,
+          "q": "An explanation will __________ each section of the test.",
+          "opts": {
+            "a": "precede",
+            "b": "proceed"
+          },
+          "part": null,
+          "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+        },
+        "98": {
+          "n": 98,
+          "page": 12,
+          "q": "The essay is very __________ and worthy of an A grade.",
+          "opts": {
+            "a": "imaginary",
+            "b": "imaginative"
+          },
+          "part": null,
+          "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+        },
+        "99": {
+          "n": 99,
+          "page": 12,
+          "q": "Answer the following on the basis of the passage. Four men are waiting in Delhi airport for a Mumbai flight. Two are doctors and the other two are businessmen. Two speak Gujarati and two speak Tamil. No two of the same profession speak the same language. Two are Muslim and two are Christians. No two of the same religion are of the same profession nor do they speak the same language. The Tamil speaking doctor is a Christian. 1.The Christian-businessman speaks Gujarati. 2.The Gujarati-speaking doctor is a Muslim. Which of the above statements is/are correct conclusion/conclusions?",
+          "opts": {
+            "a": "1 only",
+            "b": "2 only",
+            "c": "Both 1 and 2",
+            "d": "Neither 1 nor 2"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 12,
+          "q": "Who devised the first calculating machine?",
+          "opts": {
+            "a": "Pascal",
+            "b": "Charles Babage",
+            "c": "Napier",
+            "d": "Henry Greathead"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "Mizoram’s PHE Department was bifurcated from the parent PWD and became independent in 1983."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "Robula is identified in Mizo engineering histories as the first Mizo to complete an engineering degree."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Oil lowers grip by reducing friction between the tyre and road surface."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "Delhi minister Somnath Bharti was reported to have led the January 2014 raid involving African women."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "Jyoti Basu served as West Bengal chief minister for five consecutive terms, from 1977 to 2000."
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "Services have been India’s fastest-growing major sector in this period."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Atal Bihari Vajpayee’s first government lasted 13 days in 1996."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "Ray Tomlinson implemented network email and introduced the @ convention."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "Non-plan expenditure was normally higher than plan expenditure under the then budget classification."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "The National Development Council gave final approval to Five-Year Plans."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "The Prime Minister chaired India’s Planning Commission."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The Aizawl–Lunglei highway was designated NH-54."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "Muslims are India’s largest religious minority."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "Lord Canning was Governor-General during the 1857 uprising."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "NLCPR means Non-Lapsable Central Pool of Resources."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Aryabhata treated mathematics as a distinct scholarly subject in early Indian tradition."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "India’s First Five-Year Plan began in 1951."
+        },
+        "19": {
+          "answerIndex": 0,
+          "explanation": "Saiha was Mizoram’s smallest district by area among the listed districts at the time."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Udaya Kumar designed the Indian rupee symbol."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "PMGSY launched on Vajpayee’s birthday, 25 December."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "Alexander Fleming discovered penicillin."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "The original NREGA guarantee was 100 days of wage employment per rural household per financial year."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "Oil was first discovered in India at Digboi, Assam, in 1867."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "The greased cartridge controversy was the immediate trigger of the 1857 revolt."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Gandhi developed satyagraha and non-cooperation through his activism in South Africa."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "P. A. Sangma was the first Lok Sabha Speaker from Northeast India."
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "Dr. C. Silvera was the first Mizo to serve as a Union Minister."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "The Delhi Legislative Assembly has 70 seats."
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "Myopia is short-sightedness."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "The two rectangles total 40×20 + 25×17 = 1,225 m²; √1,225 = 35 m."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Each term is multiplied by 9: 9, 81, 729, 6,561."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "Hydrogen is the lightest gas."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Dan Brown wrote The Da Vinci Code."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "Heinrich Hertz experimentally detected radio waves."
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "India has the world’s lengthiest written constitution."
+        },
+        "37": {
+          "answerIndex": 3,
+          "explanation": "Brahmagupta formalized zero as a number and described arithmetic operations with it."
+        },
+        "38": {
+          "answerIndex": 3,
+          "explanation": "The Ganges is generally identified as the longest river within India."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "Karl Marx wrote Das Kapital."
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "Mihir Sen was the first Indian to swim across the English Channel."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "India and Sri Lanka are separated by the Palk Strait and Gulf of Mannar."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "India had 28 states at the time of the paper."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "Jupiter had the highest known satellite count among these choices at the time of the paper."
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "The Oscars are film-industry awards."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "Adam Smith is widely called the father of economics."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "“Held up” means delayed."
+        },
+        "48": {
+          "answerIndex": 1,
+          "explanation": "“Look on the bright side” is the standard expression."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "Desert rainfall is low and highly erratic."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "A gullible person is easily persuaded or believes things readily."
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "Adversity is the opposite of prosperity."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Humility is the opposite of conceit."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "Impartial means unbiased; biased is its opposite."
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "Remote means distant."
+        },
+        "56": {
+          "answerIndex": 2,
+          "explanation": "Gracious can mean pleasant or kind."
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "Kin means a relative."
+        },
+        "60": {
+          "answerIndex": 3,
+          "explanation": "“Powerful desire” is grammatical and means a strong desire; the other options alter the meaning, so no improvement is needed."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "The idiom is “send word,” without the article."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "For a real future possibility, use “If he has time, he will call you.”"
+        },
+        "63": {
+          "answerIndex": 2,
+          "explanation": "The count noun “rupees” needs the article in this request: “lend me a few rupees.”"
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "The passage describes Billington as rebellious and angry."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "The passage says Billington refused military duty under Miles Standish; he did not serve."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "The leaders let him go free because there was insufficient evidence of the alleged plot."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "The passage centers on John Billington, described as the colony’s first murderer."
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "Some artists are drug addicts and all artists are whimsical; therefore some drug addicts are whimsical."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "The first 60% takes 10 minutes longer than the last 40%; 0.2D/48 = 1/6 hour, so D = 40 km."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Gita is prettier than Sita, so Sita is not as pretty as Gita."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "Candidate C was acceptable to W and Y and preferred by X and Z, giving support from all four parties."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "Region 7 lies in Q, R and S but outside P."
+        },
+        "73": {
+          "answerIndex": 2,
+          "explanation": "Folding the shown net places blue opposite white."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Across the three views, H is opposite A."
+        },
+        "75": {
+          "answerIndex": 3,
+          "explanation": "Milk totals 1/2+3/4=5/4 glasses and water totals 1/2+1/4=3/4, giving 5:3."
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "“None but the rich can afford air travel” means every air traveler is rich."
+        },
+        "77": {
+          "answerIndex": 2,
+          "explanation": "Manik Sarkar was chief minister of Tripura; the other listed pairings are mismatched."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "The primary product of photosynthesis is glucose."
+        },
+        "79": {
+          "answerIndex": 2,
+          "explanation": "Fly-ash cement reduces embodied emissions and LEDs use less electricity; both reduce carbon footprint."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "Spirulina is promoted as a protein-rich food."
+        },
+        "81": {
+          "answerIndex": 2,
+          "explanation": "Mixed farming combines crop cultivation with livestock rearing."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "−7x+2x−5=0 gives −5x=5, hence x=−1."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "India imports coal because of domestic supply constraints and demand for imported coking coal; statement 1 is not a policy rationale."
+        },
+        "84": {
+          "answerIndex": 2,
+          "explanation": "Monsoon duration is longer in the south than north, and northern-plain rainfall decreases eastward to westward; both statements are true."
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "Mizoram’s 2011 Census population was 1,091,014."
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "“Derived” means originated or obtained from."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "The period is named for its stone tools and weapons."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "Nomadic means wandering or moving from place to place."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "The passage describes the Stone Age as a whole."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "“Eras” means periods of time."
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "The cube volume is 6³=216; 216/(12×9)=2."
+        },
+        "92": {
+          "answerIndex": 1,
+          "explanation": "Bees and birds are pollinators; dragonflies are not typically pollinating agents."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "2s/(3r)=2s/[3(4s/5)]=5/6."
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "Economic liberalization began under Prime Minister P. V. Narasimha Rao in 1991."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "“Liquidate assets” means sell them to pay debts after bankruptcy."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "“All ready” means everyone is ready; “already” means previously."
+        },
+        "97": {
+          "answerIndex": 0,
+          "explanation": "“Precede” means come before, which fits the sentence."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "“Imaginative” means showing creativity; “imaginary” means not real."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "The Tamil-speaking doctor is Christian, so the Gujarati-speaking doctor and Christian businessman are both Muslim/Christian complementary pairings; both statements follow."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "Blaise Pascal devised the Pascaline, an early mechanical calculating machine."
+        }
+      }
+    },
+    "inspector-excise-2019-gs2": {
+      "sourceSha256": "593f3d59160499f597d80849f16d91e874d7886d06f13da8346c1c3d867f094e",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 questions checked against the 10-page MPSC scan; restored Q97, which was absent from extraction. No official key was used. Q45 has no correct listed bank and Q98 allows all three sectors, so both are held.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Which of the following is the popular title given to Dadabhai Naoroji",
+          "opts": {
+            "a": "The grand old thinker of India",
+            "b": "The grand old philosopher of India",
+            "c": "The grand old man of India",
+            "d": "The grand old social reformer of India"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which one of the following was established by Raja Rammohan Roy",
+          "opts": {
+            "a": "Arya Samaj",
+            "b": "Brahmo Samaj",
+            "c": "Asiatic Society",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "Servant of India Society was established by which of the following Indian political thinkers",
+          "opts": {
+            "a": "Gopal Krishna Gokhale",
+            "b": "Bal Gangadhar Tilak",
+            "c": "M.N. Roy",
+            "d": "Swami Dayananda Saraswati"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Bal Gangadhar Tilak raised strong objection to the social reformism of Justice Ranade, Gopal Krishna Gokhale and their associate because",
+          "opts": {
+            "a": "They wanted to remake India totally on the image of the west",
+            "b": "They rejected Hindu view of life",
+            "c": "They did not fight for independence of India",
+            "d": "They promoted liberal ideology"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Sri Aurobindo Ghosh attempted to construct a synthesis of",
+          "opts": {
+            "a": "Gita and Bible",
+            "b": "Upanishad and Christian theology",
+            "c": "Western liberalism and Indian extremism",
+            "d": "The ancient Vedanta and modern European political philosophy"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "Who said that distortion of religion and misinterpretation of history and culture did more harm to Indian social life than foreign invasions and domination for centuries",
+          "opts": {
+            "a": "M.N. Roy",
+            "b": "Dr B.R. Ambedkar",
+            "c": "Sri Aurobindo Ghosh",
+            "d": "Gopal Krishna Gokhale"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "B.R. Ambedkar was greatly influenced in his concept of equality by",
+          "opts": {
+            "a": "Mahatma Gandhi",
+            "b": "Gopal Krishna Gokhale",
+            "c": "Mahatma Jyotiba Phooley",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "‘The Artic Home of the Vedas’ is a book written by",
+          "opts": {
+            "a": "Raja Rammohan Roy",
+            "b": "Swami Vivekananda",
+            "c": "Prof. Bhandarkar",
+            "d": "Bal Gangadhar Tilak"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "Who was Secretary of the Deccan Education Society",
+          "opts": {
+            "a": "M.G. Ranade",
+            "b": "Bal Gangadhar Tilak",
+            "c": "Gopal Krishna Gokhale",
+            "d": "G.G. Agarkar"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The literal meaning of Satyagraha as stated by Mahatma Gandhi is",
+          "opts": {
+            "a": "Peace force",
+            "b": "Non-violence force",
+            "c": "Non-cooperation force",
+            "d": "Truth force"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "The significant contribution of Mahatma Gandhi in the Indian freedom movement was that",
+          "opts": {
+            "a": "he transformed the freedom movement into a mass movement",
+            "b": "he introduced non-cooperation movement",
+            "c": "he opposed the Rowlatt Act",
+            "d": "he attended Round Table Conferences at London"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "The ideological standpoint of Pandit Jawaharlal Nehru can be described as",
+          "opts": {
+            "a": "Liberal, communist, democrat and utilitarian",
+            "b": "Liberal, democrat, socialist and individualist",
+            "c": "Liberal, democrat, idealist and communist",
+            "d": "Liberal, democrat, utopian and visionary"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "The concept of Fundamental Rights in the Constitution of India is borrowed from the Constitution of",
+          "opts": {
+            "a": "U.K.",
+            "b": "Irish Republic",
+            "c": "Switzerland",
+            "d": "USA"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The Directive Principles of State Policy are incorporated in",
+          "opts": {
+            "a": "Part II of the Constitution of India",
+            "b": "Part III of the Constitution of India",
+            "c": "Part IV of the Constitution of India",
+            "d": "Part V of the Constitution of India"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Who is the Supreme Commander of the Armed Forces in India",
+          "opts": {
+            "a": "Chief of the Army Staff",
+            "b": "Defence Minister of India",
+            "c": "President of India",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Which of the following statement is correct with regard to Indian Political system?",
+          "opts": {
+            "a": "The President legally possesses no powers, but in practice he exercises all the powers of",
+            "b": "The President legally possesses no powers.",
+            "c": "The President legally possesses all the powers, but in practice he exercises none of them.",
+            "d": "None of these."
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "How many nominated members are there in the Lok Sabha?",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Residuary powers are subjects which are not clearly enumerated in the three list of the Seventh Schedule of the Constitution of India but are",
+          "opts": {
+            "a": "assigned to State Government",
+            "b": "assigned to both Union Government and State Government",
+            "c": "assigned to Union Government",
+            "d": "not assigned to both Union Government and State Government"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "The concept of Village Panchayat been incorporated in Article 40 of the Constitution of India is based upon which ideological principle of the Directive Principle of State Policy",
+          "opts": {
+            "a": "Socialist Principle",
+            "b": "Liberal principle",
+            "c": "General Principle",
+            "d": "Gandhian Principle"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "The Panchayati Raj Act as amended by the Seventy Third Amendment Act of 1992 shall not apply in the states of",
+          "opts": {
+            "a": "Nagaland, Meghalaya, Mizoram and Hill Areas in the State of Manipur",
+            "b": "Nagaland, Meghalaya, Mizoram and Tribal Areas of Tripura",
+            "c": "Nagaland, Meghalaya, Mizoram and Arunachal Pradesh",
+            "d": "Nagaland, Meghalaya, Mizoram and Darjeeling District of West Bengal"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "The Governor of a state can reserve",
+          "opts": {
+            "a": "All bills for consideration of the President of India",
+            "b": "Certain types of bills of serious nature passed by the State Legislature for the assent of the President",
+            "c": "No bills passed by the State Legislature for the approval of the President of India",
+            "d": "Only financial bills for the approval of the President of India"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "All cases regarding interpretation of the constitution can be brought to the Supreme Court under the",
+          "opts": {
+            "a": "Original Jurisdiction",
+            "b": "Advisory Jurisdiction",
+            "c": "Appellate Jurisdiction",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The subject of Defence in Seventh Schedule in Article 246 is contained in the",
+          "opts": {
+            "a": "Union List",
+            "b": "State List",
+            "c": "Concurrent List",
+            "d": "Residuary powers"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Politics of regionalism was manifested even to the extent of secessionism by regional party in which of the following state",
+          "opts": {
+            "a": "Assam",
+            "b": "Andhra Pradesh",
+            "c": "West Bengal",
+            "d": "Tamil Nadu"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "The issue of linguism has been the deep-rooted political issue in which region of India?",
+          "opts": {
+            "a": "North",
+            "b": "East",
+            "c": "South",
+            "d": "West"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "The concept of secularism in the context of the Constitution of India stands for",
+          "opts": {
+            "a": "Separation of religion from state",
+            "b": "Anti-religious sense",
+            "c": "Equal treatment of all religions",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "What is the main criteria for recognition of political party as national party in India",
+          "opts": {
+            "a": "A political party should have branches and units in all the states of India",
+            "b": "A political party should form government at least in three states",
+            "c": "A political party should have at least one member each in the Lok Sabha and Rajya Sabha",
+            "d": "A political party should get at least six percent of the valid votes polled in four or more states at the general election to Lok Sabha or to the State Legislative Assembly"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "The idea of five years plan in India has been borrowed from",
+          "opts": {
+            "a": "USA",
+            "b": "Erstwhile USSR",
+            "c": "UK",
+            "d": "France"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "The Para-Military Force which has been established to deal with communal riots is",
+          "opts": {
+            "a": "Rapid Action Force (RAF)",
+            "b": "Central Reserve Police Force (CRPF)",
+            "c": "Central Industrial Security Force (CISF)",
+            "d": "Indo-Tibetan Border Police (ITBP)"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "Which of the following statement is correct with regard to involvement of caste in Indian political System?",
+          "opts": {
+            "a": "Caste plays no role at all in Indian politics",
+            "b": "The issue of casteism in Indian politics is exaggerated by the critics",
+            "c": "State politics in India has been particularly the hot bed of political casteism.",
+            "d": "Casteism is prevalent in tribal dominated states of North East India."
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Developmental administration which focuses upon socio-economic development for the people is the administrative responsibility of the",
+          "opts": {
+            "a": "Bureaucracy",
+            "b": "Politicians",
+            "c": "Civil societies",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which amendment of the Constitution of India is regarded as Mini-Constitution?",
+          "opts": {
+            "a": "Constitution 40th Amendment Act, 1976",
+            "b": "Constitution 41st Amendment Act, 1976",
+            "c": "Constitution 42nd Amendment Act, 1976",
+            "d": "Constitution 43rd Amendment Act, 1977"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Fundamental Rights are incorporated between which of the following articles of the Constitution of India",
+          "opts": {
+            "a": "Article 11 – Article 33",
+            "b": "Article 11- Article 34",
+            "c": "Article 12- Article 36",
+            "d": "Article 12- Article 35"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "The main difference between the Fundamental Rights and the Directive Principles of State Policy is",
+          "opts": {
+            "a": "Fundamental Rights are positive while Directive Principles of State Policy are negative",
+            "b": "Fundamental Rights are justiciable while Directive Principles of State Policy are not",
+            "c": "Directive Principles of State Policy are given precedence over Fundamental Rights by",
+            "d": "Directive Principles of State Policy are non-justiciable but not positive"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "Which of the following writs literally means to produce the body of a person",
+          "opts": {
+            "a": "Habeas Corpus",
+            "b": "Certiorari",
+            "c": "Quo Warranto",
+            "d": "Prohibition"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Which of the following political parties is not a regional party",
+          "opts": {
+            "a": "DMK",
+            "b": "AIADMK",
+            "c": "UDP",
+            "d": "NPP"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "The Parliament of India consists of",
+          "opts": {
+            "a": "The Speaker and the two houses to be known respectively as the Council of States and the",
+            "b": "The President and the two houses to be known respectively as the Council of States and",
+            "c": "The Vice President and the two houses to be known respectively as the Council of States",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "q": "Which one of the following is a federal feature of the Indian Constitution?",
+          "opts": {
+            "a": "Single Election Commission",
+            "b": "Appointment of Judges of the High Court by the President",
+            "c": "Distribution of powers between Union Government and State Government by the constitution",
+            "d": "Appointment of Governor of the State by the President of India"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "q": "Which of the following is included under fiscal policy in India?",
+          "opts": {
+            "a": "Open Market Operations",
+            "b": "Deficit Financing",
+            "c": "Moral Suasion",
+            "d": "Margin Requirement"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "q": "What is the biggest item of income of the central government in 2019-20 budget?",
+          "opts": {
+            "a": "Goods and Services Tax",
+            "b": "Corporation Tax",
+            "c": "Borrowing and other liabilities",
+            "d": "Both (a) & (b)"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Which of the following is related to the “Operation Green” mission?",
+          "opts": {
+            "a": "Production of tomatoes, onion and potatoes",
+            "b": "Production of tomato, chilli and potatoes",
+            "c": "Production of pulses, onion and potatoes",
+            "d": "Production of tomato, onion and cabbage"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Gilt-edged market means-",
+          "opts": {
+            "a": "Bullion market",
+            "b": "Market of government securities",
+            "c": "Market of gold exchanges",
+            "d": "Foreign exchange market"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Which of the following is most liquid measure of money supply in India?",
+          "opts": {
+            "a": "M1",
+            "b": "M2",
+            "c": "M3",
+            "d": "M4"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Which of the following agency is responsible for management of Chit funds?",
+          "opts": {
+            "a": "RBI",
+            "b": "Central Government",
+            "c": "State governments",
+            "d": "SEBI"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "In the mega merger of public sector banks announced by Central Government, Oriental Bank of Commerce and Punjab National banks are merged with..... and became the 2nd largest public sector banks in India.",
+          "opts": {
+            "a": "Union Bank of India",
+            "b": "Allahabad Bank",
+            "c": "United Bank of India",
+            "d": "Canara Bank"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB.",
+          "reviewNote": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Which of the following crops are related to Green Revolution?",
+          "opts": {
+            "a": "Cotton, Bajra",
+            "b": "Maize, Rice",
+            "c": "Bajra, Wheat",
+            "d": "Wheat, Rice"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Which one of the following is Rabi crop?",
+          "opts": {
+            "a": "Cotton",
+            "b": "Maize",
+            "c": "Barley",
+            "d": "Rice"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Who recommends Minimum Support Price and issue prices in India?",
+          "opts": {
+            "a": "Ministry of Agriculture",
+            "b": "Niti Aayog",
+            "c": "Commission for Agriculture Costs and Prices",
+            "d": "NABARD"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Identify which one is not related to agricultural price policy:",
+          "opts": {
+            "a": "Buffer Stock",
+            "b": "Import Price",
+            "c": "Support Price",
+            "d": "Licensing"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "q": "During 2018, India replaces ......... in the production of Crude steel and became the world’s 2nd largest producer of crude steel.",
+          "opts": {
+            "a": "US",
+            "b": "China",
+            "c": "Japan",
+            "d": "UK"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "q": "The term ‘paper gold’ means",
+          "opts": {
+            "a": "Fiat money",
+            "b": "Special drawing rights",
+            "c": "Currencies still on gold",
+            "d": "Special accommodation facility of the World Bank"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "q": "If there were a balance of payments deficit then in a floating exchange rate system:",
+          "opts": {
+            "a": "The external value of currency would tend to fall",
+            "b": "The external value of currency would tend to rise",
+            "c": "The injections from trade are greater than the withdrawal",
+            "d": "Aggregate demand is increasing"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "Consider the following actions which the government can take: (i)Devaluing the domestic currency (ii)Reduction in export subsidy (iii)Adopting suitable policies which attract greater FDI and more funds from FIIs. Which of the above action/ actions can help in reducing the current account deficit?",
+          "opts": {
+            "a": "i and ii",
+            "b": "ii and iii",
+            "c": "iii only",
+            "d": "i and iii"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "Which plan was associated with the slogan ‘Garibi Hatao’?",
+          "opts": {
+            "a": "3rd Five Year Plan",
+            "b": "4th Five Year Plan",
+            "c": "5th Five Year Plan",
+            "d": "6th Five Year Plan"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Niti Aayog is based on which of the following pillars of effective governance? (i)Pro-people agenda(ii)Pro-active (iii)Participative(iv)Transparency (v)Accountability(vi)Quality of service",
+          "opts": {
+            "a": "i, ii and ii",
+            "b": "i, ii, iii and iv",
+            "c": "i, ii, iii, iv and v",
+            "d": "all of these"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Which of the following is not among the core sector industries?",
+          "opts": {
+            "a": "Coal",
+            "b": "Fertilizer",
+            "c": "Cement",
+            "d": "Jute"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Which of the following sector weighted the most in the Index of Industrial Production?",
+          "opts": {
+            "a": "Steel",
+            "b": "Electricity",
+            "c": "Refinery Products",
+            "d": "Coal"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Who publishes the Index of Industrial Production (IIP) data?",
+          "opts": {
+            "a": "Central Statistical Office",
+            "b": "Directorate of Census Operations",
+            "c": "National Sample Survey Office",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Balance sheet shows-",
+          "opts": {
+            "a": "Assets",
+            "b": "Liabilities",
+            "c": "Both assets and liabilities",
+            "d": "Neither of them"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "q": "The sudden increase in the production of edible oils due to plantation of hybrid oil seeds was known as-",
+          "opts": {
+            "a": "White Revolution",
+            "b": "Green Revolution",
+            "c": "Yellow Revolution",
+            "d": "Brown Revolution"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "q": "Perspective planning means:",
+          "opts": {
+            "a": "Planning for 3 years",
+            "b": "Planning for 5 years",
+            "c": "Planning for 5-10 years",
+            "d": "Planning for 15-25 years"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "q": "Rao-Manmohan Singh model was launched in:",
+          "opts": {
+            "a": "5th Five Year Plan",
+            "b": "6th Five Year Plan",
+            "c": "7th Five Year Plan",
+            "d": "8th Five Year Plan"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "q": "NABARD was established in 1982 on the recommendation of:",
+          "opts": {
+            "a": "Rangarajan Committee",
+            "b": "Sivaraman Committee",
+            "c": "Narashimhan Committee",
+            "d": "Tendulkar Committee"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "The First Industrial Policy was announced on:",
+          "opts": {
+            "a": "1948",
+            "b": "1949",
+            "c": "1951",
+            "d": "1952"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Economic Surveys are published by:",
+          "opts": {
+            "a": "Ministry of Finance",
+            "b": "Niti Aayog",
+            "c": "Indian Statistical Institute",
+            "d": "Central Statistical Organization"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "AGMARK is:",
+          "opts": {
+            "a": "Co-operative Marketing",
+            "b": "Regulated agriculture markets",
+            "c": "Farmers Union",
+            "d": "Quality Certification of agriculture products"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "Which among the following is not part of fiscal policy?",
+          "opts": {
+            "a": "Income Tax",
+            "b": "National Insurance",
+            "c": "Interest Rates",
+            "d": "GST"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "Balance of payments of a country includes:",
+          "opts": {
+            "a": "Balance of trade",
+            "b": "Capital receipts and payments",
+            "c": "Both (a) & (b)",
+            "d": "Saving and investment accounts"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "Consider the following statements and identify the right ones. i.A double entry system of record of all economic transactions between the residents of a country and rest of the world is called balance of trade ii.All transactions related to goods, services or income are classified as capital account.",
+          "opts": {
+            "a": "i only",
+            "b": "ii only",
+            "c": "both i & ii",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "First Five Year Plan was based on:",
+          "opts": {
+            "a": "Harrod Domar Model",
+            "b": "Mahalanobis Model",
+            "c": "Gadgil Model",
+            "d": "Nehruvian Model"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "The advance value of LIC policy is linked with :",
+          "opts": {
+            "a": "Face value",
+            "b": "Surrender value",
+            "c": "Paid up value",
+            "d": "Age of the policy holder"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "q": "Real Time Gross Settlement (RTGS) is management by:",
+          "opts": {
+            "a": "State Bank of India",
+            "b": "Reserve Bank of India",
+            "c": "Government of India",
+            "d": "Indian Banking Association"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "q": "India ranks....in Global Hunger Index in 2018:",
+          "opts": {
+            "a": "101st",
+            "b": "102nd",
+            "c": "103rd",
+            "d": "104th"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "q": "In the interim budget of 2019, fund allocation for infrastructure development in north eastern region was increased to Rs.58,116 crore, which was a rise over last year’s budget by:",
+          "opts": {
+            "a": "11%",
+            "b": "15%",
+            "c": "21%",
+            "d": "25%"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "Interim budget is also known as:",
+          "opts": {
+            "a": "Mini Budget",
+            "b": "Vote on Account",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "Which of the following is responsible for the formation of Great Indian Desert?",
+          "opts": {
+            "a": "Continental landmass",
+            "b": "Direction of Monsoon",
+            "c": "Distance from the sea",
+            "d": "Aravali Range blocking south west monsoon"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "Choose the correct statement from following",
+          "opts": {
+            "a": "The Northern Plain is formed before Peninsular India",
+            "b": "The Northern Plain came into existence during and after the Pleistocene Period",
+            "c": "Siwalik range represents the oldest landform in Himalayas",
+            "d": "Siwalik range is the eastern extension of Zaskar range"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "Which of the following rocks is associated with formations Black soil in Deccan plateau?",
+          "opts": {
+            "a": "Intrusive Igneous Rocks",
+            "b": "Extrusive Igneous Rocks",
+            "c": "Metamorphic Rock",
+            "d": "Sedimentary Rocks"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "Which of the following pair is a part of Trans-Himalaya?",
+          "opts": {
+            "a": "Karakoram – Ladakh",
+            "b": "Zaskar – Himadri",
+            "c": "Namcha Barwa – Nanga Parbat",
+            "d": "Himachal – Purvanchal"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Read the following statements 1.Lakshadweep Islands are generally coral origin 2.Andaman & Nicobar group of Islands are coral origin 3.Lakshadweep Islands are coral origin and developed around volcanic peak Choose the correct option",
+          "opts": {
+            "a": "Both 1 and 2 are correct",
+            "b": "Only 2 is correct",
+            "c": "1 and 3 are correct, 3 is the correct explanation of 1",
+            "d": "Only one is correct"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Which of the following represented the eastern most part of Satpura range?",
+          "opts": {
+            "a": "Amarkantak Plateau",
+            "b": "Ratanpur Plateau",
+            "c": "Malwa Plateau",
+            "d": "Cardamom hills"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "q": "Arrange the following alluvial landforms from north to south direction – (I)Terai,(II)Bhangar, (III)Bhabar,(VI)Khadar",
+          "opts": {
+            "a": "III – I – II – VI",
+            "b": "III – II – I – VI",
+            "c": "II – I – III – VI",
+            "d": "VI – III – II –II"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "q": "In which river system, Sardar Sarovar dam is build?",
+          "opts": {
+            "a": "Tapi River",
+            "b": "Yamuna River",
+            "c": "Narmada River",
+            "d": "Sabarmati River"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "q": "Indus, Sutlej, Ghaghara and Brahmaputra rivers are an example of ______",
+          "opts": {
+            "a": "Ephemeral River",
+            "b": "Antecedent rivers",
+            "c": "Non-Perennial rivers",
+            "d": "Both Ephemeral and Antecedent river"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "Ganga proper is formed by the confluence of two rivers at Deva Prayag. Choose the correct pair in repose to this statement.",
+          "opts": {
+            "a": "Pindar - Gomit",
+            "b": "Alakananda – Pindar",
+            "c": "Bharirati – Gomit",
+            "d": "Bhagirati – Alakananda"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "Which part of India is lying under the influence of sub-tropical and temperate climates?",
+          "opts": {
+            "a": "Northern Part of India",
+            "b": "Southern Part of India",
+            "c": "Deccan Plateau",
+            "d": "None of the Above"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "Which of the following forest that represents Littoral forest?",
+          "opts": {
+            "a": "Moist Deciduous Forest",
+            "b": "Mangroves Forest",
+            "c": "Tropical Thorn Forest",
+            "d": "Tropical Evergreen Forest"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "The most important and largest of all the families of language in India is",
+          "opts": {
+            "a": "Austric Family",
+            "b": "Indo-Aryan Family",
+            "c": "Dravidian Family",
+            "d": "Sino-Tibetan Family"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "Green revolution in India is associated with increased of food grain production and, which of the following food crop benefited the most?",
+          "opts": {
+            "a": "Rice",
+            "b": "Jowar",
+            "c": "Wheat",
+            "d": "Bajra"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "From the following statements, which is not associated with Dry Land farming in India?",
+          "opts": {
+            "a": "Very high crop yield",
+            "b": "Uncertainty of Monsoon",
+            "c": "Undulation soil surface",
+            "d": "Occurrence of frequent climatic hazards like drought, flood etc."
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "The settlements that occurs near rivers, coastal and railway line are classified as",
+          "opts": {
+            "a": "Star like pattern",
+            "b": "Disperse settlement pattern",
+            "c": "Linear settlement pattern",
+            "d": "Nuclear settlement pattern"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "Considering the following statement. Choose the correct ones. 1.The ITCZ is a zone of low pressure which attracts inflow of winds from different directions. 2.ITCZ is plays an important role in the Indian Monsoon Choose the correct option",
+          "opts": {
+            "a": "Both 1 and 2 are correct",
+            "b": "Only 2 is correct",
+            "c": "Only 1",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "q": "Which of the following is related with Blossom Shower?",
+          "opts": {
+            "a": "Hot, dry and oppressing winds blowing in Northern plains",
+            "b": "Pre-Monsoon showers which help in blossoming of coffee flowers",
+            "c": "Pre-Monsoon shower in Bengal and Assam",
+            "d": "Pre-Monsoon showers which help in the ripening of mangoes"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "q": "Which of the following is characteristic of census town in India?",
+          "opts": {
+            "a": "A minimum population of 15,000",
+            "b": "A density of population of at least 300 persons per sq. km",
+            "c": "A minimum population of 10,000",
+            "d": "A density of population of at least 400 persons per sq. km"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "q": "Which of the following cities are connected by Golden Quadrilateral?",
+          "opts": {
+            "a": "Delhi-Ahmedabad-Chennai - Kolkata",
+            "b": "Mumbai-Chennai-Kolkata - Kanpur",
+            "c": "Delhi-Mumbai-Chennai-Kolkata",
+            "d": "Agra-Nagpur-Chennai-Kolkata"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "q": "Which of the following city is recently emerged as electronic capital of India?",
+          "opts": {
+            "a": "Chennai",
+            "b": "Bangalore",
+            "c": "Hyderabad",
+            "d": "New Delhi"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "q": "The study revealed that location of sugarcane industry in India is shifting from north to south direction because of",
+          "opts": {
+            "a": "Availability of agricultural land",
+            "b": "Availability of labour and market",
+            "c": "Fertility of soil",
+            "d": "High yield higher sucrose content of cane"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "q": "Which section of Indian-China border is called ‘Line of Actual Control’?",
+          "opts": {
+            "a": "Western",
+            "b": "Middle",
+            "c": "Eastern",
+            "d": "Northern"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Ambiguous wording: all three sectors (western, middle and eastern) of the India–China boundary are described as the Line of Actual Control; more than one offered sector is valid.",
+          "reviewNote": "Ambiguous wording: all three sectors (western, middle and eastern) of the India–China boundary are described as the Line of Actual Control; more than one offered sector is valid."
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "q": "In terms of area, which river system represented the largest drainage system in Mizoram?",
+          "opts": {
+            "a": "Chhimtuipui River",
+            "b": "Tuirial River",
+            "c": "Tlawng River",
+            "d": "Tuivai River"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "q": "What type of forest is found in eastern fringe of Mizoram?",
+          "opts": {
+            "a": "Mountain Sub Tropical Forest",
+            "b": "Tropical Semi-Evergreen Forest",
+            "c": "Tropical Wet-Evergreen Forest",
+            "d": "Tropical Deciduous Forest"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "Dadabhai Naoroji is popularly known as the Grand Old Man of India."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "Raja Rammohan Roy founded the Brahmo Sabha, later known as the Brahmo Samaj."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905."
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Tilak opposed the reformers’ desire to remake Indian society on a Western model."
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "The synthesis of Vedanta and European political thought is associated with Tilak."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "The quotation’s emphasis on spiritual and national revival points to Sri Aurobindo."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "Jyotiba Phule organized the Satyashodhak Samaj to challenge caste oppression."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "Tilak popularized the public Ganapati festival as a vehicle for nationalist mobilization."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "Gokhale was a prominent early secretary of the Deccan Education Society."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "Satyagraha literally denotes insistence on or force of truth."
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "Gandhi brought large sections of ordinary people into the freedom struggle."
+        },
+        "12": {
+          "answerIndex": 1,
+          "explanation": "The stated mix of liberalism, democracy, socialism and individualism describes Nehru."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "The Constitution’s parliamentary system was principally adapted from Britain."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "The Directive Principles are contained in Part IV."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "The President of India is the formal head of the Union executive."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "Under parliamentary government the President normally acts on ministerial advice."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "At the time, two Anglo-Indian members could be nominated to the Lok Sabha."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "The Union government administers Union Territories, subject to constitutional arrangements."
+        },
+        "19": {
+          "answerIndex": 3,
+          "explanation": "Village self-government reflects Gandhian decentralization."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Article 243M excludes the listed northeastern tribal areas from Part IX’s ordinary application."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "A Governor may reserve specified bills for the President’s consideration."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "The intended option is the Supreme Court’s original jurisdiction, which includes specified federal disputes and constitutional matters."
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Defence is expressly assigned to the Union List in the Seventh Schedule."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "Tamil Nadu has a unicameral state legislature."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "The question identifies linguism as a deep-rooted political issue in southern India."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "Secularism requires equal respect and treatment of religions by the state."
+        },
+        "27": {
+          "answerIndex": 3,
+          "explanation": "At the time of the paper, one national-party recognition route required at least 6% of valid votes in four or more states, plus a Lok Sabha seat; the listed option states the vote threshold."
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "The planning model drew substantially on the Soviet Union."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "The Rapid Action Force is a specialized unit of the Central Reserve Police Force."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "Caste considerations have often strongly shaped state-level electoral politics."
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "A permanent bureaucracy provides administrative continuity across elected governments."
+        },
+        "32": {
+          "answerIndex": 2,
+          "explanation": "The 42nd Amendment added “Socialist” and “Secular” to the Preamble."
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "Part III, Articles 12–35, sets out Fundamental Rights."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "Fundamental Rights are enforceable in court; Directive Principles are not directly justiciable."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Habeas Corpus requires production of a detained person before a court."
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "The National People’s Party held national-party recognition in the relevant period."
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "Parliament consists of the President, Lok Sabha and Rajya Sabha."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "Federalism divides governmental powers between levels of government."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Deficit financing covers a government’s spending gap through borrowing/monetary expansion."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "Corporation tax was the largest single source shown in the 2019–20 budget rupee chart."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Operation Greens initially targeted Tomatoes, Onions and Potatoes (TOP)."
+        },
+        "42": {
+          "answerIndex": 1,
+          "explanation": "Government securities are debt instruments issued by government."
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "M1 is the narrowest and most liquid standard money aggregate."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "Chit funds are regulated primarily by state governments under the Chit Funds Act."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "Wheat and rice are the principal foodgrains in India."
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "Barley is a rabi crop."
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "CACP recommends MSPs; the question’s addition of “issue prices” is imprecise, but CACP is the intended choice."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "Industrial licensing was a central instrument of the earlier planned economy."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "Japan was the first Asian country to industrialize rapidly."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "The IMF’s reserve asset is the Special Drawing Right."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "A floating deficit can put downward pressure on a currency through depreciation."
+        },
+        "53": {
+          "answerIndex": 3,
+          "explanation": "The selected statements match the standard description of the plan/strategy in the question."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The Fifth Five-Year Plan emphasized poverty removal and self-reliance."
+        },
+        "55": {
+          "answerIndex": 3,
+          "explanation": "The selected choice includes all the listed pillars of the programme."
+        },
+        "56": {
+          "answerIndex": 3,
+          "explanation": "Jute is not one of the eight core industries."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "Refinery products carry the largest weight among the listed IIP sectors."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "The Central Statistical Office compiled the national income estimates at the time."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "A balance sheet records assets and liabilities."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "The Yellow Revolution refers to increased oilseed production."
+        },
+        "61": {
+          "answerIndex": 3,
+          "explanation": "The stated range is the conventional definition of medium-term planning."
+        },
+        "62": {
+          "answerIndex": 3,
+          "explanation": "The Eighth Plan began in 1992 after the plan holiday."
+        },
+        "63": {
+          "answerIndex": 1,
+          "explanation": "The Sivaraman Committee recommended institutional credit reforms for rural development."
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "India’s first Industrial Policy Resolution was announced in 1948."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "The Ministry of Finance prepares the Union Budget."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "AGMARK certifies agricultural produce quality."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "Interest rates are a key instrument/transmission channel of monetary policy."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "The balance of payments records transactions across current and capital/financial accounts."
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "None of the statements accurately defines balance of payments as distinct from balance of trade."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "The Harrod–Domar model links growth to savings and capital-output ratios."
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "Surrender value is the amount payable when a life insurance policy is terminated early."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "The Reserve Bank of India is the central bank."
+        },
+        "73": {
+          "answerIndex": 2,
+          "explanation": "The 2018 Global Hunger Index ranked India 103rd."
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "The stated share is 21 percent."
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "The exam treats an interim budget as both a mini-budget and a vote-on-account, although strictly the vote-on-account is the spending authorization component."
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "The Aravallis obstruct the southwest monsoon’s west-to-east progression toward parts of Rajasthan."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "The Northern Plains were formed by alluvial deposition during the Quaternary, especially the Pleistocene."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "Basalt is an extrusive igneous rock."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "Karakoram and Ladakh belong to the Trans-Himalayan ranges."
+        },
+        "80": {
+          "answerIndex": 2,
+          "explanation": "Lakshadweep consists of coral islands, while the Andaman–Nicobar arc is tectonic/volcanic in origin."
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "The Narmada and Son headwaters are associated with the Amarkantak plateau."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "From north to south the sequence is Bhabar, Terai, Bhangar, Khadar."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "The Narmada flows west through a rift valley."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "Himalayan rivers such as the Indus and Brahmaputra are antecedent to the ranges."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "The Ganga’s main headstream is formed by the Bhagirathi and Alaknanda at Devprayag."
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "The relevant region lies in northern India."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "Mangrove forests grow in tidal, saline coastal wetlands."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "Indo-Aryan is the dominant language family across northern India."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "Wheat is a major rabi crop of the northern plains."
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "Dryland farming is practiced in moisture-stressed areas and does not have very high yields."
+        },
+        "91": {
+          "answerIndex": 2,
+          "explanation": "Settlement along a road or river commonly forms a linear pattern."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "Both statements correctly characterize the feature asked about."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "Blossom showers are pre-monsoon rains that trigger coffee flowering."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "A Census Town must have at least 400 persons per square kilometre (along with other criteria)."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "The Golden Quadrilateral links Delhi, Mumbai, Chennai and Kolkata."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "Bengaluru is the principal centre of India’s information technology industry."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Southern sugarcane cultivation benefits from higher cane yield and sucrose content."
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "The Chhimtuipui (Kaladan) system has the largest drainage area in Mizoram."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "The higher eastern fringe of Mizoram is classified as Mountain Subtropical Forest."
+        }
+      }
+    },
+    "archive2325-jrgrade-of-mes-combined-july-2024-general-studies": {
+      "sourceSha256": "1e0b7a619db71f87e7b0f7b6c082435ac63d004067f2a1ede368179999e04511",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 questions checked against the printed 8-page scan. Restored omitted Q30, Q64, Q82 and Q90; corrected OCR and layout errors in 12 records. Q69 is held because both offered descriptions fit herpetology. No official key was available or used.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Supreme Court of India declined an appeal to legalise marriages in the country",
+          "opts": {
+            "a": "Inter cast",
+            "b": "Same-sex",
+            "c": "Abnormal",
+            "d": "Two transgender"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "‘SHRESHTA Scheme’ was launched by",
+          "opts": {
+            "a": "Ministry of Social Justice & Empowerment",
+            "b": "Ministry of MSME",
+            "c": "Ministry of Power",
+            "d": "Ministry of Labour and Empowerment"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "The world’s first portable hospital “Aarogya Maitri Aid Cube” was unveiled on December 2, 2023 in which city?",
+          "opts": {
+            "a": "Bangalore",
+            "b": "Gurugram",
+            "c": "Mumbai",
+            "d": "Kolkata"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Who was the first person to reach point Nemo?",
+          "opts": {
+            "a": "Chris Brown",
+            "b": "Hrvoje Lukatela",
+            "c": "Jules Verne",
+            "d": "Vilhjalmur Stefansson"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Who received best actor award in Dadasaheb Phalke Award for the year 2024?",
+          "opts": {
+            "a": "Vicky Kaushal",
+            "b": "Shahrukh Khan",
+            "c": "Ayushman Khurrana",
+            "d": "Shahid Kapoor"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "Who received the SASTRA Ramanujan Prize 2023?",
+          "opts": {
+            "a": "Keith Devlin",
+            "b": "Terence Tao",
+            "c": "Ruixiang Zhang",
+            "d": "Timothy Gowers"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "What does an airbag in a Car contain?",
+          "opts": {
+            "a": "Sodium bicarbonate",
+            "b": "Sodium azide",
+            "c": "Sodium nitrate",
+            "d": "Sodium peroxide"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "Which cells in the human body have no nucleus?",
+          "opts": {
+            "a": "Muscle cells",
+            "b": "Phagocytic cells",
+            "c": "Red blood cells",
+            "d": "Ciliated cells"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "q": "An antibacterial enzyme present in saliva and tears is called",
+          "opts": {
+            "a": "Ribozyme",
+            "b": "Lipase",
+            "c": "Isomerase",
+            "d": "Lysozyme"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "q": "Which of the following biosphere reserves is spread over three States in India?",
+          "opts": {
+            "a": "Nilgiri",
+            "b": "Achanakmar-Amarkantak",
+            "c": "Seshachalam",
+            "d": "Agasthiyamalai"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which Organisation publishes worldwide list of endangered species?",
+          "opts": {
+            "a": "International Union for Conservation of Nature(IUCN)",
+            "b": "World Wide Fund for Nature(WWF)",
+            "c": "United Nation Environmnent Programme(UNEP)",
+            "d": "United Nations Development Programme(UNDP)"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Which one of the following is the mascot for the khelo India Winter Games,2024",
+          "opts": {
+            "a": "Bengal Tiger",
+            "b": "Hangul",
+            "c": "Snow Leopard",
+            "d": "Arctic Fox"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "The 7th edition of the Indian Ocean Conference was held in",
+          "opts": {
+            "a": "Dhaka",
+            "b": "New Delhi",
+            "c": "Male",
+            "d": "Perth"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The Indian Army launched ‘Operation Sarvashakti’ to flush out terrorists in",
+          "opts": {
+            "a": "Myanmar",
+            "b": "Manipur",
+            "c": "Jammu and Kashmir",
+            "d": "Chhattisgarh"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Which of the following cities were conferred with the cleanest city award under Swachh Survekshan Awards, 2023",
+          "opts": {
+            "a": "Bangaluru and Prayagraj",
+            "b": "Indore and Surat",
+            "c": "Prayagraj and Indore",
+            "d": "Surat and Bangaluru"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "What is an ‘end-to-end secure mobile ecosystem’ developed by the Indian Army?",
+          "opts": {
+            "a": "SANCHAR",
+            "b": "VAIBHAV",
+            "c": "SAMPARK",
+            "d": "SAMBHAV"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "India signs agreement for Lithium exploration and Mining project with .",
+          "opts": {
+            "a": "Brazil",
+            "b": "Australia",
+            "c": "Argentina",
+            "d": "Chile"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Which one of the following indicators is included in the National Multi-dimensional Poverty Index (MPI)",
+          "opts": {
+            "a": "Years of schooling",
+            "b": "Literacy rate",
+            "c": "Life expectancy",
+            "d": "Per capita income"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "What are the constituents of solder alloy?",
+          "opts": {
+            "a": "Pband Zn",
+            "b": "Pband Sn",
+            "c": "Pband Si",
+            "d": "Pb and Co"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "q": "What acids is secreted by Nettle leaves that causes painful stings?",
+          "opts": {
+            "a": "Methanoic acid",
+            "b": "Citric acid",
+            "c": "Tartaric acid",
+            "d": "Acetic acid"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "q": "What is the oldest football tournament in Asia?",
+          "opts": {
+            "a": "Federation Cup",
+            "b": "Santosh Trophy",
+            "c": "Durand Cup",
+            "d": "Rovers Cup"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "q": "Whois the first Indian woman to win a medal in the Olympics?",
+          "opts": {
+            "a": "Karnam Malleswari",
+            "b": "Mirabai Chanu",
+            "c": "P.T. Usha",
+            "d": "P.V. Sindhu"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 2,
+          "q": "What is the name of the humanoid teacher introduced by a Kerala school?",
+          "opts": {
+            "a": "Robo",
+            "b": "Sophia",
+            "c": "Alexa",
+            "d": "Iris ofc"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Who is the Executive Chairman of the World Economic Forum?",
+          "opts": {
+            "a": "Narendra Modi",
+            "b": "Klaus’‘Schwab",
+            "c": "Francois Hollande",
+            "d": "Borge Brende"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "What is the date of World Water Day in 2024?",
+          "opts": {
+            "a": "March 20",
+            "b": "March 21",
+            "c": "March 22",
+            "d": "March 23"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Who will be the Indian team’s flagbearer for the upcoming Paris 2024 Olympics?",
+          "opts": {
+            "a": "G Sathiyan",
+            "b": "Nayana James",
+            "c": "Sunil Chhetri",
+            "d": "Sharath Kamal"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "‘e-Kisan Upaj Nidhi’ (Digital Gateway) was launched by Shri Piyush Goyal to :",
+          "opts": {
+            "a": "Prevent distress sale by farmers",
+            "b": "Provide financial assistance to small-scale farmers",
+            "c": "Facilitate access to healthcare services for rural farmers",
+            "d": "Promote Sustainable Development Goals"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "One of the objectives of NAMASTE Scheme is",
+          "opts": {
+            "a": "Promoting Rain water harvesting in urban areas of India",
+            "b": "Enhancing urban infrastructure development",
+            "c": "Providing financial assistance for urban housing projects",
+            "d": "Promotion of safe and mechanised cleaning of sewers and septic tanks through trained and certified sanitation workers"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "Who initiated the self-Respect Movement?",
+          "opts": {
+            "a": "B. R. Ambedkar",
+            "b": "Jyotiba Phule",
+            "c": "E. V. Ramaswamy Naicker",
+            "d": "Jawaharlal Nehru"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "Who won the 2023 Abel Prize?",
+          "opts": {
+            "a": "Jane Goodall",
+            "b": "Karen Uhlenbeck",
+            "c": "Frank Wilczek",
+            "d": "Luis A. Caffarelli"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "q": "Arundhati Bhattacharya is the first woman Chairperson of",
+          "opts": {
+            "a": "ICICI",
+            "b": "SBI",
+            "c": "Axis Bank",
+            "d": "Canara Bank"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "q": "Aninfection constantly maintained at a baseline level in a geographic area without external input is known as",
+          "opts": {
+            "a": "Endemic",
+            "b": "Pandemic",
+            "c": "Epidemic",
+            "d": "Outbreak"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "q": "Which one of the following Indian States has the longest coastline?",
+          "opts": {
+            "a": "Tamil Nadu",
+            "b": "Gujarat",
+            "c": "Maharashtra",
+            "d": "Andhra Pradesh"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "q": "Where is Point Calimere located?",
+          "opts": {
+            "a": "Jammu and Kashmir",
+            "b": "Tamil Nadu",
+            "c": "Dadra & Nagar Havedi",
+            "d": "Kerala"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "q": "The decrease in the general price level of goods and services is called",
+          "opts": {
+            "a": "Deflation",
+            "b": "Stagflation",
+            "c": "Devaluation",
+            "d": "Recession"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 3,
+          "q": "The greatest direct threats to sustainability of hydro-power dam in Mizoram is",
+          "opts": {
+            "a": "Deforestation",
+            "b": "Sedimentation",
+            "c": "High infiltration",
+            "d": "Evaporation"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "The full form of Chat GPT is",
+          "opts": {
+            "a": "Chat Generative Pre-Trained Transformer",
+            "b": "Chat Generative Post-Trained Translator",
+            "c": "Chat Generalize Post-Trained Transformer",
+            "d": "Chat Generalize Pre-Trained Transformer"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "What is the largest natural lake in Mizoram?",
+          "opts": {
+            "a": "TamDil",
+            "b": "Palak Dil",
+            "c": "Rihdil",
+            "d": "RungDil"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "When was Mizoram University established?",
+          "opts": {
+            "a": "1999",
+            "b": "2000",
+            "c": "2001",
+            "d": "2002"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "What is the highest dam in India? :",
+          "opts": {
+            "a": "Hirakud Dam",
+            "b": "Sardar Sarovar Dam",
+            "c": "Srisailam Reservoir",
+            "d": "Tehri Dam"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Who said ‘Live as if you were to die tomorrow, learn as if you were to live forever’?",
+          "opts": {
+            "a": "Swami Vivekananda",
+            "b": "Mahatma Gandhi",
+            "c": "Rabindranath Tagore",
+            "d": "BRAmbedkar"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Who was the first Indian to win a grammy?",
+          "opts": {
+            "a": "Zubin Mehta",
+            "b": "Zakir Hussain",
+            "c": "Ravi Shankar",
+            "d": "Ali Akbar Khan"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "q": "Who was the first Indian to win a Nobel prize in physics?",
+          "opts": {
+            "a": "Subramanyam Chandrashekhar",
+            "b": "Venkat Ramakrishnan",
+            "c": "Har Gobind Khorana",
+            "d": "CV Raman"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "q": "Which of the following is the most populous city in the world? 2",
+          "opts": {
+            "a": "Shanghai, China",
+            "b": "New York, USA",
+            "c": "Delhi, India",
+            "d": "Tokyo, Japan"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "q": "Whois the current Minister incharge of Power and Electricity in Mizoram?? ,",
+          "opts": {
+            "a": "PuLalduhawma",
+            "b": "Pu Vanlalhlana",
+            "c": "Prof. Lalnilawma",
+            "d": "PuF Rodingliana"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "q": "According to the recent Asian Development Bank report, what is the expected growth rate of the Indian economy in 2024?",
+          "opts": {
+            "a": "8.1%",
+            "b": "7.8%",
+            "c": "7.0%",
+            "d": "6.9%"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "q": "To assist which country India launched ‘Operation Karuna’?",
+          "opts": {
+            "a": "Sri Lanka",
+            "b": "Myanmar",
+            "c": "Nepal",
+            "d": "Bangladesh"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "q": "The 128th Constitution Amendment Bill, 2023, is associated with?",
+          "opts": {
+            "a": "Reserving 33% of seats for women in Lok Sabha and State Assemblies",
+            "b": "Identifying Other Backward Classes (OBCs)",
+            "c": "Reservation for Economically Weaker Sections (EWSs)",
+            "d": "Goods and Services Tax"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "q": "Which of the following country is not a member of SAARC?",
+          "opts": {
+            "a": "Nepal",
+            "b": "China",
+            "c": "Maldives",
+            "d": "Afghanistan"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "What is the share provided by the Centre in implementation of projects under “North East Special Infrastructure Development Scheme” (NESIDS)? :",
+          "opts": {
+            "a": "100%",
+            "b": "75%",
+            "c": "50%",
+            "d": "25%"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "Who is the author of Vande Mataram?",
+          "opts": {
+            "a": "Mahatma Gandhi",
+            "b": "Rabindranath Tagore",
+            "c": "Bankim Chandra Chatterjee",
+            "d": "Sarat Chandra Chatterjee"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "Who is regarded as the ‘father of modern India’?",
+          "opts": {
+            "a": "Raja Ram Mohan Roy",
+            "b": "Swami Dayananda Saraswati",
+            "c": "Sri Aurobindo",
+            "d": "Bhagat Singh ‘"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "Who wrote ‘My experiments with Truth’?",
+          "opts": {
+            "a": "Bal Gangadhar Tilak",
+            "b": "MK Gandhi",
+            "c": "Sri Aurobindo",
+            "d": "Jawaharlal Nehru"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "Who had observed that ‘Good government was never a good substitute for self-government’?",
+          "opts": {
+            "a": "Swami Vivekananda",
+            "b": "Ramakrishna Paramahansa",
+            "c": "Swami Dayananda",
+            "d": "Aurobindo Ghose"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "The words ‘socialist’ and ‘secular’ were made a part of the Preamble by:",
+          "opts": {
+            "a": "41st Amendment",
+            "b": "44th Amendment",
+            "c": "46th Amendment",
+            "d": "42nd Amendment"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "q": "What is the minimum age required to be a Prime Minister of India?",
+          "opts": {
+            "a": "21 years",
+            "b": "25 years",
+            "c": "30 years ,",
+            "d": "35 years"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "q": "Which of the following leads to termination of session of house?",
+          "opts": {
+            "a": "Adjournment",
+            "b": "Adjournment sine die",
+            "c": "Prorogation",
+            "d": "Dissolution"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "q": "Which Schedule of the Indian Constitution deals with the administration of the tribal areas in the four northeastern states of Assam, Meghalaya, Tripura and. Mizoram?",
+          "opts": {
+            "a": "Sixth Schedule",
+            "b": "Seventh Schedule",
+            "c": "Eighth Schedule",
+            "d": "Ninth Schedule"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "q": "Which of the following river islands has been declared as India’s first island district?",
+          "opts": {
+            "a": "Little Andaman Island",
+            "b": "Barren Island",
+            "c": "Majuli Island",
+            "d": "Umananda Island"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "q": "Damodar is a tributary of which of the following rivers?",
+          "opts": {
+            "a": "Yamuna",
+            "b": "Hugli/Hoogly",
+            "c": "Subarnaekha",
+            "d": "Mahanadi"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "q": "Who among the following coined the term ‘Protein revolution’?",
+          "opts": {
+            "a": "Atal Bihari Vajpayee",
+            "b": "Narendra Modi",
+            "c": "Manmohan Singh",
+            "d": "PV Narasimha Rao"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 5,
+          "q": "Thomas Cup is related to which among the following sports?",
+          "opts": {
+            "a": "Table Tennis",
+            "b": "Lawn Tennis",
+            "c": "Badminton",
+            "d": "Golf"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 5,
+          "q": "Which professional boxer is nicknamed the “Kid Dynamite”?",
+          "opts": {
+            "a": "Mike Tyson",
+            "b": "Muhammad Ali",
+            "c": "Joe Frazier",
+            "d": "James Toney"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "In Ecology, an ecotone is a/an:",
+          "opts": {
+            "a": "transition zone between two biomes",
+            "b": "community plus its physical environment",
+            "c": "association between a species and a group of sites",
+            "d": "distinct geographic variety within a species"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "q": "Which of the following is NOT a conservative force?",
+          "opts": {
+            "a": "Electrostatic force",
+            "b": "Magnetic force",
+            "c": "Force in an elastic spring",
+            "d": "Frictional force"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "q": "Which of the following is incorrect:",
+          "opts": {
+            "a": "Gravitational force of attraction is independent of nature of intervening medium",
+            "b": "Gravitational forces are central forces",
+            "c": "Gravitational forces are non-conservative forces",
+            "d": "Gravitational force of attraction varies inversely as the square of the distance."
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "q": "What is Tyndall effect?",
+          "opts": {
+            "a": "Scattering ofa beam of light by the particles of a suspension",
+            "b": "Refraction of a beam of light by the particles ofa solution",
+            "c": "Reflection ofa beam of light by the particles of a suspension",
+            "d": "Scattering of a beam of light by the particles of a colloid"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "q": "What is the H-C-H bond angle in a methane molecule?",
+          "opts": {
+            "a": "120°",
+            "b": "75°",
+            "c": "109.5°",
+            "d": "150°"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "q": "Which of the following studies is related to herpetology? 5",
+          "opts": {
+            "a": "Snakes",
+            "b": "Fishes",
+            "c": "Aquatic plants and animals",
+            "d": "Amphibians and Reptiles :"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Both option (a) “Snakes” and option (d) “Amphibians and Reptiles” are correct: herpetology studies reptiles, including snakes, as well as amphibians. No unique answer.",
+          "reviewNote": "Both option (a) “Snakes” and option (d) “Amphibians and Reptiles” are correct: herpetology studies reptiles, including snakes, as well as amphibians. No unique answer."
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "q": "Which of the following antiseptic compounds is present in Dettol?",
+          "opts": {
+            "a": "Iodine",
+            "b": "Cresol",
+            "c": "Chloroxylenol",
+            "d": "Biothional"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "q": "Tocopherpol is also known as",
+          "opts": {
+            "a": "Vitamin E",
+            "b": "Vitamin D",
+            "c": "VitaminA",
+            "d": "VitaminB"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "q": "The full form of RTE Act 2009 is",
+          "opts": {
+            "a": "Right to Education Act, 2009",
+            "b": "The Right of Children to Free and Compulsory Education Act, 2009",
+            "c": "Righ of Children to Education Act, 2009",
+            "d": "The Right to Education Act, 2009"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "q": "What is the smallest bone in human body?",
+          "opts": {
+            "a": "Malleus",
+            "b": "Incus",
+            "c": "Stapes",
+            "d": "Cochlea"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 6,
+          "q": "Who won the French Open Men’s Single Category 2024?",
+          "opts": {
+            "a": "Alcaraz",
+            "b": "Rublev",
+            "c": "Zverev",
+            "d": "Sinner"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 6,
+          "q": "The RPwD Act, 2016 covered...",
+          "opts": {
+            "a": "7 types of Disabilities",
+            "b": "14 types of Disabilities",
+            "c": "18 types of Disabilities",
+            "d": "21 types of Disabilites"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "q": "According to the Juvenile Justice (Care and Protection of Children) Act, 2015, the term ‘Juvenile’ means: :",
+          "opts": {
+            "a": "Achild below the age of 21 years",
+            "b": "Achild below the age of 20 years",
+            "c": "Achild below the age of 18 years",
+            "d": "A child below the age of 16 years"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "q": "Article 21A of the Indian Constitution is about",
+          "opts": {
+            "a": "Girl Education",
+            "b": "Tribal Education",
+            "c": "University Education",
+            "d": "Free and Compulsory Education"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "q": "Heinous offences includes the offcences for which the minimum punishment under the Indian Penal Code or any other law in force is imprisonment for",
+          "opts": {
+            "a": "5 years or more",
+            "b": "7 years or more .",
+            "c": "10 years or more",
+            "d": "12 years or more"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "q": "Bharatiya Nyaya Sanhita (BNS) will come into force with effect from 1‘ July 2024 throughout the territory of India and it will replace",
+          "opts": {
+            "a": "Indian Penal Code 1860",
+            "b": "Code of Criminal Procedure 1973",
+            "c": "Indian Evidence Act 1872",
+            "d": "Marriage Act 1947"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "q": "Sikkim was made an integral part of India under the",
+          "opts": {
+            "a": "36 Amendment",
+            "b": "39% Amendment",
+            "c": "40 Amendment :",
+            "d": "42\" Amendment"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "q": "Which constitutional amendment deleted the right to property from the list of fundamental rights?",
+          "opts": {
+            "a": "40th Amendment",
+            "b": "42nd Amendment",
+            "c": "43rd Amendment",
+            "d": "44th Amendment"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "q": "The right to vote in India is a",
+          "opts": {
+            "a": "Fundamental right",
+            "b": "Legal right",
+            "c": "Constitutional right",
+            "d": "Natural right"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "q": "Fundamental Duties do not enjoy any",
+          "opts": {
+            "a": "Legal sanction",
+            "b": "Moral sanction",
+            "c": "Political sanction",
+            "d": "Social sanction"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "q": "What is ‘Zero Hour’?",
+          "opts": {
+            "a": "When the proposals of the opposition are raised",
+            "b": "When matters of utmost importance are raised",
+            "c": "Interval between the morning and afternoon sessions",
+            "d": "Whenamoney bill is introduced in Lok Sabha"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "q": "How many High Courts are constituted in India?",
+          "opts": {
+            "a": "14",
+            "b": "19",
+            "c": "20",
+            "d": "25"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "q": "The 73 Amendment of the Indian Constitution deals with",
+          "opts": {
+            "a": "Minimum age of marriage",
+            "b": "Child labour",
+            "c": "Panchayati Raj",
+            "d": "Conservation of forest"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "q": "Who was called the Iron Man of India",
+          "opts": {
+            "a": "Subhas Chandra Bose",
+            "b": "Bipin Chandra Pal",
+            "c": "Lala Lajpat Rai",
+            "d": "Sardar Vallabhbhai Patel"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 7,
+          "q": "Indian National Congress was founded by",
+          "opts": {
+            "a": "Michael Hume",
+            "b": "Allan Octavian Hume",
+            "c": "Mahatma Gandhi",
+            "d": "Feroz Shah"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "q": "Who is the exponent of the theory of economic drain of India during the British rule?",
+          "opts": {
+            "a": "Dadabhai Naoroji",
+            "b": "Gopal Krishna Gokhale",
+            "c": "Ram Manohar Lohiya",
+            "d": "Jai Prakash Narayan"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "q": "Central Administrative Tribunal deals with",
+          "opts": {
+            "a": "Recruitment matters",
+            "b": "Promotion matters",
+            "c": "Disciplinary matters",
+            "d": "Recruitment and service matters"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "q": "Who advises the Government of India on legal matters?",
+          "opts": {
+            "a": "Attorney General",
+            "b": "Chief Justice of Supreme Court",
+            "c": "Chairman, Law Commission",
+            "d": "Chief Information Commissioner"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "q": "Which of the following subjects lies in the concurrent list?",
+          "opts": {
+            "a": "Agriculture",
+            "b": "Education",
+            "c": "Police",
+            "d": "Defense"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "q": "When will demand become a grant?",
+          "opts": {
+            "a": "When a demand is submitted",
+            "b": "After the discussion on demand is over",
+            "c": "After the demand is granted",
+            "d": "When the budget session is closed"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "q": "The oath of office is administered to the Governor of a State by the",
+          "opts": {
+            "a": "Chief Justice of India",
+            "b": "President",
+            "c": "Prime Minister",
+            "d": "Chief Justice of High Court"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "q": "How many types of writs can be issued by the supreme court?",
+          "opts": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "q": "The speaker can stop a member of Parliament from speaking and let another member speak. This . phenomenon is known as",
+          "opts": {
+            "a": "Decorum",
+            "b": "Crossing the floor",
+            "c": "Interpellation",
+            "d": "Yielding the floor"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "q": "Which among the following longitudes determines Indian Standard Time?",
+          "opts": {
+            "a": "85.5°E",
+            "b": "83.5°E",
+            "c": "82.5°E",
+            "d": "84.5°E"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "q": "What is the name given to tiny particles of plastic debris that are smaller than 5 milimeters in size?",
+          "opts": {
+            "a": "Mini-plastics",
+            "b": "Micro-plastics",
+            "c": "Nano-plastics",
+            "d": "Milli-plastics :"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "q": "In SI units, a unit of charge is called",
+          "opts": {
+            "a": "Milli coulomb",
+            "b": "Coulomb",
+            "c": "Ampere",
+            "d": "Milli ampere"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "q": "What is the new academic structure suggested by NEP 2020?",
+          "opts": {
+            "a": "6+4+1+1",
+            "b": "10+2+3+4",
+            "c": "5+3+3+4",
+            "d": "5+4+3+3"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "The Supreme Court declined to legalise same-sex marriages in its 2023 judgment."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "SHRESHTA is administered by the Ministry of Social Justice and Empowerment."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "The Aarogya Maitri Aid Cube was unveiled at Gurugram."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "Hrvoje Lukatela identified Point Nemo in 1992."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "Shah Rukh Khan received the 2024 Dadasaheb Phalke International Film Festival best actor award."
+        },
+        "6": {
+          "answerIndex": 2,
+          "explanation": "Ruixiang Zhang received the 2023 SASTRA Ramanujan Prize."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "Sodium azide rapidly releases nitrogen gas to inflate traditional airbags."
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "Mature human red blood cells lack a nucleus."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "Lysozyme is an antibacterial enzyme in tears and saliva."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "The Nilgiri Biosphere Reserve extends across Tamil Nadu, Kerala and Karnataka."
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "IUCN publishes the Red List of Threatened Species."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "The 2024 Khelo India Winter Games used the snow leopard as mascot."
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "The seventh Indian Ocean Conference was held in Perth."
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "Operation Sarvashakti targeted terrorists in Jammu and Kashmir."
+        },
+        "15": {
+          "answerIndex": 1,
+          "explanation": "Indore and Surat shared the top clean-city ranking in Swachh Survekshan 2023."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "SAMBHAV is the Indian Army’s secure mobile ecosystem."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "India signed the lithium exploration and mining agreement with Argentina."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Years of schooling is an education indicator in the national MPI."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "Common solder is an alloy of lead (Pb) and tin (Sn)."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Nettle stings contain methanoic (formic) acid."
+        },
+        "21": {
+          "answerIndex": 2,
+          "explanation": "The Durand Cup, founded in 1888, is Asia’s oldest football tournament."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Karnam Malleswari won India’s first Olympic medal by a woman."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "The Kerala school introduced Iris, an AI humanoid teacher."
+        },
+        "24": {
+          "answerIndex": 1,
+          "explanation": "Klaus Schwab was the WEF’s executive chairman in 2024."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "World Water Day is observed on March 22."
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "Sharath Kamal was named India’s flagbearer for the 2024 Paris Olympics."
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "The digital gateway helps farmers avoid distress sales by enabling finance against e-NWRs."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "NAMASTE promotes safe, mechanised sewer and septic-tank cleaning by trained workers."
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "E. V. Ramasamy Naicker (Periyar) initiated the Self-Respect Movement."
+        },
+        "30": {
+          "answerIndex": 3,
+          "explanation": "Luis A. Caffarelli received the 2023 Abel Prize."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "Arundhati Bhattacharya was the first woman chairperson of the State Bank of India."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "An endemic infection persists at a usual baseline level in a geographic area."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "Gujarat has India’s longest coastline among the listed states."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "Point Calimere is in Tamil Nadu."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Deflation is a general decline in the price level."
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "Sedimentation reduces reservoir capacity and threatens hydropower-dam sustainability."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "The expansion is Chat Generative Pre-Trained Transformer."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "Palak Dil is the largest natural lake located within Mizoram."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "Mizoram University was established in 2001."
+        },
+        "40": {
+          "answerIndex": 3,
+          "explanation": "Tehri Dam is India’s highest dam."
+        },
+        "41": {
+          "answerIndex": 1,
+          "explanation": "The saying is commonly attributed to Mahatma Gandhi."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "Ravi Shankar was the first Indian to win a Grammy."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "C. V. Raman won the Nobel Prize in Physics in 1930."
+        },
+        "44": {
+          "answerIndex": 3,
+          "explanation": "Tokyo is the conventional answer for the world’s most populous metropolitan city; the question does not define the city boundary or population measure."
+        },
+        "45": {
+          "answerIndex": 1,
+          "explanation": "Pu Vanlalhlana held the Power and Electricity portfolio in Mizoram in July 2024."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "ADB’s April 2024 outlook forecast 7.0% growth for India in FY2024."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "Operation Karuna provided India’s assistance to Myanmar after Cyclone Mocha."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "The 128th Amendment Bill proposed reserving one-third of seats for women in the Lok Sabha and state assemblies."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "China is not a SAARC member."
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "NESIDS projects are centrally funded at 100% for eligible northeastern states."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "Bankim Chandra Chatterjee wrote Vande Mataram."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Raja Ram Mohan Roy is commonly called the father of modern India."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "M. K. Gandhi wrote The Story of My Experiments with Truth."
+        },
+        "54": {
+          "answerIndex": 3,
+          "explanation": "The quote is attributed to Aurobindo Ghose."
+        },
+        "55": {
+          "answerIndex": 3,
+          "explanation": "The 42nd Amendment (1976) inserted “socialist” and “secular” into the Preamble."
+        },
+        "56": {
+          "answerIndex": 1,
+          "explanation": "A Prime Minister must qualify to be a member of Parliament; the minimum age is 25 for the Lok Sabha (lower than the Rajya Sabha minimum)."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "Prorogation terminates a parliamentary session."
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "The Sixth Schedule covers tribal areas in Assam, Meghalaya, Tripura and Mizoram."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "Majuli was declared India’s first island district."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "The Damodar flows into the Hooghly (Hugli) river."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "The term is associated with Narendra Modi’s promotion of a protein-focused second green revolution."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "The Thomas Cup is the international men’s team badminton championship."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Mike Tyson’s nickname was “Kid Dynamite.”"
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "An ecotone is a transition zone between ecological communities/biomes."
+        },
+        "65": {
+          "answerIndex": 3,
+          "explanation": "Friction dissipates mechanical energy and is non-conservative."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "Gravity is a conservative force, so the claim that gravitational forces are non-conservative is incorrect."
+        },
+        "67": {
+          "answerIndex": 3,
+          "explanation": "The Tyndall effect is scattering of light by colloidal particles."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "Methane is tetrahedral; its H–C–H angle is about 109.5°."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "Dettol’s principal antiseptic agent is chloroxylenol."
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Tocopherol is vitamin E."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "The statute’s formal name is the Right of Children to Free and Compulsory Education Act, 2009."
+        },
+        "73": {
+          "answerIndex": 2,
+          "explanation": "The stapes is the smallest bone in the human body."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Carlos Alcaraz won the 2024 French Open men’s singles title."
+        },
+        "75": {
+          "answerIndex": 3,
+          "explanation": "The RPwD Act, 2016 recognises 21 specified disabilities."
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "Under the Juvenile Justice Act, a child is a person below 18 years."
+        },
+        "77": {
+          "answerIndex": 3,
+          "explanation": "Article 21A guarantees free and compulsory education for children aged 6–14."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "The Act defines a heinous offence by a minimum punishment of seven years or more."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "The Bharatiya Nyaya Sanhita replaced the Indian Penal Code, 1860."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "The 36th Amendment made Sikkim a full state of India."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "The 44th Amendment removed the right to property from the fundamental-rights list."
+        },
+        "82": {
+          "answerIndex": 1,
+          "explanation": "The right to vote is generally classified as a statutory/legal right, not a fundamental right."
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "Fundamental Duties are not directly enforceable and carry no general legal sanction as duties."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "Zero Hour is when members raise matters of urgent public importance."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "India had 25 High Courts in 2024."
+        },
+        "86": {
+          "answerIndex": 2,
+          "explanation": "The 73rd Amendment constitutionalised Panchayati Raj institutions."
+        },
+        "87": {
+          "answerIndex": 3,
+          "explanation": "Sardar Vallabhbhai Patel is known as the Iron Man of India."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "Allan Octavian Hume founded the Indian National Congress with Indian leaders in 1885."
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "Dadabhai Naoroji developed and popularised the drain theory."
+        },
+        "90": {
+          "answerIndex": 3,
+          "explanation": "The Central Administrative Tribunal handles recruitment and service matters for covered public servants."
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "The Attorney General is the Government of India’s chief legal adviser."
+        },
+        "92": {
+          "answerIndex": 1,
+          "explanation": "Education is in the Concurrent List."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "A demand for grants becomes a grant when the House votes and grants it."
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "The Governor’s oath is administered by the Chief Justice of the state High Court (or the senior-most available judge)."
+        },
+        "95": {
+          "answerIndex": 3,
+          "explanation": "The Supreme Court may issue five constitutional writs."
+        },
+        "96": {
+          "answerIndex": 3,
+          "explanation": "Yielding the floor means a member gives way so another member may speak."
+        },
+        "97": {
+          "answerIndex": 2,
+          "explanation": "Indian Standard Time is based on 82.5° E longitude."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "Plastic debris smaller than 5 mm is called microplastics."
+        },
+        "99": {
+          "answerIndex": 1,
+          "explanation": "The SI unit of electric charge is the coulomb."
+        },
+        "100": {
+          "answerIndex": 2,
+          "explanation": "NEP 2020 proposes the 5+3+3+4 curricular and pedagogical structure."
+        }
+      }
     }
   }
 }

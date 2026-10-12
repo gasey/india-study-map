@@ -727,3 +727,21 @@ The regenerated Group B bank contains 26,878 records (25,857 MCQs), with
 9,558 unreviewed and 733 missing MCQs. Durable review inputs are in
 `tools/udc-ldc-build/group-b-text-repairs.json` under `mes-pwd-2020-gs`,
 `eo-leit-2019-gs3`, `inspector-fcs-2019-gs3` and `mes-phe-2019-gs`.
+
+## Three more large General Studies reviews — 12 October 2026
+
+Added 95 answers to MES PHE 2014 General Studies, 98 to Inspector Excise
+Paper II 2019, and 99 to MES Combined July 2024 General Studies. Held five
+ambiguous/defective 2014 questions, two Inspector Excise items, and one MES
+Combined item. Restored the four omitted two-choice questions 95–98 in the
+2014 scan, plus missing Q97 in Inspector Excise and Q30/Q64/Q82/Q90 in MES
+Combined. The 13 text corrections include splitting Q64 from the preceding
+MES Combined item. The two-choice extraction repair preserves the printed
+answer set.
+
+The latest build has 26,887 records (25,866 MCQs), 16,954 ready answers,
+8,322 official-key answers, 518 held-reviewed, 9,267 unreviewed and 732
+missing MCQs. Review inputs are under `mes-phe-2014-gs`,
+`inspector-excise-2019-gs2` and
+`archive2325-jrgrade-of-mes-combined-july-2024-general-studies` in
+`tools/udc-ldc-build/group-b-text-repairs.json`.

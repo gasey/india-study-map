@@ -4,19 +4,19 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26878,
-    "mcq": 25857,
+    "records": 26887,
+    "mcq": 25866,
     "writtenRecords": 1021,
-    "ready": 16662,
+    "ready": 16954,
     "readyOfficial": 8322,
-    "pendingMcq": 8685,
-    "heldReviewed": 510,
-    "workedGuidesReviewed": 9517,
-    "pendingMcqGuides": 16340,
+    "pendingMcq": 8394,
+    "heldReviewed": 518,
+    "workedGuidesReviewed": 9817,
+    "pendingMcqGuides": 16049,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
-    "missingMcq": 733
+    "missingMcq": 732
   },
   "sections": {
     "english": {
@@ -64,15 +64,15 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14946,
-      "mcq": 14946,
+      "records": 14955,
+      "mcq": 14955,
       "writtenRecords": 0,
-      "ready": 12054,
+      "ready": 12346,
       "readyOfficial": 6205,
-      "pendingMcq": 2525,
-      "heldReviewed": 367,
-      "workedGuidesReviewed": 6297,
-      "pendingMcqGuides": 8649,
+      "pendingMcq": 2234,
+      "heldReviewed": 375,
+      "workedGuidesReviewed": 6597,
+      "pendingMcqGuides": 8358,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -7573,35 +7573,42 @@
       "imported": true,
       "expectedMcq": null,
       "missingMcq": null,
-      "records": 96,
-      "mcq": 96,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 96,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 96,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 96,
-          "mcq": 96,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 96,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 96,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q69",
+          "questionNumber": "69",
+          "section": "gk",
+          "reason": "Both option (a) “Snakes” and option (d) “Amphibians and Reptiles” are correct: herpetology studies reptiles, including snakes, as well as amphibians. No unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -12251,36 +12258,49 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 1,
-      "records": 99,
-      "mcq": 99,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 99,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 99,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 99,
-          "mcq": 99,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 99,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 99,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs2-Q45",
+          "questionNumber": "45",
+          "section": "gk",
+          "reason": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs2-Q98",
+          "questionNumber": "98",
+          "section": "gk",
+          "reason": "Ambiguous wording: all three sectors (western, middle and eastern) of the India–China boundary are described as the Line of Actual Control; more than one offered sector is valid."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-excise-2019-gs3",
@@ -14388,35 +14408,66 @@
       "imported": true,
       "expectedMcq": null,
       "missingMcq": null,
-      "records": 96,
-      "mcq": 96,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 95,
       "readyOfficial": 0,
-      "pendingMcq": 96,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 96,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 96,
-          "mcq": 96,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 95,
           "readyOfficial": 0,
-          "pendingMcq": 96,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 96,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mes-phe-2014-gs-Q5",
+          "questionNumber": "5",
+          "section": "gk",
+          "reason": "The printed question does not identify which constitutional body its author intended. The listed offices have not been shown to have an engineer as their head at the paper’s sitting; retain as defective pending a contemporaneous source."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2014-gs-Q45",
+          "questionNumber": "45",
+          "section": "gk",
+          "reason": "One nautical mile is exactly 1.852 km (about 1.85 km), and none of the listed distances is correct."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2014-gs-Q54",
+          "questionNumber": "54",
+          "section": "gk",
+          "reason": "“Ardent” means enthusiastic or passionate; “eager,” “devoted” and “zealous” are all defensible near-synonyms, so the options do not identify one uniquely best answer."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2014-gs-Q58",
+          "questionNumber": "58",
+          "section": "gk",
+          "reason": "Both “hell-bent on getting” and “hell-bent upon getting” are standard constructions, so options (a) and (c) both improve the sentence."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2014-gs-Q59",
+          "questionNumber": "59",
+          "section": "gk",
+          "reason": "The original third conditional is already grammatical, while option (c) is an equally grammatical inversion of the same conditional; the item has two correct choices."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mes-phe-2019-english",

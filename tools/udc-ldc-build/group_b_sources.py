@@ -596,7 +596,7 @@ def reviewed_extraction(extracted, repair):
         n = int(number)
         assert q['n'] == n and 1 <= n <= repair['expectedMcq'], 'Invalid repaired number'
         assert q['q'].strip() and q['page'] > 0, 'Missing repaired text or source page'
-        assert tuple(q['opts']) in (tuple('abc'), tuple('abcd')) and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
+        assert tuple(q['opts']) in (tuple('ab'), tuple('abc'), tuple('abcd')) and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
         assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
         assert 'answerIndex' not in q and 'answer' not in q, 'Text repairs cannot override answers'
         assert not q.get('unscored') or q.get('explanation', '').strip(), 'Unscored dispute needs an explanation'
@@ -780,6 +780,9 @@ def build_additional():
         # Values read from the printed covers (marks each / time allowed; no
         # negative marking is printed on these papers).
         UPSTREAM_SOLID_META = {
+            'mes-phe-2014-gs': (1, 180),
+            'inspector-excise-2019-gs2': (2, 120),
+            'archive2325-jrgrade-of-mes-combined-july-2024-general-studies': (1, 180),
             'archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994': (1, 180),
             'archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8': (1, 120),
             'archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a': (1, 180),

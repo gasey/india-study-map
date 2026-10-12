@@ -120536,14 +120536,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "A part of Health Department",
       "Under UD&PA before"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram’s PHE Department was bifurcated from the parent PWD and became independent in 1983.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q2",
@@ -120561,14 +120563,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "K.Thangzualla",
       "Robula"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Robula is identified in Mizo engineering histories as the first Mizo to complete an engineering degree.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q3",
@@ -120586,17 +120590,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "friction between tyres and road surface increases",
       "inertia of two wheeler tyre decreases"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Oil lowers grip by reducing friction between the tyre and road surface.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q4",
@@ -120614,17 +120617,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rakhi Birla",
       "Prashan Bhushan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Delhi minister Somnath Bharti was reported to have led the January 2014 raid involving African women.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q5",
@@ -120643,7 +120645,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Union Public Service Commission"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The printed question does not identify which constitutional body its author intended. The listed offices have not been shown to have an engineer as their head at the paper’s sitting; retain as defective pending a contemporaneous source.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
@@ -120652,7 +120654,8 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The printed question does not identify which constitutional body its author intended. The listed offices have not been shown to have an engineer as their head at the paper’s sitting; retain as defective pending a contemporaneous source."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q6",
@@ -120670,17 +120673,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Jyoti Basu of West Bengal",
       "Narendra Modi of Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jyoti Basu served as West Bengal chief minister for five consecutive terms, from 1977 to 2000.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q7",
@@ -120698,17 +120700,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Agriculture sector",
       "Manufacturing sector"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Services have been India’s fastest-growing major sector in this period.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q8",
@@ -120726,17 +120727,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Morarji Desai",
       "Viswanath Pratap Singh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Atal Bihari Vajpayee’s first government lasted 13 days in 1996.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q9",
@@ -120754,17 +120754,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Tim Berners-Lee",
       "Ray Tomlinson"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ray Tomlinson implemented network email and introduced the @ convention.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q10",
@@ -120782,17 +120781,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Plan expenditure is always equal to plan expenditure",
       "Most salaries of employees are paid from plan fund"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Non-plan expenditure was normally higher than plan expenditure under the then budget classification.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q11",
@@ -120810,17 +120808,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "National Development Council",
       "Planning Commission"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The National Development Council gave final approval to Five-Year Plans.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q12",
@@ -120838,17 +120835,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Prime Minister",
       "Speaker of Lok Sabha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Prime Minister chaired India’s Planning Commission.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q13",
@@ -120866,14 +120862,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "NH-54",
       "NH-36"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Aizawl–Lunglei highway was designated NH-54.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q14",
@@ -120891,17 +120889,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Budhist",
       "Christianity"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Muslims are India’s largest religious minority.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q15",
@@ -120919,17 +120916,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Lord Dalhousie",
       "Lord Hastings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lord Canning was Governor-General during the 1857 uprising.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q16",
@@ -120947,17 +120943,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Non-Lapsable Central Pool of Resources",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NLCPR means Non-Lapsable Central Pool of Resources.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q17",
@@ -120975,17 +120970,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Chandra Gupta",
       "Gautam Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Aryabhata treated mathematics as a distinct scholarly subject in early Indian tradition.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q18",
@@ -121003,17 +120997,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "1947",
       "1954"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India’s First Five-Year Plan began in 1951.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q19",
@@ -121031,14 +121024,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Kolasib District",
       "Mamit District"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Saiha was Mizoram’s smallest district by area among the listed districts at the time.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q20",
@@ -121056,17 +121051,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Vijaya Reddy",
       "Srikant Bandhyopadhyay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Udaya Kumar designed the Indian rupee symbol.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q21",
@@ -121084,17 +121078,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rajiv Gandhi",
       "Subash Chandra Bose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PMGSY launched on Vajpayee’s birthday, 25 December.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q22",
@@ -121112,17 +121105,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Alfred Nobel",
       "Dr. George Hume"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Alexander Fleming discovered penicillin.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q23",
@@ -121140,17 +121132,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "100 days of employment to all working members of a family",
       "100 days of employment to all unemployed members"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The original NREGA guarantee was 100 days of wage employment per rural household per financial year.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q24",
@@ -121168,17 +121159,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Bankura in West Bengal",
       "Digboi in Assam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Oil was first discovered in India at Digboi, Assam, in 1867.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q25",
@@ -121196,17 +121186,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Use of greased cartridge",
       "Stoppage of soldiers’ privilege of postage free letters"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The greased cartridge controversy was the immediate trigger of the 1857 revolt.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q26",
@@ -121224,17 +121213,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "England",
       "U.S.A"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gandhi developed satyagraha and non-cooperation through his activism in South Africa.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q27",
@@ -121252,17 +121240,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Williamson Sangma",
       "Hiteshwar Saikia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "P. A. Sangma was the first Lok Sabha Speaker from Northeast India.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q28",
@@ -121280,14 +121267,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "H.T.Sangliana",
       "Lalbuaia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Dr. C. Silvera was the first Mizo to serve as a Union Minister.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q29",
@@ -121305,17 +121294,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "60",
       "90"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Delhi Legislative Assembly has 70 seats.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q30",
@@ -121333,17 +121321,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Blindness",
       "Presbyopia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Myopia is short-sightedness.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q31",
@@ -121361,17 +121348,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "32m",
       "37m"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The two rectangles total 40×20 + 25×17 = 1,225 m²; √1,225 = 35 m.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q32",
@@ -121389,17 +121375,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "90",
       "60"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Each term is multiplied by 9: 9, 81, 729, 6,561.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q33",
@@ -121417,17 +121402,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Hydrogen",
       "Radon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Hydrogen is the lightest gas.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q34",
@@ -121445,17 +121429,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "D.B.C. Pierre",
       "Aldour Huxley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dan Brown wrote The Da Vinci Code.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q35",
@@ -121473,17 +121456,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rutherford",
       "Heinrich Hertz"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Heinrich Hertz experimentally detected radio waves.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q36",
@@ -121501,17 +121483,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Canada",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India has the world’s lengthiest written constitution.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q37",
@@ -121529,17 +121510,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Aryabhatta",
       "Brahmagupta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Brahmagupta formalized zero as a number and described arithmetic operations with it.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q38",
@@ -121557,17 +121537,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Brahmaputra",
       "Ganges"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Ganges is generally identified as the longest river within India.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q39",
@@ -121585,17 +121564,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Das Kapital",
       "Divine Comedy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Karl Marx wrote Das Kapital.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q40",
@@ -121613,17 +121591,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Mihir Sen",
       "Nisha Miller"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mihir Sen was the first Indian to swim across the English Channel.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q41",
@@ -121641,17 +121618,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "The Indian Ocean",
       "Palk Strait and the Gulf of Mannar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India and Sri Lanka are separated by the Palk Strait and Gulf of Mannar.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q42",
@@ -121669,17 +121645,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "25",
       "27"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India had 28 states at the time of the paper.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q43",
@@ -121697,17 +121672,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Venus",
       "Jupiter"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jupiter had the highest known satellite count among these choices at the time of the paper.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q44",
@@ -121725,17 +121699,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Sports",
       "Literature"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Oscars are film-industry awards.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q45",
@@ -121754,7 +121727,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "12 km"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "One nautical mile is exactly 1.852 km (about 1.85 km), and none of the listed distances is correct.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
@@ -121763,7 +121736,8 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "One nautical mile is exactly 1.852 km (about 1.85 km), and none of the listed distances is correct."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q46",
@@ -121781,17 +121755,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "J.K. Galbraith",
       "Adam Smith"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Adam Smith is widely called the father of economics.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q47",
@@ -121809,18 +121782,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "on",
       "over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Held up” means delayed.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q48",
@@ -121838,18 +121809,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "broad",
       "illuminated"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Look on the bright side” is the standard expression.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q49",
@@ -121867,18 +121836,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "meager",
       "undesirable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Desert rainfall is low and highly erratic.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q50",
@@ -121896,18 +121863,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "sensible",
       "credible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A gullible person is easily persuaded or believes things readily.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 47–50):  Each of the following sentences has a blank space and four words are"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q51",
@@ -121925,15 +121890,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Hardship",
       "Failure"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Adversity is the opposite of prosperity.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q52",
@@ -121951,15 +121917,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Determination",
       "Arrogance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Humility is the opposite of conceit.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q53",
@@ -121977,15 +121944,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Dislike",
       "Worried"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Impartial means unbiased; biased is its opposite.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 51–53): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q54",
@@ -122004,7 +121972,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Sincere"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Ardent” means enthusiastic or passionate; “eager,” “devoted” and “zealous” are all defensible near-synonyms, so the options do not identify one uniquely best answer.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
@@ -122013,8 +121981,8 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed"
+    "sourceReviewed": true,
+    "sourceNote": "“Ardent” means enthusiastic or passionate; “eager,” “devoted” and “zealous” are all defensible near-synonyms, so the options do not identify one uniquely best answer."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q55",
@@ -122032,15 +122000,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Savage",
       "Mean"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Remote means distant.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q56",
@@ -122058,15 +122027,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Pleasant",
       "Present"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gracious can mean pleasant or kind.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q57",
@@ -122084,15 +122054,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Friend",
       "Relative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kin means a relative.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 54–57): Each item in this section consists of a word in capital letters followed"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q58",
@@ -122111,7 +122082,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "no improvement"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “hell-bent on getting” and “hell-bent upon getting” are standard constructions, so options (a) and (c) both improve the sentence.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
@@ -122120,8 +122091,8 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceReviewed": true,
+    "sourceNote": "Both “hell-bent on getting” and “hell-bent upon getting” are standard constructions, so options (a) and (c) both improve the sentence."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q59",
@@ -122140,7 +122111,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "No improvement"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The original third conditional is already grammatical, while option (c) is an equally grammatical inversion of the same conditional; the item has two correct choices.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
@@ -122149,8 +122120,8 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceReviewed": true,
+    "sourceNote": "The original third conditional is already grammatical, while option (c) is an equally grammatical inversion of the same conditional; the item has two correct choices."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q60",
@@ -122168,15 +122139,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "His fatal desire",
       "No improvement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Powerful desire” is grammatical and means a strong desire; the other options alter the meaning, so no improvement is needed.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q61",
@@ -122194,15 +122166,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "sent words",
       "no improvement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The idiom is “send word,” without the article.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q62",
@@ -122220,15 +122193,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "has",
       "no improvement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "For a real future possibility, use “If he has time, he will call you.”",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q63",
@@ -122244,17 +122218,18 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "lend me any rupees",
       "borrow me a few rupees",
       "lend me a few rupees",
-      "no improvement The first murder ever committed in the United States occurred in September 1630, shortly In the end, Billington’s rebellious and angry nature caught up with him. He was found guilty of"
+      "no improvement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The count noun “rupees” needs the article in this request: “lend me a few rupees.”",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q64",
@@ -122272,18 +122247,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "clever and amusing",
       "bold and patriotic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage describes Billington as rebellious and angry.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q65",
@@ -122301,18 +122275,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "He tried to lead a mutiny",
       "He attempted to overthrow the government"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage says Billington refused military duty under Miles Standish; he did not serve.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q66",
@@ -122330,18 +122303,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "He had two sons who needed him",
       "They didn’t have enough evidence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The leaders let him go free because there was insufficient evidence of the alleged plot.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q67",
@@ -122359,18 +122331,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "America’s First Murderer",
       "Early American Legal Battles"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage centers on John Billington, described as the colony’s first murderer.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 64–67 refer to this passage: The first murder ever committed in the United States occurred in September 1630, shortly after the Pilgrims arrived in Massachusetts. John Billington was the father of two sons, one of the first to settle in the new Plymouth Colony near what is today Boston, and one of the people who signed the Mayflower Compact—and he was also the colony’s first murderer. Billington’s crime was to shoot John Newcomen. He and his sons had nearly caused a mutiny aboard the Mayflower. Billington later refused military duty under Miles Standish and was implicated in a plot to overthrow Plymouth Colony’s leadership, but a lack of evidence led its leaders to let him go free. He was eventually found guilty of murder and executed."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q68",
@@ -122388,18 +122359,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "All frustrated people are drug addicts",
       "Whimsical people are generally frustrated"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Some artists are drug addicts and all artists are whimsical; therefore some drug addicts are whimsical.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q69",
@@ -122417,18 +122386,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "45 km",
       "48 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first 60% takes 10 minutes longer than the last 40%; 0.2D/48 = 1/6 hour, so D = 40 km.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q70",
@@ -122446,18 +122413,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rita is not as pretty as Gita",
       "Gita is prettier than Rita."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gita is prettier than Sita, so Sita is not as pretty as Gita.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q71",
@@ -122475,18 +122440,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "C",
       "D"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Candidate C was acceptable to W and Y and preferred by X and Z, giving support from all four parties.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q72",
@@ -122504,15 +122467,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "8",
       "9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Region 7 lies in Q, R and S but outside P.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q73",
@@ -122530,15 +122494,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "B",
       "O"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Folding the shown net places blue opposite white.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q74",
@@ -122556,15 +122521,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "B",
       "M"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Across the three views, H is opposite A.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q75",
@@ -122582,18 +122548,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "3 : 2",
       "5 : 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Milk totals 1/2+3/4=5/4 glasses and water totals 1/2+1/4=3/4, giving 5:3.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q76",
@@ -122611,18 +122575,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "All the rich persons become sick",
       "All those who travel by air are rich"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“None but the rich can afford air travel” means every air traveler is rich.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q77",
@@ -122640,15 +122602,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "TripuraManik Sarkar",
       "NagalandIbobi Singh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Manik Sarkar was chief minister of Tripura; the other listed pairings are mismatched.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q78",
@@ -122666,18 +122629,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Glycogen",
       "Sucrose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The primary product of photosynthesis is glucose.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q79",
@@ -122695,15 +122656,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Both 1 and 2",
       "Neither 1 nor 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Fly-ash cement reduces embodied emissions and LEDs use less electricity; both reduce carbon footprint.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q80",
@@ -122721,18 +122683,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Iron",
       "Protein"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Spirulina is promoted as a protein-rich food.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q81",
@@ -122750,18 +122710,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rearing of animals and cultivation of crops together",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mixed farming combines crop cultivation with livestock rearing.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q82",
@@ -122779,18 +122737,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "–1",
       "1"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "−7x+2x−5=0 gives −5x=5, hence x=−1.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q83",
@@ -122808,18 +122764,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "1  and 3 only",
       "1, 2 and 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India imports coal because of domestic supply constraints and demand for imported coking coal; statement 1 is not a policy rationale.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q84",
@@ -122837,18 +122791,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Both 1 and 2",
       "Neither 1 nor 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Monsoon duration is longer in the south than north, and northern-plain rainfall decreases eastward to westward; both statements are true.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q85",
@@ -122864,20 +122816,18 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "10, 91,014",
       "10, 19,014",
       "10, 88,014",
-      "10, 88,573 The Stone Age was a period of history which began in approximately 2 million B.C. and lasted During the Mesolithic Age (8000 to 6000 B.C.), people made crude pottery and the first fish The Neolithic Age (6000 to 3000 B.C) saw human kind domesticating sheep, goats, pigs and"
+      "10, 88,573"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mizoram’s 2011 Census population was 1,091,014.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q86",
@@ -122895,18 +122845,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Hallucinated",
       "Discussed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Derived” means originated or obtained from.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q87",
@@ -122924,18 +122873,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "There was little vegetation",
       "The people lived in stone caves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The period is named for its stone tools and weapons.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q88",
@@ -122953,18 +122901,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Primitive",
       "Inquisitive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nomadic means wandering or moving from place to place.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q89",
@@ -122982,18 +122929,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "The Stone Age",
       "The Ice Age"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage describes the Stone Age as a whole.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q90",
@@ -123011,18 +122957,17 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "herds",
       "tools"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Eras” means periods of time.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Questions 86–90 refer to this passage: The Stone Age began approximately 2 million B.C. and lasted until 3000 B.C. Its name derives from the stone tools and weapons found by modern scientists. It is divided into the Paleolithic, Mesolithic and Neolithic ages. The Paleolithic period saw early tools and the use of fire; the Mesolithic period saw crude pottery, fish hooks, dogs used for hunting and the bow and arrow; in the Neolithic period people domesticated animals, became less nomadic, established settlements and created governments."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q91",
@@ -123040,18 +122985,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "6",
       "8"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The cube volume is 6³=216; 216/(12×9)=2.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q92",
@@ -123069,18 +123012,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "1 and 3 only",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bees and birds are pollinators; dragonflies are not typically pollinating agents.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q93",
@@ -123098,18 +123039,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "5/6",
       "6/5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "2s/(3r)=2s/[3(4s/5)]=5/6.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q94",
@@ -123127,18 +123066,120 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "A.B.Vajpayee",
       "Rajiv Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Economic liberalization began under Prime Minister P. V. Narasimha Rao in 1991.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 58–63): Look at the underlined part of each sentence. Below each sentence,"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mes-phe-2014-gs-Q95",
+    "paperId": "mpsc-group-b-mes-phe-2014-gs",
+    "questionNumber": "95",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "After declaring bankruptcy, the company was forced to __________ its assets.",
+    "options": [
+      "liquefy",
+      "liquidate"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Liquidate assets” means sell them to pay debts after bankruptcy.",
+    "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+  },
+  {
+    "id": "mpsc-group-b-mes-phe-2014-gs-Q96",
+    "paperId": "mpsc-group-b-mes-phe-2014-gs",
+    "questionNumber": "96",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "They were __________ to leave when the guide arrived.",
+    "options": [
+      "already",
+      "all ready"
+    ],
+    "answerIndex": 1,
+    "explanation": "“All ready” means everyone is ready; “already” means previously.",
+    "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+  },
+  {
+    "id": "mpsc-group-b-mes-phe-2014-gs-Q97",
+    "paperId": "mpsc-group-b-mes-phe-2014-gs",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "An explanation will __________ each section of the test.",
+    "options": [
+      "precede",
+      "proceed"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Precede” means come before, which fits the sentence.",
+    "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
+  },
+  {
+    "id": "mpsc-group-b-mes-phe-2014-gs-Q98",
+    "paperId": "mpsc-group-b-mes-phe-2014-gs",
+    "questionNumber": "98",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The essay is very __________ and worthy of an A grade.",
+    "options": [
+      "imaginary",
+      "imaginative"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Imaginative” means showing creativity; “imaginary” means not real.",
+    "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q99",
@@ -123156,18 +123197,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Both 1 and 2",
       "Neither 1 nor 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Tamil-speaking doctor is Christian, so the Gujarati-speaking doctor and Christian businessman are both Muslim/Christian complementary pairings; both statements follow.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 95–98): Select the word that completes the meaning correctly in each sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs-Q100",
@@ -123185,18 +123224,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Napier",
       "Henry Greathead"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Blaise Pascal devised the Pascaline, an early mechanical calculating machine.",
     "source": "Jr. Grade of Mizoram Engineering Service (AE/SDO Civil) under PHE Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/mes-phe-2014-gs.pdf#page=12",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 95–98): Select the word that completes the meaning correctly in each sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-pe-2012-english-p1-Q4",
@@ -126369,7 +126406,9 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart16: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q16",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -126477,9 +126516,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart16: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q20",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -135165,7 +135202,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q58",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -135290,9 +135329,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q62",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -144032,7 +144069,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p2-B18",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
@@ -144160,9 +144199,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p2-B22",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
@@ -152786,7 +152823,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-gs-Q18",
     "paperId": "mpsc-group-b-adtp-2026-gs",
@@ -152910,9 +152949,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-gs-Q22",
     "paperId": "mpsc-group-b-adtp-2026-gs",
@@ -162028,7 +162065,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-tech3-Q18",
     "paperId": "mpsc-group-b-adtp-2026-tech3",
@@ -162152,9 +162191,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-tech3-Q22",
     "paperId": "mpsc-group-b-adtp-2026-tech3",
@@ -171185,7 +171222,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q65",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -171310,9 +171349,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q69",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -180012,7 +180049,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q68",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -180120,9 +180159,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q72",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -189480,7 +189517,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q72",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -189609,9 +189648,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q76",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -198258,7 +198295,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p2-A16",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
@@ -198387,9 +198426,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p2-A20",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
@@ -206908,7 +206945,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A27",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -207037,9 +207076,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A31",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -215743,7 +215780,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q55",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -215868,9 +215907,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q59",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -224022,7 +224059,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q29",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -224130,9 +224169,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q33",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -232039,7 +232076,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q61",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -232147,9 +232186,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q65",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -241181,7 +241218,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Official key gives B; the reviewed independent solution gives D. Held unscored until the conflict is resolved.",
     "disputeNote": "Independent solution gives D; the official key gives B. Verify the printed item before scoring."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q33",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -241305,9 +241344,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q37",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -250043,7 +250080,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-written-13",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -250115,9 +250154,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-written-17",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -258951,7 +258988,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cao-2026-gs2-Q15",
     "paperId": "mpsc-group-b-cao-2026-gs2",
@@ -259075,9 +259114,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cao-2026-gs2-Q19",
     "paperId": "mpsc-group-b-cao-2026-gs2",
@@ -267962,7 +267999,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A15",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
@@ -268090,9 +268129,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A19",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
@@ -276787,7 +276824,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages :Read the given passages carefully and answer the"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B23",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -276903,9 +276942,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages :Read the given passages carefully and answer the"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B27",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -285178,7 +285215,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "source": "Inspector of Taxes-2016 under Taxation Deptt. · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178-written-5",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178",
@@ -285266,9 +285305,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1 – 10): Name the Part of Speech of the underlined words in the following"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q3",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -293087,7 +293124,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 39-44): Identify the parts of speech of each underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B44",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -293200,9 +293239,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 45 – 48): Identify the appropriate verb-form to fill in the blanks:"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B48",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -301199,7 +301236,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B79",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
@@ -301293,9 +301332,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "source": "Tourist Officer-2012 · 2012",
     "year": 2012,
     "sourceHref": "/papers/group-b/archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f.pdf#page=1"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f-written-5",
     "paperId": "mpsc-group-b-archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f",
@@ -308957,7 +308994,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 41 – 48 ) : Fill in the blanks with correct prepositions :"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B47",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -309061,9 +309100,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 49 – 53 ) : Analyse the given sentences and choose the correct option:"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B51",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -316903,7 +316940,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No.  41 to 50): Convert the following sentences as directed:"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q43",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -317019,9 +317058,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No.  41 to 50): Convert the following sentences as directed:"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q47",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -325396,7 +325433,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 21 - 30): Choose the appropriate adverbs or adjectives to complete the"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q27",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -325512,9 +325551,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 21 - 30): Choose the appropriate adverbs or adjectives to complete the"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q31",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -333581,7 +333618,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9-Q60",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
@@ -333701,9 +333740,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9-B64",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
@@ -342025,7 +342062,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "source": "MCS ( Main ) - 2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2-written-6",
     "paperId": "mpsc-group-b-archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2",
@@ -342104,9 +342143,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "source": "MCS ( Main ) - 2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2.pdf#page=4"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650-written-1",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650",
@@ -349965,7 +350002,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q82",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -350088,9 +350127,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q86",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -357780,7 +357817,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q33",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -357884,9 +357923,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q37",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -365474,7 +365511,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 41- 44): Choose the antonym of the following:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B43",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -365581,9 +365620,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 45- 48): Choose the synonym of the following:"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B47",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -373357,7 +373394,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-23",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -373429,9 +373468,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=3"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-27",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -381924,7 +381961,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Direction (Question Nos 1 - 5) : Choose the correct parts of speech."
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B6",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -382040,9 +382079,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B10",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -391477,7 +391514,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 52 - 66) : Choose the correct alternatives to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q65",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -391579,9 +391618,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "source": "Cooperative Audit Officer - March, 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4.pdf#page=2"
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-written-3",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -400580,7 +400617,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 6 - 10): Fill in the blanks using the correct preposition:"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B10",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -400693,9 +400732,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B14",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -408550,7 +408587,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B33",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B34",
     "questionNumber": "B34",
@@ -408658,9 +408697,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B37",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B38",
     "questionNumber": "B38",
@@ -416394,7 +416431,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B9",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B10",
     "questionNumber": "B10",
@@ -416502,9 +416541,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B13",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B14",
     "questionNumber": "B14",
@@ -424418,7 +424455,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 60 - 64) Synthesise the given sentence as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B61",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -424518,9 +424557,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 60 - 64) Synthesise the given sentence as directed in the brackets."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B65",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -432796,7 +432833,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 73 - 80) : In the following sentences, a word or phrase is written in italicised"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B80",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -432904,9 +432943,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B3",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -441003,7 +441040,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1-10): Identify the parts of speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B5",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -441107,9 +441146,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1-10): Identify the parts of speech of the underlined words:"
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B9",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -449010,7 +449047,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A66",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -449120,9 +449159,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A70",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -457337,7 +457374,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 39 - 48 : Identify the form of the tense of the underlined words in the following"
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach3-2019-english-B47",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -457451,9 +457490,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-B51",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -465784,7 +465821,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q23",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -465896,9 +465935,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q27",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -473780,7 +473817,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q20",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -473880,9 +473919,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q24",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -481883,7 +481920,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of each underlined words :"
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q10",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -481996,9 +482035,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11 - 15) : Choose the appropriate preposition from the alternatives given under"
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q14",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -489983,7 +490020,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q10",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -490091,9 +490130,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q14",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -498114,7 +498151,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q4",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -498223,9 +498262,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q8",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -506164,7 +506201,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-iof-2019-gs-Q89",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -506272,9 +506311,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q93",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -512346,17 +512383,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "The grand old man of India",
       "The grand old social reformer of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dadabhai Naoroji is popularly known as the Grand Old Man of India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q2",
@@ -512374,17 +512410,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Asiatic Society",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Raja Rammohan Roy founded the Brahmo Sabha, later known as the Brahmo Samaj.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q3",
@@ -512402,17 +512437,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "M.N. Roy",
       "Swami Dayananda Saraswati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q4",
@@ -512430,17 +512464,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "They did not fight for independence of India",
       "They promoted liberal ideology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tilak opposed the reformers’ desire to remake Indian society on a Western model.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q5",
@@ -512458,17 +512491,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Western liberalism and Indian extremism",
       "The ancient Vedanta and modern European political philosophy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The synthesis of Vedanta and European political thought is associated with Tilak.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q6",
@@ -512486,17 +512518,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Sri Aurobindo Ghosh",
       "Gopal Krishna Gokhale"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The quotation’s emphasis on spiritual and national revival points to Sri Aurobindo.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q7",
@@ -512514,17 +512545,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Mahatma Jyotiba Phooley",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jyotiba Phule organized the Satyashodhak Samaj to challenge caste oppression.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q8",
@@ -512542,17 +512572,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Prof. Bhandarkar",
       "Bal Gangadhar Tilak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tilak popularized the public Ganapati festival as a vehicle for nationalist mobilization.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q9",
@@ -512570,17 +512599,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Gopal Krishna Gokhale",
       "G.G. Agarkar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gokhale was a prominent early secretary of the Deccan Education Society.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q10",
@@ -512598,17 +512626,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Non-cooperation force",
       "Truth force"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Satyagraha literally denotes insistence on or force of truth.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q11",
@@ -512626,17 +512653,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "he opposed the Rowlatt Act",
       "he attended Round Table Conferences at London"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gandhi brought large sections of ordinary people into the freedom struggle.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q12",
@@ -512654,17 +512680,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Liberal, democrat, idealist and communist",
       "Liberal, democrat, utopian and visionary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The stated mix of liberalism, democracy, socialism and individualism describes Nehru.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q13",
@@ -512682,17 +512707,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Switzerland",
       "USA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Constitution’s parliamentary system was principally adapted from Britain.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q14",
@@ -512710,17 +512734,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Part IV of the Constitution of India",
       "Part V of the Constitution of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Directive Principles are contained in Part IV.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q15",
@@ -512738,17 +512761,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "President of India",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The President of India is the formal head of the Union executive.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q16",
@@ -512766,14 +512788,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "The President legally possesses all the powers, but in practice he exercises none of them.",
       "None of these."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Under parliamentary government the President normally acts on ministerial advice.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q17",
@@ -512791,17 +512815,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "At the time, two Anglo-Indian members could be nominated to the Lok Sabha.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q18",
@@ -512819,17 +512842,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "assigned to Union Government",
       "not assigned to both Union Government and State Government"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Union government administers Union Territories, subject to constitutional arrangements.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q19",
@@ -512847,17 +512869,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "General Principle",
       "Gandhian Principle"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Village self-government reflects Gandhian decentralization.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q20",
@@ -512875,17 +512896,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Nagaland, Meghalaya, Mizoram and Arunachal Pradesh",
       "Nagaland, Meghalaya, Mizoram and Darjeeling District of West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 243M excludes the listed northeastern tribal areas from Part IX’s ordinary application.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q21",
@@ -512903,17 +512923,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "No bills passed by the State Legislature for the approval of the President of India",
       "Only financial bills for the approval of the President of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A Governor may reserve specified bills for the President’s consideration.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q22",
@@ -512931,17 +512950,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Appellate Jurisdiction",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The intended option is the Supreme Court’s original jurisdiction, which includes specified federal disputes and constitutional matters.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q23",
@@ -512959,17 +512977,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Concurrent List",
       "Residuary powers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Defence is expressly assigned to the Union List in the Seventh Schedule.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q24",
@@ -512987,17 +513004,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "West Bengal",
       "Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tamil Nadu has a unicameral state legislature.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q25",
@@ -513015,17 +513031,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "South",
       "West"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The question identifies linguism as a deep-rooted political issue in southern India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q26",
@@ -513043,17 +513058,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Equal treatment of all religions",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Secularism requires equal respect and treatment of religions by the state.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q27",
@@ -513071,17 +513085,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "A political party should have at least one member each in the Lok Sabha and Rajya Sabha",
       "A political party should get at least six percent of the valid votes polled in four or more states at the general election to Lok Sabha or to the State Legislative Assembly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "At the time of the paper, one national-party recognition route required at least 6% of valid votes in four or more states, plus a Lok Sabha seat; the listed option states the vote threshold.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q28",
@@ -513099,17 +513112,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "UK",
       "France"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The planning model drew substantially on the Soviet Union.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q29",
@@ -513127,17 +513139,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Central Industrial Security Force (CISF)",
       "Indo-Tibetan Border Police (ITBP)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Rapid Action Force is a specialized unit of the Central Reserve Police Force.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q30",
@@ -513155,17 +513166,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "State politics in India has been particularly the hot bed of political casteism.",
       "Casteism is prevalent in tribal dominated states of North East India."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Caste considerations have often strongly shaped state-level electoral politics.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q31",
@@ -513183,17 +513193,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Civil societies",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A permanent bureaucracy provides administrative continuity across elected governments.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q32",
@@ -513211,17 +513220,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Constitution 42nd Amendment Act, 1976",
       "Constitution 43rd Amendment Act, 1977"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 42nd Amendment added “Socialist” and “Secular” to the Preamble.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q33",
@@ -513239,17 +513247,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Article 12- Article 36",
       "Article 12- Article 35"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Part III, Articles 12–35, sets out Fundamental Rights.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q34",
@@ -513267,14 +513274,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Directive Principles of State Policy are given precedence over Fundamental Rights by",
       "Directive Principles of State Policy are non-justiciable but not positive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Fundamental Rights are enforceable in court; Directive Principles are not directly justiciable.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q35",
@@ -513292,17 +513301,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Quo Warranto",
       "Prohibition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Habeas Corpus requires production of a detained person before a court.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q36",
@@ -513320,14 +513328,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "UDP",
       "NPP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The National People’s Party held national-party recognition in the relevant period.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q37",
@@ -513345,14 +513355,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "The Vice President and the two houses to be known respectively as the Council of States",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Parliament consists of the President, Lok Sabha and Rajya Sabha.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q38",
@@ -513370,17 +513382,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Distribution of powers between Union Government and State Government by the constitution",
       "Appointment of Governor of the State by the President of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Federalism divides governmental powers between levels of government.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q39",
@@ -513398,17 +513409,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Moral Suasion",
       "Margin Requirement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Deficit financing covers a government’s spending gap through borrowing/monetary expansion.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q40",
@@ -513426,17 +513436,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Borrowing and other liabilities",
       "Both (a) & (b)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Corporation tax was the largest single source shown in the 2019–20 budget rupee chart.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q41",
@@ -513454,17 +513463,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Production of pulses, onion and potatoes",
       "Production of tomato, onion and cabbage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Operation Greens initially targeted Tomatoes, Onions and Potatoes (TOP).",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q42",
@@ -513482,17 +513490,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Market of gold exchanges",
       "Foreign exchange market"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Government securities are debt instruments issued by government.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q43",
@@ -513510,17 +513517,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "M3",
       "M4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "M1 is the narrowest and most liquid standard money aggregate.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q44",
@@ -513538,17 +513544,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "State governments",
       "SEBI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chit funds are regulated primarily by state governments under the Chit Funds Act.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q45",
@@ -513567,7 +513572,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Canara Bank"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
@@ -513576,7 +513581,8 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q46",
@@ -513594,17 +513600,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Bajra, Wheat",
       "Wheat, Rice"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Wheat and rice are the principal foodgrains in India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q47",
@@ -513622,17 +513627,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Barley",
       "Rice"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Barley is a rabi crop.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q48",
@@ -513650,17 +513654,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Commission for Agriculture Costs and Prices",
       "NABARD"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "CACP recommends MSPs; the question’s addition of “issue prices” is imprecise, but CACP is the intended choice.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q49",
@@ -513678,17 +513681,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Support Price",
       "Licensing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Industrial licensing was a central instrument of the earlier planned economy.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q50",
@@ -513706,17 +513708,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Japan",
       "UK"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Japan was the first Asian country to industrialize rapidly.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q51",
@@ -513734,17 +513735,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Currencies still on gold",
       "Special accommodation facility of the World Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The IMF’s reserve asset is the Special Drawing Right.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q52",
@@ -513762,17 +513762,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "The injections from trade are greater than the withdrawal",
       "Aggregate demand is increasing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A floating deficit can put downward pressure on a currency through depreciation.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q53",
@@ -513790,17 +513789,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "iii only",
       "i and iii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The selected statements match the standard description of the plan/strategy in the question.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q54",
@@ -513818,17 +513816,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "5th Five Year Plan",
       "6th Five Year Plan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Fifth Five-Year Plan emphasized poverty removal and self-reliance.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q55",
@@ -513846,17 +513843,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "i, ii, iii, iv and v",
       "all of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The selected choice includes all the listed pillars of the programme.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q56",
@@ -513874,17 +513870,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Cement",
       "Jute"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jute is not one of the eight core industries.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q57",
@@ -513902,17 +513897,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Refinery Products",
       "Coal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Refinery products carry the largest weight among the listed IIP sectors.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q58",
@@ -513930,17 +513924,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "National Sample Survey Office",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Central Statistical Office compiled the national income estimates at the time.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q59",
@@ -513958,17 +513951,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Both assets and liabilities",
       "Neither of them"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A balance sheet records assets and liabilities.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q60",
@@ -513986,17 +513978,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Yellow Revolution",
       "Brown Revolution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Yellow Revolution refers to increased oilseed production.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q61",
@@ -514014,17 +514005,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Planning for 5-10 years",
       "Planning for 15-25 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The stated range is the conventional definition of medium-term planning.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q62",
@@ -514042,17 +514032,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "7th Five Year Plan",
       "8th Five Year Plan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Eighth Plan began in 1992 after the plan holiday.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q63",
@@ -514070,17 +514059,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Narashimhan Committee",
       "Tendulkar Committee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sivaraman Committee recommended institutional credit reforms for rural development.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q64",
@@ -514098,17 +514086,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "1951",
       "1952"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India’s first Industrial Policy Resolution was announced in 1948.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q65",
@@ -514126,17 +514113,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Indian Statistical Institute",
       "Central Statistical Organization"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ministry of Finance prepares the Union Budget.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q66",
@@ -514154,17 +514140,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Farmers Union",
       "Quality Certification of agriculture products"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "AGMARK certifies agricultural produce quality.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q67",
@@ -514182,17 +514167,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Interest Rates",
       "GST"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Interest rates are a key instrument/transmission channel of monetary policy.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q68",
@@ -514210,17 +514194,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Both (a) & (b)",
       "Saving and investment accounts"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The balance of payments records transactions across current and capital/financial accounts.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q69",
@@ -514238,18 +514221,19 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "both i & ii",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "None of the statements accurately defines balance of payments as distinct from balance of trade.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q70",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -514266,17 +514250,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Gadgil Model",
       "Nehruvian Model"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Harrod–Domar model links growth to savings and capital-output ratios.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q71",
@@ -514294,17 +514277,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Paid up value",
       "Age of the policy holder"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Surrender value is the amount payable when a life insurance policy is terminated early.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q72",
@@ -514322,17 +514304,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Government of India",
       "Indian Banking Association"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Reserve Bank of India is the central bank.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q73",
@@ -514350,20 +514331,17 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "103rd",
       "104th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2018 Global Hunger Index ranked India 103rd.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q74",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -514380,17 +514358,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "21%",
       "25%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The stated share is 21 percent.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q75",
@@ -514408,17 +514385,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The exam treats an interim budget as both a mini-budget and a vote-on-account, although strictly the vote-on-account is the spending authorization component.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q76",
@@ -514436,17 +514412,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Distance from the sea",
       "Aravali Range blocking south west monsoon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Aravallis obstruct the southwest monsoon’s west-to-east progression toward parts of Rajasthan.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q77",
@@ -514464,17 +514439,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Siwalik range represents the oldest landform in Himalayas",
       "Siwalik range is the eastern extension of Zaskar range"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Northern Plains were formed by alluvial deposition during the Quaternary, especially the Pleistocene.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q78",
@@ -514492,17 +514466,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Metamorphic Rock",
       "Sedimentary Rocks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Basalt is an extrusive igneous rock.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q79",
@@ -514520,17 +514493,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Namcha Barwa – Nanga Parbat",
       "Himachal – Purvanchal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Karakoram and Ladakh belong to the Trans-Himalayan ranges.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q80",
@@ -514548,17 +514520,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "1 and 3 are correct, 3 is the correct explanation of 1",
       "Only one is correct"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lakshadweep consists of coral islands, while the Andaman–Nicobar arc is tectonic/volcanic in origin.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q81",
@@ -514576,17 +514547,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Malwa Plateau",
       "Cardamom hills"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Narmada and Son headwaters are associated with the Amarkantak plateau.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q82",
@@ -514604,14 +514574,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "II – I – III – VI",
       "VI – III – II –II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "From north to south the sequence is Bhabar, Terai, Bhangar, Khadar.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q83",
@@ -514629,17 +514601,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Narmada River",
       "Sabarmati River"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Narmada flows west through a rift valley.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q84",
@@ -514657,17 +514628,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Non-Perennial rivers",
       "Both Ephemeral and Antecedent river"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Himalayan rivers such as the Indus and Brahmaputra are antecedent to the ranges.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q85",
@@ -514685,17 +514655,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Bharirati – Gomit",
       "Bhagirati – Alakananda"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Ganga’s main headstream is formed by the Bhagirathi and Alaknanda at Devprayag.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q86",
@@ -514713,17 +514682,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Deccan Plateau",
       "None of the Above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The relevant region lies in northern India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q87",
@@ -514741,17 +514709,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Tropical Thorn Forest",
       "Tropical Evergreen Forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mangrove forests grow in tidal, saline coastal wetlands.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q88",
@@ -514769,17 +514736,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Dravidian Family",
       "Sino-Tibetan Family"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Indo-Aryan is the dominant language family across northern India.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q89",
@@ -514797,17 +514763,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Wheat",
       "Bajra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Wheat is a major rabi crop of the northern plains.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q90",
@@ -514825,17 +514790,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Undulation soil surface",
       "Occurrence of frequent climatic hazards like drought, flood etc."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dryland farming is practiced in moisture-stressed areas and does not have very high yields.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q91",
@@ -514853,17 +514817,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Linear settlement pattern",
       "Nuclear settlement pattern"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Settlement along a road or river commonly forms a linear pattern.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q92",
@@ -514881,14 +514844,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Only 1",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Both statements correctly characterize the feature asked about.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q93",
@@ -514906,17 +514871,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Pre-Monsoon shower in Bengal and Assam",
       "Pre-Monsoon showers which help in the ripening of mangoes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Blossom showers are pre-monsoon rains that trigger coffee flowering.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q94",
@@ -514934,17 +514898,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "A minimum population of 10,000",
       "A density of population of at least 400 persons per sq. km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A Census Town must have at least 400 persons per square kilometre (along with other criteria).",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q95",
@@ -514962,17 +514925,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Delhi-Mumbai-Chennai-Kolkata",
       "Agra-Nagpur-Chennai-Kolkata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Golden Quadrilateral links Delhi, Mumbai, Chennai and Kolkata.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q96",
@@ -514990,17 +514952,43 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Hyderabad",
       "New Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bengaluru is the principal centre of India’s information technology industry.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-inspector-excise-2019-gs2-Q97",
+    "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
+    "questionNumber": "97",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies Paper-II",
+    "difficulty": "medium",
+    "question": "The study revealed that location of sugarcane industry in India is shifting from north to south direction because of",
+    "options": [
+      "Availability of agricultural land",
+      "Availability of labour and market",
+      "Fertility of soil",
+      "High yield higher sucrose content of cane"
+    ],
+    "answerIndex": 3,
+    "explanation": "Southern sugarcane cultivation benefits from higher cane yield and sucrose content.",
+    "source": "Inspector under Excise & Narcotics Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q98",
@@ -515019,14 +515007,14 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Northern"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Ambiguous wording: all three sectors (western, middle and eastern) of the India–China boundary are described as the Line of Actual Control; more than one offered sector is valid.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "direction because of"
+    "sourceReviewed": true,
+    "sourceNote": "Ambiguous wording: all three sectors (western, middle and eastern) of the India–China boundary are described as the Line of Actual Control; more than one offered sector is valid."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q99",
@@ -515044,18 +515032,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Tlawng River",
       "Tuivai River"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Chhimtuipui (Kaladan) system has the largest drainage area in Mizoram.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "direction because of"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q100",
@@ -515073,18 +515059,16 @@ const groupBQuestionsPart62: BankQuestion[] = [
       "Tropical Wet-Evergreen Forest",
       "Tropical Deciduous Forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The higher eastern fringe of Mizoram is classified as Mountain Subtropical Forest.",
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "direction because of"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs3-Q1",
@@ -522222,7 +522206,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q77",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -522362,9 +522348,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q82",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -530499,7 +530483,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q14",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -530639,9 +530625,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q19",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -538720,7 +538704,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 75 - 80 : Choose the alternative that best expresses the meaning of the given"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-scr-2019-english-B78",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -538854,9 +538840,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B2",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -547014,7 +546998,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q71",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -547151,9 +547137,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q1",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -554716,7 +554700,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-B99",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -554851,9 +554837,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B4",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -562825,7 +562809,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A20",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -562960,9 +562946,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A25",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -570934,7 +570918,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B43",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -571069,9 +571055,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B48",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -579029,7 +579013,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A64",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -579163,9 +579149,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A69",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -587130,7 +587114,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A10",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -587269,9 +587255,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held: option (d) inaccurately says UV converts skin oil into vitamin D; vitamin D synthesis begins with 7-dehydrocholesterol in skin."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A15",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -595225,7 +595209,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B33",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -595362,9 +595348,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B38",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -603243,7 +603227,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q50",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -603377,9 +603363,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q55",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -611277,7 +611261,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q42",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611412,9 +611398,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q47",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -619581,7 +619565,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q36",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -619720,9 +619706,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q41",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -627573,7 +627557,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q74",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -627708,9 +627694,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q79",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -635689,7 +635673,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 57 - 61) : Synthesize the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q62",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -635834,9 +635820,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 62 - 66) : Pick the correct clause in the given sentences."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q67",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -643897,7 +643881,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q74",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -644032,9 +644018,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q79",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -651960,7 +651944,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Held unscored: options (b) and (c) are both correct complex syntheses of the printed sentences, so no unique answer can be derived from the page.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q55",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -652100,9 +652086,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q60",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -660016,7 +660000,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q49",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -660151,9 +660137,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q54",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -668574,7 +668558,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q58",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -668724,9 +668710,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q63",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -677589,7 +677573,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q10",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -677739,9 +677725,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q15",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -686600,7 +686584,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q46",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -686750,9 +686736,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q51",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -695596,7 +695580,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q37",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -695744,9 +695730,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q43",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -704157,7 +704141,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q63",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -704308,9 +704294,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q68",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -712941,7 +712925,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q54",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -713091,9 +713077,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q59",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -721955,7 +721939,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q81",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -722105,9 +722091,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q86",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -728960,14 +728944,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Abnormal",
       "Two transgender"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Supreme Court declined to legalise same-sex marriages in its 2023 judgment.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q2",
@@ -728985,14 +728971,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Ministry of Power",
       "Ministry of Labour and Empowerment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "SHRESHTA is administered by the Ministry of Social Justice and Empowerment.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q3",
@@ -729003,20 +728991,23 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The world’s first portable hospital ‘Aarogya Maitri Aid Cube’ was unveiled on December 2, 2023 in",
+    "question": "The world’s first portable hospital “Aarogya Maitri Aid Cube” was unveiled on December 2, 2023 in which city?",
     "options": [
-      "Bangalore :",
+      "Bangalore",
       "Gurugram",
-      "Mumbai (4) Kolkata"
+      "Mumbai",
+      "Kolkata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Aarogya Maitri Aid Cube was unveiled at Gurugram.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q4",
@@ -729034,14 +729025,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Jules Verne",
       "Vilhjalmur Stefansson"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Hrvoje Lukatela identified Point Nemo in 1992.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q5",
@@ -729059,14 +729052,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Ayushman Khurrana",
       "Shahid Kapoor"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Shah Rukh Khan received the 2024 Dadasaheb Phalke International Film Festival best actor award.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q6",
@@ -729084,14 +729079,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Ruixiang Zhang",
       "Timothy Gowers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Ruixiang Zhang received the 2023 SASTRA Ramanujan Prize.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q7",
@@ -729109,14 +729106,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Sodium nitrate",
       "Sodium peroxide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sodium azide rapidly releases nitrogen gas to inflate traditional airbags.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q8",
@@ -729134,14 +729133,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Red blood cells",
       "Ciliated cells"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mature human red blood cells lack a nucleus.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q9",
@@ -729159,14 +729160,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Isomerase",
       "Lysozyme"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lysozyme is an antibacterial enzyme in tears and saliva.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q10",
@@ -729184,14 +729187,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Seshachalam",
       "Agasthiyamalai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Nilgiri Biosphere Reserve extends across Tamil Nadu, Kerala and Karnataka.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q11",
@@ -729209,14 +729214,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "United Nation Environmnent Programme(UNEP)",
       "United Nations Development Programme(UNDP)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "IUCN publishes the Red List of Threatened Species.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q12",
@@ -729234,14 +729241,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Snow Leopard",
       "Arctic Fox"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2024 Khelo India Winter Games used the snow leopard as mascot.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q13",
@@ -729252,21 +729261,23 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The 7\" edition of the Indian Ocean Conference was held in",
+    "question": "The 7th edition of the Indian Ocean Conference was held in",
     "options": [
       "Dhaka",
       "New Delhi",
       "Male",
       "Perth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The seventh Indian Ocean Conference was held in Perth.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q14",
@@ -729284,14 +729295,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Jammu and Kashmir",
       "Chhattisgarh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Operation Sarvashakti targeted terrorists in Jammu and Kashmir.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q15",
@@ -729309,14 +729322,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Prayagraj and Indore",
       "Surat and Bangaluru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Indore and Surat shared the top clean-city ranking in Swachh Survekshan 2023.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q16",
@@ -729334,14 +729349,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "SAMPARK",
       "SAMBHAV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "SAMBHAV is the Indian Army’s secure mobile ecosystem.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q17",
@@ -729359,14 +729376,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Argentina",
       "Chile"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India signed the lithium exploration and mining agreement with Argentina.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q18",
@@ -729384,14 +729403,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Life expectancy",
       "Per capita income"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Years of schooling is an education indicator in the national MPI.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q19",
@@ -729409,14 +729430,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Pband Si",
       "Pb and Co"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Common solder is an alloy of lead (Pb) and tin (Sn).",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q20",
@@ -729434,14 +729457,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Tartaric acid",
       "Acetic acid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nettle stings contain methanoic (formic) acid.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q21",
@@ -729459,14 +729484,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Durand Cup",
       "Rovers Cup"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Durand Cup, founded in 1888, is Asia’s oldest football tournament.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q22",
@@ -729484,14 +729511,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "P.T. Usha",
       "P.V. Sindhu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Karnam Malleswari won India’s first Olympic medal by a woman.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q23",
@@ -729509,14 +729538,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Alexa",
       "Iris ofc"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Kerala school introduced Iris, an AI humanoid teacher.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q24",
@@ -729534,14 +729565,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Francois Hollande",
       "Borge Brende"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Klaus Schwab was the WEF’s executive chairman in 2024.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q25",
@@ -729559,15 +729592,19 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "March 22",
       "March 23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Water Day is observed on March 22.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q26",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729584,14 +729621,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Sunil Chhetri",
       "Sharath Kamal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sharath Kamal was named India’s flagbearer for the 2024 Paris Olympics.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q27",
@@ -729609,14 +729648,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Facilitate access to healthcare services for rural farmers",
       "Promote Sustainable Development Goals"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The digital gateway helps farmers avoid distress sales by enabling finance against e-NWRs.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q28",
@@ -729634,14 +729675,16 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Providing financial assistance for urban housing projects",
       "Promotion of safe and mechanised cleaning of sewers and septic tanks through trained and certified sanitation workers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "NAMASTE promotes safe, mechanised sewer and septic-tank cleaning by trained workers.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q29",
@@ -729654,19 +729697,48 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Who initiated the self-Respect Movement?",
     "options": [
-      "B.R Ambedkar .",
+      "B. R. Ambedkar",
       "Jyotiba Phule",
-      "E.V. Ramaswamy Naicker",
-      "Jawaharlal Nehru (a) Jane Goodall (b) Karen Uhlenback (c) Frank Wilczek (d) Luis A. Caffarelli"
+      "E. V. Ramaswamy Naicker",
+      "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "E. V. Ramasamy Naicker (Periyar) initiated the Self-Respect Movement.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q30",
+    "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Who won the 2023 Abel Prize?",
+    "options": [
+      "Jane Goodall",
+      "Karen Uhlenbeck",
+      "Frank Wilczek",
+      "Luis A. Caffarelli"
+    ],
+    "answerIndex": 3,
+    "explanation": "Luis A. Caffarelli received the 2023 Abel Prize.",
+    "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q31",
@@ -729684,17 +729756,17 @@ const groupBQuestionsPart87: BankQuestion[] = [
       "Axis Bank",
       "Canara Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Arundhati Bhattacharya was the first woman chairperson of the State Bank of India.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q32",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729711,14 +729783,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Epidemic",
       "Outbreak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "An endemic infection persists at a usual baseline level in a geographic area.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q33",
@@ -729736,14 +729810,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Maharashtra",
       "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Gujarat has India’s longest coastline among the listed states.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q34",
@@ -729761,14 +729837,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Dadra & Nagar Havedi",
       "Kerala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Point Calimere is in Tamil Nadu.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q35",
@@ -729786,14 +729864,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Devaluation",
       "Recession"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Deflation is a general decline in the price level.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q36",
@@ -729811,14 +729891,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "High infiltration",
       "Evaporation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sedimentation reduces reservoir capacity and threatens hydropower-dam sustainability.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q37",
@@ -729836,14 +729918,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Chat Generalize Post-Trained Transformer",
       "Chat Generalize Pre-Trained Transformer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The expansion is Chat Generative Pre-Trained Transformer.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q38",
@@ -729861,14 +729945,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Rihdil",
       "RungDil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Palak Dil is the largest natural lake located within Mizoram.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q39",
@@ -729886,14 +729972,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "2001",
       "2002"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mizoram University was established in 2001.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q40",
@@ -729911,14 +729999,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Srisailam Reservoir",
       "Tehri Dam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tehri Dam is India’s highest dam.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q41",
@@ -729936,14 +730026,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Rabindranath Tagore",
       "BRAmbedkar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The saying is commonly attributed to Mahatma Gandhi.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q42",
@@ -729961,14 +730053,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Ravi Shankar",
       "Ali Akbar Khan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Ravi Shankar was the first Indian to win a Grammy.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q43",
@@ -729986,14 +730080,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Har Gobind Khorana",
       "CV Raman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "C. V. Raman won the Nobel Prize in Physics in 1930.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q44",
@@ -730011,14 +730107,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Delhi, India",
       "Tokyo, Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tokyo is the conventional answer for the world’s most populous metropolitan city; the question does not define the city boundary or population measure.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q45",
@@ -730036,14 +730134,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Prof. Lalnilawma",
       "PuF Rodingliana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pu Vanlalhlana held the Power and Electricity portfolio in Mizoram in July 2024.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q46",
@@ -730061,14 +730161,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "7.0%",
       "6.9%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "ADB’s April 2024 outlook forecast 7.0% growth for India in FY2024.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q47",
@@ -730086,14 +730188,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Nepal",
       "Bangladesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Operation Karuna provided India’s assistance to Myanmar after Cyclone Mocha.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q48",
@@ -730104,21 +730208,23 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "The 128\" Constitution Amendment Bill, 2023, is associated with?",
+    "question": "The 128th Constitution Amendment Bill, 2023, is associated with?",
     "options": [
-      "Reserve 33% of seats for women in Lok Sabha and State Assemblies",
-      "Identify Other Backward Classes (OBCs)",
+      "Reserving 33% of seats for women in Lok Sabha and State Assemblies",
+      "Identifying Other Backward Classes (OBCs)",
       "Reservation for Economically Weaker Sections (EWSs)",
       "Goods and Services Tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 128th Amendment Bill proposed reserving one-third of seats for women in the Lok Sabha and state assemblies.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q49",
@@ -730136,14 +730242,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Maldives",
       "Afghanistan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "China is not a SAARC member.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q50",
@@ -730161,14 +730269,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "50%",
       "25%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NESIDS projects are centrally funded at 100% for eligible northeastern states.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q51",
@@ -730186,14 +730296,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Bankim Chandra Chatterjee",
       "Sarat Chandra Chatterjee"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bankim Chandra Chatterjee wrote Vande Mataram.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q52",
@@ -730211,14 +730323,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Sri Aurobindo",
       "Bhagat Singh ‘"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Raja Ram Mohan Roy is commonly called the father of modern India.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q53",
@@ -730236,14 +730350,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Sri Aurobindo",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "M. K. Gandhi wrote The Story of My Experiments with Truth.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q54",
@@ -730261,14 +730377,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Swami Dayananda",
       "Aurobindo Ghose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The quote is attributed to Aurobindo Ghose.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q55",
@@ -730281,19 +730399,21 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "difficulty": "medium",
     "question": "The words ‘socialist’ and ‘secular’ were made a part of the Preamble by:",
     "options": [
-      "41%amendment",
-      "44\" amendment",
-      "46\"amendment",
-      "42°4 amendment"
+      "41st Amendment",
+      "44th Amendment",
+      "46th Amendment",
+      "42nd Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 42nd Amendment (1976) inserted “socialist” and “secular” into the Preamble.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q56",
@@ -730311,14 +730431,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "30 years ,",
       "35 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A Prime Minister must qualify to be a member of Parliament; the minimum age is 25 for the Lok Sabha (lower than the Rajya Sabha minimum).",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q57",
@@ -730336,14 +730458,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Prorogation",
       "Dissolution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Prorogation terminates a parliamentary session.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q58",
@@ -730361,14 +730485,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Eighth Schedule",
       "Ninth Schedule"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Sixth Schedule covers tribal areas in Assam, Meghalaya, Tripura and Mizoram.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q59",
@@ -730386,14 +730512,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Majuli Island",
       "Umananda Island"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Majuli was declared India’s first island district.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q60",
@@ -730411,14 +730539,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Subarnaekha",
       "Mahanadi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Damodar flows into the Hooghly (Hugli) river.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q61",
@@ -730436,14 +730566,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Manmohan Singh",
       "PV Narasimha Rao"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The term is associated with Narendra Modi’s promotion of a protein-focused second green revolution.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q62",
@@ -730461,14 +730593,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Badminton",
       "Golf"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Thomas Cup is the international men’s team badminton championship.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q63",
@@ -730482,18 +730616,47 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "question": "Which professional boxer is nicknamed the “Kid Dynamite”?",
     "options": [
       "Mike Tyson",
-      "MuhammaAldi",
+      "Muhammad Ali",
       "Joe Frazier",
-      "James Toney _ (a) transition zone between two biomes (b) community plus its physical environment (c) association between a species and a group of sites (d) distinct geographic variety within a species"
+      "James Toney"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mike Tyson’s nickname was “Kid Dynamite.”",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q64",
+    "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
+    "questionNumber": "64",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "In Ecology, an ecotone is a/an:",
+    "options": [
+      "transition zone between two biomes",
+      "community plus its physical environment",
+      "association between a species and a group of sites",
+      "distinct geographic variety within a species"
+    ],
+    "answerIndex": 0,
+    "explanation": "An ecotone is a transition zone between ecological communities/biomes.",
+    "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q65",
@@ -730511,14 +730674,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Force in an elastic spring",
       "Frictional force"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Friction dissipates mechanical energy and is non-conservative.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q66",
@@ -730536,14 +730701,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Gravitational forces are non-conservative forces",
       "Gravitational force of attraction varies inversely as the square of the distance."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Gravity is a conservative force, so the claim that gravitational forces are non-conservative is incorrect.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q67",
@@ -730561,14 +730728,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Reflection ofa beam of light by the particles of a suspension",
       "Scattering of a beam of light by the particles of a colloid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Tyndall effect is scattering of light by colloidal particles.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q68",
@@ -730586,14 +730755,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "109.5°",
       "150°"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Methane is tetrahedral; its H–C–H angle is about 109.5°.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q69",
@@ -730612,13 +730783,14 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Amphibians and Reptiles :"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both option (a) “Snakes” and option (d) “Amphibians and Reptiles” are correct: herpetology studies reptiles, including snakes, as well as amphibians. No unique answer.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Both option (a) “Snakes” and option (d) “Amphibians and Reptiles” are correct: herpetology studies reptiles, including snakes, as well as amphibians. No unique answer."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q70",
@@ -730636,14 +730808,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Chloroxylenol",
       "Biothional"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dettol’s principal antiseptic agent is chloroxylenol.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q71",
@@ -730661,14 +730835,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "VitaminA",
       "VitaminB"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tocopherol is vitamin E.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q72",
@@ -730686,14 +730862,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Righ of Children to Education Act, 2009",
       "The Right to Education Act, 2009"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The statute’s formal name is the Right of Children to Free and Compulsory Education Act, 2009.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q73",
@@ -730711,14 +730889,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Stapes",
       "Cochlea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The stapes is the smallest bone in the human body.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q74",
@@ -730736,14 +730916,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Zverev",
       "Sinner"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Carlos Alcaraz won the 2024 French Open men’s singles title.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q75",
@@ -730761,14 +730943,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "18 types of Disabilities",
       "21 types of Disabilites"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The RPwD Act, 2016 recognises 21 specified disabilities.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q76",
@@ -730786,14 +730970,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Achild below the age of 18 years",
       "A child below the age of 16 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Under the Juvenile Justice Act, a child is a person below 18 years.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q77",
@@ -730811,14 +730997,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "University Education",
       "Free and Compulsory Education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Article 21A guarantees free and compulsory education for children aged 6–14.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q78",
@@ -730836,14 +731024,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "10 years or more",
       "12 years or more"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Act defines a heinous offence by a minimum punishment of seven years or more.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q79",
@@ -730861,14 +731051,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Indian Evidence Act 1872",
       "Marriage Act 1947"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Bharatiya Nyaya Sanhita replaced the Indian Penal Code, 1860.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q80",
@@ -730886,14 +731078,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "40 Amendment :",
       "42\" Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 36th Amendment made Sikkim a full state of India.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q81",
@@ -730906,19 +731100,48 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which constitutional amendment deleted the right to property from the list of fundamental rights?",
     "options": [
-      "40° Amendment",
-      "42\" Amendment",
-      "43\" Amendment (c) 44% Amendment (a) Fundamental right (b) Legal right",
-      "Natural right"
+      "40th Amendment",
+      "42nd Amendment",
+      "43rd Amendment",
+      "44th Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 44th Amendment removed the right to property from the fundamental-rights list.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q82",
+    "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
+    "questionNumber": "82",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The right to vote in India is a",
+    "options": [
+      "Fundamental right",
+      "Legal right",
+      "Constitutional right",
+      "Natural right"
+    ],
+    "answerIndex": 1,
+    "explanation": "The right to vote is generally classified as a statutory/legal right, not a fundamental right.",
+    "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q83",
@@ -730936,14 +731159,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Political sanction",
       "Social sanction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Fundamental Duties are not directly enforceable and carry no general legal sanction as duties.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q84",
@@ -730961,17 +731186,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Interval between the morning and afternoon sessions",
       "Whenamoney bill is introduced in Lok Sabha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Zero Hour is when members raise matters of urgent public importance.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q85",
@@ -730989,14 +731213,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "20",
       "25"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India had 25 High Courts in 2024.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q86",
@@ -731014,14 +731240,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Panchayati Raj",
       "Conservation of forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 73rd Amendment constitutionalised Panchayati Raj institutions.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q87",
@@ -731039,17 +731267,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Lala Lajpat Rai",
       "Sardar Vallabhbhai Patel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sardar Vallabhbhai Patel is known as the Iron Man of India.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q88",
@@ -731067,14 +731294,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Mahatma Gandhi",
       "Feroz Shah"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Allan Octavian Hume founded the Indian National Congress with Indian leaders in 1885.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q89",
@@ -731092,17 +731321,43 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Ram Manohar Lohiya",
       "Jai Prakash Narayan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dadabhai Naoroji developed and popularised the drain theory.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q90",
+    "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
+    "questionNumber": "90",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Central Administrative Tribunal deals with",
+    "options": [
+      "Recruitment matters",
+      "Promotion matters",
+      "Disciplinary matters",
+      "Recruitment and service matters"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Central Administrative Tribunal handles recruitment and service matters for covered public servants.",
+    "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q91",
@@ -731120,14 +731375,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Chairman, Law Commission",
       "Chief Information Commissioner"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Attorney General is the Government of India’s chief legal adviser.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q92",
@@ -731145,14 +731402,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Police",
       "Defense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Education is in the Concurrent List.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q93",
@@ -731170,14 +731429,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "After the demand is granted",
       "When the budget session is closed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A demand for grants becomes a grant when the House votes and grants it.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q94",
@@ -731195,14 +731456,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Prime Minister",
       "Chief Justice of High Court"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Governor’s oath is administered by the Chief Justice of the state High Court (or the senior-most available judge).",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q95",
@@ -731220,14 +731483,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "4",
       "5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Supreme Court may issue five constitutional writs.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q96",
@@ -731245,14 +731510,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Interpellation",
       "Yielding the floor"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Yielding the floor means a member gives way so another member may speak.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q97",
@@ -731270,14 +731537,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "82.5°E",
       "84.5°E"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Indian Standard Time is based on 82.5° E longitude.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q98",
@@ -731295,14 +731564,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Nano-plastics",
       "Milli-plastics :"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Plastic debris smaller than 5 mm is called microplastics.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q99",
@@ -731320,14 +731591,16 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "Ampere",
       "Milli ampere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The SI unit of electric charge is the coulomb.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q100",
@@ -731343,16 +731616,18 @@ const groupBQuestionsPart88: BankQuestion[] = [
       "6+4+1+1",
       "10+2+3+4",
       "5+3+3+4",
-      "5+4+343 RRR KR OK"
+      "5+4+3+3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NEP 2020 proposes the 5+3+3+4 curricular and pedagogical structure.",
     "source": "Jr.Grade of MES (Combined) July-2024 · July 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive2325-jrgrade-of-mes-combined-july-2024-general-studies.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-i-july-2024-Q1",
@@ -738194,7 +738469,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q76",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -738481,9 +738758,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q85",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -746783,7 +747058,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=1",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q7",
     "questionNumber": "7",
@@ -747017,9 +747294,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=2",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q16",
     "questionNumber": "16",
@@ -751885,6 +752160,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-mes-phe-2014-gs": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-excise-2025-p1": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
@@ -753058,6 +753339,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii": {
     "marksPerQuestion": 2,
     "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
     "negativeMarking": false,
     "penaltyFraction": 0
   },

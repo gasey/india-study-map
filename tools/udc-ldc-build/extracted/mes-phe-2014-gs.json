@@ -6,7 +6,7 @@
   "source": "mes-phe-2014-gs.pdf",
   "sourceSha256": "57594ae52a69753e30dfce9163744e980bebffc13ce7e659b0c422b5119dd1c9",
   "ocr": false,
-  "count": 96,
+  "count": 100,
   "questions": [
     {
       "n": 1,
@@ -2168,6 +2168,82 @@
       },
       "ambiguous": [],
       "q": "Economic liberalization was initiated during the Prime Ministership of:",
+      "multi": false
+    },
+    {
+      "n": 95,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "liquefy",
+        "b": "liquidate"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "ambiguous": [],
+      "q": "After declaring bankruptcy, the company was forced to __________ its assets.",
+      "multi": false
+    },
+    {
+      "n": 96,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "already",
+        "b": "all ready"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "ambiguous": [],
+      "q": "They were __________ to leave when the guide arrived.",
+      "multi": false
+    },
+    {
+      "n": 97,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "precede",
+        "b": "proceed"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "ambiguous": [],
+      "q": "An explanation will __________ each section of the test.",
+      "multi": false
+    },
+    {
+      "n": 98,
+      "page": 12,
+      "part": null,
+      "conventional": false,
+      "direction": "Directions (Questions 95–98): Select the word that completes the meaning correctly in each sentence.",
+      "opts": {
+        "a": "imaginary",
+        "b": "imaginative"
+      },
+      "marked": null,
+      "cov": {
+        "a": 0.0,
+        "b": 0.0
+      },
+      "ambiguous": [],
+      "q": "The essay is very __________ and worthy of an A grade.",
       "multi": false
     },
     {

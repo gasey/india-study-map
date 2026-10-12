@@ -60688,15 +60688,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adverb.",
+    "explanation": "“Always” modifies the verb phrase “is watching,” so it is an adverb.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q001.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q2",
@@ -60715,15 +60717,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Noun.",
+    "explanation": "“Group” names a collection and functions as a noun.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q002.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q3",
@@ -60742,15 +60746,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“Now” modifies when the speaker wants to go, so it is an adverb.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q003.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q4",
@@ -60769,15 +60775,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Interjection"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pronoun.",
+    "explanation": "“It” stands in for a thing and is a pronoun.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q004.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q5",
@@ -60796,15 +60804,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Noun.",
+    "explanation": "“Breakfast” names a meal and is a noun.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q005.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q6",
@@ -60823,15 +60833,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pronoun.",
+    "explanation": "“Yourself” is a reflexive pronoun referring to “you.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q006.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q7",
@@ -60850,15 +60862,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Verb.",
+    "explanation": "“Left” is the past-tense verb in the sentence.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q007.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q8",
@@ -60877,15 +60891,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Interjection.",
+    "explanation": "“Ouch” is an interjection expressing pain.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q008.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q9",
@@ -60904,15 +60920,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Preposition.",
+    "explanation": "In “went to the market,” “to” introduces the noun phrase and is a preposition.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q009.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q10",
@@ -60931,15 +60949,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Conjunction.",
+    "explanation": "“Because” joins the clauses by giving the reason, so it is a conjunction.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q010.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-10): Identify the parts of speech of each underlined word:"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q11",
@@ -60957,8 +60977,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "rained",
       "raining."
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: rained.",
+    "answerIndex": 1,
+    "explanation": "“Seldom” states a habitual frequency; singular “it” takes “rains.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -60966,7 +60986,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q12",
@@ -60985,7 +61006,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "is going"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: is going.",
+    "explanation": "Present continuous “is going” expresses the planned future trip.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -60993,7 +61014,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q13",
@@ -61012,7 +61034,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "were"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: are.",
+    "explanation": "The compound subject “air and water” is plural, so use “are.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61020,7 +61042,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q14",
@@ -61039,7 +61062,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "origination"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: originates.",
+    "explanation": "The sentence states a general fact; singular “cricket” takes “originates.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61047,7 +61070,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q15",
@@ -61066,7 +61090,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "seeks"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: sought.",
+    "explanation": "The fixed phrase is “sought after,” meaning in demand.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61074,7 +61098,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q16",
@@ -61092,8 +61117,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "forsaked",
       "forsakes"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: forsook.",
+    "answerIndex": 3,
+    "explanation": "For a present general statement, singular subject “courage” takes “forsakes.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61101,7 +61126,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q17",
@@ -61120,7 +61146,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "driving"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: driven.",
+    "explanation": "Past perfect “had” is followed by the past participle “driven.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61128,7 +61154,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q18",
@@ -61147,7 +61174,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "gratefully"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: grateful.",
+    "explanation": "“Grateful” is the adjective required after “was.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61155,7 +61182,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q19",
@@ -61174,7 +61202,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "profitably"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: profitably.",
+    "explanation": "“Profitably” is the adverb modifying “running.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61182,7 +61210,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q20",
@@ -61201,7 +61230,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "carrying out."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: carried out.",
+    "explanation": "Present perfect “have” takes the past participle phrase “carried out.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61209,7 +61238,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verbs"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q21",
@@ -61228,7 +61258,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: at.",
+    "explanation": "The standard collocation is “good at” an activity.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61236,7 +61266,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q22",
@@ -61254,16 +61285,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "in",
       "for"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: on.",
+    "answerIndex": -1,
+    "explanation": "Both “at weekends” (common British usage) and “on weekends” (common North American usage) are grammatical; the question does not specify a dialect.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q23",
@@ -61282,7 +61313,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: on.",
+    "explanation": "Prices are listed “on” a menu.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=2",
@@ -61290,7 +61321,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q24",
@@ -61308,16 +61340,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "with",
       "for"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: from.",
+    "answerIndex": -1,
+    "explanation": "Both “different from” and “different to” are accepted English constructions; options (a) and (b) can both complete the sentence.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q25",
@@ -61336,7 +61368,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: on.",
+    "explanation": "The standard collocation is “spend money on” something.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61344,7 +61376,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q26",
@@ -61363,14 +61396,15 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "up to"
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "Both “till” and “until” are standard and interchangeable here; options (b) and (c) are both correct.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q27",
@@ -61389,7 +61423,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: between.",
+    "explanation": "“Between” is used for the relationship involving two families.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61397,7 +61431,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q28",
@@ -61416,7 +61451,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: at.",
+    "explanation": "The phrase is “looked at” (being the object of someone’s gaze).",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61424,7 +61459,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q29",
@@ -61442,16 +61478,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "under",
       "below"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: below.",
+    "answerIndex": -1,
+    "explanation": "Both “under the horizon” and “below the horizon” are grammatical ways to describe the sun disappearing; options (c) and (d) are defensible.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q30",
@@ -61470,7 +61506,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "by"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: within.",
+    "explanation": "“Live within your means” means spend no more than you can afford.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61478,7 +61514,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition given below each"
   }
 ];
 const groupBQuestionsPart8: BankQuestion[] = [
@@ -61499,7 +61536,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "borne"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: bore.",
+    "explanation": "“Bore” is the simple past of “bear”; “borne” is a past participle.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61507,7 +61544,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q32",
@@ -61526,7 +61564,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "tread"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: trod.",
+    "explanation": "“Trod” is the simple past of “tread”; “trodden” is the past participle.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61534,7 +61572,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q33",
@@ -61552,16 +61591,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "slew",
       "slain"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: slew.",
+    "answerIndex": -1,
+    "explanation": "Both “slew” and “slayed” are used as the simple past of “slay” (with “slew” the traditional/irregular form); the item asks for past tense without narrowing the expected form.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q34",
@@ -61580,7 +61619,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "sprang"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: sprang.",
+    "explanation": "“Sprang” is the simple past; “sprung” is the past participle.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61588,7 +61627,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q35",
@@ -61607,7 +61647,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "wored"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: wore.",
+    "explanation": "“Wore” is the simple past of “wear.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61615,7 +61655,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-35): Choose the correct past tense form of the verb from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q36",
@@ -61634,7 +61675,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: the.",
+    "explanation": "A specific general commodity is referred to as “the price of petrol.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=3",
@@ -61642,7 +61683,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q37",
@@ -61661,7 +61703,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: the.",
+    "explanation": "Musical instruments take “the” in this construction: play the guitar.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61669,7 +61711,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q38",
@@ -61688,7 +61731,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: none of the above.",
+    "explanation": "“Spanish” is a nationality adjective here; no article is used.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61696,7 +61739,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q39",
@@ -61715,7 +61759,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: the.",
+    "explanation": "Plural country names ending in “-ines” take “the”: the Philippines.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61723,7 +61767,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q40",
@@ -61742,7 +61787,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: an.",
+    "explanation": "“Otter” begins with a vowel sound, so use “an.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61750,7 +61795,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36-40): Choose the right article from the given alternatives to fill in the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q41",
@@ -61768,7 +61814,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound sentence.",
+    "explanation": "The comma joins two independent clauses; structurally this is compound, though the source uses a comma splice.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61776,7 +61822,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q42",
@@ -61794,7 +61841,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "One subject performs two coordinated verbs, making a simple sentence with a compound predicate.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61802,7 +61849,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q43",
@@ -61820,7 +61868,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "It contains one independent clause and no subordinate clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61828,7 +61876,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q44",
@@ -61846,7 +61895,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound sentence.",
+    "explanation": "“Money can’t buy happiness” and the parenthetical “so they say” are coordinated independent clauses.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61854,7 +61903,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q45",
@@ -61872,7 +61922,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound sentence.",
+    "explanation": "The sentence has the independent clauses “Any fool can …” and “most fools do,” joined by “and.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61880,7 +61930,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q46",
@@ -61898,7 +61949,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "It has one independent clause; “of its proverbs” is a phrase, not a clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61906,7 +61957,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q47",
@@ -61924,7 +61976,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: complex sentence.",
+    "explanation": "“Wherever you go” is a subordinate adverb clause modifying “can find.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61932,7 +61984,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q48",
@@ -61950,7 +62003,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound sentence.",
+    "explanation": "Two independent clauses (“He is smart” and “he is articulate”) are joined by “and.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61958,7 +62011,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q49",
@@ -61976,7 +62030,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: complex sentence.",
+    "explanation": "“As I expected” is a subordinate clause, so the sentence is complex.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=4",
@@ -61984,7 +62038,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41-49): Analyze the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q50",
@@ -62002,15 +62057,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb phrase"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb phrase.",
+    "explanation": "“For more information” tells why she went online and functions adverbially.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q050.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q51",
@@ -62028,15 +62085,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb phrase"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective phrase.",
+    "explanation": "“Way too high” is an adjective phrase describing the cost.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q051.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q52",
@@ -62054,15 +62113,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun phrase.",
+    "explanation": "“The little boy” is a noun phrase, the indirect object of “gave.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q052.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q53",
@@ -62080,15 +62141,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun phrase.",
+    "explanation": "“The glistening snow” is a noun phrase headed by “snow.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q053.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q54",
@@ -62106,15 +62169,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb phrase"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb phrase.",
+    "explanation": "“To get in shape” explains the purpose of joining the gym, so it functions adverbially.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q054.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q55",
@@ -62131,16 +62196,18 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adjective phrase",
       "adverb phrase"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective phrase.",
+    "answerIndex": 0,
+    "explanation": "The underlined phrase is “sweet juicy peach,” a noun phrase headed by “peach.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q055.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 50-55): Name the kind of phrases of the underlined words in the sentences."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q56",
@@ -62158,15 +62225,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun clause.",
+    "explanation": "“That India can resolve its economic problems” is the object of “hope,” hence a noun clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q056.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q57",
@@ -62184,15 +62253,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb clause.",
+    "explanation": "“Wherever you like” tells where the package may be put, so it is an adverb clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q057.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q58",
@@ -62210,15 +62281,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective clause.",
+    "explanation": "“Who are mean to animals” modifies “people,” so it is an adjective/relative clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q058.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q59",
@@ -62236,15 +62309,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb clause.",
+    "explanation": "“Since you have apologized” gives the reason and is an adverb clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q059.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q60",
@@ -62262,15 +62337,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective clause.",
+    "explanation": "“That smells bad” modifies “something”; the scan underlines only “that smells,” but the intended unit is the relative adjective clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q060.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q61",
@@ -62288,15 +62365,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective clause.",
+    "explanation": "“Who do not complain” modifies “those,” so it is an adjective clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q061.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q62",
@@ -62314,15 +62393,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun clause.",
+    "explanation": "“What I am going to say” is the object of the preposition “to,” a noun clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q062.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q63",
@@ -62340,15 +62421,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "adverb clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun clause.",
+    "explanation": "“Where he is” is the object of “knows,” so it is a noun clause.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q063.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56-63): Name the kind of clauses of the underlined words in the following"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q64",
@@ -62367,7 +62450,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Exclamatory.",
+    "explanation": "The exclamation mark and expressive force make this exclamatory.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62375,7 +62458,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q65",
@@ -62394,7 +62478,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Assertive.",
+    "explanation": "It makes a statement and is assertive.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62402,7 +62486,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q66",
@@ -62421,7 +62506,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Negative.",
+    "explanation": "It is a negative statement because it contains “cannot.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62429,7 +62514,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q67",
@@ -62448,7 +62534,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Assertive"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Imperative.",
+    "explanation": "“Please be quiet” is a polite command, hence imperative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62456,7 +62542,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q68",
@@ -62475,7 +62562,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Interrogative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Imperative.",
+    "explanation": "“Let’s go” is an imperative proposal/invitation.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62483,7 +62570,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q69",
@@ -62502,7 +62590,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Interrogative"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Interrogative.",
+    "explanation": "It asks a direct question and is interrogative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62510,7 +62598,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q70",
@@ -62529,7 +62618,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Interrogative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Imperative.",
+    "explanation": "“Have a good time” is an imperative wish.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62537,7 +62626,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q71",
@@ -62556,7 +62646,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "emotional speech"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: first speech.",
+    "explanation": "A maiden speech is a person’s first speech.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62564,7 +62654,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q72",
@@ -62583,7 +62674,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "made the system look ridiculous"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: made the system look ridiculous.",
+    "explanation": "“Made a mockery of justice” means made justice look ridiculous or brought it into disrepute.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62591,7 +62682,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q73",
@@ -62610,7 +62702,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: cheat me.",
+    "explanation": "“Throw dust into my eyes” means deceive me.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62618,7 +62710,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q74",
@@ -62637,7 +62730,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "a bold statement"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: A complete change of opinion.",
+    "explanation": "An about-turn is a complete reversal or change of opinion.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62645,7 +62738,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q75",
@@ -62664,7 +62758,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "to lubricate machine parts"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to bribe.",
+    "explanation": "“Grease the palm” means bribe someone.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=6",
@@ -62672,7 +62766,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q76",
@@ -62691,7 +62786,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "good explanation"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: unsatisfactory explanation.",
+    "explanation": "A lame excuse is an unsatisfactory or weak explanation.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
@@ -62699,7 +62794,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q77",
@@ -62718,7 +62814,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "an easy case"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: difficult problem.",
+    "explanation": "A hard nut to crack is a difficult problem.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
@@ -62726,7 +62822,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q78",
@@ -62744,15 +62841,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "be unaffected",
       "be insensitive"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 3,
+    "explanation": "Having a thick skin means being insensitive to criticism.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q79",
@@ -62771,7 +62870,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "does not deserve appreciation"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: cannot be believed.",
+    "explanation": "If a claim does not hold water, it is not credible.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
@@ -62779,7 +62878,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q80",
@@ -62798,7 +62898,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: none of these.",
+    "explanation": "“Black sheep” means a disreputable or disgraced family member; none of the listed meanings matches.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
@@ -62806,7 +62906,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q81",
@@ -62825,15 +62926,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "undecided"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: peeved.",
+    "explanation": "“Chagrined” means annoyed or displeased; “peeved” is nearest.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q081.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q82",
@@ -62852,15 +62955,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "increase"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: increase.",
+    "explanation": "“Augment” means increase.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q082.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q83",
@@ -62879,15 +62984,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "relaxed attitude"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: mercy.",
+    "explanation": "“Clemency” is mercy or leniency.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q083.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q84",
@@ -62906,15 +63013,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "clear and certain"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: clear and certain.",
+    "explanation": "“Tangible” means concrete or readily established; “clear and certain” is the closest listed choice.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q084.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q85",
@@ -62933,15 +63042,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "quiet and gentle"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: rash.",
+    "explanation": "“Impetuous” means acting rashly or without sufficient thought.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q085.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q86",
@@ -62960,15 +63071,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "unattractive"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: grim.",
+    "explanation": "A forbidding appearance is grim or intimidating.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q086.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81-86): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q87",
@@ -62987,15 +63100,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "thick"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: strong.",
+    "explanation": "The opposite of fragile is strong / sturdy.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q087.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q88",
@@ -63014,15 +63129,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "uniform"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: similar.",
+    "explanation": "“Similar” is the opposite of “distinct” in this context.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q088.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q89",
@@ -63041,15 +63158,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "simultaneous"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: contemporary.",
+    "explanation": "“Contemporary” is the opposite of “traditional.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q089.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q90",
@@ -63068,15 +63187,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "long lasting"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: fleeting.",
+    "explanation": "“Fleeting” means short-lived, opposite to enduring.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q090.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q91",
@@ -63095,15 +63216,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "modest"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: lawful.",
+    "explanation": "“Illicit” means unlawful.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q091.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q92",
@@ -63122,14 +63245,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "welcome"
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "Both “accept” and “welcome” are antonyms of “resist” in the sentence; options (b) and (d) are valid opposites.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q092.webp",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q93",
@@ -63148,14 +63273,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "conceit"
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "“Pride,” “insolence,” “arrogance,” and “conceit” all can be antonyms of humility; all four listed options are defensible.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p2-q093.webp",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible.",
+    "direction": "Directions (Questions 87-93): Select the opposite of the words underlined in the sentences from"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q94",
@@ -63174,7 +63301,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "dispensed"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: dispirited.",
+    "explanation": "“Dispirited” means discouraged or deprived of confidence/hope.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63182,7 +63309,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q95",
@@ -63201,7 +63329,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "timid"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: anti social.",
+    "explanation": "An antisocial person avoids company.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63209,7 +63337,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q96",
@@ -63228,7 +63357,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "reverse."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: reversal.",
+    "explanation": "The established phrase is “a reversal of fortune.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63236,7 +63365,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q97",
@@ -63255,7 +63385,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "by and by"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: by and large.",
+    "explanation": "“By and large” means generally or on the whole.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63263,7 +63393,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q98",
@@ -63282,7 +63413,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "disrespectful"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: disreputable.",
+    "explanation": "“Disreputable” can describe a shabby, discreditable appearance.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63290,7 +63421,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q99",
@@ -63309,7 +63441,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "consider"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: considerate.",
+    "explanation": "A considerate person thinks of others’ comfort.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63317,7 +63449,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q100",
@@ -63336,7 +63469,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "despised"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: disabled.",
+    "explanation": "The Paralympics is a sporting competition for athletes with disabilities.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p2.pdf#page=8",
@@ -63344,7 +63477,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 94-100): Fill in the blanks with the most suitable word from the alternatives"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B1",
@@ -65528,15 +65662,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“Adverb” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q001.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q2",
@@ -65555,15 +65691,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Noun.",
+    "explanation": "“Noun” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q002.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q3",
@@ -65582,15 +65720,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pronoun.",
+    "explanation": "“Pronoun” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q003.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q4",
@@ -65609,15 +65749,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Preposition.",
+    "explanation": "“Preposition” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q004.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q5",
@@ -65636,15 +65778,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Interjection.",
+    "explanation": "“Interjection” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q005.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q6",
@@ -65663,15 +65807,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Conjunction.",
+    "explanation": "“Conjunction” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q006.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q7",
@@ -65690,15 +65836,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective.",
+    "explanation": "“Adjective” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q007.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q8",
@@ -65717,15 +65865,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Verb.",
+    "explanation": "“Verb” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q008.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q9",
@@ -65744,15 +65894,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“Adverb” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q009.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q10",
@@ -65771,15 +65923,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun.",
+    "explanation": "“Noun” is the part of speech that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=1",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p2-q010.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 - 10): Identify the parts of speech of the underlined words:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q11",
@@ -65798,7 +65952,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "who"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: whose.",
+    "explanation": "“whose” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65806,7 +65960,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q12",
@@ -65825,7 +65980,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "that"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: where.",
+    "explanation": "“where” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65833,7 +65988,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q13",
@@ -65852,7 +66008,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "that"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: when.",
+    "explanation": "“when” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65860,7 +66016,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q14",
@@ -65879,7 +66036,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "whom"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: that.",
+    "explanation": "“that” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65887,7 +66044,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q15",
@@ -65905,16 +66063,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "which",
       "whom"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: whomever.",
+    "answerIndex": -1,
+    "explanation": "Both “whomever” and “whom” can function as the object of “with”; the sentence does not select uniquely.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because multiple grammatical choices are defensible.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q16",
@@ -65933,7 +66091,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "whom"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: which.",
+    "explanation": "“which” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65941,7 +66099,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q17",
@@ -65960,7 +66119,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "whichever"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: which.",
+    "explanation": "“which” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65968,7 +66127,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q18",
@@ -65987,7 +66147,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "what"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: that.",
+    "explanation": "“that” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -65995,7 +66155,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q19",
@@ -66014,7 +66175,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "whoever"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: who.",
+    "explanation": "“who” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66022,7 +66183,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q20",
@@ -66041,7 +66203,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "what"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: which.",
+    "explanation": "“which” is the relative pronoun that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66049,7 +66211,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11 - 20): Choose the correct relative pronoun:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q21",
@@ -66068,7 +66231,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "and"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: but.",
+    "explanation": "“but” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66076,7 +66239,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q22",
@@ -66095,7 +66259,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "therefore"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: nevertheless.",
+    "explanation": "“nevertheless” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66103,7 +66267,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q23",
@@ -66122,7 +66287,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "if"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: unless.",
+    "explanation": "“unless” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66130,7 +66295,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q24",
@@ -66149,7 +66315,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "and"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: else.",
+    "explanation": "“else” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=2",
@@ -66157,7 +66323,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q25",
@@ -66176,7 +66343,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "till"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: till.",
+    "explanation": "“till” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66184,7 +66351,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q26",
@@ -66203,7 +66371,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "nor"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: and.",
+    "explanation": "“and” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66211,7 +66379,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q27",
@@ -66229,8 +66398,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "wherever",
       "when"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: whenever.",
+    "answerIndex": 3,
+    "explanation": "“when” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66238,7 +66407,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q28",
@@ -66257,7 +66427,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "though"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: though.",
+    "explanation": "“though” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66265,7 +66435,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q29",
@@ -66283,8 +66454,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "that",
       "or"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: or.",
+    "answerIndex": 1,
+    "explanation": "“and” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66292,7 +66463,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q30",
@@ -66311,7 +66483,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: though.",
+    "explanation": "“though” is the conjunction that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66319,7 +66491,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 21 - 30): Fill the blanks with proper conjunctions."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q31",
@@ -66338,7 +66511,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: on.",
+    "explanation": "“on” is the preposition that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66346,7 +66519,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31 - 35): Choose the correct preposition/ articles to complete the sentences."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q32",
@@ -66365,7 +66539,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "at"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: by.",
+    "explanation": "“by” is the preposition that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66373,7 +66547,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31 - 35): Choose the correct preposition/ articles to complete the sentences."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q33",
@@ -66392,7 +66567,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "After"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Throughout.",
+    "explanation": "“Throughout” is the preposition that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66400,7 +66575,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31 - 35): Choose the correct preposition/ articles to complete the sentences."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q34",
@@ -66418,8 +66594,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "for",
       "before"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: at.",
+    "answerIndex": 0,
+    "explanation": "“after” is the preposition that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66427,7 +66603,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31 - 35): Choose the correct preposition/ articles to complete the sentences."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q35",
@@ -66446,7 +66623,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "at"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: in.",
+    "explanation": "“in” is the preposition that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66454,7 +66631,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31 - 35): Choose the correct preposition/ articles to complete the sentences."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q36",
@@ -66473,7 +66651,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "had waited"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: wait.",
+    "explanation": "“wait” is the verb form that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66481,7 +66659,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36 - 40): Fill in the blanks with the correct form of the verb from the given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q37",
@@ -66500,7 +66679,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "was going"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: was going.",
+    "explanation": "“was going” is the verb form that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=3",
@@ -66508,7 +66687,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36 - 40): Fill in the blanks with the correct form of the verb from the given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q38",
@@ -66527,7 +66707,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "winning"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: won.",
+    "explanation": "“won” is the verb form that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66535,7 +66715,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36 - 40): Fill in the blanks with the correct form of the verb from the given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q39",
@@ -66554,7 +66735,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "am working."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: was working.",
+    "explanation": "“was working” is the verb form that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66562,7 +66743,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36 - 40): Fill in the blanks with the correct form of the verb from the given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q40",
@@ -66581,7 +66763,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "spoke"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: spoke.",
+    "explanation": "“spoke” is the verb form that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66589,7 +66771,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 36 - 40): Fill in the blanks with the correct form of the verb from the given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q41",
@@ -66608,7 +66791,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "How gorgeous the sunset is!"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: The sunset is very gorgeous..",
+    "explanation": "“The sunset is very gorgeous.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66616,7 +66799,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q42",
@@ -66635,7 +66819,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Gold is the most expensive of all the metals."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Gold is the most expensive of all the metals..",
+    "explanation": "“Gold is the most expensive of all the metals.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66643,7 +66827,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q43",
@@ -66662,7 +66847,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "She treats me with respect."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: She was respectful to me..",
+    "explanation": "“She was respectful to me.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66670,7 +66855,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q44",
@@ -66689,7 +66875,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Not all humans are immortal."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Human is not immortal..",
+    "explanation": "“Human is not immortal.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66697,7 +66883,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q45",
@@ -66716,14 +66903,15 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Please stop."
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "Both “Will you stop it?” and “Can you stop it?” are grammatical interrogative transformations, with no context selecting one.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after source review because multiple grammatical choices are defensible.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q46",
@@ -66742,7 +66930,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "We are too late starting a new lesson."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: It is too late for us to start a new lesson..",
+    "explanation": "“It is too late for us to start a new lesson.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66750,7 +66938,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q47",
@@ -66768,15 +66957,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Everybody knows that cancer is curable.",
       "Everybody knows that cancer can be cured."
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "“Everybody knows that cancer is curable.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q48",
@@ -66795,7 +66986,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "The earth is round is known to everyone."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: The earth is round and everyone knows it..",
+    "explanation": "“The earth is round and everyone knows it.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
@@ -66803,7 +66994,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q49",
@@ -66821,15 +67013,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Listen carefully to know all.",
       "If you listen to me, I will tell you everything."
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 0,
+    "explanation": "“If you listen, I will tell you all.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q50",
@@ -66847,15 +67041,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Either obey me or leave.",
       "Obey me or leave."
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 1,
+    "explanation": "“Obey or leave.” is the sentence transformation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 - 51): Transform the following sentences as directed."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q51",
@@ -66874,7 +67070,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: complex.",
+    "explanation": "“complex” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -66882,7 +67078,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 51 - 55): Identify the following sentences or clauses from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q52",
@@ -66901,7 +67098,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: compound.",
+    "explanation": "“compound” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -66909,7 +67106,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 51 - 55): Identify the following sentences or clauses from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q53",
@@ -66928,7 +67126,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: compound.",
+    "explanation": "“compound” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -66936,7 +67134,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 51 - 55): Identify the following sentences or clauses from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q54",
@@ -66955,7 +67154,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective clause.",
+    "explanation": "“adjective clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -66963,7 +67162,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 51 - 55): Identify the following sentences or clauses from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q55",
@@ -66982,7 +67182,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: adverb clause.",
+    "explanation": "“adverb clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -66990,7 +67190,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 51 - 55): Identify the following sentences or clauses from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q56",
@@ -67009,7 +67210,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He must be asleep for there is no light in his room."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: He must be asleep for there is no light in his room..",
+    "explanation": "“He must be asleep for there is no light in his room.” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67017,7 +67218,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56 - 60): Synthesize the sentences as directed in the brackets."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q57",
@@ -67036,7 +67238,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "The tortoise is slow because it is sure."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: the tortoise is slow yet it is sure..",
+    "explanation": "“the tortoise is slow yet it is sure.” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67044,7 +67246,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56 - 60): Synthesize the sentences as directed in the brackets."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q58",
@@ -67063,7 +67266,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "I have performed some duties."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: I have some duties to perform..",
+    "explanation": "“I have some duties to perform.” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67090,7 +67293,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He was punished for being obstinate."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: He was obstinate therefore he was punished..",
+    "explanation": "“He was obstinate therefore he was punished.” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67098,7 +67301,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56 - 60): Synthesize the sentences as directed in the brackets."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q60",
@@ -67117,7 +67321,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "He took off his uniform on entering the room."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: He took off his uniform as soon as he entered his room..",
+    "explanation": "“He took off his uniform as soon as he entered his room.” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67125,7 +67329,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 56 - 60): Synthesize the sentences as directed in the brackets."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q61",
@@ -67144,7 +67349,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "co-ordinate clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: adverb clause.",
+    "explanation": "“adverb clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=5",
@@ -67152,7 +67357,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 61 - 65): Pick the correct clause in the given sentences:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q62",
@@ -67171,7 +67377,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "co-ordinate clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adjective clause.",
+    "explanation": "“adjective clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67179,7 +67385,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 61 - 65): Pick the correct clause in the given sentences:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q63",
@@ -67198,7 +67405,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "co-ordinate clause"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: co-ordinate clause.",
+    "explanation": "“co-ordinate clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67206,7 +67413,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 61 - 65): Pick the correct clause in the given sentences:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q64",
@@ -67225,7 +67433,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "co-ordinate clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: adverb clause.",
+    "explanation": "“adverb clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67233,7 +67441,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 61 - 65): Pick the correct clause in the given sentences:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q65",
@@ -67252,7 +67461,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "co-ordinate clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adjective clause.",
+    "explanation": "“adjective clause” is the clause or sentence structure that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67260,7 +67469,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 61 - 65): Pick the correct clause in the given sentences:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q66",
@@ -67279,7 +67489,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "examine"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: check.",
+    "explanation": "“check” is the collocation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67287,7 +67497,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 - 70): Choose the right collocation:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q67",
@@ -67306,7 +67517,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "bother"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: bore.",
+    "explanation": "“bore” is the collocation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67314,7 +67525,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 - 70): Choose the right collocation:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q68",
@@ -67332,16 +67544,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "offer",
       "occasion"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: opportunity.",
+    "answerIndex": -1,
+    "explanation": "Both “golden chance” and “golden opportunity” are standard idiomatic collocations.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because multiple grammatical choices are defensible.",
+    "direction": "Directions (Questions 66 - 70): Choose the right collocation:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q69",
@@ -67360,7 +67572,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "apology"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: applause.",
+    "explanation": "“applause” is the collocation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67368,7 +67580,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 - 70): Choose the right collocation:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q70",
@@ -67387,7 +67600,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "risky"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: dreadful.",
+    "explanation": "“dreadful” is the collocation that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67395,7 +67608,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 - 70): Choose the right collocation:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q71",
@@ -67414,7 +67628,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "cite"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: cite.",
+    "explanation": "“cite” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67422,7 +67636,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 - 75): Choose the correct synonym for the following words from the options"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q72",
@@ -67440,8 +67655,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "fall out",
       "hurdle"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: hurdle.",
+    "answerIndex": 0,
+    "explanation": "“argument” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67449,7 +67664,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 - 75): Choose the correct synonym for the following words from the options"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q73",
@@ -67468,7 +67684,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "cautious"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: judicious.",
+    "explanation": "“judicious” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67476,7 +67692,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 - 75): Choose the correct synonym for the following words from the options"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q74",
@@ -67495,7 +67712,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "fallible"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: credulous.",
+    "explanation": "“credulous” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=6",
@@ -67503,7 +67720,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 - 75): Choose the correct synonym for the following words from the options"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q75",
@@ -67522,7 +67740,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "ferocious"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: envious.",
+    "explanation": "“envious” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67530,7 +67748,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 - 75): Choose the correct synonym for the following words from the options"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q76",
@@ -67549,7 +67768,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "stale"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: stale.",
+    "explanation": "“stale” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67557,7 +67776,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 - 80): Choose the word that is opposite in meaning from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q77",
@@ -67576,7 +67796,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "weak"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: tiny.",
+    "explanation": "“tiny” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67584,7 +67804,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 - 80): Choose the word that is opposite in meaning from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q78",
@@ -67603,7 +67824,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "restoration"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: influx.",
+    "explanation": "“influx” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67611,7 +67832,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 - 80): Choose the word that is opposite in meaning from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q79",
@@ -67630,7 +67852,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "ostentatious"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: extravagant.",
+    "explanation": "“extravagant” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67638,7 +67860,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 - 80): Choose the word that is opposite in meaning from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q80",
@@ -67656,15 +67879,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "top",
       "lowly"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "“top” is the synonym or antonym that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 - 80): Choose the word that is opposite in meaning from the given options."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q81",
@@ -67683,7 +67908,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "full of bruises"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: full of bruises.",
+    "explanation": "“full of bruises” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67691,7 +67916,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q82",
@@ -67710,7 +67936,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "irresponsible"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: does not show any emotion.",
+    "explanation": "“does not show any emotion” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67718,7 +67944,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q83",
@@ -67737,7 +67964,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "expose a secret"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: expose a secret.",
+    "explanation": "“expose a secret” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67745,7 +67972,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q84",
@@ -67764,7 +67992,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "difficult task"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: a critical test.",
+    "explanation": "“a critical test” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67772,7 +68000,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q85",
@@ -67791,7 +68020,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "harmless"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: very inexpensive.",
+    "explanation": "“very inexpensive” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67799,7 +68028,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q86",
@@ -67818,7 +68048,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "twenty four"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: thirteen.",
+    "explanation": "“thirteen” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67826,7 +68056,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q87",
@@ -67845,7 +68076,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "heavy rain."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: rare event or occurrence.",
+    "explanation": "“rare event or occurrence” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=7",
@@ -67853,7 +68084,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q88",
@@ -67872,7 +68104,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "full detail"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: full detail.",
+    "explanation": "“full detail” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -67880,7 +68112,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q89",
@@ -67899,7 +68132,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A miser"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: A miser.",
+    "explanation": "“A miser” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -67907,7 +68140,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q90",
@@ -67926,7 +68160,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Does not like to eat"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Eats a lot of food.",
+    "explanation": "“Eats a lot of food” is the idiom meaning that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -67934,7 +68168,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 81 - 90): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q91",
@@ -67953,7 +68188,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "see"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: shall see.",
+    "explanation": "“shall see” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -67961,7 +68196,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q92",
@@ -67980,7 +68216,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "is moving"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: moved.",
+    "explanation": "“moved” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -67988,7 +68224,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q93",
@@ -68007,7 +68244,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "shall come"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: had come.",
+    "explanation": "“had come” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68015,7 +68252,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q94",
@@ -68034,7 +68272,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "has been digging"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: has been digging.",
+    "explanation": "“has been digging” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68042,7 +68280,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q95",
@@ -68061,7 +68300,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "will write"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: had written.",
+    "explanation": "“had written” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68069,7 +68308,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q96",
@@ -68088,7 +68328,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "none of the above"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: too.",
+    "explanation": "“too” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68096,7 +68336,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q97",
@@ -68115,7 +68356,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "principle"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: principles.",
+    "explanation": "“principles” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68123,7 +68364,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q98",
@@ -68142,7 +68384,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "they"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: their.",
+    "explanation": "“their” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68150,7 +68392,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q99",
@@ -68169,7 +68412,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "sail"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: sale.",
+    "explanation": "“sale” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68177,7 +68420,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q100",
@@ -68196,7 +68440,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "board"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: board.",
+    "explanation": "“board” is the grammatical alternative that best fits the sentence.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p2.pdf#page=8",
@@ -68204,7 +68448,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91 - 100): Choose the correct alternative:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B1",

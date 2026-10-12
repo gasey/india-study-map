@@ -769,3 +769,10 @@ Current generated coverage: 404 papers / 26,888 records (25,867 MCQs), with 17,2
 - Sub-Inspector Mathematics (2018): 98 worked answers. Restored fractions, exponents, Venn counts, pie chart sectors and merged OCR; Q72 and Q92 remain held because each duplicates the correct choice.
 
 Current build: 404 papers / 26,890 records (25,869 MCQs), with 17,433 practice-ready and 8,321 official-key-backed. Source review covers 9,309 MCQs; 8,771 are unreviewed, 538 reviewed items are held, and 729 known MCQs remain missing from extraction.
+
+## 2018 English Paper-II source reviews — 12 October 2026
+
+- Programmer under PHE Paper-II: 93 worked answers, seven held for dialect, grammar or synonym overlap. All 100 numbers are present and the cover confirms 120 minutes / one mark each.
+- Sericulture Extension Officer Paper-II: 97 worked answers, three held for multiple valid constructions. All 100 questions are present; Q58’s duplicated printed choice label is noted.
+
+Current generated bank: 404 papers / 26,890 records (25,869 MCQs); 17,432 practice-ready and 8,321 official-key-backed. Source review covers 9,310 MCQs; 8,771 remain unreviewed, 539 reviewed items are held, and 729 known MCQs remain missing from extraction.

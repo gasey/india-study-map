@@ -712,3 +712,18 @@ The review ledger reports 97 ready, 3 held, 0 pending. No official key was used.
 
 Source: `public/papers/group-b/iof-2019-gs.pdf`; durable review input:
 `tools/udc-ldc-build/group-b-text-repairs.json` under `iof-2019-gs`.
+
+## Additional Group B General Studies reviews — 12 October 2026
+
+Added answers for four 100-question papers: MES PWD 2020 (97 ready, 3 held),
+Employment Officer LE&IT Paper III 2019 (92 ready, 8 held), Inspector FCS
+Paper III 2019 (97 ready, 3 held), and MES PHE 2019 (95 ready, 5 held).
+Held items have defective or non-unique choices and remain unscored. Each
+paper was checked against its source scan; the three parallel reviews also
+record source-text corrections where supported. No official key was used.
+
+The regenerated Group B bank contains 26,878 records (25,857 MCQs), with
+16,662 ready answers, 8,322 official-key answers, 510 held-reviewed,
+9,558 unreviewed and 733 missing MCQs. Durable review inputs are in
+`tools/udc-ldc-build/group-b-text-repairs.json` under `mes-pwd-2020-gs`,
+`eo-leit-2019-gs3`, `inspector-fcs-2019-gs3` and `mes-phe-2019-gs`.

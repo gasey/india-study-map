@@ -7,12 +7,12 @@
     "records": 26878,
     "mcq": 25857,
     "writtenRecords": 1021,
-    "ready": 16281,
+    "ready": 16662,
     "readyOfficial": 8322,
-    "pendingMcq": 9085,
-    "heldReviewed": 491,
-    "workedGuidesReviewed": 9117,
-    "pendingMcqGuides": 16740,
+    "pendingMcq": 8685,
+    "heldReviewed": 510,
+    "workedGuidesReviewed": 9517,
+    "pendingMcqGuides": 16340,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -67,12 +67,12 @@
       "records": 14946,
       "mcq": 14946,
       "writtenRecords": 0,
-      "ready": 11673,
+      "ready": 12054,
       "readyOfficial": 6205,
-      "pendingMcq": 2925,
-      "heldReviewed": 348,
-      "workedGuidesReviewed": 5897,
-      "pendingMcqGuides": 9049,
+      "pendingMcq": 2525,
+      "heldReviewed": 367,
+      "workedGuidesReviewed": 6297,
+      "pendingMcqGuides": 8649,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -11252,12 +11252,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 92,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 8,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11266,18 +11266,67 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 92,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 8,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q43",
+          "questionNumber": "43",
+          "section": "gk",
+          "reason": "The 1740s source estimate falls in both the 1740–1750 and 1730–1750 options, so the overlapping ranges do not give a unique answer."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q82",
+          "questionNumber": "82",
+          "section": "gk",
+          "reason": "The scan’s four-arm number cross has no clearly supported single rule from the displayed examples; hold rather than infer a pattern."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q86",
+          "questionNumber": "86",
+          "section": "gk",
+          "reason": "Both “stern:boat” and “beam:ship” express a part-to-whole relation like heel:foot, so two options fit."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q91",
+          "questionNumber": "91",
+          "section": "gk",
+          "reason": "The figure-matrix rule is not uniquely recoverable from the low-resolution scan; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q93",
+          "questionNumber": "93",
+          "section": "gk",
+          "reason": "The dot-and-line matrix does not produce a uniquely defensible missing figure from the scan; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q95",
+          "questionNumber": "95",
+          "section": "gk",
+          "reason": "The human-figure matrix has several changing body/head components with no unique rule established; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q97",
+          "questionNumber": "97",
+          "section": "gk",
+          "reason": "The boy could be the girl’s brother or cousin depending on whether the uncle’s daughter is her mother or aunt; the relationship is underspecified."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs3-Q99",
+          "questionNumber": "99",
+          "section": "gk",
+          "reason": "The clues leave arrangements where both RV and QW can be non-neighbours, so the multiple-choice item has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-feo-2017-english-p1",
@@ -12648,12 +12697,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12662,18 +12711,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q41",
+          "questionNumber": "41",
+          "section": "gk",
+          "reason": "Both Chai and Cheraw are Mizo dances performed at Chapchar Kut; the broad stem does not uniquely identify one."
+        },
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q67",
+          "questionNumber": "67",
+          "section": "gk",
+          "reason": "The literal/idiomatic meaning of ‘Vawkreka fate ang’ cannot be matched reliably to the supplied English options; hold for fluent Mizo review."
+        },
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q100",
+          "questionNumber": "100",
+          "section": "gk",
+          "reason": "The listed positional constraints do not determine a unique arrangement; multiple valid line-ups make different answer choices false. Hold as under-specified."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-stats-2017-english",
@@ -14403,12 +14471,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 95,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -14417,18 +14485,49 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 95,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mes-phe-2019-gs-Q67",
+          "questionNumber": "67",
+          "section": "gk",
+          "reason": "The Panchsheel principles were articulated in the 1954 India–China Agreement on Tibet; no third country among the choices jointly initiated them. The premise/options are defective."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2019-gs-Q70",
+          "questionNumber": "70",
+          "section": "gk",
+          "reason": "The universities at Calcutta, Bombay and Madras were all established in 1857. Both Madras and Calcutta are offered, so ‘the first’ has no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2019-gs-Q84",
+          "questionNumber": "84",
+          "section": "gk",
+          "reason": "La Niña is an ocean-atmosphere climate pattern, not a cold ocean current. All four options describe currents, so the question is scientifically defective."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2019-gs-Q96",
+          "questionNumber": "96",
+          "section": "gk",
+          "reason": "LPG is mainly propane and butane; none of the options states that correctly. Option (d) adds methane, so the item is defective."
+        },
+        {
+          "id": "mpsc-group-b-mes-phe-2019-gs-Q97",
+          "questionNumber": "97",
+          "section": "gk",
+          "reason": "Fish can be a source of protein and fat/lipids; options (a), (c), and (d) can all be true depending on species, so the question has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mes-power-2018-english",
@@ -14657,12 +14756,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -14671,18 +14770,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mes-pwd-2020-gs-Q46",
+          "questionNumber": "46",
+          "section": "gk",
+          "reason": "The listed choices describe valid Finance Commission functions under Article 280, so the question has no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2020-gs-Q49",
+          "questionNumber": "49",
+          "section": "gk",
+          "reason": "No option states the standard definition accurately: fiscal deficit is total expenditure less revenue receipts and non-debt capital receipts. The options either omit components or subtract borrowings incorrectly."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2020-gs-Q87",
+          "questionNumber": "87",
+          "section": "gk",
+          "reason": "The @ symbol was adopted for email addresses in 1971, which is not among the listed years."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mhs-2025-ayurveda3",

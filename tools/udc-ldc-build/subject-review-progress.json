@@ -4,19 +4,19 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26876,
-    "mcq": 25855,
+    "records": 26878,
+    "mcq": 25857,
     "writtenRecords": 1021,
-    "ready": 15126,
+    "ready": 15314,
     "readyOfficial": 8322,
-    "pendingMcq": 10283,
-    "heldReviewed": 446,
-    "workedGuidesReviewed": 7917,
-    "pendingMcqGuides": 17938,
+    "pendingMcq": 10085,
+    "heldReviewed": 458,
+    "workedGuidesReviewed": 8117,
+    "pendingMcqGuides": 17740,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
-    "missingMcq": 735
+    "missingMcq": 733
   },
   "sections": {
     "english": {
@@ -64,15 +64,15 @@
       "mixedTopicRecords": 0
     },
     "gk": {
-      "records": 14944,
-      "mcq": 14944,
+      "records": 14946,
+      "mcq": 14946,
       "writtenRecords": 0,
-      "ready": 10518,
+      "ready": 10706,
       "readyOfficial": 6205,
-      "pendingMcq": 4123,
-      "heldReviewed": 303,
-      "workedGuidesReviewed": 4697,
-      "pendingMcqGuides": 10247,
+      "pendingMcq": 3925,
+      "heldReviewed": 315,
+      "workedGuidesReviewed": 4897,
+      "pendingMcqGuides": 10049,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -863,17 +863,17 @@
       "sourceHref": "/papers/group-b/ada-2014-gk.pdf",
       "keyHref": null,
       "imported": true,
-      "expectedMcq": null,
-      "missingMcq": null,
+      "expectedMcq": 100,
+      "missingMcq": 0,
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -882,18 +882,25 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ada-2014-gk-Q71",
+          "questionNumber": "71",
+          "section": "gk",
+          "reason": "Held out: the scan offers Aberdeen–Granite City, Egypt–Gift of the Nile, Korea–Hermit Kingdom and Venice–City of Merchants. The last is also a historically defensible epithet, so the prompt does not establish one uniquely wrong pairing."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
@@ -1401,36 +1408,103 @@
       "keyHref": null,
       "imported": true,
       "expectedMcq": 100,
-      "missingMcq": 2,
-      "records": 98,
-      "mcq": 98,
+      "missingMcq": 0,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 89,
       "readyOfficial": 0,
-      "pendingMcq": 98,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 98,
+      "pendingMcq": 0,
+      "heldReviewed": 11,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "gk": {
-          "records": 98,
-          "mcq": 98,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 89,
           "readyOfficial": 0,
-          "pendingMcq": 98,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 98,
+          "pendingMcq": 0,
+          "heldReviewed": 11,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q6",
+          "questionNumber": "6",
+          "section": "gk",
+          "reason": "Held out: statements i, iii and iv appear correct, while ii is defective (“Padma ViBushan” is not the award title); no offered option represents i, iii and iv."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q7",
+          "questionNumber": "7",
+          "section": "gk",
+          "reason": "Held out: the traditional Mizo measurement pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q8",
+          "questionNumber": "8",
+          "section": "gk",
+          "reason": "Held out: the traditional Mizo terminology pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q51",
+          "questionNumber": "51",
+          "section": "gk",
+          "reason": "Held out: all four choices—Dignity, Justice, Liberty and Equality—appear in the Constitution’s Preamble; the item has no “none of these” choice."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q72",
+          "questionNumber": "72",
+          "section": "gk",
+          "reason": "Held out: the 3D triangle-counting figure does not support a confident, reproducible count from the scan."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q73",
+          "questionNumber": "73",
+          "section": "gk",
+          "reason": "Held out: the printed radical/superscript expression is not legible enough to establish a unique equation or answer."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q76",
+          "questionNumber": "76",
+          "section": "gk",
+          "reason": "Held out: the graph gives 217 thousand tons of sheet imports; multiplying by $256/ton yields about $55.552 million, while the options are around $55 thousand and the question does not state a scale conversion."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q91",
+          "questionNumber": "91",
+          "section": "gk",
+          "reason": "Held out: the graph shows actual progress exceeding expected progress during part of August, making both (c) (“completed before the expected time”) and (d) (“at no time … more than expected”) incorrect; the question asks for a single not-correct choice."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q94",
+          "questionNumber": "94",
+          "section": "gk",
+          "reason": "Held out: the office-plan wording does not establish a unique orientation for left/right, so E’s left-hand neighbor is not reliably determined."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q95",
+          "questionNumber": "95",
+          "section": "gk",
+          "reason": "Held out: the office-plan constraints allow more than one placement for the officers, so F’s immediate neighbor(s) are not uniquely established."
+        },
+        {
+          "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q96",
+          "questionNumber": "96",
+          "section": "gk",
+          "reason": "Held out: the doubles-game clues do not uniquely identify the best player without an additional ranking/partner constraint."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-aeo-2019-english",

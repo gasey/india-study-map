@@ -117635,17 +117635,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Deforestation",
       "Shifting cultivation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "WHO’s April 2014 report identified air pollution as the largest environmental health risk linked to 7 million deaths in 2012 (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q2",
@@ -117663,17 +117662,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Cuba",
       "Ukraine"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Turkey blocked access to Twitter in March 2014 (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q3",
@@ -117691,17 +117689,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Google Demo",
       "Google Connect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Google Fiber was Google’s high-speed broadband project for selected cities (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q4",
@@ -117719,17 +117716,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "International Monetary Fund",
       "United Nations General Assembly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "John Ashe was president of the United Nations General Assembly (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q5",
@@ -117747,14 +117743,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Karnataka",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The cited National Sample Survey comparison named West Bengal as the leading state for new manufacturing jobs (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q6",
@@ -117772,17 +117770,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "China",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "StoreDot was an Israeli startup (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q7",
@@ -117800,14 +117797,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "No Mosquitoes No Malaria",
       "Say Good Bye to Malaria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 2014 World Malaria Day theme was “Invest in the future. Defeat Malaria” (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q8",
@@ -117825,17 +117824,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Switzerland",
       "Netherland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India concluded its FATCA agreement with the United States (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q9",
@@ -117853,17 +117851,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "May 8",
       "May 22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "International Women’s Day is observed on March 8 (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q10",
@@ -117881,17 +117878,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Oleksandr Turchynov",
       "Mykola Azarov"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Viktor Yanukovych was Ukraine’s ousted president who received asylum in Russia (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q11",
@@ -117907,16 +117903,18 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "45 days",
       "47 days",
       "48 days",
-      "49 days thndth"
+      "49 days"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kejriwal served as Delhi Chief Minister for 49 days before resigning (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q12",
@@ -117927,21 +117925,23 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The venue of the 44 annual meeting of World Economic Forum held from 22 – 25 January, 2014 is",
+    "question": "The venue of the 44th annual meeting of the World Economic Forum held from 22–25 January 2014 is",
     "options": [
       "Pretoria, S.Africa",
       "Warsaw, Poland",
       "Davos, Switzerland",
       "Bali, Indonesia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The World Economic Forum’s 44th annual meeting was held in Davos, Switzerland (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q13",
@@ -117959,17 +117959,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "1st January 2016",
       "1st April 2016"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 7th Pay Commission recommendations were to take effect from 1 January 2016 (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q14",
@@ -117987,17 +117986,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "LG",
       "IBM"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lee Kun-hee was chairman of Samsung (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q15",
@@ -118015,17 +118013,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "When the exchange rate of a currency falls",
       "When fiscal deficit exceeds balance of payment deficit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Among the options, inflation is described as money supply growing faster than real GDP (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q16",
@@ -118043,14 +118040,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "134 and 20",
       "125 and 23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Telangana had 119 Assembly seats and 17 Lok Sabha seats (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q17",
@@ -118068,17 +118067,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "INS Sindhuratna",
       "INS Sidhurakshak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The submarine accident was aboard INS Sindhuratna (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q18",
@@ -118096,17 +118094,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Pakistan",
       "Sri Lanka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nepal is the intended answer, referring to its Supreme Court direction on negative voting; the question’s wording overstates implementation at that time (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q19",
@@ -118124,17 +118121,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Asian Development Bank",
       "BRICS"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Fighting Poverty in Asia and the Pacific” is the Asian Development Bank’s motto (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q20",
@@ -118152,17 +118148,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Astria",
       "Astrya"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Astra is India’s indigenous air-to-air missile (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart15: BankQuestion[] = [
@@ -118182,14 +118177,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Pu H.Liansailova",
       "Pu P.C.Lalthanliana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pu Lalsawta was Mizoram’s Finance Minister at the time (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q22",
@@ -118207,17 +118204,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "National Highway No. 3",
       "National Highway No. 7"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Under the highway numbering then in use, Delhi–Amritsar was National Highway 1 (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q23",
@@ -118235,14 +118231,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "ICICI",
       "City Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "HDFC Bank was reported as the first new-generation private bank to launch the RuPay electronic Kisan Card (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q24",
@@ -118260,17 +118258,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "India",
       "South Korea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India produces the largest number of films annually among these choices (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q25",
@@ -118288,17 +118285,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Microsoft",
       "Dell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "IBM developed the Watson natural-language question-answering system (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q26",
@@ -118316,17 +118312,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "The Times of India",
       "The Shanghai Express"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Times of India was reported as the highest-circulation English newspaper in the paper’s context (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q27",
@@ -118344,17 +118339,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Wells Fargo & Co",
       "Bank of America"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Wells Fargo had the largest market capitalization among the listed banks in the 2014 context (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q28",
@@ -118372,17 +118366,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Afghanistan",
       "Syria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The cited UNHCR report identified Syria as the largest source of asylum seekers (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q29",
@@ -118400,17 +118393,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Nagaland",
       "Mizoram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Census 2011 showed Nagaland had the lowest Scheduled Castes population share among the listed states (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q30",
@@ -118428,17 +118420,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "PMRY",
       "IRDP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Prime Minister’s Rozgar Yojana targeted self-employment for educated unemployed youth (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q31",
@@ -118456,17 +118447,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "548",
       "552"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "At the time of this 2014 question, the Constitution’s envisaged maximum Lok Sabha strength was 552 (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q32",
@@ -118484,14 +118474,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Punjab",
       "Kerala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Tripura was reported as providing the highest average employment under MGNREGS for the stated five-year period (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q33",
@@ -118509,17 +118501,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Minority Senior Citizens",
       "Minority Disabled Persons"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Maulana Azad Sehat Scheme served minority students, including students at MAEF-aided institutions (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q34",
@@ -118537,14 +118528,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Gujarat",
       "Bihar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "For the cited 2012–13 CSO comparison, Madhya Pradesh was identified as the fastest-growing listed state (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q35",
@@ -118562,14 +118555,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Cuba",
       "Argentina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Arturo Licata was Italian (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q36",
@@ -118587,14 +118582,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Assam",
       "Meghalaya"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tripura was reported as the first Indian state to observe Child Protection Day (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q37",
@@ -118612,17 +118609,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Narendra Modi",
       "Arvin Kejriwal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pranab Mukherjee was India’s President and thus the de-jure head of state in 2014 (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q38",
@@ -118640,17 +118636,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "South Sudan",
       "Republic of Ireland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "South Sudan, independent since 2011, was the newest independent country at the time (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q39",
@@ -118668,17 +118663,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "TATA Group",
       "Reliance Communications"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Subrata Roy headed the Sahara Group (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q40",
@@ -118696,17 +118690,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Roberto Azevedo",
       "Jim Yong Kim"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jim Yong Kim was World Bank president in 2014 (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q41",
@@ -118724,17 +118717,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Kushwant Singh",
       "Amartya Sen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nelson Mandela wrote Conversations with Myself (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q42",
@@ -118752,17 +118744,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Jaswant Singh",
       "C.Rangarajan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sanjaya Baru authored The Accidental Prime Minister (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q43",
@@ -118780,17 +118771,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "VS Naipaul",
       "APJ Abdul Kalam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Chetan Bhagat authored Revolution 2020 (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q44",
@@ -118808,17 +118798,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Nelson Mandela",
       "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Long Walk to Freedom is Nelson Mandela’s autobiography (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q45",
@@ -118836,17 +118825,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Lewis Wallace",
       "Louis Fisher"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Adam Smith wrote The Wealth of Nations (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q46",
@@ -118864,17 +118852,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Malta",
       "Ethiopia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Marie Louise Coleiro Preca became President of Malta (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q47",
@@ -118892,17 +118879,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Dr. Vijay L.Kelkar",
       "Dr. Raghuram Rajan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Raghuram Rajan was RBI Governor in 2014 (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q48",
@@ -118920,14 +118906,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Meena Agarwal",
       "Ashok Kumar Mathur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ashok Kumar Mathur chaired India’s 7th Pay Commission (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q49",
@@ -118945,17 +118933,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "John Kerry",
       "John Knightly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "John Kerry was US Secretary of State in 2014 (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q50",
@@ -118973,14 +118960,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "The Salvation Army",
       "United Pentecostal Church"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "R. L. Hnuni belonged to the Baptist Church of Mizoram (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q51",
@@ -118998,17 +118987,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "German Bundesliga",
       "Spanish La Liga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "TSG 1899 Hoffenheim competes in the German Bundesliga (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q52",
@@ -119026,14 +119014,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Virat Kohli",
       "Suresh Raina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Yuvraj Singh commanded the highest bid at the February 2014 IPL auction (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q53",
@@ -119051,17 +119041,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Steven Gerrard",
       "Daniel Sturridge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Luis Suárez won the PFA Players’ Player of the Year award for 2013–14 (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q54",
@@ -119079,17 +119068,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Sri Lanka",
       "Cuba"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sri Lanka designated volleyball as its national sport; Fiji’s national sport is rugby (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q55",
@@ -119107,14 +119095,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Reuben Zosangpuia",
       "R.Malsawmtluanga"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "R. Malsawmtluanga was named best player of MPL-2 (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q56",
@@ -119132,14 +119122,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Salgaocar Football Club",
       "East Bengal FC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bengaluru FC won the 2013–14 I-League title (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q57",
@@ -119157,17 +119149,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Pakistan and Bangladesh",
       "Australia and New Zealand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Australia and New Zealand hosted the 2015 Cricket World Cup (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q58",
@@ -119185,17 +119176,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Singapore",
       "South Korea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "South Korea hosted the 2018 Winter Olympics (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q59",
@@ -119213,17 +119203,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Boom",
       "The Cup of Life"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“We Are One (Ole Ola)” was the official 2014 FIFA World Cup song (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q60",
@@ -119241,17 +119230,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Rafael Nadal",
       "Andy Murray"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Stanislas Wawrinka won the 2014 Australian Open men’s singles title (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q61",
@@ -119269,17 +119257,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Counter Terrorists Ban Treaty",
       "Comprehensive Treaty on Tax Benefits"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is the intended expansion; the treaty’s full formal title includes “Nuclear” (“Comprehensive Nuclear-Test-Ban Treaty”).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q62",
@@ -119297,17 +119284,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Government Internal Revenue Order",
       "Government Internal Record Order"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In the Indian public-finance context, GIRO stands for Government Internal Revenue Order (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q63",
@@ -119325,17 +119311,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "International Authority of Energical Atomic",
       "International Atomic Engineering Agency"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "IAEA stands for International Atomic Energy Agency (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q64",
@@ -119353,17 +119338,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Light Emitting Diode",
       "Light Eating Disc"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "LED means light-emitting diode (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q65",
@@ -119381,17 +119365,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Providing Urban & Rural Equal Amenities",
       "Providing Unemployed Rural with Amenities"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "PURA means Providing Urban Amenities in Rural Areas (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q66",
@@ -119409,17 +119392,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Punjab",
       "Maharastra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Punjab is known as the Land of Five Rivers (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q67",
@@ -119437,17 +119419,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Romania",
       "Sweden"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Switzerland is called the Playground of Europe (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q68",
@@ -119465,17 +119446,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Venus",
       "Saturn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Venus is commonly called Earth’s twin (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q69",
@@ -119493,17 +119473,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Shillong",
       "Vancouver"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rome is the City of Seven Hills (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q70",
@@ -119521,17 +119500,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Mumbai",
       "Tokyo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chicago was historically called the “Slaughter House of the World” (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q71",
@@ -119550,13 +119528,14 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Venice : City of Merchants"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the scan offers Aberdeen–Granite City, Egypt–Gift of the Nile, Korea–Hermit Kingdom and Venice–City of Merchants. The last is also a historically defensible epithet, so the prompt does not establish one uniquely wrong pairing.",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the scan offers Aberdeen–Granite City, Egypt–Gift of the Nile, Korea–Hermit Kingdom and Venice–City of Merchants. The last is also a historically defensible epithet, so the prompt does not establish one uniquely wrong pairing."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q72",
@@ -119574,14 +119553,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Sahara",
       "S.Africa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ethiopia is known as the Garden in the Desert (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q73",
@@ -119599,17 +119580,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Belgium",
       "Switzerland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Belgium is called the Cockpit of Europe (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q74",
@@ -119627,17 +119607,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Solomon's Island",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The West Indies are known as the Islands of Sunshine (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q75",
@@ -119655,17 +119634,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "City of Palaces",
       "City of Magnificent Distances"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Oxford is known as the City of Dreaming Spires (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q76",
@@ -119683,17 +119661,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Olympic Games",
       "Civil Aviation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Pulitzer Prize is primarily associated with journalism (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q77",
@@ -119711,17 +119688,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "The Hobbit: The Desolation of Smaug",
       "12 Years a Slave"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Hunger Games: Catching Fire won the 2014 MTV Movie of the Year (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q78",
@@ -119739,14 +119715,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Aw Ropui Ber by Andrew Laltlankima",
       "Kan Fak Zel Ang by Hmingtea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 23rd Lelte Gospel Album of the Year was I Hming Ropui by Lawma and Judith (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q79",
@@ -119764,14 +119742,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Thinglubul",
       "Beiseina Mittui"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Thinglubul won the Mizo Academy of Letters Book of the Year for 2013 (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q80",
@@ -119789,14 +119769,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Lalsangzuali",
       "Lalmuanpuii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lallungmuani of Mizoram received the 2014 National Florence Nightingale Award (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q81",
@@ -119814,17 +119796,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Thomas Edison (1847-1931)",
       "Emile Berliner (1851-1929)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Charles Babbage designed the first mechanical computer (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q82",
@@ -119842,17 +119823,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Charles Babbage",
       "Emile Berliner"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Wilhelm Conrad Röntgen discovered X-rays (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q83",
@@ -119870,17 +119850,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "John L.Baird",
       "David Bushnell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chester Carlson invented xerography (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q84",
@@ -119898,17 +119877,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Roger Bacon",
       "Lewis E.Waterman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sir Frank Whittle is credited with inventing the jet engine (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q85",
@@ -119926,17 +119904,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Abraham Lincoln",
       "Benjamin Franklin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Benjamin Franklin invented bifocal lenses (D).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q86",
@@ -119954,17 +119931,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "G.Marconi",
       "W.K.Roentgen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Hans Lippershey is conventionally credited with the telescope (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q87",
@@ -119982,17 +119958,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "John Carbutt",
       "Zacharis Janssen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Johannes Gutenberg is conventionally credited with the printing press in Europe (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q88",
@@ -120010,17 +119985,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Magellan",
       "Gobot Sebastian"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The intended textbook answer is Copernicus, whose heliocentric model described the Solar System; “discovered” is imprecise (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q89",
@@ -120038,17 +120012,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "G.Marconi",
       "P.T.Famsworth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Guglielmo Marconi is conventionally credited with developing radio (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q90",
@@ -120066,17 +120039,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "A.H.Taylor",
       "Roger Bacon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "John Shepherd-Barron is credited with inventing the ATM (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q91",
@@ -120094,17 +120066,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Cache",
       "Execute"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Firmware is software stored within a device that controls its operation (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q92",
@@ -120122,17 +120093,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "CD ROM",
       "Programming"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "An operating system interfaces between application software and computer hardware (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q93",
@@ -120150,17 +120120,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "LAN",
       "Twitter"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A LAN is a local-area network, not a social networking service (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q94",
@@ -120178,17 +120147,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Telephone line, modem, computer, and an ISP",
       "Modem, computer, PDA and ISP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The listed basic Internet connection components are a telephone line, modem, computer and ISP (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q95",
@@ -120206,17 +120174,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "authentication",
       "logging in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Checking a login name and password is authentication (C).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q96",
@@ -120234,14 +120201,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "mpscwebsite.info",
       "mpsc.website.info"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "mpsc@website.info follows the standard local-part@domain format (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q97",
@@ -120259,17 +120228,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "CRAY YMP",
       "Super 301"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PARAM is an Indian supercomputer series developed by C-DAC (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q98",
@@ -120287,17 +120255,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "1000,000,000,000 bytes",
       "1000,000,000,000,000 bytes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Using decimal units, one gigabyte is approximately 1,000,000,000 bytes (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q99",
@@ -120315,17 +120282,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Unix",
       "Windows"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Internet is the odd one out; Linux, Unix and Windows are operating systems (A).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q100",
@@ -120343,17 +120309,16 @@ const groupBQuestionsPart15: BankQuestion[] = [
       "Controlling",
       "Indexing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A parity bit is used for error detection (B).",
     "source": "Assistant Divisional Accountant under Finance Department · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-2014-arithmetic-Q1",
@@ -610040,14 +610005,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Survey in agriculture and industrial sector which are most economic sectors.",
       "A report card of different sectors for the current year."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Economic Survey reviews and reports on the economy and its sectors for the current year; the best offered description is a report card (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q2",
@@ -610065,14 +610032,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "At least 60%",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Economic Survey is an analytical report; its recommendations are not mandatory government proposals (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q3",
@@ -610090,14 +610059,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Just after Budget Session",
       "In the beginning of Financial Year"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Economic Survey is presented before the Budget as part of the Budget Session process (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q4",
@@ -610115,14 +610086,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Proposal of annual Receipts and Expenditure.",
       "Target to be achieved in Government Receipts."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A budget is the annual statement/proposal of receipts and expenditure (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q5",
@@ -610140,17 +610113,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "(ii) and (iii)",
       "(ii) and (iv)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Union Budget is discussed in both Houses, but only the Lok Sabha votes on demands for grants (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q6",
@@ -610169,13 +610141,14 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "all are correct"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: statements i, iii and iv appear correct, while ii is defective (“Padma ViBushan” is not the award title); no offered option represents i, iii and iv.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: statements i, iii and iv appear correct, while ii is defective (“Padma ViBushan” is not the award title); no offered option represents i, iii and iv."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q7",
@@ -610194,13 +610167,14 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "All the four"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the traditional Mizo measurement pairings could not be verified confidently from an authoritative source, so a unique choice is not established.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the traditional Mizo measurement pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q8",
@@ -610219,13 +610193,41 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "All the four"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the traditional Mizo terminology pairings could not be verified confidently from an authoritative source, so a unique choice is not established.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the traditional Mizo terminology pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
+  },
+  {
+    "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q9",
+    "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
+    "questionNumber": "9",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "The NITI Aayog and which international organization launched “The Gandhian Challenge”?",
+    "options": [
+      "UNESCO",
+      "FAO",
+      "UNICEF",
+      "WHO"
+    ],
+    "answerIndex": 2,
+    "explanation": "The NITI Aayog launched The Gandhian Challenge with UNICEF (C).",
+    "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
+    "year": 2020,
+    "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q10",
@@ -610243,17 +610245,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Bipin Rawat",
       "RKS Bhadauria"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "General Bipin Rawat became India’s first Chief of Defence Staff (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q11",
@@ -610271,14 +610272,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Climate Anxiety",
       "Climate Emergency"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Oxford Dictionaries chose “Climate Emergency” as its 2019 Word of the Year (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q12",
@@ -610296,14 +610299,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Maharashtra",
       "Uttar Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Justice S. A. Bobde served as Chief Justice of the Madhya Pradesh High Court (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q13",
@@ -610321,17 +610326,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Syria",
       "Turkey"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Qassim Soleimani was an Iranian military commander (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q14",
@@ -610349,14 +610353,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "UNESCO",
       "SAARC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The claim in the question refers to the Shanghai Cooperation Organisation’s eight wonders list (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q15",
@@ -610374,17 +610380,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Frog",
       "Fish"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Schistura syngkai is a fish species (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q16",
@@ -610402,14 +610407,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Beijing",
       "New Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first international landslide-risk conference was held in New Delhi (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q17",
@@ -610427,17 +610434,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "India",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India was the first Asian Guest of Honour Country at the Mexico International Book Fair (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q18",
@@ -610455,14 +610461,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Guwahati",
       "Chennai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Guwahati hosted the 3rd Khelo India Youth Games (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q19",
@@ -610480,17 +610488,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "CBSE",
       "HBSE"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "CBSE announced AI instruction in schools from 2019–20 (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q20",
@@ -610508,17 +610515,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Maithili",
       "Santhali"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Santhali was used in the Rajya Sabha for the first time in 2019 (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q21",
@@ -610536,14 +610542,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Punjab",
       "Maharastra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Karnataka partnered with the World Economic Forum to promote electric mobility (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q22",
@@ -610561,14 +610569,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "11",
       "13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India ranked 11th in the 2019 Climate Change Performance Index (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q23",
@@ -610586,17 +610596,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "USA",
       "Poland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Poland opposed/left the EU’s 2050 climate-neutrality commitment (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q24",
@@ -610614,14 +610623,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Kolkata",
       "Chandigarh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Delhi approved an Electric Vehicle Policy in 2019 (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q25",
@@ -610639,14 +610650,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Maharastra",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Odisha introduced meals in exchange for plastic waste (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q26",
@@ -610664,14 +610677,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "RISEN India",
       "Boost New India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 5th India International Science Festival used the theme “RISEN India” (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q27",
@@ -610689,14 +610704,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "IIT Kharagpur",
       "IIT Kanpur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "IIT Madras launched the Arise standing wheelchair (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q28",
@@ -610714,14 +610731,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Flipkart",
       "Alibaba"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Amazon introduced Project Zero in India to combat counterfeit goods (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q29",
@@ -610739,14 +610758,43 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Pele",
       "Igor Stimac"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Arsène Wenger was named FIFA Chief of Global Football Development (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q30",
+    "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
+    "questionNumber": "30",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "general",
+    "topicLabel": "General Studies",
+    "difficulty": "medium",
+    "question": "Which sportsman was recently named BBC Sports Personality of the Year 2019?",
+    "options": [
+      "Lewis Hamilton",
+      "Mo Farah",
+      "Troy Deeney",
+      "Ben Stokes"
+    ],
+    "answerIndex": 3,
+    "explanation": "Ben Stokes was named BBC Sports Personality of the Year 2019 (D).",
+    "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
+    "year": 2020,
+    "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q31",
@@ -610764,17 +610812,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Greta Thunberg",
       "LeBron James"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "TIME named Greta Thunberg its 2019 Person of the Year (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q32",
@@ -610792,17 +610839,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Once Upon a time in Hollywood",
       "Joker"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "1917 won the 2020 Golden Globe for Best Motion Picture—Drama (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q33",
@@ -610820,17 +610866,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Lithium-ion batteries",
       "Phage display of peptides"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2019 Nobel Prize in Chemistry recognized lithium-ion batteries (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q34",
@@ -610848,17 +610893,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Pranab Bardhan",
       "Srijit Mukherji"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Abhijit Banerjee shared the 2019 Economics Nobel for work on poverty (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q35",
@@ -610876,17 +610920,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Peace prize",
       "Economic Science"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Peter Handke received the 2019 Nobel Prize in Literature (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q36",
@@ -610904,17 +610947,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Tolstoy",
       "Dickens"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dante wrote The Divine Comedy (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q37",
@@ -610932,17 +610974,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Bill Gates",
       "Mark Zuckerberg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bill Gates wrote How to Avoid a Climate Disaster (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q38",
@@ -610960,17 +611001,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Mother Teresa",
       "Karl Marx"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The world’s smallest gold coin minted by Switzerland featured Albert Einstein (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q39",
@@ -610988,14 +611028,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "December 14",
       "December 16"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India’s National Energy Conservation Day is observed on 14 December (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q40",
@@ -611013,17 +611055,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "February 25",
       "March 25"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "National Voters’ Day is observed on 25 January (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q41",
@@ -611041,17 +611082,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Padma Vibhusan",
       "Padma Bhusan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Arun Jaitley was posthumously awarded the Padma Vibhushan (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q42",
@@ -611069,14 +611109,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Post Malone & Swae Lee",
       "Lizzo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Billie Eilish won the 2020 Grammy Record of the Year for “Bad Guy” (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q43",
@@ -611094,17 +611136,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "May 30",
       "June 30"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Mizoram Peace Accord was signed on 30 June 1986 (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q44",
@@ -611122,17 +611163,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "24th",
       "25th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram became the 23rd state of the Indian Union (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q45",
@@ -611150,14 +611190,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "JH Lorrain",
       "DE Jones"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "William Williams is identified as the first missionary to come to Mizoram (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q46",
@@ -611175,18 +611217,19 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "73",
       "74"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram became a Union Territory on 21 January 1972 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q47",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611203,17 +611246,16 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "27th November, 2019",
       "28th November, 2019"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India celebrated its 70th Constitution Day on 26 November 2019 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q48",
@@ -611231,20 +611273,17 @@ const groupBQuestionsPart73: BankQuestion[] = [
       "Article 356",
       "Article 350"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Article 356 authorizes President’s Rule in a state (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q49",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611261,14 +611300,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Tripura",
       "Manipur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Manipur is not listed in the Sixth Schedule (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q50",
@@ -611286,17 +611327,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Jain",
       "Sufi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Citizenship Amendment Act 2019 lists six communities; Sufi is not one of them (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q51",
@@ -611315,7 +611355,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Equality"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: all four choices—Dignity, Justice, Liberty and Equality—appear in the Constitution’s Preamble; the item has no “none of these” choice.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
@@ -611324,7 +611364,8 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: all four choices—Dignity, Justice, Liberty and Equality—appear in the Constitution’s Preamble; the item has no “none of these” choice."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q52",
@@ -611342,17 +611383,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Philosophy",
       "Biology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Aryabhata is renowned for astronomy and mathematics; astronomy is the matching choice (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q53",
@@ -611370,17 +611410,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Lord Canning",
       "Lord Irwin"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lord Mountbatten was the last Viceroy of British India (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q54",
@@ -611398,14 +611437,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Michael O’Dwyer",
       "James Bouley"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Brigadier-General Reginald Dyer gave the order to fire at Jallianwala Bagh (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q55",
@@ -611423,17 +611464,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Lithosphere",
       "Asthenosphere"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tectonic plates form the rigid lithosphere (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q56",
@@ -611451,17 +611491,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Jupiter",
       "Uranus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Venus has no natural moon (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q57",
@@ -611479,17 +611518,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Gujarat",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "West Bengal was the leading rice-producing state in the question’s 2020 context (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q58",
@@ -611507,17 +611545,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "8",
       "9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "After the 2019 reorganization of Jammu and Kashmir, India had eight Union Territories (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q59",
@@ -611535,14 +611572,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Maubuang",
       "Keitum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Tropic of Cancer passes through Maubuang in Mizoram (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q60",
@@ -611560,17 +611599,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Russia",
       "Poland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lake Baikal is in Russia (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q61",
@@ -611588,17 +611626,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Acrology",
       "Geology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Orology is the study of mountains (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q62",
@@ -611616,17 +611653,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Max Plank",
       "Rutherford"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Henri Becquerel discovered natural radioactivity (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q63",
@@ -611644,17 +611680,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Riyal",
       "Dirham"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The UAE currency is the dirham (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q64",
@@ -611672,14 +611707,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Karnataka",
       "Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "ISRO’s Master Control Facility is at Hassan, Karnataka (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q65",
@@ -611697,17 +611734,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Spain",
       "Italy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Statue of Liberty was a gift from the people of France (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q66",
@@ -611725,17 +611761,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Citric Acid",
       "Acetic Acid"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vinegar’s principal acid is acetic acid (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q67",
@@ -611753,17 +611788,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Blood Cell",
       "Skin Cell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The longest cell in the human body is a nerve cell (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q68",
@@ -611781,17 +611815,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Middle East",
       "Middle Echophraxia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "MERS means Middle East Respiratory Syndrome (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q69",
@@ -611809,17 +611842,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Nitrous Alum",
       "Sulphur Alum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Potash alum is used as an astringent to help stop minor bleeding (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q70",
@@ -611837,17 +611869,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Chadwick",
       "Bohr"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "James Chadwick discovered the neutron (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q71",
@@ -611865,17 +611896,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Scurvy",
       "Night blindness"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vitamin A deficiency can cause night blindness (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q72",
@@ -611894,13 +611924,14 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "24"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the 3D triangle-counting figure does not support a confident, reproducible count from the scan.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the 3D triangle-counting figure does not support a confident, reproducible count from the scan."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q73",
@@ -611919,7 +611950,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "8"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the printed radical/superscript expression is not legible enough to establish a unique equation or answer.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
@@ -611928,7 +611959,8 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the printed radical/superscript expression is not legible enough to establish a unique equation or answer."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q74",
@@ -611946,17 +611978,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "21",
       "23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The last column follows 13+8−4=17 (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q75",
@@ -611974,17 +612005,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "16",
       "18"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "40 km/h = 100/9 m/s; 200 m ÷ (100/9) = 18 seconds (D).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q76",
@@ -612003,7 +612033,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "65,750"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the graph gives 217 thousand tons of sheet imports; multiplying by $256/ton yields about $55.552 million, while the options are around $55 thousand and the question does not state a scale conversion.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=8",
@@ -612012,7 +612042,8 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the graph gives 217 thousand tons of sheet imports; multiplying by $256/ton yields about $55.552 million, while the options are around $55 thousand and the question does not state a scale conversion."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q77",
@@ -612030,15 +612061,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Two dots",
       "Cross"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Using the rotated cube views, the face opposite the single-dot face has three dots (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q78",
@@ -612056,18 +612088,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Four dots",
       "Line"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The two-dot face is opposite the four-dot face (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q79",
@@ -612085,18 +612115,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Line",
       "Four dots"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The cross is opposite the line face (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q80",
@@ -612114,18 +612142,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "RZHGZ",
       "RBHIB"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Each letter is shifted backward by 1, 2, 3, 4 and 5 places; SAIHA becomes RYFDV (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q81",
@@ -612143,18 +612169,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "93322",
       "93232"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The code maps H=9, A=2 and M=3, so HAMAM becomes 92323 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q82",
@@ -612165,25 +612189,23 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "X and Y are natural numbers other than 1, and Y is greater than X. Which of the following represents the largest number?",
+    "question": "X and Y are natural numbers other than 1, and Y is greater than X. Which expression represents the largest number?",
     "options": [
-      "XY",
-      "X | Y",
-      "Y | X",
-      "(X+Y) | XY"
+      "X^Y",
+      "X/Y",
+      "Y/X",
+      "(X+Y)/(XY)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "For integers Y>X>1, X^Y exceeds the other listed ratios and products (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q83",
@@ -612201,18 +612223,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Reversing a0c to c0a changes the value by 99(c−a)=198, so the endpoint digits differ by 2 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q84",
@@ -612230,18 +612250,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "6",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "In a 3×3×3 cube, the 12 edge-center cubes each have exactly two painted faces (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q85",
@@ -612259,18 +612277,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Pencil = Cap",
       "Pencil > Cap"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pen<Pencil and Pencil<Book imply Pen<Book in every case (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q86",
@@ -612281,22 +612297,23 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "A bag contains 15 red balls and 20 black balls. Each ball is numbered either 1 or 2 or 3. 20% of the red balls are numbered 1 and 40% of them are numbered 3. Similarly, among the black balls, 45% are numbered 2 and 30% are numbered 3. A boy picks a ball at random. He wins if the ball is red and numbered 3 or if it is black and numbered 1 or 2. What are the chances of his winning? 14",
+    "question": "A bag contains 15 red and 20 black balls. Each ball is numbered 1, 2 or 3. 20% of red balls are numbered 1 and 40% are numbered 3. Among the black balls, 45% are numbered 2 and 30% are numbered 3. A ball is chosen at random. The boy wins if it is a red ball numbered 3 or a black ball numbered 1 or 2. What is the probability of winning?",
     "options": [
-      "",
-      " 27 512",
-      "",
-      " 913"
+      "1/2",
+      "4/7",
+      "5/9",
+      "12/13"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Favorable outcomes: 40% of 15 red = 6; 70% of 20 black =14; total 20/35=4/7 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q87",
@@ -612314,18 +612331,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "150",
       "300"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Passing score=30+30=60; if that is 40%, full marks=60/0.4=150 (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q88",
@@ -612343,18 +612358,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "₹30",
       "₹40"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "If equal percentage profit and loss give sale prices ₹40 and ₹20, their average is the cost price: ₹30 (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q89",
@@ -612372,15 +612385,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "8",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "With 24 equally spaced points, equilateral triangles use every 8th point; there are 8 unique triples (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q90",
@@ -612398,18 +612412,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "26/3/96",
       "27/3/96"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Each date is 28 days after the previous one; 26 February 1996 + 28 days = 25 March 1996 (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q91",
@@ -612425,17 +612437,17 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "On 1st June, the actual progress of work was less than expected.",
       "The actual rate of progress of work was the greatest during the month of August.",
       "The work was actually completed before the expected time.",
-      "During the period from 1st April to 1st September, at no time was the actual progress more"
+      "During the period from 1 April to 1 September, at no time was actual progress more than expected progress."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the graph shows actual progress exceeding expected progress during part of August, making both (c) (“completed before the expected time”) and (d) (“at no time … more than expected”) incorrect; the question asks for a single not-correct choice.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the graph shows actual progress exceeding expected progress during part of August, making both (c) (“completed before the expected time”) and (d) (“at no time … more than expected”) incorrect; the question asks for a single not-correct choice."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q92",
@@ -612446,22 +612458,23 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Consider the figures given below : ? To fit the question mark, the correct answer is",
+    "question": "In the 3×3 symbol sequence shown in the source figure, which figure replaces the question mark?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Horizontal line with a square at the left and two bent strokes hanging below.",
+      "Horizontal line with a round dot at the left and two bent strokes hanging below.",
+      "Left-pointing arrow on a horizontal line with two forked strokes hanging below.",
+      "Horizontal line with a round dot at the right and two bent strokes hanging below."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The sequence cycles the three base symbols while increasing/decreasing the attached strokes by one; the missing square-left form has two bent strokes (A).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q93",
@@ -612472,22 +612485,23 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Consider the following figures : In the figures (I) to (IV) above, some parts are shown to change their positions in regular directions. Following the same sequence, which of the figures given below will appear at (VII) stage?",
+    "question": "In the six-sector circular figures shown in the source, symbols move in a regular sequence. Which option shows the figure at stage VII?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Circle divided into six sectors; triangle upper-left, square lower-right.",
+      "Circle divided into six sectors; square and triangle together at the bottom.",
+      "Circle divided into six sectors; square at the top, triangle lower-left.",
+      "Circle divided into six sectors; triangle at the top, square at the bottom."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The square advances one sector clockwise and the triangle one sector counter-clockwise; stage VII has the square at top and triangle lower-left (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 77 - 79) : Rotated positions of a single solid are shown below. The various faces"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q94",
@@ -612506,14 +612520,14 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "D"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the office-plan wording does not establish a unique orientation for left/right, so E’s left-hand neighbor is not reliably determined.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=11",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the office-plan wording does not establish a unique orientation for left/right, so E’s left-hand neighbor is not reliably determined."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q95",
@@ -612532,14 +612546,14 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "B and C"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the office-plan constraints allow more than one placement for the officers, so F’s immediate neighbor(s) are not uniquely established.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=11",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the office-plan constraints allow more than one placement for the officers, so F’s immediate neighbor(s) are not uniquely established."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q96",
@@ -612558,7 +612572,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "Lakshmi"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held out: the doubles-game clues do not uniquely identify the best player without an additional ranking/partner constraint.",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=12",
@@ -612567,8 +612581,8 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceReviewed": true,
+    "sourceNote": "Held out: the doubles-game clues do not uniquely identify the best player without an additional ranking/partner constraint."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q97",
@@ -612579,25 +612593,23 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "101. If day before yesterday was Friday then what will be the third day after the day-after-tomorrow?",
+    "question": "If the day before yesterday was Friday, what will be the third day after the day-after-tomorrow?",
     "options": [
       "Sunday",
       "Saturday",
       "Friday",
       "Thursday"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "If the day before yesterday was Friday, today is Sunday; the day-after-tomorrow is Tuesday, and its third following day is Friday (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=12",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q98",
@@ -612615,18 +612627,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "1",
       "24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Clock hands coincide 11 times in 12 hours, hence 22 times in a day (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q99",
@@ -612644,18 +612654,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "12 mins",
       "12 hours"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The three runners’ lap times are 6, 4 and 3 minutes; their first common return is lcm(6,4,3)=12 minutes (C).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=12",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q100",
@@ -612673,18 +612681,16 @@ const groupBQuestionsPart74: BankQuestion[] = [
       "ii only",
       "i, ii, iii and iv"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "XL=40, L=50 and LX=60 are correct; 70 is LXX, not XLX (B).",
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-gs.pdf#page=12",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 94 & 95): Read the following information and answer the following questions."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-chemist2-2020-english-B1",
@@ -619529,7 +619535,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q41",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -619579,9 +619587,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q43",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -627517,7 +627523,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q79",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -627571,9 +627579,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q81",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -635643,7 +635649,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 62 - 66) : Pick the correct clause in the given sentences."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q67",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -635701,9 +635709,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 67 - 71) : Choose the correct collocation."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q69",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -643891,7 +643897,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q79",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -643947,9 +643955,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q81",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -651970,7 +651976,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 51 - 60) : Convert the following sentences as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q60",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -652026,9 +652034,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q62",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -660097,7 +660103,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q54",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -660153,9 +660161,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q56",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -668752,7 +668758,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q63",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -668812,9 +668820,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q65",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -677767,7 +677773,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q15",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -677827,9 +677835,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q17",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -686778,7 +686784,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q51",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -686838,9 +686846,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q54",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -695772,7 +695778,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q43",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -695832,9 +695840,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -704336,7 +704342,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q68",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -704398,9 +704406,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q70",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -713119,7 +713125,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q59",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -713179,9 +713187,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q61",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -722133,7 +722139,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q86",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -722192,9 +722200,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q88",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -729720,7 +729726,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q32",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729770,9 +729778,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q34",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -738509,7 +738515,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q85",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -738575,9 +738583,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q87",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -747045,7 +747051,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=2",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q16",
     "questionNumber": "16",
@@ -747097,9 +747105,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=2",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q18",
     "questionNumber": "18",
@@ -751907,6 +751913,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-ada-2014-gk": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-si-excise-2025-p1": {
     "marksPerQuestion": 2,
     "durationMinutes": 180,
@@ -753381,6 +753393,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-acf-2018-gk": 100,
   "mpsc-group-b-asce-2021-english-p2": 100,
   "mpsc-group-b-vety-mah-2021-english-p2": 100,
+  "mpsc-group-b-ada-2014-gk": 100,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,
   "mpsc-group-b-inspector-excise-2025-gs1": 50,

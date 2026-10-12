@@ -757,6 +757,7 @@
     "sourceHref": "/papers/group-b/ada-2014-gk.pdf",
     "keyHref": null,
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {

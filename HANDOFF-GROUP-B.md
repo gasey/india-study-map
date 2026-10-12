@@ -540,8 +540,8 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
 **13 missing**; these no longer match the imported archive. Refresh those
 assertions before relying on the script. The current Group B build report is
-15,126 ready, 8,322 official, 446 held-reviewed, 11,156 unreviewed and 735
-missing MCQs. AAO 2024 General English is Exam-mode eligible while AAO 2024
+15,314 ready, 8,322 official, 458 held-reviewed, 10,958 unreviewed and 733
+missing MCQs (25,857 MCQs total across 404 papers). AAO 2024 General English is Exam-mode eligible while AAO 2024
 Arithmetic remains out because it has a compensated item.
 
 When extracting generated question arrays for an audit, use
@@ -563,3 +563,28 @@ the durable reviewed transcription and answers are in
 `tools/udc-ldc-build/group-b-text-repairs.json` under
 `asi-home-2018-mathematics`. The generator now records the paper's printed
 three-hour duration and one mark per question.
+
+
+## Assistant Divisional Accountant GK 2014 answer review — 12 October 2026
+
+Checked all 100 questions and choices against the 2014 scan. Added 99 derived
+answers with explanations; Q71 is held because “Venice: City of Merchants” is a
+defensible epithet, so the “wrong match” question has no unique answer. Fixed
+Q11’s OCR tail and restored “44th” in Q12. No official MPSC answer key is
+available or used. The review ledger reports 99 ready, 1 held, 0 pending.
+
+Source: `public/papers/group-b/ada-2014-gk.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `ada-2014-gk`.
+
+## Assistant Engineer Civil Tourism GS 2020 answer review — 12 October 2026
+
+Checked all 100 numbered questions against the February 2020 scan. Restored
+missing Q9 and Q30 and corrected OCR/layout damage in Q30, Q82, Q86, Q91 and
+Q97. Added 89 derived answers with explanations. Eleven items remain held:
+Q6–8, Q51, Q72–73, Q76, Q91 and Q94–96, for defective options, unreadable
+figures/terminology, or non-unique answers. No official MPSC key is available
+or used. The review ledger reports 89 ready, 11 held, 0 pending.
+
+Source: `public/papers/group-b/ae-civil-tourism-2020-gs.pdf`; durable review
+input: `tools/udc-ldc-build/group-b-text-repairs.json` under
+`ae-civil-tourism-2020-gs`.

@@ -170015,6 +170015,3217 @@
           "explanation": "Exactly 3 of 8 equally likely outcomes have two heads; probability=3/8 (C)."
         }
       }
+    },
+    "ada-2014-gk": {
+      "sourceSha256": "1315843362b762c1a657dcc763b2a5dd6d673996242aa2ac2d39d7a8d8b9f70e",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "partialReview": false,
+      "evidence": "All 100 questions and option sequences were checked against the October 2014 source scan. The OCR tail on Q11 option D and missing “th” in Q12’s 44th were corrected. No official MPSC key is available or used; answers are independently derived. Q71 is held because its nickname pairings do not yield one uniquely wrong choice.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "According to the recent report published by WHO (April 2014), which of the following has emerged as the world’s single largest environmental health risk, having caused seven million deaths in 2012?",
+          "opts": {
+            "a": "Water pollution",
+            "b": "Air pollution",
+            "c": "Deforestation",
+            "d": "Shifting cultivation"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "The country which recently blocked access to Twitter for its citizens",
+          "opts": {
+            "a": "Turkey",
+            "b": "China",
+            "c": "Cuba",
+            "d": "Ukraine"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "What is the name of Google’s new project which intends to provide high speed broadband internet connection in selected cities?",
+          "opts": {
+            "a": "Google Net",
+            "b": "Google Fiber",
+            "c": "Google Demo",
+            "d": "Google Connect"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Mr John Ashe visited India during 19th to 22nd March to look into the issue of two Italian marines facing trial in India for killing two Indian fishermen. He is currently the president of",
+          "opts": {
+            "a": "International Court of Justice",
+            "b": "International Human Rights Commission",
+            "c": "International Monetary Fund",
+            "d": "United Nations General Assembly"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Which among the following states has been ranked top in creation of new jobs in the manufacturing sector as per the data of National Sample Survey?",
+          "opts": {
+            "a": "Gujarat",
+            "b": "West Bengal",
+            "c": "Karnataka",
+            "d": "Mizoram"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "StoreDot on 8 April 2014 developed a new smart phone battery called ‘Nanodots’ that recharges in 30 seconds. StoreDot is a startup that operates in which country?",
+          "opts": {
+            "a": "England",
+            "b": "Israel",
+            "c": "China",
+            "d": "India"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "The theme of “World Malaria Day-2014” is",
+          "opts": {
+            "a": "Create Awareness, Curb Malaria",
+            "b": "Invest in the future. Defeat Malaria",
+            "c": "No Mosquitoes No Malaria",
+            "d": "Say Good Bye to Malaria"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "With which one of the following countries has India recently concluded an agreement under Foreign Account Tax Compliance Act (FATCA) to combat tax evasion?",
+          "opts": {
+            "a": "USA",
+            "b": "Russia",
+            "c": "Switzerland",
+            "d": "Netherland"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "Which day is celebrated as ‘International Women’s Day’?",
+          "opts": {
+            "a": "March 8",
+            "b": "March 22",
+            "c": "May 8",
+            "d": "May 22"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The ousted Ukrainian president currently given Political Asylum by Russia on the backdrop of mass protest over his action of having closer ties with Russia against EU is",
+          "opts": {
+            "a": "Mikhail Kalashnikov",
+            "b": "Viktor Yanukovych",
+            "c": "Oleksandr Turchynov",
+            "d": "Mykola Azarov"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Before his resignation on 14th February 2014, for how many days did Arvind Kejriwal act as Chief Minister of Delhi?",
+          "opts": {
+            "a": "45 days",
+            "b": "47 days",
+            "c": "48 days",
+            "d": "49 days"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "The venue of the 44th annual meeting of the World Economic Forum held from 22–25 January 2014 is",
+          "opts": {
+            "a": "Pretoria, S.Africa",
+            "b": "Warsaw, Poland",
+            "c": "Davos, Switzerland",
+            "d": "Bali, Indonesia"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "The recommendations of the 7th Pay Commission established by the Government of India would be implemented with effect from",
+          "opts": {
+            "a": "1st January 2015",
+            "b": "1st April 2015",
+            "c": "1st January 2016",
+            "d": "1st April 2016"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "Lee Kun-hee, who is facing an arrest warrant in a 1.4 million dollar cheating case is the Chairman of",
+          "opts": {
+            "a": "Nokia",
+            "b": "Samsung",
+            "c": "LG",
+            "d": "IBM"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Inflation, in theory, occurs",
+          "opts": {
+            "a": "When the price of essential commodities outstrips income",
+            "b": "When money supply grows at a higher rate than GDP in real terms",
+            "c": "When the exchange rate of a currency falls",
+            "d": "When fiscal deficit exceeds balance of payment deficit"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "The newly created Telangana state has how many Assembly and Parliamentary seats?",
+          "opts": {
+            "a": "120 and 17",
+            "b": "119 and 17",
+            "c": "134 and 20",
+            "d": "125 and 23"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "What is the name of the Submarine whose accident on February 2014 resulted in the resignation of the then Chief of the Naval Staff Admiral DK Joshi?",
+          "opts": {
+            "a": "INS Chakra",
+            "b": "INS Ashwini",
+            "c": "INS Sindhuratna",
+            "d": "INS Sidhurakshak"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Which country has become the third in South Asia after India and Bangladesh to have their voters the right to cast negative votes during Parliamentary or Assembly elections?",
+          "opts": {
+            "a": "Bhutan",
+            "b": "Nepal",
+            "c": "Pakistan",
+            "d": "Sri Lanka"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "“Fighting Poverty in Asia and the Pacific” is the motto of",
+          "opts": {
+            "a": "ASEAN",
+            "b": "SAARC",
+            "c": "Asian Development Bank",
+            "d": "BRICS"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "India has recently tested its first indigenous air-to-air missile successfully. What is the name of this missile?",
+          "opts": {
+            "a": "Astra",
+            "b": "Astro",
+            "c": "Astria",
+            "d": "Astrya"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Who is the present Finance Minister of Mizoram?",
+          "opts": {
+            "a": "Pu Lal Thanhawla",
+            "b": "Pu Lalsawta",
+            "c": "Pu H.Liansailova",
+            "d": "Pu P.C.Lalthanliana"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "The national highway that connects the city of Delhi with that of Amritsar is",
+          "opts": {
+            "a": "National Highway No. 1",
+            "b": "National Highway No. 2",
+            "c": "National Highway No. 3",
+            "d": "National Highway No. 7"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "Which among the following has become the first new generation private sector bank to launch an electronic Kisan Card on the RuPay platform?",
+          "opts": {
+            "a": "Axis Bank",
+            "b": "HDFC Bank",
+            "c": "ICICI",
+            "d": "City Bank"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Which country produces the largest number of films every year?",
+          "opts": {
+            "a": "China",
+            "b": "USA",
+            "c": "India",
+            "d": "South Korea"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "“Watson” is an artificially intelligent computer system capable of answering questions posed in natural language, developed by",
+          "opts": {
+            "a": "Google",
+            "b": "IBM",
+            "c": "Microsoft",
+            "d": "Dell"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Currently, which English newspaper has the highest circulation in the world?",
+          "opts": {
+            "a": "The New York times",
+            "b": "The Washington Post",
+            "c": "The Times of India",
+            "d": "The Shanghai Express"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "Which of the following is the largest bank in the world in terms of market capitalization?",
+          "opts": {
+            "a": "China Construction Bank",
+            "b": "Industrial & Commercial Bank of China",
+            "c": "Wells Fargo & Co",
+            "d": "Bank of America"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "As per the United Nation Refugee Agency, which among the following countries has the biggest source for asylum seekers?",
+          "opts": {
+            "a": "Russia",
+            "b": "Ukraine",
+            "c": "Afghanistan",
+            "d": "Syria"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "According to Census of India 2011, which state has the lowest percentage of Scheduled Castes population in India?",
+          "opts": {
+            "a": "Goa",
+            "b": "Punjab",
+            "c": "Nagaland",
+            "d": "Mizoram"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "What Government scheme aims at providing self-employment to educated unemployed youth in India?",
+          "opts": {
+            "a": "SJSRY",
+            "b": "SGRY",
+            "c": "PMRY",
+            "d": "IRDP"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "At present, the maximum strength of the Lok Sabha as envisaged by the Constitution is",
+          "opts": {
+            "a": "542",
+            "b": "545",
+            "c": "548",
+            "d": "552"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which state in India has been providing the highest average employment consecutively for the past five years under MGNREGS?",
+          "opts": {
+            "a": "Mizoram",
+            "b": "Tripura",
+            "c": "Punjab",
+            "d": "Kerala"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "The Union government has recently launched the “Maulana Azad Sehat Scheme” a health scheme for",
+          "opts": {
+            "a": "Minority Women",
+            "b": "Minority Students",
+            "c": "Minority Senior Citizens",
+            "d": "Minority Disabled Persons"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "According to the latest data released by Central Statistics Office (CSO), which among the following states has emerged as fastest growing state during 2012-13?",
+          "opts": {
+            "a": "Madhya Pradesh",
+            "b": "Kerala",
+            "c": "Gujarat",
+            "d": "Bihar"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "The world’s oldest man Mr. Arturo Licata, aged 111, who died recently belongs to which country?",
+          "opts": {
+            "a": "Italy",
+            "b": "Japan",
+            "c": "Cuba",
+            "d": "Argentina"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Recently, which among the following states has become first Indian state to observe “Child Protection Day”?",
+          "opts": {
+            "a": "Tripura",
+            "b": "Sikkim",
+            "c": "Assam",
+            "d": "Meghalaya"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Who is the present de-jure head of India?",
+          "opts": {
+            "a": "Pranab Mukherjee",
+            "b": "Manmohan Singh",
+            "c": "Narendra Modi",
+            "d": "Arvin Kejriwal"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Which country is the latest independent country in the world?",
+          "opts": {
+            "a": "Crimea",
+            "b": "East Timor",
+            "c": "South Sudan",
+            "d": "Republic of Ireland"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "On February 2014, the Supreme Court of India ordered the arrest of Mr. Subrata Roy. At that time, he was the chief of which Indian company?",
+          "opts": {
+            "a": "Sahara Group",
+            "b": "Jindal Group",
+            "c": "TATA Group",
+            "d": "Reliance Communications"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "Presently, who is the President of the World Bank?",
+          "opts": {
+            "a": "Irina Bokova",
+            "b": "Peter Tomka",
+            "c": "Roberto Azevedo",
+            "d": "Jim Yong Kim"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Who wrote the book ‘Conversations with Myself’?",
+          "opts": {
+            "a": "Nelson Mandela",
+            "b": "Jawaharlal Nehru",
+            "c": "Kushwant Singh",
+            "d": "Amartya Sen"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Name the person who recently published a book/memoir “The Accidental Prime Minister : The Making and Unmaking of Manmohan Singh”",
+          "opts": {
+            "a": "Sanjaya Baru",
+            "b": "Vikram Seth",
+            "c": "Jaswant Singh",
+            "d": "C.Rangarajan"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Who is the Author of the famous book “Revolution 2020”?",
+          "opts": {
+            "a": "Vikram Seth",
+            "b": "Chetan Bhagat",
+            "c": "VS Naipaul",
+            "d": "APJ Abdul Kalam"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Name the great personality whose Autobiography is titled ‘A long Walk to Freedom’?",
+          "opts": {
+            "a": "Rosa Park",
+            "b": "Martin Luther King Jr.",
+            "c": "Nelson Mandela",
+            "d": "Mahatma Gandhi"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Who was the author of a famous book ‘Wealth of Nations’?",
+          "opts": {
+            "a": "William Shakespeare",
+            "b": "Adam Smith",
+            "c": "Lewis Wallace",
+            "d": "Louis Fisher"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "On 4th April, 2014, Ms. Marie Louise Coleiro Preca became the 9th president of",
+          "opts": {
+            "a": "Trinidad & Tobago",
+            "b": "Maldives",
+            "c": "Malta",
+            "d": "Ethiopia"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Who is the current Governor of Reserve Bank of India?",
+          "opts": {
+            "a": "Dr. Duvvuri Subbarao",
+            "b": "Dr. Y.V.Reddy",
+            "c": "Dr. Vijay L.Kelkar",
+            "d": "Dr. Raghuram Rajan"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Who among the following is the Chairman of the 7th Pay Commission of India?",
+          "opts": {
+            "a": "Rathin Roy",
+            "b": "Vivek Rae",
+            "c": "Meena Agarwal",
+            "d": "Ashok Kumar Mathur"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Who is the current Secretary of States of the USA?",
+          "opts": {
+            "a": "James Kerry",
+            "b": "John Kelly",
+            "c": "John Kerry",
+            "d": "John Knightly"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "The first Mizo woman Pastor Prof. R.L.Hnuni, who was officially ordained in accordance with the law of the Church belongs to which denomination?",
+          "opts": {
+            "a": "Presbyterian Church",
+            "b": "Baptist Church of Mizoram",
+            "c": "The Salvation Army",
+            "d": "United Pentecostal Church"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "The TSG 1899 Hoffenheim football club belongs to",
+          "opts": {
+            "a": "English Premiere League",
+            "b": "Italian Serie A",
+            "c": "German Bundesliga",
+            "d": "Spanish La Liga"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "Who amongst the following commands the highest bid in the two-day IPL players’ auction held in Bengaluru in February 2014?",
+          "opts": {
+            "a": "Yuvraj Singh",
+            "b": "Dinesh Karthik",
+            "c": "Virat Kohli",
+            "d": "Suresh Raina"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "Who among the following has been named as Professional Footballers Association player of the year 2013?",
+          "opts": {
+            "a": "Eden Hazard",
+            "b": "Luis Suarez",
+            "c": "Steven Gerrard",
+            "d": "Daniel Sturridge"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "‘Volley Ball’ is the National Sports of",
+          "opts": {
+            "a": "Australia",
+            "b": "Fiji",
+            "c": "Sri Lanka",
+            "d": "Cuba"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Who was the Best Player of the Mahindra Two Wheelers Mizoram Premiere League - Two (MPL-2)?",
+          "opts": {
+            "a": "M.S.Dawngliana",
+            "b": "Zothanpuia",
+            "c": "Reuben Zosangpuia",
+            "d": "R.Malsawmtluanga"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Which of the following Clubs won the I-League Football title, 2014?",
+          "opts": {
+            "a": "Bengaluru FC",
+            "b": "Dempo Sports Club",
+            "c": "Salgaocar Football Club",
+            "d": "East Bengal FC"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Which country will host Cricket World Cup 2015?",
+          "opts": {
+            "a": "India",
+            "b": "England",
+            "c": "Pakistan and Bangladesh",
+            "d": "Australia and New Zealand"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Which of the following countries will host 2018 Winter Olympics?",
+          "opts": {
+            "a": "Netherland",
+            "b": "Japan",
+            "c": "Singapore",
+            "d": "South Korea"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Which is the Official Song for FIFA World Cup, 2014?",
+          "opts": {
+            "a": "The Time of Our Lives",
+            "b": "We Are One",
+            "c": "Boom",
+            "d": "The Cup of Life"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Winner of Australian Open 2014 Men’s Single",
+          "opts": {
+            "a": "Stanislas Wawrinka",
+            "b": "Novak Djokovic",
+            "c": "Rafael Nadal",
+            "d": "Andy Murray"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "Expand the term CTBT",
+          "opts": {
+            "a": "Comprehensive Tax Benefit Treaty",
+            "b": "Comprehensive Test Ban Treaty",
+            "c": "Counter Terrorists Ban Treaty",
+            "d": "Comprehensive Treaty on Tax Benefits"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "A new economic term GIRO is being reported in newspapers recently, what does GIRO stand for?",
+          "opts": {
+            "a": "Government Internal Resource Order",
+            "b": "Government Internet Related Order",
+            "c": "Government Internal Revenue Order",
+            "d": "Government Internal Record Order"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "What does ‘IAEA’ stand for?",
+          "opts": {
+            "a": "International Atomic Energy Authority",
+            "b": "International Atomic Energy Agency",
+            "c": "International Authority of Energical Atomic",
+            "d": "International Atomic Engineering Agency"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "Full form of LED is -",
+          "opts": {
+            "a": "Light Emitting Disc",
+            "b": "Linen Embryo Dye",
+            "c": "Light Emitting Diode",
+            "d": "Light Eating Disc"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "q": "What is the full form of PURA?",
+          "opts": {
+            "a": "Providing Urban Amenities in Rural Areas",
+            "b": "Providing Unemployed Rural Agriculturists",
+            "c": "Providing Urban & Rural Equal Amenities",
+            "d": "Providing Unemployed Rural with Amenities"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "q": "The Indian state popularly known as ‘Land of Five Rivers’ is",
+          "opts": {
+            "a": "Uttar Pradesh",
+            "b": "Haryana",
+            "c": "Punjab",
+            "d": "Maharastra"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "“Playground of Europe” refers to",
+          "opts": {
+            "a": "Norway",
+            "b": "Switzerland",
+            "c": "Romania",
+            "d": "Sweden"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "The planet also known as ‘The Earth’s Twin’ is",
+          "opts": {
+            "a": "Mercury",
+            "b": "Mars",
+            "c": "Venus",
+            "d": "Saturn"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "A city popularly known as “City of Seven Hills” refers to",
+          "opts": {
+            "a": "Washington",
+            "b": "Rome",
+            "c": "Shillong",
+            "d": "Vancouver"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "Which city is popularly known as “Slaughter House of the World”?",
+          "opts": {
+            "a": "Chicago",
+            "b": "Seol",
+            "c": "Mumbai",
+            "d": "Tokyo"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "Which of the following combinations is wrong?",
+          "opts": {
+            "a": "Aberdeen : Granite City",
+            "b": "Egypt : Gift of Nile",
+            "c": "Korea : Hermit Kingdom",
+            "d": "Venice : City of Merchants"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the scan offers Aberdeen–Granite City, Egypt–Gift of the Nile, Korea–Hermit Kingdom and Venice–City of Merchants. The last is also a historically defensible epithet, so the prompt does not establish one uniquely wrong pairing.",
+          "explanation": "Held out: the scan offers Aberdeen–Granite City, Egypt–Gift of the Nile, Korea–Hermit Kingdom and Venice–City of Merchants. The last is also a historically defensible epithet, so the prompt does not establish one uniquely wrong pairing."
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "‘Garden in the desert’ refers to",
+          "opts": {
+            "a": "Nigeria",
+            "b": "Ethiopia",
+            "c": "Sahara",
+            "d": "S.Africa"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "Which country is called ‘Cockpit of Europe’?",
+          "opts": {
+            "a": "Franc",
+            "b": "Italy",
+            "c": "Belgium",
+            "d": "Switzerland"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "Which of the following countries is known as ‘Islands of Sunshine’?",
+          "opts": {
+            "a": "West Indies",
+            "b": "Japan",
+            "c": "Solomon's Island",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "q": "Oxford (England) is also known as",
+          "opts": {
+            "a": "City of Skyscrapers",
+            "b": "City of Dreaming Spires",
+            "c": "City of Palaces",
+            "d": "City of Magnificent Distances"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "q": "The Pulitzer Prize is associated with which one of the following?",
+          "opts": {
+            "a": "Environmental Protection",
+            "b": "Journalism",
+            "c": "Olympic Games",
+            "d": "Civil Aviation"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "q": "Which of the following movies won the MTV Movie of the Year, 2014?",
+          "opts": {
+            "a": "The Hunger Games: Catching Fire",
+            "b": "The Wolf of Wall Street",
+            "c": "The Hobbit: The Desolation of Smaug",
+            "d": "12 Years a Slave"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "q": "Which of the following won the 23rd Lelte Award of ‘Album of the Year (Gospel)’?",
+          "opts": {
+            "a": "I Hming Ropui by Lawma & Judith",
+            "b": "Ka Hluin Ka Mawi A Ni by Michael VL.Rema",
+            "c": "Aw Ropui Ber by Andrew Laltlankima",
+            "d": "Kan Fak Zel Ang by Hmingtea"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "q": "Mizo Academy of Letters (MAL ) “Book of the Year 2013” is",
+          "opts": {
+            "a": "Sihlipui",
+            "b": "Zodinpuii",
+            "c": "Thinglubul",
+            "d": "Beiseina Mittui"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Recipient of “National Florence Nightingale Award 2014”",
+          "opts": {
+            "a": "Lallungmuani",
+            "b": "C.Lalnundiki",
+            "c": "Lalsangzuali",
+            "d": "Lalmuanpuii"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "The first mechanical computer was invented by",
+          "opts": {
+            "a": "Charles Babbage (1791-1871)",
+            "b": "Wilhelm Conrad Röntgen (1845-1923)",
+            "c": "Thomas Edison (1847-1931)",
+            "d": "Emile Berliner (1851-1929)"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Who among the following German physicists discovered X-rays?",
+          "opts": {
+            "a": "Wilhelm Conrad Röntgen",
+            "b": "Evangelista Torricelli",
+            "c": "Charles Babbage",
+            "d": "Emile Berliner"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "Who invented Xerography (or electrophotography)?",
+          "opts": {
+            "a": "Chester Carlson",
+            "b": "Irving Langmuir",
+            "c": "John L.Baird",
+            "d": "David Bushnell"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "Who invented Jet Engine?",
+          "opts": {
+            "a": "Gottlieb Daimler",
+            "b": "Sir Frank Whittle",
+            "c": "Roger Bacon",
+            "d": "Lewis E.Waterman"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "q": "The inventor of Bifocal Lens was",
+          "opts": {
+            "a": "Alfred B.Nobel",
+            "b": "Thomas Jefferson",
+            "c": "Abraham Lincoln",
+            "d": "Benjamin Franklin"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "q": "Who invented Telescope?",
+          "opts": {
+            "a": "P.T.Famsworth",
+            "b": "Hans Lippershey",
+            "c": "G.Marconi",
+            "d": "W.K.Roentgen"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "q": "Inventor of Printing Press",
+          "opts": {
+            "a": "Johannes Guttenberg",
+            "b": "Christian Bernard",
+            "c": "John Carbutt",
+            "d": "Zacharis Janssen"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "q": "The Solar system was discovered by",
+          "opts": {
+            "a": "Kepler",
+            "b": "Nicolaus Copernicus",
+            "c": "Magellan",
+            "d": "Gobot Sebastian"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "q": "Radio was invented by",
+          "opts": {
+            "a": "Gobot Sebastian",
+            "b": "A.H.Taylor",
+            "c": "G.Marconi",
+            "d": "P.T.Famsworth"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "q": "Inventor of ATM",
+          "opts": {
+            "a": "Shepherd-Barron",
+            "b": "Giovani Batista",
+            "c": "A.H.Taylor",
+            "d": "Roger Bacon"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "q": "Fixed programs and data that internally control various electronic devices is called-",
+          "opts": {
+            "a": "Firmware",
+            "b": "Firewall",
+            "c": "Cache",
+            "d": "Execute"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "q": "A program that acts as an interface between the software and the computer hardware is known as",
+          "opts": {
+            "a": "Operating System",
+            "b": "Windows",
+            "c": "CD ROM",
+            "d": "Programming"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "q": "Which of the following is NOT Social networking service?",
+          "opts": {
+            "a": "Google+",
+            "b": "Pinterest",
+            "c": "LAN",
+            "d": "Twitter"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "q": "What are the four things needed to connect to the Internet?",
+          "opts": {
+            "a": "Monitor, keyboard, mouse, modem",
+            "b": "Telephone line, PDA, modem and computer",
+            "c": "Telephone line, modem, computer, and an ISP",
+            "d": "Modem, computer, PDA and ISP"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "q": "Verification of a login name and password is known as",
+          "opts": {
+            "a": "configuration",
+            "b": "accessibility",
+            "c": "authentication",
+            "d": "logging in"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "q": "Which of the following is a correct format of Email address?",
+          "opts": {
+            "a": "mpsc@website@info",
+            "b": "mpsc@website.info",
+            "c": "mpscwebsite.info",
+            "d": "mpsc.website.info"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "q": "Which supercomputer is developed by the Indian Scientists?",
+          "opts": {
+            "a": "Compaq Presario",
+            "b": "Param",
+            "c": "CRAY YMP",
+            "d": "Super 301"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "q": "One Gigabyte is Approximately equal to -",
+          "opts": {
+            "a": "1000,000 bytes",
+            "b": "1000,000,000 bytes",
+            "c": "1000,000,000,000 bytes",
+            "d": "1000,000,000,000,000 bytes"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 9,
+          "q": "Check the odd term out",
+          "opts": {
+            "a": "Internet",
+            "b": "Linux",
+            "c": "Unix",
+            "d": "Windows"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 9,
+          "q": "The parity bit is added for the purpose of",
+          "opts": {
+            "a": "Coding",
+            "b": "Error detection",
+            "c": "Controlling",
+            "d": "Indexing"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "WHO’s April 2014 report identified air pollution as the largest environmental health risk linked to 7 million deaths in 2012 (B)."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Turkey blocked access to Twitter in March 2014 (A)."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "Google Fiber was Google’s high-speed broadband project for selected cities (B)."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "John Ashe was president of the United Nations General Assembly (D)."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "The cited National Sample Survey comparison named West Bengal as the leading state for new manufacturing jobs (B)."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "StoreDot was an Israeli startup (B)."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "The 2014 World Malaria Day theme was “Invest in the future. Defeat Malaria” (B)."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "India concluded its FATCA agreement with the United States (A)."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "International Women’s Day is observed on March 8 (A)."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "Viktor Yanukovych was Ukraine’s ousted president who received asylum in Russia (B)."
+        },
+        "11": {
+          "answerIndex": 3,
+          "explanation": "Kejriwal served as Delhi Chief Minister for 49 days before resigning (D)."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "The World Economic Forum’s 44th annual meeting was held in Davos, Switzerland (C)."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "The 7th Pay Commission recommendations were to take effect from 1 January 2016 (C)."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "Lee Kun-hee was chairman of Samsung (B)."
+        },
+        "15": {
+          "answerIndex": 1,
+          "explanation": "Among the options, inflation is described as money supply growing faster than real GDP (B)."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "Telangana had 119 Assembly seats and 17 Lok Sabha seats (B)."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "The submarine accident was aboard INS Sindhuratna (C)."
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "Nepal is the intended answer, referring to its Supreme Court direction on negative voting; the question’s wording overstates implementation at that time (B)."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "“Fighting Poverty in Asia and the Pacific” is the Asian Development Bank’s motto (C)."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Astra is India’s indigenous air-to-air missile (A)."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "Pu Lalsawta was Mizoram’s Finance Minister at the time (B)."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Under the highway numbering then in use, Delhi–Amritsar was National Highway 1 (A)."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "HDFC Bank was reported as the first new-generation private bank to launch the RuPay electronic Kisan Card (B)."
+        },
+        "24": {
+          "answerIndex": 2,
+          "explanation": "India produces the largest number of films annually among these choices (C)."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "IBM developed the Watson natural-language question-answering system (B)."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "The Times of India was reported as the highest-circulation English newspaper in the paper’s context (C)."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "Wells Fargo had the largest market capitalization among the listed banks in the 2014 context (C)."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "The cited UNHCR report identified Syria as the largest source of asylum seekers (D)."
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "Census 2011 showed Nagaland had the lowest Scheduled Castes population share among the listed states (C)."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The Prime Minister’s Rozgar Yojana targeted self-employment for educated unemployed youth (C)."
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "At the time of this 2014 question, the Constitution’s envisaged maximum Lok Sabha strength was 552 (D)."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "Tripura was reported as providing the highest average employment under MGNREGS for the stated five-year period (B)."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "The Maulana Azad Sehat Scheme served minority students, including students at MAEF-aided institutions (B)."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "For the cited 2012–13 CSO comparison, Madhya Pradesh was identified as the fastest-growing listed state (A)."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Arturo Licata was Italian (A)."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "Tripura was reported as the first Indian state to observe Child Protection Day (A)."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "Pranab Mukherjee was India’s President and thus the de-jure head of state in 2014 (A)."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "South Sudan, independent since 2011, was the newest independent country at the time (C)."
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Subrata Roy headed the Sahara Group (A)."
+        },
+        "40": {
+          "answerIndex": 3,
+          "explanation": "Jim Yong Kim was World Bank president in 2014 (D)."
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Nelson Mandela wrote Conversations with Myself (A)."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Sanjaya Baru authored The Accidental Prime Minister (A)."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Chetan Bhagat authored Revolution 2020 (B)."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "Long Walk to Freedom is Nelson Mandela’s autobiography (C)."
+        },
+        "45": {
+          "answerIndex": 1,
+          "explanation": "Adam Smith wrote The Wealth of Nations (B)."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "Marie Louise Coleiro Preca became President of Malta (C)."
+        },
+        "47": {
+          "answerIndex": 3,
+          "explanation": "Raghuram Rajan was RBI Governor in 2014 (D)."
+        },
+        "48": {
+          "answerIndex": 3,
+          "explanation": "Ashok Kumar Mathur chaired India’s 7th Pay Commission (D)."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "John Kerry was US Secretary of State in 2014 (C)."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "R. L. Hnuni belonged to the Baptist Church of Mizoram (B)."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "TSG 1899 Hoffenheim competes in the German Bundesliga (C)."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Yuvraj Singh commanded the highest bid at the February 2014 IPL auction (A)."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "Luis Suárez won the PFA Players’ Player of the Year award for 2013–14 (B)."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "Sri Lanka designated volleyball as its national sport; Fiji’s national sport is rugby (C)."
+        },
+        "55": {
+          "answerIndex": 3,
+          "explanation": "R. Malsawmtluanga was named best player of MPL-2 (D)."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Bengaluru FC won the 2013–14 I-League title (A)."
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "Australia and New Zealand hosted the 2015 Cricket World Cup (D)."
+        },
+        "58": {
+          "answerIndex": 3,
+          "explanation": "South Korea hosted the 2018 Winter Olympics (D)."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "“We Are One (Ole Ola)” was the official 2014 FIFA World Cup song (B)."
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "Stanislas Wawrinka won the 2014 Australian Open men’s singles title (A)."
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "Option B is the intended expansion; the treaty’s full formal title includes “Nuclear” (“Comprehensive Nuclear-Test-Ban Treaty”)."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "In the Indian public-finance context, GIRO stands for Government Internal Revenue Order (C)."
+        },
+        "63": {
+          "answerIndex": 1,
+          "explanation": "IAEA stands for International Atomic Energy Agency (B)."
+        },
+        "64": {
+          "answerIndex": 2,
+          "explanation": "LED means light-emitting diode (C)."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "PURA means Providing Urban Amenities in Rural Areas (A)."
+        },
+        "66": {
+          "answerIndex": 2,
+          "explanation": "Punjab is known as the Land of Five Rivers (C)."
+        },
+        "67": {
+          "answerIndex": 1,
+          "explanation": "Switzerland is called the Playground of Europe (B)."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "Venus is commonly called Earth’s twin (C)."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "Rome is the City of Seven Hills (B)."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Chicago was historically called the “Slaughter House of the World” (A)."
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "Ethiopia is known as the Garden in the Desert (B)."
+        },
+        "73": {
+          "answerIndex": 2,
+          "explanation": "Belgium is called the Cockpit of Europe (C)."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "The West Indies are known as the Islands of Sunshine (A)."
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "Oxford is known as the City of Dreaming Spires (B)."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "The Pulitzer Prize is primarily associated with journalism (B)."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "The Hunger Games: Catching Fire won the 2014 MTV Movie of the Year (A)."
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "The 23rd Lelte Gospel Album of the Year was I Hming Ropui by Lawma and Judith (A)."
+        },
+        "79": {
+          "answerIndex": 2,
+          "explanation": "Thinglubul won the Mizo Academy of Letters Book of the Year for 2013 (C)."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "Lallungmuani of Mizoram received the 2014 National Florence Nightingale Award (A)."
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "Charles Babbage designed the first mechanical computer (A)."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "Wilhelm Conrad Röntgen discovered X-rays (A)."
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "Chester Carlson invented xerography (A)."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "Sir Frank Whittle is credited with inventing the jet engine (B)."
+        },
+        "85": {
+          "answerIndex": 3,
+          "explanation": "Benjamin Franklin invented bifocal lenses (D)."
+        },
+        "86": {
+          "answerIndex": 1,
+          "explanation": "Hans Lippershey is conventionally credited with the telescope (B)."
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "Johannes Gutenberg is conventionally credited with the printing press in Europe (A)."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "The intended textbook answer is Copernicus, whose heliocentric model described the Solar System; “discovered” is imprecise (B)."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "Guglielmo Marconi is conventionally credited with developing radio (C)."
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "John Shepherd-Barron is credited with inventing the ATM (A)."
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "Firmware is software stored within a device that controls its operation (A)."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "An operating system interfaces between application software and computer hardware (A)."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "A LAN is a local-area network, not a social networking service (C)."
+        },
+        "94": {
+          "answerIndex": 2,
+          "explanation": "The listed basic Internet connection components are a telephone line, modem, computer and ISP (C)."
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "Checking a login name and password is authentication (C)."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "mpsc@website.info follows the standard local-part@domain format (B)."
+        },
+        "97": {
+          "answerIndex": 1,
+          "explanation": "PARAM is an Indian supercomputer series developed by C-DAC (B)."
+        },
+        "98": {
+          "answerIndex": 0,
+          "explanation": "Using decimal units, one gigabyte is approximately 1,000,000,000 bytes (B)."
+        },
+        "99": {
+          "answerIndex": 1,
+          "explanation": "Internet is the odd one out; Linux, Unix and Windows are operating systems (A)."
+        },
+        "100": {
+          "answerIndex": 1,
+          "explanation": "A parity bit is used for error detection (B)."
+        }
+      }
+    },
+    "ae-civil-tourism-2020-gs": {
+      "sourceSha256": "3bc7eaaf6b91fd17047a703cfb7f4ebf4425037ed650c01e0a40210e7ea92786",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "partialReview": false,
+      "evidence": "The 100-question February 2020 General Studies scan was checked page by page. Restored extraction omissions Q9 and Q30; corrected Q30’s duplicated printed choice label by preserving its A–D order, restored the image-based options for Q92–93 as descriptions, repaired Q82/Q86 fraction and exponent OCR, completed Q91 option D, and corrected the stray “101.” prefix on Q97. Answers are independently derived; Q6–8, Q51, Q72–73, Q76, Q91 and Q94–96 remain held for source defects or unresolved ambiguity. No official MPSC key is used.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Economic Survey is a Report of the Government, regarding:",
+          "opts": {
+            "a": "A survey where the government can improve only its economy.",
+            "b": "Selected sectors for improving economy.",
+            "c": "Survey in agriculture and industrial sector which are most economic sectors.",
+            "d": "A report card of different sectors for the current year."
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Is it mandatory to fulfill proposals in the Economic Survey:",
+          "opts": {
+            "a": "At least 80%",
+            "b": "Not specified",
+            "c": "At least 60%",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "When Economic Survey is laid in the Assembly/Parliament:",
+          "opts": {
+            "a": "Before Budget Session",
+            "b": "Only at the end of Financial Year",
+            "c": "Just after Budget Session",
+            "d": "In the beginning of Financial Year"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Budget of the State/Union mainly refers to:",
+          "opts": {
+            "a": "Policy of Receipts and Expenditure",
+            "b": "Fund segregated for priority sector",
+            "c": "Proposal of annual Receipts and Expenditure.",
+            "d": "Target to be achieved in Government Receipts."
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Pertaining to Union Budget discussion: (i)Budget discuss in both the houses. (ii)Budget to be passed by both houses on vote. (iii)Budget is voted only in Lok Sabha. (iv)Budget to be tabled in both house simultaneously at the same time. Select the correct statement:",
+          "opts": {
+            "a": "(i) and (iv)",
+            "b": "(i) and (iii)",
+            "c": "(ii) and (iii)",
+            "d": "(ii) and (iv)"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "Prominent Mizo Personalities & Identities (i)C.L. Rema-IAS (ii)Capt. L.Z. Sailo-Padma ViBushan (iii)Dr. Zairema-Medical (iv)B.Lalthangliana-Religion Choose the best/correct match on above:",
+          "opts": {
+            "a": "i and ii",
+            "b": "i only",
+            "c": "ii only",
+            "d": "all are correct"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: statements i, iii and iv appear correct, while ii is defective (“Padma ViBushan” is not the award title); no offered option represents i, iii and iv.",
+          "explanation": "Held out: statements i, iii and iv appear correct, while ii is defective (“Padma ViBushan” is not the award title); no offered option represents i, iii and iv."
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "q": "Traditional Mizo measurements: (i)Hlam-Sei zawng (ii)Banpuam tiat-Ngil leh ngil loh (iii)Beng thleng-San zawng (iv)|hum khat-A dip leh dip loh Choose the best/correct matches:",
+          "opts": {
+            "a": "i only",
+            "b": "i and ii",
+            "c": "i and iii",
+            "d": "All the four"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the traditional Mizo measurement pairings could not be verified confidently from an authoritative source, so a unique choice is not established.",
+          "explanation": "Held out: the traditional Mizo measurement pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "q": "Traditional Mizo terminology: (i)Nauril\\am-Hunbi (ii)Ramtangrual-Upat lam (iii)Chhul khat kual-Lai na zawng zawng (iv)Hmelchhiat lai-Hunbi Choose the best/correct matches:",
+          "opts": {
+            "a": "i, ii and iii",
+            "b": "ii, iii and iv",
+            "c": "i,ii, and iv",
+            "d": "All the four"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the traditional Mizo terminology pairings could not be verified confidently from an authoritative source, so a unique choice is not established.",
+          "explanation": "Held out: the traditional Mizo terminology pairings could not be verified confidently from an authoritative source, so a unique choice is not established."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "Who among the following is the first Chief of Defense Staff of the Indian Armed Forces?",
+          "opts": {
+            "a": "KV Krishna Rao",
+            "b": "Mukund Naravane",
+            "c": "Bipin Rawat",
+            "d": "RKS Bhadauria"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Oxford Dictionaries has named which word as its 2019 Word of the Year?",
+          "opts": {
+            "a": "Climate Change",
+            "b": "Climate Denial",
+            "c": "Climate Anxiety",
+            "d": "Climate Emergency"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Justice Sharad Arvind Bobde, who has been sworn-in as the new Chief Justice of India (CJI), is a former Chief Justice of which High Court?",
+          "opts": {
+            "a": "Madhya Pradesh",
+            "b": "Gujarat",
+            "c": "Maharashtra",
+            "d": "Uttar Pradesh"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "Qassim Soleimani, who was killed in the US Air Strike was the Military Commander of which Country?",
+          "opts": {
+            "a": "Iraq",
+            "b": "Iran",
+            "c": "Syria",
+            "d": "Turkey"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The Statue of Unity is recently included in 8 Wonders of ______ list.",
+          "opts": {
+            "a": "BRICS",
+            "b": "SCO",
+            "c": "UNESCO",
+            "d": "SAARC"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Schistura syngkai, recently discovered in Meghalaya is the scientific name of which type of species?",
+          "opts": {
+            "a": "Cat",
+            "b": "Lizard",
+            "c": "Frog",
+            "d": "Fish"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "The first-ever International Conference on “Landslides Risk Reduction and Resilience” was held in which city?",
+          "opts": {
+            "a": "Japan",
+            "b": "London",
+            "c": "Beijing",
+            "d": "New Delhi"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "q": "The first Asian country to be the ‘Guest of Honour Country’ at the International Book fair in Mexico is",
+          "opts": {
+            "a": "China",
+            "b": "Japan",
+            "c": "India",
+            "d": "Australia"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "Which city organized the 3rd edition of Khelo India Youth Games?",
+          "opts": {
+            "a": "Kolkata",
+            "b": "Indore",
+            "c": "Guwahati",
+            "d": "Chennai"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "Which education board in India is to introduce AI in schools from the session 2019-20?",
+          "opts": {
+            "a": "ICSE",
+            "b": "MBOS",
+            "c": "CBSE",
+            "d": "HBSE"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Which of the following language has recently been used for the first time in Rajya Sabha?",
+          "opts": {
+            "a": "Bodo",
+            "b": "Dogri",
+            "c": "Maithili",
+            "d": "Santhali"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Which state has recently partnered with WEF to promote electric mobility?",
+          "opts": {
+            "a": "Tamil Nadu",
+            "b": "Karnataka",
+            "c": "Punjab",
+            "d": "Maharastra"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Which rank has been achieved by India in the Climate Change Performance Index, 2019?",
+          "opts": {
+            "a": "7",
+            "b": "9",
+            "c": "11",
+            "d": "13"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "Which country has recently left 2050 Climate Neutrality Agreement of European Union?",
+          "opts": {
+            "a": "Russia",
+            "b": "Greece",
+            "c": "USA",
+            "d": "Poland"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "Which state/UT had recently approved the Electric Vehicle Policy, 2019?",
+          "opts": {
+            "a": "Delhi",
+            "b": "Bangalore",
+            "c": "Kolkata",
+            "d": "Chandigarh"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "Which state government has launched a new initiative “Meal in exchange for plastic waste”?",
+          "opts": {
+            "a": "Karnataka",
+            "b": "Odisha",
+            "c": "Maharastra",
+            "d": "West Bengal"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "What is the theme of the 5th India International Science Festival (IISF) held on 5th November 2019?",
+          "opts": {
+            "a": "Science for Humanity",
+            "b": "Science for New India",
+            "c": "RISEN India",
+            "d": "Boost New India"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "Which IIT has launched ‘Arise-A Standing Wheelchair’ for disabled?",
+          "opts": {
+            "a": "IIT Madras",
+            "b": "IIT Bombay",
+            "c": "IIT Kharagpur",
+            "d": "IIT Kanpur"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Which company has introduced ‘Project Zero’ in India to remove counterfeit products?",
+          "opts": {
+            "a": "Ebay",
+            "b": "Amazon",
+            "c": "Flipkart",
+            "d": "Alibaba"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "Who has been named FIFA’s Chief of global football development?",
+          "opts": {
+            "a": "Anthony Taylor",
+            "b": "Arsene Wenger",
+            "c": "Pele",
+            "d": "Igor Stimac"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Who has been named as the 2019 Person of the Year by TIME magazine?",
+          "opts": {
+            "a": "Ricky Gervais",
+            "b": "Donald Trump",
+            "c": "Greta Thunberg",
+            "d": "LeBron James"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which film won the “Best motion Picture – Drama’ Award in the Golden Globe Awards, 2020?",
+          "opts": {
+            "a": "Marriage Story",
+            "b": "1917",
+            "c": "Once Upon a time in Hollywood",
+            "d": "Joker"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "The 2019 Nobel prize in Chemistry has been awarded for discovery in which field?",
+          "opts": {
+            "a": "Biological Clock",
+            "b": "Cryo-electron microscopy",
+            "c": "Lithium-ion batteries",
+            "d": "Phage display of peptides"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "Which Indian economist has won the 2019 Nobel Economics Prize for study on poverty?",
+          "opts": {
+            "a": "Abhijit Banerjee",
+            "b": "Arvind Subramanian",
+            "c": "Pranab Bardhan",
+            "d": "Srijit Mukherji"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "Peter Handke received the Nobel Prize of 2019 in which field?",
+          "opts": {
+            "a": "Physiology or Medicine",
+            "b": "Literature",
+            "c": "Peace prize",
+            "d": "Economic Science"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "Who is the author of the book “Divine Comedy”?",
+          "opts": {
+            "a": "Dante",
+            "b": "Dostoevsky",
+            "c": "Tolstoy",
+            "d": "Dickens"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Who is the author of the book “How to Avoid a Climate Disaster”?",
+          "opts": {
+            "a": "Satya Nadella",
+            "b": "Sundar Pichai",
+            "c": "Bill Gates",
+            "d": "Mark Zuckerberg"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Switzerland recently minted World’s smallest Gold Coin featuring the image of ______.",
+          "opts": {
+            "a": "Albert Einstein",
+            "b": "Kobe Bryant",
+            "c": "Mother Teresa",
+            "d": "Karl Marx"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "The National Energy Conservation Day is observed on which date?",
+          "opts": {
+            "a": "December 10",
+            "b": "December 12",
+            "c": "December 14",
+            "d": "December 16"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "On which day National Voters day is celebrated.",
+          "opts": {
+            "a": "December 25",
+            "b": "January 25",
+            "c": "February 25",
+            "d": "March 25"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Which of the following is posthumously awarded to Arun Jaitley?",
+          "opts": {
+            "a": "Bharat Ratna",
+            "b": "Padma Shri",
+            "c": "Padma Vibhusan",
+            "d": "Padma Bhusan"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Grammy 2020 Record of the year is awarded to?",
+          "opts": {
+            "a": "Billie Eilish",
+            "b": "Ariana Grande",
+            "c": "Post Malone & Swae Lee",
+            "d": "Lizzo"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "The Mizoram Peace Accord, 1986 was signed on ?",
+          "opts": {
+            "a": "March 30",
+            "b": "April 30",
+            "c": "May 30",
+            "d": "June 30"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Mizoram is the ______ State of the Indian Union?",
+          "opts": {
+            "a": "22nd",
+            "b": "23rd",
+            "c": "24th",
+            "d": "25th"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Who among the following is the first to come to Mizoram?",
+          "opts": {
+            "a": "TH Lewin",
+            "b": "William Williams",
+            "c": "JH Lorrain",
+            "d": "DE Jones"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "The Union Territory of Mizoram came into being on 21st January, 19__",
+          "opts": {
+            "a": "71",
+            "b": "72",
+            "c": "73",
+            "d": "74"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "The 70th Constitution Day of India has celebrated on which date?",
+          "opts": {
+            "a": "25th November, 2019",
+            "b": "26th November, 2019",
+            "c": "27th November, 2019",
+            "d": "28th November, 2019"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Under which of the following Articles of the Indian Constitution of India, the President can impose Presidential Rule in a State?",
+          "opts": {
+            "a": "Article 360",
+            "b": "Article 365",
+            "c": "Article 356",
+            "d": "Article 350"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "Which among the following is not listed in the Sixth Schedule of the Constitution of India?",
+          "opts": {
+            "a": "Mizoram",
+            "b": "Meghalaya",
+            "c": "Tripura",
+            "d": "Manipur"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "In the Citizenship Amendment Act 2019, which of the following religion is not mentioned?",
+          "opts": {
+            "a": "Parsi",
+            "b": "Christian",
+            "c": "Jain",
+            "d": "Sufi"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "Which of the following words is not included in the Preamble of the Indian Constitution?",
+          "opts": {
+            "a": "Dignity",
+            "b": "Justice",
+            "c": "Liberty",
+            "d": "Equality"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: all four choices—Dignity, Justice, Liberty and Equality—appear in the Constitution’s Preamble; the item has no “none of these” choice.",
+          "explanation": "Held out: all four choices—Dignity, Justice, Liberty and Equality—appear in the Constitution’s Preamble; the item has no “none of these” choice."
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "Aryabhata was renowned for?",
+          "opts": {
+            "a": "Medicine",
+            "b": "Astronomy",
+            "c": "Philosophy",
+            "d": "Biology"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "Who was the last Viceroy of British India?",
+          "opts": {
+            "a": "Lord Mountbatten",
+            "b": "Lord Curzon",
+            "c": "Lord Canning",
+            "d": "Lord Irwin"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "Who gave the order of Jallianwalla Bagh Massacre?",
+          "opts": {
+            "a": "Reginald Dyer",
+            "b": "John Saunders",
+            "c": "Michael O’Dwyer",
+            "d": "James Bouley"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "The Tectonic Plates of the Earth lies in?",
+          "opts": {
+            "a": "Inner Core",
+            "b": "Outer Core",
+            "c": "Lithosphere",
+            "d": "Asthenosphere"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Which of the following planet has No Moon?",
+          "opts": {
+            "a": "Venus",
+            "b": "Mars",
+            "c": "Jupiter",
+            "d": "Uranus"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Which is the largest Rice producing state in India?",
+          "opts": {
+            "a": "Haryana",
+            "b": "Punjab",
+            "c": "Gujarat",
+            "d": "West Bengal"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "How many Union Territories are there in India currently?",
+          "opts": {
+            "a": "6",
+            "b": "7",
+            "c": "8",
+            "d": "9"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Tropic of Cancer passes through which of the following Village?",
+          "opts": {
+            "a": "Sateek",
+            "b": "Thiak",
+            "c": "Maubuang",
+            "d": "Keitum"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "The largest Freshwater lake “Lake Baikal” is located in?",
+          "opts": {
+            "a": "Canada",
+            "b": "Greenland",
+            "c": "Russia",
+            "d": "Poland"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "The study of Mountains is known as",
+          "opts": {
+            "a": "Orology",
+            "b": "Lithology",
+            "c": "Acrology",
+            "d": "Geology"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "Radioactivity was discovered by",
+          "opts": {
+            "a": "Marie Curie",
+            "b": "Henri Becquerel",
+            "c": "Max Plank",
+            "d": "Rutherford"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "What is the currency of United Arab Emirates?",
+          "opts": {
+            "a": "Dinar",
+            "b": "Rial",
+            "c": "Riyal",
+            "d": "Dirham"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "The Master Control Facility of ISRO is located in",
+          "opts": {
+            "a": "Andhra Pradesh",
+            "b": "Kerela",
+            "c": "Karnataka",
+            "d": "Tamil Nadu"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "q": "The statue of Liberty was given to the People of the United States from the People of",
+          "opts": {
+            "a": "United Kingdom",
+            "b": "France",
+            "c": "Spain",
+            "d": "Italy"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "q": "What is the chemical name of Vinegar?",
+          "opts": {
+            "a": "Tartaric Acid",
+            "b": "Malic Acid",
+            "c": "Citric Acid",
+            "d": "Acetic Acid"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "q": "Longest Cell in human body is",
+          "opts": {
+            "a": "Nerve Cell",
+            "b": "Muscle Cell",
+            "c": "Blood Cell",
+            "d": "Skin Cell"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "q": "A type of Coronavirus known as MERS is a term for ______ Resiratory Syndrome",
+          "opts": {
+            "a": "Mild Echophraxia",
+            "b": "Middle Edema",
+            "c": "Middle East",
+            "d": "Middle Echophraxia"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "Aluminium Salt used to Stop Bleeding is",
+          "opts": {
+            "a": "Potash Alum",
+            "b": "Aluminium Chloride",
+            "c": "Nitrous Alum",
+            "d": "Sulphur Alum"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "Who among the following discovered Neutron?",
+          "opts": {
+            "a": "Thomson",
+            "b": "Rutherford",
+            "c": "Chadwick",
+            "d": "Bohr"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "Which of the following is caused by deficiency of Vitamin A?",
+          "opts": {
+            "a": "Rickets",
+            "b": "Beri beri",
+            "c": "Scurvy",
+            "d": "Night blindness"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "Consider the following three-dimensional figure : How many triangles does the above figure have?",
+          "opts": {
+            "a": "18",
+            "b": "20",
+            "c": "22",
+            "d": "24"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the 3D triangle-counting figure does not support a confident, reproducible count from the scan.",
+          "explanation": "Held out: the 3D triangle-counting figure does not support a confident, reproducible count from the scan."
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "Consider the following sum: u+ 1u + 2u + u3 + u1 = 21u In the above sum,u Stands for",
+          "opts": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "8"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the printed radical/superscript expression is not legible enough to establish a unique equation or answer.",
+          "explanation": "Held out: the printed radical/superscript expression is not legible enough to establish a unique equation or answer."
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "Consider the following pattern of numbers : 8101513 6574 4688 61116? What number at ‘?’ in the above pattern?",
+          "opts": {
+            "a": "17",
+            "b": "19",
+            "c": "21",
+            "d": "23"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "q": "A train 200 metres long is moving at the rate of 40 kmph. In how many seconds will it cross a man standing near the railway line?",
+          "opts": {
+            "a": "12",
+            "b": "15",
+            "c": "16",
+            "d": "18"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "The following three items are based on the graph given below which shows imports of three different types of steel over a period of six months of a year. Study the graph and answer the three items that follow. The figures in the brackets indicate the average cost per ton over six months period. What was the approximate total value (in $) of sheet steel imported over the six months period?",
+          "opts": {
+            "a": "45,555",
+            "b": "50,555",
+            "c": "55,550",
+            "d": "65,750"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the graph gives 217 thousand tons of sheet imports; multiplying by $256/ton yields about $55.552 million, while the options are around $55 thousand and the question does not state a scale conversion.",
+          "explanation": "Held out: the graph gives 217 thousand tons of sheet imports; multiplying by $256/ton yields about $55.552 million, while the options are around $55 thousand and the question does not state a scale conversion."
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "What is the symbol on the face opposite to that containing a single dot?",
+          "opts": {
+            "a": "Four dots",
+            "b": "Three dots",
+            "c": "Two dots",
+            "d": "Cross"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "What is the symbol on the face opposite to that containing two dots?",
+          "opts": {
+            "a": "Single dot",
+            "b": "Three dots",
+            "c": "Four dots",
+            "d": "Line"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "What is the symbol on the face opposite to that containing the cross?",
+          "opts": {
+            "a": "Single dot",
+            "b": "Two dots",
+            "c": "Line",
+            "d": "Four dots"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "If LYJEO is the code for MAMIT, the code for SAIHA is",
+          "opts": {
+            "a": "RYFDV",
+            "b": "TBJIB",
+            "c": "RZHGZ",
+            "d": "RBHIB"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 9,
+          "q": "If RAMON is written as 12345 and DINESH as 675849, then HAMAM will be written as",
+          "opts": {
+            "a": "92233",
+            "b": "92323",
+            "c": "93322",
+            "d": "93232"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "q": "X and Y are natural numbers other than 1, and Y is greater than X. Which expression represents the largest number?",
+          "opts": {
+            "a": "X^Y",
+            "b": "X/Y",
+            "c": "Y/X",
+            "d": "(X+Y)/(XY)"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "q": "A number consists of three digits of which the middle one is zero and their sum is 4. If the number formed by interchanging the first and last digits is greater than the number itself by 198, then the difference between the first and last digits is",
+          "opts": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "q": "A solid cube is 3 cm side, painted on all its faces, is cut up into small cubes of 1 cm side. How many of the small cubes will have exactly two painted faces?",
+          "opts": {
+            "a": "12",
+            "b": "8",
+            "c": "6",
+            "d": "4"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "q": "If Pen < Pencil, Pencil < Book and Book > Cap, then which one of the following is always true?",
+          "opts": {
+            "a": "Pen > Cap",
+            "b": "Pen < Book",
+            "c": "Pencil = Cap",
+            "d": "Pencil > Cap"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "q": "A bag contains 15 red and 20 black balls. Each ball is numbered 1, 2 or 3. 20% of red balls are numbered 1 and 40% are numbered 3. Among the black balls, 45% are numbered 2 and 30% are numbered 3. A ball is chosen at random. The boy wins if it is a red ball numbered 3 or a black ball numbered 1 or 2. What is the probability of winning?",
+          "opts": {
+            "a": "1/2",
+            "b": "4/7",
+            "c": "5/9",
+            "d": "12/13"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "q": "A student has to get 40% marks to pass in an examination. Suppose he gets 30 marks and fails by 30 marks, then what are the maximum marks in the examination?",
+          "opts": {
+            "a": "100",
+            "b": "120",
+            "c": "150",
+            "d": "300"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "A shopkeeper sells an article at ₹40 and gets X% profit. However, when he sells it at ₹20, he faces same percentage of 0 loss. What is the original cost of the article?",
+          "opts": {
+            "a": "₹10",
+            "b": "₹20",
+            "c": "₹30",
+            "d": "₹40"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "There are 24 equally spaced points lying on the circumference of a circle. What is the maximum number of equilateral triangles that can be drawn by taking sets of three points as the vertices?",
+          "opts": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "Consider the sequence given below : 4/12/95, 1/1/96, 29/1/96, 26/2/96, .... What is the next term of the series?",
+          "opts": {
+            "a": "24/3/96",
+            "b": "25/3/96",
+            "c": "26/3/96",
+            "d": "27/3/96"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 10,
+          "q": "Consider the following graph : Which one of the following statements is not correct with reference to the graph given above?",
+          "opts": {
+            "a": "On 1st June, the actual progress of work was less than expected.",
+            "b": "The actual rate of progress of work was the greatest during the month of August.",
+            "c": "The work was actually completed before the expected time.",
+            "d": "During the period from 1 April to 1 September, at no time was actual progress more than expected progress."
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the graph shows actual progress exceeding expected progress during part of August, making both (c) (“completed before the expected time”) and (d) (“at no time … more than expected”) incorrect; the question asks for a single not-correct choice.",
+          "explanation": "Held out: the graph shows actual progress exceeding expected progress during part of August, making both (c) (“completed before the expected time”) and (d) (“at no time … more than expected”) incorrect; the question asks for a single not-correct choice."
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "q": "In the 3×3 symbol sequence shown in the source figure, which figure replaces the question mark?",
+          "opts": {
+            "a": "Horizontal line with a square at the left and two bent strokes hanging below.",
+            "b": "Horizontal line with a round dot at the left and two bent strokes hanging below.",
+            "c": "Left-pointing arrow on a horizontal line with two forked strokes hanging below.",
+            "d": "Horizontal line with a round dot at the right and two bent strokes hanging below."
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 11,
+          "q": "In the six-sector circular figures shown in the source, symbols move in a regular sequence. Which option shows the figure at stage VII?",
+          "opts": {
+            "a": "Circle divided into six sectors; triangle upper-left, square lower-right.",
+            "b": "Circle divided into six sectors; square and triangle together at the bottom.",
+            "c": "Circle divided into six sectors; square at the top, triangle lower-left.",
+            "d": "Circle divided into six sectors; triangle at the top, square at the bottom."
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 11,
+          "q": "If E sits in his office and faces the corridor, whose office is to his left?",
+          "opts": {
+            "a": "A",
+            "b": "B",
+            "c": "C",
+            "d": "D"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the office-plan wording does not establish a unique orientation for left/right, so E’s left-hand neighbor is not reliably determined.",
+          "explanation": "Held out: the office-plan wording does not establish a unique orientation for left/right, so E’s left-hand neighbor is not reliably determined."
+        },
+        "95": {
+          "n": 95,
+          "page": 11,
+          "q": "Who is/are F’s immediate neighbour/neighbours?",
+          "opts": {
+            "a": "A only",
+            "b": "A and D",
+            "c": "C only",
+            "d": "B and C"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the office-plan constraints allow more than one placement for the officers, so F’s immediate neighbor(s) are not uniquely established.",
+          "explanation": "Held out: the office-plan constraints allow more than one placement for the officers, so F’s immediate neighbor(s) are not uniquely established."
+        },
+        "96": {
+          "n": 96,
+          "page": 12,
+          "q": "Lakshmi, her brother, her daughter and her son are badminton players. A game of doubles is about to begin: (i)Lakshmi’s brother is directly across the net from her daughter. (ii)Her son is diagonally across the net from the worst player’s sibling. (iii)The best player and the worst player are on the same side of the net. Who is the best player?",
+          "opts": {
+            "a": "Her brother",
+            "b": "Her daughter",
+            "c": "Her son",
+            "d": "Lakshmi"
+          },
+          "part": null,
+          "unscored": true,
+          "reviewNote": "Held out: the doubles-game clues do not uniquely identify the best player without an additional ranking/partner constraint.",
+          "explanation": "Held out: the doubles-game clues do not uniquely identify the best player without an additional ranking/partner constraint."
+        },
+        "97": {
+          "n": 97,
+          "page": 12,
+          "q": "If the day before yesterday was Friday, what will be the third day after the day-after-tomorrow?",
+          "opts": {
+            "a": "Sunday",
+            "b": "Saturday",
+            "c": "Friday",
+            "d": "Thursday"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 12,
+          "q": "How many times the hands of a clock coincide?",
+          "opts": {
+            "a": "2",
+            "b": "22",
+            "c": "1",
+            "d": "24"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 12,
+          "q": "A,B and C started out together at 10km/h, 15km/h and 20km/h respectively from the same point on a circular track of length 1km. At what time do they first meet again?",
+          "opts": {
+            "a": "6 mins",
+            "b": "6 hours",
+            "c": "12 mins",
+            "d": "12 hours"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 12,
+          "q": "Consider the Roman numerals with its value: (i)XL = 40(ii)L = 50 (iii)LX = 60(iv)XLX = 70 Select the correct answer.",
+          "opts": {
+            "a": "i and ii",
+            "b": "i, ii and iii",
+            "c": "ii only",
+            "d": "i, ii, iii and iv"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "q": "The NITI Aayog and which international organization launched “The Gandhian Challenge”?",
+          "opts": {
+            "a": "UNESCO",
+            "b": "FAO",
+            "c": "UNICEF",
+            "d": "WHO"
+          }
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": null,
+          "q": "Which sportsman was recently named BBC Sports Personality of the Year 2019?",
+          "opts": {
+            "a": "Lewis Hamilton",
+            "b": "Mo Farah",
+            "c": "Troy Deeney",
+            "d": "Ben Stokes"
+          },
+          "reviewNote": "The scan prints the option label (b) for both Lewis Hamilton and Mo Farah; the scan order is preserved here as choices A and B."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 3,
+          "explanation": "The Economic Survey reviews and reports on the economy and its sectors for the current year; the best offered description is a report card (D)."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "The Economic Survey is an analytical report; its recommendations are not mandatory government proposals (B)."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "The Economic Survey is presented before the Budget as part of the Budget Session process (A)."
+        },
+        "4": {
+          "answerIndex": 2,
+          "explanation": "A budget is the annual statement/proposal of receipts and expenditure (C)."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "The Union Budget is discussed in both Houses, but only the Lok Sabha votes on demands for grants (B)."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "The NITI Aayog launched The Gandhian Challenge with UNICEF (C)."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "General Bipin Rawat became India’s first Chief of Defence Staff (C)."
+        },
+        "11": {
+          "answerIndex": 3,
+          "explanation": "Oxford Dictionaries chose “Climate Emergency” as its 2019 Word of the Year (D)."
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "Justice S. A. Bobde served as Chief Justice of the Madhya Pradesh High Court (A)."
+        },
+        "13": {
+          "answerIndex": 1,
+          "explanation": "Qassim Soleimani was an Iranian military commander (B)."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "The claim in the question refers to the Shanghai Cooperation Organisation’s eight wonders list (B)."
+        },
+        "15": {
+          "answerIndex": 3,
+          "explanation": "Schistura syngkai is a fish species (D)."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "The first international landslide-risk conference was held in New Delhi (D)."
+        },
+        "17": {
+          "answerIndex": 2,
+          "explanation": "India was the first Asian Guest of Honour Country at the Mexico International Book Fair (C)."
+        },
+        "18": {
+          "answerIndex": 2,
+          "explanation": "Guwahati hosted the 3rd Khelo India Youth Games (C)."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "CBSE announced AI instruction in schools from 2019–20 (C)."
+        },
+        "20": {
+          "answerIndex": 3,
+          "explanation": "Santhali was used in the Rajya Sabha for the first time in 2019 (D)."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "Karnataka partnered with the World Economic Forum to promote electric mobility (B)."
+        },
+        "22": {
+          "answerIndex": 2,
+          "explanation": "India ranked 11th in the 2019 Climate Change Performance Index (C)."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "Poland opposed/left the EU’s 2050 climate-neutrality commitment (D)."
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Delhi approved an Electric Vehicle Policy in 2019 (A)."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "Odisha introduced meals in exchange for plastic waste (B)."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "The 5th India International Science Festival used the theme “RISEN India” (C)."
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "IIT Madras launched the Arise standing wheelchair (A)."
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "Amazon introduced Project Zero in India to combat counterfeit goods (B)."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "Arsène Wenger was named FIFA Chief of Global Football Development (B)."
+        },
+        "30": {
+          "answerIndex": 3,
+          "explanation": "Ben Stokes was named BBC Sports Personality of the Year 2019 (D)."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "TIME named Greta Thunberg its 2019 Person of the Year (C)."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "1917 won the 2020 Golden Globe for Best Motion Picture—Drama (B)."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "The 2019 Nobel Prize in Chemistry recognized lithium-ion batteries (C)."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Abhijit Banerjee shared the 2019 Economics Nobel for work on poverty (A)."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "Peter Handke received the 2019 Nobel Prize in Literature (B)."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "Dante wrote The Divine Comedy (A)."
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "Bill Gates wrote How to Avoid a Climate Disaster (C)."
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "The world’s smallest gold coin minted by Switzerland featured Albert Einstein (A)."
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "India’s National Energy Conservation Day is observed on 14 December (C)."
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "National Voters’ Day is observed on 25 January (B)."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "Arun Jaitley was posthumously awarded the Padma Vibhushan (C)."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Billie Eilish won the 2020 Grammy Record of the Year for “Bad Guy” (A)."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "The Mizoram Peace Accord was signed on 30 June 1986 (D)."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "Mizoram became the 23rd state of the Indian Union (B)."
+        },
+        "45": {
+          "answerIndex": 1,
+          "explanation": "William Williams is identified as the first missionary to come to Mizoram (B)."
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "Mizoram became a Union Territory on 21 January 1972 (B)."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "India celebrated its 70th Constitution Day on 26 November 2019 (B)."
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "Article 356 authorizes President’s Rule in a state (C)."
+        },
+        "49": {
+          "answerIndex": 3,
+          "explanation": "Manipur is not listed in the Sixth Schedule (D)."
+        },
+        "50": {
+          "answerIndex": 3,
+          "explanation": "The Citizenship Amendment Act 2019 lists six communities; Sufi is not one of them (D)."
+        },
+        "52": {
+          "answerIndex": 1,
+          "explanation": "Aryabhata is renowned for astronomy and mathematics; astronomy is the matching choice (B)."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Lord Mountbatten was the last Viceroy of British India (A)."
+        },
+        "54": {
+          "answerIndex": 0,
+          "explanation": "Brigadier-General Reginald Dyer gave the order to fire at Jallianwala Bagh (A)."
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "Tectonic plates form the rigid lithosphere (C)."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Venus has no natural moon (A)."
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "West Bengal was the leading rice-producing state in the question’s 2020 context (D)."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "After the 2019 reorganization of Jammu and Kashmir, India had eight Union Territories (C)."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "The Tropic of Cancer passes through Maubuang in Mizoram (C)."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "Lake Baikal is in Russia (C)."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "Orology is the study of mountains (A)."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "Henri Becquerel discovered natural radioactivity (B)."
+        },
+        "63": {
+          "answerIndex": 3,
+          "explanation": "The UAE currency is the dirham (D)."
+        },
+        "64": {
+          "answerIndex": 2,
+          "explanation": "ISRO’s Master Control Facility is at Hassan, Karnataka (C)."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "The Statue of Liberty was a gift from the people of France (B)."
+        },
+        "66": {
+          "answerIndex": 3,
+          "explanation": "Vinegar’s principal acid is acetic acid (D)."
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "The longest cell in the human body is a nerve cell (A)."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "MERS means Middle East Respiratory Syndrome (C)."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "Potash alum is used as an astringent to help stop minor bleeding (A)."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "James Chadwick discovered the neutron (C)."
+        },
+        "71": {
+          "answerIndex": 3,
+          "explanation": "Vitamin A deficiency can cause night blindness (D)."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "The last column follows 13+8−4=17 (A)."
+        },
+        "75": {
+          "answerIndex": 3,
+          "explanation": "40 km/h = 100/9 m/s; 200 m ÷ (100/9) = 18 seconds (D)."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "Using the rotated cube views, the face opposite the single-dot face has three dots (B)."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "The two-dot face is opposite the four-dot face (C)."
+        },
+        "79": {
+          "answerIndex": 2,
+          "explanation": "The cross is opposite the line face (C)."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "Each letter is shifted backward by 1, 2, 3, 4 and 5 places; SAIHA becomes RYFDV (A)."
+        },
+        "81": {
+          "answerIndex": 1,
+          "explanation": "The code maps H=9, A=2 and M=3, so HAMAM becomes 92323 (B)."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "For integers Y>X>1, X^Y exceeds the other listed ratios and products (A)."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "Reversing a0c to c0a changes the value by 99(c−a)=198, so the endpoint digits differ by 2 (B)."
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "In a 3×3×3 cube, the 12 edge-center cubes each have exactly two painted faces (A)."
+        },
+        "85": {
+          "answerIndex": 1,
+          "explanation": "Pen<Pencil and Pencil<Book imply Pen<Book in every case (B)."
+        },
+        "86": {
+          "answerIndex": 1,
+          "explanation": "Favorable outcomes: 40% of 15 red = 6; 70% of 20 black =14; total 20/35=4/7 (B)."
+        },
+        "87": {
+          "answerIndex": 2,
+          "explanation": "Passing score=30+30=60; if that is 40%, full marks=60/0.4=150 (C)."
+        },
+        "88": {
+          "answerIndex": 2,
+          "explanation": "If equal percentage profit and loss give sale prices ₹40 and ₹20, their average is the cost price: ₹30 (C)."
+        },
+        "89": {
+          "answerIndex": 2,
+          "explanation": "With 24 equally spaced points, equilateral triangles use every 8th point; there are 8 unique triples (C)."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "Each date is 28 days after the previous one; 26 February 1996 + 28 days = 25 March 1996 (B)."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "The sequence cycles the three base symbols while increasing/decreasing the attached strokes by one; the missing square-left form has two bent strokes (A)."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "The square advances one sector clockwise and the triangle one sector counter-clockwise; stage VII has the square at top and triangle lower-left (C)."
+        },
+        "97": {
+          "answerIndex": 2,
+          "explanation": "If the day before yesterday was Friday, today is Sunday; the day-after-tomorrow is Tuesday, and its third following day is Friday (C)."
+        },
+        "98": {
+          "answerIndex": 1,
+          "explanation": "Clock hands coincide 11 times in 12 hours, hence 22 times in a day (B)."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "The three runners’ lap times are 6, 4 and 3 minutes; their first common return is lcm(6,4,3)=12 minutes (C)."
+        },
+        "100": {
+          "answerIndex": 1,
+          "explanation": "XL=40, L=50 and LX=60 are correct; 70 is LXX, not XLX (B)."
+        }
+      }
     }
   }
 }

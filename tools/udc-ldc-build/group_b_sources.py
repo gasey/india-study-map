@@ -658,6 +658,8 @@ def build_additional():
             entry['expectedMcq'] = 100
         if slug.startswith(('je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-')):
             entry['expectedMcq'] = 80 if 'English' in subject else 100
+        if slug == 'ada-2014-gk':
+            entry['expectedMcq'] = 100
         if slug == 'station-officer-2018-gk':
             entry['expectedMcq'] = 100
             # Printed cover: 3 hours, 100 marks, one mark per question.
@@ -1191,6 +1193,7 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
         reviewed_archive_meta = {
+            'ada-2014-gk': 180,
             'feo-2017-english-p2': 120,
             'mhs-grade-v-2017-english-p2': 120,
             'vety-mah-2021-english-p2': 180,

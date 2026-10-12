@@ -132561,6 +132561,2789 @@
           "answerConfidence": "high"
         }
       }
+    },
+    "vo-2019-english-p2": {
+      "sourceSha256": "b3915d60ad514bf5826feaeef0e6ad10f0801225ef0bef44b51c000ee3a6df54",
+      "expectedMcq": 100,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 MCQs of the November 2019 Jr. Grade of MAH & VS (Veterinary Officer) General English Paper-II were read against public/papers/group-b/vo-2019-english-p2.pdf (8 printed pages; source SHA256 b3915d60…). The PDF has a text layer; stem/option wording was cross-checked character for character against it, and the printed underlines were recovered from the page content streams (thin filled rectangles) and mapped to the exact underlined words. Corrections recorded: every stored **bold** target word in Q1–10, Q21–30, Q51–60 and Q71–80 is printed as an underline and is corrected to __underline__ (40 rows); the Q71–80 direction was stored truncated after “sentences if” and is restored to the printed “…if necessary.” No option text differed and no stray-quote wrapping was present. Stems/options otherwise match the print exactly, including printed defects (“She look beautiful” in Q34, “thirsty” for likely “thirty” in Q33). The paper has no official key (keyHref null): 96 items were solved independently and recorded as derived answers, and 4 items (18, 21, 33, 39) are held unscored because the printed choices do not support a unique answer or the print is defective.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Verb",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Let us first __better__ our financial position.",
+          "multi": false
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Verb",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You are working __better__ today.",
+          "multi": false
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Verb",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I do not like the __cut__ of your hair.",
+          "multi": false
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Verb",
+            "b": "Adverb",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__Cut__ the paper in desired sizes.",
+          "multi": false
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Adverb",
+            "b": "Preposition",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The man was thrown from the __down__ train.",
+          "multi": false
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Adverb",
+            "b": "Preposition",
+            "c": "Noun",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The engine came rushing __down__ the hill very fast.",
+          "multi": false
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Conjunction",
+            "d": "Preposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He brought something __else__ for her.",
+          "multi": false
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Conjunction",
+            "d": "Preposition"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Walk fast __else__ you should miss the bus.",
+          "multi": false
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Verb",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She won’t be happy with __less__.",
+          "multi": false
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Verb",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The soil of her garden is __less__ fertile than mine.",
+          "multi": false
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "at",
+            "b": "in",
+            "c": "by",
+            "d": "with"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He will abide _____ his friend in all circumstances.",
+          "multi": false
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "at",
+            "b": "with",
+            "c": "for",
+            "d": "to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is angry _____ your laughing at his wife.",
+          "multi": false
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "to",
+            "b": "against",
+            "c": "for",
+            "d": "of"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Quinine is an antidote _____ malaria.",
+          "multi": false
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "in",
+            "b": "of",
+            "c": "over",
+            "d": "with"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "His wife was an accomplice _____ the murder.",
+          "multi": false
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "to",
+            "b": "against",
+            "c": "with",
+            "d": "for"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He has a great antipathy _____ wine.",
+          "multi": false
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "for",
+            "b": "about",
+            "c": "of",
+            "d": "with"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She takes full care _____ her clothes and make-up.",
+          "multi": false
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "into",
+            "b": "at",
+            "c": "by",
+            "d": "upon"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "After marriage I enter _____ a new way of life.",
+          "multi": false
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "for",
+            "b": "at",
+            "c": "over",
+            "d": "about"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She grieved _____ my unfortunate loss.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“grieve” may take “for”, “at”, “over” or “about”: “grieved for the loss” (mourned it), “grieved at the loss” (was distressed by it), “grieved over the loss” (lamented it) and “grieved about the loss” are all grammatical and natural. The printed stem supplies no context that selects one sense.",
+          "reviewNote": "Held unscored: the four printed prepositions (a) for, (b) at, (c) over, (d) about are all grammatically acceptable with “grieve” and the object “my unfortunate loss”, each with a slightly different shade of meaning. No unique answer can be confirmed from the print."
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "with",
+            "b": "from",
+            "c": "to",
+            "d": "at"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was greatly moved _____ the sight of her dead body.",
+          "multi": false
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11-20): Fill in the blanks with the appropriate prepositions.",
+          "opts": {
+            "a": "from",
+            "b": "with",
+            "c": "over",
+            "d": "by"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I parted _____ my wife in the park.",
+          "multi": false
+        },
+        "21": {
+          "n": 21,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "There are __no__ pictures in this book.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“No pictures” allows either classification: “no” is listed as an adjective of quantity (a zero amount) and also as an adjective of number (how many — none) in standard grammars, since “pictures” is countable. The printed item gives no cue that fixes the intended class.",
+          "reviewNote": "Held unscored: “no” is treated as an adjective of quantity by some authorities and as an adjective of number by others, so the single printed class is not determinable from the page alone."
+        },
+        "22": {
+          "n": 22,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Demonstrative Adjective",
+            "b": "Interrogative Adjective",
+            "c": "Adjective of quality",
+            "d": "Adjective of number"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__Which__ way shall we go?",
+          "multi": false
+        },
+        "23": {
+          "n": 23,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The __foolish old__ crow tried to sing.",
+          "multi": false
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He has __little__ intelligence.",
+          "multi": false
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__Each__ boy must take his turn.",
+          "multi": false
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A small leak may sink a __great__ ship.",
+          "multi": false
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__These__ mangoes are sour.",
+          "multi": false
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The __whole__ sum was expended.",
+          "multi": false
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "There are __several__ mistakes in your exercise.",
+          "multi": false
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives.",
+          "opts": {
+            "a": "Adjective of quality",
+            "b": "Adjective of quantity",
+            "c": "Adjective of number",
+            "d": "Demonstrative Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Don’t be in __such__ a hurry.",
+          "multi": false
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "had to",
+            "b": "can",
+            "c": "could",
+            "d": "would"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "When he was young, he _____ swim very well.",
+          "multi": false
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "should",
+            "b": "would",
+            "c": "can",
+            "d": "might"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The company _____ go bankrupt if they don’t find a lot of money quickly.",
+          "multi": false
+        },
+        "33": {
+          "n": 33,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "may",
+            "b": "cannot",
+            "c": "could",
+            "d": "must"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She _____ be more than thirsty, she looks so young.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "The printed stem reads “She _____ be more than thirsty, she looks so young,” which is incoherent: the second clause (“she looks so young”) is about age, not thirst. The likely intended word is “thirty” (age), giving “She cannot be more than thirty,” but the print says “thirsty” and no source evidence supports correcting it.",
+          "reviewNote": "Held unscored: printed defect. The stem as printed (“more than thirsty, she looks so young”) cannot be sensibly completed by any of the printed modals ((a) may, (b) cannot, (c) could, (d) must). Correcting “thirsty” to “thirty” would supply text the source does not contain."
+        },
+        "34": {
+          "n": 34,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "should",
+            "b": "would",
+            "c": "could",
+            "d": "will"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She look beautiful, she _____ be a model.",
+          "multi": false
+        },
+        "35": {
+          "n": 35,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "can",
+            "b": "may",
+            "c": "could",
+            "d": "must"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How _____ I contact you?",
+          "multi": false
+        },
+        "36": {
+          "n": 36,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "can",
+            "b": "may",
+            "c": "could",
+            "d": "should"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "You _____ write her a letter.",
+          "multi": false
+        },
+        "37": {
+          "n": 37,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "would",
+            "b": "must",
+            "c": "could",
+            "d": "should"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "_____ I have more cheese on my sandwich?",
+          "multi": false
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "may",
+            "b": "must",
+            "c": "could",
+            "d": "can"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The passengers _____ wear their seat belts at all times.",
+          "multi": false
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "can",
+            "b": "would",
+            "c": "might",
+            "d": "will"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We _____ go to the concert if the rain stops.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“We can go to the concert if the rain stops” (possibility/ability), “We will go …” (future decision) and “We might go …” (uncertain possibility) are all natural first-conditional sentences with the printed present-tense if-clause. The item gives no context selecting among (a) can, (c) might and (d) will.",
+          "reviewNote": "Held unscored: three printed options — (a) can, (c) might and (d) will — all complete “We ___ go to the concert if the rain stops” grammatically and naturally, with no contextual cue to choose one."
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 31-40): Choose the correct modal to fill in the blanks.",
+          "opts": {
+            "a": "would",
+            "b": "could",
+            "c": "should",
+            "d": "may"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I _____ like to buy the same television for my house.",
+          "multi": false
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "Listen carefully and take notes.",
+          "multi": false
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "I have seen the place.",
+          "multi": false
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "He tried hard but he did not succeed.",
+          "multi": false
+        },
+        "44": {
+          "n": 44,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "He fled where the police could not trace him.",
+          "multi": false
+        },
+        "45": {
+          "n": 45,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "Pakistan is not so powerful as India.",
+          "multi": false
+        },
+        "46": {
+          "n": 46,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ram is intelligent.",
+          "multi": false
+        },
+        "47": {
+          "n": 47,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "Get in or you may fall ill.",
+          "multi": false
+        },
+        "48": {
+          "n": 48,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "Tell me the time when you went there on Sunday.",
+          "multi": false
+        },
+        "49": {
+          "n": 49,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "You may have some coffee.",
+          "multi": false
+        },
+        "50": {
+          "n": 50,
+          "page": 4,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41-50): Analyze the sentences and choose the correct option.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Compound sentence",
+            "c": "Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0
+          },
+          "ambiguous": [],
+          "q": "He had stolen my bag.",
+          "multi": false
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He speaks too fast __to be understood__.",
+          "multi": false
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I do not understand __how to solve this problem__.",
+          "multi": false
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Do not talk __like that__.",
+          "multi": false
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is a man __of means__.",
+          "multi": false
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Birds __of a feather__ flock together.",
+          "multi": false
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__How to find the way to the ruins__ is the question.",
+          "multi": false
+        },
+        "57": {
+          "n": 57,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He won the prize __by means of trickery__.",
+          "multi": false
+        },
+        "58": {
+          "n": 58,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I enjoy __walking in the fields__.",
+          "multi": false
+        },
+        "59": {
+          "n": 59,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I have found the key __to his secret__.",
+          "multi": false
+        },
+        "60": {
+          "n": 60,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51-60): Identify the kind of phrase from the given options.",
+          "opts": {
+            "a": "Noun phrase",
+            "b": "Adjective phrase",
+            "c": "Adverb phrase",
+            "d": "None of the above"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He persevered __amidst many difficulties__.",
+          "multi": false
+        },
+        "61": {
+          "n": 61,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Comparative",
+            "b": "Negative",
+            "c": "Affirmative",
+            "d": "Assertive"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It is no use crying over spilt milk.",
+          "multi": false
+        },
+        "62": {
+          "n": 62,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Comparative",
+            "b": "Affirmative",
+            "c": "Superlative",
+            "d": "Negative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Only a girl can talk like this.",
+          "multi": false
+        },
+        "63": {
+          "n": 63,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Superlative",
+            "b": "Comparative",
+            "c": "Assertive",
+            "d": "Positive"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "No other building in our town is so beautiful as this.",
+          "multi": false
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Negative",
+            "c": "Superlative",
+            "d": "Comparative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It never rains but pours.",
+          "multi": false
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Negative",
+            "b": "Superlative",
+            "c": "Affirmative",
+            "d": "Comparative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "She is an intelligent girl.",
+          "multi": false
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Negative",
+            "b": "Affirmative",
+            "c": "Superlative",
+            "d": "Comparative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is not an honest person.",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Superlative",
+            "b": "Comparative",
+            "c": "Negative",
+            "d": "Assertive"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mumbai is one of the most beautiful cities in India.",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Superlative",
+            "b": "Comparative",
+            "c": "Negative",
+            "d": "Assertive"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He is stronger than any other man in the village.",
+          "multi": false
+        },
+        "69": {
+          "n": 69,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Comparative",
+            "b": "Assertive",
+            "c": "Affirmative",
+            "d": "Negative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A true man is always right.",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer.",
+          "opts": {
+            "a": "Superlative",
+            "b": "Comparative",
+            "c": "Assertive",
+            "d": "Affirmative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Everest is the highest mountain in the world.",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if necessary.",
+          "opts": {
+            "a": "if he will have felicitated",
+            "b": "unless he was felicitated",
+            "c": "if he is felicitated",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He will be greatly surprised __if he was felicitated__ by his staff members.",
+          "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "Know that why did the apple fall",
+            "b": "Know why the apple fell",
+            "c": "Know that why the apple fell",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Newton wanted to __know why did the apple fall__ to the ground.",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "the inordinate delaying",
+            "b": "the inordinate delay",
+            "c": "the inordinately delaying",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was extremely unhappy because of __the inordinately delay__.",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "There is no more accommodation",
+            "b": "There is no more space",
+            "c": "There is no more seat",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "__There is no more room__ for you in this compartment.",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "student pay their",
+            "b": "students pays their",
+            "c": "students pays his",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Each of our __students pay their__ tuition fee at the beginning of the month.",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 6,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "ought not to have done",
+            "b": "ought not done",
+            "c": "ought not has done",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I told him clearly that he __hadn’t ought to do__ that to me.",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "that he bought yesterday",
+            "b": "that he had bought yesterday",
+            "c": "that which he had bought yesterday",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I took the cycle __which he has bought yesterday__.",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "like Jaipur’s",
+            "b": "as Jaipur’s",
+            "c": "as Jaipur",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The climate of Delhi is somewhat __like Jaipur__.",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "beg you leave",
+            "b": "beg of your leave",
+            "c": "beg off your leave",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Now I must __beg leave of you__.",
+          "multi": false
+        },
+        "80": {
+          "n": 80,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71-80): Substitute the underlined phrases to improve the sentences if",
+          "opts": {
+            "a": "among themselves",
+            "b": "amongst themselves",
+            "c": "with themselves",
+            "d": "No improvement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The two thieves distributed the loot __between themselves__.",
+          "multi": false
+        },
+        "81": {
+          "n": 81,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Store",
+            "b": "Stall",
+            "c": "Boutique",
+            "d": "Couture"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A small shop that sells fashionable clothes, cosmetics, etc.",
+          "multi": false
+        },
+        "82": {
+          "n": 82,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "room",
+            "b": "district",
+            "c": "country",
+            "d": "bed"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The order to stay in one’s own bailiwick means that a person should remain in his own-",
+          "multi": false
+        },
+        "83": {
+          "n": 83,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Teetotaler",
+            "b": "Stoic",
+            "c": "Purist",
+            "d": "Misogynist"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "One who does not take alcoholic drinks.",
+          "multi": false
+        },
+        "84": {
+          "n": 84,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Syllogism",
+            "b": "Phylology",
+            "c": "Calligraphy",
+            "d": "Plagiarism"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Literary theft.",
+          "multi": false
+        },
+        "85": {
+          "n": 85,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Mesomorph",
+            "b": "Misogamist",
+            "c": "Misologist",
+            "d": "Misogynist"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "One who hates learning.",
+          "multi": false
+        },
+        "86": {
+          "n": 86,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "bombastic",
+            "b": "untruthful",
+            "c": "austere",
+            "d": "vituperative"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Because the orator’s speech was high flown and pretentious, the reporters termed it –",
+          "multi": false
+        },
+        "87": {
+          "n": 87,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Pedagogy",
+            "b": "Pedantic",
+            "c": "Pathology",
+            "d": "Pangram"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A style in which the author displays his knowledge.",
+          "multi": false
+        },
+        "88": {
+          "n": 88,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Maxim",
+            "b": "Malins",
+            "c": "Manuscript",
+            "d": "Pangram"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "An established principle.",
+          "multi": false
+        },
+        "89": {
+          "n": 89,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Idolatry",
+            "b": "Effeminate",
+            "c": "Pacifist",
+            "d": "Idiosyncrasy"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Peculiar temper of an individual.",
+          "multi": false
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences.",
+          "opts": {
+            "a": "Hydrophobia",
+            "b": "Amnesia",
+            "c": "Kleptomania",
+            "d": "Insomnia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "An abnormal desire to steal.",
+          "multi": false
+        },
+        "91": {
+          "n": 91,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "Acute",
+            "b": "Fleeting",
+            "c": "Irregular",
+            "d": "Temporary"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The antonym of CHRONIC is _____ .",
+          "multi": false
+        },
+        "92": {
+          "n": 92,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "cloth",
+            "b": "size",
+            "c": "wool",
+            "d": "height"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Cut your coat according to your _____.",
+          "multi": false
+        },
+        "93": {
+          "n": 93,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "doe",
+            "b": "sow",
+            "c": "buck",
+            "d": "mare"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A female pig is called a _____.",
+          "multi": false
+        },
+        "94": {
+          "n": 94,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "thanks to God",
+            "b": "with God’s favour",
+            "c": "God grant",
+            "d": "by the grace of God"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The Latin words ‘Dei gratia’ means _____.",
+          "multi": false
+        },
+        "95": {
+          "n": 95,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "cluster",
+            "b": "gallery",
+            "c": "chain",
+            "d": "group"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A _____ of mountains.",
+          "multi": false
+        },
+        "96": {
+          "n": 96,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "hue",
+            "b": "color",
+            "c": "paint",
+            "d": "shade"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Black will take no other _____.",
+          "multi": false
+        },
+        "97": {
+          "n": 97,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "Review",
+            "b": "Begin",
+            "c": "Propel",
+            "d": "Push"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The synonym of LAUNCH is _____.",
+          "multi": false
+        },
+        "98": {
+          "n": 98,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "Science",
+            "b": "Symbolism",
+            "c": "Alchemy",
+            "d": "Geology"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Astronomy is related to Astrology as Chemistry is related to _____.",
+          "multi": false
+        },
+        "99": {
+          "n": 99,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "smooth",
+            "b": "gentle",
+            "c": "merry",
+            "d": "graceful"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "As _____as a swan.",
+          "multi": false
+        },
+        "100": {
+          "n": 100,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option.",
+          "opts": {
+            "a": "filly",
+            "b": "colt",
+            "c": "foal",
+            "d": "yearling"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A young female horse is called a _____.",
+          "multi": false
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "“better” is a transitive verb here meaning “improve” (let us improve our financial position); it takes the object “our financial position”.",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "“better” modifies the verb “working” (how are you working?), so it is an adverb.",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "With the definite article “the”, “cut” names the way the hair is cut; it is the object of “like”, so it is a noun.",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "The sentence opens with the base form “Cut” as an imperative giving a command about “the paper” — a verb.",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "“down” stands before the noun “train” and describes which train (a down/departing train), so it is an adjective.",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "“down” links the verb “rushing” to the noun phrase “the hill”, showing direction, so it is a preposition.",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "“else” post-modifies the indefinite pronoun “something” with the sense “other”, so it is an adjective (contrast Q8).",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "“else” here means “otherwise” and joins the two clauses “Walk fast” and “you should miss the bus”, so it is a conjunction.",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "“less” is the object of the preposition “with” and names an amount (a smaller quantity), so it is a noun.",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "“less” modifies the adjective “fertile”, showing degree, so it is an adverb.",
+          "answerConfidence": "high"
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "“abide by” is the fixed collocation meaning to keep to or obey (a rule, promise or person).",
+          "answerConfidence": "high"
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "One is “angry at” an action or thing (“your laughing”); “angry with” is used of a person.",
+          "answerConfidence": "high"
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "“antidote to” is the standard collocation (a remedy that counteracts a poison or disease). “antidote against/for” also occur in usage, hence medium confidence, but “to” is the preferred exam answer.",
+          "answerConfidence": "medium"
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "One is an “accomplice in” a crime; among the printed choices only “in” forms the accepted phrase “accomplice in the murder”.“of/over/with” do not fit.",
+          "answerConfidence": "high"
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "“antipathy to” is the standard collocation (a settled dislike of something); “antipathy against” is a variant, so “to” is the preferred answer.",
+          "answerConfidence": "medium"
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "“take care of” is the fixed phrase (to look after something).",
+          "answerConfidence": "high"
+        },
+        "17": {
+          "answerIndex": 0,
+          "explanation": "“enter into” is used of entering a state, agreement or way of life: “enter into a new way of life”.",
+          "answerConfidence": "high"
+        },
+        "19": {
+          "answerIndex": 3,
+          "explanation": "One is “moved at/by something” when emotionally affected by it: “moved at the sight of her dead body”. “to” would introduce an action (moved to tears), and “with/from” do not fit.",
+          "answerConfidence": "high"
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "One “parts from” a person (separates from someone); “part with” is used of giving up a possession.",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "“Which” asks a question and qualifies the noun “way”, so it is an interrogative adjective.",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "“foolish old” describes the quality of the noun “crow” — adjectives of quality.",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 1,
+          "explanation": "“little” states how much (a small amount of) intelligence, an uncountable noun, so it is an adjective of quantity.",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "“Each” points out every individual member by number (a distributive numeral), so it is an adjective of number.",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "“great” describes the quality/size of the ship — an adjective of quality.",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 3,
+          "explanation": "“These” points out which mangoes are meant, so it is a demonstrative adjective.",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "“whole” states the entire amount of the uncountable “sum”, so it is an adjective of quantity.",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "“several” gives an indefinite number of the countable “mistakes”, so it is an adjective of number.",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 3,
+          "explanation": "“such” points out the kind/degree of the noun “hurry”; in this demonstrative use it is a demonstrative adjective.",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "Past ability is expressed by “could”: “When he was young, he could swim very well.” “can” is present tense, “would” would mark past habit, and “had to” means compulsion.",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "The sentence states a possible future result of the condition, so “might” (possibility) fits best: “The company might go bankrupt if they don’t find money quickly.” “should” is obligation, “would” needs a hypothetical condition, and “can” is ability.",
+          "answerConfidence": "medium"
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "“She could be a model” expresses present/future possibility suggested by her looks. “should” would be expectation/duty, “would” is conditional/habitual and “will” is certainty.",
+          "answerConfidence": "medium"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "“How can I contact you?” is the usual way of asking the means of contact; “may” is a formal variant, hence medium confidence.",
+          "answerConfidence": "medium"
+        },
+        "36": {
+          "answerIndex": 3,
+          "explanation": "The sentence offers advice, which “should” expresses: “You should write her a letter.” “can/may/could” are possible in other senses, so medium confidence.",
+          "answerConfidence": "medium"
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "“Could I have more cheese on my sandwich?” is the polite request form. “would” and “should” do not make requests here and “must” is obligation.",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "“must” expresses obligation/necessity — passengers are required to wear their seat belts.",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "“would like to” is the polite expression of a wish: “I would like to buy the same television.”",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "An imperative with a compound predicate (“Listen” and “take notes”) still has only one independent clause, hence a simple sentence.",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "One subject and one predicate (a single clause) — simple sentence.",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Two independent clauses — “He tried hard” and “he did not succeed” — joined by the coordinating conjunction “but” — compound sentence.",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "The subordinate clause “where the police could not trace him” depends on the main clause, so the sentence is complex.",
+          "answerConfidence": "high"
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "A single clause expressing a comparison (“Pakistan is not so powerful as India”) — simple sentence.",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "One independent clause — simple sentence.",
+          "answerConfidence": "high"
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "Two independent clauses — “Get in” and “you may fall ill” — joined by “or” — compound sentence.",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "The subordinate noun clause “when you went there on Sunday” qualifies “the time”, so the sentence is complex.",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "A single independent clause — simple sentence.",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "A single independent clause — simple sentence.",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "“to be understood” is an infinitive phrase completing the “too…to” construction and telling the result/manner of “speaks”, so it is adverbial. (The full “too fast to be understood” also functions adverbially.)",
+          "answerConfidence": "medium"
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "“how to solve this problem” is the object of the verb “understand”, so it is a noun phrase.",
+          "answerConfidence": "high"
+        },
+        "53": {
+          "answerIndex": 2,
+          "explanation": "“like that” modifies the verb “talk” and tells the manner, so it is an adverb phrase.",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "“of means” qualifies the noun “man” (a man of means = a wealthy man), so it is an adjective phrase.",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "“of a feather” qualifies the noun “birds”, so it is an adjective phrase.",
+          "answerConfidence": "high"
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "The infinitive phrase “How to find the way to the ruins” is the subject of the sentence, so it is a noun phrase.",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "“by means of trickery” tells how the prize was won, modifying the verb — an adverb phrase.",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "The gerund phrase “walking in the fields” is the object of “enjoy”, so it is a noun phrase.",
+          "answerConfidence": "high"
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "“to his secret” qualifies the noun “key” (the key that opens his secret), so it is an adjective phrase.",
+          "answerConfidence": "medium"
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "“amidst many difficulties” modifies the verb “persevered”, so it is an adverb phrase.",
+          "answerConfidence": "high"
+        },
+        "61": {
+          "answerIndex": 1,
+          "explanation": "The sentence contains the negative “no” (“no use”), so it is negative.",
+          "answerConfidence": "high"
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "The sentence makes a positive statement with no negation, so it is affirmative.",
+          "answerConfidence": "high"
+        },
+        "63": {
+          "answerIndex": 3,
+          "explanation": "The comparison uses the positive-degree form “so beautiful as”; the frame “No other … is so … as” is the positive-degree equivalent of the superlative, and the adjective itself is in the positive degree, so (d) Positive.",
+          "answerConfidence": "medium"
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "The sentence is marked by the negative adverb “never”, so in form it is negative. (The proverb is affirmative in sense, hence medium confidence.)",
+          "answerConfidence": "medium"
+        },
+        "65": {
+          "answerIndex": 2,
+          "explanation": "A plain positive statement with no negation — affirmative.",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "The verb is negated by “not” — negative.",
+          "answerConfidence": "high"
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "“one of the most beautiful cities” uses the superlative degree of “beautiful” — superlative.",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "The adjective “stronger than any other man” is in the comparative degree; although it means the same as a superlative, its form is comparative, so (b) Comparative.",
+          "answerConfidence": "medium"
+        },
+        "69": {
+          "answerIndex": 2,
+          "explanation": "A positive declarative statement with no negation — affirmative, the label this paper uses for plain positive sentences (cf. Q62, Q65). “Assertive” is the wider declarative class, hence medium confidence.",
+          "answerConfidence": "medium"
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "“the highest mountain” is the superlative degree of “high” — superlative.",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "In a real future condition the if-clause takes the present simple, not the past: “He will be greatly surprised if he is felicitated by his staff members.”",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "An embedded (indirect) question drops the auxiliary inversion and uses normal order with backshifted tense: “know why the apple fell”.",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "The noun “delay” needs the adjective “inordinate”, not the adverb “inordinately”: “because of the inordinate delay”.",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "“no more room” (= no more space) is already correct and idiomatic, so no substitution improves it — (d) No improvement.",
+          "answerConfidence": "medium"
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "The subject is the singular “Each”, so the verb must be “pays”, and the traditional singular pronoun is “his”: “Each of our students pays his tuition fee…”",
+          "answerConfidence": "medium"
+        },
+        "76": {
+          "answerIndex": 0,
+          "explanation": "“ought” forms its negative as “ought not”, and past unfulfilled obligation is expressed by “ought not to have done”.",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "“yesterday” is past and the buying preceded the taking, so the past perfect is required: “the cycle that he had bought yesterday”.",
+          "answerConfidence": "high"
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "The climate of Delhi must be compared with the climate of Jaipur, so the possessive “Jaipur’s” is required: “…somewhat like Jaipur’s.”",
+          "answerConfidence": "high"
+        },
+        "79": {
+          "answerIndex": 3,
+          "explanation": "“beg leave of you” is correct idiomatic English meaning “ask your permission to depart”, so no improvement is needed.",
+          "answerConfidence": "medium"
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "“between” is used for exactly two people; the sentence names two thieves, so “between themselves” is correct — no improvement.",
+          "answerConfidence": "high"
+        },
+        "81": {
+          "answerIndex": 2,
+          "explanation": "A boutique is a small shop that sells fashionable clothes, cosmetics and accessories.",
+          "answerConfidence": "high"
+        },
+        "82": {
+          "answerIndex": 1,
+          "explanation": "“bailiwick” means one’s own area of jurisdiction or district; the sentence asks a person to stay in his own district.",
+          "answerConfidence": "high"
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "A teetotaler abstains from all alcoholic drinks; a stoic endures without complaint, a purist insists on purity and a misogynist hates women.",
+          "answerConfidence": "high"
+        },
+        "84": {
+          "answerIndex": 3,
+          "explanation": "Plagiarism is literary theft — presenting another’s words or ideas as one’s own.",
+          "answerConfidence": "high"
+        },
+        "85": {
+          "answerIndex": 2,
+          "explanation": "A misologist hates learning/reason (Greek misein “to hate” + logos “reason, learning”); a misogamist hates marriage.",
+          "answerConfidence": "high"
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "High-flown, pretentious speech is bombastic; austere means severe/simple and vituperative means abusive.",
+          "answerConfidence": "high"
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "A pedantic style ostentatiously displays the author’s learning (pedagogy is the art of teaching, pathology the study of disease).",
+          "answerConfidence": "high"
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "A maxim is a short pithy statement of an established principle.",
+          "answerConfidence": "high"
+        },
+        "89": {
+          "answerIndex": 3,
+          "explanation": "An idiosyncrasy is a person’s peculiar habit or temperament.",
+          "answerConfidence": "high"
+        },
+        "90": {
+          "answerIndex": 2,
+          "explanation": "Kleptomania is an abnormal compulsion to steal; hydrophobia is fear of water and insomnia is sleeplessness.",
+          "answerConfidence": "high"
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "“Chronic” (long-lasting) is opposed to “acute” (short and severe) — the standard antonym pair; “temporary” is a looser opposite, hence medium confidence.",
+          "answerConfidence": "medium"
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "The proverb is “Cut your coat according to your cloth.”",
+          "answerConfidence": "high"
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "A female pig is a sow; a doe is a female deer/rabbit, a buck a male animal and a mare a female horse.",
+          "answerConfidence": "high"
+        },
+        "94": {
+          "answerIndex": 3,
+          "explanation": "“Dei gratia” is Latin for “by the grace of God”.",
+          "answerConfidence": "high"
+        },
+        "95": {
+          "answerIndex": 2,
+          "explanation": "The collective noun is “a chain of mountains” (also a range).",
+          "answerConfidence": "high"
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "The proverb is “Black will take no other hue.”",
+          "answerConfidence": "high"
+        },
+        "97": {
+          "answerIndex": 1,
+          "explanation": "Taken in the sense of starting something, “launch” means “begin”; “propel/push” apply only to physically launching a projectile, so “Begin” is the intended synonym.",
+          "answerConfidence": "medium"
+        },
+        "98": {
+          "answerIndex": 2,
+          "explanation": "Astrology is the older pseudo-form related to Astronomy, just as Alchemy is the forerunner of Chemistry.",
+          "answerConfidence": "high"
+        },
+        "99": {
+          "answerIndex": 3,
+          "explanation": "The simile is “as graceful as a swan”.",
+          "answerConfidence": "high"
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "A filly is a young female horse; a colt is a young male, a foal a young horse of either sex and a yearling is a horse aged one year.",
+          "answerConfidence": "high"
+        }
+      }
     }
   }
 }

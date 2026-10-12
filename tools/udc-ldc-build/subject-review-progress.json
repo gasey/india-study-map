@@ -7,12 +7,12 @@
     "records": 26782,
     "mcq": 25761,
     "writtenRecords": 1021,
-    "ready": 13229,
+    "ready": 13325,
     "readyOfficial": 8315,
-    "pendingMcq": 12190,
-    "heldReviewed": 342,
-    "workedGuidesReviewed": 5920,
-    "pendingMcqGuides": 19841,
+    "pendingMcq": 12090,
+    "heldReviewed": 346,
+    "workedGuidesReviewed": 6020,
+    "pendingMcqGuides": 19741,
     "keyOnlyFeedback": 6958,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -23,12 +23,12 @@
       "records": 10921,
       "mcq": 9900,
       "writtenRecords": 1021,
-      "ready": 2456,
+      "ready": 2552,
       "readyOfficial": 1682,
-      "pendingMcq": 7396,
-      "heldReviewed": 48,
-      "workedGuidesReviewed": 1325,
-      "pendingMcqGuides": 8575,
+      "pendingMcq": 7296,
+      "heldReviewed": 52,
+      "workedGuidesReviewed": 1425,
+      "pendingMcqGuides": 8475,
       "keyOnlyFeedback": 945,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -20248,12 +20248,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 96,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -20262,18 +20262,43 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 96,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q18",
+          "questionNumber": "18",
+          "section": "english",
+          "reason": "Held unscored: the four printed prepositions (a) for, (b) at, (c) over, (d) about are all grammatically acceptable with “grieve” and the object “my unfortunate loss”, each with a slightly different shade of meaning. No unique answer can be confirmed from the print."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q21",
+          "questionNumber": "21",
+          "section": "english",
+          "reason": "Held unscored: “no” is treated as an adjective of quantity by some authorities and as an adjective of number by others, so the single printed class is not determinable from the page alone."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q33",
+          "questionNumber": "33",
+          "section": "english",
+          "reason": "Held unscored: printed defect. The stem as printed (“more than thirsty, she looks so young”) cannot be sensibly completed by any of the printed modals ((a) may, (b) cannot, (c) could, (d) must). Correcting “thirsty” to “thirty” would supply text the source does not contain."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q39",
+          "questionNumber": "39",
+          "section": "english",
+          "reason": "Held unscored: three printed options — (a) can, (c) might and (d) will — all complete “We ___ go to the concert if the rain stops” grammatically and naturally, with no contextual cue to choose one."
+        }
+      ]
     }
   ]
 }

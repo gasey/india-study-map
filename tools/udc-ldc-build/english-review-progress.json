@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2456,
-    "pendingMcq": 7396,
-    "heldReviewed": 48,
+    "ready": 2552,
+    "pendingMcq": 7296,
+    "heldReviewed": 52,
     "pendingWritten": 876
   },
   "papers": [
@@ -6342,20 +6342,41 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/vo-2019-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 96,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q18",
+          "questionNumber": "18",
+          "reason": "Held unscored: the four printed prepositions (a) for, (b) at, (c) over, (d) about are all grammatically acceptable with “grieve” and the object “my unfortunate loss”, each with a slightly different shade of meaning. No unique answer can be confirmed from the print."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q21",
+          "questionNumber": "21",
+          "reason": "Held unscored: “no” is treated as an adjective of quantity by some authorities and as an adjective of number by others, so the single printed class is not determinable from the page alone."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q33",
+          "questionNumber": "33",
+          "reason": "Held unscored: printed defect. The stem as printed (“more than thirsty, she looks so young”) cannot be sensibly completed by any of the printed modals ((a) may, (b) cannot, (c) could, (d) must). Correcting “thirsty” to “thirty” would supply text the source does not contain."
+        },
+        {
+          "id": "mpsc-group-b-vo-2019-english-p2-Q39",
+          "questionNumber": "39",
+          "reason": "Held unscored: three printed options — (a) can, (c) might and (d) will — all complete “We ___ go to the concert if the rain stops” grammatically and naturally, with no contextual cue to choose one."
+        }
+      ]
     }
   ]
 }

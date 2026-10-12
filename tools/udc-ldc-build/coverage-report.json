@@ -10,23 +10,23 @@
  },
  "totals": {
   "papers": 420,
-  "held_mcq": 8438,
-  "tier1_key_scorable": 708,
-  "tier2_solid_importable": 58,
-  "tier2_candidate_needs_verify": 3867,
-  "tier3_needs_derivation": 3805
+  "held_mcq": 8098,
+  "tier1_key_scorable": 631,
+  "tier2_solid_importable": 57,
+  "tier2_candidate_needs_verify": 3789,
+  "tier3_needs_derivation": 3621
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 7436,
-   "disagree": 1225
+   "agree": 7508,
+   "disagree": 1231
   },
   "key": {
    "agree": 65,
    "disagree": 6
   },
   "derived": {
-   "agree": 7,
+   "agree": 8,
    "disagree": 1
   }
  },
@@ -218,8 +218,8 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 3867,
-  "bank_v2:derived": 56,
+  "bank_v2:inferred": 3789,
+  "bank_v2:derived": 55,
   "bank_v2:key": 2
  },
  "papers": [
@@ -391,36 +391,6 @@
   {
    "paper_id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
    "exam": "Computer Operator (Contract) under Mizoram Information Commission Deptt.",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 80,
-   "tier1": 0,
-   "tier2": 80,
-   "tier3": 0,
-   "tier2_bank": 80,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 80
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
-   "exam": "Research Investigator (Archaeology) Contract 2016 under Art & Culture Deptt.",
-   "subject": "General English",
-   "key_status": "on_disk",
-   "key_file": "Final Answer key of Research Investigator under Art & Culture Deptt., 2026..pdf",
-   "held": 80,
-   "tier1": 80,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32",
-   "exam": "Junior Scientific Officer (Chemistry and Finger Print) under Home (Forensic) Department 2016",
    "subject": "General English",
    "key_status": "none",
    "key_file": null,
@@ -1604,6 +1574,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32",
+   "exam": "Junior Scientific Officer (Chemistry and Finger Print) under Home (Forensic) Department 2016",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 8,
+   "tier1": 0,
+   "tier2": 8,
+   "tier3": 0,
+   "tier2_bank": 8,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 8
+  },
+  {
    "paper_id": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
    "exam": "Case Worker-February-2024",
    "subject": "General Studies",
@@ -1707,21 +1692,6 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 7
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
-   "exam": "Informatics Officer under Information Communication Technology Department",
-   "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 100,
-   "tier1": 0,
-   "tier2": 6,
-   "tier3": 94,
-   "tier2_bank": 6,
-   "tier2_solved": 0,
-   "tier2_solid": 1,
-   "tier2_candidate": 5
   },
   {
    "paper_id": "mpsc-group-b-do-mar-2019-gs1",
@@ -2549,6 +2519,21 @@
    "tier2_candidate": 3
   },
   {
+   "paper_id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
+   "exam": "Research Investigator (Archaeology) Contract 2016 under Art & Culture Deptt.",
+   "subject": "General English",
+   "key_status": "on_disk",
+   "key_file": "Final Answer key of Research Investigator under Art & Culture Deptt., 2026..pdf",
+   "held": 3,
+   "tier1": 3,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
    "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
    "subject": "General English",
@@ -2942,21 +2927,6 @@
    "paper_id": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
    "exam": "Geologist Junior under Commerce & Industries Department (November)",
    "subject": "General English Paper-III",
-   "key_status": "none",
-   "key_file": null,
-   "held": 100,
-   "tier1": 0,
-   "tier2": 1,
-   "tier3": 99,
-   "tier2_bank": 1,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 1
-  },
-  {
-   "paper_id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
-   "exam": "Inspector of Taxes-2016 under Taxation Deptt.",
-   "subject": "General English",
    "key_status": "none",
    "key_file": null,
    "held": 100,
@@ -3839,6 +3809,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
+   "exam": "Informatics Officer under Information Communication Technology Department",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 7,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 7,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-mes-pwd-2018-gs",
    "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
    "subject": "General Studies",
@@ -4381,6 +4366,21 @@
   {
    "paper_id": "mpsc-group-b-archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd",
    "exam": "AE (Civil)-2016 (Contract) under Trade & Commerce Deptt.",
+   "subject": "General English",
+   "key_status": "none",
+   "key_file": null,
+   "held": 2,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 2,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
+   "paper_id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
+   "exam": "Inspector of Taxes-2016 under Taxation Deptt.",
    "subject": "General English",
    "key_status": "none",
    "key_file": null,

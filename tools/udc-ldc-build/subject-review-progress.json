@@ -7,12 +7,12 @@
     "records": 26890,
     "mcq": 25869,
     "writtenRecords": 1021,
-    "ready": 17428,
+    "ready": 17768,
     "readyOfficial": 8321,
-    "pendingMcq": 7898,
-    "heldReviewed": 543,
-    "workedGuidesReviewed": 10455,
-    "pendingMcqGuides": 15414,
+    "pendingMcq": 7538,
+    "heldReviewed": 563,
+    "workedGuidesReviewed": 10815,
+    "pendingMcqGuides": 15054,
     "keyOnlyFeedback": 6825,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -23,12 +23,12 @@
       "records": 11003,
       "mcq": 9982,
       "writtenRecords": 1021,
-      "ready": 3858,
+      "ready": 4198,
       "readyOfficial": 1682,
-      "pendingMcq": 5993,
-      "heldReviewed": 131,
-      "workedGuidesReviewed": 2846,
-      "pendingMcqGuides": 7136,
+      "pendingMcq": 5633,
+      "heldReviewed": 151,
+      "workedGuidesReviewed": 3206,
+      "pendingMcqGuides": 6776,
       "keyOnlyFeedback": 909,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -2992,12 +2992,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 98,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -3006,18 +3006,31 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 98,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q15",
+          "questionNumber": "15",
+          "section": "english",
+          "reason": "Two options are printed identically as “has worked”, so the item has duplicate correct choices and no unique answer index."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q20",
+          "questionNumber": "20",
+          "section": "english",
+          "reason": "Both “shall see” and “will see” are acceptable future forms with “I” in this sentence; the item has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-jag-of-mizoram-legal-service-2016-sr-grade-of-mizoram-legal-service-2016-f9937612",
@@ -3164,12 +3177,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 72,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 8,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -3178,18 +3191,67 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 72,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 8,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B28",
+          "questionNumber": "B28",
+          "section": "english",
+          "reason": "The passage says both caffeine and alcohol affect sleep: caffeine keeps people awake, while alcohol makes them sleepy. Both offered options therefore answer how chemicals can control sleep."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B33",
+          "questionNumber": "B33",
+          "section": "english",
+          "reason": "Both I have just finished my homework (option c) and I have finished my homework (option d) are grammatical present-perfect sentences; no context selects one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B34",
+          "questionNumber": "B34",
+          "section": "english",
+          "reason": "Both Mary has already written five letters (option a) and Mary has written five letters (option b) are grammatical and fit the sentence."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B37",
+          "questionNumber": "B37",
+          "section": "english",
+          "reason": "Both I have not been to Canada so far and I have not gone to Canada so far are grammatical; the sentence does not disambiguate them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B41",
+          "questionNumber": "B41",
+          "section": "english",
+          "reason": "Both Did they spend their holidays in Paris? and Did they have their holidays in Paris? are grammatical simple-past questions."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B45",
+          "questionNumber": "B45",
+          "section": "english",
+          "reason": "Both The doctor said that Claire must rest and The doctor said that Claire has to rest can report the quoted obligation; the prompt does not specify a transformation convention that distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B63",
+          "questionNumber": "B63",
+          "section": "english",
+          "reason": "Therefore and thus are both grammatical causal connectors in It is raining heavily. ___ I need an umbrella."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32-B69",
+          "questionNumber": "B69",
+          "section": "english",
+          "reason": "Redundant can mean unnecessary/useless (option b) or repetitious (option c); both fit the phrase redundant detail, so the options do not give a unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-mcs-main-2016-21-general-english-039e02b6",
@@ -3250,12 +3312,12 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 1,
@@ -3264,18 +3326,37 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 77,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 1
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B17",
+          "questionNumber": "B17",
+          "section": "english",
+          "reason": "The phrase “withering injustice” is attached to the account of enslaved people, but the choices “slavery” and “racism” are both defensible descriptions of that injustice. No official key is available to disambiguate."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B27",
+          "questionNumber": "B27",
+          "section": "english",
+          "reason": "Both “democracy” and “racial justice” are plausible opposites of segregation in the passage’s argument. The wording does not identify one uniquely."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32-B31",
+          "questionNumber": "B31",
+          "section": "english",
+          "reason": "The item asks which metaphor is not used, but option (a) (“compares African-Americans to slaves”) is unclear: the passage mentions Negro slaves historically rather than explicitly making that comparison. The other three options are evident metaphors. Hold due to ambiguous wording."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -3723,12 +3804,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 93,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -3737,18 +3818,61 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 93,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 7,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q33",
+          "questionNumber": "33",
+          "section": "english",
+          "reason": "Both “could have passed” and “would have passed” are grammatical counterfactual completions with “if only he had spent…”. The source provides no context that selects possibility versus expected result."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q34",
+          "questionNumber": "34",
+          "section": "english",
+          "reason": "Both “should be here” and “must be here” are plausible in context: the first expresses expectation, the second a strong inference. No key or additional context distinguishes them."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q36",
+          "questionNumber": "36",
+          "section": "english",
+          "reason": "Both “were able to get the work finished” and “managed to get the work finished” express successful completion despite the lack of tools; both options fit the contrast."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q38",
+          "questionNumber": "38",
+          "section": "english",
+          "reason": "“Should be ready by Friday” expresses expectation and “may be ready by Friday” expresses possibility; both are grammatical with the stated condition and the source gives no further cue."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q43",
+          "questionNumber": "43",
+          "section": "english",
+          "reason": "The printed item joins two independent clauses with a comma but no coordinating conjunction, creating a comma splice. It may be intended as compound, but the printed classification is grammatically defective."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q67",
+          "questionNumber": "67",
+          "section": "english",
+          "reason": "The sentence is both positive/affirmative and declarative/assertive, and both labels appear among the options. The categories overlap, so there is no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0-Q69",
+          "questionNumber": "69",
+          "section": "english",
+          "reason": "“We won all the matches” is both affirmative and assertive/declarative; both choices fit the sentence, so no unique answer is available."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-22b342ff",

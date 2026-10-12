@@ -1203,6 +1203,10 @@ def build_additional():
             'feo-2017-english-p2': 120,
             'mhs-grade-v-2017-english-p2': 120,
             'vety-mah-2021-english-p2': 180,
+            'archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0': 120,
+            'archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32': 180,
+            'archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5': 180,
+            'archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32': 180,
         }
         if slug in reviewed_archive_meta and repairs.get(slug, {}).get('derivedAnswers'):
             # Source covers give the time and full marks; the papers contain

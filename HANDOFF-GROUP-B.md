@@ -797,3 +797,14 @@ Current generated bank: 404 papers / 26,890 records (25,869 MCQs), 17,425 practi
 - Station Officer General English: 77 worked answers and three holds.
 
 Current generated bank: 404 papers / 26,890 records (25,869 MCQs), with 17,428 practice-ready and 8,321 official-key-backed. Source review covers 9,314 MCQs; 8,771 remain unreviewed, 543 reviewed items are held, and 729 known MCQs remain missing from extraction. The build report is generated at `tools/udc-ldc-build/build-report.json`.
+
+## 80+ unanswered English papers — 13 October 2026
+
+Source-checked and added 340 worked answers across four large papers:
+
+- Informatics Officer under ICT Department (2020 listing / February 2021 sitting): 93 of 100 MCQs answered; seven held for ambiguity or defective choices. Corrected the printed Q1 underlined target.
+- Research Investigator (Archaeology), Contract 2016: 77 of 80 MCQs answered; three held. The cover conflicts between 80 marks for Section B and two marks per MCQ, so practice scoring uses one mark per item pending authoritative clarification.
+- Inspector of Taxes 2016, General English Paper-II: 98 of 100 answered; two held because both choices are grammatical or the options duplicate.
+- Junior Scientific Officer (Chemistry and Finger Print) 2016: 72 of 80 MCQs answered; eight held for ambiguity or defective choices.
+
+The two 2016 English papers with essays retain their written prompts separately. No MPSC key is available for these sittings; answers are independently worked from the printed scans. The regenerated Group B bank contains 26,890 records from 404 papers, including 17,768 practice-ready items. `npm run build` succeeds; Vite reports the existing large-bundle warning for the main generated data bundle.
